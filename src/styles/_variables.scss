@@ -1,0 +1,27 @@
+$primary: #525b76;
+$secondary: #e5e9ec;
+$success: #40c9a7;
+$info: #00bcf5;
+$warning: #fad961;
+$danger: #e76d83;
+$light: #ffffff;
+$dark: #222222;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+
+$party-colors: (
+  'savannah': #fbd189,
+  'coast': #97c6ed,
+  'rainforest': #b8d8ba,
+);
+
+$theme-colors: map-merge($theme-colors, $party-colors);
