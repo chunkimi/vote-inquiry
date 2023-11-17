@@ -15,4 +15,17 @@
   <button type="button" class="btn btn-savannah">金色曠野同盟</button>
   <button type="button" class="btn btn-coast">蔚藍海岸陣線</button>
   <button type="button" class="btn btn-rainforest">鬱蔥雨林聯盟</button>
+  <footer>
+    <FooterComponent></FooterComponent>
+  </footer>
 </template>
+
+<script>
+import FooterComponent from '@/components/base/FooterComponent.vue'
+
+export default {
+  components: {
+    FooterComponent,
+  },
+}
+</script>
