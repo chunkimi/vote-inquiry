@@ -1,0 +1,1 @@
+<template>this page is PastAnalysisView.</template>
