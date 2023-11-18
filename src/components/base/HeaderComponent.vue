@@ -45,28 +45,10 @@
           id="headerNavbar"
         >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link to="/" class="nav-link" aria-current="page" href="#"
-                >開票即時報</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link to="/analysis" class="nav-link" aria-current="page"
-                >縣市選情版圖</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link
-                to="/past-elections"
-                class="nav-link"
-                aria-current="page"
-                >歷屆選情</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link to="/candidate" class="nav-link" aria-current="page"
-                >歷屆候選公僕名單</router-link
-              >
+            <li v-for="item in menu" :key="item.name" class="nav-item">
+              <router-link :to="item.to" class="nav-link" aria-current="page">
+                {{ item.name }}
+              </router-link>
             </li>
           </ul>
         </div>
@@ -79,7 +61,14 @@
 import { RouterLink } from 'vue-router'
 export default {
   data() {
-    return {}
+    return {
+      menu: [
+        { name: '開票即時報', to: { name: 'Home' } },
+        { name: '縣市選情版圖', to: { name: 'Analysis' } },
+        { name: '歷屆選情', to: { name: 'PastElections' } },
+        { name: '歷屆候選公僕名單', to: { name: 'Candidate' } },
+      ],
+    }
   },
   components: {
     RouterLink,
