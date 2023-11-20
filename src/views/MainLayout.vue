@@ -1,6 +1,8 @@
 <template>
   <HeaderComponentVue></HeaderComponentVue>
-  <RouterView />
+  <main class="container p-3 p-md-4">
+    <RouterView />
+  </main>
   <FooterComponent></FooterComponent>
 </template>
 
