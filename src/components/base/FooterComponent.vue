@@ -1,3 +1,9 @@
+<style>
+.footer__logo {
+  width: 24px;
+  height: 24px;
+}
+</style>
 <template>
   <div class="bg-warning">
     <div class="container">
@@ -12,22 +18,4 @@
     </div>
   </div>
 </template>
-<script>
-import makerLogo from '@/assets/maker/maker.png'
-
-export default {
-  data() {
-    return {
-      img: {
-        makerLogo,
-      },
-    }
-  },
-}
-</script>
-<style>
-.footer__logo {
-  width: 24px;
-  height: 24px;
-}
-</style>
+<script></script>

@@ -56,21 +56,12 @@
   </header>
 </template>
 
-<script>
+<script setup>
 import { RouterLink } from 'vue-router'
-export default {
-  data() {
-    return {
-      menu: [
-        { name: '開票即時報', to: { name: 'Home' } },
-        { name: '縣市選情版圖', to: { name: 'Analysis' } },
-        { name: '歷屆選情', to: { name: 'PastElections' } },
-        { name: '歷屆候選公僕名單', to: { name: 'Candidate' } },
-      ],
-    }
-  },
-  components: {
-    RouterLink,
-  },
-}
+const menu = [
+  { name: '開票即時報', to: { name: 'Home' } },
+  { name: '縣市選情版圖', to: { name: 'Analysis' } },
+  { name: '歷屆選情', to: { name: 'PastElections' } },
+  { name: '歷屆候選公僕名單', to: { name: 'Candidate' } },
+]
 </script>
