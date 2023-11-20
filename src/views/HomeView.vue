@@ -1,7 +1,5 @@
 <template>
-  <header>
-    <h1>2020臺灣總統大選情報站</h1>
-  </header>
+  <h2>This page is Home (index)</h2>
   <i class="bi bi-0-circle"></i>
   <button type="button" class="btn btn-primary">Primary</button>
   <button type="button" class="btn btn-secondary">Secondary</button>
@@ -16,3 +14,6 @@
   <button type="button" class="btn btn-coast">蔚藍海岸陣線</button>
   <button type="button" class="btn btn-rainforest">鬱蔥雨林聯盟</button>
 </template>
+
+<script>
+</script>
