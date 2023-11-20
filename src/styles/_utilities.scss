@@ -1,0 +1,45 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    'font-size':
+      map-merge(
+        map-get($utilities, 'font-size'),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'font-size':
+      map-merge(
+        map-get($utilities, 'font-size'),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, 'font-size'), 'values'),
+              (
+                7: 0.75rem,
+              )
+            ),
+        )
+      ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'font-weight':
+      map-merge(
+        map-get($utilities, 'font-weight'),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
