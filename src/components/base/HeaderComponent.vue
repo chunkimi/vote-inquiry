@@ -22,7 +22,7 @@
       <h2 class="h2 fw-bold mb-2">
         <div>2020<br class="d-md-none" />臺灣總統大選情報站</div>
       </h2>
-      <p class="header__subTitle">
+      <p class="fs-7 fs-md-6 fw-normal fw-md-bold">
         2020 Taiwan Presidential Election Election Hub
       </p>
     </div>
