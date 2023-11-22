@@ -27,7 +27,7 @@ import { ref, computed } from 'vue'
 import { useFirebaseStorage, useStorageFile } from 'vuefire'
 import { ref as storageRef } from 'firebase/storage'
 import { useFetch } from '@vueuse/core'
-import VoteMap from '@/components/VoteMap.vue'
+import VoteMap from '@/components/common/VoteMap.vue'
 
 const storage = useFirebaseStorage()
 const candidateFileRef = storageRef(storage, 'candidate/candidate.json')
