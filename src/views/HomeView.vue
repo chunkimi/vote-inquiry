@@ -1,5 +1,6 @@
 <template>
   <h2>This page is Home (index)</h2>
+  <SearchBar v-model:city="city" v-model:district="district" year="2012" />
   <i class="bi bi-0-circle"></i>
   <div class="icon-vote-stamp"></div>
   <button type="button" class="btn btn-primary">Primary</button>
@@ -27,7 +28,8 @@ import { ref, computed } from 'vue'
 import { useFirebaseStorage, useStorageFile } from 'vuefire'
 import { ref as storageRef } from 'firebase/storage'
 import { useFetch } from '@vueuse/core'
-import VoteMap from '@/components/VoteMap.vue'
+import VoteMap from '@/components/common/VoteMap.vue'
+import SearchBar from '@/components/common/SearchBar.vue'
 
 const storage = useFirebaseStorage()
 const candidateFileRef = storageRef(storage, 'candidate/candidate.json')
@@ -43,4 +45,7 @@ const voteMapData = ref({
   A: '#fbd189',
   F: '#fbd189',
 })
+
+const city = ref('')
+const district = ref('')
 </script>
