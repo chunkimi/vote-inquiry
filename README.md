@@ -31,8 +31,19 @@ v18.18.2
 - [sass](https://sass-lang.com/)
 - [d3.js](https://d3js.org/)
 - [chart.js](https://www.chartjs.org/)
+- [vueuse](https://vueuse.org/)
+- [firebase](https://firebase.google.com/)
+- [vuefire](https://vuefire.vuejs.org/)
 
 ## 其他工具
 
-- eslint
-- prettier
+- [eslint](https://eslint.org/)
+- [prettier](https://prettier.io/)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+- [husky](https://typicode.github.io/husky/)
+
+## Firebase 相關
+
+### Firebase Storage
+
+- CORS setting: https://firebase.google.com/docs/storage/web/download-files#cors_configuration
