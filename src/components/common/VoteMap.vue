@@ -5,25 +5,33 @@
 </template>
 
 <script setup>
-import { watch, nextTick } from 'vue'
+import { computed, watch, nextTick } from 'vue'
 import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
 import taiwanTopojson from '@/data/tw-topo.json'
+import cityIdMap from '@/data/city_id_map.json'
+import partyColorMap from '@/data/party_color_map.json'
 
 const props = defineProps({
   data: {
-    type: Object, // { [COUNTYID]: #hex }, e.g. { A: '#fbd189', F: '#fbd189' }
+    type: Array, // [{ city, party }], e.g. { city: '臺北市', party: '金色曠野同盟', count: 213 }
     required: true,
   },
 })
 
-watch(
-  () => props.data,
-  () => {
-    drawMap()
-  },
-  { immediate: true },
-)
+const voteMapData = computed(() => {
+  return (props.data || []).reduce((acc, { city, party, count }) => {
+    acc[cityIdMap[city]] = {
+      city,
+      party,
+      color: partyColorMap[party],
+      count,
+    }
+    return acc
+  }, {})
+})
+
+watch(voteMapData, drawMap, { immediate: true })
 
 async function drawMap() {
   await nextTick()
@@ -47,8 +55,11 @@ async function drawMap() {
     .enter()
     .append('path')
     .attr('d', path)
-    .attr('fill', (d) => props.data[d.properties.COUNTYID])
-    .attr('stroke', 'black')
+    .attr('fill', (d) => {
+      const row = voteMapData.value[d.properties.COUNTYID]
+      return row && row.color ? row.color : '#eee'
+    })
+    .attr('stroke', '#fff')
     .attr('stroke-width', 1)
 }
 </script>

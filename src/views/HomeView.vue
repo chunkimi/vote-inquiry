@@ -39,8 +39,11 @@ const candidateList = computed(() =>
   (data.value || []).filter(({ election_year }) => election_year === '2020'),
 )
 
-const voteMapData = ref({
-  A: '#fbd189',
-  F: '#fbd189',
-})
+const voteMapData = ref([
+  { city: '臺北市', party: '金色曠野同盟', count: 213 },
+  { city: '新北市', party: '金色曠野同盟', count: 123 },
+  { city: '南投縣', party: '鬱蔥雨林聯盟', count: 1233 },
+  { city: '嘉義縣', party: '鬱蔥雨林聯盟', count: 12334 },
+  { city: '彰化縣', party: '蔚藍海岸陣線', count: 1233 },
+])
 </script>
