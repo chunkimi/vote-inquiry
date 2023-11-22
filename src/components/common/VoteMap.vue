@@ -61,5 +61,41 @@ async function drawMap() {
     })
     .attr('stroke', '#fff')
     .attr('stroke-width', 1)
+    .on('mouseover', showTooltip)
+}
+
+let timer = null
+const tooltip = d3
+  .select('body')
+  .append('div')
+  .style('position', 'absolute')
+  .style('opacity', 0)
+  .style('background-color', '#fff')
+  .style('border', '1px solid #ccc')
+  .style('padding', '5px 15px')
+
+function showTooltip(event, d) {
+  clearTimeout(timer)
+
+  const row = voteMapData.value[d.properties.COUNTYID] ?? {}
+
+  const { city, color, party, count } = row
+
+  let content = `${city}最高票數為<span style="color: ${color}">${party}</span>，共獲得 ${count} 票`
+
+  if (!city || !color || !party || !count) {
+    content = '無資料'
+  }
+
+  tooltip.transition().duration(200).style('opacity', 0.9)
+  tooltip
+    .html(content)
+    .style('left', event.pageX + 'px')
+    .style('top', event.pageY - 28 + 'px')
+
+  timer = setTimeout(
+    () => tooltip.transition().duration(500).style('opacity', 0),
+    1000,
+  )
 }
 </script>
