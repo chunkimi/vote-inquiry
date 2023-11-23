@@ -10,7 +10,7 @@ import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
 import taiwanTopojson from '@/data/tw-topo.json'
 import cityIdMap from '@/data/city_id_map.json'
-import partyColorMap from '@/data/party_color_map.json'
+import partyMap from '@/data/party.json'
 
 const props = defineProps({
   data: {
@@ -24,7 +24,7 @@ const voteMapData = computed(() => {
     acc[cityIdMap[city]] = {
       city,
       party,
-      color: partyColorMap[party],
+      color: partyMap.colorMap[party],
       count,
     }
     return acc
