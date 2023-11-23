@@ -1,5 +1,11 @@
+<style lang="scss" scoped>
+.search-bar__form {
+  max-width: 660px;
+}
+</style>
+
 <template>
-  <form class="d-flex gap-2">
+  <form class="d-grid d-sm-flex gap-2 search-bar__form">
     <select v-model="cityModel" class="form-select" aria-label="City Selector">
       <option value="" disabled>選擇縣市</option>
       <option v-for="city in cityList" :key="city" :value="city">
