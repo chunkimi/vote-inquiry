@@ -76,7 +76,7 @@
                 class="col-12 col-md-3 mb--20 mb-mb-0 d-flex justify-content-center align-items-center"
               >
                 <img
-                  :src="getImageUrl(candidateData[party].vice.picture)"
+                  :src="getImageUrl(candidateData[party].vice.avatar_url)"
                   alt="avatar"
                   class="img-fluid card__avatar"
                 />
