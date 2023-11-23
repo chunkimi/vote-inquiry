@@ -1,3 +1,4 @@
+/* Theme */
 $primary: #525b76;
 $secondary: #e5e9ec;
 $success: #40c9a7;
@@ -26,6 +27,7 @@ $party-colors: (
 
 $theme-colors: map-merge($theme-colors, $party-colors);
 
+/* Spacing */
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -40,3 +42,6 @@ $spacers: (
   9: $spacer * 2.25,
   10: $spacer * 2.5,
 );
+
+/* Typography */
+$headings-margin-bottom: 0;
