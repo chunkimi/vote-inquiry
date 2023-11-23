@@ -1,5 +1,6 @@
 <template>
   <h2>This page is Home (index)</h2>
+  <SearchBar v-model:city="city" v-model:district="district" year="2012" />
   <i class="bi bi-0-circle"></i>
   <div class="icon-vote-stamp"></div>
   <button type="button" class="btn btn-primary">Primary</button>
@@ -28,6 +29,7 @@ import { useFirebaseStorage, useStorageFile } from 'vuefire'
 import { ref as storageRef } from 'firebase/storage'
 import { useFetch } from '@vueuse/core'
 import VoteMap from '@/components/common/VoteMap.vue'
+import SearchBar from '@/components/common/SearchBar.vue'
 
 const storage = useFirebaseStorage()
 const candidateFileRef = storageRef(storage, 'candidate/candidate.json')
@@ -46,4 +48,7 @@ const voteMapData = ref([
   { city: '嘉義縣', party: '鬱蔥雨林聯盟', count: 12334 },
   { city: '彰化縣', party: '蔚藍海岸陣線', count: 1233 },
 ])
+
+const city = ref('')
+const district = ref('')
 </script>
