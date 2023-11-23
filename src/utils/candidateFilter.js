@@ -25,6 +25,6 @@ export const  filterYearCandidate =(parties, list) => {
 
 // 取avatar url
 export const  getImageUrl = (path) => {
-    return new URL(`${path}`, import.meta.url).href
+    return new URL(`../${path}`, import.meta.url).href
   }
 
