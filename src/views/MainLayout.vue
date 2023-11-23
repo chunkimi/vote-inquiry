@@ -10,12 +10,4 @@
 import { RouterView } from 'vue-router'
 import FooterComponent from '@/components/base/FooterComponent.vue'
 import HeaderComponent from '@/components/base/HeaderComponent.vue'
-
-// export default {
-//   components: {
-//     RouterView,
-//     FooterComponent,
-//     HeaderComponent,
-//   },
-// }
 </script>
