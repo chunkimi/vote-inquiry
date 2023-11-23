@@ -1,0 +1,12 @@
+// .m--0auto {
+//   margin: 0 auto;
+// }
+
+.mb {
+  &--20 {
+    margin-bottom: 20px;
+  }
+  &--32 {
+    margin-bottom: 32px;
+  }
+}
