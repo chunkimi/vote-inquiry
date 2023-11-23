@@ -16,20 +16,41 @@ export const  filterCandidateDataType = (data, criteria) =>{
 
 // 篩選同一年度整組候選人
 export const filterSameSession = (year, parties, originData) => {
-  let result = {};
+  let result = [];
   let specifyYearData = originData.filter((item) => item.election_year == year);
   parties.forEach((curParty) => {
     let samePartyData = specifyYearData.filter(
       (item) => item.party === curParty
     );
     let section = groupCandidates(samePartyData);
-    result[curParty] = section;
+    result.push({
+      party: curParty,
+      candidate_id: section.main.candidate_id,
+      ...section
+    });
   });
+  result.sort((a, b) => a.candidate_id - b.candidate_id);
   return result;
 };
 
 // 篩選勝出者
-
+export const filterWinner = (years, originData) =>{
+  let result = [];
+  let isSelected = originData.filter((item) => item.is_elected === true);
+  years.forEach((year) => {
+    let specifyYearData = isSelected.filter(
+      (item) => item.election_year === year
+    );
+    let section = groupCandidates(specifyYearData);
+    result.push({
+      voteYear: year,
+      party: specifyYearData[0].party,
+      ...section
+    });
+  });
+  result.sort((a, b) => b.voteYear - a.voteYear);
+  return result;
+}
 
 // 沒有要import出去
 // 同政黨候選人
