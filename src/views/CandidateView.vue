@@ -27,9 +27,9 @@
 }
 </style>
 <template>
-  <h1 class="h2 fw-bold text-center mb-0">歷屆候選公僕名單</h1>
+  <h1 class="h2 fw-bold text-center mb--32">歷屆候選公僕名單</h1>
 
-  <ul class="list-unstyled d-flex justify-content-center mb-0">
+  <ul class="list-unstyled d-flex justify-content-center mb--32">
     <li
       class="horizontalList__item"
       v-for="year in years"
@@ -42,6 +42,7 @@
   </ul>
   <div v-if="!isLoading">
     <CandidateInfo
+      :specify-Year="curYear"
       :election-Parties="parties"
       :election-Data="curData"
     ></CandidateInfo>
@@ -52,12 +53,12 @@
 import { ref, onMounted } from 'vue'
 // 原始資料
 import originData from '@/data/candidate.json'
-import { filterDataType } from '../utils/candidateFilter'
+import { filterCandidateDataType } from '../utils/candidateFilter'
 import CandidateInfo from '@/components/CandidateInfo.vue'
 
 // 資料統計：年份、政黨
-const years = ref(filterDataType(originData, 'election_year'))
-const parties = ref(filterDataType(originData, 'party'))
+const years = ref(filterCandidateDataType(originData, 'election_year'))
+const parties = ref(filterCandidateDataType(originData, 'party'))
 const curYear = ref(null)
 const curData = ref(null)
 const isLoading = ref(true)

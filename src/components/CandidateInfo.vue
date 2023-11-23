@@ -1,10 +1,6 @@
 <style lang="scss">
 @import '@/styles/main.scss';
 .card {
-  &__avatar {
-    width: 100px;
-    height: 100%;
-  }
   &__content {
     width: 100%;
     max-width: 544px;
@@ -18,24 +14,24 @@
 <template>
   <div class="row">
     <div
-      class="col-12 mb-4"
+      class="col-12 mb-3"
       v-for="(party, index) in electionParties"
       :key="index"
     >
       <div class="card w-100">
-        <div class="card-header p-4 bg-secondary text-center">
+        <div class="card-header p-3 bg-secondary text-center">
           {{ index + 1 }}
         </div>
-        <div class="card-body p-6 d-flex flex-column">
+        <div class="card-body p-4 d-flex flex-column">
           <div class="card__content">
-            <div class="row mb-4">
+            <div class="row mb-3">
               <div
-                class="col-12 col-md-3 mb-5 mb-mb-0 d-flex justify-content-center align-items-center"
+                class="col-12 col-md-3 mb--20 mb-mb-0 d-flex justify-content-center align-items-center"
               >
                 <img
                   :src="getImageUrl(candidateData[party].main.avatar_url)"
                   alt="avatar"
-                  class="img-fluid card__avatar"
+                  class="img-fluid avatar--md"
                 />
               </div>
               <div class="col-12 col-md-9">
@@ -71,14 +67,14 @@
                 </div>
               </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-3">
               <div
-                class="col-12 col-md-3 mb-5 mb-mb-0 d-flex justify-content-center align-items-center"
+                class="col-12 col-md-3 mb--20 mb-mb-0 d-flex justify-content-center align-items-center"
               >
                 <img
                   :src="getImageUrl(candidateData[party].vice.avatar_url)"
                   alt="avatar"
-                  class="img-fluid card__avatar"
+                  class="img-fluid avatar--md"
                 />
               </div>
               <div class="col-12 col-md-9">
@@ -124,17 +120,23 @@
 </template>
 <script setup>
 import { toRefs, computed } from 'vue'
-import { filterYearCandidate, getImageUrl } from '@/utils/candidateFilter.js'
+import { filterSameSession, getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({
+  specifyYear: String,
   electionParties: Array,
   electionData: Array,
 })
 
-const { electionParties, electionData } = toRefs(props)
+const { specifyYear, electionParties, electionData } = toRefs(props)
 
 const candidateData = computed(() => {
-  if (!electionParties.value || !electionData.value) return []
-  return filterYearCandidate(electionParties.value, electionData.value)
+  if (!specifyYear.value || !electionParties.value || !electionData.value)
+    return []
+  return filterSameSession(
+    specifyYear.value,
+    electionParties.value,
+    electionData.value,
+  )
 })
 </script>
