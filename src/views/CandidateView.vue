@@ -60,18 +60,15 @@ const years = ref(filterDataType(originData, 'election_year'))
 const parties = ref(filterDataType(originData, 'party'))
 const curYear = ref(null)
 const curData = ref(null)
-const isLoaded = ref(false)
 const isLoading = ref(true)
 
 // methods
 const getYearData = (year) => {
-  // 內部改寫成 Promise
   curYear.value = year
   curData.value = originData.filter(
     (item) => item.election_year == curYear.value,
   )
   isLoading.value = false
-  console.log(isLoaded.value)
 }
 
 onMounted(() => {

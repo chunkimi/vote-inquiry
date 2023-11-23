@@ -17,7 +17,11 @@
 </style>
 <template>
   <div class="row">
-    <div class="col-12 mb-3" v-for="(party, index) in parties" :key="index">
+    <div
+      class="col-12 mb-3"
+      v-for="(party, index) in electionParties"
+      :key="index"
+    >
       <div class="card w-100">
         <div class="card-header p-3 bg-secondary text-center">
           {{ index + 1 }}
@@ -118,25 +122,8 @@
     </div>
   </div>
 </template>
-<!-- <script>
-import { ref } from 'vue'
-import { filterYearCandidate, getImageUrl } from '@/utils/candidateFilter.js'
-
-export default {
-  props: ['electionParties', 'electionData'],
-
-  setup(props) {
-    const { electionParties, electionData } = ref(props)
-    const candidateData = ref(
-      filterYearCandidate(electionParties, electionData),
-    )
-
-    return { candidateData, getImageUrl }
-  },
-}
-</script> -->
 <script setup>
-import { toRef, ref } from 'vue'
+import { toRefs, computed } from 'vue'
 import { filterYearCandidate, getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({
@@ -144,7 +131,10 @@ const props = defineProps({
   electionData: Array,
 })
 
-const { electionParties, electionData } = toRef(props)
+const { electionParties, electionData } = toRefs(props)
 
-const candidateData = ref(filterYearCandidate(electionParties, electionData))
+const candidateData = computed(() => {
+  if (!electionParties.value || !electionData.value) return []
+  return filterYearCandidate(electionParties.value, electionData.value)
+})
 </script>
