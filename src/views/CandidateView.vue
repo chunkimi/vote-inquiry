@@ -51,7 +51,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 // 原始資料
-import originData from '@/data/dummyData.js'
+import originData from '@/data/candidate.json'
 import { filterDataType } from '../utils/candidateFilter'
 import CandidateInfo from '@/components/CandidateInfo.vue'
 
