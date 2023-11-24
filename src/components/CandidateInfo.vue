@@ -14,19 +14,19 @@
 <template>
   <div class="row">
     <div
-      class="col-12 mb-3"
+      class="col-12 mb-4"
       v-for="(candidate, index) in candidateData"
       :key="index"
     >
       <div class="card w-100">
-        <div class="card-header p-3 bg-secondary text-center">
+        <div class="card-header p-4 bg-secondary text-center">
           {{ candidate.candidate_id }}
         </div>
-        <div class="card-body p-4 d-flex flex-column">
+        <div class="card-body p-6 d-flex flex-column">
           <div class="card__content">
-            <div class="row mb-3">
+            <div class="row mb-4">
               <div
-                class="col-12 col-md-3 mb--20 mb-mb-0 d-flex justify-content-center align-items-center"
+                class="col-12 col-md-3 mb-5 mb-mb-0 d-flex justify-content-center align-items-center"
               >
                 <img
                   :src="getImageUrl(candidate.main.avatar_url)"
@@ -67,9 +67,9 @@
                 </div>
               </div>
             </div>
-            <div class="row mb-3">
+            <div class="row mb-4">
               <div
-                class="col-12 col-md-3 mb--20 mb-mb-0 d-flex justify-content-center align-items-center"
+                class="col-12 col-md-3 mb-5 mb-mb-0 d-flex justify-content-center align-items-center"
               >
                 <img
                   :src="getImageUrl(candidate.vice.avatar_url)"
