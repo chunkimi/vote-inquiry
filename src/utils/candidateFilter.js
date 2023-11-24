@@ -52,9 +52,36 @@ export const filterWinner = (years, originData) =>{
   return result;
 }
 
-// 沒有要import出去
+// 篩出當年度全國"總計"的那一筆
+export const filterNationalVote =(dataArr) =>{
+  let result = {};
+  dataArr.forEach((item) => {
+    if (item["行政區別"] === "總計") {
+      result = item;
+    }
+  });
+  return result;
+}
+
+// 找尋該勝選者在該年度的票數，重新組合陣列
+export const  getWinnerVotes =(yearsData, candidateData, voteData) => {
+  let result = [];
+  yearsData.forEach((year) => {
+    candidateData.forEach((candidate) => {
+      if (candidate.voteYear === year) {
+        let party = candidate.party;
+        candidate.voteNum = voteData[year]["候選人票數"][party];
+        result.push(candidate);
+      }
+    });
+  });
+  return result;
+}
+
+
+
 // 組合同政黨候選人
-function groupCandidates(data) {
+export function groupCandidates(data) {
   let main = data.find((item) => item.role === 0);
   let vice = data.find((item) => item.role === 1);
   let section = { main, vice };
@@ -62,7 +89,7 @@ function groupCandidates(data) {
 }
 
 // 輸出單一候選人資料（正、副）
-// function singleCandidates(data , role) {
+// export function singleCandidates(data , role) {
 //   let section = {}
 //   if(role) {
 //     let vice = data.find((item) => item.role === 1);

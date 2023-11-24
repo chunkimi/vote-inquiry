@@ -52,27 +52,28 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 // 原始資料
-import originData from '@/data/candidate.json'
-import { filterCandidateDataType } from '../utils/candidateFilter'
+import candidateData from '@/data/candidate.json'
+import { filterCandidateDataType } from '@/utils/candidateFilter'
 import CandidateInfo from '@/components/CandidateInfo.vue'
 
 // 資料統計：年份、政黨
-const years = ref(filterCandidateDataType(originData, 'election_year'))
-const parties = ref(filterCandidateDataType(originData, 'party'))
+const years = ref(filterCandidateDataType(candidateData, 'election_year'))
+const parties = ref(filterCandidateDataType(candidateData, 'party'))
+// 指定年份數據
 const curYear = ref(null)
 const curData = ref(null)
 const isLoading = ref(true)
 
 // methods
-const getYearData = (year) => {
+const getYearData = (year, candidate) => {
   curYear.value = year
-  curData.value = originData.filter(
+  curData.value = candidate.filter(
     (item) => item.election_year == curYear.value,
   )
   isLoading.value = false
 }
 
 onMounted(() => {
-  getYearData('2020')
+  getYearData('2020', candidateData)
 })
 </script>

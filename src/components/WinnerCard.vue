@@ -17,7 +17,6 @@
 </style>
 
 <template>
-  <!-- <div v-for="winner in winnerData" :key="winner.voteYear"></div> -->
   <div class="winnerCard">
     <p class="display-2 fw-bold text-info mb-3 winnerCard__year">
       {{ winner.voteYear }}
@@ -46,8 +45,7 @@
     </div>
     <div class="d-flex flex-column align-items-center">
       <p class="h3 fw-bold text-info mb-4">
-        {{ commaNumber('123456789') }} 票
-        <!-- {{ commaNumber(winner.voteNum) }} 票 -->
+        {{ commaNumber(winner.voteNum) }} 票
       </p>
       <RouterLink
         :to="`past-elections/${winner.voteYear}`"
@@ -59,13 +57,17 @@
 </template>
 
 <script setup>
-import { toRefs } from 'vue'
+import { toRefs, computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { commaNumber } from '@/utils/base.js'
 import { getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({
-  winner: Object,
+  winnerInfo: Object,
 })
-const { winner } = toRefs(props)
+const { winnerInfo } = toRefs(props)
+const winner = computed(() => {
+  if (!winnerInfo.value) return []
+  return winnerInfo.value
+})
 </script>
