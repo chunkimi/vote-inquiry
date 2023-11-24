@@ -65,16 +65,19 @@ async function drawMap() {
 }
 
 let timer = null
-const tooltip = d3
-  .select('body')
-  .append('div')
-  .style('position', 'absolute')
-  .style('opacity', 0)
-  .style('background-color', '#fff')
-  .style('border', '1px solid #ccc')
-  .style('padding', '5px 15px')
-
+let tooltip = null
 function showTooltip(event, d) {
+  if (!tooltip) {
+    tooltip = d3
+      .select('#app main')
+      .append('div')
+      .style('position', 'absolute')
+      .style('opacity', 0)
+      .style('background-color', '#fff')
+      .style('border', '1px solid #ccc')
+      .style('padding', '5px 15px')
+  }
+
   clearTimeout(timer)
 
   const row = voteMapData.value[d.properties.COUNTYID] ?? {}
