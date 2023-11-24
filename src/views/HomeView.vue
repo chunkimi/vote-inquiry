@@ -9,7 +9,7 @@
   <VoteMap v-else class="d-none d-md-block" :data="voteMapData" />
   <IconLabel text="選票即時報" icon="bi-rss" />
   <div class="d-grid gap-4">
-    <RealtimeVoteCounting
+    <VoteCounting
       v-for="candidate in realtimeSummary"
       :key="candidate.id"
       :id="candidate.id"
@@ -35,7 +35,7 @@ import { ref, computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
 import PieChart from '@/components/chart/PieChart.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
-import RealtimeVoteCounting from '@/components/HomeView/RealtimeVoteCounting.vue'
+import VoteCounting from '@/components/HomeView/VoteCounting.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import candidate from '@/data/candidate.json'
 
