@@ -1,20 +1,29 @@
 <style lang="scss">
+@import '@/styles/main.scss';
 .winnerCard {
   width: 100%;
-  max-width: 450px;
-  height: auto;
+  min-width: 18.75rem;
+  @include media-breakpoint-up(md) {
+    min-width: 28.25rem;
+  }
   padding: 0 1.5rem;
+  &__year {
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      text-align: start;
+    }
+  }
 }
 </style>
 
 <template>
   <!-- <div v-for="winner in winnerData" :key="winner.voteYear"></div> -->
   <div class="winnerCard">
-    <p class="display-2 fw-bold text-info mb-3 text-center text-md-start">
+    <p class="display-2 fw-bold text-info mb-3 winnerCard__year">
       {{ winner.voteYear }}
     </p>
-    <div class="row p-4 mb-3">
-      <div class="col-12 col-md-6 mb-2">
+    <div class="row p-6 mb-4">
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
         <div class="d-flex flex-column align-items-center">
           <img
             :src="getImageUrl(winner.main.avatar_url)"
@@ -36,13 +45,13 @@
       </div>
     </div>
     <div class="d-flex flex-column align-items-center">
-      <p class="h3 fw-bold text-info mb-3">
+      <p class="h3 fw-bold text-info mb-4">
         {{ commaNumber('123456789') }} 票
         <!-- {{ commaNumber(winner.voteNum) }} 票 -->
       </p>
       <RouterLink
         :to="`past-elections/${winner.voteYear}`"
-        class="link-primary py-4"
+        class="link-primary py-6"
         >查看本屆詳情</RouterLink
       >
     </div>
@@ -52,7 +61,7 @@
 <script setup>
 import { toRefs } from 'vue'
 import { RouterLink } from 'vue-router'
-import { commaNumber } from '@/utils/main.js'
+import { commaNumber } from '@/utils/base.js'
 import { getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({

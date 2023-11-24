@@ -53,7 +53,7 @@ export const filterWinner = (years, originData) =>{
 }
 
 // 沒有要import出去
-// 同政黨候選人
+// 組合同政黨候選人
 function groupCandidates(data) {
   let main = data.find((item) => item.role === 0);
   let vice = data.find((item) => item.role === 1);
@@ -61,5 +61,16 @@ function groupCandidates(data) {
   return section;
 }
 
-
+// 輸出單一候選人資料（正、副）
+// function singleCandidates(data , role) {
+//   let section = {}
+//   if(role) {
+//     let vice = data.find((item) => item.role === 1);
+//     section.vice = vice
+//   } else {
+//     let main = data.find((item) => item.role === 0);
+//     section.main = main
+//   }
+//   return section;
+// }
 
