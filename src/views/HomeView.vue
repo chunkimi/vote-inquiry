@@ -32,14 +32,14 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useMedia } from '@vueuse/core'
+import { useMediaQuery } from '@vueuse/core'
 import PieChart from '@/components/chart/PieChart.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
 import RealtimeVoteCounting from '@/components/HomeView/RealtimeVoteCounting.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import candidate from '@/data/candidate.json'
 
-const isMobile = useMedia('(max-width: 768px)')
+const isMobile = useMediaQuery('(max-width: 768px)')
 
 const currentElectionYear = '2020'
 
