@@ -83,7 +83,6 @@ const { width: progressBarWidth } = useElementSize(progressBarPercentage)
 
 const progressColor = computed(() => {
   const colorCode = partyMap.codeMap[props.party]
-  console.log(colorCode)
   return colorCode ? `bg-${colorCode}` : ''
 })
 </script>
