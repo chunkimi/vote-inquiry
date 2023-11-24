@@ -27,9 +27,9 @@
 }
 </style>
 <template>
-  <h1 class="h2 fw-bold text-center mb-0">歷屆候選公僕名單</h1>
+  <h1 class="h2 fw-bold text-center">歷屆候選公僕名單</h1>
 
-  <ul class="list-unstyled d-flex justify-content-center mb-0">
+  <ul class="list-unstyled d-flex justify-content-center">
     <li
       class="horizontalList__item"
       v-for="year in years"

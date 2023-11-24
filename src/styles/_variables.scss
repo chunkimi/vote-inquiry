@@ -1,3 +1,4 @@
+/* Theme */
 $primary: #525b76;
 $secondary: #e5e9ec;
 $success: #40c9a7;
@@ -26,6 +27,7 @@ $party-colors: (
 
 $theme-colors: map-merge($theme-colors, $party-colors);
 
+/* Spacing */
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -39,4 +41,13 @@ $spacers: (
   8: $spacer * 2,
   9: $spacer * 2.25,
   10: $spacer * 2.5,
+  11: $spacer * 2.75,
+  12: $spacer * 3,
 );
+
+/* Typography */
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;
+
+/* Progress Bar */
+$progress-height: 2rem;

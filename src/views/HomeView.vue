@@ -1,54 +1,86 @@
 <template>
-  <h2>This page is Home (index)</h2>
-  <SearchBar v-model:city="city" v-model:district="district" year="2012" />
-  <i class="bi bi-0-circle"></i>
-  <div class="icon-vote-stamp"></div>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-secondary">Secondary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-light">Light</button>
-  <button type="button" class="btn btn-dark">Dark</button>
-  <button type="button" class="btn btn-link">Link</button>
-  <button type="button" class="btn btn-savannah">金色曠野同盟</button>
-  <button type="button" class="btn btn-coast">蔚藍海岸陣線</button>
-  <button type="button" class="btn btn-rainforest">鬱蔥雨林聯盟</button>
-  <ul>
-    <li v-for="(candidate, i) in candidateList" :key="i">
-      {{ candidate.name }} - {{ candidate.party }}
-    </li>
-  </ul>
-  <VoteMap :data="voteMapData" />
+  <IconLabel text="開票地圖" icon="bi-geo-alt-fill" />
+  <PieChart
+    v-if="isMobile"
+    id="home-national"
+    class="d-block d-md-none"
+    :data="pieChartData"
+  />
+  <VoteMap v-else class="d-none d-md-block" :data="voteMapData" />
+  <IconLabel text="選票即時報" icon="bi-rss" />
+  <div class="d-grid gap-4">
+    <VoteCounting
+      v-for="candidate in realtimeSummary"
+      :key="candidate.id"
+      :id="candidate.id"
+      :name="candidate.name"
+      :party="candidate.party"
+      :partyLogo="candidate.partyLogo"
+      :avatar="candidate.avatar"
+      :count="candidate.count"
+      :percentage="candidate.percentage"
+    />
+  </div>
+  <router-link
+    class="btn btn-outline-primary d-block d-md-none"
+    role="button"
+    :to="{ name: 'Analysis' }"
+  >
+    查看縣市選情版圖 》
+  </router-link>
 </template>
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useFirebaseStorage, useStorageFile } from 'vuefire'
-import { ref as storageRef } from 'firebase/storage'
-import { useFetch } from '@vueuse/core'
+import { useMediaQuery } from '@vueuse/core'
+import PieChart from '@/components/chart/PieChart.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
-import SearchBar from '@/components/common/SearchBar.vue'
+import VoteCounting from '@/components/HomeView/VoteCounting.vue'
+import IconLabel from '@/components/common/IconLabel.vue'
+import candidate from '@/data/candidate.json'
 
-const storage = useFirebaseStorage()
-const candidateFileRef = storageRef(storage, 'candidate/candidate.json')
+const isMobile = useMediaQuery('(max-width: 768px)')
 
-const { url: candidate_url } = useStorageFile(candidateFileRef)
+const currentElectionYear = '2020'
 
-const { data } = useFetch(candidate_url, { refetch: true }).get().json()
-const candidateList = computed(() =>
-  (data.value || []).filter(({ election_year }) => election_year === '2020'),
+const realtimeSummary = computed(() =>
+  candidate
+    .filter(
+      ({ election_year, role }) =>
+        election_year === currentElectionYear && role === 0,
+    )
+    .map(({ candidate_id, name, party, party_logo_url, avatar_url }) => {
+      const count = 123456
+      return {
+        id: candidate_id,
+        name,
+        party,
+        partyLogo: new URL(`../${party_logo_url}`, import.meta.url).href,
+        avatar: new URL(`../${avatar_url}`, import.meta.url).href,
+        count: count.toLocaleString(),
+        percentage: 40,
+      }
+    }),
 )
 
-const voteMapData = ref([
+const voteData = [
   { city: '臺北市', party: '金色曠野同盟', count: 213 },
   { city: '新北市', party: '金色曠野同盟', count: 123 },
   { city: '南投縣', party: '鬱蔥雨林聯盟', count: 1233 },
   { city: '嘉義縣', party: '鬱蔥雨林聯盟', count: 12334 },
   { city: '彰化縣', party: '蔚藍海岸陣線', count: 1233 },
-])
+]
 
-const city = ref('')
-const district = ref('')
+const voteMapData = computed(() => {
+  return voteData.map(({ city, party, count }) => ({
+    city,
+    party,
+    count: count.toLocaleString(),
+  }))
+})
+
+const pieChartData = ref({
+  data: [213, 123, 1233],
+  labels: ['金色曠野同盟', '鬱蔥雨林聯盟', '蔚藍海岸陣線'],
+})
 </script>
