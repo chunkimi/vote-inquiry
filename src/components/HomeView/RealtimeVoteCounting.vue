@@ -1,26 +1,29 @@
 <template>
-  <div class="d-flex px-12 py-4 gap-8 align-items-center">
-    <p class="h3">{{ id }}號</p>
+  <div class="d-flex px-2 px-md-12 py-4 gap-8 align-items-center">
+    <p class="h3 d-none d-md-block">{{ id }}號</p>
     <img
       :src="partyLogo"
-      class="rounded-circle"
+      class="rounded-circle d-none d-md-block"
       alt="party-logo"
       width="100"
       height="100"
     />
-    <img
-      :src="avatar"
-      class="rounded-circle"
-      alt="candidate-avatar"
-      width="100"
-      height="100"
-    />
+    <div class="d-grid gap-1">
+      <img
+        :src="avatar"
+        class="rounded-circle"
+        alt="candidate-avatar"
+        width="100"
+        height="100"
+      />
+      <p class="fs-3 fw-bolder text-center">{{ name }}</p>
+    </div>
     <div class="d-grid gap-2">
       <p class="h5">得票數：{{ count }}票</p>
       <p class="h5">得票率：{{ percentage }}%</p>
     </div>
     <div
-      class="progress flex-grow-1"
+      class="progress flex-grow-1 d-none d-md-flex"
       role="progressbar"
       aria-label="Voting Percentage"
       aria-valuemin="0"
@@ -69,7 +72,7 @@ const props = defineProps({
     required: true,
   },
   count: {
-    type: Number,
+    type: String,
     required: true,
   },
   percentage: {
