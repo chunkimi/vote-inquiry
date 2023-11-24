@@ -1,6 +1,6 @@
 <template>
   <HeaderComponent></HeaderComponent>
-  <main class="container p-3 p-md-4">
+  <main class="container d-grid gap-8 px-4 py-5 px-md-8 py-md-6">
     <RouterView />
   </main>
   <FooterComponent></FooterComponent>
