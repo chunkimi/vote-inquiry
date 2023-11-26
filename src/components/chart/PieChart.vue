@@ -18,6 +18,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  legendPosition: {
+    type: String,
+    default: 'bottom',
+  },
 })
 
 let chart = null
@@ -56,7 +60,7 @@ async function renderChart() {
       responsive: true,
       plugins: {
         legend: {
-          position: 'bottom',
+          position: props.legendPosition,
           labels: {
             boxWidth: 21,
           },
