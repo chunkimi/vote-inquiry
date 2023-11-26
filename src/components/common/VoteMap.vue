@@ -1,6 +1,6 @@
 <template>
   <div id="map-container" class="text-center">
-    <svg id="map" class="mx-auto" width="800" height="600"></svg>
+    <svg id="map" class="mx-auto" width="688" height="600"></svg>
   </div>
 </template>
 

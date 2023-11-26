@@ -1,9 +1,9 @@
 <template>
-  <div class="d-flex px-2 px-md-12 py-4 gap-8 align-items-center">
+  <div class="d-flex px-2 px-lg-12 py-4 gap-8 align-items-center">
     <p class="h3 d-none d-md-block">{{ id }}號</p>
     <img
       :src="partyLogo"
-      class="rounded-circle d-none d-md-block"
+      class="rounded-circle d-none d-lg-block"
       alt="party-logo"
       width="100"
       height="100"
