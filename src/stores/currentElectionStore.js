@@ -11,10 +11,10 @@ export const useCurrentElectionStore = defineStore(
       return ((electionSummary.value || {})['選舉年度'] || '').toString()
     })
 
-    const county = ref('')
+    const city = ref('')
     const district = ref('')
     const currentElectionRef = computed(() => {
-      return collectionRefs.currentElectionRef(county.value, district.value)
+      return collectionRefs.currentElectionRef(city.value, district.value)
     })
     const { data: votes } = useCollection(currentElectionRef)
 
@@ -33,7 +33,7 @@ export const useCurrentElectionStore = defineStore(
     })
 
     const currentSummaryRef = computed(() => {
-      return documentRefs.electionRef(county.value, district.value)
+      return documentRefs.electionRef(city.value, district.value)
     })
     const { data: pieSummary } = useDocument(currentSummaryRef)
 
@@ -47,14 +47,14 @@ export const useCurrentElectionStore = defineStore(
     })
 
     function reset() {
-      county.value = ''
+      city.value = ''
       district.value = ''
     }
 
     return {
       currentElectionYear,
       electionSummary,
-      county,
+      city,
       district,
       votes,
       voteMapData,

@@ -17,43 +17,36 @@ export const db = getFirestore(firebaseApp)
 export const elections_id = '2020'
 
 export const collectionRefs = {
-  currentElectionRef(county, district) {
-    if (county && district) {
+  currentElectionRef(city, district) {
+    if (city && district) {
       return collection(
         db,
         'Elections',
         elections_id,
-        'County',
-        county,
+        'City',
+        city,
         'District',
         district,
         'Village',
       )
     }
 
-    if (county) {
-      return collection(
-        db,
-        'Elections',
-        elections_id,
-        'County',
-        county,
-        'District',
-      )
+    if (city) {
+      return collection(db, 'Elections', elections_id, 'City', city, 'District')
     }
 
-    return collection(db, 'Elections', elections_id, 'County')
+    return collection(db, 'Elections', elections_id, 'City')
   },
 }
 
 export const documentRefs = {
-  electionRef(county, district) {
-    if (county && district) {
-      return doc(collectionRefs.currentElectionRef(county), district)
+  electionRef(city, district) {
+    if (city && district) {
+      return doc(collectionRefs.currentElectionRef(city), district)
     }
 
-    if (county) {
-      return doc(collectionRefs.currentElectionRef(), county)
+    if (city) {
+      return doc(collectionRefs.currentElectionRef(), city)
     }
 
     return doc(collection(db, 'Elections'), elections_id)
