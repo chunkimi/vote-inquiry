@@ -56,6 +56,23 @@ export const useCurrentElectionStore = defineStore(
       }
     })
 
+    const barChartLabels = computed(() => {
+      const votesData = votes.value || []
+      return votesData.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
+    })
+    const barChartData = computed(() => {
+      const votesData = votes.value || []
+
+      return (currentCandidates.value || []).map(({ party: partyName }) => {
+        return {
+          label: partyName,
+          data: votesData.map((d) => d['候選人票數'][partyName]),
+          backgroundColor: party.colorMap[partyName],
+          borderRadius: 4,
+        }
+      })
+    })
+
     function reset() {
       city.value = ''
       district.value = ''
@@ -70,6 +87,8 @@ export const useCurrentElectionStore = defineStore(
       votes,
       voteMapData,
       pieChartData,
+      barChartLabels,
+      barChartData,
       reset,
     }
   },
