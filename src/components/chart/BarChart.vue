@@ -69,6 +69,7 @@ async function renderChart() {
       plugins: {
         legend: {
           position: props.legendPosition,
+          align: 'start',
           labels: {
             boxWidth: 21,
           },
