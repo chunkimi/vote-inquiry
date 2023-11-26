@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
+import { getFirestore, doc, collection } from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAx0F4LFvgWdQWvgVpGccR1ZAb0fGL2QkY',
@@ -13,3 +13,26 @@ const firebaseConfig = {
 export const firebaseApp = initializeApp(firebaseConfig)
 
 export const db = getFirestore(firebaseApp)
+
+export const elections_id = '2020'
+
+export const collectionRefs = {
+  countyRef: collection(db, 'Elections', elections_id, 'County'),
+  districtRef: (county) =>
+    collection(db, 'Elections', elections_id, 'County', county, 'District'),
+  villageRef: (county, district) =>
+    collection(
+      db,
+      'Elections',
+      elections_id,
+      'County',
+      county,
+      'District',
+      district,
+      'Village',
+    ),
+}
+
+export const documentRefs = {
+  electionRef: doc(collection(db, 'Elections'), elections_id),
+}
