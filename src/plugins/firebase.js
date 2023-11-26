@@ -14,15 +14,13 @@ export const firebaseApp = initializeApp(firebaseConfig)
 
 export const db = getFirestore(firebaseApp)
 
-export const elections_id = '2020'
-
 export const collectionRefs = {
   currentElectionRef(city, district) {
     if (city && district) {
       return collection(
         db,
         'Elections',
-        elections_id,
+        'Votes',
         'City',
         city,
         'District',
@@ -32,10 +30,10 @@ export const collectionRefs = {
     }
 
     if (city) {
-      return collection(db, 'Elections', elections_id, 'City', city, 'District')
+      return collection(db, 'Elections', 'Votes', 'City', city, 'District')
     }
 
-    return collection(db, 'Elections', elections_id, 'City')
+    return collection(db, 'Elections', 'Votes', 'City')
   },
 }
 
@@ -49,6 +47,6 @@ export const documentRefs = {
       return doc(collectionRefs.currentElectionRef(), city)
     }
 
-    return doc(collection(db, 'Elections'), elections_id)
+    return doc(collection(db, 'Elections'), 'Votes')
   },
 }
