@@ -11,7 +11,6 @@ $utilities: map-merge(
   )
 );
 
-
 $utilities: map-merge(
   $utilities,
   (
@@ -39,6 +38,37 @@ $utilities: map-merge(
         map-get($utilities, 'font-weight'),
         (
           responsive: true,
+        )
+      ),
+  )
+);
+
+$all-colors: map-merge-multiple(
+  $blues,
+  $indigos,
+  $purples,
+  $pinks,
+  $reds,
+  $oranges,
+  $yellows,
+  $greens,
+  $teals,
+  $cyans,
+  $grays
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    'color':
+      map-merge(
+        map-get($utilities, 'color'),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, 'color'), 'values'),
+              ($all-colors)
+            ),
         )
       ),
   )
