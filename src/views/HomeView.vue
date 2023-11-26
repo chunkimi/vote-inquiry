@@ -10,7 +10,7 @@
   <IconLabel text="選票即時報" icon="bi-rss" />
   <div class="d-grid gap-4">
     <VoteCounting
-      v-for="candidate in realtimeSummary"
+      v-for="candidate in summary"
       :key="candidate.id"
       :id="candidate.id"
       :name="candidate.name"
@@ -31,8 +31,10 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
+import { useCollection, useDocument } from 'vuefire'
+import { collectionRefs, documentRefs } from '@/plugins/firebase'
 import PieChart from '@/components/chart/PieChart.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
 import VoteCounting from '@/components/HomeView/VoteCounting.vue'
@@ -41,16 +43,46 @@ import candidate from '@/data/candidate.json'
 
 const isMobile = useMediaQuery('(max-width: 768px)')
 
-const currentElectionYear = '2020'
+const { data } = useCollection(collectionRefs.countyRef)
 
-const realtimeSummary = computed(() =>
+const voteMapData = computed(() => {
+  return (data.value || []).map((row) => {
+    const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
+      row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
+    )
+
+    return {
+      city: row['行政區別'],
+      party: winner,
+      count: row['候選人票數'][winner].toLocaleString(),
+    }
+  })
+})
+
+const { data: elections } = useDocument(documentRefs.electionRef)
+const currentElectionYear = computed(() => {
+  return ((elections.value || {})['選舉年度'] || '').toString()
+})
+
+const pieChartData = computed(() => {
+  const votes = (elections.value || {})['候選人票數'] || {}
+
+  return {
+    data: Object.values(votes),
+    labels: Object.keys(votes),
+  }
+})
+
+const summary = computed(() =>
   candidate
     .filter(
       ({ election_year, role }) =>
-        election_year === currentElectionYear && role === 0,
+        election_year === currentElectionYear.value && role === 0,
     )
     .map(({ candidate_id, name, party, party_logo_url, avatar_url }) => {
-      const count = 123456
+      const count = elections.value['候選人票數'][party]
+      const validVotes = elections.value['有效票數']
+      const percentage = (count / validVotes) * 100
       return {
         id: candidate_id,
         name,
@@ -58,29 +90,8 @@ const realtimeSummary = computed(() =>
         partyLogo: new URL(`../${party_logo_url}`, import.meta.url).href,
         avatar: new URL(`../${avatar_url}`, import.meta.url).href,
         count: count.toLocaleString(),
-        percentage: 40,
+        percentage: parseFloat(percentage.toFixed(2)),
       }
     }),
 )
-
-const voteData = [
-  { city: '臺北市', party: '金色曠野同盟', count: 213 },
-  { city: '新北市', party: '金色曠野同盟', count: 123 },
-  { city: '南投縣', party: '鬱蔥雨林聯盟', count: 1233 },
-  { city: '嘉義縣', party: '鬱蔥雨林聯盟', count: 12334 },
-  { city: '彰化縣', party: '蔚藍海岸陣線', count: 1233 },
-]
-
-const voteMapData = computed(() => {
-  return voteData.map(({ city, party, count }) => ({
-    city,
-    party,
-    count: count.toLocaleString(),
-  }))
-})
-
-const pieChartData = ref({
-  data: [213, 123, 1233],
-  labels: ['金色曠野同盟', '鬱蔥雨林聯盟', '蔚藍海岸陣線'],
-})
 </script>

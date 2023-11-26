@@ -19,7 +19,7 @@
       <p class="fs-3 fw-bolder text-center">{{ name }}</p>
     </div>
     <div class="d-grid gap-2">
-      <p class="h5">得票數：{{ count }}票</p>
+      <p class="h5">得票數：{{ count }} 票</p>
       <p class="h5">得票率：{{ percentage }}%</p>
     </div>
     <div

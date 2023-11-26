@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import { computed, watch, nextTick } from 'vue'
+import { ref, computed, watch, nextTick } from 'vue'
 import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
 import taiwanTopojson from '@/data/tw-topo.json'
@@ -31,7 +31,20 @@ const voteMapData = computed(() => {
   }, {})
 })
 
-watch(voteMapData, drawMap, { immediate: true })
+const mapRendered = ref(false)
+
+watch(
+  () => props.data,
+  () => {
+    if (mapRendered.value) {
+      updateMap()
+    } else {
+      drawMap()
+      mapRendered.value = true
+    }
+  },
+  { immediate: true },
+)
 
 async function drawMap() {
   await nextTick()
@@ -55,10 +68,7 @@ async function drawMap() {
     .enter()
     .append('path')
     .attr('d', path)
-    .attr('fill', (d) => {
-      const row = voteMapData.value[d.properties.COUNTYID]
-      return row && row.color ? row.color : '#eee'
-    })
+    .attr('fill', fillMap)
     .attr('stroke', '#fff')
     .attr('stroke-width', 1)
     .on('mouseover', showTooltip)
@@ -100,5 +110,17 @@ function showTooltip(event, d) {
     () => tooltip.transition().duration(500).style('opacity', 0),
     1000,
   )
+}
+
+async function updateMap() {
+  await nextTick()
+
+  const svg = d3.select('#map')
+  svg.selectAll('path').attr('fill', fillMap)
+}
+
+function fillMap(d) {
+  const row = voteMapData.value[d.properties.COUNTYID]
+  return row && row.color ? row.color : '#eee'
 }
 </script>
