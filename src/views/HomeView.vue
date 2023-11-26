@@ -2,7 +2,7 @@
   <IconLabel text="開票地圖" icon="bi-geo-alt-fill" />
   <PieChart
     v-if="isMobile"
-    id="home-national"
+    id="home"
     class="d-block d-md-none"
     :data="pieChartData"
   />
@@ -32,46 +32,19 @@
 
 <script setup>
 import { computed } from 'vue'
+import { storeToRefs } from 'pinia'
+import { useCurrentElectionStore } from '@/stores/currentElectionStore'
 import { useMediaQuery } from '@vueuse/core'
-import { useCollection, useDocument } from 'vuefire'
-import { collectionRefs, documentRefs } from '@/plugins/firebase'
 import PieChart from '@/components/chart/PieChart.vue'
+import IconLabel from '@/components/common/IconLabel.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
 import VoteCounting from '@/components/HomeView/VoteCounting.vue'
-import IconLabel from '@/components/common/IconLabel.vue'
 import candidate from '@/data/candidate.json'
 
-const isMobile = useMediaQuery('(max-width: 768px)')
+const isMobile = useMediaQuery('(max-width: 767px)')
 
-const { data } = useCollection(collectionRefs.countyRef)
-
-const voteMapData = computed(() => {
-  return (data.value || []).map((row) => {
-    const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
-      row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
-    )
-
-    return {
-      city: row['行政區別'],
-      party: winner,
-      count: row['候選人票數'][winner].toLocaleString(),
-    }
-  })
-})
-
-const { data: elections } = useDocument(documentRefs.electionRef)
-const currentElectionYear = computed(() => {
-  return ((elections.value || {})['選舉年度'] || '').toString()
-})
-
-const pieChartData = computed(() => {
-  const votes = (elections.value || {})['候選人票數'] || {}
-
-  return {
-    data: Object.values(votes),
-    labels: Object.keys(votes),
-  }
-})
+const { currentElectionYear, electionSummary, voteMapData, pieChartData } =
+  storeToRefs(useCurrentElectionStore())
 
 const summary = computed(() =>
   candidate
@@ -80,8 +53,8 @@ const summary = computed(() =>
         election_year === currentElectionYear.value && role === 0,
     )
     .map(({ candidate_id, name, party, party_logo_url, avatar_url }) => {
-      const count = elections.value['候選人票數'][party]
-      const validVotes = elections.value['有效票數']
+      const count = electionSummary.value['候選人票數'][party]
+      const validVotes = electionSummary.value['有效票數']
       const percentage = (count / validVotes) * 100
       return {
         id: candidate_id,
