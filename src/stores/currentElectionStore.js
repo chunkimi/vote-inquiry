@@ -2,6 +2,8 @@ import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import { useCollection, useDocument } from 'vuefire'
 import { collectionRefs, documentRefs } from '@/plugins/firebase'
+import candidate from '@/data/candidate.json'
+import party from '@/data/party.json'
 
 export const useCurrentElectionStore = defineStore(
   'currentElectionStore',
@@ -9,6 +11,14 @@ export const useCurrentElectionStore = defineStore(
     const { data: electionSummary } = useDocument(documentRefs.electionRef())
     const currentElectionYear = computed(() => {
       return ((electionSummary.value || {})['選舉年度'] || '').toString()
+    })
+    const currentCandidates = computed(() => {
+      return candidate
+        .filter(
+          ({ election_year, role }) =>
+            election_year === currentElectionYear.value && role === 0,
+        )
+        .sort((a, b) => Number(a.candidate_id) - Number(b.candidate_id))
     })
 
     const city = ref('')
@@ -53,6 +63,7 @@ export const useCurrentElectionStore = defineStore(
 
     return {
       currentElectionYear,
+      currentCandidates,
       electionSummary,
       city,
       district,

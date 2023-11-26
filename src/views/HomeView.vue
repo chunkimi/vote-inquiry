@@ -39,20 +39,15 @@ import PieChart from '@/components/chart/PieChart.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
 import VoteCounting from '@/components/HomeView/VoteCounting.vue'
-import candidate from '@/data/candidate.json'
 
 const isMobile = useMediaQuery('(max-width: 767px)')
 
-const { currentElectionYear, electionSummary, voteMapData, pieChartData } =
+const { currentCandidates, electionSummary, voteMapData, pieChartData } =
   storeToRefs(useCurrentElectionStore())
 
 const summary = computed(() =>
-  candidate
-    .filter(
-      ({ election_year, role }) =>
-        election_year === currentElectionYear.value && role === 0,
-    )
-    .map(({ candidate_id, name, party, party_logo_url, avatar_url }) => {
+  currentCandidates.value.map(
+    ({ candidate_id, name, party, party_logo_url, avatar_url }) => {
       const count = electionSummary.value['候選人票數'][party]
       const validVotes = electionSummary.value['有效票數']
       const percentage = (count / validVotes) * 100
@@ -65,6 +60,7 @@ const summary = computed(() =>
         count: count.toLocaleString(),
         percentage: parseFloat(percentage.toFixed(2)),
       }
-    }),
+    },
+  ),
 )
 </script>
