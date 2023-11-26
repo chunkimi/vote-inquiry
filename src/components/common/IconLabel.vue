@@ -1,4 +1,4 @@
-<style lang="scss">
+<style lang="scss" scoped>
 .icon-vote-stamp {
   width: 24px;
   height: 24px;

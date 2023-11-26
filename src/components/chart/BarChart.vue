@@ -1,5 +1,12 @@
+<style lang="scss" scoped>
+.bar-chart {
+  width: 100%;
+  height: 300px;
+}
+</style>
+
 <template>
-  <div class="text-center" style="width: 100%; height: 300px">
+  <div class="bar-chart text-center">
     <canvas :id="`bar-chart-${id}`"></canvas>
   </div>
 </template>
