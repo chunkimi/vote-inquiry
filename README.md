@@ -15,13 +15,17 @@ v18.18.2
 
 ## 資料夾說明
 
-- assets - 圖片放置處
-- components - 元件放置處
-- styles - style 設定
-- data - 行政區選單、候選人名單等資訊
-- plugins - 放置第三方套件的設定
-- stores - 全域狀態管理
-- views - 畫面放置處
+- public - ico 圖片放置
+- src
+  - assets - 圖片放置處
+  - components - 元件放置處
+  - data - 基本資料放置處，如：行政區選單、候選人名單等資訊
+  - plugins - 放置第三方套件的設定
+  - router - 前端路由設定
+  - stores - 全域狀態管理
+  - styles - global style 設定、客製化 bootstrap styles
+  - utils - 共用小工具放置處
+  - views - 畫面放置處
 
 ## 使用技術
 
@@ -63,3 +67,20 @@ v18.18.2
 - 採用 d3.js 繪製地圖
 - 選擇 [topojson](src/data/tw-topo.json) 的格式，大幅縮減檔案大小，從大約 10MB 縮減到 49KB
 - 使用 `COUNTYID` 作為辨識行政區的代碼，避免行政區名稱不同，例如：桃園市 和 桃園縣，詳情可見匹配表 [src/data/city_id_map.json](src/data/city_id_map.json)。
+
+#### git
+
+##### git flow
+
+1. 主要分支名稱: main
+2. 依照各項功能、頁面或元件建立 branch
+3. 開發完畢，則 push 到 repo，開 PR 請對方 code review
+4. code review 完則 merge
+
+##### git conflict
+
+如果開發到一半想更新專案到 main branch 的最新進度，或是 push 到 origin 前，要先將 branch 更新到最新進度：
+
+1. 先將 main branch merge 回 feature branch
+2. 確認是否有衝突，解好衝突後請務必先 commit
+3. commit 之後再進行 push to origin，或是繼續開發
