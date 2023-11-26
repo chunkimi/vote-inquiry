@@ -6,7 +6,12 @@
 
 <template>
   <form class="d-grid d-sm-flex gap-2 search-bar__form">
-    <select v-model="cityModel" class="form-select" aria-label="City Selector">
+    <select
+      v-model="cityModel"
+      class="form-select"
+      id="city-select"
+      aria-label="City Selector"
+    >
       <option value="" disabled>選擇縣市</option>
       <option v-for="city in cityList" :key="city" :value="city">
         {{ city }}
@@ -16,6 +21,7 @@
     <select
       v-model="districtModel"
       class="form-select"
+      id="district-select"
       aria-label="District Selector"
     >
       <option value="" disabled>選擇行政區</option>
