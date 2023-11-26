@@ -31,7 +31,7 @@ watch(
       renderChart()
     }
   },
-  { immediate: true },
+  { deep: true, immediate: true },
 )
 
 async function renderChart() {
@@ -68,5 +68,12 @@ async function renderChart() {
   chart = new Chart(ctx, config)
 }
 
-function updateChart() {}
+function updateChart() {
+  chart.data.labels = props.data.labels
+  chart.data.datasets[0].data = props.data.data
+  ;(chart.data.datasets[0].backgroundColor = props.data.labels.map(
+    (name) => party.colorMap[name],
+  )),
+    chart.update()
+}
 </script>
