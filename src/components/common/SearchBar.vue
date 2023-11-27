@@ -83,6 +83,13 @@ const cityList = computed(() => Object.keys(data.value || {}))
 const districtList = computed(() => (data.value || {})[cityModel.value])
 
 watch(cityModel, () => (districtModel.value = ''))
+watch(
+  () => [props.city, props.district],
+  () => {
+    cityModel.value = props.city
+    districtModel.value = props.district
+  },
+)
 
 function update() {
   emit('update:city', cityModel.value)
