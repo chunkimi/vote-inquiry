@@ -45,10 +45,10 @@ export const useCurrentElectionStore = defineStore(
     const currentSummaryRef = computed(() => {
       return documentRefs.electionRef(city.value, district.value)
     })
-    const { data: pieSummary } = useDocument(currentSummaryRef)
+    const { data: currentSummary } = useDocument(currentSummaryRef)
 
     const pieChartData = computed(() => {
-      const votes = (pieSummary.value || {})['候選人票數'] || {}
+      const votes = (currentSummary.value || {})['候選人票數'] || {}
 
       return {
         data: Object.values(votes),
@@ -87,6 +87,7 @@ export const useCurrentElectionStore = defineStore(
       votes,
       voteMapData,
       pieChartData,
+      currentSummary,
       barChartLabels,
       barChartData,
       reset,
