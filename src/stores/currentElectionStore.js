@@ -68,7 +68,6 @@ export const useCurrentElectionStore = defineStore(
           label: partyName,
           data: votesData.map((d) => d['候選人票數'][partyName]),
           backgroundColor: party.colorMap[partyName],
-          borderRadius: 4,
         }
       })
     })

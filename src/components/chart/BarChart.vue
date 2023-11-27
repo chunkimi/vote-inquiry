@@ -66,6 +66,11 @@ async function renderChart() {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      elements: {
+        bar: {
+          borderRadius: 4,
+        },
+      },
       plugins: {
         legend: {
           position: props.legendPosition,
