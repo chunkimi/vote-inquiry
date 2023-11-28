@@ -8,7 +8,7 @@
   <div class="bg-warning">
     <div class="container">
       <div class="navbar justify-content-center align-items-center">
-        <img src="logo.svg" alt="maker-logo" class="footer__logo" />
+        <img src="/logo.svg" alt="maker-logo" class="footer__logo" />
         <p class="m-0">
           匿名山羌
           <span class="d-none d-md-inline">Incognito Formosan Muntjac</span> ©
