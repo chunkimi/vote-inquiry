@@ -12,7 +12,12 @@
   <IconLabel :text="summaryLevel" icon="vote-stamp" source="中選會" />
   <VoterTurnout />
   <template v-if="!isMobile">
-    <IconLabel :text="breakdownLevel" icon="vote-stamp" source="中選會" />
+    <IconLabel
+      :text="breakdownLevel"
+      icon="vote-stamp"
+      source="中選會"
+      id="breakdown"
+    />
     <BarChart
       :labels="barChartLabels"
       :data="barChartData"

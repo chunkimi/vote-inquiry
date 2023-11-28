@@ -146,15 +146,26 @@ const winner = computed(() => {
 
 const isLastLevel = computed(() => !!props.vote['村里別'])
 
+function scrollTo() {
+  setTimeout(() => {
+    const element = document.querySelector('#breakdown')
+    const top = element.getBoundingClientRect().top
+    window.scrollTo({
+      top: window.scrollY + top,
+      behavior: 'smooth',
+    })
+  }, 500)
+}
 function submit() {
   if (!city.value) {
     city.value = props.vote['行政區別']
+    scrollTo()
     return
   }
 
   if (!district.value) {
     district.value = props.vote['行政區別']
-    return
+    scrollTo()
   }
 }
 </script>
