@@ -25,7 +25,13 @@
   <div class="card">
     <div class="card-header text-center fs-5 fw-semibold">{{ title }}</div>
     <div class="card-body p-6 d-flex flex-column gap-4">
-      <DonutChart :id="title" :data="donutChartData" />
+      <StackedBarChart
+        v-if="isMobile"
+        :id="title"
+        :data="barChartData"
+        :labels="['票數']"
+      />
+      <DonutChart v-else :id="title" :data="donutChartData" />
       <p class="fs-5 fw-semibold text-center">開票率：100.0%</p>
       <ul class="list-group list-group-flush">
         <li
@@ -64,11 +70,15 @@
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
+import { useMediaQuery } from '@vueuse/core'
 import DonutChart from '@/components/chart/DonutChart.vue'
+import StackedBarChart from '@/components/chart/StackedBarChart.vue'
 import partyMap from '@/data/party.json'
 
+const isMobile = useMediaQuery('(max-width: 767px)')
+
 const currentElectionStore = useCurrentElectionStore()
-const { city, district } = storeToRefs(currentElectionStore)
+const { city, district, currentCandidates } = storeToRefs(currentElectionStore)
 
 const props = defineProps({
   vote: {
@@ -87,6 +97,30 @@ const donutChartData = computed(() => {
     labels: Object.keys(votes),
     data: Object.values(votes),
   }
+})
+
+const barChartData = computed(() => {
+  return (currentCandidates.value || []).map(({ party: partyName }, i) => {
+    const borderRadius =
+      i === 0
+        ? {
+            topLeft: 4,
+            bottomLeft: 4,
+          }
+        : i === currentCandidates.value.length - 1
+          ? {
+              topRight: 4,
+              bottomRight: 4,
+            }
+          : 0
+    return {
+      label: partyName,
+      data: [props.vote['候選人票數'][partyName]],
+      backgroundColor: partyMap.colorMap[partyName],
+      borderRadius,
+      borderSkipped: false,
+    }
+  })
 })
 
 const winner = computed(() => {
