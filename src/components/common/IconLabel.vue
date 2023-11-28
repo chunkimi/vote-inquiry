@@ -1,13 +1,3 @@
-<style lang="scss" scoped>
-.icon-vote-stamp {
-  width: 24px;
-  height: 24px;
-  background-image: url('src/assets/icons/vote-stamp.svg');
-  background-size: cover;
-  vertical-align: -3px;
-}
-</style>
-
 <template>
   <h4 class="h4">
     <span
