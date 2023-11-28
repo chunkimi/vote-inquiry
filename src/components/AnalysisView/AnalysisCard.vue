@@ -28,7 +28,7 @@
       <StackedBarChart
         v-if="isMobile"
         :id="title"
-        :data="barChartData"
+        :data="stackedBarChartData"
         :labels="['票數']"
       />
       <DonutChart v-else :id="title" :data="donutChartData" />
@@ -99,7 +99,7 @@ const donutChartData = computed(() => {
   }
 })
 
-const barChartData = computed(() => {
+const stackedBarChartData = computed(() => {
   return (currentCandidates.value || []).map(({ party: partyName }, i) => {
     const borderRadius =
       i === 0

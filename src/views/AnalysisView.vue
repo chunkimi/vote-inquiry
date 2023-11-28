@@ -35,18 +35,13 @@ import VoteBreakdown from '@/components/AnalysisView/VoteBreakdown.vue'
 import VoterTurnout from '@/components/AnalysisView/VoterTurnout.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
+import party from '@/data/party.json'
 
 const isMobile = useMediaQuery('(max-width: 767px)')
 
 const currentElectionStore = useCurrentElectionStore()
-const {
-  currentElectionYear,
-  city,
-  district,
-  barChartLabels,
-  barChartData,
-  votes,
-} = storeToRefs(currentElectionStore)
+const { currentElectionYear, currentCandidates, city, district, votes } =
+  storeToRefs(currentElectionStore)
 
 const summaryLevel = computed(() => {
   const suffix = '選民的票投給誰？'
@@ -61,6 +56,22 @@ const breakdownLevel = computed(() => {
     return `${city.value}・${district.value}各村里戰況`
   if (city.value) return `${city.value}各區戰況`
   return '縣市戰況'
+})
+
+const barChartLabels = computed(() => {
+  const votesData = votes.value || []
+  return votesData.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
+})
+const barChartData = computed(() => {
+  const votesData = votes.value || []
+
+  return (currentCandidates.value || []).map(({ party: partyName }) => {
+    return {
+      label: partyName,
+      data: votesData.map((d) => d['候選人票數'][partyName]),
+      backgroundColor: party.colorMap[partyName],
+    }
+  })
 })
 
 onBeforeUnmount(() => {

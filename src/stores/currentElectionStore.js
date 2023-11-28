@@ -3,7 +3,6 @@ import { defineStore } from 'pinia'
 import { useCollection, useDocument } from 'vuefire'
 import { collectionRefs, documentRefs } from '@/plugins/firebase'
 import candidate from '@/data/candidate.json'
-import party from '@/data/party.json'
 
 export const useCurrentElectionStore = defineStore(
   'currentElectionStore',
@@ -56,22 +55,6 @@ export const useCurrentElectionStore = defineStore(
       }
     })
 
-    const barChartLabels = computed(() => {
-      const votesData = votes.value || []
-      return votesData.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
-    })
-    const barChartData = computed(() => {
-      const votesData = votes.value || []
-
-      return (currentCandidates.value || []).map(({ party: partyName }) => {
-        return {
-          label: partyName,
-          data: votesData.map((d) => d['候選人票數'][partyName]),
-          backgroundColor: party.colorMap[partyName],
-        }
-      })
-    })
-
     function reset() {
       city.value = ''
       district.value = ''
@@ -87,8 +70,6 @@ export const useCurrentElectionStore = defineStore(
       voteMapData,
       pieChartData,
       currentSummary,
-      barChartLabels,
-      barChartData,
       reset,
     }
   },
