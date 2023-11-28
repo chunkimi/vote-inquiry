@@ -2,7 +2,6 @@
 .icon-vote-stamp {
   width: 24px;
   height: 24px;
-  background-image: url('src/assets/icons/vote-stamp.svg');
   background-size: cover;
   vertical-align: -3px;
 }
@@ -13,6 +12,7 @@
     <span
       v-if="icon === 'vote-stamp'"
       class="d-inline-block icon-vote-stamp"
+      :style="{ backgroundImage: `url(${voteStampPath})` }"
     ></span>
     <i v-else-if="icon" class="bi" :class="icon"></i>
     {{ text }}
@@ -23,6 +23,7 @@
 </template>
 
 <script setup>
+import voteStampPath from '@/assets/icons/vote-stamp.svg'
 defineProps({
   text: {
     type: String,
