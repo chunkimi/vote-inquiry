@@ -1,11 +1,11 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-// import App from '../App.vue'
 import MainLayout from '../views/MainLayout.vue'
 import HomeView from '../views/HomeView.vue'
 import AnalysisView from '../views/AnalysisView.vue'
 import PastElectionsView from '../views/PastElectionsView.vue'
 import PastAnalysisView from '../views/PastAnalysisView.vue'
 import CandidateView from '../views/CandidateView.vue'
+import PageNotFoundView from '../views/PageNotFoundView.vue'
 
 const routes = [
   {
@@ -43,6 +43,15 @@ const routes = [
         component: CandidateView,
       },
     ],
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: PageNotFoundView,
+  },
+  {
+    path: '/:pathMatch(.*)',
+    redirect: '/404',
   },
 ]
 
