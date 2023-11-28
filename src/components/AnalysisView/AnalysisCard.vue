@@ -10,9 +10,6 @@
 .icon-vote-stamp {
   width: 18px;
   height: 18px;
-  background-image: url('src/assets/icons/vote-stamp.svg');
-  background-size: cover;
-  vertical-align: -3px;
 }
 
 .analysis-card__footer {
