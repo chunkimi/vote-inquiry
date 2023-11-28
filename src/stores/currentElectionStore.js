@@ -49,10 +49,14 @@ export const useCurrentElectionStore = defineStore(
     const pieChartData = computed(() => {
       const votes = (currentSummary.value || {})['候選人票數'] || {}
 
-      return {
-        data: Object.values(votes),
-        labels: Object.keys(votes),
-      }
+      return currentCandidates.value.reduce(
+        (res, { party: partyName }) => {
+          res.data.push(votes[partyName] || 0)
+          res.labels.push(partyName)
+          return res
+        },
+        { data: [], labels: [] },
+      )
     })
 
     function reset() {

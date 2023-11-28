@@ -35,7 +35,7 @@
       <p class="fs-5 fw-semibold text-center">開票率：100.0%</p>
       <ul class="list-group list-group-flush">
         <li
-          v-for="(count, party, i) in vote['候選人票數']"
+          v-for="({ count, party }, i) in list"
           :key="i"
           class="list-group-item text-primary d-flex justify-content-between align-items-center gap-2"
         >
@@ -91,12 +91,27 @@ const title = computed(() => {
   return props.vote['村里別'] ? props.vote['村里別'] : props.vote['行政區別']
 })
 
+const list = computed(() => {
+  const votes = (props.vote || {})['候選人票數'] || {}
+  return currentCandidates.value.reduce((res, { party: partyName }) => {
+    res.push({
+      party: partyName,
+      count: votes[partyName],
+    })
+    return res
+  }, [])
+})
+
 const donutChartData = computed(() => {
   const votes = (props.vote || {})['候選人票數'] || {}
-  return {
-    labels: Object.keys(votes),
-    data: Object.values(votes),
-  }
+  return currentCandidates.value.reduce(
+    (res, { party: partyName }) => {
+      res.data.push(votes[partyName] || 0)
+      res.labels.push(partyName)
+      return res
+    },
+    { data: [], labels: [] },
+  )
 })
 
 const stackedBarChartData = computed(() => {
