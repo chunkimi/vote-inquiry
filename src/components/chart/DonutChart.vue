@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <canvas :id="`pie-chart-${id}`"></canvas>
+    <canvas :id="`donut-chart-${id}`"></canvas>
   </div>
 </template>
 
@@ -17,10 +17,6 @@ const props = defineProps({
   data: {
     type: Object,
     required: true,
-  },
-  legendPosition: {
-    type: String,
-    default: 'bottom',
   },
 })
 
@@ -41,10 +37,12 @@ watch(
 async function renderChart() {
   await nextTick()
 
-  const ctx = document.getElementById(`pie-chart-${props.id}`).getContext('2d')
+  const ctx = document
+    .getElementById(`donut-chart-${props.id}`)
+    .getContext('2d')
 
   const config = {
-    type: 'pie',
+    type: 'doughnut',
     data: {
       labels: props.data.labels,
       datasets: [
@@ -58,12 +56,12 @@ async function renderChart() {
     },
     options: {
       responsive: true,
+      layout: {
+        padding: 30,
+      },
       plugins: {
         legend: {
-          position: props.legendPosition,
-          labels: {
-            boxWidth: 21,
-          },
+          display: false,
         },
       },
     },

@@ -1,21 +1,31 @@
+<style lang="scss" scoped>
+.bar-chart {
+  width: 100%;
+  height: 300px;
+}
+</style>
+
 <template>
-  <div class="text-center">
-    <canvas :id="`pie-chart-${id}`"></canvas>
+  <div class="bar-chart text-center">
+    <canvas :id="`bar-chart-${id}`"></canvas>
   </div>
 </template>
 
 <script setup>
-import { watch, nextTick } from 'vue'
+import { watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
-import party from '@/data/party.json'
 
 const props = defineProps({
   id: {
     type: String,
     required: true,
   },
+  labels: {
+    type: Array,
+    required: true,
+  },
   data: {
-    type: Object,
+    type: Array,
     required: true,
   },
   legendPosition: {
@@ -38,29 +48,33 @@ watch(
   { deep: true, immediate: true },
 )
 
+onBeforeUnmount(() => {
+  chart.destroy()
+})
+
 async function renderChart() {
   await nextTick()
 
-  const ctx = document.getElementById(`pie-chart-${props.id}`).getContext('2d')
+  const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
 
   const config = {
-    type: 'pie',
+    type: 'bar',
     data: {
-      labels: props.data.labels,
-      datasets: [
-        {
-          data: props.data.data,
-          backgroundColor: props.data.labels.map(
-            (name) => party.colorMap[name],
-          ),
-        },
-      ],
+      labels: props.labels,
+      datasets: props.data,
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
+      elements: {
+        bar: {
+          borderRadius: 4,
+        },
+      },
       plugins: {
         legend: {
           position: props.legendPosition,
+          align: 'start',
           labels: {
             boxWidth: 21,
           },
@@ -73,11 +87,8 @@ async function renderChart() {
 }
 
 function updateChart() {
-  chart.data.labels = props.data.labels
-  chart.data.datasets[0].data = props.data.data
-  ;(chart.data.datasets[0].backgroundColor = props.data.labels.map(
-    (name) => party.colorMap[name],
-  )),
-    chart.update()
+  chart.data.labels = props.labels
+  chart.data.datasets = props.data
+  chart.update()
 }
 </script>

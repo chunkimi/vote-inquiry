@@ -68,6 +68,10 @@ v18.18.2
 - 選擇 [topojson](src/data/tw-topo.json) 的格式，大幅縮減檔案大小，從大約 10MB 縮減到 49KB
 - 使用 `COUNTYID` 作為辨識行政區的代碼，避免行政區名稱不同，例如：桃園市 和 桃園縣，詳情可見匹配表 [src/data/city_id_map.json](src/data/city_id_map.json)。
 
+#### Variables Naming Consistency
+
+- 因為有遇到地圖提供的縣市名稱是 county, 但在前期已經使用 city 作為變數名稱，最後決定維持資料一致性， firebase 上的資料也使用 City 作為 id 名稱。
+
 #### git
 
 ##### git flow
