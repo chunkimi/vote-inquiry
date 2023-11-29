@@ -1,14 +1,4 @@
-<style lang="scss">
-@import '@/styles/main.scss';
-.voteSum__card {
-  width: 100%;
-  height: 100%;
-  min-height: 114px;
-  @include media-breakpoint-up(md) {
-    min-height: 244px;
-  }
-}
-
+<style lang="scss" scoped>
 .party-info-base {
   &__logo--shorten {
     width: 24px;
@@ -65,7 +55,7 @@
             <div class="mb-2 d-flex justify-content-between align-items-center">
               <h5 class="h5">得票數</h5>
               <h5 class="h5">
-                <span class="text-dang">{{
+                <span class="text-danger">{{
                   commaNumber(dummyData.voteNum)
                 }}</span
                 >票
@@ -83,7 +73,7 @@
               <p>所屬政黨</p>
               <div class="d-flex align-items-center">
                 <span
-                  class="party-info--base__logo--shorten rounded-circle fs-7 d-inline-block text-center bg-warning"
+                  class="party-info-base__logo--shorten rounded-circle fs-7 d-inline-block text-center bg-warning"
                   >{{ dummyData.candidate.abbreviation }}</span
                 >
                 <p>

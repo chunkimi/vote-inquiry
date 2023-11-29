@@ -6,10 +6,6 @@
   height: 100%;
   min-height: 268px;
 }
-
-.text--gray600 {
-  color: $gray-600;
-}
 </style>
 <template>
   <div class="row">
@@ -29,17 +25,17 @@
           </h4>
         </div>
         <ul class="list-unstyled">
-          <li class="text--gray600">
+          <li class="text-gray-600">
             得票優勢縣市數：<span class="text-danger">{{
               dummyData.advantageCityNum
             }}</span>
           </li>
-          <li class="text--gray600">
+          <li class="text-gray-600">
             得票率最高縣市：<span class="text-danger">{{
               dummyData.heightRateCity
             }}</span>
           </li>
-          <li class="text--gray600">
+          <li class="text-gray-600">
             得票率最低縣市：<span class="text-danger">{{
               dummyData.lowestRateCit
             }}</span>

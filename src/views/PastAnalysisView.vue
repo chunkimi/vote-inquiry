@@ -47,6 +47,7 @@
   </div>
 </template>
 <script setup>
+import { ref } from 'vue'
 // Components
 import TermMenu from '@/components/common/TermMenu.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
@@ -60,8 +61,8 @@ import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 // dummy data
 // Term Menu Data
 const years = ['2020', '2016', '2012']
-let curYear = '2020'
+let curYear = ref('2020')
 const switchMenu = (year) => {
-  curYear = year
+  curYear.value = year
 }
 </script>
