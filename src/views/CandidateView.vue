@@ -1,42 +1,37 @@
 <template>
   <h1 class="h2 fw-bold text-center">歷屆候選公僕名單</h1>
+  <p>選擇的值: {{ curYear }}</p>
   <div v-if="!isLoading">
-    <TermMenu
-      :election-Years="years"
-      :specify-Year="curYear"
-      @change-Year="switchMenu"
-    ></TermMenu>
-    <CandidateInfo
+    <div class="d-flex justify-content-center mb-8">
+      <TermMenu
+        :election-Years="years"
+        v-model:selected-Year="curYear"
+      ></TermMenu>
+    </div>
+    <!-- <CandidateInfo
       :specify-Year="curYear"
       :election-Parties="parties"
       :election-Data="curData"
-    ></CandidateInfo>
+    ></CandidateInfo> -->
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
-// 原始資料
-import candidateData from '@/data/candidate.json'
-import { filterCandidateDataType } from '@/utils/candidateFilter'
-import CandidateInfo from '@/components/CandidateInfo.vue'
+
+// import CandidateInfo from '@/components/CandidateInfo.vue'
 import TermMenu from '@/components/common/TermMenu.vue'
 
+import candidateData from '@/data/candidate.json'
+import { allYears, allParties } from '@/utils/electionInfo'
+
 // 資料統計：年份、政黨
-const years = ref(null)
-const parties = ref(null)
+const years = ref(allYears)
+const parties = ref(allParties)
 // 指定年份數據
-const curYear = ref(null)
+const curYear = ref('')
 const curData = ref(null)
 const isLoading = ref(true)
-// methods
-const getYearData = (data) => {
-  years.value = filterCandidateDataType(data, 'election_year')
-}
-
-const getPartyData = (data) => {
-  parties.value = filterCandidateDataType(data, 'party')
-}
 
 const getCandidateInfo = (year, candidate) => {
   isLoading.value = true
@@ -47,14 +42,12 @@ const getCandidateInfo = (year, candidate) => {
   isLoading.value = false
 }
 
-const switchMenu = (year) => {
-  curYear.value = year
-  getCandidateInfo(year, candidateData)
-}
+// const switchMenu = (year) => {
+//   curYear.value = year
+//   getCandidateInfo(year, candidateData)
+// }
 
 const init = () => {
-  getYearData(candidateData)
-  getPartyData(candidateData)
   if (years.value.length > 0 && parties.value.length > 0) {
     getCandidateInfo('2020', candidateData)
     isLoading.value = false
