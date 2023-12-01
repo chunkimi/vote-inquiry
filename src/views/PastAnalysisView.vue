@@ -1,9 +1,10 @@
 <template>
-  <TermMenu
-    :election-Years="years"
-    :specify-Year="curYear"
-    @change-Year="switchMenu"
-  ></TermMenu>
+  <div class="d-flex justify-content-center mb-8">
+    <TermMenu
+      :election-Years="years"
+      v-model:selected-Year="curYear"
+    ></TermMenu>
+  </div>
   <h2 class="h2 mb-8 text-end">
     <span class="text-danger">2020</span> 年總統大選
   </h2>

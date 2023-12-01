@@ -8,53 +8,41 @@
         v-model:selected-Year="curYear"
       ></TermMenu>
     </div>
-    <!-- <CandidateInfo
+    <CandidateInfo
       :specify-Year="curYear"
       :election-Parties="parties"
       :election-Data="curData"
-    ></CandidateInfo> -->
+    ></CandidateInfo>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 
-// import CandidateInfo from '@/components/CandidateInfo.vue'
 import TermMenu from '@/components/common/TermMenu.vue'
+import CandidateInfo from '@/components/CandidateInfo.vue'
 
 import candidateData from '@/data/candidate.json'
 import { allYears, allParties } from '@/utils/electionInfo'
 
-// 資料統計：年份、政黨
 const years = ref(allYears)
 const parties = ref(allParties)
-// 指定年份數據
+
 const curYear = ref('')
 const curData = ref(null)
 const isLoading = ref(true)
 
 const getCandidateInfo = (year, candidate) => {
   isLoading.value = true
-  curYear.value = year
-  curData.value = candidate.filter(
-    (item) => item.election_year == curYear.value,
-  )
+  curData.value = candidate.filter((item) => item.election_year == year)
   isLoading.value = false
 }
 
-// const switchMenu = (year) => {
-//   curYear.value = year
-//   getCandidateInfo(year, candidateData)
-// }
-
-const init = () => {
-  if (years.value.length > 0 && parties.value.length > 0) {
-    getCandidateInfo('2020', candidateData)
-    isLoading.value = false
-  }
-}
+watch([curYear], () => {
+  getCandidateInfo(curYear.value, candidateData)
+})
 
 onMounted(() => {
-  init()
+  curYear.value = '2020'
 })
 </script>

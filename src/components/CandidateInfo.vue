@@ -1,21 +1,8 @@
-<style lang="scss">
-@import '@/styles/main.scss';
-.card {
-  &__content {
-    width: 100%;
-    max-width: 544px;
-    margin: 0 auto;
-    & p {
-      margin-bottom: 0.25rem;
-    }
-  }
-}
-</style>
 <template>
   <div class="row">
     <div
       class="col-12 mb-4"
-      v-for="(candidate, index) in candidateData"
+      v-for="(candidate, index) in candidatesData"
       :key="index"
     >
       <div class="card w-100">
@@ -121,7 +108,7 @@
   </div>
 </template>
 <script setup>
-import { toRefs, computed } from 'vue'
+import { ref, toRefs, onMounted, watch } from 'vue'
 import { filterSameSession, getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({
@@ -132,13 +119,24 @@ const props = defineProps({
 
 const { specifyYear, electionParties, electionData } = toRefs(props)
 
-const candidateData = computed(() => {
-  if (!specifyYear.value || !electionParties.value || !electionData.value)
+const candidatesData = ref([])
+
+const updateCandidatesData = () => {
+  if (!specifyYear.value || !electionParties.value || !electionData.value) {
     return []
-  return filterSameSession(
-    specifyYear.value,
-    electionParties.value,
-    electionData.value,
-  )
+  } else {
+    return filterSameSession(
+      specifyYear.value,
+      electionParties.value,
+      electionData.value,
+    )
+  }
+}
+
+watch([specifyYear], () => {
+  candidatesData.value = updateCandidatesData()
+})
+onMounted(() => {
+  candidatesData.value = updateCandidatesData()
 })
 </script>

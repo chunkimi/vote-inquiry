@@ -19,22 +19,9 @@
       <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
     </template>
   </div>
-  <!-- <div>
-    <ul class="list-unstyled d-flex justify-content-center">
-      <li
-        class="horizontalList__item"
-        v-for="year in electionYears"
-        :key="year"
-        :class="{ checked: year === specifyYear }"
-      >
-        <span v-if="year === specifyYear"> {{ year }}</span>
-        <span v-else @click.prevent="changeYear(year)"> {{ year }}</span>
-      </li>
-    </ul>
-  </div> -->
 </template>
 <script setup>
-import { ref, watch, toRefs } from 'vue'
+import { ref, toRefs, watch } from 'vue'
 
 const props = defineProps({
   electionYears: Array,
@@ -48,16 +35,4 @@ const yearModal = ref(selectedYear.value)
 watch(yearModal, (newValue) => {
   emit('update:selected-Year', newValue)
 })
-
-// import { toRefs } from 'vue'
-
-// const props = defineProps({
-//   electionYears: Array,
-//   selectedYear: String,
-// })
-// const emit = defineEmits(['changeYear'])
-
-// const { electionYears, selectedYear } = toRefs(props)
-// const changeYear = (year) => emit('changeYear', year)
-// console.log(selectedYear.value)
 </script>
