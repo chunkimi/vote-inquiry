@@ -1,6 +1,5 @@
 <template>
   <h1 class="h2 fw-bold text-center">歷屆候選公僕名單</h1>
-  <p>選擇的值: {{ curYear }}</p>
   <div v-if="!isLoading">
     <div class="d-flex justify-content-center mb-8">
       <TermMenu
