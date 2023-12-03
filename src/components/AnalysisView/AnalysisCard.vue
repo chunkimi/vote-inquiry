@@ -1,12 +1,4 @@
 <style lang="scss" scoped>
-.party-info {
-  &__logo--shorten {
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-  }
-}
-
 .icon-vote-stamp {
   width: 18px;
   height: 18px;

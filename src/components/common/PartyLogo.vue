@@ -1,8 +1,15 @@
+<style lang="scss" scoped>
+.party-logo--shorten {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+</style>
 <template>
   <span
-    v-if="size === 'shorten' || !logoSrc"
+    v-if="size === 'shorten' || logoSrc.includes('undefined')"
     :class="`bg-${partyMap.codeMap[party]}`"
-    class="party-info__logo--shorten rounded-circle fs-7 d-inline-block text-center"
+    class="party-logo--shorten rounded-circle fs-7 d-inline-block text-center"
   >
     {{ shortenPartyName[party] }}
   </span>
