@@ -58,10 +58,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  partyLogo: {
-    type: String,
-    required: true,
-  },
   avatar: {
     type: String,
     required: true,
