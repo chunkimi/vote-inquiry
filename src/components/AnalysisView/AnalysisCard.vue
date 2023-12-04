@@ -1,12 +1,4 @@
 <style lang="scss" scoped>
-.party-info {
-  &__logo--shorten {
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-  }
-}
-
 .icon-vote-stamp {
   width: 18px;
   height: 18px;
@@ -37,12 +29,7 @@
           class="list-group-item text-primary d-flex justify-content-between align-items-center gap-2"
         >
           <span class="party-info d-inline-flex align-items-center gap-2">
-            <span
-              :class="`bg-${partyMap.codeMap[party]}`"
-              class="party-info__logo--shorten rounded-circle fs-7 d-inline-block text-center"
-            >
-              {{ party.charAt(0) }}
-            </span>
+            <PartyLogo :party="party" size="shorten" />
             <span class="fs-5">{{ party }}</span>
             <span
               v-if="party === winner"
@@ -70,6 +57,7 @@ import { useCurrentElectionStore } from '@/stores/currentElectionStore'
 import { useMediaQuery } from '@vueuse/core'
 import DonutChart from '@/components/chart/DonutChart.vue'
 import StackedBarChart from '@/components/chart/StackedBarChart.vue'
+import PartyLogo from '@/components/common/PartyLogo.vue'
 import partyMap from '@/data/party.json'
 
 const isMobile = useMediaQuery('(max-width: 767px)')

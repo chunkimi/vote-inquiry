@@ -1,13 +1,7 @@
 <template>
   <div class="d-flex px-2 px-lg-12 py-4 gap-8 align-items-center">
     <p class="h3 d-none d-md-block">{{ id }}號</p>
-    <img
-      :src="partyLogo"
-      class="rounded-circle d-none d-lg-block"
-      alt="party-logo"
-      width="100"
-      height="100"
-    />
+    <PartyLogo :party="party" />
     <div class="d-grid gap-1">
       <img
         :src="avatar"
@@ -48,6 +42,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { useElementSize } from '@vueuse/core'
+import PartyLogo from '@/components/common/PartyLogo.vue'
 import partyMap from '@/data/party.json'
 
 const props = defineProps({
@@ -60,10 +55,6 @@ const props = defineProps({
     required: true,
   },
   party: {
-    type: String,
-    required: true,
-  },
-  partyLogo: {
     type: String,
     required: true,
   },
