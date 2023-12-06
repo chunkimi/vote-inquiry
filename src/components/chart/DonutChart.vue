@@ -4,23 +4,23 @@
   </div>
 </template>
 
-<script setup>
-import { watch, nextTick } from 'vue'
+<script lang="ts" setup>
+import { watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
 import party from '@/data/party.json'
+import type { CandidateVotes } from '@/types'
 
-const props = defineProps({
-  id: {
-    type: String,
-    required: true,
-  },
+type DonutChart = Chart<'doughnut', number[], keyof CandidateVotes>
+
+const props = defineProps<{
+  id: string
   data: {
-    type: Object,
-    required: true,
-  },
-})
+    data: number[]
+    labels: (keyof CandidateVotes)[]
+  }
+}>()
 
-let chart = null
+let chart: DonutChart | null = null
 
 watch(
   () => props.data,
@@ -34,14 +34,21 @@ watch(
   { deep: true, immediate: true },
 )
 
+onBeforeUnmount(() => {
+  chart?.destroy()
+})
+
 async function renderChart() {
   await nextTick()
 
-  const ctx = document
-    .getElementById(`donut-chart-${props.id}`)
-    .getContext('2d')
+  const canvasElement = document.getElementById(
+    `donut-chart-${props.id}`,
+  ) as HTMLCanvasElement | null
 
-  const config = {
+  const ctx = canvasElement?.getContext('2d')
+  if (!ctx) return
+
+  const config: DonutChart['config'] = {
     type: 'doughnut',
     data: {
       labels: props.data.labels,
@@ -71,6 +78,7 @@ async function renderChart() {
 }
 
 function updateChart() {
+  if (!chart) return
   chart.data.labels = props.data.labels
   chart.data.datasets[0].data = props.data.data
   ;(chart.data.datasets[0].backgroundColor = props.data.labels.map(

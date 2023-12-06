@@ -29,7 +29,7 @@
   </router-link>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
@@ -46,8 +46,8 @@ const { currentCandidates, electionSummary, voteMapData, pieChartData } =
 
 const summary = computed(() =>
   currentCandidates.value.map(({ candidate_id, name, party, avatar_url }) => {
-    const count = electionSummary.value['候選人票數'][party]
-    const validVotes = electionSummary.value['有效票數']
+    const count = electionSummary.value?.候選人票數?.[party] || 0
+    const validVotes = electionSummary.value?.有效票數 || 0
     const percentage = (count / validVotes) * 100
     return {
       id: candidate_id,

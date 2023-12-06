@@ -39,38 +39,20 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, computed } from 'vue'
 import { useElementSize } from '@vueuse/core'
 import PartyLogo from '@/components/common/PartyLogo.vue'
 import partyMap from '@/data/party.json'
 
-const props = defineProps({
-  id: {
-    type: [String, Number],
-    required: true,
-  },
-  name: {
-    type: String,
-    required: true,
-  },
-  party: {
-    type: String,
-    required: true,
-  },
-  avatar: {
-    type: String,
-    required: true,
-  },
-  count: {
-    type: String,
-    required: true,
-  },
-  percentage: {
-    type: Number,
-    required: true,
-  },
-})
+const props = defineProps<{
+  id: string | number
+  name: string
+  party: keyof typeof partyMap.codeMap
+  avatar: string
+  count: string
+  percentage: number
+}>()
 
 const progressBarPercentage = ref(null)
 const { width: progressBarWidth } = useElementSize(progressBarPercentage)

@@ -7,6 +7,7 @@ module.exports = {
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/eslint-config-prettier/skip-formatting',
+    '@vue/eslint-config-typescript/recommended',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
