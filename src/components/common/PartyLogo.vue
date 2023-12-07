@@ -23,20 +23,20 @@
   />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import partyMap from '@/data/party.json'
+import type { CandidateVotes } from '@/types'
 
-const props = defineProps({
-  party: {
-    type: String,
-    required: true,
+const props = withDefaults(
+  defineProps<{
+    party: keyof typeof partyMap.codeMap
+    size?: 'default' | 'shorten'
+  }>(),
+  {
+    size: 'default',
   },
-  size: {
-    type: String,
-    default: 'default',
-  },
-})
+)
 
 const logoSrc = computed(() => {
   return new URL(
@@ -45,7 +45,7 @@ const logoSrc = computed(() => {
   ).href
 })
 
-const shortenPartyName = {
+const shortenPartyName: Record<keyof CandidateVotes, string> = {
   金色曠野同盟: '野',
   蔚藍海岸陣線: '海',
   鬱蔥雨林聯盟: '林',

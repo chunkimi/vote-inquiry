@@ -38,7 +38,7 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
@@ -56,30 +56,35 @@ const path = computed(
       import.meta.url,
     ).href,
 )
-const { data } = useFetch(path, { refetch: true }).get().json()
 
-const regions = ['北部', '中部', '南部', '東部', '離島']
-const cityList = computed(() => Object.keys(data.value || {}))
+type City = keyof typeof city_id_map
+type CityID = keyof typeof city_id_section_map
+
+const { data } = useFetch(path, { refetch: true })
+  .get()
+  .json<{ [key in City]: string[] }>()
+
+const regions = ['北部', '中部', '南部', '東部', '離島'] as const
+const cityList = computed<City[]>(() => Object.keys(data.value || {}) as City[])
 const regionData = computed(() => {
-  return regions.reduce((res, region) => {
-    const cites = cityList.value.filter((city) => {
-      const cityId = city_id_map[city]
-      const regionName = city_id_section_map[cityId]
-      return regionName === region
-    })
+  return regions.reduce(
+    (res, region) => {
+      const cites = cityList.value.filter((city) => {
+        const cityId = city_id_map[city] as CityID
+        const regionName = city_id_section_map[cityId]
+        return regionName === region
+      })
 
-    if (cites.length === 0) return res
+      if (cites.length === 0) return res
 
-    res[region] ??= []
-    res[region].push(...cites)
+      res[region] ??= []
+      res[region].push(...cites)
 
-    return res
-  }, {})
+      return res
+    },
+    {} as {
+      [key in (typeof regions)[number]]: string[]
+    },
+  )
 })
 </script>
-
-<!-- "北部": ["A", "F", "C", "H", "J", "O"],
-"中部": ["K", "B", "L", "N", "M", "P"],
-"南部": ["Q", "I", "D", "R", "E", "S", "T"],
-"東部": ["G", "U", "V"],
-"離島": ["W", "Z", "X"], -->

@@ -4,31 +4,43 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, computed, watch, nextTick } from 'vue'
 import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
+import { Feature, Geometry } from 'geojson'
+import { Topology, Objects, GeometryCollection } from 'topojson-specification'
 import taiwanTopojson from '@/data/tw-topo.json'
-import cityIdMap from '@/data/city_id_map.json'
+import city_id_map from '@/data/city_id_map.json'
 import partyMap from '@/data/party.json'
+import type { VoteMapData } from '@/types'
 
-const props = defineProps({
-  data: {
-    type: Array, // [{ city, party }], e.g. { city: '臺北市', party: '金色曠野同盟', count: 213 }
-    required: true,
-  },
-})
+const props = defineProps<{
+  data: VoteMapData[]
+}>()
+
+type City = typeof city_id_map
 
 const voteMapData = computed(() => {
-  return (props.data || []).reduce((acc, { city, party, count }) => {
-    acc[cityIdMap[city]] = {
-      city,
-      party,
-      color: partyMap.colorMap[party],
-      count,
-    }
-    return acc
-  }, {})
+  return props.data.reduce(
+    (res, { city, party, count }) => {
+      res[city_id_map[city as keyof City]] = {
+        city,
+        party,
+        color: partyMap.colorMap[party],
+        count,
+      }
+      return res
+    },
+    {} as {
+      [key in City[keyof City]]: {
+        city: string
+        party: string
+        color: string
+        count: number
+      }
+    },
+  )
 })
 
 const mapRendered = ref(false)
@@ -45,6 +57,22 @@ watch(
   },
   { immediate: true },
 )
+
+interface GeoJsonObjects extends Objects {
+  tw: {
+    type: 'GeometryCollection'
+    geometries: {
+      arcs: number[][][]
+      type: 'MultiPolygon'
+      properties: {
+        COUNTYID: string
+        COUNTYCODE: City[keyof City]
+        COUNTYNAME: string
+        COUNTYENG: string
+      }
+    }[]
+  }
+}
 
 async function drawMap() {
   await nextTick()
@@ -63,7 +91,10 @@ async function drawMap() {
   svg
     .selectAll('path')
     .data(
-      topojson.feature(taiwanTopojson, taiwanTopojson.objects['tw']).features,
+      topojson.feature(
+        taiwanTopojson as Topology<GeoJsonObjects>,
+        taiwanTopojson.objects['tw'] as GeometryCollection,
+      ).features,
     )
     .enter()
     .append('path')
@@ -71,15 +102,24 @@ async function drawMap() {
     .attr('fill', fillMap)
     .attr('stroke', '#fff')
     .attr('stroke-width', 1)
-    .on('mouseover', showTooltip)
+    .on('mouseover', (event: MouseEvent, d: Feature<Geometry, unknown>) =>
+      showTooltip(event, d),
+    )
 }
 
-let timer = null
-let tooltip = null
-function showTooltip(event, d) {
+let timer: ReturnType<typeof setTimeout> | null = null
+let tooltip: d3.Selection<HTMLDivElement, unknown, HTMLElement, null> | null =
+  null
+
+function showTooltip(event: MouseEvent, datum: Feature<Geometry, unknown>) {
+  const d = datum as Pick<
+    GeoJsonObjects['tw']['geometries'][number],
+    'properties'
+  >
+
   if (!tooltip) {
     tooltip = d3
-      .select('#app main')
+      .select<HTMLElement | null, unknown>('#app main')
       .append('div')
       .style('position', 'absolute')
       .style('opacity', 0)
@@ -88,7 +128,7 @@ function showTooltip(event, d) {
       .style('padding', '5px 15px')
   }
 
-  clearTimeout(timer)
+  if (timer) clearTimeout(timer)
 
   const row = voteMapData.value[d.properties.COUNTYID] ?? {}
 
@@ -107,7 +147,7 @@ function showTooltip(event, d) {
     .style('top', event.pageY - 28 + 'px')
 
   timer = setTimeout(
-    () => tooltip.transition().duration(500).style('opacity', 0),
+    () => tooltip?.transition().duration(500).style('opacity', 0),
     1000,
   )
 }
@@ -119,7 +159,12 @@ async function updateMap() {
   svg.selectAll('path').attr('fill', fillMap)
 }
 
-function fillMap(d) {
+const fillMap: d3.ValueFn<
+  d3.BaseType,
+  unknown,
+  string | number | boolean | readonly (string | number)[] | null
+> = function (datum) {
+  const d = datum as GeoJsonObjects['tw']['geometries'][number]
   const row = voteMapData.value[d.properties.COUNTYID]
   return row && row.color ? row.color : '#eee'
 }

@@ -11,26 +11,19 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
 
-const props = defineProps({
-  id: {
-    type: String,
-    required: true,
-  },
-  labels: {
-    type: Array,
-    required: true,
-  },
-  data: {
-    type: Array,
-    required: true,
-  },
-})
+type StackedBarChart = Chart<'bar', number[], string>
 
-let chart = null
+const props = defineProps<{
+  id: string
+  labels: StackedBarChart['data']['labels']
+  data: StackedBarChart['data']['datasets']
+}>()
+
+let chart: StackedBarChart | null = null
 
 watch(
   () => props.data,
@@ -45,17 +38,20 @@ watch(
 )
 
 onBeforeUnmount(() => {
-  chart.destroy()
+  chart?.destroy()
 })
 
 async function renderChart() {
   await nextTick()
 
-  const ctx = document
-    .getElementById(`stacked-chart-${props.id}`)
-    .getContext('2d')
+  const canvasElement = document.getElementById(
+    `stacked-chart-${props.id}`,
+  ) as HTMLCanvasElement | null
 
-  const config = {
+  const ctx = canvasElement?.getContext('2d')
+  if (!ctx) return
+
+  const config: StackedBarChart['config'] = {
     type: 'bar',
     data: {
       labels: ['票數'],
@@ -94,13 +90,16 @@ async function renderChart() {
 }
 
 function updateChart() {
+  if (!chart) return
   chart.data.labels = props.labels
   chart.data.datasets = props.data
-  chart.options.scales.x.max = sumData(props.data)
+  if (chart.options.scales?.x) {
+    chart.options.scales.x.max = sumData(props.data)
+  }
   chart.update()
 }
 
-function sumData(data) {
+function sumData(data: StackedBarChart['data']['datasets']) {
   return data.reduce((res, { data }) => (res += Number(data)), 0)
 }
 </script>

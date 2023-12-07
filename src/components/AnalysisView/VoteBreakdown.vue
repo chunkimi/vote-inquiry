@@ -10,13 +10,11 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import AnalysisCard from '@/components/AnalysisView/AnalysisCard.vue'
+import type { VoteData } from '@/types'
 
-defineProps({
-  votes: {
-    type: Array,
-    required: true,
-  },
-})
+defineProps<{
+  votes: VoteData[]
+}>()
 </script>

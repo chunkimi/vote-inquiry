@@ -48,23 +48,21 @@
   </form>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref, computed, watch } from 'vue'
 import { useFetch } from '@vueuse/core'
 
 const emit = defineEmits(['update:city', 'update:district'])
-const props = defineProps({
-  year: {
-    type: String, // '2020' | '2016' | '2012'
-    default: '2020',
+const props = withDefaults(
+  defineProps<{
+    year?: string
+    city: string
+    district: string
+  }>(),
+  {
+    year: '2020',
   },
-  city: {
-    type: String,
-  },
-  district: {
-    type: String,
-  },
-})
+)
 
 const path = computed(
   () =>
@@ -74,13 +72,15 @@ const path = computed(
     ).href,
 )
 
-const cityModel = ref('')
-const districtModel = ref('')
+const cityModel = ref<string>('')
+const districtModel = ref<string>('')
 
-const { data } = useFetch(path, { refetch: true }).get().json()
+const { data } = useFetch(path, { refetch: true })
+  .get()
+  .json<Record<string, string[]>>()
 
 const cityList = computed(() => Object.keys(data.value || {}))
-const districtList = computed(() => (data.value || {})[cityModel.value])
+const districtList = computed(() => data.value?.[cityModel.value])
 
 watch(cityModel, () => (districtModel.value = ''))
 watch(
