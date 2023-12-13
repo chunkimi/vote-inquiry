@@ -11,30 +11,20 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { watch, nextTick, onBeforeUnmount } from 'vue'
-import Chart from 'chart.js/auto'
+import Chart, { LegendOptions } from 'chart.js/auto'
 
-const props = defineProps({
-  id: {
-    type: String,
-    required: true,
-  },
-  labels: {
-    type: Array,
-    required: true,
-  },
-  data: {
-    type: Array,
-    required: true,
-  },
-  legendPosition: {
-    type: String,
-    default: 'bottom',
-  },
-})
+type BarChart = Chart<'bar', number[], string>
 
-let chart = null
+const props = defineProps<{
+  id: string
+  labels: BarChart['data']['labels']
+  data: BarChart['data']['datasets']
+  legendPosition?: LegendOptions<'bar'>['position']
+}>()
+
+let chart: BarChart | null = null
 
 watch(
   () => props.data,
@@ -49,15 +39,20 @@ watch(
 )
 
 onBeforeUnmount(() => {
-  chart.destroy()
+  chart?.destroy()
 })
 
 async function renderChart() {
   await nextTick()
 
-  const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
+  const canvasElement = document.getElementById(
+    `bar-chart-${props.id}`,
+  ) as HTMLCanvasElement | null
 
-  const config = {
+  const ctx = canvasElement?.getContext('2d')
+  if (!ctx) return
+
+  const config: BarChart['config'] = {
     type: 'bar',
     data: {
       labels: props.labels,
@@ -87,6 +82,7 @@ async function renderChart() {
 }
 
 function updateChart() {
+  if (!chart) return
   chart.data.labels = props.labels
   chart.data.datasets = props.data
   chart.update()

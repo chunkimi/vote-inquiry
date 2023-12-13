@@ -50,6 +50,10 @@ v18.18.2
 - [commitlint](https://github.com/conventional-changelog/commitlint)
 - [husky](https://typicode.github.io/husky/)
 
+## Plugin Upgrade tool
+
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+
 ## 部署
 
 - [Github Pages](https://vitejs.dev/guide/static-deploy.html#github-pages)
