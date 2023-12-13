@@ -115,6 +115,9 @@
 import { computed } from 'vue'
 import { filterSameSession, getImageUrl } from '@/utils/candidateFilter.js'
 
+/**
+ * 解說：如果是必要的值，可以加上 required: true，這樣就不用在判斷是否有值，像是 if (!specifyYear) { return [] } 這樣的判斷
+ */
 const props = defineProps({
   specifyYear: {
     type: String,
