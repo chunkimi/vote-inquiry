@@ -71,8 +71,6 @@
 </template>
 
 <script setup>
-console.clear()
-import { computed } from 'vue'
 import candidateData from '@/data/candidate.json'
 import { allYears } from '@/utils/electionInfo'
 import { votesNationalData } from '@/utils/votesNational.js'
