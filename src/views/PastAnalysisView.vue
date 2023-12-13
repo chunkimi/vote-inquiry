@@ -1,8 +1,8 @@
 <template>
   <div class="d-flex justify-content-center mb-8">
     <TermMenu
-      :election-Years="allYears"
-      v-model:selected-Year="curYear"
+      :election-years="allYears"
+      v-model:selected-year="curYear"
     ></TermMenu>
   </div>
   <h2 class="h2 mb-8 text-end">
@@ -60,5 +60,5 @@ import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 
-let curYear = ref('2020')
+const curYear = ref(allYears[0])
 </script>
