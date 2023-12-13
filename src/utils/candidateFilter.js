@@ -5,24 +5,25 @@ export const getImageUrl = (path) => {
 
 
 // 篩選同一年度整組候選人
-export const filterSameSession = (year, parties, originData) => {
-  let result = []
-  let specifyYearData = originData.filter((item) => item.election_year == year)
-  parties.forEach((curParty) => {
-    let samePartyData = specifyYearData.filter(
-      (item) => item.party === curParty,
-    )
-    let section = groupCandidates(samePartyData)
-    result.push({
-      party: curParty,
-      candidate_id: section.main.candidate_id,
-      ...section,
-    })
-  })
-  result.sort((a, b) => a.candidate_id - b.candidate_id)
-  return result
-}
+export const filterSameSession = (specifyYear, data) => {
+  let specifyYearData = data.filter(
+    (item) => item.election_year == specifyYear
+  );
+  const candidateIds = [
+    ...new Set(specifyYearData.map((item) => item.candidate_id))
+  ];
+  candidateIds.sort((a, b) => Number(a.candidate_id) - Number(b.candidate_id));
 
+  let result = candidateIds.map((id) => {
+    let people = groupCandidates(specifyYearData, id);
+    return {
+      candidate_id: id,
+      ...people,
+      party: people.main.party
+    };
+  });
+  return result;
+};
 // 篩選勝出者
 export const filterWinner = (years, originData) => {
   let result = []
@@ -69,11 +70,11 @@ export const getWinnerVotes = (yearsData, candidateData, voteData) => {
 }
 
 // 組合同政黨候選人
-export function groupCandidates(data) {
-  let main = data.find((item) => item.role === 0)
-  let vice = data.find((item) => item.role === 1)
-  let section = { main, vice }
-  return section
+export function groupCandidates(data, id) {
+  let main = data.find((item) => item.candidate_id === id && item.role === 0);
+  let vice = data.find((item) => item.candidate_id === id && item.role === 1);
+  let section = { main, vice };
+  return section;
 }
 
 // 輸出單一候選人資料（正、副）

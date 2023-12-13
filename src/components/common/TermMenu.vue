@@ -18,27 +18,33 @@
         :name="year"
         :id="year"
         :value="year"
-        :class="{ active: year == selectedYear }"
         v-model="yearModal"
-        @change="$emit('update:selected-Year', year)"
       />
       <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
     </template>
   </div>
 </template>
 <script setup>
-import { ref, toRefs, watch } from 'vue'
+import { computed } from 'vue'
 
+const emit = defineEmits(['update:selectedYear'])
 const props = defineProps({
-  electionYears: Array,
-  selectedYear: String,
+  electionYears: {
+    type: Array,
+    required: true,
+  },
+  selectedYear: {
+    type: String,
+    required: true,
+  },
 })
-const { electionYears, selectedYear } = toRefs(props)
-const emit = defineEmits(['update:selected-Year'])
 
-const yearModal = ref(selectedYear.value)
-
-watch(yearModal, (newValue) => {
-  emit('update:selected-Year', newValue)
+const yearModal = computed({
+  get() {
+    return props.selectedYear
+  },
+  set(value) {
+    emit('update:selectedYear', value)
+  },
 })
 </script>
