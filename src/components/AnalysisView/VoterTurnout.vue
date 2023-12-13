@@ -40,7 +40,7 @@ p:nth-child(odd) {
   </section>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'

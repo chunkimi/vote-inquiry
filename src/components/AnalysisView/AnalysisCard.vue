@@ -1,12 +1,4 @@
 <style lang="scss" scoped>
-.party-info {
-  &__logo--shorten {
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-  }
-}
-
 .icon-vote-stamp {
   width: 18px;
   height: 18px;
@@ -37,12 +29,7 @@
           class="list-group-item text-primary d-flex justify-content-between align-items-center gap-2"
         >
           <span class="party-info d-inline-flex align-items-center gap-2">
-            <span
-              :class="`bg-${partyMap.codeMap[party]}`"
-              class="party-info__logo--shorten rounded-circle fs-7 d-inline-block text-center"
-            >
-              {{ party.charAt(0) }}
-            </span>
+            <PartyLogo :party="party" size="shorten" />
             <span class="fs-5">{{ party }}</span>
             <span
               v-if="party === winner"
@@ -63,56 +50,58 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
 import { useMediaQuery } from '@vueuse/core'
 import DonutChart from '@/components/chart/DonutChart.vue'
 import StackedBarChart from '@/components/chart/StackedBarChart.vue'
+import PartyLogo from '@/components/common/PartyLogo.vue'
 import partyMap from '@/data/party.json'
+import type { VoteData, CandidateVotes } from '@/types'
 
 const isMobile = useMediaQuery('(max-width: 767px)')
 
 const currentElectionStore = useCurrentElectionStore()
 const { city, district, currentCandidates } = storeToRefs(currentElectionStore)
 
-const props = defineProps({
-  vote: {
-    type: Object,
-    required: true,
-  },
-})
+const props = defineProps<{
+  vote: VoteData
+}>()
 
 const title = computed(() => {
   return props.vote['村里別'] ? props.vote['村里別'] : props.vote['行政區別']
 })
 
 const list = computed(() => {
-  const votes = (props.vote || {})['候選人票數'] || {}
-  return currentCandidates.value.reduce((res, { party: partyName }) => {
-    res.push({
-      party: partyName,
-      count: votes[partyName],
-    })
-    return res
-  }, [])
+  const votes = props.vote?.['候選人票數']
+  return currentCandidates.value.reduce(
+    (res, { party: partyName }) => {
+      res.push({
+        party: partyName,
+        count: votes[partyName],
+      })
+      return res
+    },
+    [] as { party: keyof CandidateVotes; count: number }[],
+  )
 })
 
 const donutChartData = computed(() => {
-  const votes = (props.vote || {})['候選人票數'] || {}
+  const votes = props.vote?.['候選人票數']
   return currentCandidates.value.reduce(
     (res, { party: partyName }) => {
-      res.data.push(votes[partyName] || 0)
+      res.data.push(votes[partyName])
       res.labels.push(partyName)
       return res
     },
-    { data: [], labels: [] },
+    { data: [] as number[], labels: [] as (keyof CandidateVotes)[] },
   )
 })
 
 const stackedBarChartData = computed(() => {
-  return (currentCandidates.value || []).map(({ party: partyName }, i) => {
+  return currentCandidates.value.map(({ party: partyName }, i) => {
     const borderRadius =
       i === 0
         ? {
@@ -136,17 +125,20 @@ const stackedBarChartData = computed(() => {
 })
 
 const winner = computed(() => {
-  const votes = (props.vote || {})['候選人票數'] || {}
+  const votes = props.vote?.['候選人票數']
   const max = Math.max(...Object.values(votes))
-  return Object.keys(votes).find((party) => votes[party] === max)
+  return Object.keys(votes).find(
+    (party) => votes[party as keyof CandidateVotes] === max,
+  )
 })
 
 const isLastLevel = computed(() => !!props.vote['村里別'])
 
 function scrollTo() {
   setTimeout(() => {
-    const element = document.querySelector('#breakdown')
-    const top = element.getBoundingClientRect().top
+    const element: HTMLHeadingElement | null =
+      document.querySelector('#breakdown')
+    const top = element?.getBoundingClientRect().top || 0
     window.scrollTo({
       top: window.scrollY + top,
       behavior: 'smooth',

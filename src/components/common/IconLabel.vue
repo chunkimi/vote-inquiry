@@ -12,17 +12,10 @@
   </h4>
 </template>
 
-<script setup>
-defineProps({
-  text: {
-    type: String,
-    required: true,
-  },
-  icon: {
-    type: String,
-  },
-  source: {
-    type: String,
-  },
-})
+<script lang="ts" setup>
+defineProps<{
+  text: string
+  icon?: string
+  source?: string
+}>()
 </script>
