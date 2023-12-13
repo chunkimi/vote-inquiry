@@ -73,16 +73,12 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import candidateData from '@/data/candidate.json'
+import { allYears } from '@/utils/electionInfo.js'
 import { votesNationalData } from '@/utils/votesDataPath.js'
-import {
-  filterCandidateDataType,
-  filterWinner,
-  getWinnerVotes,
-} from '@/utils/candidateFilter'
+import { filterWinner, getWinnerVotes } from '@/utils/candidateFilter'
 import WinnerCard from '@/components/WinnerCard.vue'
 
 // 資料統計：年份、勝選者資料
-const years = ref(filterCandidateDataType(candidateData, 'election_year'))
 const winnerCandidates = ref(null)
 const winnerData = ref(null)
 const isLoading = ref(true)
@@ -97,6 +93,6 @@ const getWinnerInfo = (allYears, allCandidate, allVotes) => {
 }
 
 onMounted(() => {
-  getWinnerInfo(years.value, candidateData, votesNationalData)
+  getWinnerInfo(allYears, candidateData, votesNationalData)
 })
 </script>

@@ -1,17 +1,16 @@
 <template>
   <h1 class="h2 fw-bold text-center">歷屆候選公僕名單</h1>
-  <p>選擇的值: {{ curYear }}</p>
   <div v-if="!isLoading">
     <div class="d-flex justify-content-center mb-8">
       <TermMenu
-        :election-Years="years"
-        v-model:selected-Year="curYear"
+        :electionYears="allYears"
+        v-model:selectedYear="curYear"
       ></TermMenu>
     </div>
     <CandidateInfo
-      :specify-Year="curYear"
-      :election-Parties="parties"
-      :election-Data="curData"
+      :electionParties="allParties"
+      :specifyYear="curYear"
+      :electionData="curData"
     ></CandidateInfo>
   </div>
 </template>
@@ -24,9 +23,6 @@ import CandidateInfo from '@/components/CandidateInfo.vue'
 
 import candidateData from '@/data/candidate.json'
 import { allYears, allParties } from '@/utils/electionInfo'
-
-const years = ref(allYears)
-const parties = ref(allParties)
 
 const curYear = ref('')
 const curData = ref(null)

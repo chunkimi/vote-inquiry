@@ -3,16 +3,6 @@ export const getImageUrl = (path) => {
   return new URL(`../${path}`, import.meta.url).href
 }
 
-// 篩選指定類型的資料
-export const filterCandidateDataType = (data, criteria) => {
-  let result = []
-  data.forEach((item) => {
-    if (result.indexOf(item[criteria]) < 0) {
-      result.push(item[criteria])
-    }
-  })
-  return result
-}
 
 // 篩選同一年度整組候選人
 export const filterSameSession = (year, parties, originData) => {

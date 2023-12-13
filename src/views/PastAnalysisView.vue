@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-center mb-8">
     <TermMenu
-      :election-Years="years"
+      :election-Years="allYears"
       v-model:selected-Year="curYear"
     ></TermMenu>
   </div>
@@ -49,21 +49,16 @@
 </template>
 <script setup>
 import { ref } from 'vue'
+import { allYears } from '@/utils/electionInfo.js'
+
 // Components
 import TermMenu from '@/components/common/TermMenu.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
-
 import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 
-// dummy data
-// Term Menu Data
-const years = ['2020', '2016', '2012']
 let curYear = ref('2020')
-const switchMenu = (year) => {
-  curYear.value = year
-}
 </script>
