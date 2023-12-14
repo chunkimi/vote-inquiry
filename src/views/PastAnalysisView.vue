@@ -9,6 +9,18 @@
   <h2 class="h2 mb-8 text-end">
     <span class="text-danger">{{ curYear }}</span> 年總統大選
   </h2>
+  <!-- <div>
+    <p>以下測試數據是否帶入</p>
+    <div class="mb-8">
+      <h2 class="h2 mb-4">得票數</h2>
+      {{ votes }}
+    </div>
+    <div class="mb-8">
+      <h2 class="h2 mb-4">當前候選人</h2>
+      {{ currentCandidates }}
+    </div>
+  </div> -->
+  <!-- 以下是設計稿內容 -->
   <!-- <div class="mb-8">
     <h4 class="h4 mb-2"><i class="bi bi-compass me-2"></i>查看地區詳情</h4>
     <SearchBar></SearchBar>
@@ -59,8 +71,14 @@ import TermMenu from '@/components/common/TermMenu.vue'
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 // import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
-
+// const pastElectionStore = usePastElectionStore()
 const route = useRoute()
 const yearId = computed(() => route.params.year)
 const curYear = ref(yearId)
+// watchEffect(() => {
+//   pastElectionStore.setSpecifyYear(curYear.value)
+// })
+
+// const votes = computed(() => pastElectionStore.votes)
+// const currentCandidates = computed(() => pastElectionStore.currentCandidates)
 </script>
