@@ -11,22 +11,43 @@
     aria-label="Basic radio toggle button group"
   >
     <template v-for="year in electionYears" :key="year">
-      <input
-        type="radio"
-        class="btn-check"
-        autocomplete="off"
-        :name="year"
-        :id="year"
-        :value="year"
-        v-model="yearModal"
-      />
-      <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
+      <template v-if="isLinkNav">
+        <router-link
+          :to="{ name: 'PastAnalysis', params: { year: year } }"
+          class="btn btn-outline-warning"
+          :class="{ active: year === yearModal }"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            autocomplete="off"
+            :name="year"
+            :id="year"
+            :value="year"
+            v-model="yearModal"
+          />
+          <label :for="year">{{ year }}</label>
+        </router-link>
+      </template>
+      <template v-else>
+        <input
+          type="radio"
+          class="btn-check"
+          autocomplete="off"
+          :name="year"
+          :id="year"
+          :value="year"
+          v-model="yearModal"
+        />
+        <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
+      </template>
     </template>
   </div>
 </template>
 <script setup>
+console.clear()
+import { RouterLink } from 'vue-router'
 import { computed } from 'vue'
-
 const emit = defineEmits(['update:selectedYear'])
 const props = defineProps({
   electionYears: {
@@ -35,6 +56,10 @@ const props = defineProps({
   },
   selectedYear: {
     type: String,
+    required: true,
+  },
+  isLinkNav: {
+    type: Boolean,
     required: true,
   },
 })

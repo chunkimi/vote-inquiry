@@ -80,7 +80,7 @@ import WinnerCard from '@/components/WinnerCard.vue'
 const winnerData = getWinnerData(allYears, candidateData, votesNationalData)
 
 function getWinnerData(years, candidates, votes) {
-  let winnerInfo = filterWinner(years, candidates)
+  const winnerInfo = filterWinner(years, candidates)
   return getWinnerVotes(years, winnerInfo, votes)
 }
 </script>

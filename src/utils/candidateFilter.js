@@ -3,14 +3,14 @@ export const getImageUrl = (path) => {
 }
 
 export const filterSameSession = (specifyYear, data) => {
-  let specifyYearData = data.filter((item) => item.election_year == specifyYear)
+  const specifyYearData = data.filter((item) => item.election_year == specifyYear)
   const candidateIds = [
     ...new Set(specifyYearData.map((item) => item.candidate_id)),
   ]
   candidateIds.sort((a, b) => Number(a.candidate_id) - Number(b.candidate_id))
 
-  let result = candidateIds.map((id) => {
-    let people = groupCandidates(specifyYearData, 'candidate_id', id)
+  const result = candidateIds.map((id) => {
+    const people = groupCandidates(specifyYearData, 'candidate_id', id)
     return {
       candidate_id: id,
       ...people,
@@ -21,9 +21,9 @@ export const filterSameSession = (specifyYear, data) => {
 }
 
 export const filterWinner = (years, originData) => {
-  let isSelected = [...originData.filter((item) => item.is_elected === true)]
-  let result = years.map((year) => {
-    let people = groupCandidates(isSelected, 'election_year', year)
+  const isSelected = [...originData.filter((item) => item.is_elected === true)]
+  const result = years.map((year) => {
+    const people = groupCandidates(isSelected, 'election_year', year)
     return {
       ...people,
       party: people.main.party,

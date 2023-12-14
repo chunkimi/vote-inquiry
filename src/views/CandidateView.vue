@@ -3,6 +3,7 @@
   <div class="d-flex justify-content-center mb-8">
     <TermMenu
       :election-years="allYears"
+      :is-link-nav="false"
       v-model:selected-year="curYear"
     ></TermMenu>
   </div>
