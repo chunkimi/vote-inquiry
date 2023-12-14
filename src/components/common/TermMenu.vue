@@ -13,7 +13,7 @@
     <template v-for="year in electionYears" :key="year">
       <template v-if="isLinkNav">
         <router-link
-          :to="{ name: 'PastAnalysis', params: { year: year } }"
+          :to="{ name: 'Test', params: { year: year } }"
           class="btn btn-outline-warning"
           :class="{ active: year === yearModal }"
         >
