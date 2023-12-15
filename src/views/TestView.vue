@@ -33,19 +33,22 @@ import TermMenu from '@/components/common/TermMenu.vue'
 const route = useRoute()
 const yearId = computed(() => route.params.year)
 const curYear = ref(yearId)
+const curCity = ref(null)
+const curDistrict = ref(null)
 
 const pastElectionStore = usePastElectionStore()
 
 watch(
-  curYear,
-  (newYear) => {
-    pastElectionStore.setSpecifyYear(newYear)
+  [curYear, curCity, curDistrict],
+  ([newYear, newCity, newDistrict]) => {
+    pastElectionStore.specifyYear = newYear
+    pastElectionStore.specifyCity = newCity
+    pastElectionStore.specifyDistrict = newDistrict
   },
   { immediate: true },
 )
+const currentCandidates = computed(() => pastElectionStore.currentCandidates)
+const mirrorYear = computed(() => pastElectionStore.mirrorYear)
 
 const votes = computed(() => pastElectionStore.votes)
-const currentCandidates = computed(() => pastElectionStore.currentCandidates)
-// 測試，鏡射值
-const mirrorYear = computed(() => pastElectionStore.mirrorYear)
 </script>
