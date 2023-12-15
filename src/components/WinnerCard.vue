@@ -1,4 +1,4 @@
-<style lang="scss">
+<style lang="scss" scoped>
 @import '@/styles/main.scss';
 .winnerCard {
   width: 100%;
@@ -57,17 +57,15 @@
 </template>
 
 <script setup>
-import { toRefs, computed } from 'vue'
 import { RouterLink } from 'vue-router'
 import { commaNumber } from '@/utils/base.js'
 import { getImageUrl } from '@/utils/candidateFilter.js'
 
 const props = defineProps({
-  winnerInfo: Object,
+  winnerInfo: {
+    type: Object,
+    required: true,
+  },
 })
-const { winnerInfo } = toRefs(props)
-const winner = computed(() => {
-  if (!winnerInfo.value) return []
-  return winnerInfo.value
-})
+const winner = props.winnerInfo
 </script>

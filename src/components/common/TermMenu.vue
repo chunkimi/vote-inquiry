@@ -1,56 +1,75 @@
-<style lang="scss">
-@import '@/styles/main.scss';
-
-.horizontalList {
-  &__item {
-    padding: 10px 16px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: $warning;
-    cursor: pointer;
-    border: 1px solid $warning;
-    &:first-child {
-      border-right: none;
-      border-radius: 4px 0px 0px 4px;
-    }
-    &:last-child {
-      border-left: none;
-      border-radius: 0px 4px 4px 0px;
-    }
-    &:hover,
-    &:active,
-    &.active {
-      color: $white;
-      background-color: $warning;
-    }
-  }
+<style lang="scss" scoped>
+.btn-outline-warning {
+  --bs-btn-active-color: #fff;
 }
 </style>
 
 <template>
-  <div>
-    <ul class="list-unstyled d-flex justify-content-center">
-      <li
-        class="horizontalList__item"
-        v-for="year in electionYears"
-        :key="year"
-        :class="{ active: year === specifyYear }"
-      >
-        <span v-if="year === specifyYear"> {{ year }}</span>
-        <span v-else @click.prevent="changeYear(year)"> {{ year }}</span>
-      </li>
-    </ul>
+  <div
+    class="btn-group"
+    role="group"
+    aria-label="Basic radio toggle button group"
+  >
+    <template v-for="year in electionYears" :key="year">
+      <template v-if="isLinkNav">
+        <router-link
+          :to="{ name: 'PastAnalysis', params: { year: year } }"
+          class="btn btn-outline-warning"
+          :class="{ active: year === yearModal }"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            autocomplete="off"
+            :name="year"
+            :id="year"
+            :value="year"
+            v-model="yearModal"
+          />
+          <label :for="year">{{ year }}</label>
+        </router-link>
+      </template>
+      <template v-else>
+        <input
+          type="radio"
+          class="btn-check"
+          autocomplete="off"
+          :name="year"
+          :id="year"
+          :value="year"
+          v-model="yearModal"
+        />
+        <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
+      </template>
+    </template>
   </div>
 </template>
 <script setup>
-import { toRefs } from 'vue'
-
+console.clear()
+import { RouterLink } from 'vue-router'
+import { computed } from 'vue'
+const emit = defineEmits(['update:selectedYear'])
 const props = defineProps({
-  electionYears: Array,
-  specifyYear: String,
+  electionYears: {
+    type: Array,
+    required: true,
+  },
+  selectedYear: {
+    type: String,
+    required: true,
+  },
+  isLinkNav: {
+    type: Boolean,
+    required: true,
+  },
 })
-const emit = defineEmits(['changeYear'])
 
-const { electionYears, specifyYear } = toRefs(props)
-const changeYear = (year) => emit('changeYear', year)
+const yearModal = computed({
+  get() {
+    return props.selectedYear
+  },
+  set(value) {
+    emit('update:selectedYear', value)
+  },
+})
 </script>

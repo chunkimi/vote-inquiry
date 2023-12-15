@@ -1,13 +1,15 @@
 <template>
-  <TermMenu
-    :election-Years="years"
-    :specify-Year="curYear"
-    @change-Year="switchMenu"
-  ></TermMenu>
+  <div class="d-flex justify-content-center mb-8">
+    <TermMenu
+      :election-years="allYears"
+      :is-link-nav="true"
+      v-model:selected-year="curYear"
+    ></TermMenu>
+  </div>
   <h2 class="h2 mb-8 text-end">
-    <span class="text-danger">2020</span> 年總統大選
+    <span class="text-danger">{{ curYear }}</span> 年總統大選
   </h2>
-  <div class="mb-8">
+  <!-- <div class="mb-8">
     <h4 class="h4 mb-2"><i class="bi bi-compass me-2"></i>查看地區詳情</h4>
     <SearchBar></SearchBar>
   </div>
@@ -44,25 +46,21 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 <script setup>
-import { ref } from 'vue'
-// Components
+import { ref, computed } from 'vue'
+import { useRoute } from 'vue-router'
+import { allYears } from '@/utils/electionInfo.js'
 import TermMenu from '@/components/common/TermMenu.vue'
-import SearchBar from '@/components/common/SearchBar.vue'
-import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
-import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
+// import SearchBar from '@/components/common/SearchBar.vue'
+// import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
+// import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
+// import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
+// import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
+// import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 
-import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
-import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
-import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
-
-// dummy data
-// Term Menu Data
-const years = ['2020', '2016', '2012']
-let curYear = ref('2020')
-const switchMenu = (year) => {
-  curYear.value = year
-}
+const route = useRoute()
+const yearId = computed(() => route.params.year)
+const curYear = ref(yearId)
 </script>

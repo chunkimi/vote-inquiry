@@ -1,67 +1,29 @@
 <template>
   <h1 class="h2 fw-bold text-center">歷屆候選公僕名單</h1>
-  <div v-if="!isLoading">
+  <div class="d-flex justify-content-center mb-8">
     <TermMenu
-      :election-Years="years"
-      :specify-Year="curYear"
-      @change-Year="switchMenu"
+      :election-years="allYears"
+      :is-link-nav="false"
+      v-model:selected-year="curYear"
     ></TermMenu>
-    <CandidateInfo
-      :specify-Year="curYear"
-      :election-Parties="parties"
-      :election-Data="curData"
-    ></CandidateInfo>
   </div>
+  <CandidateInfo
+    :electionParties="allParties"
+    :specifyYear="curYear"
+    :electionData="curData"
+  ></CandidateInfo>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-// 原始資料
+import { ref, computed } from 'vue'
 import candidateData from '@/data/candidate.json'
-import { filterCandidateDataType } from '@/utils/candidateFilter'
-import CandidateInfo from '@/components/CandidateInfo.vue'
+import { allYears, allParties } from '@/utils/electionInfo'
+
 import TermMenu from '@/components/common/TermMenu.vue'
+import CandidateInfo from '@/components/CandidateInfo.vue'
 
-// 資料統計：年份、政黨
-const years = ref(null)
-const parties = ref(null)
-// 指定年份數據
-const curYear = ref(null)
-const curData = ref(null)
-const isLoading = ref(true)
-// methods
-const getYearData = (data) => {
-  years.value = filterCandidateDataType(data, 'election_year')
-}
-
-const getPartyData = (data) => {
-  parties.value = filterCandidateDataType(data, 'party')
-}
-
-const getCandidateInfo = (year, candidate) => {
-  isLoading.value = true
-  curYear.value = year
-  curData.value = candidate.filter(
-    (item) => item.election_year == curYear.value,
-  )
-  isLoading.value = false
-}
-
-const switchMenu = (year) => {
-  curYear.value = year
-  getCandidateInfo(year, candidateData)
-}
-
-const init = () => {
-  getYearData(candidateData)
-  getPartyData(candidateData)
-  if (years.value.length > 0 && parties.value.length > 0) {
-    getCandidateInfo('2020', candidateData)
-    isLoading.value = false
-  }
-}
-
-onMounted(() => {
-  init()
+const curYear = ref(allYears[0])
+const curData = computed(() => {
+  return candidateData.filter((item) => item.election_year == curYear.value)
 })
 </script>
