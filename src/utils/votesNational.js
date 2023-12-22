@@ -9,11 +9,5 @@ export const votesNationalData = {
 }
 
 function filterNationalVote(dataArr) {
-  let result = {}
-  dataArr.forEach((item) => {
-    if (item['行政區別'] === '總計') {
-      result = item
-    }
-  })
-  return result
+  return dataArr.find((item) => item['行政區別'] === '總計')
 }

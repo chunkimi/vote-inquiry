@@ -6,7 +6,6 @@
   @include media-breakpoint-up(md) {
     min-width: 28.25rem;
   }
-  padding: 0 1.5rem;
   &__year {
     text-align: center;
     @include media-breakpoint-up(md) {
@@ -17,8 +16,8 @@
 </style>
 
 <template>
-  <div class="winnerCard">
-    <p class="display-2 fw-bold text-info mb-3 winnerCard__year">
+  <div class="winnerCard px-6">
+    <p class="display-2 fw-bold text-info mb-4 winnerCard__year">
       {{ winner.voteYear }}
     </p>
     <div class="row p-6 mb-4">
@@ -44,11 +43,9 @@
       </div>
     </div>
     <div class="d-flex flex-column align-items-center">
-      <p class="h3 fw-bold text-info mb-4">
-        {{ commaNumber(winner.voteNum) }} 票
-      </p>
+      <p class="h3 fw-bold text-info">{{ commaNumber(winner.voteNum) }} 票</p>
       <RouterLink
-        :to="`past-elections/${winner.voteYear}`"
+        :to="{ name: 'PastAnalysis', params: { year: winner.voteYear } }"
         class="link-primary py-6"
         >查看本屆詳情</RouterLink
       >

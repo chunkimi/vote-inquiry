@@ -9,6 +9,18 @@
   <h2 class="h2 mb-8 text-end">
     <span class="text-danger">{{ curYear }}</span> 年總統大選
   </h2>
+  <!-- <div class="my-8">
+    <p>候選人：</p>
+    <p>{{ currentCandidates }}</p>
+  </div>
+  <div class="my-8">
+    <p>鏡射年份：</p>
+    <p>{{ mirrorYear }}</p>
+  </div>
+  <div class="my-8">
+    <p>選票：</p>
+    <p>{{ votes }}</p>
+  </div> -->
   <!-- <div>
     <p>以下測試數據是否帶入</p>
     <div class="mb-8">
@@ -61,8 +73,9 @@
   </div> -->
 </template>
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
+import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { allYears } from '@/utils/electionInfo.js'
 import TermMenu from '@/components/common/TermMenu.vue'
 // import SearchBar from '@/components/common/SearchBar.vue'
@@ -71,14 +84,26 @@ import TermMenu from '@/components/common/TermMenu.vue'
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 // import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
-// const pastElectionStore = usePastElectionStore()
+
 const route = useRoute()
 const yearId = computed(() => route.params.year)
 const curYear = ref(yearId)
-// watchEffect(() => {
-//   pastElectionStore.setSpecifyYear(curYear.value)
-// })
+const curCity = ref(null)
+const curDistrict = ref(null)
 
-// const votes = computed(() => pastElectionStore.votes)
-// const currentCandidates = computed(() => pastElectionStore.currentCandidates)
+const pastElectionStore = usePastElectionStore()
+
+watch(
+  [curYear, curCity, curDistrict],
+  ([newYear, newCity, newDistrict]) => {
+    pastElectionStore.specifyYear = newYear
+    pastElectionStore.specifyCity = newCity
+    pastElectionStore.specifyDistrict = newDistrict
+  },
+  { immediate: true },
+)
+const currentCandidates = computed(() => pastElectionStore.currentCandidates)
+const mirrorYear = computed(() => pastElectionStore.mirrorYear)
+
+const votes = computed(() => pastElectionStore.votes)
 </script>

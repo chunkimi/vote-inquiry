@@ -13,7 +13,7 @@
     <template v-for="year in electionYears" :key="year">
       <template v-if="isLinkNav">
         <router-link
-          :to="{ name: 'Test', params: { year: year } }"
+          :to="{ name: 'PastAnalysis', params: { year: year } }"
           class="btn btn-outline-warning"
           :class="{ active: year === yearModal }"
         >
@@ -45,7 +45,6 @@
   </div>
 </template>
 <script setup>
-console.clear()
 import { RouterLink } from 'vue-router'
 import { computed } from 'vue'
 const emit = defineEmits(['update:selectedYear'])
