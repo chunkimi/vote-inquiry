@@ -75,14 +75,9 @@
 <script setup>
 import candidateData from '@/data/candidate.json'
 import { allYears } from '@/utils/electionInfo'
-import { votesNationalData } from '@/utils/votesNational.js'
-import { filterWinner, getWinnerVotes } from '@/utils/candidateFilter'
+import { filterWinner } from '@/utils/candidateFilter'
 import WinnerCard from '@/components/WinnerCard.vue'
 
-const winnerData = getWinnerData(allYears, candidateData, votesNationalData)
-
-function getWinnerData(years, candidates, votes) {
-  const winnerInfo = filterWinner(years, candidates)
-  return getWinnerVotes(years, winnerInfo, votes)
-}
+const winnerData = filterWinner(allYears, candidateData)
+console.log(winnerData)
 </script>

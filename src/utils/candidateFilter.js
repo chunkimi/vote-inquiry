@@ -28,18 +28,7 @@ export const filterWinner = (years, originData) => {
       ...people,
       party: people.main.party,
       voteYear: year,
-    }
-  })
-  result.sort((a, b) => b.voteYear - a.voteYear)
-  return result
-}
-
-export const getWinnerVotes = (years, candidates, votes) => {
-  const result = [...candidates].map((item) => {
-    const voteNum = votes[item.voteYear]['候選人票數'][item.party]
-    return {
-      ...item,
-      voteNum,
+      voteNum:people.main.voteNum
     }
   })
   result.sort((a, b) => b.voteYear - a.voteYear)

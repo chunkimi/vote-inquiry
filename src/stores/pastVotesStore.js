@@ -36,7 +36,6 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
   const currentCandidates = computed(() =>
     filterSameSession(specifyYear.value, candidate),
   )
-  const mirrorYear = computed(() => specifyYear.value)
   return {
     specifyYear,
     specifyCity,
@@ -44,7 +43,6 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
     votes,
     reset,
     currentCandidates,
-    mirrorYear,
   }
 })
 
