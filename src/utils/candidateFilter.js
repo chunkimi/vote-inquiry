@@ -35,8 +35,8 @@ export const filterWinner = (years, originData) => {
 }
 
 export const getWinnerVotes = (years, candidates, votes) => {
-  let result = [...candidates].map((item) => {
-    let voteNum = votes[item.voteYear]['候選人票數'][item.party]
+  const result = [...candidates].map((item) => {
+    const voteNum = votes[item.voteYear]['候選人票數'][item.party]
     return {
       ...item,
       voteNum,
@@ -47,13 +47,13 @@ export const getWinnerVotes = (years, candidates, votes) => {
 }
 
 export function groupCandidates(data, condition, conditionValue) {
-  let main = data.find(
+  const main = data.find(
     (item) => item[condition] === conditionValue && item.role === 0,
   )
-  let vice = data.find(
+  const vice = data.find(
     (item) => item[condition] === conditionValue && item.role === 1,
   )
-  let section = { main, vice }
+  const section = { main, vice }
   return section
 }
 

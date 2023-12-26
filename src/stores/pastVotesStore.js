@@ -9,22 +9,24 @@ import { filterSameSession } from '@/utils/candidateFilter'
 import candidate from '@/data/candidate.json'
 
 export const usePastElectionStore = defineStore('pastElectionStore', () => {
-  const specifyYear = ref(null)
-  const specifyCity = ref(null)
-  const specifyDistrict = ref(null)
+  const specifyYear = ref('')
+  const specifyCity = ref('')
+  const specifyDistrict = ref('')
   const votes = ref([])
 
-  watch(
-    [specifyYear, specifyCity, specifyDistrict],
-    ([newYear, newCity, newDistrict]) => {
-      const storage = useFirebaseStorage()
-      const path = combinePath(newYear, newCity, newDistrict)
-      const votesFileRef = storageRef(storage, path)
-      const { url } = useStorageFile(votesFileRef)
-      const { data } = useFetch(url, { refetch: true })
+  const storage = useFirebaseStorage()
+  const votesFileRef = computed(() => {
+    if (!specifyYear.value) return
+    const path = combinePath(specifyYear.value, specifyCity.value, specifyDistrict.value)
+    return storageRef(storage,path)
+  })
+  const { url } = useStorageFile(votesFileRef)
+  watch(url, (value)=>{
+    if (value) {
+      const { data } = useFetch(url, { refetch: true }).get().json()
       votes.value = data
-    },
-  )
+    }
+  })
 
   function reset() {
     specifyYear.value = ''
@@ -46,7 +48,7 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
   }
 })
 
-function combinePath(year, city, district) {
+function combinePath(year , city, district) {
   let filePath = ''
   if (!year) return
   if (!!year && !!city && !!district) {

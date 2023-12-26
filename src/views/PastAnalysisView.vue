@@ -9,42 +9,25 @@
   <h2 class="h2 mb-8 text-end">
     <span class="text-danger">{{ curYear }}</span> 年總統大選
   </h2>
-  <!-- <div class="my-8">
-    <p>候選人：</p>
-    <p>{{ currentCandidates }}</p>
-  </div>
-  <div class="my-8">
-    <p>鏡射年份：</p>
-    <p>{{ mirrorYear }}</p>
-  </div>
-  <div class="my-8">
-    <p>選票：</p>
-    <p>{{ votes }}</p>
-  </div> -->
-  <!-- <div>
-    <p>以下測試數據是否帶入</p>
-    <div class="mb-8">
-      <h2 class="h2 mb-4">得票數</h2>
-      {{ votes }}
-    </div>
-    <div class="mb-8">
-      <h2 class="h2 mb-4">當前候選人</h2>
-      {{ currentCandidates }}
-    </div>
-  </div> -->
-  <!-- 以下是設計稿內容 -->
-  <!-- <div class="mb-8">
+  <div class="mb-8">
     <h4 class="h4 mb-2"><i class="bi bi-compass me-2"></i>查看地區詳情</h4>
-    <SearchBar></SearchBar>
+
+    <SearchBar
+      :year="curYear"
+      v-model:city="curCity"
+      v-model:district="curDistrict"
+    />
   </div>
   <div class="mb-8">
     <h4 class="h4 mb-8">
       <i class="bi bi-pencil-fill me-2"></i
       ><span class="text-danger">全國</span>選情概要
     </h4>
-    <div class="container"><ElectionSummary></ElectionSummary></div>
+    <div class="container">
+      <ElectionSummary :votesData="electionData"></ElectionSummary>
+    </div>
   </div>
-  <div class="mb-8">
+  <!-- <div class="mb-8">
     <h4 class="h4 mb-8">
       <i class="bi bi-person-raised-hand me-2"></i>候選人情況
     </h4>
@@ -71,15 +54,25 @@
       </div>
     </div>
   </div> -->
+  <div class="mt-8">
+    <p>這是選票</p>
+    <p class="mt-8">{{ votes }}</p>
+  </div>
+  <div class="mt-8">
+    <p>這是候選人</p>
+    <p class="mt-8">{{ currentCandidates }}</p>
+  </div>
 </template>
 <script setup>
-import { ref, computed, watch } from 'vue'
+console.clear()
+import { ref, computed, watch, onMounted } from 'vue'
+import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { allYears } from '@/utils/electionInfo.js'
 import TermMenu from '@/components/common/TermMenu.vue'
-// import SearchBar from '@/components/common/SearchBar.vue'
-// import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
+import SearchBar from '@/components/common/SearchBar.vue'
+import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 // import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
@@ -87,23 +80,18 @@ import TermMenu from '@/components/common/TermMenu.vue'
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
-const curYear = ref(yearId)
-const curCity = ref(null)
-const curDistrict = ref(null)
+const {
+  specifyYear: curYear,
+  specifyCity: curCity,
+  specifyDistrict: curDistrict,
+  votes,
+  currentCandidates,
+} = storeToRefs(usePastElectionStore())
 
-const pastElectionStore = usePastElectionStore()
+watch(yearId, (year) => (curYear.value = year), { immediate: true })
 
-watch(
-  [curYear, curCity, curDistrict],
-  ([newYear, newCity, newDistrict]) => {
-    pastElectionStore.specifyYear = newYear
-    pastElectionStore.specifyCity = newCity
-    pastElectionStore.specifyDistrict = newDistrict
-  },
-  { immediate: true },
-)
-const currentCandidates = computed(() => pastElectionStore.currentCandidates)
-const mirrorYear = computed(() => pastElectionStore.mirrorYear)
-
-const votes = computed(() => pastElectionStore.votes)
+// 先鎖死資料來寫畫面
+import vote2020 from '@/data/votes/2020/全國.json'
+import { filterNationalVotes } from '@/utils/votesAnal.js'
+const electionData = filterNationalVotes(vote2020)
 </script>
