@@ -90,8 +90,7 @@ const {
 
 watch(yearId, (year) => (curYear.value = year), { immediate: true })
 
-// 先鎖死資料來寫畫面
+// 先鎖死資料寫畫面
 import vote2020 from '@/data/votes/2020/全國.json'
-import { filterNationalVotes } from '@/utils/votesAnal.js'
-const electionData = filterNationalVotes(vote2020)
+const electionData = vote2020.find((item) => item['行政區別'] === '總計')
 </script>
