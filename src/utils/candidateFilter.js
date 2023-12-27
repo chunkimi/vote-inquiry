@@ -26,7 +26,7 @@ export const filterWinner = (years, originData) => {
       ...people,
       party: people.main.party,
       voteYear: year,
-      voteNum:people.main.voteNum
+      voteNum:people.main.voteTotalNum
     }
   })
   result.sort((a, b) => b.voteYear - a.voteYear)

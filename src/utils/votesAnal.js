@@ -1,5 +1,5 @@
 
-export function filterNationalVotes(dataArr) {
-    return dataArr.find((item) => item['行政區別'] ==="總計")
+export function filterSpecifyVotes(dataArr,specifyKey,specifyValue) {
+    return [...dataArr].find((item) => item[specifyKey] ===specifyValue)
   }
   
