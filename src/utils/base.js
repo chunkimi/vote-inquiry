@@ -6,3 +6,7 @@ export const commaNumber = (num) => {
 export const percentage = (num) => {
   return `${num.toFixed(2)}%`;
 };
+
+export const getImageUrl = (path) => {
+  return new URL(`../${path}`, import.meta.url).href
+}

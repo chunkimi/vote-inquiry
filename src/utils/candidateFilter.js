@@ -1,6 +1,4 @@
-export const getImageUrl = (path) => {
-  return new URL(`../${path}`, import.meta.url).href
-}
+
 
 export const filterSameSession = (specifyYear, data) => {
   const specifyYearData = data.filter((item) => item.election_year == specifyYear)
@@ -51,7 +49,7 @@ export function groupCandidates(data, condition, conditionValue) {
 //   if(role) {
 //     let vice = data.find((item) => item.role === 1);
 //     section.vice = vice
-//   } else {
+//   } else 
 //     let main = data.find((item) => item.role === 0);
 //     section.main = main
 //   }

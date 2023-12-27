@@ -79,5 +79,4 @@ import { filterWinner } from '@/utils/candidateFilter'
 import WinnerCard from '@/components/WinnerCard.vue'
 
 const winnerData = filterWinner(allYears, candidateData)
-console.log(winnerData)
 </script>

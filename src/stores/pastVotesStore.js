@@ -2,7 +2,7 @@ import { ref, computed, watch } from 'vue'
 import { defineStore } from 'pinia'
 
 import { ref as storageRef } from 'firebase/storage'
-import { useFirebaseStorage, useStorageFile } from 'vuefire'
+import { useFirebaseStorage, useStorageFileUrl } from 'vuefire'
 import { useFetch } from '@vueuse/core'
 
 import { filterSameSession } from '@/utils/candidateFilter'
@@ -17,17 +17,23 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
   const storage = useFirebaseStorage()
   const votesFileRef = computed(() => {
     if (!specifyYear.value) return
-    const path = combinePath(specifyYear.value, specifyCity.value, specifyDistrict.value)
-    return storageRef(storage,path)
+    const path = combinePath(
+      specifyYear.value,
+      specifyCity.value,
+      specifyDistrict.value,
+    )
+    return storageRef(storage, path)
   })
-  const { url } = useStorageFile(votesFileRef)
-  watch(url, (value)=>{
+  const { url } = useStorageFileUrl(votesFileRef)
+  watch(url, (value) => {
     if (value) {
       const { data } = useFetch(url, { refetch: true }).get().json()
       votes.value = data
     }
   })
 
+
+ 
   function reset() {
     specifyYear.value = ''
     specifyCity.value = ''
@@ -46,7 +52,7 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
   }
 })
 
-function combinePath(year , city, district) {
+function combinePath(year, city, district) {
   let filePath = ''
   if (!year) return
   if (!!year && !!city && !!district) {

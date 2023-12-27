@@ -55,8 +55,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import { commaNumber } from '@/utils/base.js'
-import { getImageUrl } from '@/utils/candidateFilter.js'
+import { commaNumber, getImageUrl } from '@/utils/base.js'
 
 const props = defineProps({
   winnerInfo: {

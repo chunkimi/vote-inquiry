@@ -24,16 +24,16 @@
       ><span class="text-danger">全國</span>選情概要
     </h4>
     <div class="container">
-      <ElectionSummary :votesData="electionData"></ElectionSummary>
+      <ElectionSummary :data="electionSummaryData"></ElectionSummary>
     </div>
   </div>
-  <!-- <div class="mb-8">
+  <div class="mb-8">
     <h4 class="h4 mb-8">
       <i class="bi bi-person-raised-hand me-2"></i>候選人情況
     </h4>
-    <CandidateSummary></CandidateSummary>
+    <CandidateSummary :data="candidateSummaryData"></CandidateSummary>
   </div>
-  <div class="d-none d-md-block mb-md-8">
+  <!-- <div class="d-none d-md-block mb-md-8">
     <h4 class="h4">
       <i class="bi bi-joystick me-2"></i
       ><span class="text-danger">全國</span>投票情況
@@ -54,6 +54,7 @@
       </div>
     </div>
   </div> -->
+
   <div class="mt-8">
     <p>這是選票</p>
     <p class="mt-8">{{ votes }}</p>
@@ -65,7 +66,7 @@
 </template>
 <script setup>
 console.clear()
-import { ref, computed, watch, onMounted } from 'vue'
+import { computed, watch } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
@@ -73,7 +74,7 @@ import { allYears } from '@/utils/electionInfo.js'
 import TermMenu from '@/components/common/TermMenu.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
-// import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
+import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 // import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
@@ -92,5 +93,27 @@ watch(yearId, (year) => (curYear.value = year), { immediate: true })
 
 // 先鎖死資料寫畫面
 import vote2020 from '@/data/votes/2020/全國.json'
-const electionData = vote2020.find((item) => item['行政區別'] === '總計')
+import vote2016 from '@/data/votes/2016/全國.json'
+import vote2012 from '@/data/votes/2012/全國.json'
+const allData = { vote2020, vote2016, vote2012 }
+
+const specifyAnalVotes = computed(() => {
+  const result = getResult(curYear.value)
+  return result.find((item) => item['行政區別'] === '總計')
+})
+
+const electionSummaryData = computed(() => {
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } =
+    specifyAnalVotes.value
+  return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
+})
+
+const candidateSummaryData = computed(() => {
+  const { 候選人票數 } = specifyAnalVotes.value
+  return 候選人票數
+})
+
+function getResult(year) {
+  return allData[`vote${year}`]
+}
 </script>
