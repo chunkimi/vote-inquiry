@@ -10,16 +10,16 @@
       </div>
       <div class="col-12 col-md-10">
         <VotingAnalysis
-          v-if="curAnalStatus === analysisMenuData[0]"
           :votesData="votes"
+          v-if="curAnalStatus === analysisMenuData[0]"
         ></VotingAnalysis>
-        <PartyAnalysis v-else></PartyAnalysis>
+        <PartyAnalysis :votesData="votes" v-else></PartyAnalysis>
       </div>
     </div>
   </div>
 </template>
 <script setup>
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import BallotAnalysisMenu from '@/components/PastAnal/BallotAnalysisMenu.vue'
 import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'

@@ -1,6 +1,6 @@
 <template>
   <h4 class="h4 mb-8">
-    <i class="bi bi-person-raised-hand me-2"></i>候選人情況
+    <i class="bi bi-person-raised-hand me-2"></i>候選人{{ curStatus }}得票情況
   </h4>
   <div class="mb-8">
     <div class="d-flex justify-content-center py-6 mb-8a">
@@ -16,13 +16,17 @@
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
-import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
+import {
+  filterSpecifyVotes,
+  excludeTotalVotes,
+  getVoteRateMaxMix,
+} from '@/utils/votesAnal.js'
 import CandidateAnalCard from '@/components/PastAnal/CandidateAnalCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 
-const { curCandidates } = storeToRefs(usePastElectionStore())
+const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
   votes: {
@@ -68,34 +72,4 @@ const candidateAnalData = computed(() => {
 
   return result
 })
-
-function getVoteRateMaxMix(voteData) {
-  const party = Object.keys(voteData[0]['候選人票數'])
-  const originVoteRate = voteData.map((item) => {
-    const { 候選人票數, 有效票數, 行政區別 } = item
-    const totalVoteRate = { 行政區別 }
-
-    Object.entries(候選人票數).forEach(([key, value]) => {
-      totalVoteRate[key] = ((value / 有效票數) * 100).toFixed(4)
-    })
-
-    return totalVoteRate
-  })
-
-  const PartyVoteRate = {}
-  party.forEach((partyName) => {
-    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
-      行政區別: item['行政區別'],
-      得票率: item[partyName],
-    }))
-
-    partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
-    PartyVoteRate[partyName] = {
-      highest: partyData[0],
-      lowest: partyData[partyData.length - 1],
-    }
-  })
-
-  return PartyVoteRate
-}
 </script>

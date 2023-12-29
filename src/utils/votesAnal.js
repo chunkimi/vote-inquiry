@@ -18,3 +18,33 @@ export function combineVotePath(year, city, district) {
   }
   return `votes/${filePath}.json`
 }
+
+export function getVoteRateMaxMix(voteData) {
+  const party = Object.keys(voteData[0]['候選人票數'])
+  const originVoteRate = voteData.map((item) => {
+    const { 候選人票數, 有效票數, 行政區別 } = item
+    const totalVoteRate = { 行政區別 }
+
+    Object.entries(候選人票數).forEach(([key, value]) => {
+      totalVoteRate[key] = ((value / 有效票數) * 100).toFixed(4)
+    })
+
+    return totalVoteRate
+  })
+
+  const PartyVoteRate = {}
+  party.forEach((partyName) => {
+    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
+      行政區別: item['行政區別'],
+      得票率: item[partyName],
+    }))
+
+    partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
+    PartyVoteRate[partyName] = {
+      highest: partyData[0],
+      lowest: partyData[partyData.length - 1],
+    }
+  })
+
+  return PartyVoteRate
+}
