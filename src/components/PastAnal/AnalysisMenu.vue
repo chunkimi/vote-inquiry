@@ -1,3 +1,8 @@
+<style lang="scss" scoped>
+.btn-outline-warning {
+  --bs-btn-active-color: #fff;
+}
+</style>
 <template>
   <div
     class="w-100"
@@ -5,28 +10,43 @@
     role="group"
     aria-label="Basic radio toggle button group"
   >
-    <input
-      type="radio"
-      class="btn-check"
-      name="btnRadioVote"
-      id="btnRadioVote"
-      autocomplete="off"
-      checked
-    />
-    <label class="btn btn-outline-warning" for="btnRadioVote">投票情況</label>
-    <input
-      type="radio"
-      class="btn-check"
-      name="btnRadioParty"
-      id="btnRadioParty"
-      autocomplete="off"
-    />
-    <label class="btn btn-outline-warning" for="btnRadioParty"
-      >政黨得票分析</label
-    >
+    <template v-for="label in menuData" :key="label">
+      <input
+        type="radio"
+        class="btn-check"
+        autocomplete="off"
+        :name="label"
+        :id="label"
+        :value="label"
+        v-model="labelModal"
+      />
+      <label class="btn btn-outline-warning" :for="label">{{ label }}</label>
+    </template>
   </div>
 </template>
 <script setup>
+import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
 const isMobile = useMediaQuery('(max-width: 767px)')
+
+const emit = defineEmits(['update:analStatus'])
+const props = defineProps({
+  menuData: {
+    type: Array,
+    required: true,
+  },
+  analStatus: {
+    type: String,
+    required: true,
+  },
+})
+
+const labelModal = computed({
+  get() {
+    return props.analStatus
+  },
+  set(value) {
+    emit('update:analStatus', value)
+  },
+})
 </script>

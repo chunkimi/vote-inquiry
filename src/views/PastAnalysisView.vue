@@ -34,29 +34,18 @@
       :candidates="currentCandidates"
     ></VoteStatus>
   </div>
-  <!--<div class="mb-8">
-    <h4 class="h4 mb-8"><i class="bi bi-clipboard-data me-2"></i>選票分析</h4>
-    <div class="row">
-      <div class="col-12 col-md-2 mb-8"><AnalysisMenu></AnalysisMenu></div>
-      <div class="col-12 col-md-10">
-        <div class="mb-4">
-          <VotingAnalysis></VotingAnalysis>
-        </div>
-        <div class="mb-4">
-          <PartyAnalysis></PartyAnalysis>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  <div class="mb-8">
+    <AnalysisVotes></AnalysisVotes>
+  </div>
 
-  <div class="mt-8">
+  <!-- <div class="mt-8">
     <p>這是選票</p>
     <p class="mt-8">{{ votes }}</p>
   </div>
   <div class="mt-8">
     <p>這是候選人</p>
     <p class="mt-8">{{ currentCandidates }}</p>
-  </div>
+  </div> -->
 </template>
 <script setup>
 console.clear()
@@ -74,10 +63,7 @@ import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
-
-// import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
-// import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
-// import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
+import AnalysisVotes from '@/components/PastAnal/AnalysisVotes.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
