@@ -16,11 +16,7 @@
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
-import {
-  filterSpecifyVotes,
-  excludeTotalVotes,
-  getVoteRateMaxMix,
-} from '@/utils/votesAnal.js'
+import { filterSpecifyVotes, getVoteRateMaxMix } from '@/utils/votesAnal.js'
 import CandidateAnalCard from '@/components/PastAnal/CandidateAnalCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 

@@ -3,7 +3,7 @@ export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
 }
 
 export function excludeTotalVotes(votes) {
-  return [...votes].filter((item) => item["行政區別"] !== "總計");
+  return [...votes].filter((item) => item['行政區別'] !== '總計')
 }
 
 export function combineVotePath(year, city, district) {
@@ -20,6 +20,25 @@ export function combineVotePath(year, city, district) {
 }
 
 export function getVoteRateMaxMix(voteData) {
+  const { party, originVoteRate } = calAreaVoteRate(voteData)
+  const PartyVoteRate = {}
+  party.forEach((partyName) => {
+    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
+      行政區別: item['行政區別'],
+      得票率: item[partyName],
+    }))
+
+    partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
+    PartyVoteRate[partyName] = {
+      highestArea: partyData[0],
+      lowestArea: partyData[partyData.length - 1],
+    }
+  })
+
+  return PartyVoteRate
+}
+
+export function calAreaVoteRate(voteData) {
   const party = Object.keys(voteData[0]['候選人票數'])
   const originVoteRate = voteData.map((item) => {
     const { 候選人票數, 有效票數, 行政區別 } = item
@@ -32,19 +51,36 @@ export function getVoteRateMaxMix(voteData) {
     return totalVoteRate
   })
 
-  const PartyVoteRate = {}
-  party.forEach((partyName) => {
-    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
-      行政區別: item['行政區別'],
-      得票率: item[partyName],
-    }))
+  return {
+    party,
+    originVoteRate,
+  }
+}
 
-    partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
-    PartyVoteRate[partyName] = {
-      highest: partyData[0],
-      lowest: partyData[partyData.length - 1],
+export function filterPartyAdvantage(voteData) {
+  const { party, originVoteRate } = calAreaVoteRate(voteData)
+  const result = {}
+  const newData = party.map((partyName) => {
+    const areas = originVoteRate
+      .filter(
+        (areaData) =>
+          areaData[partyName] ===
+          Math.max(
+            areaData[party[0]],
+            areaData[party[1]],
+            areaData[party[2]],
+          ).toFixed(4),
+      )
+      .map((areaData) => areaData['行政區別'])
+    return {
+      label: partyName,
+      advantageArea: areas,
+      advantageAreaNum: areas.length,
     }
   })
+  newData.forEach((item) => {
+    result[item.label] = item.advantageAreaNum
+  })
 
-  return PartyVoteRate
+  return result
 }

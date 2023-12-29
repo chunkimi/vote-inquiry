@@ -41,11 +41,11 @@ const cardData = computed(() => {
     },
     {
       label: '投票率最高區域',
-      text: props.analyzedData.hight,
+      text: props.analyzedData.highestArea,
     },
     {
       label: '投票率最低區域',
-      text: props.analyzedData.lowest,
+      text: props.analyzedData.lowestArea,
     },
   ]
 })

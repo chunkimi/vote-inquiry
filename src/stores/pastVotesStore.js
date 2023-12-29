@@ -42,7 +42,7 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
       return `${curCity.value}${curDistrict.value}`
     }
   })
-  
+
   const curCandidates = computed(() =>
     filterSameSession(curYear.value, candidate),
   )
@@ -59,6 +59,6 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
     votes,
     reset,
     curCandidates,
-    curStatus
+    curStatus,
   }
 })

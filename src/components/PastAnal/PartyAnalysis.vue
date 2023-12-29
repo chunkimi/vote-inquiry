@@ -1,6 +1,6 @@
 <template>
   <div class="mb-4">
-    <div class="mb-4"><PartySummary></PartySummary></div>
+    <div class="mb-4"><PartySummary :votes="votesData"></PartySummary></div>
   </div>
   <div v-if="isDesktop" class="mb-4">
     <!-- 

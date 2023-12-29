@@ -19,13 +19,20 @@
   </div>
 </template>
 <script setup>
-import { ref } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import BallotAnalysisMenu from '@/components/PastAnal/BallotAnalysisMenu.vue'
 import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 
 const analysisMenuData = ['投票情況分析', '政黨得票分析']
 const curAnalStatus = ref(analysisMenuData[0])
+
+const route = useRoute()
+const yearId = computed(() => route.params.year)
+watch(yearId, (year) => (curAnalStatus.value = analysisMenuData[0]), {
+  immediate: true,
+})
 
 const props = defineProps({
   votes: {

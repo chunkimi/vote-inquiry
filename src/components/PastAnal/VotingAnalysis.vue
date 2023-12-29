@@ -39,14 +39,14 @@ const summaryData = computed(() => {
   const sortVote = excludeTotalVotes(props.votesData).sort(
     (a, b) => parseFloat(b['投票率']) - parseFloat(a['投票率']),
   )
-  const hight = sortVote[0]['行政區別']
+  const highestArea = sortVote[0]['行政區別']
 
-  const lowest = sortVote[sortVote.length - 1]['行政區別']
+  const lowestArea = sortVote[sortVote.length - 1]['行政區別']
 
   return {
     totalVoterTurnout,
-    hight,
-    lowest,
+    highestArea,
+    lowestArea,
   }
 })
 </script>
