@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div
-      class="col-12 col-md-4"
+      class="col-12 col-md-4 mb-4"
       v-for="candidate in data"
       :key="candidate.candidate_id"
     >
@@ -84,114 +84,4 @@ const props = defineProps({
     required: true,
   },
 })
-// const dummyData = [
-//   {
-//     candidate_id: '1',
-//     main: {
-//       election_year: '2020',
-//       candidate_id: '1',
-//       role: 0,
-//       name: '雅娜',
-//       party: '金色曠野同盟',
-//       party_logo_url: 'assets/party-logo/savannah.png',
-//       education: '自由原野大學法學博士',
-//       experience: '草原生態系統平和促進會主席',
-//       avatar_url: 'assets/candidate/金色曠野同盟-雅娜.png',
-//       is_elected: true,
-//       voteNum: 8170231,
-//     },
-//     vice: {
-//       election_year: '2020',
-//       candidate_id: '1',
-//       role: 1,
-//       name: '莉莎',
-//       party: '金色曠野同盟',
-//       party_logo_url: 'assets/party-logo/savannah.png',
-//       education: '廣袤草地大學草原生態學',
-//       experience: '乾雨季水源管理部部長',
-//       avatar_url: 'assets/candidate/金色曠野同盟-莉莎.png',
-//       is_elected: true,
-//       voteNum: 8170231,
-//     },
-//     party: '金色曠野同盟',
-//     rateAnal: {
-//       cityHighest: '臺北市',
-//       cityLowest: '新北市',
-//     },
-//     voteNum: 8170231,
-//     voteRate: 76.3098,
-//   },
-//   {
-//     candidate_id: '2',
-//     main: {
-//       election_year: '2020',
-//       candidate_id: '2',
-//       role: 0,
-//       name: '喬治',
-//       party: '蔚藍海岸陣線',
-//       party_logo_url: 'assets/party-logo/coast.png',
-//       education: '海洋法學院國際海洋法博士',
-//       experience: '海洋生態保護協會主席',
-//       avatar_url: 'assets/candidate/蔚藍海岸陣線-喬治.png',
-//       is_elected: false,
-//       voteNum: 5522119,
-//     },
-//     vice: {
-//       election_year: '2020',
-//       candidate_id: '2',
-//       role: 1,
-//       name: '安德魯',
-//       party: '蔚藍海岸陣線',
-//       party_logo_url: 'assets/party-logo/coast.png',
-//       education: '碧海蔚藍大學海洋生態學博士',
-//       experience: '國際海洋保育聯盟執行董事',
-//       avatar_url: 'assets/candidate/蔚藍海岸陣線-安德魯.png',
-//       is_elected: false,
-//       voteNum: 5522119,
-//     },
-//     party: '蔚藍海岸陣線',
-//     rateAnal: {
-//       cityHighest: '臺北市',
-//       cityLowest: '新北市',
-//     },
-//     voteNum: 5522119,
-//     voteRate: 76.3098,
-//   },
-//   {
-//     candidate_id: '3',
-//     main: {
-//       election_year: '2020',
-//       candidate_id: '3',
-//       role: 0,
-//       name: '賽門',
-//       party: '鬱蔥雨林聯盟',
-//       party_logo_url: 'assets/party-logo/rainforest.png',
-//       education: '熱帶雨林環境學院熱帶植物學博士',
-//       experience: '國際雨林保育聯盟執行董事',
-//       avatar_url: 'assets/candidate/鬱蔥雨林聯盟-賽門.png',
-//       is_elected: false,
-//       voteNum: 608590,
-//     },
-//     vice: {
-//       election_year: '2020',
-//       candidate_id: '3',
-//       role: 1,
-//       name: '艾娃',
-//       party: '鬱蔥雨林聯盟',
-//       party_logo_url: 'assets/party-logo/rainforest.png',
-//       education: '熱帶自然之美大學熱帶地理學博士',
-//       experience: '生態開發工程監督主席',
-//       avatar_url: 'assets/candidate/鬱蔥雨林聯盟-艾娃.png',
-//       is_elected: false,
-//       voteNum: 608590,
-//     },
-//     party: '鬱蔥雨林聯盟',
-//     rateAnal: {
-//       cityHighest: '臺北市',
-//       cityLowest: '新北市',
-//     },
-//     voteNum: 608590,
-//     voteRate: 76.3098,
-//   },
-// ]
 </script>

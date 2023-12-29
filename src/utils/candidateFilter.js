@@ -1,7 +1,7 @@
-
-
 export const filterSameSession = (specifyYear, data) => {
-  const specifyYearData = data.filter((item) => item.election_year == specifyYear)
+  const specifyYearData = data.filter(
+    (item) => item.election_year == specifyYear,
+  )
   const candidateIds = [
     ...new Set(specifyYearData.map((item) => item.candidate_id)),
   ]
@@ -26,7 +26,7 @@ export const filterWinner = (years, originData) => {
       ...people,
       party: people.main.party,
       voteYear: year,
-      voteNum:people.main.voteTotalNum
+      voteNum: people.main.voteTotalNum,
     }
   })
   result.sort((a, b) => b.voteYear - a.voteYear)
@@ -49,7 +49,7 @@ export function groupCandidates(data, condition, conditionValue) {
 //   if(role) {
 //     let vice = data.find((item) => item.role === 1);
 //     section.vice = vice
-//   } else 
+//   } else
 //     let main = data.find((item) => item.role === 0);
 //     section.main = main
 //   }

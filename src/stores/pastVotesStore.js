@@ -32,8 +32,6 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
     }
   })
 
-
- 
   function reset() {
     specifyYear.value = ''
     specifyCity.value = ''
