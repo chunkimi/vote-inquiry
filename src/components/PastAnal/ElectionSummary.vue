@@ -1,29 +1,34 @@
 <template>
-  <div class="d-md-flex justify-content-center align-items-md-end">
-    <PastAnalPie id="past-election-summary" :data="pieData"></PastAnalPie>
-    <div class="ms-md-4">
-      <div class="mb-4">
-        <p class="fw-bold">選舉人數</p>
-        <p>{{ commaNumber(data['選舉人數']) }}</p>
-      </div>
-      <div class="row mb-4">
-        <div class="col-6">
-          <p class="fw-bold">投票率</p>
-          <p>{{ percentage(data['投票率']) }}</p>
+  <h4 class="h4 mb-8">
+    <i class="bi bi-pencil-fill me-2"></i>{{ status }}選情概要
+  </h4>
+  <div class="container">
+    <div class="d-md-flex justify-content-center align-items-md-end">
+      <PastAnalPie id="past-election-summary" :data="pieData"></PastAnalPie>
+      <div class="ms-md-4">
+        <div class="mb-4">
+          <p class="fw-bold">選舉人數</p>
+          <p>{{ commaNumber(data['選舉人數']) }}</p>
         </div>
-        <div class="col-6">
-          <p class="fw-bold">投票數</p>
-          <p>{{ commaNumber(data['投票數']) }}</p>
+        <div class="row mb-4">
+          <div class="col-6">
+            <p class="fw-bold">投票率</p>
+            <p>{{ percentage(data['投票率']) }}</p>
+          </div>
+          <div class="col-6">
+            <p class="fw-bold">投票數</p>
+            <p>{{ commaNumber(data['投票數']) }}</p>
+          </div>
         </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col-6">
-          <p class="fw-bold">有效票數</p>
-          <p>{{ commaNumber(data['有效票數']) }}</p>
-        </div>
-        <div class="col-6">
-          <p class="fw-bold">無效票數</p>
-          <p>{{ commaNumber(data['無效票數']) }}</p>
+        <div class="row mb-4">
+          <div class="col-6">
+            <p class="fw-bold">有效票數</p>
+            <p>{{ commaNumber(data['有效票數']) }}</p>
+          </div>
+          <div class="col-6">
+            <p class="fw-bold">無效票數</p>
+            <p>{{ commaNumber(data['無效票數']) }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -35,6 +40,10 @@ import PastAnalPie from '../chartPastAnal/PastAnalPie.vue'
 import { commaNumber, percentage } from '@/utils/base'
 
 const props = defineProps({
+  status: {
+    type: String,
+    required: true,
+  },
   data: {
     type: Object,
     required: true,

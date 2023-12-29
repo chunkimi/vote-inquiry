@@ -9,7 +9,6 @@
   <h2 class="h2 mb-8 text-end">{{ curYear }}年總統大選</h2>
   <div class="mb-8">
     <h4 class="h4 mb-2"><i class="bi bi-compass me-2"></i>查看地區詳情</h4>
-
     <SearchBar
       :year="curYear"
       v-model:city="curCity"
@@ -17,30 +16,19 @@
     />
   </div>
   <div class="mb-8">
-    <h4 class="h4 mb-8">
-      <i class="bi bi-pencil-fill me-2"></i>{{ curStatus }}選情概要
-    </h4>
-    <div class="container">
-      <ElectionSummary :data="electionSummaryVotes"></ElectionSummary>
-    </div>
+    <ElectionSummary
+      :status="curStatus"
+      :data="electionSummaryVotes"
+    ></ElectionSummary>
   </div>
   <div class="mb-8">
-    <h4 class="h4 mb-8">
-      <i class="bi bi-person-raised-hand me-2"></i>候選人情況
-    </h4>
     <CandidateSummary
-      :vote="candidateSummaryVotes"
+      :vote="specifyVoteJson"
       :candidate="currentCandidates"
     ></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <h4 class="h4 mb-8">
-      <i class="bi bi-joystick me-2"></i>{{ curStatus }}投票情況
-    </h4>
-    <div v-if="curStatus === '全國'">
-      <VoteMap :data="voteMapData"></VoteMap>
-    </div>
-    <div v-else>"BarChart"</div>
+    <VoteStatus :status="curStatus" :vote="specifyVoteJson"></VoteStatus>
   </div>
   <!--<div class="mb-8">
     <h4 class="h4 mb-8"><i class="bi bi-clipboard-data me-2"></i>選票分析</h4>
@@ -81,7 +69,8 @@ import TermMenu from '@/components/common/TermMenu.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
-import VoteMap from '@/components/common/VoteMap.vue'
+import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
+
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 // import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
@@ -125,24 +114,6 @@ const electionSummaryVotes = computed(() => {
   const result = filterSpecifyVotes(specifyVoteJson.value, '行政區別', '總計')
   const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = result
   return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
-})
-
-const candidateSummaryVotes = computed(() => {
-  return specifyVoteJson.value
-})
-
-const voteMapData = computed(() => {
-  return (specifyVoteJson.value || []).map((row) => {
-    const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
-      row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
-    )
-
-    return {
-      city: row['行政區別'],
-      party: winner,
-      count: row['候選人票數'][winner].toLocaleString(),
-    }
-  })
 })
 
 function getPath(year) {
