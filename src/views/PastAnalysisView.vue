@@ -18,17 +18,17 @@
   <div class="mb-8">
     <ElectionSummary
       :status="curStatus"
-      :data="electionSummaryVotes"
+      :votes="electionSummaryVotes"
     ></ElectionSummary>
   </div>
   <div class="mb-8">
     <CandidateSummary
-      :vote="specifyVoteJson"
-      :candidate="currentCandidates"
+      :votes="specifyVoteJson"
+      :candidates="currentCandidates"
     ></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <VoteStatus :status="curStatus" :vote="specifyVoteJson"></VoteStatus>
+    <VoteStatus :status="curStatus" :votes="specifyVoteJson"></VoteStatus>
   </div>
   <!--<div class="mb-8">
     <h4 class="h4 mb-8"><i class="bi bi-clipboard-data me-2"></i>選票分析</h4>

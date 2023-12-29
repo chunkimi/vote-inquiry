@@ -8,26 +8,26 @@
       <div class="ms-md-4">
         <div class="mb-4">
           <p class="fw-bold">選舉人數</p>
-          <p>{{ commaNumber(data['選舉人數']) }}</p>
+          <p>{{ commaNumber(votes['選舉人數']) }}</p>
         </div>
         <div class="row mb-4">
           <div class="col-6">
             <p class="fw-bold">投票率</p>
-            <p>{{ percentage(data['投票率']) }}</p>
+            <p>{{ percentage(votes['投票率']) }}</p>
           </div>
           <div class="col-6">
             <p class="fw-bold">投票數</p>
-            <p>{{ commaNumber(data['投票數']) }}</p>
+            <p>{{ commaNumber(votes['投票數']) }}</p>
           </div>
         </div>
         <div class="row mb-4">
           <div class="col-6">
             <p class="fw-bold">有效票數</p>
-            <p>{{ commaNumber(data['有效票數']) }}</p>
+            <p>{{ commaNumber(votes['有效票數']) }}</p>
           </div>
           <div class="col-6">
             <p class="fw-bold">無效票數</p>
-            <p>{{ commaNumber(data['無效票數']) }}</p>
+            <p>{{ commaNumber(votes['無效票數']) }}</p>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  data: {
+  votes: {
     type: Object,
     required: true,
   },
@@ -56,7 +56,7 @@ const labelColor = {
 }
 
 const pieData = computed(() => {
-  const { 有效票數, 無效票數 } = props.data
+  const { 有效票數, 無效票數 } = props.votes
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),

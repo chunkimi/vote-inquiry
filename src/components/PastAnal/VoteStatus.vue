@@ -16,14 +16,14 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  vote: {
+  votes: {
     type: Array,
     required: true,
   },
 })
 
 const voteMapData = computed(() => {
-  return (props.vote || []).map((row) => {
+  return (props.votes || []).map((row) => {
     const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
       row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
     )

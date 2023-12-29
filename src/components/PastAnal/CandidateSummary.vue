@@ -18,18 +18,18 @@ import PastAnalPie from '../chartPastAnal/PastAnalPie.vue'
 import party from '@/data/party.json'
 
 const props = defineProps({
-  vote: {
+  votes: {
     type: Array,
     required: true,
   },
-  candidate: {
+  candidates: {
     type: Array,
     required: true,
   },
 })
 
 const pieData = computed(() => {
-  const totalVotes = filterSpecifyVotes(props.vote, '行政區別', '總計')
+  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
   const { 候選人票數 } = totalVotes
   const rawData = Object.entries(候選人票數)
   return {
@@ -40,9 +40,9 @@ const pieData = computed(() => {
 })
 
 const candidateAnalData = computed(() => {
-  const totalVotes = filterSpecifyVotes(props.vote, '行政區別', '總計')
-  const partyVoteRate = getVoteRateMaxMix(props.vote)
-  const result = [...props.candidate].map((item) => {
+  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
+  const partyVoteRate = getVoteRateMaxMix(props.votes)
+  const result = [...props.candidates].map((item) => {
     const voteNum = totalVotes['候選人票數'][item.party]
     const voteRate = ((voteNum / totalVotes['有效票數']) * 100).toFixed(2) + '%'
     const rateAnal = partyVoteRate[item.party]
