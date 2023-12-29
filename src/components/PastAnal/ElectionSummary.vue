@@ -1,6 +1,6 @@
 <template>
   <h4 class="h4 mb-8">
-    <i class="bi bi-pencil-fill me-2"></i>{{ status }}選情概要
+    <i class="bi bi-pencil-fill me-2"></i>{{ curStatus }}選情概要
   </h4>
   <div class="container">
     <div class="d-md-flex justify-content-center align-items-md-end py-6 mb-8">
@@ -40,15 +40,15 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
+import { storeToRefs } from 'pinia'
+import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { commaNumber, percentage } from '@/utils/base'
 import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 
+import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
+
+const { curStatus } = storeToRefs(usePastElectionStore())
 const props = defineProps({
-  status: {
-    type: String,
-    required: true,
-  },
   votes: {
     type: Object,
     required: true,
@@ -56,8 +56,12 @@ const props = defineProps({
 })
 
 const votesData = computed(() => {
-  const result = filterSpecifyVotes(props.votes, '行政區別', '總計')
-  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = result
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.votes,
+    '行政區別',
+    '總計',
+  )
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = specifyAnalysisVotes
   return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
 })
 
@@ -67,8 +71,12 @@ const labelColor = {
 }
 
 const pieData = computed(() => {
-  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
-  const { 有效票數, 無效票數 } = totalVotes
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.votes,
+    '行政區別',
+    '總計',
+  )
+  const { 有效票數, 無效票數 } = specifyAnalysisVotes
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),

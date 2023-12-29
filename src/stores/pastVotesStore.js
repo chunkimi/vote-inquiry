@@ -32,14 +32,25 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
     }
   })
 
+  const curStatus = computed(() => {
+    if (!specifyCity.value && !specifyDistrict.value) {
+      return `全國`
+    } else if (!specifyDistrict.value) {
+      return `${specifyCity.value}`
+    } else {
+      return `${specifyCity.value}${specifyDistrict.value}`
+    }
+  })
+  
+  const currentCandidates = computed(() =>
+    filterSameSession(specifyYear.value, candidate),
+  )
+  
   function reset() {
     specifyYear.value = ''
     specifyCity.value = ''
     specifyDistrict.value = ''
   }
-  const currentCandidates = computed(() =>
-    filterSameSession(specifyYear.value, candidate),
-  )
   return {
     specifyYear,
     specifyCity,
@@ -47,6 +58,7 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
     votes,
     reset,
     currentCandidates,
+    curStatus
   }
 })
 

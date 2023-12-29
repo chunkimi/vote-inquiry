@@ -47,7 +47,7 @@
           <div class="mb-4">
             <div class="d-flex justify-content-between align-items-center">
               <p>得票率</p>
-              <p>{{ candidate.voteRate }}</p>
+              <p>{{ candidate.voterTurnout }}</p>
             </div>
             <div class="d-flex justify-content-between align-items-center">
               <p>所屬政黨</p>

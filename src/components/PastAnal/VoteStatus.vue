@@ -1,8 +1,8 @@
 <template>
   <h4 class="h4 mb-8">
-    <i class="bi bi-joystick me-2"></i>{{ status }}投票情況
+    <i class="bi bi-joystick me-2"></i>{{ curStatus }}投票情況
   </h4>
-  <div v-if="status === '全國'">
+  <div v-if="curStatus === '全國'">
     <VoteMap :data="voteMapData"></VoteMap>
   </div>
   <div v-else>
@@ -15,21 +15,18 @@
 </template>
 <script setup>
 import { computed } from 'vue'
+
+import { storeToRefs } from 'pinia'
+import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+
 import VoteMap from '@/components/common/VoteMap.vue'
-// import BarChart from '@/components/chart/BarChart.vue'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
+const { currentCandidates, curStatus } = storeToRefs(usePastElectionStore())
+
 const props = defineProps({
-  status: {
-    type: String,
-    required: true,
-  },
   votes: {
-    type: Array,
-    required: true,
-  },
-  candidates: {
     type: Array,
     required: true,
   },
@@ -56,13 +53,15 @@ const barChartData = computed(() => {
   const labels = votesData.map((d) =>
     d['村里別'] ? d['村里別'] : d['行政區別'],
   )
-  const datasets = (props.candidates || []).map(({ party: partyName }) => {
-    return {
-      label: partyName,
-      data: votesData.map((d) => d['候選人票數'][partyName]),
-      backgroundColor: party.colorMap[partyName],
-    }
-  })
+  const datasets = (currentCandidates.value || []).map(
+    ({ party: partyName }) => {
+      return {
+        label: partyName,
+        data: votesData.map((d) => d['候選人票數'][partyName]),
+        backgroundColor: party.colorMap[partyName],
+      }
+    },
+  )
 
   return {
     labels,

@@ -16,30 +16,16 @@
     />
   </div>
   <div class="mb-8">
-    <ElectionSummary
-      :status="curStatus"
-      :votes="specifyVoteJson"
-    ></ElectionSummary>
+    <ElectionSummary :votes="specifyVoteJson"></ElectionSummary>
   </div>
   <div class="mb-8">
-    <CandidateSummary
-      :votes="specifyVoteJson"
-      :candidates="currentCandidates"
-    ></CandidateSummary>
+    <CandidateSummary :votes="specifyVoteJson"></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <VoteStatus
-      :status="curStatus"
-      :votes="specifyVoteJson"
-      :candidates="currentCandidates"
-    ></VoteStatus>
+    <VoteStatus :votes="specifyVoteJson"></VoteStatus>
   </div>
   <div class="mb-8">
-    <BallotAnalysis
-      :status="curStatus"
-      :votes="specifyVoteJson"
-      :candidates="currentCandidates"
-    ></BallotAnalysis>
+    <BallotAnalysis :votes="specifyVoteJson"></BallotAnalysis>
   </div>
   <div class="mt-8">
     <p>這是選票</p>
@@ -53,10 +39,8 @@
 <script setup>
 console.clear()
 import { computed, watch, ref } from 'vue'
-import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
-import { useMediaQuery } from '@vueuse/core'
-
+import { storeToRefs } from 'pinia'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { allYears } from '@/utils/electionInfo.js'
 
@@ -66,7 +50,7 @@ import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
 import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
-
+import { useMediaQuery } from '@vueuse/core'
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
@@ -77,19 +61,10 @@ const {
   specifyDistrict: curDistrict,
   votes,
   currentCandidates,
+  curStatus,
 } = storeToRefs(usePastElectionStore())
 
 watch(yearId, (year) => (curYear.value = year), { immediate: true })
-
-const curStatus = computed(() => {
-  if (!curCity.value && !curDistrict.value) {
-    return `全國`
-  } else if (!curDistrict) {
-    return `${curCity.value}`
-  } else {
-    return `${curCity.value}${curDistrict.value}`
-  }
-})
 
 // 先以本地端選票資料寫畫面
 import vote2020 from '@/data/votes/2020/全國.json'

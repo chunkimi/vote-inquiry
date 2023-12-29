@@ -9,14 +9,11 @@
         ></BallotAnalysisMenu>
       </div>
       <div class="col-12 col-md-10">
-        <div class="mb-4">
-          <VotingAnalysis
-            v-if="curAnalStatus === analysisMenuData[0]"
-            :statusData="status"
-            :votesData="votes"
-          ></VotingAnalysis>
-          <PartyAnalysis v-else></PartyAnalysis>
-        </div>
+        <VotingAnalysis
+          v-if="curAnalStatus === analysisMenuData[0]"
+          :votesData="votes"
+        ></VotingAnalysis>
+        <PartyAnalysis v-else></PartyAnalysis>
       </div>
     </div>
   </div>
@@ -31,20 +28,9 @@ const analysisMenuData = ['投票情況分析', '政黨得票分析']
 const curAnalStatus = ref(analysisMenuData[0])
 
 const props = defineProps({
-  status: {
-    type: String,
-    required: true,
-  },
   votes: {
     type: Array,
     required: true,
   },
-  candidates: {
-    type: Array,
-    required: true,
-  },
 })
-
-// import { useMediaQuery } from '@vueuse/core'
-// const isDesktop = useMediaQuery('(min-width: 767px)')
 </script>

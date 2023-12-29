@@ -14,26 +14,30 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { filterSpecifyVotes } from '@/utils/votesAnal.js'
+import { storeToRefs } from 'pinia'
+import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
 import CandidateAnalCard from '@/components/PastAnal/CandidateAnalCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
+
+const { currentCandidates } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
   votes: {
     type: Array,
     required: true,
   },
-  candidates: {
-    type: Array,
-    required: true,
-  },
 })
 
 const pieData = computed(() => {
-  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
-  const { 候選人票數 } = totalVotes
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.votes,
+    '行政區別',
+    '總計',
+  )
+  const { 候選人票數 } = specifyAnalysisVotes
   const rawData = Object.entries(候選人票數)
   return {
     votes: rawData.map(([label, value]) => value),
@@ -43,16 +47,21 @@ const pieData = computed(() => {
 })
 
 const candidateAnalData = computed(() => {
-  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.votes,
+    '行政區別',
+    '總計',
+  )
   const partyVoteRate = getVoteRateMaxMix(props.votes)
-  const result = [...props.candidates].map((item) => {
-    const voteNum = totalVotes['候選人票數'][item.party]
-    const voteRate = ((voteNum / totalVotes['有效票數']) * 100).toFixed(2) + '%'
+  const result = [...currentCandidates.value].map((item) => {
+    const voteNum = specifyAnalysisVotes['候選人票數'][item.party]
+    const voterTurnout =
+      ((voteNum / specifyAnalysisVotes['有效票數']) * 100).toFixed(2) + '%'
     const rateAnal = partyVoteRate[item.party]
     return {
       ...item,
       voteNum,
-      voteRate,
+      voterTurnout,
       rateAnal,
     }
   })
@@ -75,12 +84,10 @@ function getVoteRateMaxMix(voteData) {
 
   const PartyVoteRate = {}
   party.forEach((partyName) => {
-    const partyData = originVoteRate
-      .filter((item) => item['行政區別'] !== '總計')
-      .map((item) => ({
-        行政區別: item['行政區別'],
-        得票率: item[partyName],
-      }))
+    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
+      行政區別: item['行政區別'],
+      得票率: item[partyName],
+    }))
 
     partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
     PartyVoteRate[partyName] = {
