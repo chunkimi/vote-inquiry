@@ -33,14 +33,16 @@
       :candidate="currentCandidates"
     ></CandidateSummary>
   </div>
-  <!-- <div class="d-none d-md-block mb-md-8">
-    <h4 class="h4">
-      <i class="bi bi-joystick me-2"></i
-      ><span class="text-danger">全國</span>投票情況
+  <div class="d-md-block mb-md-8" v-if="isDesktop">
+    <h4 class="h4 mb-8">
+      <i class="bi bi-joystick me-2"></i>{{ curStatus }}投票情況
     </h4>
-    <p class="text-danger">"BarChart"</p>
+    <div v-if="curStatus === '全國'">
+      <VoteMap :data="voteMapData"></VoteMap>
+    </div>
+    <div v-else>"BarChart"</div>
   </div>
-  <div class="mb-8">
+  <!--<div class="mb-8">
     <h4 class="h4 mb-8"><i class="bi bi-clipboard-data me-2"></i>選票分析</h4>
     <div class="row">
       <div class="col-12 col-md-2 mb-8"><AnalysisMenu></AnalysisMenu></div>
@@ -66,19 +68,25 @@
 </template>
 <script setup>
 console.clear()
-import { computed, watch } from 'vue'
+import { computed, watch, ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
+import { useMediaQuery } from '@vueuse/core'
+
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 import { allYears } from '@/utils/electionInfo.js'
+
 import TermMenu from '@/components/common/TermMenu.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
+import VoteMap from '@/components/common/VoteMap.vue'
 // import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
 // import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
 // import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
+
+const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
@@ -108,16 +116,33 @@ import vote2016 from '@/data/votes/2016/全國.json'
 import vote2012 from '@/data/votes/2012/全國.json'
 const allData = { vote2020, vote2016, vote2012 }
 
+const specifyVoteJson = ref([])
+watch(yearId, (year) => (specifyVoteJson.value = getPath(year)), {
+  immediate: true,
+})
+
 const electionSummaryVotes = computed(() => {
-  const specifyJson = getPath(curYear.value)
-  const result = filterSpecifyVotes(specifyJson, '行政區別', '總計')
+  const result = filterSpecifyVotes(specifyVoteJson.value, '行政區別', '總計')
   const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = result
   return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
 })
 
 const candidateSummaryVotes = computed(() => {
-  const specifyJson = getPath(curYear.value)
-  return specifyJson
+  return specifyVoteJson.value
+})
+
+const voteMapData = computed(() => {
+  return (specifyVoteJson.value || []).map((row) => {
+    const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
+      row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
+    )
+
+    return {
+      city: row['行政區別'],
+      party: winner,
+      count: row['候選人票數'][winner].toLocaleString(),
+    }
+  })
 })
 
 function getPath(year) {
