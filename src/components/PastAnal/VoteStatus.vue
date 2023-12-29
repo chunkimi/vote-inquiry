@@ -6,18 +6,19 @@
     <VoteMap :data="voteMapData"></VoteMap>
   </div>
   <div v-else>
-    <BarChart
-      :labels="barChartLabels"
+    <!-- <BarChart :data="barChartData" id="vote-status" class="mx-auto"></BarChart> -->
+    <PastAnalBarChart
       :data="barChartData"
       id="vote-status"
       class="mx-auto"
-    ></BarChart>
+    ></PastAnalBarChart>
   </div>
 </template>
 <script setup>
 import { computed } from 'vue'
 import VoteMap from '@/components/common/VoteMap.vue'
-import BarChart from '@/components/chart/BarChart.vue'
+// import BarChart from '@/components/chart/BarChart.vue'
+import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
 const props = defineProps({
@@ -47,23 +48,26 @@ const voteMapData = computed(() => {
     }
   })
 })
+
 // 目前先以全國資料跑圖表
-const barChartLabels = computed(() => {
-  const votesData = (props.votes || []).filter(
-    (item) => item['行政區別'] !== '總計',
-  )
-  return votesData.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
-})
 const barChartData = computed(() => {
   const votesData = (props.votes || []).filter(
     (item) => item['行政區別'] !== '總計',
   )
-  return (props.candidates || []).map(({ party: partyName }) => {
+  const labels = votesData.map((d) =>
+    d['村里別'] ? d['村里別'] : d['行政區別'],
+  )
+  const votesCount = (props.candidates || []).map(({ party: partyName }) => {
     return {
       label: partyName,
       data: votesData.map((d) => d['候選人票數'][partyName]),
       backgroundColor: party.colorMap[partyName],
     }
   })
+
+  return {
+    labels,
+    votesCount,
+  }
 })
 </script>

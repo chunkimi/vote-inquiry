@@ -4,7 +4,10 @@
   </h4>
   <div class="container">
     <div class="d-md-flex justify-content-center align-items-md-end">
-      <PastAnalPie id="past-election-summary" :data="pieData"></PastAnalPie>
+      <PastAnalPieChart
+        id="past-election-summary"
+        :data="pieData"
+      ></PastAnalPieChart>
       <div class="ms-md-4">
         <div class="mb-4">
           <p class="fw-bold">選舉人數</p>
@@ -36,7 +39,7 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import PastAnalPie from '../chartPastAnal/PastAnalPie.vue'
+import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 import { commaNumber, percentage } from '@/utils/base'
 
 const props = defineProps({

@@ -4,7 +4,10 @@
   </h4>
   <div class="mb-8">
     <div class="d-flex justify-content-center py-6 mb-8a">
-      <PastAnalPie id="past-candidate-summary" :data="pieData"></PastAnalPie>
+      <PastAnalPieChart
+        id="past-candidate-summary"
+        :data="pieData"
+      ></PastAnalPieChart>
     </div>
     <CandidateAnalCard :data="candidateAnalData"></CandidateAnalCard>
   </div>
@@ -13,7 +16,7 @@
 import { computed } from 'vue'
 import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 import CandidateAnalCard from '@/components/PastAnal/CandidateAnalCard.vue'
-import PastAnalPie from '../chartPastAnal/PastAnalPie.vue'
+import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 

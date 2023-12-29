@@ -11,7 +11,7 @@
   </div>
 </template>
 <script setup>
-import { watch, nextTick } from 'vue'
+import { watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
 
 const props = defineProps({
@@ -38,6 +38,10 @@ watch(
   },
   { deep: true, immediate: true },
 )
+
+onBeforeUnmount(() => {
+  chart.destroy()
+})
 
 async function renderPieChart() {
   await nextTick()
