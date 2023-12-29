@@ -22,7 +22,7 @@ import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 
-const { currentCandidates } = storeToRefs(usePastElectionStore())
+const { curCandidates } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
   votes: {
@@ -53,7 +53,7 @@ const candidateAnalData = computed(() => {
     '總計',
   )
   const partyVoteRate = getVoteRateMaxMix(props.votes)
-  const result = [...currentCandidates.value].map((item) => {
+  const result = [...curCandidates.value].map((item) => {
     const voteNum = specifyAnalysisVotes['候選人票數'][item.party]
     const voterTurnout =
       ((voteNum / specifyAnalysisVotes['有效票數']) * 100).toFixed(2) + '%'

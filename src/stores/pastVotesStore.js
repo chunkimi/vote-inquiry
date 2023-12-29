@@ -6,21 +6,22 @@ import { useFirebaseStorage, useStorageFileUrl } from 'vuefire'
 import { useFetch } from '@vueuse/core'
 
 import { filterSameSession } from '@/utils/candidateFilter'
+import { combineVotePath } from '@/utils/votesAnal.js'
 import candidate from '@/data/candidate.json'
 
 export const usePastElectionStore = defineStore('pastElectionStore', () => {
-  const specifyYear = ref('')
-  const specifyCity = ref('')
-  const specifyDistrict = ref('')
+  const curYear = ref('')
+  const curCity = ref('')
+  const curDistrict = ref('')
   const votes = ref([])
 
   const storage = useFirebaseStorage()
   const votesFileRef = computed(() => {
-    if (!specifyYear.value) return
-    const path = combinePath(
-      specifyYear.value,
-      specifyCity.value,
-      specifyDistrict.value,
+    if (!curYear.value) return
+    const path = combineVotePath(
+      curYear.value,
+      curCity.value,
+      curDistrict.value,
     )
     return storageRef(storage, path)
   })
@@ -33,44 +34,31 @@ export const usePastElectionStore = defineStore('pastElectionStore', () => {
   })
 
   const curStatus = computed(() => {
-    if (!specifyCity.value && !specifyDistrict.value) {
+    if (!curCity.value && !curDistrict.value) {
       return `全國`
-    } else if (!specifyDistrict.value) {
-      return `${specifyCity.value}`
+    } else if (!curDistrict.value) {
+      return `${curCity.value}`
     } else {
-      return `${specifyCity.value}${specifyDistrict.value}`
+      return `${curCity.value}${curDistrict.value}`
     }
   })
   
-  const currentCandidates = computed(() =>
-    filterSameSession(specifyYear.value, candidate),
+  const curCandidates = computed(() =>
+    filterSameSession(curYear.value, candidate),
   )
-  
+
   function reset() {
-    specifyYear.value = ''
-    specifyCity.value = ''
-    specifyDistrict.value = ''
+    curYear.value = ''
+    curCity.value = ''
+    curDistrict.value = ''
   }
   return {
-    specifyYear,
-    specifyCity,
-    specifyDistrict,
+    curYear,
+    curCity,
+    curDistrict,
     votes,
     reset,
-    currentCandidates,
+    curCandidates,
     curStatus
   }
 })
-
-function combinePath(year, city, district) {
-  let filePath = ''
-  if (!year) return
-  if (!!year && !!city && !!district) {
-    filePath = `${year}/${city}-${district}`
-  } else if (!!city && !district) {
-    filePath = `${year}/${city}`
-  } else if (!city) {
-    filePath = `${year}/全國`
-  }
-  return `votes/${filePath}.json`
-}

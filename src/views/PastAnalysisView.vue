@@ -31,10 +31,6 @@
     <p>這是選票</p>
     <p class="mt-8">{{ votes }}</p>
   </div>
-  <div class="mt-8">
-    <p>這是候選人</p>
-    <p class="mt-8">{{ currentCandidates }}</p>
-  </div>
 </template>
 <script setup>
 console.clear()
@@ -55,14 +51,9 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
-const {
-  specifyYear: curYear,
-  specifyCity: curCity,
-  specifyDistrict: curDistrict,
-  votes,
-  currentCandidates,
-  curStatus,
-} = storeToRefs(usePastElectionStore())
+const { curYear, curCity, curDistrict, votes } = storeToRefs(
+  usePastElectionStore(),
+)
 
 watch(yearId, (year) => (curYear.value = year), { immediate: true })
 

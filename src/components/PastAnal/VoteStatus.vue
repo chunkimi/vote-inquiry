@@ -23,7 +23,7 @@ import VoteMap from '@/components/common/VoteMap.vue'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
-const { currentCandidates, curStatus } = storeToRefs(usePastElectionStore())
+const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
   votes: {
@@ -53,15 +53,13 @@ const barChartData = computed(() => {
   const labels = votesData.map((d) =>
     d['村里別'] ? d['村里別'] : d['行政區別'],
   )
-  const datasets = (currentCandidates.value || []).map(
-    ({ party: partyName }) => {
-      return {
-        label: partyName,
-        data: votesData.map((d) => d['候選人票數'][partyName]),
-        backgroundColor: party.colorMap[partyName],
-      }
-    },
-  )
+  const datasets = (curCandidates.value || []).map(({ party: partyName }) => {
+    return {
+      label: partyName,
+      data: votesData.map((d) => d['候選人票數'][partyName]),
+      backgroundColor: party.colorMap[partyName],
+    }
+  })
 
   return {
     labels,
