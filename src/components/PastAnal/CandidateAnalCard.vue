@@ -5,7 +5,7 @@
       v-for="candidate in data"
       :key="candidate.candidate_id"
     >
-      <div class="card">
+      <div class="card h-100">
         <div class="card-header p-4 bg-secondary text-center">
           {{ candidate.candidate_id }}
         </div>
