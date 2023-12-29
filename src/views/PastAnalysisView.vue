@@ -18,7 +18,7 @@
   <div class="mb-8">
     <ElectionSummary
       :status="curStatus"
-      :votes="electionSummaryVotes"
+      :votes="specifyVoteJson"
     ></ElectionSummary>
   </div>
   <div class="mb-8">
@@ -35,17 +35,20 @@
     ></VoteStatus>
   </div>
   <div class="mb-8">
-    <AnalysisVotes></AnalysisVotes>
+    <BallotAnalysis
+      :status="curStatus"
+      :votes="specifyVoteJson"
+      :candidates="currentCandidates"
+    ></BallotAnalysis>
   </div>
-
-  <!-- <div class="mt-8">
+  <div class="mt-8">
     <p>這是選票</p>
     <p class="mt-8">{{ votes }}</p>
   </div>
   <div class="mt-8">
     <p>這是候選人</p>
     <p class="mt-8">{{ currentCandidates }}</p>
-  </div> -->
+  </div>
 </template>
 <script setup>
 console.clear()
@@ -55,7 +58,6 @@ import { useRoute } from 'vue-router'
 import { useMediaQuery } from '@vueuse/core'
 
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
-import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 import { allYears } from '@/utils/electionInfo.js'
 
 import TermMenu from '@/components/common/TermMenu.vue'
@@ -63,7 +65,7 @@ import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
-import AnalysisVotes from '@/components/PastAnal/AnalysisVotes.vue'
+import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
@@ -99,13 +101,6 @@ const specifyVoteJson = ref([])
 watch(yearId, (year) => (specifyVoteJson.value = getPath(year)), {
   immediate: true,
 })
-
-const electionSummaryVotes = computed(() => {
-  const result = filterSpecifyVotes(specifyVoteJson.value, '行政區別', '總計')
-  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = result
-  return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
-})
-
 function getPath(year) {
   return allData[`vote${year}`]
 }

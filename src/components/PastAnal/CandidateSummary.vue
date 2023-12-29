@@ -84,8 +84,8 @@ function getVoteRateMaxMix(voteData) {
 
     partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
     PartyVoteRate[partyName] = {
-      cityHighest: partyData[0],
-      cityLowest: partyData[partyData.length - 1],
+      highest: partyData[0],
+      lowest: partyData[partyData.length - 1],
     }
   })
 

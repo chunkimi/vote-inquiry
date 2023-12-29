@@ -3,34 +3,35 @@
     <i class="bi bi-pencil-fill me-2"></i>{{ status }}選情概要
   </h4>
   <div class="container">
-    <div class="d-md-flex justify-content-center align-items-md-end">
+    <div class="d-md-flex justify-content-center align-items-md-end py-6 mb-8">
       <PastAnalPieChart
         id="past-election-summary"
         :data="pieData"
+        class="mx-auto"
       ></PastAnalPieChart>
       <div class="ms-md-4">
         <div class="mb-4">
           <p class="fw-bold">選舉人數</p>
-          <p>{{ commaNumber(votes['選舉人數']) }}</p>
+          <p>{{ commaNumber(votesData['選舉人數']) }}</p>
         </div>
         <div class="row mb-4">
           <div class="col-6">
             <p class="fw-bold">投票率</p>
-            <p>{{ percentage(votes['投票率']) }}</p>
+            <p>{{ percentage(votesData['投票率']) }}</p>
           </div>
           <div class="col-6">
             <p class="fw-bold">投票數</p>
-            <p>{{ commaNumber(votes['投票數']) }}</p>
+            <p>{{ commaNumber(votesData['投票數']) }}</p>
           </div>
         </div>
         <div class="row mb-4">
           <div class="col-6">
             <p class="fw-bold">有效票數</p>
-            <p>{{ commaNumber(votes['有效票數']) }}</p>
+            <p>{{ commaNumber(votesData['有效票數']) }}</p>
           </div>
           <div class="col-6">
             <p class="fw-bold">無效票數</p>
-            <p>{{ commaNumber(votes['無效票數']) }}</p>
+            <p>{{ commaNumber(votesData['無效票數']) }}</p>
           </div>
         </div>
       </div>
@@ -41,6 +42,7 @@
 import { computed } from 'vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 import { commaNumber, percentage } from '@/utils/base'
+import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 
 const props = defineProps({
   status: {
@@ -53,13 +55,20 @@ const props = defineProps({
   },
 })
 
+const votesData = computed(() => {
+  const result = filterSpecifyVotes(props.votes, '行政區別', '總計')
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = result
+  return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
+})
+
 const labelColor = {
   有效票數: '#fad961',
   無效票數: '#e5e9ec',
 }
 
 const pieData = computed(() => {
-  const { 有效票數, 無效票數 } = props.votes
+  const totalVotes = filterSpecifyVotes(props.votes, '行政區別', '總計')
+  const { 有效票數, 無效票數 } = totalVotes
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),
