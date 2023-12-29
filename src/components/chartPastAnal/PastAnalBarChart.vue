@@ -53,13 +53,13 @@ async function renderBarChart() {
 
   const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
 
-  const { labels, votesCount } = props.data
+  const { labels, datasets } = props.data
 
   const config = {
     type: 'bar',
     data: {
       labels: labels,
-      datasets: votesCount,
+      datasets: datasets,
     },
     options: {
       responsive: true,
@@ -85,10 +85,10 @@ async function renderBarChart() {
 }
 
 function updateBarChart() {
-  const { labels, votesCount } = props.data
+  const { labels, datasets } = props.data
   ;(chart.data = {
     labels: labels,
-    datasets: votesCount,
+    datasets: datasets,
   }),
     chart.update()
 }

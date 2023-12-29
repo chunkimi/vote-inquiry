@@ -6,7 +6,6 @@
     <VoteMap :data="voteMapData"></VoteMap>
   </div>
   <div v-else>
-    <!-- <BarChart :data="barChartData" id="vote-status" class="mx-auto"></BarChart> -->
     <PastAnalBarChart
       :data="barChartData"
       id="vote-status"
@@ -57,7 +56,7 @@ const barChartData = computed(() => {
   const labels = votesData.map((d) =>
     d['村里別'] ? d['村里別'] : d['行政區別'],
   )
-  const votesCount = (props.candidates || []).map(({ party: partyName }) => {
+  const datasets = (props.candidates || []).map(({ party: partyName }) => {
     return {
       label: partyName,
       data: votesData.map((d) => d['候選人票數'][partyName]),
@@ -67,7 +66,7 @@ const barChartData = computed(() => {
 
   return {
     labels,
-    votesCount,
+    datasets,
   }
 })
 </script>
