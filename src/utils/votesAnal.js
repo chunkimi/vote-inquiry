@@ -2,10 +2,6 @@ export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
   return [...dataArr].find((item) => item[specifyKey] === specifyValue)
 }
 
-export function excludeTotalVotes(votes) {
-  return [...votes].filter((item) => item['行政區別'] !== '總計')
-}
-
 export function combineVotePath(year, city, district) {
   let filePath = ''
   if (!year) return
@@ -19,6 +15,9 @@ export function combineVotePath(year, city, district) {
   return `votes/${filePath}.json`
 }
 
+export function excludeTotalVotes(votes) {
+  return [...votes].filter((item) => item['行政區別'] !== '總計')
+}
 export function getVoteRateMaxMix(voteData) {
   const { party, originVoteRate } = calAreaVoteRate(voteData)
   const PartyVoteRate = {}

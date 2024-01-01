@@ -61,11 +61,11 @@
           </div>
           <div>
             <div class="d-flex justify-content-between align-items-center">
-              <p>得票率<span class="fw-bold">最高</span>地區：</p>
+              <p>得票率<span class="fw-bold">最高</span>區域：</p>
               <p>{{ candidate.rateAnal.highestArea['行政區別'] }}</p>
             </div>
             <div class="d-flex justify-content-between align-items-center">
-              <p>得票率<span class="fw-bold">最低</span>地區：</p>
+              <p>得票率<span class="fw-bold">最低</span>區域：</p>
               <p>{{ candidate.rateAnal.lowestArea['行政區別'] }}</p>
             </div>
           </div>

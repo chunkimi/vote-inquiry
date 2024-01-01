@@ -8,6 +8,7 @@
 }
 </style>
 <template>
+  <h4 class="h4 mb-4">本屆政黨版圖變動<span class="text-danger">縣市</span></h4>
   <div class="row">
     <div class="col-6 col-md-3 mb-1 mb-md-4">
       <div class="domain__card p-6 rounded bg-danger bg-opacity-25">

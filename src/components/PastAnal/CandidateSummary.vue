@@ -9,7 +9,7 @@
         :data="pieData"
       ></PastAnalPieChart>
     </div>
-    <CandidateAnalCard :data="candidateAnalData"></CandidateAnalCard>
+    <CandidateSummaryCard :data="candidateAnalData"></CandidateSummaryCard>
   </div>
 </template>
 <script setup>
@@ -17,7 +17,7 @@ import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
 import { filterSpecifyVotes, getVoteRateMaxMix } from '@/utils/votesAnal.js'
-import CandidateAnalCard from '@/components/PastAnal/CandidateAnalCard.vue'
+import CandidateSummaryCard from '@/components/PastAnal/CandidateSummaryCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
