@@ -19,20 +19,21 @@
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+
 import PastAnalLineChart from '@/components/chartPastAnal/PastAnalLineChart.vue'
 
 const { curStatus, curYear } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
-  originAreaVotes: {
+  sumVotes: {
     type: Object,
     required: true,
   },
 })
 
 const lineData = computed(() => {
-  const labels = Object.keys(props.originAreaVotes)
-  const data = Object.values(props.originAreaVotes).map((item) =>
+  const labels = Object.keys(props.sumVotes)
+  const data = Object.values(props.sumVotes).map((item) =>
     Number(item['投票率'].toFixed(2)),
   )
   return {
@@ -42,18 +43,17 @@ const lineData = computed(() => {
 })
 
 const SummaryText = computed(() => {
-  const allYear = Object.keys(props.originAreaVotes)
+  const allYear = Object.keys(props.sumVotes)
     .map((str) => str.match(/\d+/)[0])
     .sort((a, b) => b - a)
-  const curVoterTurnout =
-    props.originAreaVotes[`vote${curYear.value}`]['投票率']
+  const curVoterTurnout = props.sumVotes[`vote${curYear.value}`]['投票率']
   const curVoterTurnoutIndex = allYear.indexOf(curYear.value)
   const isOldestYear =
     curVoterTurnoutIndex === allYear.length - 1 ? true : false
   const compYear = isOldestYear
     ? allYear[curVoterTurnoutIndex - 1]
     : allYear[curVoterTurnoutIndex + 1]
-  const compVoterTurnout = props.originAreaVotes[`vote${compYear}`]['投票率']
+  const compVoterTurnout = props.sumVotes[`vote${compYear}`]['投票率']
   const isIncrease = curVoterTurnout > compVoterTurnout ? true : false
 
   const result = {

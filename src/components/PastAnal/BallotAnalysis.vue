@@ -11,7 +11,7 @@
       <div class="col-12 col-md-10">
         <VotingAnalysis
           :origin-votes="originVotes"
-          :origin-area-votes="originAreaVotes"
+          :origin-all-votes="originAllVotes"
           v-if="curAnalStatus === analysisMenuData[0]"
         ></VotingAnalysis>
         <PartyAnalysis :origin-votes="originVotes" v-else></PartyAnalysis>
@@ -46,12 +46,6 @@ const props = defineProps({
 import vote2020 from '@/data/votes/2020/全國.json'
 import vote2016 from '@/data/votes/2016/全國.json'
 import vote2012 from '@/data/votes/2012/全國.json'
-import { filterSpecifyVotes } from '@/utils/votesAnal.js'
-const allData = { vote2020, vote2016, vote2012 }
 
-const originAreaVotes = {
-  vote2020: filterSpecifyVotes(allData.vote2020, '行政區別', '總計'),
-  vote2016: filterSpecifyVotes(allData.vote2016, '行政區別', '總計'),
-  vote2012: filterSpecifyVotes(allData.vote2012, '行政區別', '總計'),
-}
+const originAllVotes = { vote2020, vote2016, vote2012 }
 </script>

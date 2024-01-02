@@ -4,10 +4,10 @@
   </div>
   <div v-if="isDesktop">
     <div class="mb-4">
-      <VoterTurnout :origin-area-votes="originAreaVotes"></VoterTurnout>
+      <VoterTurnout :sum-votes="voterTurnoutSumData"></VoterTurnout>
     </div>
     <div class="mb-4">
-      <VoteComparison></VoteComparison>
+      <VoterTurnoutArea :area-votes="voterTurnoutAreaData"></VoterTurnoutArea>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ import { useMediaQuery } from '@vueuse/core'
 import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
 import VoteSummary from '@/components/PastAnal/VoteSummary.vue'
 import VoterTurnout from '@/components/PastAnal/VoterTurnout.vue'
-import VoteComparison from '@/components/PastAnal/VoteComparison.vue'
+import VoterTurnoutArea from '@/components/PastAnal/VoterTurnoutArea.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
@@ -26,9 +26,9 @@ const props = defineProps({
     type: Array,
     required: true,
   },
-  originAreaVotes: {
+  originAllVotes: {
     type: Object,
-    required: Array,
+    required: true,
   },
 })
 
@@ -49,6 +49,24 @@ const summaryData = computed(() => {
     totalVoterTurnout,
     highestArea,
     lowestArea,
+  }
+})
+
+const voterTurnoutSumData = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes
+  return {
+    vote2020: filterSpecifyVotes(vote2020, '行政區別', '總計'),
+    vote2016: filterSpecifyVotes(vote2016, '行政區別', '總計'),
+    vote2012: filterSpecifyVotes(vote2012, '行政區別', '總計'),
+  }
+})
+
+const voterTurnoutAreaData = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes
+  return {
+    vote2020: excludeTotalVotes(vote2020),
+    vote2016: excludeTotalVotes(vote2016),
+    vote2012: excludeTotalVotes(vote2012),
   }
 })
 </script>
