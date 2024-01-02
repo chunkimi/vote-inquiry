@@ -1,6 +1,8 @@
 <template>
   <div class="mb-4">
-    <div class="mb-4"><PartySummary :votes="votesData"></PartySummary></div>
+    <div class="mb-4">
+      <PartySummary :origin-votes="originVotes"></PartySummary>
+    </div>
   </div>
   <div v-if="isDesktop">
     <div class="mb-4"><PartyComparison></PartyComparison></div>
@@ -19,7 +21,7 @@ import PartyComparison from '@/components/PastAnal/PartyComparison.vue'
 import PartyDomain from '@/components/PastAnal/PartyDomain.vue'
 
 const props = defineProps({
-  votesData: {
+  originVotes: {
     type: Array,
     required: true,
   },

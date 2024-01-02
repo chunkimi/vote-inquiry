@@ -13,7 +13,7 @@
           :origin-votes="originVotes"
           v-if="curAnalStatus === analysisMenuData[0]"
         ></VotingAnalysis>
-        <PartyAnalysis :votesData="votes" v-else></PartyAnalysis>
+        <PartyAnalysis :origin-votes="originVotes" v-else></PartyAnalysis>
       </div>
     </div>
   </div>

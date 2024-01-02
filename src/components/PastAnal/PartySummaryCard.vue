@@ -52,20 +52,22 @@ import party from '@/data/party.json'
 const { codeMap } = party
 
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Array,
     required: true,
   },
 })
 const summaryCardData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
-    props.votes,
+    props.originVotes,
     '行政區別',
     '總計',
   )
-  const partyVoteRate = getVoteRateMaxMix(props.votes)
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes)
   const party = Object.keys(specifyAnalysisVotes['候選人票數'])
-  const advantageData = filterPartyAdvantage(excludeTotalVotes(props.votes))
+  const advantageData = filterPartyAdvantage(
+    excludeTotalVotes(props.originVotes),
+  )
   const result = party.map((partyLabel) => {
     const partyVoteData = partyVoteRate[partyLabel]
     const advantageAreaNum = advantageData[partyLabel]

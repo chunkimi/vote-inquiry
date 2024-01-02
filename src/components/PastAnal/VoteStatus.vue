@@ -5,12 +5,8 @@
   <div v-if="curStatus === '全國'">
     <VoteMap :data="voteMapData"></VoteMap>
   </div>
-  <div v-else>
-    <PastAnalBarChart
-      :data="barChartData"
-      id="vote-status"
-      class="mx-auto"
-    ></PastAnalBarChart>
+  <div class="mx-auto" v-else>
+    <PastAnalBarChart :data="barChartData" id="vote-status"></PastAnalBarChart>
   </div>
 </template>
 <script setup>

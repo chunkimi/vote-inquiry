@@ -28,8 +28,8 @@
     <BallotAnalysis :origin-votes="specifyVoteJson"></BallotAnalysis>
   </div>
   <div class="mt-8">
-    <p>這是選票</p>
-    <p class="mt-8">{{ votes }}</p>
+    <!-- <p>這是選票</p>
+    <p class="mt-8">{{ votes }}</p> -->
   </div>
 </template>
 <script setup>

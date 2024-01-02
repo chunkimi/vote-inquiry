@@ -3,13 +3,14 @@
 </style>
 <template>
   <h4 class="h4 mb-4">本屆政黨{{ curStatus }}得票</h4>
-  <PartySummaryCard class="mb-4" :votes="votes"></PartySummaryCard>
-  <PastAnalHorizontalChart
-    v-if="isDesktop"
-    id="past-party-summary"
-    :data="horizontalChartData"
-    class="mb-4"
-  ></PastAnalHorizontalChart>
+  <PartySummaryCard class="mb-4" :origin-votes="originVotes"></PartySummaryCard>
+  <div class="mb-4">
+    <PastAnalHorizontalChart
+      v-if="isDesktop"
+      id="past-party-summary"
+      :data="horizontalChartData"
+    ></PastAnalHorizontalChart>
+  </div>
 </template>
 <script setup>
 import { computed } from 'vue'
@@ -25,15 +26,14 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 const { curStatus } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Array,
     required: true,
   },
 })
-
 const horizontalChartData = computed(() => {
   const { party, originVoteRate } = calAreaVoteRate(
-    excludeTotalVotes(props.votes),
+    excludeTotalVotes(props.originVotes),
   )
   const area = originVoteRate.map((item) => item['行政區別'])
   const newData = []
