@@ -1,6 +1,6 @@
 <template>
   <div class="mb-4">
-    <VoteSummary :analyzedData="summaryData"></VoteSummary>
+    <VoteSummary :data="summaryData"></VoteSummary>
   </div>
   <div v-if="isDesktop">
     <!-- <div class="mb-4 d-none d-md-gird">
@@ -24,7 +24,7 @@ import { useMediaQuery } from '@vueuse/core'
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const props = defineProps({
-  votesData: {
+  originVotes: {
     type: Array,
     required: true,
   },
@@ -32,11 +32,11 @@ const props = defineProps({
 
 const summaryData = computed(() => {
   const totalVoterTurnout = filterSpecifyVotes(
-    props.votesData,
+    props.originVotes,
     '行政區別',
     '總計',
   )['投票率']
-  const sortVote = excludeTotalVotes(props.votesData).sort(
+  const sortVote = excludeTotalVotes(props.originVotes).sort(
     (a, b) => parseFloat(b['投票率']) - parseFloat(a['投票率']),
   )
   const highestArea = sortVote[0]['行政區別']

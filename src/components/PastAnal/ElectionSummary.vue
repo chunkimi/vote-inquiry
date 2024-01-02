@@ -49,7 +49,7 @@ import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 const { curStatus } = storeToRefs(usePastElectionStore())
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Object,
     required: true,
   },
@@ -57,7 +57,7 @@ const props = defineProps({
 
 const votesData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
-    props.votes,
+    props.originVotes,
     '行政區別',
     '總計',
   )
@@ -72,7 +72,7 @@ const labelColor = {
 
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
-    props.votes,
+    props.originVotes,
     '行政區別',
     '總計',
   )

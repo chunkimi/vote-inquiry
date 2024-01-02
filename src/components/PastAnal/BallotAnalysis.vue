@@ -10,7 +10,7 @@
       </div>
       <div class="col-12 col-md-10">
         <VotingAnalysis
-          :votesData="votes"
+          :origin-votes="originVotes"
           v-if="curAnalStatus === analysisMenuData[0]"
         ></VotingAnalysis>
         <PartyAnalysis :votesData="votes" v-else></PartyAnalysis>
@@ -35,7 +35,7 @@ watch(yearId, (year) => (curAnalStatus.value = analysisMenuData[0]), {
 })
 
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Array,
     required: true,
   },

@@ -26,14 +26,14 @@ import party from '@/data/party.json'
 const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Array,
     required: true,
   },
 })
 
 const voteMapData = computed(() => {
-  return (props.votes || []).map((row) => {
+  return (props.originVotes || []).map((row) => {
     const winner = Object.keys(row['候選人票數']).reduce((a, b) =>
       row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
     )
@@ -47,7 +47,7 @@ const voteMapData = computed(() => {
 
 // 目前先以全國資料跑圖表
 const barChartData = computed(() => {
-  const votesData = (props.votes || []).filter(
+  const votesData = (props.originVotes || []).filter(
     (item) => item['行政區別'] !== '總計',
   )
   const labels = votesData.map((d) =>

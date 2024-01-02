@@ -25,7 +25,7 @@ import party from '@/data/party.json'
 const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
 
 const props = defineProps({
-  votes: {
+  originVotes: {
     type: Array,
     required: true,
   },
@@ -33,7 +33,7 @@ const props = defineProps({
 
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
-    props.votes,
+    props.originVotes,
     '行政區別',
     '總計',
   )
@@ -48,11 +48,11 @@ const pieData = computed(() => {
 
 const candidateAnalData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
-    props.votes,
+    props.originVotes,
     '行政區別',
     '總計',
   )
-  const partyVoteRate = getVoteRateMaxMix(props.votes)
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes)
   const result = [...curCandidates.value].map((item) => {
     const voteNum = specifyAnalysisVotes['候選人票數'][item.party]
     const voterTurnout =

@@ -16,16 +16,16 @@
     />
   </div>
   <div class="mb-8">
-    <ElectionSummary :votes="specifyVoteJson"></ElectionSummary>
+    <ElectionSummary :origin-votes="specifyVoteJson"></ElectionSummary>
   </div>
   <div class="mb-8">
-    <CandidateSummary :votes="specifyVoteJson"></CandidateSummary>
+    <CandidateSummary :origin-votes="specifyVoteJson"></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <VoteStatus :votes="specifyVoteJson"></VoteStatus>
+    <VoteStatus :origin-votes="specifyVoteJson"></VoteStatus>
   </div>
   <div class="mb-8">
-    <BallotAnalysis :votes="specifyVoteJson"></BallotAnalysis>
+    <BallotAnalysis :origin-votes="specifyVoteJson"></BallotAnalysis>
   </div>
   <div class="mt-8">
     <p>這是選票</p>
