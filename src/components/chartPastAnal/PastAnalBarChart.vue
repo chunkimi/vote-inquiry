@@ -53,14 +53,12 @@ async function renderBarChart() {
 
   const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
 
-  const { labels, datasets } = props.data
+  // const { labels, datasets } = props.data
+  console.log(props.data)
 
   const config = {
     type: 'bar',
-    data: {
-      labels: labels,
-      datasets: datasets,
-    },
+    data: props.data,
     options: {
       responsive: true,
       maintainAspectRatio: false,

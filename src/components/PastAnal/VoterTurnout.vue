@@ -55,11 +55,20 @@ const SummaryText = computed(() => {
     : allYear[curVoterTurnoutIndex + 1]
   const compVoterTurnout = props.sumVotes[`vote${compYear}`]['投票率']
   const isIncrease = curVoterTurnout > compVoterTurnout ? true : false
+  let text = ''
+  let textStyle = ''
+  if (isOldestYear) {
+    text = isIncrease ? '負成長' : '正成長'
+    textStyle = isIncrease ? 'danger' : 'success'
+  } else {
+    text = isIncrease ? '成長' : '下降'
+    textStyle = isIncrease ? 'success' : 'danger'
+  }
 
   const result = {
     benchmark: isOldestYear ? '下屆' : '上屆',
-    text: isIncrease ? '成長' : '下降',
-    textStyle: isIncrease ? 'success' : 'danger',
+    text,
+    textStyle,
     num: isIncrease
       ? (parseFloat(curVoterTurnout) - parseFloat(compVoterTurnout)).toFixed(2)
       : (parseFloat(compVoterTurnout) - parseFloat(curVoterTurnout)).toFixed(2),
