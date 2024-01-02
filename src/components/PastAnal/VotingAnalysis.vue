@@ -4,7 +4,7 @@
   </div>
   <div v-if="isDesktop">
     <div class="mb-4">
-      <VoterTurnout></VoterTurnout>
+      <VoterTurnout :origin-area-votes="originAreaVotes"></VoterTurnout>
     </div>
     <div class="mb-4">
       <VoteComparison></VoteComparison>
@@ -25,6 +25,10 @@ const props = defineProps({
   originVotes: {
     type: Array,
     required: true,
+  },
+  originAreaVotes: {
+    type: Object,
+    required: Array,
   },
 })
 
