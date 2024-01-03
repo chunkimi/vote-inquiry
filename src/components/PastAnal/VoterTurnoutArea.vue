@@ -24,16 +24,19 @@ const yearColor = {
 const barChartData = computed(() => {
   const votesKeys = Object.keys(props.areaVotes)
   const areaVoterTurnout = votesKeys.reduce((result, year) => {
-    result[year] = props.areaVotes[year].map((entry) => ({
-      行政區別: entry['行政區別'],
-      投票率: entry['投票率'],
+    result[year] = props.areaVotes[year].map((area) => ({
+      行政區別: area['行政區別'] === '桃園縣' ? '桃園市' : area['行政區別'],
+      投票率: area['投票率'],
     }))
     return result
   }, {})
+
   const area = Array.from(
     new Set(
       Object.values(props.areaVotes).flatMap((votes) =>
-        votes.map((vote) => vote.行政區別),
+        votes.map((vote) =>
+          vote.行政區別 === '桃園縣' ? '桃園市' : vote.行政區別,
+        ),
       ),
     ),
   )
