@@ -45,6 +45,7 @@ import { storeToRefs } from 'pinia'
 import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import city_id_map from '@/data/city_id_map.json'
+import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import party from '@/data/party.json'
 import { allYears } from '@/utils/electionInfo.js'
 
@@ -98,26 +99,20 @@ function getAreaDominantParty(areaVotes) {
   )
   const rawDominantParty = allAreas.map((area) => {
     const areaData = { 行政區別: area, 優勢政黨: {} }
-    const areaName = curCity.value.includes('桃園')
-      ? area.replace(/市$|鄉$|區$|鎮$/, '')
-      : ''
+    const isTaoyuanView = curCity.value.includes('桃園')
+    const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map
     yearKeys.forEach((yearIndex) => {
       let matchedArea = {}
-      if (curCity.value.includes('桃園')) {
-        matchedArea = areaVotes[yearIndex].find((item) =>
-          item['行政區別'].includes(areaName),
-        )
-      } else {
-        const areaVotesOfYear = areaVotes[yearIndex].find((vote) => {
-          if (area === '桃園市' && vote['行政區別'] === '桃園縣') {
-            return city_id_map[area] === city_id_map[vote['行政區別']]
-          } else {
-            return vote['行政區別'] === area
-          }
-        })
-        if (areaVotesOfYear) {
-          matchedArea = areaVotesOfYear
+      const areaVotesOfYear = areaVotes[yearIndex].find((vote) => {
+        const isTaoyuanCity = area === '桃園市' && vote['行政區別'] === '桃園縣'
+        if (isTaoyuanCity || isTaoyuanView) {
+          return areaIdMap[area] === areaIdMap[vote['行政區別']]
+        } else {
+          return vote['行政區別'] === area
         }
+      })
+      if (areaVotesOfYear) {
+        matchedArea = areaVotesOfYear
       }
       areaData['優勢政黨'][yearIndex] = getDominantParty(
         matchedArea['候選人票數'],
@@ -167,4 +162,50 @@ function getChangedDomain(rawVotes) {
 
   return newData
 }
+
+// function getAreaDominantParty(areaVotes) {
+//   const yearKeys = Object.keys(areaVotes)
+//   const rawAllAreas = Array.from(
+//     new Set(
+//       Object.values(areaVotes).flatMap((votes) =>
+//         votes.map((vote) => vote['行政區別']),
+//       ),
+//     ),
+//   )
+//   const allAreas = filterOldPlaceName(
+//     rawAllAreas,
+//     curCity.value.includes('桃園'),
+//   )
+//   const rawDominantParty = allAreas.map((area) => {
+//     const areaData = { 行政區別: area, 優勢政黨: {} }
+//     const areaName = curCity.value.includes('桃園')
+//       ? area.replace(/市$|鄉$|區$|鎮$/, '')
+//       : ''
+//     yearKeys.forEach((yearIndex) => {
+//       let matchedArea = {}
+//       if (curCity.value.includes('桃園')) {
+//         matchedArea = areaVotes[yearIndex].find((item) =>
+//           item['行政區別'].includes(areaName),
+//         )
+//       } else {
+//         const areaVotesOfYear = areaVotes[yearIndex].find((vote) => {
+//           if (area === '桃園市' && vote['行政區別'] === '桃園縣') {
+//             return city_id_map[area] === city_id_map[vote['行政區別']]
+//           } else {
+//             return vote['行政區別'] === area
+//           }
+//         })
+//         if (areaVotesOfYear) {
+//           matchedArea = areaVotesOfYear
+//         }
+//       }
+//       areaData['優勢政黨'][yearIndex] = getDominantParty(
+//         matchedArea['候選人票數'],
+//       )
+//     })
+//     return areaData
+//   })
+
+//   return rawDominantParty
+// }
 </script>
