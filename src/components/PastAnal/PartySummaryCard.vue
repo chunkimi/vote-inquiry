@@ -44,7 +44,6 @@ import {
   filterSpecifyVotes,
   excludeTotalVotes,
   getVoteRateMaxMix,
-  filterPartyAdvantage,
 } from '@/utils/votesAnal.js'
 import { commaNumber } from '@/utils/base'
 import party from '@/data/party.json'
@@ -88,4 +87,32 @@ const summaryCardData = computed(() => {
   result.sort((a, b) => parseFloat(b.voteNum) - parseFloat(a.voteNum))
   return result
 })
+
+function filterPartyAdvantage(voteData) {
+  const { party, originVoteRate } = calAreaVoteRate(voteData)
+  const result = {}
+  const newData = party.map((partyName) => {
+    const areas = originVoteRate
+      .filter(
+        (areaData) =>
+          areaData[partyName] ===
+          Math.max(
+            areaData[party[0]],
+            areaData[party[1]],
+            areaData[party[2]],
+          ).toFixed(4),
+      )
+      .map((areaData) => areaData['行政區別'])
+    return {
+      label: partyName,
+      advantageArea: areas,
+      advantageAreaNum: areas.length,
+    }
+  })
+  newData.forEach((item) => {
+    result[item.label] = item.advantageAreaNum
+  })
+
+  return result
+}
 </script>

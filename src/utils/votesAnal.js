@@ -1,10 +1,3 @@
-export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
-  return [...dataArr].find((item) => item[specifyKey] === specifyValue)
-}
-export function excludeTotalVotes(votes) {
-  return [...votes].filter((item) => item['行政區別'] !== '總計')
-}
-
 export function combineVotePath(year, city, district) {
   let filePath = ''
   if (!year) return
@@ -16,6 +9,14 @@ export function combineVotePath(year, city, district) {
     filePath = `${year}/全國`
   }
   return `votes/${filePath}.json`
+}
+
+export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
+  return [...dataArr].find((item) => item[specifyKey] === specifyValue)
+}
+
+export function excludeTotalVotes(votes) {
+  return [...votes].filter((item) => item['行政區別'] !== '總計')
 }
 
 export function getVoteRateMaxMix(voteData) {
@@ -54,32 +55,4 @@ export function calAreaVoteRate(voteData) {
     party,
     originVoteRate,
   }
-}
-
-export function filterPartyAdvantage(voteData) {
-  const { party, originVoteRate } = calAreaVoteRate(voteData)
-  const result = {}
-  const newData = party.map((partyName) => {
-    const areas = originVoteRate
-      .filter(
-        (areaData) =>
-          areaData[partyName] ===
-          Math.max(
-            areaData[party[0]],
-            areaData[party[1]],
-            areaData[party[2]],
-          ).toFixed(4),
-      )
-      .map((areaData) => areaData['行政區別'])
-    return {
-      label: partyName,
-      advantageArea: areas,
-      advantageAreaNum: areas.length,
-    }
-  })
-  newData.forEach((item) => {
-    result[item.label] = item.advantageAreaNum
-  })
-
-  return result
 }

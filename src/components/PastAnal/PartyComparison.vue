@@ -1,5 +1,5 @@
 <template>
-  <h4 class="h4 mb-4">歷屆政黨{{ curStatus }}得票</h4>
+  <h4 class="h4 mb-4">政黨歷屆{{ curStatus }}得票</h4>
   <PastAnalBarChart
     :data="barChartData"
     id="party-voter-turnout-all"
