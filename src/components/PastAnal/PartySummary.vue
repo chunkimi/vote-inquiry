@@ -15,7 +15,7 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { useMediaQuery } from '@vueuse/core'
 import { calAreaVoteRate, excludeTotalVotes } from '@/utils/votesAnal.js'
 import partyJson from '@/data/party.json'
@@ -23,7 +23,7 @@ import PartySummaryCard from '@/components/PastAnal/PartySummaryCard.vue'
 import PastAnalHorizontalChart from '@/components/chartPastAnal/PastAnalHorizontalChart.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
-const { curStatus } = storeToRefs(usePastElectionStore())
+const { curStatus } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {

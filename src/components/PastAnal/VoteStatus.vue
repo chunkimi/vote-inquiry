@@ -13,13 +13,13 @@
 import { computed } from 'vue'
 
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import VoteMap from '@/components/common/VoteMap.vue'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
+const { curCandidates, curStatus } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {

@@ -8,11 +8,11 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import party from '@/data/party.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 
-const { curStatus, curCandidates } = storeToRefs(usePastElectionStore())
+const { curStatus, curCandidates } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   sumVotes: {

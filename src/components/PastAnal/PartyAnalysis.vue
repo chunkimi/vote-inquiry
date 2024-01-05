@@ -21,7 +21,7 @@ import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
 
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
 
@@ -30,7 +30,7 @@ import PartyComparison from '@/components/PastAnal/PartyComparison.vue'
 import PartyDomain from '@/components/PastAnal/PartyDomain.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
-const { curYear } = storeToRefs(usePastElectionStore())
+const { curYear } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {

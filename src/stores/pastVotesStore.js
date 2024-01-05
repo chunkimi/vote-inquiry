@@ -9,7 +9,7 @@ import { filterSameSession } from '@/utils/candidateFilter'
 import { combineVotePath } from '@/utils/votesAnal.js'
 import candidate from '@/data/candidate.json'
 
-export const usePastElectionStore = defineStore('pastElectionStore', () => {
+export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curYear = ref('')
   const curCity = ref('')
   const curDistrict = ref('')

@@ -37,7 +37,8 @@ console.clear()
 import { computed, watch, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
+
 import { allYears } from '@/utils/electionInfo.js'
 
 import TermMenu from '@/components/common/TermMenu.vue'
@@ -51,9 +52,10 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
-const { curYear, curCity, curDistrict, votes } = storeToRefs(
-  usePastElectionStore(),
-)
+const { curYear, curCity, curDistrict, votes } =
+  storeToRefs(usePastVotesStore())
+// import { useAllVotesStore } from '@/stores/allVotesStore.js'
+// const { specifyCity, specifyDistrict } = storeToRefs(useAllVotesStore())
 
 watch(yearId, (year) => (curYear.value = year), { immediate: true })
 

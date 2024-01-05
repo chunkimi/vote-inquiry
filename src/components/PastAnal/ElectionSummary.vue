@@ -41,13 +41,13 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { commaNumber, percentage } from '@/utils/base'
 import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
-const { curStatus } = storeToRefs(usePastElectionStore())
+const { curStatus } = storeToRefs(usePastVotesStore())
 const props = defineProps({
   originVotes: {
     type: Object,

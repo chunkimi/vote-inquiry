@@ -20,11 +20,11 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import { percentage } from '@/utils/base.js'
 
-const { curStatus } = storeToRefs(usePastElectionStore())
+const { curStatus } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   data: {

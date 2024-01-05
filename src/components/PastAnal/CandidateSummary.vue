@@ -15,14 +15,14 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { filterSpecifyVotes, getVoteRateMaxMix } from '@/utils/votesAnal.js'
 import CandidateSummaryCard from '@/components/PastAnal/CandidateSummaryCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus } = storeToRefs(usePastElectionStore())
+const { curCandidates, curStatus } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {

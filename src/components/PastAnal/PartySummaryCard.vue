@@ -43,6 +43,7 @@ import { computed } from 'vue'
 import {
   filterSpecifyVotes,
   excludeTotalVotes,
+  calAreaVoteRate,
   getVoteRateMaxMix,
 } from '@/utils/votesAnal.js'
 import { commaNumber } from '@/utils/base'

@@ -42,13 +42,13 @@
 <script setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { usePastElectionStore } from '@/stores/pastVotesStore.js'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import city_id_map from '@/data/city_id_map.json'
 import party from '@/data/party.json'
 import { allYears } from '@/utils/electionInfo.js'
 
-const { curYear, curCity } = storeToRefs(usePastElectionStore())
+const { curYear, curCity } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   areaVotes: {
