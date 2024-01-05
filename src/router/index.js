@@ -6,7 +6,6 @@ import PastElectionsView from '../views/PastElectionsView.vue'
 import PastAnalysisView from '../views/PastAnalysisView.vue'
 import CandidateView from '../views/CandidateView.vue'
 import PageNotFoundView from '../views/PageNotFoundView.vue'
-import TestView from '../views/TestView.vue'
 
 const routes = [
   {
@@ -41,12 +40,6 @@ const routes = [
         path: 'candidate',
         name: 'Candidate',
         component: CandidateView,
-      },
-      {
-        // 測試
-        path: 'test/:year',
-        name: 'Test',
-        component: TestView,
       },
     ],
   },
