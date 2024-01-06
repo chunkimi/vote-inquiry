@@ -69,7 +69,7 @@ export const useAllVotesStore = defineStore('pastElectionStore', () => {
               )
             } else {
               const substituteDistrict = ''
-              //從"區"逆轉回為"鄉鎮市區"，要另外做對照表District_id
+              //從"區"逆轉回為"鄉鎮市區"，要另外做桃園區id對照表
               path = combineVotePath(
                 yearIndex,
                 '桃園市',

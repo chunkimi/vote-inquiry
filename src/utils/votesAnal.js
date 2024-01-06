@@ -56,3 +56,21 @@ export function calAreaVoteRate(voteData) {
     originVoteRate,
   }
 }
+
+export function filterOldPlaceName(rawAllAreas, isAdministrativeDistrict) {
+  let result = []
+  if (isAdministrativeDistrict) {
+    result = rawAllAreas.filter((area) => {
+      if (area.endsWith('區')) {
+        return true
+      }
+      if (area.endsWith('鄉') || area.endsWith('鎮') || area === '桃園市') {
+        return false
+      }
+      return true
+    })
+  } else {
+    result = rawAllAreas.filter((area) => area !== '桃園縣')
+  }
+  return result
+}

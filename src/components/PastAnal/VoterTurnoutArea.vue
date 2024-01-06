@@ -7,7 +7,15 @@
 </template>
 <script setup>
 import { computed } from 'vue'
+import { storeToRefs } from 'pinia'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
+import { filterOldPlaceName } from '@/utils/votesAnal.js'
+import city_id_map from '@/data/city_id_map.json'
+import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
+
+const { curCity } = storeToRefs(usePastVotesStore())
+
 const props = defineProps({
   areaVotes: {
     type: Object,
@@ -22,35 +30,57 @@ const yearColor = {
 }
 
 const barChartData = computed(() => {
-  const votesKeys = Object.keys(props.areaVotes)
-  const areaVoterTurnout = votesKeys.reduce((result, year) => {
-    result[year] = props.areaVotes[year].map((area) => ({
-      行政區別: area['行政區別'] === '桃園縣' ? '桃園市' : area['行政區別'],
-      投票率: area['投票率'],
-    }))
-    return result
-  }, {})
+  const yearKeys = Object.keys(props.areaVotes)
 
-  const area = Array.from(
+  const rawAllAreas = Array.from(
     new Set(
       Object.values(props.areaVotes).flatMap((votes) =>
-        votes.map((vote) =>
-          vote.行政區別 === '桃園縣' ? '桃園市' : vote.行政區別,
-        ),
+        votes.map((vote) => vote['行政區別']),
       ),
     ),
   )
+  const allAreas = filterOldPlaceName(
+    rawAllAreas,
+    curCity.value.includes('桃園'),
+  )
+
+  const rawAreaVoterTurnout = allAreas.map((area) => {
+    const areaData = { 行政區別: area, 歷屆投票率: {} }
+    const isTaoyuanView = curCity.value.includes('桃園')
+    const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map
+
+    yearKeys.forEach((yearIndex) => {
+      let matchedArea = {}
+      const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
+        const isTaoyuanCity = area === '桃園市' && vote['行政區別'] === '桃園縣'
+        if (isTaoyuanCity || isTaoyuanView) {
+          return areaIdMap[area] === areaIdMap[vote['行政區別']]
+        } else {
+          return vote['行政區別'] === area
+        }
+      })
+
+      if (areaVotesOfYear) {
+        matchedArea = Number(areaVotesOfYear['投票率'].toFixed(2))
+      }
+      areaData['歷屆投票率'][yearIndex] = matchedArea
+    })
+    return areaData
+  })
+
   const datasets = []
-  const sortVotesKeys = votesKeys
+  const sortVotesKeys = yearKeys
     .map((item) => item.replace('vote', ''))
     .sort((a, b) => parseFloat(a) - parseFloat(b))
-  sortVotesKeys.forEach((item) => {
-    const label = item
-    const index = `vote${item}`
-    const data = areaVoterTurnout[index].map((item) =>
-      Number(item['投票率'].toFixed(2)),
+
+  sortVotesKeys.forEach((yearNumber) => {
+    const label = yearNumber
+    const yearIndex = `vote${yearNumber}`
+    const backgroundColor = yearColor[yearIndex]
+
+    const data = rawAreaVoterTurnout.map(
+      (area) => area['歷屆投票率'][yearIndex],
     )
-    const backgroundColor = yearColor[index]
     const result = {
       label,
       data,
@@ -60,7 +90,7 @@ const barChartData = computed(() => {
   })
 
   return {
-    labels: area,
+    labels: allAreas,
     datasets,
   }
 })
