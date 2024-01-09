@@ -26,12 +26,16 @@
         </div>
         <ul class="list-unstyled">
           <li class="text-gray-600">
-            得票優勢縣市數：{{
+            得票優勢{{ affiliatedArea }}數：{{
               !data.advantageAreaNum ? 0 : data.advantageAreaNum
             }}
           </li>
-          <li class="text-gray-600">得票率最高縣市：{{ data.highestArea }}</li>
-          <li class="text-gray-600">得票率最低縣市：{{ data.lowestArea }}</li>
+          <li class="text-gray-600">
+            得票率最高{{ affiliatedArea }}：{{ data.highestArea }}
+          </li>
+          <li class="text-gray-600">
+            得票率最低{{ affiliatedArea }}：{{ data.lowestArea }}
+          </li>
         </ul>
       </div>
     </div>
@@ -39,6 +43,8 @@
 </template>
 <script setup>
 import { computed } from 'vue'
+import { storeToRefs } from 'pinia'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import {
   filterSpecifyVotes,
@@ -47,9 +53,12 @@ import {
   getVoteRateMaxMix,
 } from '@/utils/votesAnal.js'
 import { commaNumber } from '@/utils/base'
+
 import party from '@/data/party.json'
 
 const { codeMap } = party
+
+const { affiliatedArea } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {

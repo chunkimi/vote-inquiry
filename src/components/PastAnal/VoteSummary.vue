@@ -24,7 +24,7 @@ import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import { percentage } from '@/utils/base.js'
 
-const { curStatus } = storeToRefs(usePastVotesStore())
+const { curStatus, affiliatedArea } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   data: {
@@ -40,11 +40,11 @@ const cardData = computed(() => {
       text: percentage(props.data.totalVoterTurnout),
     },
     {
-      label: '投票率最高區域',
+      label: `投票率最高${affiliatedArea.value}`,
       text: props.data.highestArea,
     },
     {
-      label: '投票率最低區域',
+      label: `投票率最低${affiliatedArea.value}`,
       text: props.data.lowestArea,
     },
   ]

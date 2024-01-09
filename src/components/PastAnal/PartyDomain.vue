@@ -8,7 +8,7 @@
 }
 </style>
 <template>
-  <h4 class="h4 mb-4">本屆政黨版圖變動區域</h4>
+  <h4 class="h4 mb-4">{{ curStatus }}本屆{{ affiliatedArea }}政黨版圖變動</h4>
   <div class="row">
     <div
       class="col-6 col-md-3 mb-1 mb-md-4"
@@ -51,7 +51,8 @@ import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 import party from '@/data/party.json'
 import { allYears } from '@/utils/electionInfo.js'
 
-const { curYear, curCity } = storeToRefs(usePastVotesStore())
+const { curYear, curCity, curStatus, affiliatedArea } =
+  storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   areaVotes: {

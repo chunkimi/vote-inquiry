@@ -42,9 +42,28 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
       return `${curCity.value}${curDistrict.value}`
     }
   })
+  const affiliatedArea = computed(() => {
+    if (!curCity.value && !curDistrict.value) {
+      return '縣市'
+    } else if (!curDistrict.value) {
+      return '鄉鎮市區'
+    } else {
+      return '村里'
+    }
+  })
 
   const curCandidates = computed(() =>
     filterSameSession(curYear.value, candidate),
+  )
+
+  watch(
+    curYear,
+    (newYear) => {
+      curYear.value = newYear
+      curCity.value = ''
+      curDistrict.value = ''
+    },
+    { immediate: true },
   )
 
   function reset() {
@@ -52,6 +71,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curCity.value = ''
     curDistrict.value = ''
   }
+
   return {
     curYear,
     curCity,
@@ -60,5 +80,6 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     reset,
     curCandidates,
     curStatus,
+    affiliatedArea,
   }
 })

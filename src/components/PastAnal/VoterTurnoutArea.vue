@@ -1,5 +1,5 @@
 <template>
-  <h4 class="h4 mb-4">歷屆各區域投票率變化</h4>
+  <h4 class="h4 mb-4">{{ curStatus }}歷屆{{ affiliatedArea }}投票率變化</h4>
   <PastAnalBarChart
     :data="barChartData"
     id="area-voter-turnout"
@@ -15,7 +15,7 @@ import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 
-const { curCity } = storeToRefs(usePastVotesStore())
+const { curCity, curStatus, affiliatedArea } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   areaVotes: {
