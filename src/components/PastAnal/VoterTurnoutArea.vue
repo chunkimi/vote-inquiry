@@ -12,6 +12,7 @@ import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { filterOldPlaceName } from '@/utils/votesAnal.js'
 import city_id_map from '@/data/city_id_map.json'
 import taoyuan_id_map from '@/data/taoyuan_id_map.json'
+import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 
 const { curCity } = storeToRefs(usePastVotesStore())
@@ -48,22 +49,39 @@ const barChartData = computed(() => {
     const areaData = { 行政區別: area, 歷屆投票率: {} }
     const isTaoyuanView = curCity.value.includes('桃園')
     const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map
+    const isIncludeUpgradedDistrict =
+      curCity.value.includes('彰化') || curCity.value.includes('苗栗')
 
     yearKeys.forEach((yearIndex) => {
       let matchedArea = {}
+
       const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
         const isTaoyuanCity = area === '桃園市' && vote['行政區別'] === '桃園縣'
         if (isTaoyuanCity || isTaoyuanView) {
           return areaIdMap[area] === areaIdMap[vote['行政區別']]
+        } else if (isIncludeUpgradedDistrict) {
+          const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
+          const isUpgradedDistrict =
+            upgradedDistrict_id_map[`${curCity.value}`].includes(areaName)
+          if (isUpgradedDistrict) {
+            return (
+              upgradedDistrict_id_map[area] ===
+              upgradedDistrict_id_map[vote['行政區別']]
+            )
+          } else {
+            return vote['行政區別'] === area
+          }
         } else {
           return vote['行政區別'] === area
         }
       })
 
       if (areaVotesOfYear) {
-        matchedArea = Number(areaVotesOfYear['投票率'].toFixed(2))
+        matchedArea = areaVotesOfYear
       }
-      areaData['歷屆投票率'][yearIndex] = matchedArea
+      areaData['歷屆投票率'][yearIndex] = Number(
+        matchedArea['投票率'].toFixed(2),
+      )
     })
     return areaData
   })
