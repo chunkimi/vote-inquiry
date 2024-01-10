@@ -3,7 +3,9 @@
 </style>
 <template>
   <h4 class="h4 mb-4">政黨本屆{{ curStatus }}得票</h4>
-  <PartySummaryCard class="mb-4" :origin-votes="originVotes"></PartySummaryCard>
+  <div class="mb-4">
+    <PartySummaryCard :origin-votes="originVotes"></PartySummaryCard>
+  </div>
   <div class="mb-4">
     <PastAnalHorizontalChart
       v-if="isDesktop"

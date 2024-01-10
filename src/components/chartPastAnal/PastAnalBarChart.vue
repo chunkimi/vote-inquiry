@@ -87,7 +87,7 @@ async function renderBarChart() {
       },
     },
     responsive: true,
-    maintainAspectRatio: isShowScrollbarX.value.value ? true : false,
+    maintainAspectRatio: !isShowScrollbarX.value,
   }
 
   const config = {

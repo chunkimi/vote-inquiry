@@ -1,17 +1,30 @@
 <style lang="scss" scoped>
 .horizontal-chart {
-  width: 100%;
   height: 75vh;
+  width: 100%;
+  &__wrap {
+    overflow-y: scroll;
+    max-height: 400px;
+  }
+  &__container {
+    position: relative;
+    height: 75vh;
+  }
 }
 </style>
 <template>
-  <div class="horizontal-chart text-center">
-    <canvas :id="`horizontal-chart-${id}`"></canvas>
+  <div :class="{ 'horizontal-chart__wrap': isShowScrollY }">
+    <div
+      class="horizontal-chart text-center"
+      :class="{ 'horizontal-chart__container': isShowScrollY }"
+    >
+      <canvas :id="`horizontal-chart-${id}`"></canvas>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { watch, nextTick, onBeforeUnmount } from 'vue'
+import { computed, watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
 
 const props = defineProps({
@@ -24,6 +37,10 @@ const props = defineProps({
     required: true,
   },
 })
+
+const scrollYRule = 10
+const scrollYNum = props.data.labels.length
+const isShowScrollY = computed(() => (scrollYNum > scrollYRule ? true : false))
 
 let chart = null
 
@@ -56,7 +73,7 @@ async function renderChart() {
     options: {
       indexAxis: 'y',
       responsive: true,
-      maintainAspectRatio: false,
+      maintainAspectRatio: !isShowScrollY.value,
       elements: {
         bar: {
           borderRadius: 4,
@@ -84,11 +101,11 @@ async function renderChart() {
 }
 
 function updateChart() {
-  // const { labels, datasets } = props.data
-  // ;(chart.data = {
-  //   labels: labels,
-  //   datasets: datasets,
-  // }),
-  chart.update()
+  const { labels, datasets } = props.data
+  ;(chart.data = {
+    labels: labels,
+    datasets: datasets,
+  }),
+    chart.update()
 }
 </script>
