@@ -1,18 +1,31 @@
 <style lang="scss" scoped>
 .bar-chart {
-  width: 100%;
   height: 300px;
+  &__wrap {
+    overflow-x: scroll;
+    width: 100%;
+    max-width: 596px;
+  }
+  &__container {
+    position: relative;
+    width: 1096px;
+  }
 }
 </style>
 
 <template>
-  <div class="bar-chart text-center">
-    <canvas :id="`bar-chart-${id}`"></canvas>
+  <div :class="{ 'bar-chart__wrap': isShowScrollbarX }">
+    <div
+      class="bar-chart text-center"
+      :class="{ 'bar-chart__container': isShowScrollbarX }"
+    >
+      <canvas :id="`bar-chart-${id}`"></canvas>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { watch, nextTick, onBeforeUnmount } from 'vue'
+import { computed, watch, nextTick, onBeforeUnmount } from 'vue'
 import Chart from 'chart.js/auto'
 
 const props = defineProps({
@@ -30,10 +43,16 @@ const props = defineProps({
   },
 })
 
+const scrollXRule = 10
+const scrollXNum = props.data.datasets[0].data.length
+const isShowScrollbarX = computed(() =>
+  scrollXNum > scrollXRule ? true : false,
+)
+
 let chart = null
 
 watch(
-  () => props.data,
+  () => props.data || props.id,
   () => {
     if (chart) {
       updateBarChart()
@@ -52,30 +71,30 @@ async function renderBarChart() {
   await nextTick()
 
   const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
+  const options = {
+    elements: {
+      bar: {
+        borderRadius: 4,
+      },
+    },
+    plugins: {
+      legend: {
+        position: props.legendPosition,
+        align: 'start',
+        labels: {
+          boxWidth: 21,
+        },
+      },
+    },
+    responsive: true,
+    maintainAspectRatio: isShowScrollbarX.value.value ? true : false,
+  }
 
   const config = {
     type: 'bar',
     data: props.data,
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      elements: {
-        bar: {
-          borderRadius: 4,
-        },
-      },
-      plugins: {
-        legend: {
-          position: props.legendPosition,
-          align: 'start',
-          labels: {
-            boxWidth: 21,
-          },
-        },
-      },
-    },
+    options,
   }
-
   chart = new Chart(ctx, config)
 }
 
