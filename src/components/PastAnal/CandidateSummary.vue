@@ -40,9 +40,9 @@ const pieData = computed(() => {
   const { 候選人票數 } = specifyAnalysisVotes
   const rawData = Object.entries(候選人票數)
   return {
-    votes: rawData.map(([label, value]) => value),
-    labels: rawData.map(([label, value]) => label),
-    color: rawData.map(([label, value]) => party.colorMap[label]),
+    votes: rawData.map(([, value]) => value),
+    labels: rawData.map(([label]) => label),
+    color: rawData.map(([label]) => party.colorMap[label]),
   }
 })
 

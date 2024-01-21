@@ -52,8 +52,7 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
-const { curYear, curCity, curDistrict, votes } =
-  storeToRefs(usePastVotesStore())
+const { curYear, curCity, curDistrict } = storeToRefs(usePastVotesStore())
 // import { useAllVotesStore } from '@/stores/allVotesStore.js'
 // const { specifyCity, specifyDistrict } = storeToRefs(useAllVotesStore())
 

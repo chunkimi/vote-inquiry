@@ -78,7 +78,7 @@
 import PartyLogo from '@/components/common/PartyLogo.vue'
 import { commaNumber, getImageUrl } from '@/utils/base'
 
-const props = defineProps({
+defineProps({
   data: {
     type: Array,
     required: true,
