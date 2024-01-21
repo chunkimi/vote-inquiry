@@ -15,6 +15,8 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curDistrict = ref('')
   const votes = ref([])
 
+  const dataField = computed(() => (curDistrict.value ? '村里別' : '行政區別'))
+
   const storage = useFirebaseStorage()
   const votesFileRef = computed(() => {
     if (!curYear.value) return
@@ -86,6 +88,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curCity,
     curDistrict,
     votes,
+    dataField,
     reset,
     curCandidates,
     curStatus,

@@ -25,7 +25,7 @@ import PartySummaryCard from '@/components/PastAnal/PartySummaryCard.vue'
 import PastAnalHorizontalChart from '@/components/chartPastAnal/PastAnalHorizontalChart.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
-const { curStatus } = storeToRefs(usePastVotesStore())
+const { curStatus, dataField } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {
@@ -35,9 +35,9 @@ const props = defineProps({
 })
 const horizontalChartData = computed(() => {
   const { party, originVoteRate } = calAreaVoteRate(
-    excludeTotalVotes(props.originVotes),
+    excludeTotalVotes(props.originVotes, dataField.value),
   )
-  const area = originVoteRate.map((item) => item['行政區別'])
+  const area = originVoteRate.map((item) => item[dataField.value])
   const newData = []
   party.forEach((partyName) => {
     const result = {}

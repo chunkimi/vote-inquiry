@@ -19,7 +19,7 @@ import VoteMap from '@/components/common/VoteMap.vue'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus } = storeToRefs(usePastVotesStore())
+const { curCandidates, curStatus, dataField } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {
@@ -34,7 +34,7 @@ const voteMapData = computed(() => {
       row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
     )
     return {
-      city: row['行政區別'],
+      city: row[dataField.value],
       party: winner,
       count: row['候選人票數'][winner].toLocaleString(),
     }
@@ -44,10 +44,10 @@ const voteMapData = computed(() => {
 // 目前先以全國資料跑圖表
 const barChartData = computed(() => {
   const votesData = (props.originVotes || []).filter(
-    (item) => item['行政區別'] !== '總計',
+    (item) => item[dataField.value] !== '總計',
   )
   const labels = votesData.map((d) =>
-    d['村里別'] ? d['村里別'] : d['行政區別'],
+    d['村里別'] ? d['村里別'] : d[dataField.value],
   )
   const datasets = (curCandidates.value || []).map(({ party: partyName }) => {
     return {
