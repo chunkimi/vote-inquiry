@@ -61,7 +61,8 @@ const votesData = computed(() => {
     '行政區別',
     '總計',
   )
-  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = specifyAnalysisVotes
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } =
+    specifyAnalysisVotes || {}
   return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
 })
 
@@ -76,7 +77,7 @@ const pieData = computed(() => {
     '行政區別',
     '總計',
   )
-  const { 有效票數, 無效票數 } = specifyAnalysisVotes
+  const { 有效票數, 無效票數 } = specifyAnalysisVotes || {}
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),

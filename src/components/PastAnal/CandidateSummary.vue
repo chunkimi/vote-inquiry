@@ -37,8 +37,8 @@ const pieData = computed(() => {
     '行政區別',
     '總計',
   )
-  const { 候選人票數 } = specifyAnalysisVotes
-  const rawData = Object.entries(候選人票數)
+  const { 候選人票數 } = specifyAnalysisVotes || {}
+  const rawData = Object.entries(候選人票數 || {})
   return {
     votes: rawData.map(([, value]) => value),
     labels: rawData.map(([label]) => label),
@@ -47,16 +47,13 @@ const pieData = computed(() => {
 })
 
 const candidateAnalData = computed(() => {
-  const specifyAnalysisVotes = filterSpecifyVotes(
-    props.originVotes,
-    '行政區別',
-    '總計',
-  )
+  const specifyAnalysisVotes =
+    filterSpecifyVotes(props.originVotes, '行政區別', '總計') || {}
   const partyVoteRate = getVoteRateMaxMix(props.originVotes)
   const result = [...curCandidates.value].map((item) => {
-    const voteNum = specifyAnalysisVotes['候選人票數'][item.party]
+    const voteNum = (specifyAnalysisVotes['候選人票數'] || {})[item.party]
     const voterTurnout =
-      ((voteNum / specifyAnalysisVotes['有效票數']) * 100).toFixed(2) + '%'
+      ((voteNum / specifyAnalysisVotes['有效票數'] || 0) * 100).toFixed(2) + '%'
     const rateAnal = partyVoteRate[item.party]
     return {
       ...item,

@@ -26,11 +26,20 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     return storageRef(storage, path)
   })
   const { url } = useStorageFileUrl(votesFileRef)
-  watch(url, (value) => {
-    if (value) {
-      const { data } = useFetch(url, { refetch: true }).get().json()
-      votes.value = data
-    }
+
+  const { data, onFetchResponse } = useFetch(url, {
+    refetch: true,
+    beforeFetch({ url, options, cancel }) {
+      // avoid fetch when url is empty
+      if (!url) cancel()
+      return options
+    },
+  })
+    .get()
+    .json()
+
+  onFetchResponse(() => {
+    votes.value = data.value
   })
 
   const curStatus = computed(() => {

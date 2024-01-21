@@ -34,7 +34,7 @@ const props = defineProps({
 const lineData = computed(() => {
   const labels = Object.keys(props.sumVotes)
   const data = Object.values(props.sumVotes).map((item) =>
-    Number(item['投票率'].toFixed(2)),
+    Number(((item || {})['投票率'] || 0).toFixed(2)),
   )
   return {
     labels,
@@ -46,7 +46,9 @@ const SummaryText = computed(() => {
   const allYear = Object.keys(props.sumVotes)
     .map((str) => str.match(/\d+/)[0])
     .sort((a, b) => b - a)
-  const curVoterTurnout = props.sumVotes[`vote${curYear.value}`]['投票率']
+  const curVoterTurnout = (props.sumVotes[`vote${curYear.value}`] || {})[
+    '投票率'
+  ]
   const curVoterTurnoutIndex = allYear.indexOf(curYear.value)
   const isOldestYear =
     curVoterTurnoutIndex === allYear.length - 1 ? true : false

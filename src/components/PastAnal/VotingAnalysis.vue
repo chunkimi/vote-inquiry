@@ -33,17 +33,17 @@ const props = defineProps({
 })
 
 const summaryData = computed(() => {
-  const totalVoterTurnout = filterSpecifyVotes(
+  const totalVoterTurnout = (filterSpecifyVotes(
     props.originVotes,
     '行政區別',
     '總計',
-  )['投票率']
+  ) || {})['投票率']
   const sortVote = excludeTotalVotes(props.originVotes).sort(
     (a, b) => parseFloat(b['投票率']) - parseFloat(a['投票率']),
   )
-  const highestArea = sortVote[0]['行政區別']
+  const highestArea = (sortVote[0] || {})['行政區別']
 
-  const lowestArea = sortVote[sortVote.length - 1]['行政區別']
+  const lowestArea = (sortVote[sortVote.length - 1] || {})['行政區別']
 
   return {
     totalVoterTurnout,
