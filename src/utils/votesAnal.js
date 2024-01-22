@@ -12,21 +12,23 @@ export function combineVotePath(year, city, district) {
 }
 
 export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
-  return [...dataArr].find((item) => item[specifyKey] === specifyValue)
+  return (dataArr || []).find((item) => item[specifyKey] === specifyValue)
 }
 
-export function excludeTotalVotes(votes) {
-  return [...votes].filter((item) => item['行政區別'] !== '總計')
+export function excludeTotalVotes(votes, dataField = '行政區別') {
+  return (votes || []).filter((item) => item[dataField] !== '總計')
 }
 
-export function getVoteRateMaxMix(voteData) {
+export function getVoteRateMaxMix(voteData, dataField = '行政區別') {
   const { party, originVoteRate } = calAreaVoteRate(voteData)
   const PartyVoteRate = {}
   party.forEach((partyName) => {
-    const partyData = excludeTotalVotes(originVoteRate).map((item) => ({
-      行政區別: item['行政區別'],
-      得票率: item[partyName],
-    }))
+    const partyData = excludeTotalVotes(originVoteRate, dataField).map(
+      (item) => ({
+        行政區別: item[dataField],
+        得票率: item[partyName],
+      }),
+    )
 
     partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
     PartyVoteRate[partyName] = {
@@ -39,8 +41,8 @@ export function getVoteRateMaxMix(voteData) {
 }
 
 export function calAreaVoteRate(voteData) {
-  const party = Object.keys(voteData[0]['候選人票數'])
-  const originVoteRate = voteData.map((item) => {
+  const party = Object.keys(((voteData || [])[0] || {})['候選人票數'] || {})
+  const originVoteRate = (voteData || []).map((item) => {
     const { 候選人票數, 有效票數, 行政區別 } = item
     const totalVoteRate = { 行政區別 }
 

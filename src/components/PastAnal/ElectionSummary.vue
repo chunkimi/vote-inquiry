@@ -47,7 +47,7 @@ import { filterSpecifyVotes } from '@/utils/votesAnal.js'
 
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
-const { curStatus } = storeToRefs(usePastVotesStore())
+const { curStatus, dataField } = storeToRefs(usePastVotesStore())
 const props = defineProps({
   originVotes: {
     type: Object,
@@ -58,10 +58,11 @@ const props = defineProps({
 const votesData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    '行政區別',
+    dataField.value,
     '總計',
   )
-  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } = specifyAnalysisVotes
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } =
+    specifyAnalysisVotes || {}
   return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
 })
 
@@ -73,10 +74,10 @@ const labelColor = {
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    '行政區別',
+    dataField.value,
     '總計',
   )
-  const { 有效票數, 無效票數 } = specifyAnalysisVotes
+  const { 有效票數, 無效票數 } = specifyAnalysisVotes || {}
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),

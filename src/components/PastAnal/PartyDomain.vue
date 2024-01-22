@@ -13,14 +13,14 @@
     <div
       class="col-6 col-md-3 mb-1 mb-md-4"
       v-for="area in domainData"
-      :key="area['行政區別']"
+      :key="area[dataField]"
     >
       <div
         :class="`bg-${area.backgroundColor}`"
         class="domain__card p-6 rounded"
       >
         <h3 class="h3 text-end mb-4">
-          {{ area['行政區別'] }}
+          {{ area[dataField] }}
         </h3>
         <div class="mb-4">
           <p class="mb-2">本屆得票優勢政黨</p>
@@ -74,7 +74,7 @@ function getAreaDominantParty(areaVotes) {
   const rawAllAreas = Array.from(
     new Set(
       Object.values(areaVotes).flatMap((votes) =>
-        votes.map((vote) => vote['行政區別']),
+        votes.map((vote) => vote[dataField.value]),
       ),
     ),
   )
@@ -93,9 +93,10 @@ function getAreaDominantParty(areaVotes) {
       let matchedArea = {}
 
       const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
-        const isTaoyuanCity = area === '桃園市' && vote['行政區別'] === '桃園縣'
+        const isTaoyuanCity =
+          area === '桃園市' && vote[dataField.value] === '桃園縣'
         if (isTaoyuanCity || isTaoyuanView) {
-          return areaIdMap[area] === areaIdMap[vote['行政區別']]
+          return areaIdMap[area] === areaIdMap[vote[dataField.value]]
         } else if (isIncludeUpgradedDistrict) {
           const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
           const isUpgradedDistrict =
@@ -103,13 +104,13 @@ function getAreaDominantParty(areaVotes) {
           if (isUpgradedDistrict) {
             return (
               upgradedDistrict_id_map[area] ===
-              upgradedDistrict_id_map[vote['行政區別']]
+              upgradedDistrict_id_map[vote[dataField.value]]
             )
           } else {
-            return vote['行政區別'] === area
+            return vote[dataField.value] === area
           }
         } else {
-          return vote['行政區別'] === area
+          return vote[dataField.value] === area
         }
       })
 
@@ -154,7 +155,7 @@ function getChangedDomain(rawVotes) {
 
     if (curYearDominantParty !== prevYearDominantParty) {
       newData.push({
-        行政區別: area['行政區別'],
+        行政區別: area[dataField.value],
         本屆優勢政黨: curYearDominantParty,
         前屆優勢政黨: prevYearDominantParty,
         backgroundColor: party.codeMap[curYearDominantParty],

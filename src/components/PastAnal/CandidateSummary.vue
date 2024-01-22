@@ -22,7 +22,7 @@ import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus } = storeToRefs(usePastVotesStore())
+const { curCandidates, curStatus, dataField } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {
@@ -34,29 +34,26 @@ const props = defineProps({
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    '行政區別',
+    dataField.value,
     '總計',
   )
-  const { 候選人票數 } = specifyAnalysisVotes
-  const rawData = Object.entries(候選人票數)
+  const { 候選人票數 } = specifyAnalysisVotes || {}
+  const rawData = Object.entries(候選人票數 || {})
   return {
-    votes: rawData.map(([label, value]) => value),
-    labels: rawData.map(([label, value]) => label),
-    color: rawData.map(([label, value]) => party.colorMap[label]),
+    votes: rawData.map(([, value]) => value),
+    labels: rawData.map(([label]) => label),
+    color: rawData.map(([label]) => party.colorMap[label]),
   }
 })
 
 const candidateAnalData = computed(() => {
-  const specifyAnalysisVotes = filterSpecifyVotes(
-    props.originVotes,
-    '行政區別',
-    '總計',
-  )
-  const partyVoteRate = getVoteRateMaxMix(props.originVotes)
+  const specifyAnalysisVotes =
+    filterSpecifyVotes(props.originVotes, dataField.value, '總計') || {}
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes, dataField.value)
   const result = [...curCandidates.value].map((item) => {
-    const voteNum = specifyAnalysisVotes['候選人票數'][item.party]
+    const voteNum = (specifyAnalysisVotes['候選人票數'] || {})[item.party]
     const voterTurnout =
-      ((voteNum / specifyAnalysisVotes['有效票數']) * 100).toFixed(2) + '%'
+      ((voteNum / specifyAnalysisVotes['有效票數'] || 0) * 100).toFixed(2) + '%'
     const rateAnal = partyVoteRate[item.party]
     return {
       ...item,

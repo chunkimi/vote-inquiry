@@ -15,7 +15,8 @@ import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 
-const { curCity, curStatus, affiliatedArea } = storeToRefs(usePastVotesStore())
+const { curCity, curStatus, affiliatedArea, dataField } =
+  storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   areaVotes: {
@@ -36,7 +37,7 @@ const barChartData = computed(() => {
   const rawAllAreas = Array.from(
     new Set(
       Object.values(props.areaVotes).flatMap((votes) =>
-        votes.map((vote) => vote['行政區別']),
+        votes.map((vote) => vote[dataField.value]),
       ),
     ),
   )
@@ -56,9 +57,10 @@ const barChartData = computed(() => {
       let matchedArea = {}
 
       const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
-        const isTaoyuanCity = area === '桃園市' && vote['行政區別'] === '桃園縣'
+        const isTaoyuanCity =
+          area === '桃園市' && vote[dataField.value] === '桃園縣'
         if (isTaoyuanCity || isTaoyuanView) {
-          return areaIdMap[area] === areaIdMap[vote['行政區別']]
+          return areaIdMap[area] === areaIdMap[vote[dataField.value]]
         } else if (isIncludeUpgradedDistrict) {
           const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
           const isUpgradedDistrict =
@@ -66,13 +68,13 @@ const barChartData = computed(() => {
           if (isUpgradedDistrict) {
             return (
               upgradedDistrict_id_map[area] ===
-              upgradedDistrict_id_map[vote['行政區別']]
+              upgradedDistrict_id_map[vote[dataField.value]]
             )
           } else {
-            return vote['行政區別'] === area
+            return vote[dataField.value] === area
           }
         } else {
-          return vote['行政區別'] === area
+          return vote[dataField.value] === area
         }
       })
 

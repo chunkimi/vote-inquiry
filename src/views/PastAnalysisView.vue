@@ -33,10 +33,9 @@
   </div>
 </template>
 <script setup>
-console.clear()
-import { computed, watch, ref } from 'vue'
-import { useRoute } from 'vue-router'
+import { watch } from 'vue'
 import { storeToRefs } from 'pinia'
+import { useRoute } from 'vue-router'
 import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import { allYears } from '@/utils/electionInfo.js'
@@ -51,25 +50,22 @@ import { useMediaQuery } from '@vueuse/core'
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
-const yearId = computed(() => route.params.year)
-const { curYear, curCity, curDistrict, votes } =
-  storeToRefs(usePastVotesStore())
+
+const {
+  curYear,
+  curCity,
+  curDistrict,
+  votes: specifyVoteJson,
+} = storeToRefs(usePastVotesStore())
+
+watch(
+  () => route.params.year,
+  (year) => {
+    curYear.value = year
+  },
+  { immediate: true },
+)
+
 // import { useAllVotesStore } from '@/stores/allVotesStore.js'
 // const { specifyCity, specifyDistrict } = storeToRefs(useAllVotesStore())
-
-watch(yearId, (year) => (curYear.value = year), { immediate: true })
-
-// 先以本地端選票資料寫畫面
-import vote2020 from '@/data/votes/2020/全國.json'
-import vote2016 from '@/data/votes/2016/全國.json'
-import vote2012 from '@/data/votes/2012/全國.json'
-const allData = { vote2020, vote2016, vote2012 }
-
-const specifyVoteJson = ref([])
-watch(yearId, (year) => (specifyVoteJson.value = getPath(year)), {
-  immediate: true,
-})
-function getPath(year) {
-  return allData[`vote${year}`]
-}
 </script>

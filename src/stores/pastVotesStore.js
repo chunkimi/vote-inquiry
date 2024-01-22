@@ -15,6 +15,8 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curDistrict = ref('')
   const votes = ref([])
 
+  const dataField = computed(() => (curDistrict.value ? '村里別' : '行政區別'))
+
   const storage = useFirebaseStorage()
   const votesFileRef = computed(() => {
     if (!curYear.value) return
@@ -26,11 +28,20 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     return storageRef(storage, path)
   })
   const { url } = useStorageFileUrl(votesFileRef)
-  watch(url, (value) => {
-    if (value) {
-      const { data } = useFetch(url, { refetch: true }).get().json()
-      votes.value = data
-    }
+
+  const { data, onFetchResponse } = useFetch(url, {
+    refetch: true,
+    beforeFetch({ url, options, cancel }) {
+      // avoid fetch when url is empty
+      if (!url) cancel()
+      return options
+    },
+  })
+    .get()
+    .json()
+
+  onFetchResponse(() => {
+    votes.value = data.value
   })
 
   const curStatus = computed(() => {
@@ -77,6 +88,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curCity,
     curDistrict,
     votes,
+    dataField,
     reset,
     curCandidates,
     curStatus,

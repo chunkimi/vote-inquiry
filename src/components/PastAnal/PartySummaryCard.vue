@@ -58,7 +58,7 @@ import party from '@/data/party.json'
 
 const { codeMap } = party
 
-const { affiliatedArea } = storeToRefs(usePastVotesStore())
+const { affiliatedArea, dataField } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {
@@ -69,13 +69,13 @@ const props = defineProps({
 const summaryCardData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    '行政區別',
+    dataField.value,
     '總計',
   )
-  const partyVoteRate = getVoteRateMaxMix(props.originVotes)
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes, dataField.value)
   const party = Object.keys(specifyAnalysisVotes['候選人票數'])
   const advantageData = filterPartyAdvantage(
-    excludeTotalVotes(props.originVotes),
+    excludeTotalVotes(props.originVotes, dataField.value),
   )
   const result = party.map((partyLabel) => {
     const partyVoteData = partyVoteRate[partyLabel]
@@ -89,8 +89,8 @@ const summaryCardData = computed(() => {
       voteNum,
       voterTurnout,
       advantageAreaNum,
-      highestArea: partyVoteData.highestArea['行政區別'],
-      lowestArea: partyVoteData.lowestArea['行政區別'],
+      highestArea: partyVoteData.highestArea[dataField.value],
+      lowestArea: partyVoteData.lowestArea[dataField.value],
     }
   })
 
@@ -112,7 +112,7 @@ function filterPartyAdvantage(voteData) {
             areaData[party[2]],
           ).toFixed(4),
       )
-      .map((areaData) => areaData['行政區別'])
+      .map((areaData) => areaData[dataField.value])
     return {
       label: partyName,
       advantageArea: areas,

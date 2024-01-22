@@ -35,11 +35,11 @@ const curAnalStatus = ref(analysisMenuData[0])
 
 const route = useRoute()
 const yearId = computed(() => route.params.year)
-watch(yearId, (year) => (curAnalStatus.value = analysisMenuData[0]), {
+watch(yearId, () => (curAnalStatus.value = analysisMenuData[0]), {
   immediate: true,
 })
 
-const props = defineProps({
+defineProps({
   originVotes: {
     type: Array,
     required: true,
