@@ -24,13 +24,9 @@
   <div class="d-md-block mb-md-8" v-if="isDesktop">
     <VoteStatus :origin-votes="specifyVoteJson"></VoteStatus>
   </div>
-  <div class="mb-8">
+  <!-- <div class="mb-8">
     <BallotAnalysis :origin-votes="specifyVoteJson"></BallotAnalysis>
-  </div>
-  <div class="mt-8">
-    <!-- <p>這是選票</p>
-    <p class="mt-8">{{ votes }}</p> -->
-  </div>
+  </div> -->
 </template>
 <script setup>
 import { watch } from 'vue'
@@ -45,7 +41,7 @@ import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
-import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
+// import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
 import { useMediaQuery } from '@vueuse/core'
 const isDesktop = useMediaQuery('(min-width: 767px)')
 

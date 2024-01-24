@@ -4,7 +4,6 @@ import { VueFire } from 'vuefire'
 import { firebaseApp } from './plugins/firebase'
 import router from './router'
 import './styles/main.scss'
-import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import App from './App.vue'
 

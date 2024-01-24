@@ -13,10 +13,32 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curYear = ref('')
   const curCity = ref('')
   const curDistrict = ref('')
-  const votes = ref([])
-
+  
   const dataField = computed(() => (curDistrict.value ? '村里別' : '行政區別'))
+  const curStatus = computed(() => {
+    if (!curCity.value && !curDistrict.value) {
+      return `全國`
+    } else if (!curDistrict.value) {
+      return `${curCity.value}`
+    } else {
+      return `${curCity.value}${curDistrict.value}`
+    }
+  })
+  const affiliatedArea = computed(() => {
+    if (!curCity.value && !curDistrict.value) {
+      return '縣市'
+    } else if (!curDistrict.value) {
+      return '鄉鎮市區'
+    } else {
+      return '村里'
+    }
+  })
 
+  const curCandidates = computed(() =>
+    filterSameSession(curYear.value, candidate),
+  )
+
+  const votes = ref([])
   const storage = useFirebaseStorage()
   const votesFileRef = computed(() => {
     if (!curYear.value) return
@@ -44,28 +66,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     votes.value = data.value
   })
 
-  const curStatus = computed(() => {
-    if (!curCity.value && !curDistrict.value) {
-      return `全國`
-    } else if (!curDistrict.value) {
-      return `${curCity.value}`
-    } else {
-      return `${curCity.value}${curDistrict.value}`
-    }
-  })
-  const affiliatedArea = computed(() => {
-    if (!curCity.value && !curDistrict.value) {
-      return '縣市'
-    } else if (!curDistrict.value) {
-      return '鄉鎮市區'
-    } else {
-      return '村里'
-    }
-  })
-
-  const curCandidates = computed(() =>
-    filterSameSession(curYear.value, candidate),
-  )
+  
 
   watch(
     curYear,

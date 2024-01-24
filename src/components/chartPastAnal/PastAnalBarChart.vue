@@ -5,6 +5,9 @@
     overflow-x: scroll;
     width: 100%;
     max-width: 596px;
+    &--stretch {
+      max-width: 826px;
+    }
   }
   &__container {
     position: relative;
@@ -14,7 +17,12 @@
 </style>
 
 <template>
-  <div :class="{ 'bar-chart__wrap': isShowScrollbarX }">
+  <div
+    :class="{
+      'bar-chart__wrap': isShowScrollbarX,
+      'bar-chart__wrap--stretch': isStretch,
+    }"
+  >
     <div
       class="bar-chart text-center"
       :class="{ 'bar-chart__container': isShowScrollbarX }"
@@ -26,7 +34,10 @@
 
 <script setup>
 import { computed, watch, nextTick, onBeforeUnmount } from 'vue'
+
 import Chart from 'chart.js/auto'
+import { useMediaQuery } from '@vueuse/core'
+const isStretch = useMediaQuery('(min-width: 992px)')
 
 const props = defineProps({
   id: {
