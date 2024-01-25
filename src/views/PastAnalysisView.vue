@@ -16,17 +16,21 @@
     />
   </div>
   <div class="mb-8">
-    <ElectionSummary :origin-votes="specifyVoteJson"></ElectionSummary>
+    <ElectionSummary :origin-votes="votes"></ElectionSummary>
   </div>
   <div class="mb-8">
-    <CandidateSummary :origin-votes="specifyVoteJson"></CandidateSummary>
+    <CandidateSummary :origin-votes="votes"></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <VoteStatus :origin-votes="specifyVoteJson"></VoteStatus>
+    <VoteStatus :origin-votes="votes"></VoteStatus>
   </div>
   <!-- <div class="mb-8">
     <BallotAnalysis :origin-votes="specifyVoteJson"></BallotAnalysis>
   </div> -->
+  <div class="mt-8">
+    <p>這是選票</p>
+    <p class="mt-8">{{ allVotes }}</p>
+  </div>
 </template>
 <script setup>
 import { watch } from 'vue'
@@ -47,12 +51,8 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 
-const {
-  curYear,
-  curCity,
-  curDistrict,
-  votes: specifyVoteJson,
-} = storeToRefs(usePastVotesStore())
+const { curYear, curCity, curDistrict, votes, allVotes } =
+  storeToRefs(usePastVotesStore())
 
 watch(
   () => route.params.year,
@@ -61,7 +61,4 @@ watch(
   },
   { immediate: true },
 )
-
-// import { useAllVotesStore } from '@/stores/allVotesStore.js'
-// const { specifyCity, specifyDistrict } = storeToRefs(useAllVotesStore())
 </script>
