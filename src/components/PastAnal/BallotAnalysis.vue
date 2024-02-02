@@ -19,7 +19,7 @@
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
         ></VotingAnalysis>
-        <PartyAnalysis
+        <!-- <PartyAnalysis
           v-else
           :origin-votes="originVotes"
           :origin-all-votes="originAllVotes"
@@ -29,7 +29,7 @@
           :cur-status="curStatus"
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
-        ></PartyAnalysis>
+        ></PartyAnalysis> -->
       </div>
     </div>
   </div>

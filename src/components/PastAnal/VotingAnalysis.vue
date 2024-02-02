@@ -8,21 +8,21 @@
   </div>
   <div v-if="isDesktop">
     <div class="mb-4">
-      <!-- <VoterTurnout
+      <VoterTurnout
         :sum-votes="voterTurnoutSumData"
         :cur-status="curStatus"
         :cur-year="curYear"
-      ></VoterTurnout> -->
+      ></VoterTurnout>
     </div>
-    <!-- <div class="mb-4">
-       <VoterTurnoutArea
+    <div class="mb-4">
+      <VoterTurnoutArea
         :area-votes="voterTurnoutAreaData"
         :cur-city="curCity"
         :cur-status="curStatus"
         :affiliated-area="affiliatedArea"
         :data-field="dataField"
-      ></VoterTurnoutArea> 
-    </div> -->
+      ></VoterTurnoutArea>
+    </div>
   </div>
 </template>
 <script setup>
@@ -87,21 +87,23 @@ const summaryData = computed(() => {
   }
 })
 
-// const voterTurnoutSumData = computed(() => {
-//   const { vote2020, vote2016, vote2012 } = props.originAllVotes
-//   return {
-//     vote2020: filterSpecifyVotes(vote2020, props.dataField, '總計'),
-//     vote2016: filterSpecifyVotes(vote2016, props.dataField, '總計'),
-//     vote2012: filterSpecifyVotes(vote2012, props.dataField, '總計'),
-//   }
-// })
+const voterTurnoutSumData = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes || {}
+  const result = {
+    vote2020: filterSpecifyVotes(vote2020, props.dataField, '總計') || {},
+    vote2016: filterSpecifyVotes(vote2016, props.dataField, '總計') || {},
+    vote2012: filterSpecifyVotes(vote2012, props.dataField, '總計') || {},
+  }
+  console.log(result)
+  return result
+})
 
-// const voterTurnoutAreaData = computed(() => {
-//   const { vote2020, vote2016, vote2012 } = props.originAllVotes
-//   return {
-//     vote2020: excludeTotalVotes(vote2020, props.dataField),
-//     vote2016: excludeTotalVotes(vote2016, props.dataField),
-//     vote2012: excludeTotalVotes(vote2012, props.dataField),
-//   }
-// })
+const voterTurnoutAreaData = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes || {}
+  return {
+    vote2020: excludeTotalVotes(vote2020, props.dataField) || {},
+    vote2016: excludeTotalVotes(vote2016, props.dataField) || {},
+    vote2012: excludeTotalVotes(vote2012, props.dataField) || {},
+  }
+})
 </script>

@@ -94,9 +94,7 @@ const barChartData = computed(() => {
       if (areaVotesOfYear) {
         matchedArea = areaVotesOfYear
       }
-      areaData['歷屆投票率'][yearIndex] = Number(
-        matchedArea['投票率'].toFixed(2),
-      )
+      areaData['歷屆投票率'][yearIndex] = Number(matchedArea['投票率'])
     })
     return areaData
   })
