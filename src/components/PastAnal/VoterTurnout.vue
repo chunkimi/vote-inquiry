@@ -17,16 +17,19 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
-
 import PastAnalLineChart from '@/components/chartPastAnal/PastAnalLineChart.vue'
-
-const { curStatus, curYear } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   sumVotes: {
     type: Object,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  curYear: {
+    type: String,
     required: true,
   },
 })
@@ -46,10 +49,10 @@ const SummaryText = computed(() => {
   const allYear = Object.keys(props.sumVotes)
     .map((str) => str.match(/\d+/)[0])
     .sort((a, b) => b - a)
-  const curVoterTurnout = (props.sumVotes[`vote${curYear.value}`] || {})[
+  const curVoterTurnout = (props.sumVotes[`vote${props.curYear}`] || {})[
     '投票率'
   ]
-  const curVoterTurnoutIndex = allYear.indexOf(curYear.value)
+  const curVoterTurnoutIndex = allYear.indexOf(props.curYear)
   const isOldestYear =
     curVoterTurnoutIndex === allYear.length - 1 ? true : false
   const compYear = isOldestYear

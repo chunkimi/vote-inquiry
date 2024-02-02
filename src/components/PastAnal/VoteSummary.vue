@@ -19,16 +19,20 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
-
 import { percentage } from '@/utils/base.js'
-
-const { curStatus, affiliatedArea } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   data: {
     type: Object,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+
+  affiliatedArea: {
+    type: String,
     required: true,
   },
 })
@@ -40,11 +44,11 @@ const cardData = computed(() => {
       text: percentage(props.data.totalVoterTurnout),
     },
     {
-      label: `投票率最高${affiliatedArea.value}`,
+      label: `投票率最高${props.affiliatedArea}`,
       text: props.data.highestArea,
     },
     {
-      label: `投票率最低${affiliatedArea.value}`,
+      label: `投票率最低${props.affiliatedArea}`,
       text: props.data.lowestArea,
     },
   ]

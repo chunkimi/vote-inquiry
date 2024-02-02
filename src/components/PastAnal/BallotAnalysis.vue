@@ -10,14 +10,25 @@
       </div>
       <div class="col-12 col-md-10">
         <VotingAnalysis
+          v-if="curAnalStatus === analysisMenuData[0]"
           :origin-votes="originVotes"
           :origin-all-votes="originAllVotes"
-          v-if="curAnalStatus === analysisMenuData[0]"
+          :cur-year="curYear"
+          :cur-city="curCity"
+          :cur-status="curStatus"
+          :affiliated-area="affiliatedArea"
+          :data-field="dataField"
         ></VotingAnalysis>
         <PartyAnalysis
+          v-else
           :origin-votes="originVotes"
           :origin-all-votes="originAllVotes"
-          v-else
+          :cur-candidates="curCandidates"
+          :cur-year="curYear"
+          :cur-city="curCity"
+          :cur-status="curStatus"
+          :affiliated-area="affiliatedArea"
+          :data-field="dataField"
         ></PartyAnalysis>
       </div>
     </div>
@@ -33,23 +44,44 @@ import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
 const analysisMenuData = ['投票情況分析', '政黨得票分析']
 const curAnalStatus = ref(analysisMenuData[0])
 
+const props = defineProps({
+  originVotes: {
+    type: Array,
+    required: true,
+  },
+  originAllVotes: {
+    type: Object,
+    required: true,
+  },
+  curCandidates: {
+    type: Array,
+    required: true,
+  },
+  curYear: {
+    type: String,
+    required: true,
+  },
+  curCity: {
+    type: String,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
+    required: true,
+  },
+})
+
 const route = useRoute()
 const yearId = computed(() => route.params.year)
 watch(yearId, () => (curAnalStatus.value = analysisMenuData[0]), {
   immediate: true,
 })
-
-defineProps({
-  originVotes: {
-    type: Array,
-    required: true,
-  },
-})
-
-// 先以本地端選票資料寫畫面
-import vote2020 from '@/data/votes/2020/全國.json'
-import vote2016 from '@/data/votes/2016/全國.json'
-import vote2012 from '@/data/votes/2012/全國.json'
-
-const originAllVotes = { vote2020, vote2016, vote2012 }
 </script>

@@ -7,16 +7,20 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import party from '@/data/party.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
-
-const { curStatus, curCandidates } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   sumVotes: {
     type: Object,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  curCandidates: {
+    type: Array,
     required: true,
   },
 })
@@ -26,7 +30,7 @@ const barChartData = computed(() => {
   const labels = (votesKeys || [])
     .map((item) => item.replace('vote', ''))
     .sort((a, b) => parseFloat(a) - parseFloat(b))
-  const datasets = (curCandidates.value || []).map(({ party: partyName }) => {
+  const datasets = (props.curCandidates || []).map(({ party: partyName }) => {
     return {
       label: partyName,
       data: labels.map(

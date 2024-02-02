@@ -1,35 +1,21 @@
-export function combineVotePath(year, city, district) {
-  let filePath = ''
-  if (!year) return
-  if (!!year && !!city && !!district) {
-    filePath = `${year}/${city}-${district}`
-  } else if (!!city && !district) {
-    filePath = `${year}/${city}`
-  } else if (!city) {
-    filePath = `${year}/全國`
-  }
-  return `votes/${filePath}.json`
-}
-
 export function filterSpecifyVotes(dataArr, specifyKey, specifyValue) {
   return (dataArr || []).find((item) => item[specifyKey] === specifyValue)
 }
 
-export function excludeTotalVotes(votes, dataField = '行政區別') {
+export function excludeTotalVotes(votes, dataField) {
   return (votes || []).filter((item) => item[dataField] !== '總計')
 }
 
-export function getVoteRateMaxMix(voteData, dataField = '行政區別') {
-  const { party, originVoteRate } = calAreaVoteRate(voteData)
+export function getVoteRateMaxMix(voteData, dataField) {
+  const { party, originVoteRate } = calAreaVoteRate(voteData,dataField)
   const PartyVoteRate = {}
   party.forEach((partyName) => {
     const partyData = excludeTotalVotes(originVoteRate, dataField).map(
       (item) => ({
-        行政區別: item[dataField],
+        區域: item[dataField],
         得票率: item[partyName],
       }),
     )
-
     partyData.sort((a, b) => parseFloat(b.得票率) - parseFloat(a.得票率))
     PartyVoteRate[partyName] = {
       highestArea: partyData[0],
@@ -40,16 +26,16 @@ export function getVoteRateMaxMix(voteData, dataField = '行政區別') {
   return PartyVoteRate
 }
 
-export function calAreaVoteRate(voteData) {
+export function calAreaVoteRate(voteData,dataField) {
   const party = Object.keys(((voteData || [])[0] || {})['候選人票數'] || {})
-  const originVoteRate = (voteData || []).map((item) => {
-    const { 候選人票數, 有效票數, 行政區別 } = item
-    const totalVoteRate = { 行政區別 }
 
+  const originVoteRate = (voteData || []).map((item) => {
+    const { 候選人票數, 有效票數 } = item
+    const totalVoteRate = { [dataField] : item[dataField] }
     Object.entries(候選人票數).forEach(([key, value]) => {
       totalVoteRate[key] = ((value / 有效票數) * 100).toFixed(4)
     })
-
+    
     return totalVoteRate
   })
 

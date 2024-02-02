@@ -9,24 +9,40 @@
         :data="pieData"
       ></PastAnalPieChart>
     </div>
-    <CandidateSummaryCard :data="candidateAnalData"></CandidateSummaryCard>
+    <CandidateSummaryCard
+      :data="candidateAnalData"
+      :affiliated-area="affiliatedArea"
+      :data-field="dataField"
+    ></CandidateSummaryCard>
   </div>
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { filterSpecifyVotes, getVoteRateMaxMix } from '@/utils/votesAnal.js'
 import CandidateSummaryCard from '@/components/PastAnal/CandidateSummaryCard.vue'
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus, dataField } = storeToRefs(usePastVotesStore())
-
 const props = defineProps({
   originVotes: {
     type: Array,
+    required: true,
+  },
+  curCandidates: {
+    type: Array,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
     required: true,
   },
 })
@@ -34,7 +50,7 @@ const props = defineProps({
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    dataField.value,
+    props.dataField,
     '總計',
   )
   const { 候選人票數 } = specifyAnalysisVotes || {}
@@ -48,9 +64,9 @@ const pieData = computed(() => {
 
 const candidateAnalData = computed(() => {
   const specifyAnalysisVotes =
-    filterSpecifyVotes(props.originVotes, dataField.value, '總計') || {}
-  const partyVoteRate = getVoteRateMaxMix(props.originVotes, dataField.value)
-  const result = [...curCandidates.value].map((item) => {
+    filterSpecifyVotes(props.originVotes, props.dataField, '總計') || {}
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes, props.dataField)
+  const result = [...props.curCandidates].map((item) => {
     const voteNum = (specifyAnalysisVotes['候選人票數'] || {})[item.party]
     const voterTurnout =
       ((voteNum / specifyAnalysisVotes['有效票數'] || 0) * 100).toFixed(2) + '%'

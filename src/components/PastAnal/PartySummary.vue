@@ -4,7 +4,11 @@
 <template>
   <h4 class="h4 mb-4">政黨本屆{{ curStatus }}得票</h4>
   <div class="mb-4">
-    <PartySummaryCard :origin-votes="originVotes"></PartySummaryCard>
+    <PartySummaryCard
+      :origin-votes="originVotes"
+      :affiliated-area="affiliatedArea"
+      :data-field="dataField"
+    ></PartySummaryCard>
   </div>
   <div class="mb-4">
     <PastAnalHorizontalChart
@@ -16,8 +20,7 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
+
 import { useMediaQuery } from '@vueuse/core'
 import { calAreaVoteRate, excludeTotalVotes } from '@/utils/votesAnal.js'
 import partyJson from '@/data/party.json'
@@ -25,19 +28,33 @@ import PartySummaryCard from '@/components/PastAnal/PartySummaryCard.vue'
 import PastAnalHorizontalChart from '@/components/chartPastAnal/PastAnalHorizontalChart.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
-const { curStatus, dataField } = storeToRefs(usePastVotesStore())
 
 const props = defineProps({
   originVotes: {
     type: Array,
     required: true,
   },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
+    required: true,
+  },
 })
+
 const horizontalChartData = computed(() => {
+  const eachAreaVotes = excludeTotalVotes(props.originVotes, props.dataField)
   const { party, originVoteRate } = calAreaVoteRate(
-    excludeTotalVotes(props.originVotes, dataField.value),
+    eachAreaVotes,
+    props.dataField,
   )
-  const area = originVoteRate.map((item) => item[dataField.value])
+  const area = originVoteRate.map((item) => item[props.dataField])
   const newData = []
   party.forEach((partyName) => {
     const result = {}

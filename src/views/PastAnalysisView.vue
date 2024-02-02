@@ -16,20 +16,40 @@
     />
   </div>
   <div class="mb-8">
-    <ElectionSummary :origin-votes="votes"></ElectionSummary>
+    <ElectionSummary
+      :origin-votes="curVotes"
+      :cur-status="curStatus"
+      :data-field="dataField"
+    ></ElectionSummary>
   </div>
   <div class="mb-8">
-    <CandidateSummary :origin-votes="votes"></CandidateSummary>
+    <CandidateSummary
+      :origin-votes="curVotes"
+      :cur-candidates="curCandidates"
+      :cur-status="curStatus"
+      :data-field="dataField"
+      :affiliated-area="affiliatedArea"
+    ></CandidateSummary>
   </div>
   <div class="d-md-block mb-md-8" v-if="isDesktop">
-    <VoteStatus :origin-votes="votes"></VoteStatus>
+    <VoteStatus
+      :origin-votes="curVotes"
+      :cur-candidates="curCandidates"
+      :cur-status="curStatus"
+      :data-field="dataField"
+    ></VoteStatus>
   </div>
-  <!-- <div class="mb-8">
-    <BallotAnalysis :origin-votes="specifyVoteJson"></BallotAnalysis>
-  </div> -->
-  <div class="mt-8">
-    <p>這是選票</p>
-    <p class="mt-8">{{ allVotes }}</p>
+  <div class="mb-8">
+    <BallotAnalysis
+      :origin-votes="curVotes"
+      :origin-all-votes="allVotes"
+      :cur-candidates="curCandidates"
+      :cur-year="curYear"
+      :cur-city="curCity"
+      :cur-status="curStatus"
+      :affiliated-area="affiliatedArea"
+      :data-field="dataField"
+    ></BallotAnalysis>
   </div>
 </template>
 <script setup>
@@ -45,14 +65,23 @@ import SearchBar from '@/components/common/SearchBar.vue'
 import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
 import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
 import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
-// import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
+import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
 import { useMediaQuery } from '@vueuse/core'
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 
-const { curYear, curCity, curDistrict, votes, allVotes } =
-  storeToRefs(usePastVotesStore())
+const {
+  curYear,
+  curCity,
+  curDistrict,
+  curCandidates,
+  curVotes,
+  allVotes,
+  curStatus,
+  dataField,
+  affiliatedArea,
+} = storeToRefs(usePastVotesStore())
 
 watch(
   () => route.params.year,

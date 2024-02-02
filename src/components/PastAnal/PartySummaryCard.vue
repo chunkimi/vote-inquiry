@@ -43,8 +43,6 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 
 import {
   filterSpecifyVotes,
@@ -58,25 +56,30 @@ import party from '@/data/party.json'
 
 const { codeMap } = party
 
-const { affiliatedArea, dataField } = storeToRefs(usePastVotesStore())
-
 const props = defineProps({
   originVotes: {
     type: Array,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
     required: true,
   },
 })
 const summaryCardData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    dataField.value,
+    props.dataField,
     '總計',
   )
-  const partyVoteRate = getVoteRateMaxMix(props.originVotes, dataField.value)
+  const partyVoteRate = getVoteRateMaxMix(props.originVotes, props.dataField)
   const party = Object.keys(specifyAnalysisVotes['候選人票數'])
-  const advantageData = filterPartyAdvantage(
-    excludeTotalVotes(props.originVotes, dataField.value),
-  )
+  const eachAreaVotes = excludeTotalVotes(props.originVotes, props.dataField)
+  const advantageData = filterPartyAdvantage(eachAreaVotes, props.dataField)
   const result = party.map((partyLabel) => {
     const partyVoteData = partyVoteRate[partyLabel]
     const advantageAreaNum = advantageData[partyLabel]
@@ -89,8 +92,8 @@ const summaryCardData = computed(() => {
       voteNum,
       voterTurnout,
       advantageAreaNum,
-      highestArea: partyVoteData.highestArea[dataField.value],
-      lowestArea: partyVoteData.lowestArea[dataField.value],
+      highestArea: partyVoteData.highestArea['區域'],
+      lowestArea: partyVoteData.lowestArea['區域'],
     }
   })
 
@@ -98,8 +101,8 @@ const summaryCardData = computed(() => {
   return result
 })
 
-function filterPartyAdvantage(voteData) {
-  const { party, originVoteRate } = calAreaVoteRate(voteData)
+function filterPartyAdvantage(voteData, dataField) {
+  const { party, originVoteRate } = calAreaVoteRate(voteData, dataField)
   const result = {}
   const newData = party.map((partyName) => {
     const areas = originVoteRate
@@ -112,7 +115,7 @@ function filterPartyAdvantage(voteData) {
             areaData[party[2]],
           ).toFixed(4),
       )
-      .map((areaData) => areaData[dataField.value])
+      .map((areaData) => areaData[props.dataField])
     return {
       label: partyName,
       advantageArea: areas,
@@ -122,7 +125,6 @@ function filterPartyAdvantage(voteData) {
   newData.forEach((item) => {
     result[item.label] = item.advantageAreaNum
   })
-
   return result
 }
 </script>

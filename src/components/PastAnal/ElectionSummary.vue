@@ -40,17 +40,21 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
 import { commaNumber, percentage } from '@/utils/base'
 import { filterSpecifyVotes } from '@/utils/votesAnal.js'
-
 import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
-const { curStatus, dataField } = storeToRefs(usePastVotesStore())
 const props = defineProps({
   originVotes: {
     type: Object,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
     required: true,
   },
 })
@@ -58,7 +62,7 @@ const props = defineProps({
 const votesData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    dataField.value,
+    props.dataField,
     '總計',
   )
   const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } =
@@ -74,7 +78,7 @@ const labelColor = {
 const pieData = computed(() => {
   const specifyAnalysisVotes = filterSpecifyVotes(
     props.originVotes,
-    dataField.value,
+    props.dataField,
     '總計',
   )
   const { 有效票數, 無效票數 } = specifyAnalysisVotes || {}

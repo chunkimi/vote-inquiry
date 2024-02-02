@@ -12,18 +12,25 @@
 <script setup>
 import { computed } from 'vue'
 
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
-
 import VoteMap from '@/components/common/VoteMap.vue'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 import party from '@/data/party.json'
 
-const { curCandidates, curStatus, dataField } = storeToRefs(usePastVotesStore())
-
 const props = defineProps({
   originVotes: {
     type: Array,
+    required: true,
+  },
+  curCandidates: {
+    type: Array,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
     required: true,
   },
 })
@@ -34,22 +41,21 @@ const voteMapData = computed(() => {
       row['候選人票數'][a] > row['候選人票數'][b] ? a : b,
     )
     return {
-      city: row[dataField.value],
+      city: row[props.dataField],
       party: winner,
       count: row['候選人票數'][winner].toLocaleString(),
     }
   })
 })
 
-// 目前先以全國資料跑圖表
 const barChartData = computed(() => {
   const votesData = (props.originVotes || []).filter(
-    (item) => item[dataField.value] !== '總計',
+    (item) => item[props.dataField] !== '總計',
   )
   const labels = votesData.map((d) =>
-    d['村里別'] ? d['村里別'] : d[dataField.value],
+    d['村里別'] ? d['村里別'] : d[props.dataField],
   )
-  const datasets = (curCandidates.value || []).map(({ party: partyName }) => {
+  const datasets = (props.curCandidates || []).map(({ party: partyName }) => {
     return {
       label: partyName,
       data: votesData.map((d) => d['候選人票數'][partyName]),

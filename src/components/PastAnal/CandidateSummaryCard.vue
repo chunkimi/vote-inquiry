@@ -61,15 +61,19 @@
           </div>
           <div>
             <div class="d-flex justify-content-between align-items-center">
-              <p>得票率<span class="fw-bold">最高</span>區域：</p>
               <p>
-                {{ ((candidate.rateAnal || {}).highestArea || {})[dataField] }}
+                得票率<span class="fw-bold">最高</span>{{ affiliatedArea }}：
+              </p>
+              <p>
+                {{ ((candidate.rateAnal || {}).highestArea || {})['區域'] }}
               </p>
             </div>
             <div class="d-flex justify-content-between align-items-center">
-              <p>得票率<span class="fw-bold">最低</span>區域：</p>
               <p>
-                {{ ((candidate.rateAnal || {}).lowestArea || {})[dataField] }}
+                得票率<span class="fw-bold">最低</span>{{ affiliatedArea }}：
+              </p>
+              <p>
+                {{ ((candidate.rateAnal || {}).lowestArea || {})['區域'] }}
               </p>
             </div>
           </div>
@@ -82,14 +86,13 @@
 import PartyLogo from '@/components/common/PartyLogo.vue'
 import { commaNumber, getImageUrl } from '@/utils/base'
 
-import { storeToRefs } from 'pinia'
-import { usePastVotesStore } from '@/stores/pastVotesStore.js'
-
-const { dataField } = storeToRefs(usePastVotesStore())
-
 defineProps({
   data: {
     type: Array,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
     required: true,
   },
 })

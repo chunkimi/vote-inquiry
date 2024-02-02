@@ -6,7 +6,6 @@ import { useFirebaseStorage, useStorageFileUrl } from 'vuefire'
 import { useFetch } from '@vueuse/core'
 
 import { filterSameSession } from '@/utils/candidateFilter'
-import { combineVotePath } from '@/utils/votesAnal.js'
 import candidate from '@/data/candidate.json'
 import { allYears } from '@/utils/electionInfo'
 
@@ -39,7 +38,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     filterSameSession(curYear.value, candidate),
   )
 
-  const { votes } = getVotesData(curYear, curCity, curDistrict)
+  const { votes:curVotes } = getVotesData(curYear, curCity, curDistrict)
   function getVotesData(year, city, district) {
     const storage = useFirebaseStorage()
     const votesFileRef = computed(() => {
@@ -64,31 +63,26 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     onFetchResponse(() => {
       votes.value = data.value
     })
-    console.log('useVotesData', votes)
     return { votes }
   }
 
   const allVotes = ref({})
   async function getAllVotes() {
-    console.log('getAllVotes')
     if (!curYear.value) return
 
     const result = {}
     const promises = allYears.map(async (year) => {
       const { votes } = await getVotesData(ref(year), curCity, curDistrict)
-      console.log(votes)
-      result[year] = votes
+      result[`vote${year}`] = votes
     })
 
     await Promise.all(promises)
-    console.log('result', result)
     allVotes.value = result
   }
 
   watch(
     [curYear, curCity, curDistrict],
     () => {
-      console.log('here')
       getAllVotes()
     },
     { immediate: true },
@@ -114,12 +108,25 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curYear,
     curCity,
     curDistrict,
-    votes,
-    allVotes,
-    dataField,
-    reset,
     curCandidates,
     curStatus,
+    curVotes,
+    allVotes,
+    reset,
+    dataField,
     affiliatedArea,
   }
 })
+
+function combineVotePath(year, city, district) {
+  let filePath = ''
+  if (!year) return
+  if (!!year && !!city && !!district) {
+    filePath = `${year}/${city}-${district}`
+  } else if (!!city && !district) {
+    filePath = `${year}/${city}`
+  } else if (!city) {
+    filePath = `${year}/全國`
+  }
+  return `votes/${filePath}.json`
+}
