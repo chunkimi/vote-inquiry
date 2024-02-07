@@ -40,7 +40,7 @@
     ></VoteStatus>
   </div>
   <div class="mb-8">
-    <BallotAnalysis
+    <!-- <BallotAnalysis
       :origin-votes="curVotes"
       :origin-all-votes="allVotes"
       :cur-candidates="curCandidates"
@@ -49,7 +49,7 @@
       :cur-status="curStatus"
       :affiliated-area="affiliatedArea"
       :data-field="dataField"
-    ></BallotAnalysis>
+    ></BallotAnalysis> -->
   </div>
 </template>
 <script setup>
