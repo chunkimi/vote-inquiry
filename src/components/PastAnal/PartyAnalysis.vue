@@ -39,7 +39,7 @@ import PartyDomain from '@/components/PastAnal/PartyDomain.vue'
 
 const isDesktop = useMediaQuery('(min-width: 767px)')
 
-const props = defineProps({
+defineProps({
   originVotes: {
     type: Array,
     required: true,

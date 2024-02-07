@@ -46,12 +46,12 @@ export function calAreaVoteRate(voteData, dataField) {
 }
 
 export function filterTaoyuanOldPlaceName(rawAllAreas) {
-  const result= rawAllAreas.filter((area) => {
+  const result = rawAllAreas.filter((area) => {
     const lastChar = area.slice(-1)
-    if (lastChar==="區") {
+    if (lastChar === '區') {
       return true
     }
-    if (lastChar==='鄉' || lastChar==='鎮' || area === '桃園市') {
+    if (lastChar === '鄉' || lastChar === '鎮' || area === '桃園市') {
       return false
     }
     return true

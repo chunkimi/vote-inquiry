@@ -82,8 +82,8 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
         const district = ref('')
         if (curYear.value !== '2012' && yearIndex !== '2012') {
           city.value = curCity.value
-                    district.value = curDistrict.value
-          } else if (isCurTaoyuanCounty) {
+          district.value = curDistrict.value
+        } else if (isCurTaoyuanCounty) {
           const result = getTaoyuanData(
             yearIndex,
             curYear.value,
@@ -92,7 +92,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
           )
           city.value = result.city
           district.value = result.district
-        } else if(isIncludeUpgradedDistrict) {
+        } else if (isIncludeUpgradedDistrict) {
           city.value = curCity.value
           const result = getIncludeUpgradedDistrict(
             yearIndex,
@@ -101,7 +101,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
             curDistrict.value,
           )
           district.value = result
-        }else {
+        } else {
           city.value = curCity.value
           district.value = curDistrict.value
         }
@@ -147,8 +147,6 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
   }
 })
 
-
-
 function combineVotePath(year, city, district) {
   let filePath = ''
   if (!year) return
@@ -166,47 +164,43 @@ function getTaoyuanData(yearIndex, curYear, curCity, curDistrict) {
   const result = { city: curCity, district: curDistrict }
 
   if (curYear !== '2012' && yearIndex === '2012') {
-   
     result.city = '桃園縣'
     if (curDistrict === '') {
-     
       return result
     } else {
-     
       const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
-     
+
       result.district = rawDistrict
       return result
     }
   } else if (curYear === '2012') {
     if (yearIndex === '2012') {
-      
       return result
     } else {
       result.city = '桃園市'
       if (curDistrict === '') {
-       
         return result
       } else {
-        
         const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
-        
+
         result.district = rawDistrict
         return result
       }
     }
   }
-
 }
 
 function getIncludeUpgradedDistrict(yearIndex, curYear, curCity, curDistrict) {
-  const  defaultDistrict = curDistrict
-   if (curYear !== '2012' && yearIndex === '2012') {
+  const defaultDistrict = curDistrict
+  if (curYear !== '2012' && yearIndex === '2012') {
     if (curDistrict === '') {
       return defaultDistrict
     } else {
-      const rawDistrict = findMirrorKey(upgradedDistrict_id_map[curCity], curDistrict)
-      if(rawDistrict) {
+      const rawDistrict = findMirrorKey(
+        upgradedDistrict_id_map[curCity],
+        curDistrict,
+      )
+      if (rawDistrict) {
         return rawDistrict
       } else {
         return defaultDistrict
@@ -216,19 +210,22 @@ function getIncludeUpgradedDistrict(yearIndex, curYear, curCity, curDistrict) {
     if (yearIndex === '2012') {
       return defaultDistrict
     } else {
-      const rawDistrict = findMirrorKey(upgradedDistrict_id_map[curCity], curDistrict)
-      if(rawDistrict) {
+      const rawDistrict = findMirrorKey(
+        upgradedDistrict_id_map[curCity],
+        curDistrict,
+      )
+      if (rawDistrict) {
         return rawDistrict
       } else {
         return defaultDistrict
       }
     }
-  } 
+  }
 }
 
 function findMirrorKey(idMap, testKey) {
   for (const key in idMap) {
-    if (key !== testKey &&idMap[key] === idMap[testKey] ) {
+    if (key !== testKey && idMap[key] === idMap[testKey]) {
       return key
     }
   }

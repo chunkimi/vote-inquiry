@@ -70,8 +70,6 @@ const barChartData = computed(() => {
     // allAreas =
     // 彰化員林與苗栗頭份的例外情況
   }
-  console.log(allAreas)
-
   const rawAreaVoterTurnout = allAreas.map((area) => {
     const areaData = { 行政區別: area, 歷屆投票率: {} }
     const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map

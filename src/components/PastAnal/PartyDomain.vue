@@ -112,7 +112,6 @@ function getAreaDominantParty(areaVotes) {
     // allAreas =
     // 彰化員林與苗栗頭份的例外情況
   }
-  console.log(allAreas)
   const rawDominantParty = allAreas.map((area) => {
     const areaData = { 行政區別: area, 優勢政黨: {} }
     const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map

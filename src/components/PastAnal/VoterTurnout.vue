@@ -7,7 +7,7 @@
         :data="lineData"
       ></PastAnalLineChart>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4" v-if="notEarliestYear">
       <p class="mb-1">本屆與{{ SummaryText.benchmark }}投票率比較</p>
       <p class="h2" :class="`text-${SummaryText.textStyle}`">
         {{ `${SummaryText.text}${SummaryText.num}%` }}
@@ -34,6 +34,8 @@ const props = defineProps({
   },
 })
 
+const notEarliestYear = computed(() => props.curYear !== '2012')
+
 const lineData = computed(() => {
   const labels = Object.keys(props.sumVotes)
   const data = Object.values(props.sumVotes).map((item) =>
@@ -49,29 +51,27 @@ const SummaryText = computed(() => {
   const allYear = Object.keys(props.sumVotes)
     .map((str) => str.match(/\d+/)[0])
     .sort((a, b) => b - a)
-  const curVoterTurnout = (props.sumVotes[`vote${props.curYear}`] || {})[
-    '投票率'
-  ]
+
   const curVoterTurnoutIndex = allYear.indexOf(props.curYear)
   const isOldestYear =
     curVoterTurnoutIndex === allYear.length - 1 ? true : false
   const compYear = isOldestYear
     ? allYear[curVoterTurnoutIndex - 1]
     : allYear[curVoterTurnoutIndex + 1]
+  const curVoterTurnout = (props.sumVotes[`vote${props.curYear}`] || {})[
+    '投票率'
+  ]
   const compVoterTurnout = props.sumVotes[`vote${compYear}`]['投票率']
   const isIncrease = curVoterTurnout > compVoterTurnout ? true : false
   let text = ''
   let textStyle = ''
-  if (isOldestYear) {
-    text = isIncrease ? '負成長' : '正成長'
-    textStyle = isIncrease ? 'danger' : 'success'
-  } else {
+  if (!isOldestYear) {
     text = isIncrease ? '成長' : '下降'
     textStyle = isIncrease ? 'success' : 'danger'
   }
 
   const result = {
-    benchmark: isOldestYear ? '下屆' : '上屆',
+    benchmark: '上屆',
     text,
     textStyle,
     num: isIncrease
