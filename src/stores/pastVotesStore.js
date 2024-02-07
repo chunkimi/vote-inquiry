@@ -71,12 +71,15 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     if (!curYear.value) return
 
     const result = {}
-    const promises = allYears.map(async (year) => {
+    // const promises = allYears.map(async (year) => {
+    //   const { votes } = await getVotesData(ref(year), curCity, curDistrict)
+    //   result[`vote${year}`] = votes
+    // })
+
+    await Promise.all(allYears.map(async (year) => {
       const { votes } = await getVotesData(ref(year), curCity, curDistrict)
       result[`vote${year}`] = votes
-    })
-
-    await Promise.all(promises)
+    }))
     allVotes.value = result
   }
 

@@ -28,7 +28,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
-import { excludeTotalVotes } from '@/utils/votesAnal.js'
+import { excludeTotalVotes, filterSpecifyVotes } from '@/utils/votesAnal.js'
 import VoteSummary from '@/components/PastAnal/VoteSummary.vue'
 import VoterTurnout from '@/components/PastAnal/VoterTurnout.vue'
 import VoterTurnoutArea from '@/components/PastAnal/VoterTurnoutArea.vue'
@@ -71,7 +71,11 @@ const props = defineProps({
 })
 
 const summaryData = computed(() => {
-  const totalVoterTurnout = (props.areaSumVotes || {})['投票率']
+  const totalVoterTurnout = (filterSpecifyVotes(
+    props.originVotes,
+    props.dataField,
+    '總計',
+  ) || {})['投票率']
   const sortVote = excludeTotalVotes(props.originVotes, props.dataField).sort(
     (a, b) => parseFloat(b['投票率']) - parseFloat(a['投票率']),
   )
