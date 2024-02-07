@@ -11,21 +11,28 @@
   </div>
   <div v-if="isDesktop">
     <div class="mb-4">
-      <!-- <PartyComparison :sum-votes="areaSumVotes"></PartyComparison> -->
+      <PartyComparison
+        :sum-votes="areaSumVotes"
+        :cur-candidates="curCandidates"
+        :cur-status="curStatus"
+      ></PartyComparison>
     </div>
     <div class="mb-4">
-      <!-- <PartyDomain
-        :area-votes="voterTurnoutAreaData"
+      <PartyDomain
         v-if="curYear !== '2012'"
-      ></PartyDomain> -->
+        :various-regions-votes="variousRegionsVotes"
+        :cur-year="curYear"
+        :cur-city="curCity"
+        :cur-status="curStatus"
+        :affiliated-area="affiliatedArea"
+        :data-field="dataField"
+      ></PartyDomain>
     </div>
   </div>
 </template>
 <script setup>
 import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
-
-import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
 
 import PartySummary from '@/components/PastAnal/PartySummary.vue'
 import PartyComparison from '@/components/PastAnal/PartyComparison.vue'
@@ -38,7 +45,11 @@ const props = defineProps({
     type: Array,
     required: true,
   },
-  originAllVotes: {
+  areaSumVotes: {
+    type: Object,
+    required: true,
+  },
+  variousRegionsVotes: {
     type: Object,
     required: true,
   },
@@ -67,22 +78,4 @@ const props = defineProps({
     required: true,
   },
 })
-
-// const areaSumVotes = computed(() => {
-//   const { vote2020, vote2016, vote2012 } = props.originAllVotes
-//   return {
-//     vote2020: filterSpecifyVotes(vote2020, props.dataField, '總計'),
-//     vote2016: filterSpecifyVotes(vote2016, props.dataField, '總計'),
-//     vote2012: filterSpecifyVotes(vote2012, props.dataField, '總計'),
-//   }
-// })
-
-// const voterTurnoutAreaData = computed(() => {
-//   const { vote2020, vote2016, vote2012 } = props.originAllVotes
-//   return {
-//     vote2020: excludeTotalVotes(vote2020, props.dataField),
-//     vote2016: excludeTotalVotes(vote2016, props.dataField),
-//     vote2012: excludeTotalVotes(vote2012, props.dataField),
-//   }
-// })
 </script>

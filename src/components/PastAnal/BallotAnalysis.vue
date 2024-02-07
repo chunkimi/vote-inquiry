@@ -12,30 +12,33 @@
         <VotingAnalysis
           v-if="curAnalStatus === analysisMenuData[0]"
           :origin-votes="originVotes"
-          :origin-all-votes="originAllVotes"
+          :area-sum-votes="areaSumVotes"
+          :various-regions-votes="variousRegionsVotes"
           :cur-year="curYear"
           :cur-city="curCity"
           :cur-status="curStatus"
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
         ></VotingAnalysis>
-        <!-- <PartyAnalysis
+        <PartyAnalysis
           v-else
           :origin-votes="originVotes"
-          :origin-all-votes="originAllVotes"
+          :area-sum-votes="areaSumVotes"
+          :various-regions-votes="variousRegionsVotes"
           :cur-candidates="curCandidates"
           :cur-year="curYear"
           :cur-city="curCity"
           :cur-status="curStatus"
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
-        ></PartyAnalysis> -->
+        ></PartyAnalysis>
       </div>
     </div>
   </div>
 </template>
 <script setup>
 import { ref, computed, watch } from 'vue'
+import { filterSpecifyVotes, excludeTotalVotes } from '@/utils/votesAnal.js'
 import { useRoute } from 'vue-router'
 import BallotAnalysisMenu from '@/components/PastAnal/BallotAnalysisMenu.vue'
 import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
@@ -83,5 +86,25 @@ const route = useRoute()
 const yearId = computed(() => route.params.year)
 watch(yearId, () => (curAnalStatus.value = analysisMenuData[0]), {
   immediate: true,
+})
+
+const areaSumVotes = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes || {}
+  const result = {
+    vote2020: filterSpecifyVotes(vote2020, props.dataField, '總計') || {},
+    vote2016: filterSpecifyVotes(vote2016, props.dataField, '總計') || {},
+    vote2012: filterSpecifyVotes(vote2012, props.dataField, '總計') || {},
+  }
+  return result
+})
+
+const variousRegionsVotes = computed(() => {
+  const { vote2020, vote2016, vote2012 } = props.originAllVotes || {}
+  const result = {
+    vote2020: excludeTotalVotes(vote2020, props.dataField) || {},
+    vote2016: excludeTotalVotes(vote2016, props.dataField) || {},
+    vote2012: excludeTotalVotes(vote2012, props.dataField) || {},
+  }
+  return result
 })
 </script>

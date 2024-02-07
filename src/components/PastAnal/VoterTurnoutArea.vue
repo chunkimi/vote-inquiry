@@ -16,7 +16,7 @@ import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 import PastAnalBarChart from '@/components/chartPastAnal/PastAnalBarChart.vue'
 
 const props = defineProps({
-  areaVotes: {
+  variousRegionsVotes: {
     type: Object,
     required: true,
   },
@@ -45,11 +45,11 @@ const yearColor = {
 }
 
 const barChartData = computed(() => {
-  const yearKeys = Object.keys(props.areaVotes)
+  const yearKeys = Object.keys(props.variousRegionsVotes)
 
   const rawAllAreas = Array.from(
     new Set(
-      Object.values(props.areaVotes).flatMap((votes) =>
+      Object.values(props.variousRegionsVotes).flatMap((votes) =>
         votes.map((vote) => vote[props.dataField]),
       ),
     ),
@@ -69,27 +69,29 @@ const barChartData = computed(() => {
     yearKeys.forEach((yearIndex) => {
       let matchedArea = {}
 
-      const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
-        const isTaoyuanCity =
-          area === '桃園市' && vote[props.dataField] === '桃園縣'
-        if (isTaoyuanCity || isTaoyuanView) {
-          return areaIdMap[area] === areaIdMap[vote[props.dataField]]
-        } else if (isIncludeUpgradedDistrict) {
-          const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
-          const isUpgradedDistrict =
-            upgradedDistrict_id_map[`${props.curCity}`].includes(areaName)
-          if (isUpgradedDistrict) {
-            return (
-              upgradedDistrict_id_map[area] ===
-              upgradedDistrict_id_map[vote[props.dataField]]
-            )
+      const areaVotesOfYear = props.variousRegionsVotes[yearIndex].find(
+        (vote) => {
+          const isTaoyuanCity =
+            area === '桃園市' && vote[props.dataField] === '桃園縣'
+          if (isTaoyuanCity || isTaoyuanView) {
+            return areaIdMap[area] === areaIdMap[vote[props.dataField]]
+          } else if (isIncludeUpgradedDistrict) {
+            const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
+            const isUpgradedDistrict =
+              upgradedDistrict_id_map[`${props.curCity}`].includes(areaName)
+            if (isUpgradedDistrict) {
+              return (
+                upgradedDistrict_id_map[area] ===
+                upgradedDistrict_id_map[vote[props.dataField]]
+              )
+            } else {
+              return vote[props.dataField] === area
+            }
           } else {
             return vote[props.dataField] === area
           }
-        } else {
-          return vote[props.dataField] === area
-        }
-      })
+        },
+      )
 
       if (areaVotesOfYear) {
         matchedArea = areaVotesOfYear

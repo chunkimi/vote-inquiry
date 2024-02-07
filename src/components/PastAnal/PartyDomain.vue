@@ -51,7 +51,7 @@ import party from '@/data/party.json'
 import { allYears } from '@/utils/electionInfo.js'
 
 const props = defineProps({
-  areaVotes: {
+  variousRegionsVotes: {
     type: Object,
     required: true,
   },
@@ -79,7 +79,7 @@ const props = defineProps({
 
 const domainData = computed(() => {
   if (props.curYear === '2012') return []
-  const areaDominantParty = getAreaDominantParty(props.areaVotes)
+  const areaDominantParty = getAreaDominantParty(props.variousRegionsVotes)
   const changedDomainData = getChangedDomain(areaDominantParty)
 
   return changedDomainData
@@ -108,27 +108,29 @@ function getAreaDominantParty(areaVotes) {
     yearKeys.forEach((yearIndex) => {
       let matchedArea = {}
 
-      const areaVotesOfYear = props.areaVotes[yearIndex].find((vote) => {
-        const isTaoyuanCity =
-          area === '桃園市' && vote[props.dataField] === '桃園縣'
-        if (isTaoyuanCity || isTaoyuanView) {
-          return areaIdMap[area] === areaIdMap[vote[props.dataField]]
-        } else if (isIncludeUpgradedDistrict) {
-          const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
-          const isUpgradedDistrict =
-            upgradedDistrict_id_map[`${props.curCity}`].includes(areaName)
-          if (isUpgradedDistrict) {
-            return (
-              upgradedDistrict_id_map[area] ===
-              upgradedDistrict_id_map[vote[props.dataField]]
-            )
+      const areaVotesOfYear = props.variousRegionsVotes[yearIndex].find(
+        (vote) => {
+          const isTaoyuanCity =
+            area === '桃園市' && vote[props.dataField] === '桃園縣'
+          if (isTaoyuanCity || isTaoyuanView) {
+            return areaIdMap[area] === areaIdMap[vote[props.dataField]]
+          } else if (isIncludeUpgradedDistrict) {
+            const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
+            const isUpgradedDistrict =
+              upgradedDistrict_id_map[`${props.curCity}`].includes(areaName)
+            if (isUpgradedDistrict) {
+              return (
+                upgradedDistrict_id_map[area] ===
+                upgradedDistrict_id_map[vote[props.dataField]]
+              )
+            } else {
+              return vote[props.dataField] === area
+            }
           } else {
             return vote[props.dataField] === area
           }
-        } else {
-          return vote[props.dataField] === area
-        }
-      })
+        },
+      )
 
       if (areaVotesOfYear) {
         matchedArea = areaVotesOfYear
@@ -181,50 +183,4 @@ function getChangedDomain(rawVotes) {
 
   return newData
 }
-
-// function getAreaDominantParty(areaVotes) {
-//   const yearKeys = Object.keys(areaVotes)
-//   const rawAllAreas = Array.from(
-//     new Set(
-//       Object.values(areaVotes).flatMap((votes) =>
-//         votes.map((vote) => vote['行政區別']),
-//       ),
-//     ),
-//   )
-//   const allAreas = filterOldPlaceName(
-//     rawAllAreas,
-//     props.curCity.includes('桃園'),
-//   )
-//   const rawDominantParty = allAreas.map((area) => {
-//     const areaData = { 行政區別: area, 優勢政黨: {} }
-//     const areaName = props.curCity.includes('桃園')
-//       ? area.replace(/市$|鄉$|區$|鎮$/, '')
-//       : ''
-//     yearKeys.forEach((yearIndex) => {
-//       let matchedArea = {}
-//       if (props.curCity.includes('桃園')) {
-//         matchedArea = areaVotes[yearIndex].find((item) =>
-//           item['行政區別'].includes(areaName),
-//         )
-//       } else {
-//         const areaVotesOfYear = areaVotes[yearIndex].find((vote) => {
-//           if (area === '桃園市' && vote['行政區別'] === '桃園縣') {
-//             return city_id_map[area] === city_id_map[vote['行政區別']]
-//           } else {
-//             return vote['行政區別'] === area
-//           }
-//         })
-//         if (areaVotesOfYear) {
-//           matchedArea = areaVotesOfYear
-//         }
-//       }
-//       areaData['優勢政黨'][yearIndex] = getDominantParty(
-//         matchedArea['候選人票數'],
-//       )
-//     })
-//     return areaData
-//   })
-
-//   return rawDominantParty
-// }
 </script>
