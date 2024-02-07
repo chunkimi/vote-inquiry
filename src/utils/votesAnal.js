@@ -7,7 +7,7 @@ export function excludeTotalVotes(votes, dataField) {
 }
 
 export function getVoteRateMaxMix(voteData, dataField) {
-  const { party, originVoteRate } = calAreaVoteRate(voteData,dataField)
+  const { party, originVoteRate } = calAreaVoteRate(voteData, dataField)
   const PartyVoteRate = {}
   party.forEach((partyName) => {
     const partyData = excludeTotalVotes(originVoteRate, dataField).map(
@@ -26,16 +26,16 @@ export function getVoteRateMaxMix(voteData, dataField) {
   return PartyVoteRate
 }
 
-export function calAreaVoteRate(voteData,dataField) {
+export function calAreaVoteRate(voteData, dataField) {
   const party = Object.keys(((voteData || [])[0] || {})['候選人票數'] || {})
 
   const originVoteRate = (voteData || []).map((item) => {
     const { 候選人票數, 有效票數 } = item
-    const totalVoteRate = { [dataField] : item[dataField] }
+    const totalVoteRate = { [dataField]: item[dataField] }
     Object.entries(候選人票數).forEach(([key, value]) => {
       totalVoteRate[key] = ((value / 有效票數) * 100).toFixed(4)
     })
-    
+
     return totalVoteRate
   })
 

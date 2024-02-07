@@ -31,7 +31,6 @@
   </div>
 </template>
 <script setup>
-import { computed } from 'vue'
 import { useMediaQuery } from '@vueuse/core'
 
 import PartySummary from '@/components/PastAnal/PartySummary.vue'

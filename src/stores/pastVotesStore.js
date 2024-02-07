@@ -6,8 +6,10 @@ import { useFirebaseStorage, useStorageFileUrl } from 'vuefire'
 import { useFetch } from '@vueuse/core'
 
 import { filterSameSession } from '@/utils/candidateFilter'
-import candidate from '@/data/candidate.json'
 import { allYears } from '@/utils/electionInfo'
+import candidate from '@/data/candidate.json'
+import taoyuan_id_map from '@/data/taoyuan_id_map.json'
+// import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
 
 export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curYear = ref('')
@@ -38,7 +40,7 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     filterSameSession(curYear.value, candidate),
   )
 
-  const { votes:curVotes } = getVotesData(curYear, curCity, curDistrict)
+  const { votes: curVotes } = getVotesData(curYear, curCity, curDistrict)
   function getVotesData(year, city, district) {
     const storage = useFirebaseStorage()
     const votesFileRef = computed(() => {
@@ -69,17 +71,35 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const allVotes = ref({})
   async function getAllVotes() {
     if (!curYear.value) return
+    const isCurTaoyuanCounty = curCity.value.includes('桃園') ? true : false
+    // const isIncludeUpgradedDistrict =
+    //   curCity.value.includes('彰化') || curCity.value.includes('苗栗')
 
     const result = {}
-    // const promises = allYears.map(async (year) => {
-    //   const { votes } = await getVotesData(ref(year), curCity, curDistrict)
-    //   result[`vote${year}`] = votes
-    // })
+    await Promise.all(
+      allYears.map(async (yearIndex) => {
+        const city = ref('')
+        const district = ref('')
 
-    await Promise.all(allYears.map(async (year) => {
-      const { votes } = await getVotesData(ref(year), curCity, curDistrict)
-      result[`vote${year}`] = votes
-    }))
+        if (isCurTaoyuanCounty) {
+          const result = getTaoyuanData(
+            yearIndex,
+            curYear.value,
+            curCity.value,
+            curDistrict.value,
+          )
+          city.value = result.city
+          district.value = result.district
+        } else {
+          city.value = curCity.value
+          district.value = curDistrict.value
+        }
+        console.log('city,district', city, district)
+        const { votes } = await getVotesData(ref(yearIndex), city, district)
+        result[`vote${yearIndex}`] = votes
+      }),
+    )
+    console.log(result)
     allVotes.value = result
   }
 
@@ -89,23 +109,21 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
       getAllVotes()
     },
     { immediate: true },
-  )
-
-  watch(
-    curYear,
-    (newYear) => {
-      curYear.value = newYear
+  ),
+    watch(
+      curYear,
+      (newYear) => {
+        curYear.value = newYear
+        curCity.value = ''
+        curDistrict.value = ''
+      },
+      { immediate: true },
+    ),
+    function reset() {
+      curYear.value = ''
       curCity.value = ''
       curDistrict.value = ''
-    },
-    { immediate: true },
-  )
-
-  function reset() {
-    curYear.value = ''
-    curCity.value = ''
-    curDistrict.value = ''
-  }
+    }
 
   return {
     curYear,
@@ -115,7 +133,6 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curStatus,
     curVotes,
     allVotes,
-    reset,
     dataField,
     affiliatedArea,
   }
@@ -132,4 +149,43 @@ function combineVotePath(year, city, district) {
     filePath = `${year}/全國`
   }
   return `votes/${filePath}.json`
+}
+
+function getTaoyuanData(yearIndex, curYear, curCity, curDistrict) {
+  const result = { city: curCity, district: curDistrict }
+
+  if (curYear !== '2012' && yearIndex !== '2012') {
+    return result
+  } else if (curYear !== '2012' && yearIndex === '2012') {
+    result.city = '桃園縣'
+    if (curDistrict === '') {
+      return result
+    } else {
+      const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
+      result.curDistrict = rawDistrict
+      return result
+    }
+  } else if (curYear === '2012') {
+    if (yearIndex === '2012') {
+      return result
+    } else {
+      result.city = '桃園市'
+      if (curDistrict === '') {
+        return result
+      } else {
+        const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
+        result.curDistrict = rawDistrict
+        return result
+      }
+    }
+  }
+
+  function findMirrorKey(idMap, testKey) {
+    for (const key in idMap) {
+      if (idMap[key] === idMap[testKey]) {
+        return key
+      }
+    }
+    return null
+  }
 }
