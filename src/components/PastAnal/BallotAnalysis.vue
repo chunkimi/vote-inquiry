@@ -17,6 +17,7 @@
           :cur-year="curYear"
           :cur-city="curCity"
           :cur-status="curStatus"
+          :cur-district="curDistrict"
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
         ></VotingAnalysis>
@@ -28,6 +29,7 @@
           :cur-candidates="curCandidates"
           :cur-year="curYear"
           :cur-city="curCity"
+          :cur-district="curDistrict"
           :cur-status="curStatus"
           :affiliated-area="affiliatedArea"
           :data-field="dataField"
@@ -65,6 +67,10 @@ const props = defineProps({
     required: true,
   },
   curCity: {
+    type: String,
+    required: true,
+  },
+  curDistrict: {
     type: String,
     required: true,
   },

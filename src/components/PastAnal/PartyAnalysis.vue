@@ -68,6 +68,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  curDistrict: {
+    type: String,
+    required: true,
+  },
   dataField: {
     type: String,
     required: true,

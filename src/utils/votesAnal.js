@@ -45,20 +45,16 @@ export function calAreaVoteRate(voteData, dataField) {
   }
 }
 
-export function filterOldPlaceName(rawAllAreas, isAdministrativeDistrict) {
-  let result = []
-  if (isAdministrativeDistrict) {
-    result = rawAllAreas.filter((area) => {
-      if (area.endsWith('區')) {
-        return true
-      }
-      if (area.endsWith('鄉') || area.endsWith('鎮') || area === '桃園市') {
-        return false
-      }
+export function filterTaoyuanOldPlaceName(rawAllAreas) {
+  const result= rawAllAreas.filter((area) => {
+    const lastChar = area.slice(-1)
+    if (lastChar==="區") {
       return true
-    })
-  } else {
-    result = rawAllAreas.filter((area) => area !== '桃園縣')
-  }
+    }
+    if (lastChar==='鄉' || lastChar==='鎮' || area === '桃園市') {
+      return false
+    }
+    return true
+  })
   return result
 }

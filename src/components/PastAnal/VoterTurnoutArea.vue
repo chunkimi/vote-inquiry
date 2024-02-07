@@ -7,8 +7,7 @@
 </template>
 <script setup>
 import { computed } from 'vue'
-
-import { filterOldPlaceName } from '@/utils/votesAnal.js'
+import { filterTaoyuanOldPlaceName } from '@/utils/votesAnal.js'
 import city_id_map from '@/data/city_id_map.json'
 import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
@@ -54,17 +53,28 @@ const barChartData = computed(() => {
       ),
     ),
   )
-  const allAreas = filterOldPlaceName(
-    rawAllAreas,
-    props.curCity.includes('桃園'),
-  )
+  const isContainExceptions =
+    props.curCity.includes('桃園') ||
+    props.curCity.includes('彰化') ||
+    props.curCity.includes('苗栗')
+  const isTaoyuanView = props.curCity.includes('桃園')
+  const isIncludeUpgradedDistrict =
+    props.curCity.includes('彰化') || props.curCity.includes('苗栗')
+
+  let allAreas = []
+  if (!isContainExceptions) {
+    allAreas = rawAllAreas.filter((area) => area !== '桃園縣')
+  } else if (isTaoyuanView) {
+    allAreas = filterTaoyuanOldPlaceName(rawAllAreas)
+  } else if (isIncludeUpgradedDistrict) {
+    // allAreas =
+    // 彰化員林與苗栗頭份的例外情況
+  }
+  console.log(allAreas)
 
   const rawAreaVoterTurnout = allAreas.map((area) => {
     const areaData = { 行政區別: area, 歷屆投票率: {} }
-    const isTaoyuanView = props.curCity.includes('桃園')
     const areaIdMap = isTaoyuanView ? taoyuan_id_map : city_id_map
-    const isIncludeUpgradedDistrict =
-      props.curCity.includes('彰化') || props.curCity.includes('苗栗')
 
     yearKeys.forEach((yearIndex) => {
       let matchedArea = {}
@@ -76,7 +86,7 @@ const barChartData = computed(() => {
           if (isTaoyuanCity || isTaoyuanView) {
             return areaIdMap[area] === areaIdMap[vote[props.dataField]]
           } else if (isIncludeUpgradedDistrict) {
-            const areaName = area.replace(/市$|鄉$|區$|鎮$/, '')
+            const areaName = area.slice(0, -1)
             const isUpgradedDistrict =
               upgradedDistrict_id_map[`${props.curCity}`].includes(areaName)
             if (isUpgradedDistrict) {

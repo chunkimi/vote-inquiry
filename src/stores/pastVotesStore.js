@@ -80,8 +80,10 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
       allYears.map(async (yearIndex) => {
         const city = ref('')
         const district = ref('')
-
-        if (isCurTaoyuanCounty) {
+        if (curYear.value !== '2012' && yearIndex !== '2012') {
+          city.value = curCity.value
+                    district.value = curDistrict.value
+          } else if (isCurTaoyuanCounty) {
           const result = getTaoyuanData(
             yearIndex,
             curYear.value,
@@ -107,7 +109,6 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
         result[`vote${yearIndex}`] = votes
       }),
     )
-    console.log(result)
     allVotes.value = result
   }
 
@@ -164,27 +165,33 @@ function combineVotePath(year, city, district) {
 function getTaoyuanData(yearIndex, curYear, curCity, curDistrict) {
   const result = { city: curCity, district: curDistrict }
 
-  if (curYear !== '2012' && yearIndex !== '2012') {
-    return result
-  } else if (curYear !== '2012' && yearIndex === '2012') {
+  if (curYear !== '2012' && yearIndex === '2012') {
+   
     result.city = '桃園縣'
     if (curDistrict === '') {
+     
       return result
     } else {
+     
       const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
-      result.curDistrict = rawDistrict
+     
+      result.district = rawDistrict
       return result
     }
   } else if (curYear === '2012') {
     if (yearIndex === '2012') {
+      
       return result
     } else {
       result.city = '桃園市'
       if (curDistrict === '') {
+       
         return result
       } else {
+        
         const rawDistrict = findMirrorKey(taoyuan_id_map, curDistrict)
-        result.curDistrict = rawDistrict
+        
+        result.district = rawDistrict
         return result
       }
     }
@@ -194,15 +201,11 @@ function getTaoyuanData(yearIndex, curYear, curCity, curDistrict) {
 
 function getIncludeUpgradedDistrict(yearIndex, curYear, curCity, curDistrict) {
   const  defaultDistrict = curDistrict
-  if (curYear !== '2012' && yearIndex !== '2012') {
-    return defaultDistrict
-  } else if (curYear !== '2012' && yearIndex === '2012') {
+   if (curYear !== '2012' && yearIndex === '2012') {
     if (curDistrict === '') {
       return defaultDistrict
     } else {
-      console.log(upgradedDistrict_id_map[curCity])
       const rawDistrict = findMirrorKey(upgradedDistrict_id_map[curCity], curDistrict)
-      console.log(rawDistrict)
       if(rawDistrict) {
         return rawDistrict
       } else {
@@ -225,7 +228,7 @@ function getIncludeUpgradedDistrict(yearIndex, curYear, curCity, curDistrict) {
 
 function findMirrorKey(idMap, testKey) {
   for (const key in idMap) {
-    if (idMap[key] === idMap[testKey]) {
+    if (key !== testKey &&idMap[key] === idMap[testKey] ) {
       return key
     }
   }
