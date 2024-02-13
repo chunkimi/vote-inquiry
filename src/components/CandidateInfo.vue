@@ -121,10 +121,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  electionParties: {
-    type: Array,
-    required: true,
-  },
   electionData: {
     type: Array,
     required: true,
