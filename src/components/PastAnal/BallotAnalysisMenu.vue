@@ -1,8 +1,3 @@
-<style lang="scss" scoped>
-.btn-outline-warning {
-  --bs-btn-active-color: #fff;
-}
-</style>
 <template>
   <div
     class="w-100"

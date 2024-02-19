@@ -7,17 +7,13 @@
       v-model:selected-year="curYear"
     ></TermMenu>
   </div>
-  <CandidateInfo
-    :electionParties="allParties"
-    :specifyYear="curYear"
-    :electionData="curData"
-  ></CandidateInfo>
+  <CandidateInfo :specifyYear="curYear" :electionData="curData"></CandidateInfo>
 </template>
 
 <script setup>
 import { ref, computed } from 'vue'
 import candidateData from '@/data/candidate.json'
-import { allYears, allParties } from '@/utils/electionInfo'
+import { allYears } from '@/utils/electionInfo'
 
 import TermMenu from '@/components/common/TermMenu.vue'
 import CandidateInfo from '@/components/CandidateInfo.vue'

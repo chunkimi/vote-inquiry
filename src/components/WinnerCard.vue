@@ -18,34 +18,36 @@
 <template>
   <div class="winnerCard px-6">
     <p class="display-2 fw-bold text-info mb-4 winnerCard__year">
-      {{ winner.voteYear }}
+      {{ winnerInfo.voteYear }}
     </p>
     <div class="row p-6 mb-4">
       <div class="col-12 col-md-6 mb-4 mb-md-0">
         <div class="d-flex flex-column align-items-center">
           <img
-            :src="getImageUrl(winner.main.avatar_url)"
+            :src="getImageUrl(winnerInfo.main.avatar_url)"
             alt="avatar"
             class="avatar--md"
           />
-          <p>總統－{{ winner.main.name }}</p>
+          <p>總統－{{ winnerInfo.main.name }}</p>
         </div>
       </div>
       <div class="col-12 col-md-6">
         <div class="d-flex flex-column align-items-center">
           <img
-            :src="getImageUrl(winner.vice.avatar_url)"
+            :src="getImageUrl(winnerInfo.vice.avatar_url)"
             alt="avatar"
             class="avatar--md"
           />
-          <p>副總統－{{ winner.vice.name }}</p>
+          <p>副總統－{{ winnerInfo.vice.name }}</p>
         </div>
       </div>
     </div>
     <div class="d-flex flex-column align-items-center">
-      <p class="h3 fw-bold text-info">{{ commaNumber(winner.voteNum) }} 票</p>
+      <p class="h3 fw-bold text-info">
+        {{ commaNumber(winnerInfo.voteNum) }} 票
+      </p>
       <RouterLink
-        :to="{ name: 'PastAnalysis', params: { year: winner.voteYear } }"
+        :to="{ name: 'PastAnalysis', params: { year: winnerInfo.voteYear } }"
         class="link-primary py-6"
         >查看本屆詳情</RouterLink
       >
@@ -57,11 +59,10 @@
 import { RouterLink } from 'vue-router'
 import { commaNumber, getImageUrl } from '@/utils/base.js'
 
-const props = defineProps({
+defineProps({
   winnerInfo: {
     type: Object,
     required: true,
   },
 })
-const winner = props.winnerInfo
 </script>

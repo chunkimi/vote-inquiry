@@ -121,10 +121,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  electionParties: {
-    type: Array,
-    required: true,
-  },
   electionData: {
     type: Array,
     required: true,
@@ -132,7 +128,6 @@ const props = defineProps({
 })
 
 const candidatesData = computed(() => {
-  const copyData = [...props.electionData]
-  return filterSameSession(props.specifyYear, copyData)
+  return filterSameSession(props.specifyYear, props.electionData)
 })
 </script>
