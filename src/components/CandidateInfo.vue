@@ -127,13 +127,6 @@ const props = defineProps({
   },
 })
 
-/**
- * 解說：
- * 何時要 copyData? 當不希望改變原始資料時，就需要 copyData
- * 而 Array 的 method 中，只有 push, pop, shift, unshift, splice, sort, reverse 會改變原始陣列
- * 不會改變陣列的 method 有 slice, concat, filter, map, reduce, forEach
- * 而 filterSameSession 這個 function 最後會回傳新陣列，所以不需要 copyData
- */
 const candidatesData = computed(() => {
   return filterSameSession(props.specifyYear, props.electionData)
 })
