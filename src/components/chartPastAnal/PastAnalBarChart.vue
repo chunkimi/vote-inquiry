@@ -63,7 +63,7 @@ const isShowScrollbarX = computed(() =>
 let chart = null
 
 watch(
-  () => props.data || props.id,
+  () => props.data,
   () => {
     if (chart) {
       updateBarChart()
@@ -81,7 +81,12 @@ onBeforeUnmount(() => {
 async function renderBarChart() {
   await nextTick()
 
+  if (chart) {
+    chart.destroy()
+  }
+
   const ctx = document.getElementById(`bar-chart-${props.id}`).getContext('2d')
+
   const options = {
     elements: {
       bar: {
@@ -111,10 +116,10 @@ async function renderBarChart() {
 
 function updateBarChart() {
   const { labels, datasets } = props.data
-  ;(chart.data = {
+  chart.data = {
     labels: labels,
     datasets: datasets,
-  }),
-    chart.update()
+  }
+  chart.update()
 }
 </script>

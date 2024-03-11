@@ -37,7 +37,7 @@ watch(
       renderChart()
     }
   },
-  { deep: true },
+  { deep: true, immediate: true },
 )
 
 onBeforeUnmount(() => {
@@ -47,8 +47,11 @@ onBeforeUnmount(() => {
 async function renderChart() {
   await nextTick()
 
-  const ctx = document.getElementById(`line-chart-${props.id}`).getContext('2d')
+  if (chart) {
+    chart.destroy()
+  }
 
+  const ctx = document.getElementById(`line-chart-${props.id}`).getContext('2d')
   const { labels, data } = props.data
 
   const config = {
