@@ -37,7 +37,7 @@ watch(
       renderChart()
     }
   },
-  { deep: true, immediate: true },
+  { deep: true },
 )
 
 onBeforeUnmount(() => {
@@ -54,11 +54,11 @@ async function renderChart() {
   const config = {
     type: 'line',
     data: {
-      labels: labels,
+      labels,
       datasets: [
         {
           label: '投票率',
-          data: data,
+          data,
           borderColor: '#00BCF5',
           backgroundColor: '#00BCF5',
           tension: 0.2,
@@ -88,11 +88,9 @@ async function renderChart() {
 }
 
 function updateChart() {
-  const { labels, datasets } = props.data
-  ;(chart.data = {
-    labels: labels,
-    datasets: datasets,
-  }),
-    chart.update()
+  const { labels, data } = props.data
+  chart.data.labels = labels
+  chart.data.datasets[0].data = data
+  chart.update()
 }
 </script>
