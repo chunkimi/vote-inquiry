@@ -45,6 +45,11 @@ onBeforeUnmount(() => {
 
 async function renderPieChart() {
   await nextTick()
+
+  if (chart) {
+    chart.destroy()
+  }
+
   const ctx = document.getElementById(`pie-chart-${props.id}`).getContext('2d')
 
   const config = {

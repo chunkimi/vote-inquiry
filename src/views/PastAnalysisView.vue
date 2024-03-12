@@ -54,7 +54,7 @@
   </div>
 </template>
 <script setup>
-import { watch } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
 import { usePastVotesStore } from '@/stores/pastVotesStore.js'
@@ -72,17 +72,34 @@ const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
 
+const pastVotesStore = usePastVotesStore()
 const {
   curYear,
   curCity,
   curDistrict,
   curCandidates,
-  curVotes,
-  allVotes,
   curStatus,
   dataField,
   affiliatedArea,
-} = storeToRefs(usePastVotesStore())
+} = storeToRefs(pastVotesStore)
+
+const allVotes = ref({})
+const curVotes = computed(() => {
+  return allVotes.value[`vote${curYear.value}`] || []
+})
+
+onMounted(() => {
+  // set up reactive votes data
+  allYears.forEach((yearIndex) => {
+    const { votes } = pastVotesStore.getVotesData(
+      yearIndex,
+      curYear,
+      curCity,
+      curDistrict,
+    )
+    allVotes.value[`vote${yearIndex}`] = votes
+  })
+})
 
 watch(
   () => route.params.year,

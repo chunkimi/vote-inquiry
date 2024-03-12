@@ -63,6 +63,9 @@ onBeforeUnmount(() => {
 async function renderChart() {
   await nextTick()
 
+  if (chart) {
+    chart.destroy()
+  }
   const ctx = document
     .getElementById(`horizontal-chart-${props.id}`)
     .getContext('2d')
