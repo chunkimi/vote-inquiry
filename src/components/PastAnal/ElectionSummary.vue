@@ -85,7 +85,7 @@ const pieData = computed(() => {
   return {
     votes: [有效票數, 無效票數],
     labels: Object.keys(labelColor),
-    color: Object.keys(labelColor).map((label) => labelColor[label]),
+    color: Object.values(labelColor),
   }
 })
 </script>

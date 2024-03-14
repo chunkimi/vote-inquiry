@@ -6,10 +6,11 @@ import { useFirebaseStorage, useStorageFileUrl } from 'vuefire'
 import { useFetch } from '@vueuse/core'
 
 import { filterSameSession } from '@/utils/candidateFilter'
-import { allYears } from '@/utils/electionInfo'
 import candidate from '@/data/candidate.json'
 import taoyuan_id_map from '@/data/taoyuan_id_map.json'
 import upgradedDistrict_id_map from '@/data/upgraded-district_id_map.json'
+
+const storage = useFirebaseStorage()
 
 export const usePastVotesStore = defineStore('pastElectionStore', () => {
   const curYear = ref('')
@@ -40,12 +41,24 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     filterSameSession(curYear.value, candidate),
   )
 
-  const { votes: curVotes } = getVotesData(curYear, curCity, curDistrict)
-  function getVotesData(year, city, district) {
-    const storage = useFirebaseStorage()
+  /**
+   * a composable function to get votes data from firebase storage
+   * @param {string>} yearIndex
+   * @param {Ref<string>} curYear
+   * @param {Ref<string>} curCity
+   * @param {Ref<string>} curDistrict
+   * @returns {Ref<{ "行政區別": string, "候選人票數": { "鬱蔥雨林聯盟": number, "蔚藍海岸陣線": number, "金色曠野同盟": number }, "有效票數": number, "無效票數": number, "投票數": number, "已領未投票數": number, "發出票數": number, "用餘票數": number, "選舉人數": number, "投票率": number }>} votes data
+   */
+  function getVotesData(yearIndex, curYear, curCity, curDistrict) {
     const votesFileRef = computed(() => {
-      if (!year.value) return
-      const path = combineVotePath(year.value, city.value, district.value)
+      const { city, district } = getRelatedCityAndDistrict(
+        yearIndex,
+        curYear,
+        curCity,
+        curDistrict,
+      )
+
+      const path = combineVotePath(yearIndex, city.value, district.value)
       return storageRef(storage, path)
     })
     const { url } = useStorageFileUrl(votesFileRef)
@@ -68,71 +81,17 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     return { votes }
   }
 
-  const allVotes = ref({})
-  async function getAllVotes() {
-    if (!curYear.value) return
-    const isCurTaoyuanCounty = curCity.value.includes('桃園') ? true : false
-    const isIncludeUpgradedDistrict =
-      curCity.value.includes('彰化') || curCity.value.includes('苗栗')
+  watch(curYear, (newYear) => {
+    curYear.value = newYear
+    curCity.value = ''
+    curDistrict.value = ''
+  })
 
-    const result = {}
-    await Promise.all(
-      allYears.map(async (yearIndex) => {
-        const city = ref('')
-        const district = ref('')
-        if (curYear.value !== '2012' && yearIndex !== '2012') {
-          city.value = curCity.value
-          district.value = curDistrict.value
-        } else if (isCurTaoyuanCounty) {
-          const result = getTaoyuanData(
-            yearIndex,
-            curYear.value,
-            curCity.value,
-            curDistrict.value,
-          )
-          city.value = result.city
-          district.value = result.district
-        } else if (isIncludeUpgradedDistrict) {
-          city.value = curCity.value
-          const result = getIncludeUpgradedDistrict(
-            yearIndex,
-            curYear.value,
-            curCity.value,
-            curDistrict.value,
-          )
-          district.value = result
-        } else {
-          city.value = curCity.value
-          district.value = curDistrict.value
-        }
-        const { votes } = await getVotesData(ref(yearIndex), city, district)
-        result[`vote${yearIndex}`] = votes
-      }),
-    )
-    allVotes.value = result
+  function reset() {
+    curYear.value = ''
+    curCity.value = ''
+    curDistrict.value = ''
   }
-
-  watch(
-    [curYear, curCity, curDistrict],
-    () => {
-      getAllVotes()
-    },
-    { immediate: true },
-  ),
-    watch(
-      curYear,
-      (newYear) => {
-        curYear.value = newYear
-        curCity.value = ''
-        curDistrict.value = ''
-      },
-      { immediate: true },
-    ),
-    function reset() {
-      curYear.value = ''
-      curCity.value = ''
-      curDistrict.value = ''
-    }
 
   return {
     curYear,
@@ -140,12 +99,57 @@ export const usePastVotesStore = defineStore('pastElectionStore', () => {
     curDistrict,
     curCandidates,
     curStatus,
-    curVotes,
-    allVotes,
     dataField,
     affiliatedArea,
+    getVotesData,
+    reset,
   }
 })
+
+/**
+ * get related city and district based on the year and current city and district
+ * @param {string} yearIndex
+ * @param {Ref<string>} curYear
+ * @param {Ref<string>} curCity
+ * @param {Ref<string>} curDistrict
+ * @returns {city: Ref<string>, district: Ref<string>}
+ */
+function getRelatedCityAndDistrict(yearIndex, curYear, curCity, curDistrict) {
+  const city = ref('')
+  const district = ref('')
+
+  const isCurTaoyuanCounty = curCity.value.includes('桃園')
+  const isIncludeUpgradedDistrict =
+    curCity.value.includes('彰化') || curCity.value.includes('苗栗')
+
+  if (curYear.value !== '2012' && yearIndex !== '2012') {
+    city.value = curCity.value
+    district.value = curDistrict.value
+  } else if (isCurTaoyuanCounty) {
+    const result = getTaoyuanData(
+      yearIndex,
+      curYear.value,
+      curCity.value,
+      curDistrict.value,
+    )
+    city.value = result.city
+    district.value = result.district
+  } else if (isIncludeUpgradedDistrict) {
+    const result = getIncludeUpgradedDistrict(
+      yearIndex,
+      curYear.value,
+      curCity.value,
+      curDistrict.value,
+    )
+    city.value = curCity.value
+    district.value = result
+  } else {
+    city.value = curCity.value
+    district.value = curDistrict.value
+  }
+
+  return { city, district }
+}
 
 function combineVotePath(year, city, district) {
   let filePath = ''
