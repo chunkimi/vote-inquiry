@@ -29,10 +29,10 @@
   <VoteBreakdown :votes="votes" />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed, onBeforeUnmount } from 'vue'
 import { storeToRefs } from 'pinia'
-import { useCurrentElectionStore } from '@/stores/currentElectionStore'
+import { useCurrentElectionStore } from '@/stores/currentElectionStore.js'
 import { useMediaQuery } from '@vueuse/core'
 import BarChart from '@/components/chart/BarChart.vue'
 import CityMenu from '@/components/AnalysisView/CityMenu.vue'
@@ -64,16 +64,13 @@ const breakdownLevel = computed(() => {
 })
 
 const barChartLabels = computed(() => {
-  const votesData = votes.value || []
-  return votesData.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
+  return votes.value?.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
 })
 const barChartData = computed(() => {
-  const votesData = votes.value || []
-
-  return (currentCandidates.value || []).map(({ party: partyName }) => {
+  return currentCandidates.value?.map(({ party: partyName }) => {
     return {
       label: partyName,
-      data: votesData.map((d) => d['候選人票數'][partyName]),
+      data: votes.value?.map((d) => d['候選人票數'][partyName]),
       backgroundColor: party.colorMap[partyName],
     }
   })

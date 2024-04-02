@@ -1,4 +1,4 @@
-<style lang="scss">
+<style lang="scss" scoped>
 @import '@/styles/main.scss';
 
 .timeLine {
@@ -17,8 +17,8 @@
   &__card {
     &__wrap {
       position: relative;
-      min-height: 26.5rem;
-      margin-bottom: 4rem;
+      min-height: 27rem;
+      margin-bottom: 128px;
       &:before {
         content: '';
         display: block;
@@ -45,8 +45,10 @@
     }
     &__item {
       position: absolute;
-      top: -2.25rem;
       left: 2.75rem;
+      @include media-breakpoint-up(md) {
+        top: -0.75rem;
+      }
     }
   }
 }
@@ -55,7 +57,7 @@
 <template>
   <h2 class="h2 fw-bold gap-8 text-center">歷屆選情</h2>
   <div class="timeLine__wrap">
-    <ul class="list-unstyled timeLine__list" v-if="!isLoading">
+    <ul class="list-unstyled timeLine__list">
       <li
         v-for="candidate in winnerData"
         :key="candidate.voteYear"
@@ -71,32 +73,10 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 import candidateData from '@/data/candidate.json'
-import { votesNationalData } from '@/utils/votesDataPath.js'
-import {
-  filterCandidateDataType,
-  filterWinner,
-  getWinnerVotes,
-} from '@/utils/candidateFilter'
+import { allYears } from '@/utils/electionInfo'
+import { filterWinner } from '@/utils/candidateFilter'
 import WinnerCard from '@/components/WinnerCard.vue'
 
-// 資料統計：年份、勝選者資料
-const years = ref(filterCandidateDataType(candidateData, 'election_year'))
-const winnerCandidates = ref(null)
-const winnerData = ref(null)
-const isLoading = ref(true)
-
-// methods
-const getWinnerInfo = (allYears, allCandidate, allVotes) => {
-  winnerCandidates.value = filterWinner(allYears, allCandidate)
-  winnerData.value = getWinnerVotes(allYears, winnerCandidates.value, allVotes)
-  if (winnerData.value) {
-    return (isLoading.value = false)
-  }
-}
-
-onMounted(() => {
-  getWinnerInfo(years.value, candidateData, votesNationalData)
-})
+const winnerData = filterWinner(allYears, candidateData)
 </script>

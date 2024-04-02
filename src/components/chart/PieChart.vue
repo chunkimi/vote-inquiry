@@ -4,27 +4,24 @@
   </div>
 </template>
 
-<script setup>
-import { watch, nextTick } from 'vue'
-import Chart from 'chart.js/auto'
+<script lang="ts" setup>
+import { watch, nextTick, onBeforeUnmount } from 'vue'
+import Chart, { LegendOptions } from 'chart.js/auto'
 import party from '@/data/party.json'
+import type { CandidateVotes } from '@/types'
 
-const props = defineProps({
-  id: {
-    type: String,
-    required: true,
-  },
+type PieChart = Chart<'pie', number[], string>
+
+const props = defineProps<{
+  id: string
   data: {
-    type: Object,
-    required: true,
-  },
-  legendPosition: {
-    type: String,
-    default: 'bottom',
-  },
-})
+    data: number[]
+    labels: (keyof CandidateVotes)[]
+  }
+  legendPosition?: LegendOptions<'pie'>['position']
+}>()
 
-let chart = null
+let chart: PieChart | null = null
 
 watch(
   () => props.data,
@@ -38,12 +35,21 @@ watch(
   { deep: true, immediate: true },
 )
 
+onBeforeUnmount(() => {
+  chart?.destroy()
+})
+
 async function renderChart() {
   await nextTick()
 
-  const ctx = document.getElementById(`pie-chart-${props.id}`).getContext('2d')
+  const canvasElement = document.getElementById(
+    `pie-chart-${props.id}`,
+  ) as HTMLCanvasElement | null
 
-  const config = {
+  const ctx = canvasElement?.getContext('2d')
+  if (!ctx) return
+
+  const config: PieChart['config'] = {
     type: 'pie',
     data: {
       labels: props.data.labels,
@@ -73,11 +79,12 @@ async function renderChart() {
 }
 
 function updateChart() {
+  if (!chart) return
   chart.data.labels = props.data.labels
   chart.data.datasets[0].data = props.data.data
-  ;(chart.data.datasets[0].backgroundColor = props.data.labels.map(
+  chart.data.datasets[0].backgroundColor = props.data.labels.map(
     (name) => party.colorMap[name],
-  )),
-    chart.update()
+  )
+  chart.update()
 }
 </script>

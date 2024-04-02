@@ -15,7 +15,6 @@
       :id="candidate.id"
       :name="candidate.name"
       :party="candidate.party"
-      :partyLogo="candidate.partyLogo"
       :avatar="candidate.avatar"
       :count="candidate.count"
       :percentage="candidate.percentage"
@@ -30,7 +29,7 @@
   </router-link>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
@@ -46,21 +45,18 @@ const { currentCandidates, electionSummary, voteMapData, pieChartData } =
   storeToRefs(useCurrentElectionStore())
 
 const summary = computed(() =>
-  currentCandidates.value.map(
-    ({ candidate_id, name, party, party_logo_url, avatar_url }) => {
-      const count = electionSummary.value['候選人票數'][party]
-      const validVotes = electionSummary.value['有效票數']
-      const percentage = (count / validVotes) * 100
-      return {
-        id: candidate_id,
-        name,
-        party,
-        partyLogo: new URL(`../${party_logo_url}`, import.meta.url).href,
-        avatar: new URL(`../${avatar_url}`, import.meta.url).href,
-        count: count.toLocaleString(),
-        percentage: parseFloat(percentage.toFixed(2)),
-      }
-    },
-  ),
+  currentCandidates.value.map(({ candidate_id, name, party, avatar_url }) => {
+    const count = electionSummary.value?.候選人票數?.[party] || 0
+    const validVotes = electionSummary.value?.有效票數 || 0
+    const percentage = (count / validVotes) * 100
+    return {
+      id: candidate_id,
+      name,
+      party,
+      avatar: new URL(`../${avatar_url}`, import.meta.url).href,
+      count: count.toLocaleString(),
+      percentage: parseFloat(percentage.toFixed(2)),
+    }
+  }),
 )
 </script>
