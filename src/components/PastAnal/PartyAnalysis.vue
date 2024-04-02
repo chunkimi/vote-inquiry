@@ -1,27 +1,84 @@
 <template>
   <div class="mb-4">
-    <h4 class="h4 mb-4">
-      本屆政黨<span class="text-danger">全國各縣市</span>得票
-    </h4>
-    <div class="mb-4"><PartyInfoCard></PartyInfoCard></div>
-    <PartyTurnout></PartyTurnout>
+    <div class="mb-4">
+      <PartySummary
+        :origin-votes="originVotes"
+        :cur-status="curStatus"
+        :data-field="dataField"
+        :affiliated-area="affiliatedArea"
+      ></PartySummary>
+    </div>
   </div>
-  <div class="mb-4 d-none d-md-flex flex-md-column">
-    <h4 class="h4 mb-4">
-      近三屆<span class="text-danger">全國</span>政黨得票數／得票率
-    </h4>
-    <PartyComparison></PartyComparison>
-  </div>
-  <div class="mb-4">
-    <h4 class="h4 mb-4">
-      本屆政黨版圖變動<span class="text-danger">縣市</span>
-    </h4>
-    <PartyShiftCard></PartyShiftCard>
+  <div v-if="isDesktop">
+    <div class="mb-4">
+      <PartyComparison
+        :sum-votes="areaSumVotes"
+        :cur-candidates="curCandidates"
+        :cur-status="curStatus"
+      ></PartyComparison>
+    </div>
+    <div class="mb-4">
+      <PartyDomain
+        v-if="curYear !== '2012'"
+        :various-regions-votes="variousRegionsVotes"
+        :cur-year="curYear"
+        :cur-city="curCity"
+        :cur-status="curStatus"
+        :affiliated-area="affiliatedArea"
+        :data-field="dataField"
+      ></PartyDomain>
+    </div>
   </div>
 </template>
 <script setup>
-import PartyInfoCard from '@/components/PastAnal/PartyInfoCard.vue'
-import PartyTurnout from '@/components/PastAnal/PartyTurnout.vue'
+import { useMediaQuery } from '@vueuse/core'
+
+import PartySummary from '@/components/PastAnal/PartySummary.vue'
 import PartyComparison from '@/components/PastAnal/PartyComparison.vue'
-import PartyShiftCard from '@/components/PastAnal/PartyShiftCard.vue'
+import PartyDomain from '@/components/PastAnal/PartyDomain.vue'
+
+const isDesktop = useMediaQuery('(min-width: 767px)')
+
+defineProps({
+  originVotes: {
+    type: Array,
+    required: true,
+  },
+  areaSumVotes: {
+    type: Object,
+    required: true,
+  },
+  variousRegionsVotes: {
+    type: Object,
+    required: true,
+  },
+  curCandidates: {
+    type: Array,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  curYear: {
+    type: String,
+    required: true,
+  },
+  curCity: {
+    type: String,
+    required: true,
+  },
+  curDistrict: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+  affiliatedArea: {
+    type: String,
+    required: true,
+  },
+})
 </script>

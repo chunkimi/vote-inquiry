@@ -1,9 +1,7 @@
-export const getImageUrl = (path) => {
-  return new URL(`../${path}`, import.meta.url).href
-}
-
 export const filterSameSession = (specifyYear, data) => {
-  const specifyYearData = data.filter((item) => item.election_year == specifyYear)
+  const specifyYearData = data.filter(
+    (item) => item.election_year == specifyYear,
+  )
   const candidateIds = [
     ...new Set(specifyYearData.map((item) => item.candidate_id)),
   ]
@@ -28,18 +26,7 @@ export const filterWinner = (years, originData) => {
       ...people,
       party: people.main.party,
       voteYear: year,
-    }
-  })
-  result.sort((a, b) => b.voteYear - a.voteYear)
-  return result
-}
-
-export const getWinnerVotes = (years, candidates, votes) => {
-  let result = [...candidates].map((item) => {
-    let voteNum = votes[item.voteYear]['候選人票數'][item.party]
-    return {
-      ...item,
-      voteNum,
+      voteNum: people.main.voteTotalNum,
     }
   })
   result.sort((a, b) => b.voteYear - a.voteYear)
@@ -47,13 +34,13 @@ export const getWinnerVotes = (years, candidates, votes) => {
 }
 
 export function groupCandidates(data, condition, conditionValue) {
-  let main = data.find(
+  const main = data.find(
     (item) => item[condition] === conditionValue && item.role === 0,
   )
-  let vice = data.find(
+  const vice = data.find(
     (item) => item[condition] === conditionValue && item.role === 1,
   )
-  let section = { main, vice }
+  const section = { main, vice }
   return section
 }
 
@@ -62,7 +49,7 @@ export function groupCandidates(data, condition, conditionValue) {
 //   if(role) {
 //     let vice = data.find((item) => item.role === 1);
 //     section.vice = vice
-//   } else {
+//   } else
 //     let main = data.find((item) => item.role === 0);
 //     section.main = main
 //   }

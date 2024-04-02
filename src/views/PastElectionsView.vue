@@ -17,8 +17,8 @@
   &__card {
     &__wrap {
       position: relative;
-      min-height: 26.5rem;
-      margin-bottom: 4rem;
+      min-height: 27rem;
+      margin-bottom: 128px;
       &:before {
         content: '';
         display: block;
@@ -45,8 +45,10 @@
     }
     &__item {
       position: absolute;
-      top: -2.25rem;
       left: 2.75rem;
+      @include media-breakpoint-up(md) {
+        top: -0.75rem;
+      }
     }
   }
 }
@@ -73,14 +75,8 @@
 <script setup>
 import candidateData from '@/data/candidate.json'
 import { allYears } from '@/utils/electionInfo'
-import { votesNationalData } from '@/utils/votesNational.js'
-import { filterWinner, getWinnerVotes } from '@/utils/candidateFilter'
+import { filterWinner } from '@/utils/candidateFilter'
 import WinnerCard from '@/components/WinnerCard.vue'
 
-const winnerData = getWinnerData(allYears, candidateData, votesNationalData)
-
-function getWinnerData(years, candidates, votes) {
-  const winnerInfo = filterWinner(years, candidates)
-  return getWinnerVotes(years, winnerInfo, votes)
-}
+const winnerData = filterWinner(allYears, candidateData)
 </script>

@@ -1,9 +1,3 @@
-<style lang="scss" scoped>
-.btn-outline-warning {
-  --bs-btn-active-color: #fff;
-}
-</style>
-
 <template>
   <div
     class="btn-group"
@@ -11,44 +5,28 @@
     aria-label="Basic radio toggle button group"
   >
     <template v-for="year in electionYears" :key="year">
-      <template v-if="isLinkNav">
-        <router-link
-          :to="{ name: 'PastAnalysis', params: { year: year } }"
-          class="btn btn-outline-warning"
-          :class="{ active: year === yearModal }"
-        >
-          <input
-            type="radio"
-            class="btn-check"
-            autocomplete="off"
-            :name="year"
-            :id="year"
-            :value="year"
-            v-model="yearModal"
-          />
-          <label :for="year">{{ year }}</label>
-        </router-link>
-      </template>
-      <template v-else>
-        <input
-          type="radio"
-          class="btn-check"
-          autocomplete="off"
-          :name="year"
-          :id="year"
-          :value="year"
-          v-model="yearModal"
-        />
-        <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
-      </template>
+      <input
+        type="radio"
+        class="btn-check"
+        autocomplete="off"
+        :name="year"
+        :id="year"
+        :value="year"
+        v-model="yearModal"
+        @change="redirectToPage(year)"
+      />
+      <label class="btn btn-outline-warning" :for="year">{{ year }}</label>
     </template>
   </div>
 </template>
+
 <script setup>
-console.clear()
-import { RouterLink } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { computed } from 'vue'
+
+const router = useRouter()
 const emit = defineEmits(['update:selectedYear'])
+
 const props = defineProps({
   electionYears: {
     type: Array,
@@ -72,4 +50,10 @@ const yearModal = computed({
     emit('update:selectedYear', value)
   },
 })
+
+function redirectToPage(year) {
+  if (props.isLinkNav) {
+    router.push({ name: 'PastAnalysis', params: { year } })
+  }
+}
 </script>

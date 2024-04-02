@@ -6,61 +6,106 @@
       v-model:selected-year="curYear"
     ></TermMenu>
   </div>
-  <h2 class="h2 mb-8 text-end">
-    <span class="text-danger">{{ curYear }}</span> 年總統大選
-  </h2>
-  <!-- <div class="mb-8">
+  <h2 class="h2 mb-8 text-end">{{ curYear }}年總統大選</h2>
+  <div class="mb-8">
     <h4 class="h4 mb-2"><i class="bi bi-compass me-2"></i>查看地區詳情</h4>
-    <SearchBar></SearchBar>
+    <SearchBar
+      :year="curYear"
+      v-model:city="curCity"
+      v-model:district="curDistrict"
+    />
   </div>
   <div class="mb-8">
-    <h4 class="h4 mb-8">
-      <i class="bi bi-pencil-fill me-2"></i
-      ><span class="text-danger">全國</span>選情概要
-    </h4>
-    <div class="container"><ElectionSummary></ElectionSummary></div>
+    <ElectionSummary
+      :origin-votes="curVotes"
+      :cur-status="curStatus"
+      :data-field="dataField"
+    ></ElectionSummary>
   </div>
   <div class="mb-8">
-    <h4 class="h4 mb-8">
-      <i class="bi bi-person-raised-hand me-2"></i>候選人情況
-    </h4>
-    <CandidateSummary></CandidateSummary>
+    <CandidateSummary
+      :origin-votes="curVotes"
+      :cur-candidates="curCandidates"
+      :cur-status="curStatus"
+      :data-field="dataField"
+      :affiliated-area="affiliatedArea"
+    ></CandidateSummary>
   </div>
-  <div class="d-none d-md-block mb-md-8">
-    <h4 class="h4">
-      <i class="bi bi-joystick me-2"></i
-      ><span class="text-danger">全國</span>投票情況
-    </h4>
-    <p class="text-danger">"BarChart"</p>
+  <div class="d-md-block mb-md-8" v-if="isDesktop">
+    <VoteStatus
+      :origin-votes="curVotes"
+      :cur-candidates="curCandidates"
+      :cur-status="curStatus"
+      :data-field="dataField"
+    ></VoteStatus>
   </div>
   <div class="mb-8">
-    <h4 class="h4 mb-8"><i class="bi bi-clipboard-data me-2"></i>選票分析</h4>
-    <div class="row">
-      <div class="col-12 col-md-2 mb-8"><AnalysisMenu></AnalysisMenu></div>
-      <div class="col-12 col-md-10">
-        <div class="mb-4">
-          <VotingAnalysis></VotingAnalysis>
-        </div>
-        <div class="mb-4">
-          <PartyAnalysis></PartyAnalysis>
-        </div>
-      </div>
-    </div>
-  </div> -->
+    <BallotAnalysis
+      :origin-votes="curVotes"
+      :origin-all-votes="allVotes"
+      :cur-candidates="curCandidates"
+      :cur-year="curYear"
+      :cur-city="curCity"
+      :cur-district="curDistrict"
+      :cur-status="curStatus"
+      :affiliated-area="affiliatedArea"
+      :data-field="dataField"
+    ></BallotAnalysis>
+  </div>
 </template>
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
+import { storeToRefs } from 'pinia'
 import { useRoute } from 'vue-router'
+import { usePastVotesStore } from '@/stores/pastVotesStore.js'
+
 import { allYears } from '@/utils/electionInfo.js'
+
 import TermMenu from '@/components/common/TermMenu.vue'
-// import SearchBar from '@/components/common/SearchBar.vue'
-// import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
-// import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
-// import AnalysisMenu from '@/components/PastAnal/AnalysisMenu.vue'
-// import VotingAnalysis from '@/components/PastAnal/VotingAnalysis.vue'
-// import PartyAnalysis from '@/components/PastAnal/PartyAnalysis.vue'
+import SearchBar from '@/components/common/SearchBar.vue'
+import ElectionSummary from '@/components/PastAnal/ElectionSummary.vue'
+import CandidateSummary from '@/components/PastAnal/CandidateSummary.vue'
+import VoteStatus from '@/components/PastAnal/VoteStatus.vue'
+import BallotAnalysis from '@/components/PastAnal/BallotAnalysis.vue'
+import { useMediaQuery } from '@vueuse/core'
+const isDesktop = useMediaQuery('(min-width: 767px)')
 
 const route = useRoute()
-const yearId = computed(() => route.params.year)
-const curYear = ref(yearId)
+
+const pastVotesStore = usePastVotesStore()
+const {
+  curYear,
+  curCity,
+  curDistrict,
+  curCandidates,
+  curStatus,
+  dataField,
+  affiliatedArea,
+} = storeToRefs(pastVotesStore)
+
+const allVotes = ref({})
+const curVotes = computed(() => {
+  return allVotes.value[`vote${curYear.value}`] || []
+})
+
+onMounted(() => {
+  // set up reactive votes data
+  allYears.forEach((yearIndex) => {
+    const { votes } = pastVotesStore.getVotesData(
+      yearIndex,
+      curYear,
+      curCity,
+      curDistrict,
+    )
+    allVotes.value[`vote${yearIndex}`] = votes
+  })
+})
+
+watch(
+  () => route.params.year,
+  (year) => {
+    curYear.value = year
+  },
+  { immediate: true },
+)
 </script>

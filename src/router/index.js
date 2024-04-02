@@ -29,7 +29,6 @@ const routes = [
         name: 'PastElections',
         component: PastElectionsView,
       },
-
       {
         // 歷屆選情－所選年份選情分析
         path: 'past-elections/:year',

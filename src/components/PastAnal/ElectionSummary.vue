@@ -1,45 +1,91 @@
 <template>
-  <div class="row d-md-flex justify-content-center align-items-md-center">
-    <div
-      class="col-12 col-md-4 bg-danger rounded-circle"
-      style="height: 264px; width: 264px"
-    ></div>
-    <div class="col-12 col-md-4">
-      <div class="mb-4">
-        <p class="fw-bold">選舉人數</p>
-        <p class="text-danger">{{ commaNumber(dummyData.votersNum) }}</p>
-      </div>
-      <div class="row mb-4">
-        <div class="col-6">
-          <p class="fw-bold">投票率</p>
-          <p class="text-danger">{{ commaNumber(dummyData.voteRate) }}</p>
+  <h4 class="h4 mb-8">
+    <i class="bi bi-pencil-fill me-2"></i>{{ curStatus }}選情概要
+  </h4>
+  <div class="container">
+    <div class="d-md-flex justify-content-center align-items-md-end py-6 mb-8">
+      <PastAnalPieChart
+        id="past-election-summary"
+        :data="pieData"
+        class="mx-auto"
+      ></PastAnalPieChart>
+      <div class="ms-md-4">
+        <div class="mb-4">
+          <p class="fw-bold">選舉人數</p>
+          <p>{{ commaNumber(votesData['選舉人數']) }}</p>
         </div>
-        <div class="col-6">
-          <p class="fw-bold">投票數</p>
-          <p class="text-danger">{{ commaNumber(dummyData.voteNum) }}</p>
+        <div class="row mb-4">
+          <div class="col-6">
+            <p class="fw-bold">投票率</p>
+            <p>{{ percentage(votesData['投票率']) }}</p>
+          </div>
+          <div class="col-6">
+            <p class="fw-bold">投票數</p>
+            <p>{{ commaNumber(votesData['投票數']) }}</p>
+          </div>
         </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col-6">
-          <p class="fw-bold">有效票數</p>
-          <p class="text-danger">{{ commaNumber(dummyData.validVote) }}</p>
-        </div>
-        <div class="col-6">
-          <p class="fw-bold">無效票數</p>
-          <p class="text-danger">{{ commaNumber(dummyData.invalidVote) }}</p>
+        <div class="row mb-4">
+          <div class="col-6">
+            <p class="fw-bold">有效票數</p>
+            <p>{{ commaNumber(votesData['有效票數']) }}</p>
+          </div>
+          <div class="col-6">
+            <p class="fw-bold">無效票數</p>
+            <p>{{ commaNumber(votesData['無效票數']) }}</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script setup>
-import { commaNumber } from '@/utils/base'
+import { computed } from 'vue'
+import { commaNumber, percentage } from '@/utils/base'
+import { filterSpecifyVotes } from '@/utils/votesAnal.js'
+import PastAnalPieChart from '../chartPastAnal/PastAnalPieChart.vue'
 
-const dummyData = {
-  votersNum: 19311843,
-  voteRate: '75.45%',
-  voteNum: 14345678,
-  validVote: 14300940,
-  invalidVote: 163631,
+const props = defineProps({
+  originVotes: {
+    type: Object,
+    required: true,
+  },
+  curStatus: {
+    type: String,
+    required: true,
+  },
+  dataField: {
+    type: String,
+    required: true,
+  },
+})
+
+const votesData = computed(() => {
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.originVotes,
+    props.dataField,
+    '總計',
+  )
+  const { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 } =
+    specifyAnalysisVotes || {}
+  return { 有效票數, 無效票數, 投票數, 選舉人數, 投票率 }
+})
+
+const labelColor = {
+  有效票數: '#fad961',
+  無效票數: '#e5e9ec',
 }
+
+const pieData = computed(() => {
+  const specifyAnalysisVotes = filterSpecifyVotes(
+    props.originVotes,
+    props.dataField,
+    '總計',
+  )
+  const { 有效票數, 無效票數 } = specifyAnalysisVotes || {}
+  return {
+    votes: [有效票數, 無效票數],
+    labels: Object.keys(labelColor),
+    color: Object.values(labelColor),
+  }
+})
 </script>
