@@ -29,7 +29,6 @@ const routes = [
         name: 'PastElections',
         component: PastElectionsView,
       },
-
       {
         // 歷屆選情－所選年份選情分析
         path: 'past-elections/:year',
@@ -58,6 +57,16 @@ const routes = [
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
+  scrollBehavior() {
+    window.scrollTo(0, 0)
+  },
+  // scrollBehavior() {
+  //   return new Promise((resolve) => setTimeout(() => resolve({ top: 0 })))
+  // },
 })
+
+// router.afterEach(() => {
+//   window.scrollTo(0, 0)
+// })
 
 export default router
