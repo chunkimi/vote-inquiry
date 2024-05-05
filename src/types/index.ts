@@ -1,3 +1,21 @@
+// administrative_area
+export type AdministrativeArea = Record<
+  string,
+  {
+    id: string
+    name: string
+    historicalNames: Record<string, string>
+    districts: Record<
+      string,
+      {
+        id: string
+        name: string
+        historicalNames: Record<string, string>
+      }
+    >
+  }
+>
+
 export interface CandidateVotes {
   金色曠野同盟: number
   蔚藍海岸陣線: number

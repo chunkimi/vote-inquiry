@@ -1,0 +1,573 @@
+{
+  "M": {
+    "id": "M",
+    "name": "南投縣",
+    "historicalNames": {},
+    "districts": {
+      "M01": { "id": "M01", "name": "南投市", "historicalNames": {} },
+      "M02": { "id": "M02", "name": "埔里鎮", "historicalNames": {} },
+      "M03": { "id": "M03", "name": "草屯鎮", "historicalNames": {} },
+      "M04": { "id": "M04", "name": "竹山鎮", "historicalNames": {} },
+      "M05": { "id": "M05", "name": "集集鎮", "historicalNames": {} },
+      "M06": { "id": "M06", "name": "名間鄉", "historicalNames": {} },
+      "M07": { "id": "M07", "name": "鹿谷鄉", "historicalNames": {} },
+      "M08": { "id": "M08", "name": "中寮鄉", "historicalNames": {} },
+      "M09": { "id": "M09", "name": "魚池鄉", "historicalNames": {} },
+      "M10": { "id": "M10", "name": "國姓鄉", "historicalNames": {} },
+      "M11": { "id": "M11", "name": "水里鄉", "historicalNames": {} },
+      "M12": { "id": "M12", "name": "信義鄉", "historicalNames": {} },
+      "M13": { "id": "M13", "name": "仁愛鄉", "historicalNames": {} }
+    }
+  },
+  "I": {
+    "id": "I",
+    "name": "嘉義市",
+    "historicalNames": {},
+    "districts": {
+      "I01": { "id": "I01", "name": "東區", "historicalNames": {} },
+      "I02": { "id": "I02", "name": "西區", "historicalNames": {} }
+    }
+  },
+  "Q": {
+    "id": "Q",
+    "name": "嘉義縣",
+    "historicalNames": {},
+    "districts": {
+      "Q12": { "id": "Q12", "name": "太保市", "historicalNames": {} },
+      "Q02": { "id": "Q02", "name": "朴子市", "historicalNames": {} },
+      "Q03": { "id": "Q03", "name": "布袋鎮", "historicalNames": {} },
+      "Q04": { "id": "Q04", "name": "大林鎮", "historicalNames": {} },
+      "Q05": { "id": "Q05", "name": "民雄鄉", "historicalNames": {} },
+      "Q06": { "id": "Q06", "name": "溪口鄉", "historicalNames": {} },
+      "Q07": { "id": "Q07", "name": "新港鄉", "historicalNames": {} },
+      "Q08": { "id": "Q08", "name": "六腳鄉", "historicalNames": {} },
+      "Q09": { "id": "Q09", "name": "東石鄉", "historicalNames": {} },
+      "Q10": { "id": "Q10", "name": "義竹鄉", "historicalNames": {} },
+      "Q11": { "id": "Q11", "name": "鹿草鄉", "historicalNames": {} },
+      "Q13": { "id": "Q13", "name": "水上鄉", "historicalNames": {} },
+      "Q14": { "id": "Q14", "name": "中埔鄉", "historicalNames": {} },
+      "Q15": { "id": "Q15", "name": "竹崎鄉", "historicalNames": {} },
+      "Q16": { "id": "Q16", "name": "梅山鄉", "historicalNames": {} },
+      "Q17": { "id": "Q17", "name": "番路鄉", "historicalNames": {} },
+      "Q18": { "id": "Q18", "name": "大埔鄉", "historicalNames": {} },
+      "Q20": { "id": "Q20", "name": "阿里山鄉", "historicalNames": {} }
+    }
+  },
+  "C": {
+    "id": "C",
+    "name": "基隆市",
+    "historicalNames": {},
+    "districts": {
+      "C01": { "id": "C01", "name": "中正區", "historicalNames": {} },
+      "C02": { "id": "C02", "name": "七堵區", "historicalNames": {} },
+      "C03": { "id": "C03", "name": "暖暖區", "historicalNames": {} },
+      "C04": { "id": "C04", "name": "仁愛區", "historicalNames": {} },
+      "C05": { "id": "C05", "name": "中山區", "historicalNames": {} },
+      "C06": { "id": "C06", "name": "安樂區", "historicalNames": {} },
+      "C07": { "id": "C07", "name": "信義區", "historicalNames": {} }
+    }
+  },
+  "G": {
+    "id": "G",
+    "name": "宜蘭縣",
+    "historicalNames": {},
+    "districts": {
+      "G01": { "id": "G01", "name": "宜蘭市", "historicalNames": {} },
+      "G06": { "id": "G06", "name": "羅東鎮", "historicalNames": {} },
+      "G09": { "id": "G09", "name": "蘇澳鎮", "historicalNames": {} },
+      "G02": { "id": "G02", "name": "頭城鎮", "historicalNames": {} },
+      "G03": { "id": "G03", "name": "礁溪鄉", "historicalNames": {} },
+      "G04": { "id": "G04", "name": "壯圍鄉", "historicalNames": {} },
+      "G05": { "id": "G05", "name": "員山鄉", "historicalNames": {} },
+      "G08": { "id": "G08", "name": "冬山鄉", "historicalNames": {} },
+      "G07": { "id": "G07", "name": "五結鄉", "historicalNames": {} },
+      "G10": { "id": "G10", "name": "三星鄉", "historicalNames": {} },
+      "G11": { "id": "G11", "name": "大同鄉", "historicalNames": {} },
+      "G12": { "id": "G12", "name": "南澳鄉", "historicalNames": {} }
+    }
+  },
+  "T": {
+    "id": "T",
+    "name": "屏東縣",
+    "historicalNames": {},
+    "districts": {
+      "T01": { "id": "T01", "name": "屏東市", "historicalNames": {} },
+      "T02": { "id": "T02", "name": "潮州鎮", "historicalNames": {} },
+      "T03": { "id": "T03", "name": "東港鎮", "historicalNames": {} },
+      "T04": { "id": "T04", "name": "恆春鎮", "historicalNames": {} },
+      "T05": { "id": "T05", "name": "萬丹鄉", "historicalNames": {} },
+      "T06": { "id": "T06", "name": "長治鄉", "historicalNames": {} },
+      "T07": { "id": "T07", "name": "麟洛鄉", "historicalNames": {} },
+      "T08": { "id": "T08", "name": "九如鄉", "historicalNames": {} },
+      "T09": { "id": "T09", "name": "里港鄉", "historicalNames": {} },
+      "T10": { "id": "T10", "name": "鹽埔鄉", "historicalNames": {} },
+      "T11": { "id": "T11", "name": "高樹鄉", "historicalNames": {} },
+      "T12": { "id": "T12", "name": "萬巒鄉", "historicalNames": {} },
+      "T13": { "id": "T13", "name": "內埔鄉", "historicalNames": {} },
+      "T14": { "id": "T14", "name": "竹田鄉", "historicalNames": {} },
+      "T15": { "id": "T15", "name": "新埤鄉", "historicalNames": {} },
+      "T16": { "id": "T16", "name": "枋寮鄉", "historicalNames": {} },
+      "T17": { "id": "T17", "name": "新園鄉", "historicalNames": {} },
+      "T18": { "id": "T18", "name": "崁頂鄉", "historicalNames": {} },
+      "T19": { "id": "T19", "name": "林邊鄉", "historicalNames": {} },
+      "T20": { "id": "T20", "name": "南州鄉", "historicalNames": {} },
+      "T21": { "id": "T21", "name": "佳冬鄉", "historicalNames": {} },
+      "T22": { "id": "T22", "name": "琉球鄉", "historicalNames": {} },
+      "T23": { "id": "T23", "name": "車城鄉", "historicalNames": {} },
+      "T24": { "id": "T24", "name": "滿州鄉", "historicalNames": {} },
+      "T25": { "id": "T25", "name": "枋山鄉", "historicalNames": {} },
+      "T26": { "id": "T26", "name": "三地門鄉", "historicalNames": {} },
+      "T27": { "id": "T27", "name": "霧臺鄉", "historicalNames": {} },
+      "T28": { "id": "T28", "name": "瑪家鄉", "historicalNames": {} },
+      "T29": { "id": "T29", "name": "泰武鄉", "historicalNames": {} },
+      "T30": { "id": "T30", "name": "來義鄉", "historicalNames": {} },
+      "T31": { "id": "T31", "name": "春日鄉", "historicalNames": {} },
+      "T32": { "id": "T32", "name": "獅子鄉", "historicalNames": {} },
+      "T33": { "id": "T33", "name": "牡丹鄉", "historicalNames": {} }
+    }
+  },
+  "N": {
+    "id": "N",
+    "name": "彰化縣",
+    "historicalNames": { "2012": "彰化縣" },
+    "districts": {
+      "N01": { "id": "N01", "name": "彰化市", "historicalNames": {} },
+      "N02": { "id": "N02", "name": "鹿港鎮", "historicalNames": {} },
+      "N03": { "id": "N03", "name": "和美鎮", "historicalNames": {} },
+      "N09": { "id": "N09", "name": "線西鄉", "historicalNames": {} },
+      "N10": { "id": "N10", "name": "伸港鄉", "historicalNames": {} },
+      "N11": { "id": "N11", "name": "福興鄉", "historicalNames": {} },
+      "N12": { "id": "N12", "name": "秀水鄉", "historicalNames": {} },
+      "N13": { "id": "N13", "name": "花壇鄉", "historicalNames": {} },
+      "N14": { "id": "N14", "name": "芬園鄉", "historicalNames": {} },
+      "N05": {
+        "id": "N05",
+        "name": "員林市",
+        "historicalNames": { "2012": "員林鎮" }
+      },
+      "N06": { "id": "N06", "name": "溪湖鎮", "historicalNames": {} },
+      "N07": { "id": "N07", "name": "田中鎮", "historicalNames": {} },
+      "N15": { "id": "N15", "name": "大村鄉", "historicalNames": {} },
+      "N16": { "id": "N16", "name": "埔鹽鄉", "historicalNames": {} },
+      "N17": { "id": "N17", "name": "埔心鄉", "historicalNames": {} },
+      "N18": { "id": "N18", "name": "永靖鄉", "historicalNames": {} },
+      "N19": { "id": "N19", "name": "社頭鄉", "historicalNames": {} },
+      "N20": { "id": "N20", "name": "二水鄉", "historicalNames": {} },
+      "N04": { "id": "N04", "name": "北斗鎮", "historicalNames": {} },
+      "N08": { "id": "N08", "name": "二林鎮", "historicalNames": {} },
+      "N21": { "id": "N21", "name": "田尾鄉", "historicalNames": {} },
+      "N22": { "id": "N22", "name": "埤頭鄉", "historicalNames": {} },
+      "N23": { "id": "N23", "name": "芳苑鄉", "historicalNames": {} },
+      "N24": { "id": "N24", "name": "大城鄉", "historicalNames": {} },
+      "N25": { "id": "N25", "name": "竹塘鄉", "historicalNames": {} },
+      "N26": { "id": "N26", "name": "溪州鄉", "historicalNames": {} }
+    }
+  },
+  "F": {
+    "id": "F",
+    "name": "新北市",
+    "historicalNames": {},
+    "districts": {
+      "F14": { "id": "F14", "name": "板橋區", "historicalNames": {} },
+      "F05": { "id": "F05", "name": "三重區", "historicalNames": {} },
+      "F18": { "id": "F18", "name": "中和區", "historicalNames": {} },
+      "F33": { "id": "F33", "name": "永和區", "historicalNames": {} },
+      "F01": { "id": "F01", "name": "新莊區", "historicalNames": {} },
+      "F07": { "id": "F07", "name": "新店區", "historicalNames": {} },
+      "F17": { "id": "F17", "name": "樹林區", "historicalNames": {} },
+      "F16": { "id": "F16", "name": "鶯歌區", "historicalNames": {} },
+      "F15": { "id": "F15", "name": "三峽區", "historicalNames": {} },
+      "F27": { "id": "F27", "name": "淡水區", "historicalNames": {} },
+      "F28": { "id": "F28", "name": "汐止區", "historicalNames": {} },
+      "F21": { "id": "F21", "name": "瑞芳區", "historicalNames": {} },
+      "F19": { "id": "F19", "name": "土城區", "historicalNames": {} },
+      "F04": { "id": "F04", "name": "蘆洲區", "historicalNames": {} },
+      "F03": { "id": "F03", "name": "五股區", "historicalNames": {} },
+      "F06": { "id": "F06", "name": "泰山區", "historicalNames": {} },
+      "F02": { "id": "F02", "name": "林口區", "historicalNames": {} },
+      "F09": { "id": "F09", "name": "深坑區", "historicalNames": {} },
+      "F08": { "id": "F08", "name": "石碇區", "historicalNames": {} },
+      "F10": { "id": "F10", "name": "坪林區", "historicalNames": {} },
+      "F30": { "id": "F30", "name": "三芝區", "historicalNames": {} },
+      "F31": { "id": "F31", "name": "石門區", "historicalNames": {} },
+      "F32": { "id": "F32", "name": "八里區", "historicalNames": {} },
+      "F22": { "id": "F22", "name": "平溪區", "historicalNames": {} },
+      "F23": { "id": "F23", "name": "雙溪區", "historicalNames": {} },
+      "F24": { "id": "F24", "name": "貢寮區", "historicalNames": {} },
+      "F25": { "id": "F25", "name": "金山區", "historicalNames": {} },
+      "F26": { "id": "F26", "name": "萬里區", "historicalNames": {} },
+      "F11": { "id": "F11", "name": "烏來區", "historicalNames": {} }
+    }
+  },
+  "D": {
+    "id": "D",
+    "name": "臺南市",
+    "historicalNames": {},
+    "districts": {
+      "D04": { "id": "D04", "name": "北區", "historicalNames": {} },
+      "D02": { "id": "D02", "name": "南區", "historicalNames": {} },
+      "D09": { "id": "D09", "name": "新營區", "historicalNames": {} },
+      "D10": { "id": "D10", "name": "鹽水區", "historicalNames": {} },
+      "D12": { "id": "D12", "name": "白河區", "historicalNames": {} },
+      "D11": { "id": "D11", "name": "柳營區", "historicalNames": {} },
+      "D13": { "id": "D13", "name": "後壁區", "historicalNames": {} },
+      "D14": { "id": "D14", "name": "東山區", "historicalNames": {} },
+      "D15": { "id": "D15", "name": "麻豆區", "historicalNames": {} },
+      "D16": { "id": "D16", "name": "下營區", "historicalNames": {} },
+      "D17": { "id": "D17", "name": "六甲區", "historicalNames": {} },
+      "D18": { "id": "D18", "name": "官田區", "historicalNames": {} },
+      "D19": { "id": "D19", "name": "大內區", "historicalNames": {} },
+      "D20": { "id": "D20", "name": "佳里區", "historicalNames": {} },
+      "D25": { "id": "D25", "name": "學甲區", "historicalNames": {} },
+      "D21": { "id": "D21", "name": "西港區", "historicalNames": {} },
+      "D22": { "id": "D22", "name": "七股區", "historicalNames": {} },
+      "D23": { "id": "D23", "name": "將軍區", "historicalNames": {} },
+      "D24": { "id": "D24", "name": "北門區", "historicalNames": {} },
+      "D26": { "id": "D26", "name": "新化區", "historicalNames": {} },
+      "D27": { "id": "D27", "name": "善化區", "historicalNames": {} },
+      "D28": { "id": "D28", "name": "新市區", "historicalNames": {} },
+      "D29": { "id": "D29", "name": "安定區", "historicalNames": {} },
+      "D30": { "id": "D30", "name": "山上區", "historicalNames": {} },
+      "D36": { "id": "D36", "name": "玉井區", "historicalNames": {} },
+      "D37": { "id": "D37", "name": "楠西區", "historicalNames": {} },
+      "D38": { "id": "D38", "name": "南化區", "historicalNames": {} },
+      "D31": { "id": "D31", "name": "左鎮區", "historicalNames": {} },
+      "D32": { "id": "D32", "name": "仁德區", "historicalNames": {} },
+      "D33": { "id": "D33", "name": "歸仁區", "historicalNames": {} },
+      "D34": { "id": "D34", "name": "關廟區", "historicalNames": {} },
+      "D35": { "id": "D35", "name": "龍崎區", "historicalNames": {} },
+      "D39": { "id": "D39", "name": "永康區", "historicalNames": {} },
+      "D06": { "id": "D06", "name": "安南區", "historicalNames": {} },
+      "D07": { "id": "D07", "name": "安平區", "historicalNames": {} },
+      "D08": { "id": "D08", "name": "中西區", "historicalNames": {} }
+    }
+  },
+  "O": {
+    "id": "O",
+    "name": "新竹市",
+    "historicalNames": {},
+    "districts": {
+      "O03": { "id": "O03", "name": "香山區", "historicalNames": {} }
+    }
+  },
+  "J": {
+    "id": "J",
+    "name": "新竹縣",
+    "historicalNames": {},
+    "districts": {
+      "J05": { "id": "J05", "name": "竹北市", "historicalNames": {} },
+      "J02": { "id": "J02", "name": "竹東鎮", "historicalNames": {} },
+      "J04": { "id": "J04", "name": "新埔鎮", "historicalNames": {} },
+      "J03": { "id": "J03", "name": "關西鎮", "historicalNames": {} },
+      "J06": { "id": "J06", "name": "湖口鄉", "historicalNames": {} },
+      "J09": { "id": "J09", "name": "新豐鄉", "historicalNames": {} },
+      "J10": { "id": "J10", "name": "芎林鄉", "historicalNames": {} },
+      "J08": { "id": "J08", "name": "橫山鄉", "historicalNames": {} },
+      "J12": { "id": "J12", "name": "北埔鄉", "historicalNames": {} },
+      "J11": { "id": "J11", "name": "寶山鄉", "historicalNames": {} },
+      "J13": { "id": "J13", "name": "峨眉鄉", "historicalNames": {} },
+      "J14": { "id": "J14", "name": "尖石鄉", "historicalNames": {} },
+      "J15": { "id": "J15", "name": "五峰鄉", "historicalNames": {} }
+    }
+  },
+  "H": {
+    "id": "H",
+    "name": "桃園市",
+    "historicalNames": { "2012": "桃園縣" },
+    "districts": {
+      "H01": {
+        "id": "H01",
+        "name": "桃園區",
+        "historicalNames": { "2012": "桃園市" }
+      },
+      "H03": {
+        "id": "H03",
+        "name": "中壢區",
+        "historicalNames": { "2012": "中壢市" }
+      },
+      "H02": {
+        "id": "H02",
+        "name": "大溪區",
+        "historicalNames": { "2012": "大溪鎮" }
+      },
+      "H04": {
+        "id": "H04",
+        "name": "楊梅區",
+        "historicalNames": { "2012": "楊梅市" }
+      },
+      "H05": {
+        "id": "H05",
+        "name": "蘆竹區",
+        "historicalNames": { "2012": "蘆竹鄉" }
+      },
+      "H06": {
+        "id": "H06",
+        "name": "大園區",
+        "historicalNames": { "2012": "大園鄉" }
+      },
+      "H07": {
+        "id": "H07",
+        "name": "龜山區",
+        "historicalNames": { "2012": "龜山鄉" }
+      },
+      "H08": {
+        "id": "H08",
+        "name": "八德區",
+        "historicalNames": { "2012": "八德市" }
+      },
+      "H09": {
+        "id": "H09",
+        "name": "龍潭區",
+        "historicalNames": { "2012": "龍潭鄉" }
+      },
+      "H10": {
+        "id": "H10",
+        "name": "平鎮區",
+        "historicalNames": { "2012": "平鎮市" }
+      },
+      "H11": {
+        "id": "H11",
+        "name": "新屋區",
+        "historicalNames": { "2012": "新屋鄉" }
+      },
+      "H12": {
+        "id": "H12",
+        "name": "觀音區",
+        "historicalNames": { "2012": "觀音鄉" }
+      },
+      "H13": {
+        "id": "H13",
+        "name": "復興區",
+        "historicalNames": { "2012": "復興鄉" }
+      }
+    }
+  },
+  "X": {
+    "id": "X",
+    "name": "澎湖縣",
+    "historicalNames": {},
+    "districts": {
+      "X01": { "id": "X01", "name": "馬公市", "historicalNames": {} },
+      "X02": { "id": "X02", "name": "湖西鄉", "historicalNames": {} },
+      "X03": { "id": "X03", "name": "白沙鄉", "historicalNames": {} },
+      "X04": { "id": "X04", "name": "西嶼鄉", "historicalNames": {} },
+      "X05": { "id": "X05", "name": "望安鄉", "historicalNames": {} },
+      "X06": { "id": "X06", "name": "七美鄉", "historicalNames": {} }
+    }
+  },
+  "B": {
+    "id": "B",
+    "name": "臺中市",
+    "historicalNames": {},
+    "districts": {
+      "B01": { "id": "B01", "name": "中區", "historicalNames": {} },
+      "B06": { "id": "B06", "name": "西屯區", "historicalNames": {} },
+      "B07": { "id": "B07", "name": "南屯區", "historicalNames": {} },
+      "B08": { "id": "B08", "name": "北屯區", "historicalNames": {} },
+      "B09": { "id": "B09", "name": "豐原區", "historicalNames": {} },
+      "B10": { "id": "B10", "name": "東勢區", "historicalNames": {} },
+      "B11": { "id": "B11", "name": "大甲區", "historicalNames": {} },
+      "B12": { "id": "B12", "name": "清水區", "historicalNames": {} },
+      "B13": { "id": "B13", "name": "沙鹿區", "historicalNames": {} },
+      "B14": { "id": "B14", "name": "梧棲區", "historicalNames": {} },
+      "B15": { "id": "B15", "name": "后里區", "historicalNames": {} },
+      "B16": { "id": "B16", "name": "神岡區", "historicalNames": {} },
+      "B17": { "id": "B17", "name": "潭子區", "historicalNames": {} },
+      "B18": { "id": "B18", "name": "大雅區", "historicalNames": {} },
+      "B19": { "id": "B19", "name": "新社區", "historicalNames": {} },
+      "B20": { "id": "B20", "name": "石岡區", "historicalNames": {} },
+      "B21": { "id": "B21", "name": "外埔區", "historicalNames": {} },
+      "B23": { "id": "B23", "name": "烏日區", "historicalNames": {} },
+      "B24": { "id": "B24", "name": "大肚區", "historicalNames": {} },
+      "B25": { "id": "B25", "name": "龍井區", "historicalNames": {} },
+      "B26": { "id": "B26", "name": "霧峰區", "historicalNames": {} },
+      "B27": { "id": "B27", "name": "太平區", "historicalNames": {} },
+      "B28": { "id": "B28", "name": "大里區", "historicalNames": {} },
+      "B29": { "id": "B29", "name": "和平區", "historicalNames": {} }
+    }
+  },
+  "A": {
+    "id": "A",
+    "name": "臺北市",
+    "historicalNames": {},
+    "districts": {
+      "A02": { "id": "A02", "name": "大安區", "historicalNames": {} },
+      "A01": { "id": "A01", "name": "松山區", "historicalNames": {} },
+      "A09": { "id": "A09", "name": "大同區", "historicalNames": {} },
+      "A05": { "id": "A05", "name": "萬華區", "historicalNames": {} },
+      "A11": { "id": "A11", "name": "文山區", "historicalNames": {} },
+      "A13": { "id": "A13", "name": "南港區", "historicalNames": {} },
+      "A14": { "id": "A14", "name": "內湖區", "historicalNames": {} },
+      "A15": { "id": "A15", "name": "士林區", "historicalNames": {} },
+      "A16": { "id": "A16", "name": "北投區", "historicalNames": {} }
+    }
+  },
+  "V": {
+    "id": "V",
+    "name": "臺東縣",
+    "historicalNames": {},
+    "districts": {
+      "V01": { "id": "V01", "name": "臺東市", "historicalNames": {} },
+      "V02": { "id": "V02", "name": "成功鎮", "historicalNames": {} },
+      "V03": { "id": "V03", "name": "關山鎮", "historicalNames": {} },
+      "V04": { "id": "V04", "name": "卑南鄉", "historicalNames": {} },
+      "V09": { "id": "V09", "name": "鹿野鄉", "historicalNames": {} },
+      "V10": { "id": "V10", "name": "池上鄉", "historicalNames": {} },
+      "V07": { "id": "V07", "name": "東河鄉", "historicalNames": {} },
+      "V08": { "id": "V08", "name": "長濱鄉", "historicalNames": {} },
+      "V06": { "id": "V06", "name": "太麻里鄉", "historicalNames": {} },
+      "V05": { "id": "V05", "name": "大武鄉", "historicalNames": {} },
+      "V11": { "id": "V11", "name": "綠島鄉", "historicalNames": {} },
+      "V13": { "id": "V13", "name": "海端鄉", "historicalNames": {} },
+      "V12": { "id": "V12", "name": "延平鄉", "historicalNames": {} },
+      "V15": { "id": "V15", "name": "金峰鄉", "historicalNames": {} },
+      "V14": { "id": "V14", "name": "達仁鄉", "historicalNames": {} },
+      "V16": { "id": "V16", "name": "蘭嶼鄉", "historicalNames": {} }
+    }
+  },
+  "U": {
+    "id": "U",
+    "name": "花蓮縣",
+    "historicalNames": {},
+    "districts": {
+      "U01": { "id": "U01", "name": "花蓮市", "historicalNames": {} },
+      "U07": { "id": "U07", "name": "鳳林鎮", "historicalNames": {} },
+      "U03": { "id": "U03", "name": "玉里鎮", "historicalNames": {} },
+      "U04": { "id": "U04", "name": "新城鄉", "historicalNames": {} },
+      "U05": { "id": "U05", "name": "吉安鄉", "historicalNames": {} },
+      "U06": { "id": "U06", "name": "壽豐鄉", "historicalNames": {} },
+      "U02": { "id": "U02", "name": "光復鄉", "historicalNames": {} },
+      "U08": { "id": "U08", "name": "豐濱鄉", "historicalNames": {} },
+      "U09": { "id": "U09", "name": "瑞穗鄉", "historicalNames": {} },
+      "U10": { "id": "U10", "name": "富里鄉", "historicalNames": {} },
+      "U11": { "id": "U11", "name": "秀林鄉", "historicalNames": {} },
+      "U12": { "id": "U12", "name": "萬榮鄉", "historicalNames": {} },
+      "U13": { "id": "U13", "name": "卓溪鄉", "historicalNames": {} }
+    }
+  },
+  "K": {
+    "id": "K",
+    "name": "苗栗縣",
+    "historicalNames": { "2012": "苗栗縣" },
+    "districts": {
+      "K01": { "id": "K01", "name": "苗栗市", "historicalNames": {} },
+      "K02": { "id": "K02", "name": "苑裡鎮", "historicalNames": {} },
+      "K03": { "id": "K03", "name": "通霄鎮", "historicalNames": {} },
+      "K09": { "id": "K09", "name": "竹南鎮", "historicalNames": {} },
+      "K10": {
+        "id": "K10",
+        "name": "頭份市",
+        "historicalNames": { "2012": "頭份鎮" }
+      },
+      "K12": { "id": "K12", "name": "後龍鎮", "historicalNames": {} },
+      "K16": { "id": "K16", "name": "卓蘭鎮", "historicalNames": {} },
+      "K15": { "id": "K15", "name": "大湖鄉", "historicalNames": {} },
+      "K04": { "id": "K04", "name": "公館鄉", "historicalNames": {} },
+      "K05": { "id": "K05", "name": "銅鑼鄉", "historicalNames": {} },
+      "K14": { "id": "K14", "name": "南庄鄉", "historicalNames": {} },
+      "K08": { "id": "K08", "name": "頭屋鄉", "historicalNames": {} },
+      "K06": { "id": "K06", "name": "三義鄉", "historicalNames": {} },
+      "K07": { "id": "K07", "name": "西湖鄉", "historicalNames": {} },
+      "K11": { "id": "K11", "name": "造橋鄉", "historicalNames": {} },
+      "K13": { "id": "K13", "name": "三灣鄉", "historicalNames": {} },
+      "K17": { "id": "K17", "name": "獅潭鄉", "historicalNames": {} },
+      "K18": { "id": "K18", "name": "泰安鄉", "historicalNames": {} }
+    }
+  },
+  "Z": {
+    "id": "Z",
+    "name": "連江縣",
+    "historicalNames": {},
+    "districts": {
+      "Z01": { "id": "Z01", "name": "南竿鄉", "historicalNames": {} },
+      "Z02": { "id": "Z02", "name": "北竿鄉", "historicalNames": {} },
+      "Z03": { "id": "Z03", "name": "莒光鄉", "historicalNames": {} },
+      "Z04": { "id": "Z04", "name": "東引鄉", "historicalNames": {} }
+    }
+  },
+  "W": {
+    "id": "W",
+    "name": "金門縣",
+    "historicalNames": {},
+    "districts": {
+      "W03": { "id": "W03", "name": "金城鎮", "historicalNames": {} },
+      "W02": { "id": "W02", "name": "金沙鎮", "historicalNames": {} },
+      "W01": { "id": "W01", "name": "金湖鎮", "historicalNames": {} },
+      "W04": { "id": "W04", "name": "金寧鄉", "historicalNames": {} },
+      "W05": { "id": "W05", "name": "烈嶼鄉", "historicalNames": {} },
+      "W06": { "id": "W06", "name": "烏坵鄉", "historicalNames": {} }
+    }
+  },
+  "P": {
+    "id": "P",
+    "name": "雲林縣",
+    "historicalNames": {},
+    "districts": {
+      "P01": { "id": "P01", "name": "斗六市", "historicalNames": {} },
+      "P02": { "id": "P02", "name": "斗南鎮", "historicalNames": {} },
+      "P03": { "id": "P03", "name": "虎尾鎮", "historicalNames": {} },
+      "P04": { "id": "P04", "name": "西螺鎮", "historicalNames": {} },
+      "P05": { "id": "P05", "name": "土庫鎮", "historicalNames": {} },
+      "P06": { "id": "P06", "name": "北港鎮", "historicalNames": {} },
+      "P07": { "id": "P07", "name": "古坑鄉", "historicalNames": {} },
+      "P08": { "id": "P08", "name": "大埤鄉", "historicalNames": {} },
+      "P09": { "id": "P09", "name": "莿桐鄉", "historicalNames": {} },
+      "P10": { "id": "P10", "name": "林內鄉", "historicalNames": {} },
+      "P11": { "id": "P11", "name": "二崙鄉", "historicalNames": {} },
+      "P12": { "id": "P12", "name": "崙背鄉", "historicalNames": {} },
+      "P13": { "id": "P13", "name": "麥寮鄉", "historicalNames": {} },
+      "P14": { "id": "P14", "name": "東勢鄉", "historicalNames": {} },
+      "P15": { "id": "P15", "name": "褒忠鄉", "historicalNames": {} },
+      "P16": { "id": "P16", "name": "臺西鄉", "historicalNames": {} },
+      "P17": { "id": "P17", "name": "元長鄉", "historicalNames": {} },
+      "P18": { "id": "P18", "name": "四湖鄉", "historicalNames": {} },
+      "P19": { "id": "P19", "name": "口湖鄉", "historicalNames": {} },
+      "P20": { "id": "P20", "name": "水林鄉", "historicalNames": {} }
+    }
+  },
+  "E": {
+    "id": "E",
+    "name": "高雄市",
+    "historicalNames": {},
+    "districts": {
+      "E01": { "id": "E01", "name": "鹽埕區", "historicalNames": {} },
+      "E02": { "id": "E02", "name": "鼓山區", "historicalNames": {} },
+      "E03": { "id": "E03", "name": "左營區", "historicalNames": {} },
+      "E04": { "id": "E04", "name": "楠梓區", "historicalNames": {} },
+      "E05": { "id": "E05", "name": "三民區", "historicalNames": {} },
+      "E06": { "id": "E06", "name": "新興區", "historicalNames": {} },
+      "E07": { "id": "E07", "name": "前金區", "historicalNames": {} },
+      "E08": { "id": "E08", "name": "苓雅區", "historicalNames": {} },
+      "E09": { "id": "E09", "name": "前鎮區", "historicalNames": {} },
+      "E10": { "id": "E10", "name": "旗津區", "historicalNames": {} },
+      "E11": { "id": "E11", "name": "小港區", "historicalNames": {} },
+      "E12": { "id": "E12", "name": "鳳山區", "historicalNames": {} },
+      "E13": { "id": "E13", "name": "林園區", "historicalNames": {} },
+      "E14": { "id": "E14", "name": "大寮區", "historicalNames": {} },
+      "E15": { "id": "E15", "name": "大樹區", "historicalNames": {} },
+      "E16": { "id": "E16", "name": "大社區", "historicalNames": {} },
+      "E17": { "id": "E17", "name": "仁武區", "historicalNames": {} },
+      "E18": { "id": "E18", "name": "鳥松區", "historicalNames": {} },
+      "E19": { "id": "E19", "name": "岡山區", "historicalNames": {} },
+      "E20": { "id": "E20", "name": "橋頭區", "historicalNames": {} },
+      "E21": { "id": "E21", "name": "燕巢區", "historicalNames": {} },
+      "E22": { "id": "E22", "name": "田寮區", "historicalNames": {} },
+      "E23": { "id": "E23", "name": "阿蓮區", "historicalNames": {} },
+      "E24": { "id": "E24", "name": "路竹區", "historicalNames": {} },
+      "E25": { "id": "E25", "name": "湖內區", "historicalNames": {} },
+      "E26": { "id": "E26", "name": "茄萣區", "historicalNames": {} },
+      "E27": { "id": "E27", "name": "永安區", "historicalNames": {} },
+      "E28": { "id": "E28", "name": "彌陀區", "historicalNames": {} },
+      "E29": { "id": "E29", "name": "梓官區", "historicalNames": {} },
+      "E30": { "id": "E30", "name": "旗山區", "historicalNames": {} },
+      "E31": { "id": "E31", "name": "美濃區", "historicalNames": {} },
+      "E32": { "id": "E32", "name": "六龜區", "historicalNames": {} },
+      "E33": { "id": "E33", "name": "甲仙區", "historicalNames": {} },
+      "E34": { "id": "E34", "name": "杉林區", "historicalNames": {} },
+      "E35": { "id": "E35", "name": "內門區", "historicalNames": {} },
+      "E36": { "id": "E36", "name": "茂林區", "historicalNames": {} },
+      "E37": { "id": "E37", "name": "桃源區", "historicalNames": {} },
+      "E38": { "id": "E38", "name": "那瑪夏區", "historicalNames": {} }
+    }
+  }
+}

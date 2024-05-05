@@ -1,6 +1,7 @@
 <template>
   <IconLabel text="大家的選票投給誰？" icon="bi-search" />
   <SearchBar
+    v-model="searchId"
     :year="currentElectionYear"
     v-model:city="city"
     v-model:district="district"
@@ -30,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, onBeforeUnmount } from 'vue'
+import { ref, computed, onBeforeUnmount } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore.js'
 import { useMediaQuery } from '@vueuse/core'
@@ -47,6 +48,8 @@ const isMobile = useMediaQuery('(max-width: 767px)')
 const currentElectionStore = useCurrentElectionStore()
 const { currentElectionYear, currentCandidates, city, district, votes } =
   storeToRefs(currentElectionStore)
+
+const searchId = ref<string>('')
 
 const summaryLevel = computed(() => {
   const suffix = '選民的票投給誰？'

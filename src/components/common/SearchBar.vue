@@ -13,8 +13,8 @@
       aria-label="City Selector"
     >
       <option value="" disabled>選擇縣市</option>
-      <option v-for="city in cityList" :key="city" :value="city">
-        {{ city }}
+      <option v-for="city in cityList" :key="city.id" :value="city.id">
+        {{ city.historicalNames[year] ?? city.name }}
       </option>
     </select>
 
@@ -27,10 +27,10 @@
       <option value="" disabled>選擇行政區</option>
       <option
         v-for="district in districtList"
-        :key="district"
-        :value="district"
+        :key="district.id"
+        :value="district.id"
       >
-        {{ district }}
+        {{ district.historicalNames[year] ?? district.name }}
       </option>
     </select>
 
@@ -51,49 +51,48 @@
 <script lang="ts" setup>
 import { ref, computed, watch } from 'vue'
 import { useFetch } from '@vueuse/core'
+import type { AdministrativeArea } from '@/types'
 
-const emit = defineEmits(['update:city', 'update:district'])
-const props = withDefaults(
+const emit = defineEmits<{
+  (e: 'update:modelValue', arg: string): void
+  (e: 'update:city', arg: string): void
+  (e: 'update:district', arg: string): void
+}>()
+withDefaults(
   defineProps<{
+    modelValue: string
     year?: string
     city: string
     district: string
   }>(),
-  {
-    year: '2020',
-  },
+  { year: '2020' },
 )
 
 const path = computed(
-  () =>
-    new URL(
-      `../../data/administrative_area/${props.year}.json`,
-      import.meta.url,
-    ).href,
+  () => new URL(`../../data/administrative_area.json`, import.meta.url).href,
 )
 
 const cityModel = ref<string>('')
 const districtModel = ref<string>('')
 
-const { data } = useFetch(path, { refetch: true })
-  .get()
-  .json<Record<string, string[]>>()
+const { data } = useFetch(path).get().json<AdministrativeArea>()
 
-const cityList = computed(() => Object.keys(data.value || {}))
-const districtList = computed(() => data.value?.[cityModel.value])
-
-watch(cityModel, () => (districtModel.value = ''))
-watch(
-  () => [props.city, props.district],
-  () => {
-    cityModel.value = props.city
-    districtModel.value = props.district
-  },
+const cityList = computed(() => Object.values(data.value ?? {}))
+const districtList = computed(() =>
+  Object.values(data.value?.[cityModel.value]?.districts ?? {}),
 )
 
+watch(cityModel, () => (districtModel.value = ''))
+
 function update() {
-  emit('update:city', cityModel.value)
-  emit('update:district', districtModel.value)
+  const searchId = districtModel.value || cityModel.value || ''
+  emit('update:modelValue', searchId)
+
+  emit('update:city', data.value?.[cityModel.value]?.name ?? '')
+  emit(
+    'update:district',
+    data.value?.[cityModel.value]?.districts?.[districtModel.value]?.name ?? '',
+  )
 }
 
 function clear() {
