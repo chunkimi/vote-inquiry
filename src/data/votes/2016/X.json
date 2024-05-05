@@ -1,0 +1,114 @@
+[
+  {
+    "administrativeDivision": "總計",
+    "candidateVotes": {
+      "coast": 12564,
+      "savannah": 21658,
+      "rainforest": 8401
+    },
+    "validVotes": 42623,
+    "invalidVotes": 643,
+    "totalVotes": 43266,
+    "receivedUnvoted": 0,
+    "issuedVotes": 43266,
+    "remainingVotes": 40956,
+    "eligibleVoters": 84222,
+    "voterTurnout": 51.369998931884766
+  },
+  {
+    "administrativeDivision": "馬公市",
+    "candidateVotes": {
+      "coast": 8536,
+      "savannah": 13328,
+      "rainforest": 5313
+    },
+    "validVotes": 27177,
+    "invalidVotes": 376,
+    "totalVotes": 27553,
+    "receivedUnvoted": 0,
+    "issuedVotes": 27553,
+    "remainingVotes": 21628,
+    "eligibleVoters": 49181,
+    "voterTurnout": 56.02000045776367
+  },
+  {
+    "administrativeDivision": "湖西鄉",
+    "candidateVotes": {
+      "coast": 1515,
+      "savannah": 3717,
+      "rainforest": 1064
+    },
+    "validVotes": 6296,
+    "invalidVotes": 115,
+    "totalVotes": 6411,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6411,
+    "remainingVotes": 5764,
+    "eligibleVoters": 12175,
+    "voterTurnout": 52.65999984741211
+  },
+  {
+    "administrativeDivision": "白沙鄉",
+    "candidateVotes": {
+      "coast": 1155,
+      "savannah": 1796,
+      "rainforest": 642
+    },
+    "validVotes": 3593,
+    "invalidVotes": 40,
+    "totalVotes": 3633,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3633,
+    "remainingVotes": 4574,
+    "eligibleVoters": 8207,
+    "voterTurnout": 44.27000045776367
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "candidateVotes": {
+      "coast": 900,
+      "savannah": 1875,
+      "rainforest": 608
+    },
+    "validVotes": 3383,
+    "invalidVotes": 69,
+    "totalVotes": 3452,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3452,
+    "remainingVotes": 3692,
+    "eligibleVoters": 7144,
+    "voterTurnout": 48.31999969482422
+  },
+  {
+    "administrativeDivision": "望安鄉",
+    "candidateVotes": {
+      "coast": 267,
+      "savannah": 641,
+      "rainforest": 289
+    },
+    "validVotes": 1197,
+    "invalidVotes": 20,
+    "totalVotes": 1217,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1217,
+    "remainingVotes": 3150,
+    "eligibleVoters": 4367,
+    "voterTurnout": 27.8700008392334
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "candidateVotes": {
+      "coast": 191,
+      "savannah": 301,
+      "rainforest": 485
+    },
+    "validVotes": 977,
+    "invalidVotes": 23,
+    "totalVotes": 1000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1000,
+    "remainingVotes": 2148,
+    "eligibleVoters": 3148,
+    "voterTurnout": 31.770000457763672
+  }
+]

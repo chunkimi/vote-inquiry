@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 5751,
+      "savannah": 10776,
+      "rainforest": 2648
+    },
+    "validVotes": 19175,
+    "invalidVotes": 218,
+    "totalVotes": 19393,
+    "receivedUnvoted": 0,
+    "issuedVotes": 19393,
+    "remainingVotes": 10336,
+    "eligibleVoters": 29729,
+    "voterTurnout": 65.2300033569336
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "通東里",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 444,
+      "rainforest": 90
+    },
+    "validVotes": 785,
+    "invalidVotes": 6,
+    "totalVotes": 791,
+    "receivedUnvoted": 0,
+    "issuedVotes": 791,
+    "remainingVotes": 368,
+    "eligibleVoters": 1159,
+    "voterTurnout": 68.25
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "通西里",
+    "candidateVotes": {
+      "coast": 445,
+      "savannah": 760,
+      "rainforest": 162
+    },
+    "validVotes": 1367,
+    "invalidVotes": 11,
+    "totalVotes": 1378,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1378,
+    "remainingVotes": 606,
+    "eligibleVoters": 1984,
+    "voterTurnout": 69.45999908447266
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "平元里",
+    "candidateVotes": {
+      "coast": 352,
+      "savannah": 767,
+      "rainforest": 165
+    },
+    "validVotes": 1284,
+    "invalidVotes": 10,
+    "totalVotes": 1294,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1294,
+    "remainingVotes": 527,
+    "eligibleVoters": 1821,
+    "voterTurnout": 71.05999755859375
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "平安里",
+    "candidateVotes": {
+      "coast": 379,
+      "savannah": 732,
+      "rainforest": 165
+    },
+    "validVotes": 1276,
+    "invalidVotes": 10,
+    "totalVotes": 1286,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1286,
+    "remainingVotes": 731,
+    "eligibleVoters": 2017,
+    "voterTurnout": 63.7599983215332
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "圳頭里",
+    "candidateVotes": {
+      "coast": 139,
+      "savannah": 274,
+      "rainforest": 64
+    },
+    "validVotes": 477,
+    "invalidVotes": 4,
+    "totalVotes": 481,
+    "receivedUnvoted": 0,
+    "issuedVotes": 481,
+    "remainingVotes": 243,
+    "eligibleVoters": 724,
+    "voterTurnout": 66.44000244140625
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "梅南里",
+    "candidateVotes": {
+      "coast": 274,
+      "savannah": 593,
+      "rainforest": 125
+    },
+    "validVotes": 992,
+    "invalidVotes": 14,
+    "totalVotes": 1006,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1006,
+    "remainingVotes": 520,
+    "eligibleVoters": 1526,
+    "voterTurnout": 65.91999816894531
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "通南里",
+    "candidateVotes": {
+      "coast": 470,
+      "savannah": 982,
+      "rainforest": 214
+    },
+    "validVotes": 1666,
+    "invalidVotes": 24,
+    "totalVotes": 1690,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1690,
+    "remainingVotes": 1016,
+    "eligibleVoters": 2706,
+    "voterTurnout": 62.45000076293945
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "內湖里",
+    "candidateVotes": {
+      "coast": 375,
+      "savannah": 621,
+      "rainforest": 173
+    },
+    "validVotes": 1169,
+    "invalidVotes": 14,
+    "totalVotes": 1183,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1183,
+    "remainingVotes": 625,
+    "eligibleVoters": 1808,
+    "voterTurnout": 65.43000030517578
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "楓樹里",
+    "candidateVotes": {
+      "coast": 111,
+      "savannah": 158,
+      "rainforest": 30
+    },
+    "validVotes": 299,
+    "invalidVotes": 5,
+    "totalVotes": 304,
+    "receivedUnvoted": 0,
+    "issuedVotes": 304,
+    "remainingVotes": 179,
+    "eligibleVoters": 483,
+    "voterTurnout": 62.939998626708984
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "烏眉里",
+    "candidateVotes": {
+      "coast": 231,
+      "savannah": 221,
+      "rainforest": 88
+    },
+    "validVotes": 540,
+    "invalidVotes": 8,
+    "totalVotes": 548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 548,
+    "remainingVotes": 345,
+    "eligibleVoters": 893,
+    "voterTurnout": 61.369998931884766
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "福龍里",
+    "candidateVotes": {
+      "coast": 147,
+      "savannah": 71,
+      "rainforest": 27
+    },
+    "validVotes": 245,
+    "invalidVotes": 5,
+    "totalVotes": 250,
+    "receivedUnvoted": 0,
+    "issuedVotes": 250,
+    "remainingVotes": 185,
+    "eligibleVoters": 435,
+    "voterTurnout": 57.470001220703125
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "福源里",
+    "candidateVotes": {
+      "coast": 136,
+      "savannah": 242,
+      "rainforest": 105
+    },
+    "validVotes": 483,
+    "invalidVotes": 4,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 278,
+    "eligibleVoters": 765,
+    "voterTurnout": 63.65999984741211
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "城北里",
+    "candidateVotes": {
+      "coast": 126,
+      "savannah": 272,
+      "rainforest": 97
+    },
+    "validVotes": 495,
+    "invalidVotes": 5,
+    "totalVotes": 500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 500,
+    "remainingVotes": 226,
+    "eligibleVoters": 726,
+    "voterTurnout": 68.87000274658203
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "城南里",
+    "candidateVotes": {
+      "coast": 148,
+      "savannah": 340,
+      "rainforest": 86
+    },
+    "validVotes": 574,
+    "invalidVotes": 3,
+    "totalVotes": 577,
+    "receivedUnvoted": 0,
+    "issuedVotes": 577,
+    "remainingVotes": 363,
+    "eligibleVoters": 940,
+    "voterTurnout": 61.380001068115234
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "南和里",
+    "candidateVotes": {
+      "coast": 158,
+      "savannah": 305,
+      "rainforest": 67
+    },
+    "validVotes": 530,
+    "invalidVotes": 7,
+    "totalVotes": 537,
+    "receivedUnvoted": 0,
+    "issuedVotes": 537,
+    "remainingVotes": 250,
+    "eligibleVoters": 787,
+    "voterTurnout": 68.2300033569336
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "福興里",
+    "candidateVotes": {
+      "coast": 140,
+      "savannah": 264,
+      "rainforest": 44
+    },
+    "validVotes": 448,
+    "invalidVotes": 5,
+    "totalVotes": 453,
+    "receivedUnvoted": 0,
+    "issuedVotes": 453,
+    "remainingVotes": 228,
+    "eligibleVoters": 681,
+    "voterTurnout": 66.5199966430664
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "坪頂里",
+    "candidateVotes": {
+      "coast": 278,
+      "savannah": 407,
+      "rainforest": 104
+    },
+    "validVotes": 789,
+    "invalidVotes": 9,
+    "totalVotes": 798,
+    "receivedUnvoted": 0,
+    "issuedVotes": 798,
+    "remainingVotes": 382,
+    "eligibleVoters": 1180,
+    "voterTurnout": 67.62999725341797
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "五南里",
+    "candidateVotes": {
+      "coast": 288,
+      "savannah": 435,
+      "rainforest": 123
+    },
+    "validVotes": 846,
+    "invalidVotes": 8,
+    "totalVotes": 854,
+    "receivedUnvoted": 0,
+    "issuedVotes": 854,
+    "remainingVotes": 429,
+    "eligibleVoters": 1283,
+    "voterTurnout": 66.55999755859375
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "五北里",
+    "candidateVotes": {
+      "coast": 222,
+      "savannah": 597,
+      "rainforest": 120
+    },
+    "validVotes": 939,
+    "invalidVotes": 11,
+    "totalVotes": 950,
+    "receivedUnvoted": 0,
+    "issuedVotes": 950,
+    "remainingVotes": 490,
+    "eligibleVoters": 1440,
+    "voterTurnout": 65.97000122070312
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "通灣里",
+    "candidateVotes": {
+      "coast": 409,
+      "savannah": 778,
+      "rainforest": 192
+    },
+    "validVotes": 1379,
+    "invalidVotes": 18,
+    "totalVotes": 1397,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1397,
+    "remainingVotes": 851,
+    "eligibleVoters": 2248,
+    "voterTurnout": 62.13999938964844
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "新埔里",
+    "candidateVotes": {
+      "coast": 153,
+      "savannah": 533,
+      "rainforest": 93
+    },
+    "validVotes": 779,
+    "invalidVotes": 17,
+    "totalVotes": 796,
+    "receivedUnvoted": 0,
+    "issuedVotes": 796,
+    "remainingVotes": 397,
+    "eligibleVoters": 1193,
+    "voterTurnout": 66.72000122070312
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "內島里",
+    "candidateVotes": {
+      "coast": 132,
+      "savannah": 294,
+      "rainforest": 68
+    },
+    "validVotes": 494,
+    "invalidVotes": 6,
+    "totalVotes": 500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 500,
+    "remainingVotes": 283,
+    "eligibleVoters": 783,
+    "voterTurnout": 63.86000061035156
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "白東里",
+    "candidateVotes": {
+      "coast": 263,
+      "savannah": 420,
+      "rainforest": 172
+    },
+    "validVotes": 855,
+    "invalidVotes": 9,
+    "totalVotes": 864,
+    "receivedUnvoted": 0,
+    "issuedVotes": 864,
+    "remainingVotes": 521,
+    "eligibleVoters": 1385,
+    "voterTurnout": 62.380001068115234
+  },
+  {
+    "administrativeDivision": "通霄鎮",
+    "village": "白西里",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 266,
+      "rainforest": 74
+    },
+    "validVotes": 464,
+    "invalidVotes": 5,
+    "totalVotes": 469,
+    "receivedUnvoted": 0,
+    "issuedVotes": 469,
+    "remainingVotes": 293,
+    "eligibleVoters": 762,
+    "voterTurnout": 61.54999923706055
+  }
+]

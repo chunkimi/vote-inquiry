@@ -1,0 +1,53 @@
+[
+  {
+    "administrativeDivision": "北竿鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 63,
+      "coast": 833,
+      "rainforest": 42
+    },
+    "validVotes": 938,
+    "invalidVotes": 9,
+    "totalVotes": 947,
+    "receivedUnvoted": 0,
+    "issuedVotes": 947,
+    "remainingVotes": 530,
+    "eligibleVoters": 1477,
+    "voterTurnout": 64.12000274658203
+  },
+  {
+    "administrativeDivision": "北竿鄉",
+    "village": "塘岐村、后沃村、橋仔村",
+    "candidateVotes": {
+      "savannah": 41,
+      "coast": 565,
+      "rainforest": 35
+    },
+    "validVotes": 641,
+    "invalidVotes": 6,
+    "totalVotes": 647,
+    "receivedUnvoted": 0,
+    "issuedVotes": 647,
+    "remainingVotes": 358,
+    "eligibleVoters": 1005,
+    "voterTurnout": 64.37999725341797
+  },
+  {
+    "administrativeDivision": "北竿鄉",
+    "village": "芹壁村、里村、白沙村",
+    "candidateVotes": {
+      "savannah": 22,
+      "coast": 268,
+      "rainforest": 7
+    },
+    "validVotes": 297,
+    "invalidVotes": 3,
+    "totalVotes": 300,
+    "receivedUnvoted": 0,
+    "issuedVotes": 300,
+    "remainingVotes": 172,
+    "eligibleVoters": 472,
+    "voterTurnout": 63.560001373291016
+  }
+]

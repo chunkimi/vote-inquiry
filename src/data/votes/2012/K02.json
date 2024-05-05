@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 14156,
+      "coast": 12296,
+      "rainforest": 704
+    },
+    "validVotes": 27156,
+    "invalidVotes": 226,
+    "totalVotes": 27382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 27382,
+    "remainingVotes": 9985,
+    "eligibleVoters": 37367,
+    "voterTurnout": 73.27999877929688
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "苑東里",
+    "candidateVotes": {
+      "savannah": 735,
+      "coast": 714,
+      "rainforest": 35
+    },
+    "validVotes": 1484,
+    "invalidVotes": 10,
+    "totalVotes": 1494,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1494,
+    "remainingVotes": 518,
+    "eligibleVoters": 2012,
+    "voterTurnout": 74.25
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "苑南里",
+    "candidateVotes": {
+      "savannah": 611,
+      "coast": 598,
+      "rainforest": 30
+    },
+    "validVotes": 1239,
+    "invalidVotes": 6,
+    "totalVotes": 1245,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1245,
+    "remainingVotes": 471,
+    "eligibleVoters": 1716,
+    "voterTurnout": 72.55000305175781
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "苑北里",
+    "candidateVotes": {
+      "savannah": 316,
+      "coast": 300,
+      "rainforest": 17
+    },
+    "validVotes": 633,
+    "invalidVotes": 4,
+    "totalVotes": 637,
+    "receivedUnvoted": 0,
+    "issuedVotes": 637,
+    "remainingVotes": 229,
+    "eligibleVoters": 866,
+    "voterTurnout": 73.55999755859375
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "西平里",
+    "candidateVotes": {
+      "savannah": 603,
+      "coast": 406,
+      "rainforest": 24
+    },
+    "validVotes": 1033,
+    "invalidVotes": 15,
+    "totalVotes": 1048,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1048,
+    "remainingVotes": 343,
+    "eligibleVoters": 1391,
+    "voterTurnout": 75.33999633789062
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "苑港里",
+    "candidateVotes": {
+      "savannah": 535,
+      "coast": 324,
+      "rainforest": 26
+    },
+    "validVotes": 885,
+    "invalidVotes": 5,
+    "totalVotes": 890,
+    "receivedUnvoted": 0,
+    "issuedVotes": 890,
+    "remainingVotes": 290,
+    "eligibleVoters": 1180,
+    "voterTurnout": 75.41999816894531
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "西勢里",
+    "candidateVotes": {
+      "savannah": 682,
+      "coast": 617,
+      "rainforest": 40
+    },
+    "validVotes": 1339,
+    "invalidVotes": 8,
+    "totalVotes": 1347,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1347,
+    "remainingVotes": 467,
+    "eligibleVoters": 1814,
+    "voterTurnout": 74.26000213623047
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "海岸里",
+    "candidateVotes": {
+      "savannah": 456,
+      "coast": 293,
+      "rainforest": 16
+    },
+    "validVotes": 765,
+    "invalidVotes": 7,
+    "totalVotes": 772,
+    "receivedUnvoted": 0,
+    "issuedVotes": 772,
+    "remainingVotes": 344,
+    "eligibleVoters": 1116,
+    "voterTurnout": 69.18000030517578
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "房裡里",
+    "candidateVotes": {
+      "savannah": 833,
+      "coast": 742,
+      "rainforest": 27
+    },
+    "validVotes": 1602,
+    "invalidVotes": 13,
+    "totalVotes": 1615,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1615,
+    "remainingVotes": 571,
+    "eligibleVoters": 2186,
+    "voterTurnout": 73.87999725341797
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "客庄里",
+    "candidateVotes": {
+      "savannah": 1298,
+      "coast": 1385,
+      "rainforest": 61
+    },
+    "validVotes": 2744,
+    "invalidVotes": 22,
+    "totalVotes": 2766,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2766,
+    "remainingVotes": 883,
+    "eligibleVoters": 3649,
+    "voterTurnout": 75.80000305175781
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "中正里",
+    "candidateVotes": {
+      "savannah": 820,
+      "coast": 638,
+      "rainforest": 38
+    },
+    "validVotes": 1496,
+    "invalidVotes": 6,
+    "totalVotes": 1502,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1502,
+    "remainingVotes": 481,
+    "eligibleVoters": 1983,
+    "voterTurnout": 75.73999786376953
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "苑坑里",
+    "candidateVotes": {
+      "savannah": 404,
+      "coast": 242,
+      "rainforest": 17
+    },
+    "validVotes": 663,
+    "invalidVotes": 7,
+    "totalVotes": 670,
+    "receivedUnvoted": 0,
+    "issuedVotes": 670,
+    "remainingVotes": 292,
+    "eligibleVoters": 962,
+    "voterTurnout": 69.6500015258789
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "水坡里",
+    "candidateVotes": {
+      "savannah": 284,
+      "coast": 163,
+      "rainforest": 14
+    },
+    "validVotes": 461,
+    "invalidVotes": 3,
+    "totalVotes": 464,
+    "receivedUnvoted": 0,
+    "issuedVotes": 464,
+    "remainingVotes": 178,
+    "eligibleVoters": 642,
+    "voterTurnout": 72.2699966430664
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "新復里",
+    "candidateVotes": {
+      "savannah": 431,
+      "coast": 481,
+      "rainforest": 22
+    },
+    "validVotes": 934,
+    "invalidVotes": 8,
+    "totalVotes": 942,
+    "receivedUnvoted": 0,
+    "issuedVotes": 942,
+    "remainingVotes": 310,
+    "eligibleVoters": 1252,
+    "voterTurnout": 75.23999786376953
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "山里",
+    "candidateVotes": {
+      "savannah": 575,
+      "coast": 448,
+      "rainforest": 30
+    },
+    "validVotes": 1053,
+    "invalidVotes": 9,
+    "totalVotes": 1062,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1062,
+    "remainingVotes": 370,
+    "eligibleVoters": 1432,
+    "voterTurnout": 74.16000366210938
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "舊社里",
+    "candidateVotes": {
+      "savannah": 637,
+      "coast": 608,
+      "rainforest": 37
+    },
+    "validVotes": 1282,
+    "invalidVotes": 12,
+    "totalVotes": 1294,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1294,
+    "remainingVotes": 481,
+    "eligibleVoters": 1775,
+    "voterTurnout": 72.9000015258789
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "福田里",
+    "candidateVotes": {
+      "savannah": 466,
+      "coast": 381,
+      "rainforest": 25
+    },
+    "validVotes": 872,
+    "invalidVotes": 9,
+    "totalVotes": 881,
+    "receivedUnvoted": 0,
+    "issuedVotes": 881,
+    "remainingVotes": 371,
+    "eligibleVoters": 1252,
+    "voterTurnout": 70.37000274658203
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "石鎮里",
+    "candidateVotes": {
+      "savannah": 214,
+      "coast": 201,
+      "rainforest": 6
+    },
+    "validVotes": 421,
+    "invalidVotes": 1,
+    "totalVotes": 422,
+    "receivedUnvoted": 0,
+    "issuedVotes": 422,
+    "remainingVotes": 170,
+    "eligibleVoters": 592,
+    "voterTurnout": 71.27999877929688
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "蕉埔里",
+    "candidateVotes": {
+      "savannah": 312,
+      "coast": 289,
+      "rainforest": 14
+    },
+    "validVotes": 615,
+    "invalidVotes": 2,
+    "totalVotes": 617,
+    "receivedUnvoted": 0,
+    "issuedVotes": 617,
+    "remainingVotes": 247,
+    "eligibleVoters": 864,
+    "voterTurnout": 71.41000366210938
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "南勢里",
+    "candidateVotes": {
+      "savannah": 275,
+      "coast": 204,
+      "rainforest": 13
+    },
+    "validVotes": 492,
+    "invalidVotes": 6,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 236,
+    "eligibleVoters": 734,
+    "voterTurnout": 67.8499984741211
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "泰田里",
+    "candidateVotes": {
+      "savannah": 613,
+      "coast": 459,
+      "rainforest": 38
+    },
+    "validVotes": 1110,
+    "invalidVotes": 4,
+    "totalVotes": 1114,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1114,
+    "remainingVotes": 433,
+    "eligibleVoters": 1547,
+    "voterTurnout": 72.01000213623047
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "上里",
+    "candidateVotes": {
+      "savannah": 579,
+      "coast": 537,
+      "rainforest": 39
+    },
+    "validVotes": 1155,
+    "invalidVotes": 18,
+    "totalVotes": 1173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1173,
+    "remainingVotes": 434,
+    "eligibleVoters": 1607,
+    "voterTurnout": 72.98999786376953
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "玉田里",
+    "candidateVotes": {
+      "savannah": 633,
+      "coast": 490,
+      "rainforest": 37
+    },
+    "validVotes": 1160,
+    "invalidVotes": 13,
+    "totalVotes": 1173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1173,
+    "remainingVotes": 525,
+    "eligibleVoters": 1698,
+    "voterTurnout": 69.08000183105469
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "社苓里",
+    "candidateVotes": {
+      "savannah": 799,
+      "coast": 714,
+      "rainforest": 42
+    },
+    "validVotes": 1555,
+    "invalidVotes": 16,
+    "totalVotes": 1571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1571,
+    "remainingVotes": 575,
+    "eligibleVoters": 2146,
+    "voterTurnout": 73.20999908447266
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "山柑里",
+    "candidateVotes": {
+      "savannah": 468,
+      "coast": 514,
+      "rainforest": 23
+    },
+    "validVotes": 1005,
+    "invalidVotes": 11,
+    "totalVotes": 1016,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1016,
+    "remainingVotes": 342,
+    "eligibleVoters": 1358,
+    "voterTurnout": 74.81999969482422
+  },
+  {
+    "administrativeDivision": "苑裡鎮",
+    "village": "田心里",
+    "candidateVotes": {
+      "savannah": 577,
+      "coast": 548,
+      "rainforest": 33
+    },
+    "validVotes": 1158,
+    "invalidVotes": 11,
+    "totalVotes": 1169,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1169,
+    "remainingVotes": 424,
+    "eligibleVoters": 1593,
+    "voterTurnout": 73.37999725341797
+  }
+]

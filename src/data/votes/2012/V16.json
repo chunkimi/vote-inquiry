@@ -1,0 +1,87 @@
+[
+  {
+    "administrativeDivision": "蘭嶼鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 293,
+      "coast": 911,
+      "rainforest": 179
+    },
+    "validVotes": 1383,
+    "invalidVotes": 66,
+    "totalVotes": 1449,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1449,
+    "remainingVotes": 1989,
+    "eligibleVoters": 3438,
+    "voterTurnout": 42.150001525878906
+  },
+  {
+    "administrativeDivision": "蘭嶼鄉",
+    "village": "椰油村",
+    "candidateVotes": {
+      "savannah": 47,
+      "coast": 239,
+      "rainforest": 27
+    },
+    "validVotes": 313,
+    "invalidVotes": 10,
+    "totalVotes": 323,
+    "receivedUnvoted": 0,
+    "issuedVotes": 323,
+    "remainingVotes": 435,
+    "eligibleVoters": 758,
+    "voterTurnout": 42.61000061035156
+  },
+  {
+    "administrativeDivision": "蘭嶼鄉",
+    "village": "紅頭村",
+    "candidateVotes": {
+      "savannah": 93,
+      "coast": 282,
+      "rainforest": 53
+    },
+    "validVotes": 428,
+    "invalidVotes": 16,
+    "totalVotes": 444,
+    "receivedUnvoted": 0,
+    "issuedVotes": 444,
+    "remainingVotes": 614,
+    "eligibleVoters": 1058,
+    "voterTurnout": 41.970001220703125
+  },
+  {
+    "administrativeDivision": "蘭嶼鄉",
+    "village": "東清村",
+    "candidateVotes": {
+      "savannah": 78,
+      "coast": 258,
+      "rainforest": 68
+    },
+    "validVotes": 404,
+    "invalidVotes": 26,
+    "totalVotes": 430,
+    "receivedUnvoted": 0,
+    "issuedVotes": 430,
+    "remainingVotes": 576,
+    "eligibleVoters": 1006,
+    "voterTurnout": 42.7400016784668
+  },
+  {
+    "administrativeDivision": "蘭嶼鄉",
+    "village": "朗島村",
+    "candidateVotes": {
+      "savannah": 75,
+      "coast": 132,
+      "rainforest": 31
+    },
+    "validVotes": 238,
+    "invalidVotes": 14,
+    "totalVotes": 252,
+    "receivedUnvoted": 0,
+    "issuedVotes": 252,
+    "remainingVotes": 364,
+    "eligibleVoters": 616,
+    "voterTurnout": 40.90999984741211
+  }
+]

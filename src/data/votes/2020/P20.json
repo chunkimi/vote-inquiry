@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 463,
+      "coast": 3605,
+      "savannah": 9911
+    },
+    "validVotes": 13979,
+    "invalidVotes": 202,
+    "totalVotes": 14181,
+    "receivedUnvoted": 0,
+    "issuedVotes": 14181,
+    "remainingVotes": 7318,
+    "eligibleVoters": 21499,
+    "voterTurnout": 65.9612
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "水北村",
+    "candidateVotes": {
+      "rainforest": 57,
+      "coast": 429,
+      "savannah": 945
+    },
+    "validVotes": 1431,
+    "invalidVotes": 20,
+    "totalVotes": 1451,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1451,
+    "remainingVotes": 694,
+    "eligibleVoters": 2145,
+    "voterTurnout": 67.6457
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "水南村",
+    "candidateVotes": {
+      "rainforest": 49,
+      "coast": 395,
+      "savannah": 938
+    },
+    "validVotes": 1382,
+    "invalidVotes": 19,
+    "totalVotes": 1401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1401,
+    "remainingVotes": 518,
+    "eligibleVoters": 1919,
+    "voterTurnout": 73.0068
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "萬興村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 95,
+      "savannah": 342
+    },
+    "validVotes": 449,
+    "invalidVotes": 6,
+    "totalVotes": 455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 455,
+    "remainingVotes": 243,
+    "eligibleVoters": 698,
+    "voterTurnout": 65.1862
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "尖山村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 116,
+      "savannah": 289
+    },
+    "validVotes": 417,
+    "invalidVotes": 5,
+    "totalVotes": 422,
+    "receivedUnvoted": 0,
+    "issuedVotes": 422,
+    "remainingVotes": 202,
+    "eligibleVoters": 624,
+    "voterTurnout": 67.6282
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "大溝村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 159,
+      "savannah": 462
+    },
+    "validVotes": 640,
+    "invalidVotes": 8,
+    "totalVotes": 648,
+    "receivedUnvoted": 0,
+    "issuedVotes": 648,
+    "remainingVotes": 315,
+    "eligibleVoters": 963,
+    "voterTurnout": 67.2897
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "順興村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 105,
+      "savannah": 372
+    },
+    "validVotes": 489,
+    "invalidVotes": 9,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 304,
+    "eligibleVoters": 802,
+    "voterTurnout": 62.0948
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "大山村",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 159,
+      "savannah": 532
+    },
+    "validVotes": 721,
+    "invalidVotes": 4,
+    "totalVotes": 725,
+    "receivedUnvoted": 0,
+    "issuedVotes": 725,
+    "remainingVotes": 297,
+    "eligibleVoters": 1022,
+    "voterTurnout": 70.9393
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "後寮村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 93,
+      "savannah": 318
+    },
+    "validVotes": 430,
+    "invalidVotes": 6,
+    "totalVotes": 436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 436,
+    "remainingVotes": 216,
+    "eligibleVoters": 652,
+    "voterTurnout": 66.8712
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "春埔村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 157,
+      "savannah": 437
+    },
+    "validVotes": 610,
+    "invalidVotes": 9,
+    "totalVotes": 619,
+    "receivedUnvoted": 0,
+    "issuedVotes": 619,
+    "remainingVotes": 323,
+    "eligibleVoters": 942,
+    "voterTurnout": 65.7113
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "西井村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 124,
+      "savannah": 242
+    },
+    "validVotes": 379,
+    "invalidVotes": 15,
+    "totalVotes": 394,
+    "receivedUnvoted": 0,
+    "issuedVotes": 394,
+    "remainingVotes": 219,
+    "eligibleVoters": 613,
+    "voterTurnout": 64.2741
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "車港村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 98,
+      "savannah": 253
+    },
+    "validVotes": 359,
+    "invalidVotes": 3,
+    "totalVotes": 362,
+    "receivedUnvoted": 0,
+    "issuedVotes": 362,
+    "remainingVotes": 229,
+    "eligibleVoters": 591,
+    "voterTurnout": 61.2521
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "蘇秦村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 129,
+      "savannah": 439
+    },
+    "validVotes": 589,
+    "invalidVotes": 10,
+    "totalVotes": 599,
+    "receivedUnvoted": 0,
+    "issuedVotes": 599,
+    "remainingVotes": 380,
+    "eligibleVoters": 979,
+    "voterTurnout": 61.1849
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "灣東村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 142,
+      "savannah": 208
+    },
+    "validVotes": 366,
+    "invalidVotes": 4,
+    "totalVotes": 370,
+    "receivedUnvoted": 0,
+    "issuedVotes": 370,
+    "remainingVotes": 245,
+    "eligibleVoters": 615,
+    "voterTurnout": 60.1626
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "灣西村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 186,
+      "savannah": 343
+    },
+    "validVotes": 551,
+    "invalidVotes": 9,
+    "totalVotes": 560,
+    "receivedUnvoted": 0,
+    "issuedVotes": 560,
+    "remainingVotes": 363,
+    "eligibleVoters": 923,
+    "voterTurnout": 60.6717
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "蕃薯村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 157,
+      "savannah": 425
+    },
+    "validVotes": 602,
+    "invalidVotes": 1,
+    "totalVotes": 603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 603,
+    "remainingVotes": 321,
+    "eligibleVoters": 924,
+    "voterTurnout": 65.2597
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "山腳村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 109,
+      "savannah": 389
+    },
+    "validVotes": 508,
+    "invalidVotes": 4,
+    "totalVotes": 512,
+    "receivedUnvoted": 0,
+    "issuedVotes": 512,
+    "remainingVotes": 269,
+    "eligibleVoters": 781,
+    "voterTurnout": 65.557
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "松北村",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 203,
+      "savannah": 421
+    },
+    "validVotes": 659,
+    "invalidVotes": 16,
+    "totalVotes": 675,
+    "receivedUnvoted": 0,
+    "issuedVotes": 675,
+    "remainingVotes": 329,
+    "eligibleVoters": 1004,
+    "voterTurnout": 67.2311
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "松中村",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 79,
+      "savannah": 238
+    },
+    "validVotes": 323,
+    "invalidVotes": 6,
+    "totalVotes": 329,
+    "receivedUnvoted": 0,
+    "issuedVotes": 329,
+    "remainingVotes": 160,
+    "eligibleVoters": 489,
+    "voterTurnout": 67.2802
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "松西村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 81,
+      "savannah": 308
+    },
+    "validVotes": 402,
+    "invalidVotes": 10,
+    "totalVotes": 412,
+    "receivedUnvoted": 0,
+    "issuedVotes": 412,
+    "remainingVotes": 236,
+    "eligibleVoters": 648,
+    "voterTurnout": 63.5802
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "瓊埔村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 69,
+      "savannah": 321
+    },
+    "validVotes": 404,
+    "invalidVotes": 8,
+    "totalVotes": 412,
+    "receivedUnvoted": 0,
+    "issuedVotes": 412,
+    "remainingVotes": 250,
+    "eligibleVoters": 662,
+    "voterTurnout": 62.2356
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "塭底村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 95,
+      "savannah": 284
+    },
+    "validVotes": 389,
+    "invalidVotes": 3,
+    "totalVotes": 392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 392,
+    "remainingVotes": 270,
+    "eligibleVoters": 662,
+    "voterTurnout": 59.2145
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "海埔村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 131,
+      "savannah": 468
+    },
+    "validVotes": 613,
+    "invalidVotes": 9,
+    "totalVotes": 622,
+    "receivedUnvoted": 0,
+    "issuedVotes": 622,
+    "remainingVotes": 348,
+    "eligibleVoters": 970,
+    "voterTurnout": 64.1237
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "土厝村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 152,
+      "savannah": 587
+    },
+    "validVotes": 757,
+    "invalidVotes": 10,
+    "totalVotes": 767,
+    "receivedUnvoted": 0,
+    "issuedVotes": 767,
+    "remainingVotes": 355,
+    "eligibleVoters": 1122,
+    "voterTurnout": 68.3601
+  },
+  {
+    "administrativeDivision": "水林鄉",
+    "village": "溪墘村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 142,
+      "savannah": 350
+    },
+    "validVotes": 509,
+    "invalidVotes": 8,
+    "totalVotes": 517,
+    "receivedUnvoted": 0,
+    "issuedVotes": 517,
+    "remainingVotes": 232,
+    "eligibleVoters": 749,
+    "voterTurnout": 69.0254
+  }
+]

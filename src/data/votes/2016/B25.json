@@ -1,0 +1,291 @@
+[
+  {
+    "administrativeDivision": "龍井區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 11931,
+      "savannah": 22482,
+      "rainforest": 6192
+    },
+    "validVotes": 40605,
+    "invalidVotes": 732,
+    "totalVotes": 41337,
+    "receivedUnvoted": 1,
+    "issuedVotes": 41338,
+    "remainingVotes": 17982,
+    "eligibleVoters": 59320,
+    "voterTurnout": 69.68000030517578
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "竹坑里",
+    "candidateVotes": {
+      "coast": 549,
+      "savannah": 1072,
+      "rainforest": 348
+    },
+    "validVotes": 1969,
+    "invalidVotes": 43,
+    "totalVotes": 2012,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2012,
+    "remainingVotes": 832,
+    "eligibleVoters": 2844,
+    "voterTurnout": 70.75
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "龍東里",
+    "candidateVotes": {
+      "coast": 595,
+      "savannah": 998,
+      "rainforest": 236
+    },
+    "validVotes": 1829,
+    "invalidVotes": 40,
+    "totalVotes": 1869,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1869,
+    "remainingVotes": 790,
+    "eligibleVoters": 2659,
+    "voterTurnout": 70.29000091552734
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "龍西里",
+    "candidateVotes": {
+      "coast": 447,
+      "savannah": 596,
+      "rainforest": 171
+    },
+    "validVotes": 1214,
+    "invalidVotes": 18,
+    "totalVotes": 1232,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1233,
+    "remainingVotes": 536,
+    "eligibleVoters": 1769,
+    "voterTurnout": 69.63999938964844
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "田中里",
+    "candidateVotes": {
+      "coast": 651,
+      "savannah": 1308,
+      "rainforest": 310
+    },
+    "validVotes": 2269,
+    "invalidVotes": 40,
+    "totalVotes": 2309,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2309,
+    "remainingVotes": 889,
+    "eligibleVoters": 3198,
+    "voterTurnout": 72.19999694824219
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "福田里",
+    "candidateVotes": {
+      "coast": 247,
+      "savannah": 344,
+      "rainforest": 85
+    },
+    "validVotes": 676,
+    "invalidVotes": 24,
+    "totalVotes": 700,
+    "receivedUnvoted": 0,
+    "issuedVotes": 700,
+    "remainingVotes": 294,
+    "eligibleVoters": 994,
+    "voterTurnout": 70.41999816894531
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "麗水里",
+    "candidateVotes": {
+      "coast": 417,
+      "savannah": 802,
+      "rainforest": 264
+    },
+    "validVotes": 1483,
+    "invalidVotes": 17,
+    "totalVotes": 1500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1500,
+    "remainingVotes": 644,
+    "eligibleVoters": 2144,
+    "voterTurnout": 69.95999908447266
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "龍津里",
+    "candidateVotes": {
+      "coast": 919,
+      "savannah": 1965,
+      "rainforest": 425
+    },
+    "validVotes": 3309,
+    "invalidVotes": 50,
+    "totalVotes": 3359,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3359,
+    "remainingVotes": 1357,
+    "eligibleVoters": 4716,
+    "voterTurnout": 71.2300033569336
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "三德里",
+    "candidateVotes": {
+      "coast": 519,
+      "savannah": 1143,
+      "rainforest": 263
+    },
+    "validVotes": 1925,
+    "invalidVotes": 46,
+    "totalVotes": 1971,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1971,
+    "remainingVotes": 850,
+    "eligibleVoters": 2821,
+    "voterTurnout": 69.87000274658203
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "忠和里",
+    "candidateVotes": {
+      "coast": 767,
+      "savannah": 2066,
+      "rainforest": 449
+    },
+    "validVotes": 3282,
+    "invalidVotes": 61,
+    "totalVotes": 3343,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3343,
+    "remainingVotes": 1199,
+    "eligibleVoters": 4542,
+    "voterTurnout": 73.5999984741211
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "山腳里",
+    "candidateVotes": {
+      "coast": 905,
+      "savannah": 2030,
+      "rainforest": 599
+    },
+    "validVotes": 3534,
+    "invalidVotes": 55,
+    "totalVotes": 3589,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3589,
+    "remainingVotes": 1668,
+    "eligibleVoters": 5257,
+    "voterTurnout": 68.2699966430664
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "龍泉里",
+    "candidateVotes": {
+      "coast": 1298,
+      "savannah": 2400,
+      "rainforest": 697
+    },
+    "validVotes": 4395,
+    "invalidVotes": 80,
+    "totalVotes": 4475,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4475,
+    "remainingVotes": 2151,
+    "eligibleVoters": 6626,
+    "voterTurnout": 67.54000091552734
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "龍崗里",
+    "candidateVotes": {
+      "coast": 462,
+      "savannah": 911,
+      "rainforest": 273
+    },
+    "validVotes": 1646,
+    "invalidVotes": 42,
+    "totalVotes": 1688,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1688,
+    "remainingVotes": 773,
+    "eligibleVoters": 2461,
+    "voterTurnout": 68.58999633789062
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "新庄里",
+    "candidateVotes": {
+      "coast": 1100,
+      "savannah": 2197,
+      "rainforest": 603
+    },
+    "validVotes": 3900,
+    "invalidVotes": 83,
+    "totalVotes": 3983,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3983,
+    "remainingVotes": 1850,
+    "eligibleVoters": 5833,
+    "voterTurnout": 68.27999877929688
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "南寮里",
+    "candidateVotes": {
+      "coast": 309,
+      "savannah": 664,
+      "rainforest": 133
+    },
+    "validVotes": 1106,
+    "invalidVotes": 16,
+    "totalVotes": 1122,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1122,
+    "remainingVotes": 372,
+    "eligibleVoters": 1494,
+    "voterTurnout": 75.0999984741211
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "東海里",
+    "candidateVotes": {
+      "coast": 1816,
+      "savannah": 2375,
+      "rainforest": 874
+    },
+    "validVotes": 5065,
+    "invalidVotes": 72,
+    "totalVotes": 5137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5137,
+    "remainingVotes": 2354,
+    "eligibleVoters": 7491,
+    "voterTurnout": 68.58000183105469
+  },
+  {
+    "administrativeDivision": "龍井區",
+    "village": "新東里",
+    "candidateVotes": {
+      "coast": 930,
+      "savannah": 1611,
+      "rainforest": 462
+    },
+    "validVotes": 3003,
+    "invalidVotes": 45,
+    "totalVotes": 3048,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3048,
+    "remainingVotes": 1423,
+    "eligibleVoters": 4471,
+    "voterTurnout": 68.16999816894531
+  }
+]

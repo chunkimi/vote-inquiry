@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "大寮區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 36974,
+      "coast": 25819,
+      "rainforest": 1523
+    },
+    "validVotes": 64316,
+    "invalidVotes": 460,
+    "totalVotes": 64776,
+    "receivedUnvoted": 1,
+    "issuedVotes": 64777,
+    "remainingVotes": 22553,
+    "eligibleVoters": 87330,
+    "voterTurnout": 74.16999816894531
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "拷潭里",
+    "candidateVotes": {
+      "savannah": 739,
+      "coast": 304,
+      "rainforest": 11
+    },
+    "validVotes": 1054,
+    "invalidVotes": 9,
+    "totalVotes": 1063,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1063,
+    "remainingVotes": 338,
+    "eligibleVoters": 1401,
+    "voterTurnout": 75.87000274658203
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "內坑里",
+    "candidateVotes": {
+      "savannah": 1937,
+      "coast": 1302,
+      "rainforest": 75
+    },
+    "validVotes": 3314,
+    "invalidVotes": 14,
+    "totalVotes": 3328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3328,
+    "remainingVotes": 1514,
+    "eligibleVoters": 4842,
+    "voterTurnout": 68.7300033569336
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "大寮里",
+    "candidateVotes": {
+      "savannah": 2648,
+      "coast": 1569,
+      "rainforest": 108
+    },
+    "validVotes": 4325,
+    "invalidVotes": 41,
+    "totalVotes": 4366,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4366,
+    "remainingVotes": 1713,
+    "eligibleVoters": 6079,
+    "voterTurnout": 71.81999969482422
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "上寮里",
+    "candidateVotes": {
+      "savannah": 1103,
+      "coast": 442,
+      "rainforest": 40
+    },
+    "validVotes": 1585,
+    "invalidVotes": 13,
+    "totalVotes": 1598,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1598,
+    "remainingVotes": 520,
+    "eligibleVoters": 2118,
+    "voterTurnout": 75.44999694824219
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "三隆里",
+    "candidateVotes": {
+      "savannah": 1934,
+      "coast": 1137,
+      "rainforest": 81
+    },
+    "validVotes": 3152,
+    "invalidVotes": 24,
+    "totalVotes": 3176,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3176,
+    "remainingVotes": 1076,
+    "eligibleVoters": 4252,
+    "voterTurnout": 74.69000244140625
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "琉球里",
+    "candidateVotes": {
+      "savannah": 1940,
+      "coast": 943,
+      "rainforest": 76
+    },
+    "validVotes": 2959,
+    "invalidVotes": 8,
+    "totalVotes": 2967,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2967,
+    "remainingVotes": 937,
+    "eligibleVoters": 3904,
+    "voterTurnout": 76
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "翁園里",
+    "candidateVotes": {
+      "savannah": 1832,
+      "coast": 674,
+      "rainforest": 58
+    },
+    "validVotes": 2564,
+    "invalidVotes": 17,
+    "totalVotes": 2581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2581,
+    "remainingVotes": 715,
+    "eligibleVoters": 3296,
+    "voterTurnout": 78.30999755859375
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "前庄里",
+    "candidateVotes": {
+      "savannah": 924,
+      "coast": 684,
+      "rainforest": 32
+    },
+    "validVotes": 1640,
+    "invalidVotes": 6,
+    "totalVotes": 1646,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1646,
+    "remainingVotes": 449,
+    "eligibleVoters": 2095,
+    "voterTurnout": 78.56999969482422
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "中庄里",
+    "candidateVotes": {
+      "savannah": 3956,
+      "coast": 2791,
+      "rainforest": 158
+    },
+    "validVotes": 6905,
+    "invalidVotes": 38,
+    "totalVotes": 6943,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6943,
+    "remainingVotes": 2473,
+    "eligibleVoters": 9416,
+    "voterTurnout": 73.73999786376953
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "後庄里",
+    "candidateVotes": {
+      "savannah": 2641,
+      "coast": 2117,
+      "rainforest": 105
+    },
+    "validVotes": 4863,
+    "invalidVotes": 34,
+    "totalVotes": 4897,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4897,
+    "remainingVotes": 1643,
+    "eligibleVoters": 6540,
+    "voterTurnout": 74.87999725341797
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "義仁里",
+    "candidateVotes": {
+      "savannah": 845,
+      "coast": 461,
+      "rainforest": 32
+    },
+    "validVotes": 1338,
+    "invalidVotes": 13,
+    "totalVotes": 1351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1351,
+    "remainingVotes": 452,
+    "eligibleVoters": 1803,
+    "voterTurnout": 74.93000030517578
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "新厝里",
+    "candidateVotes": {
+      "savannah": 736,
+      "coast": 320,
+      "rainforest": 29
+    },
+    "validVotes": 1085,
+    "invalidVotes": 10,
+    "totalVotes": 1095,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1095,
+    "remainingVotes": 384,
+    "eligibleVoters": 1479,
+    "voterTurnout": 74.04000091552734
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "過溪里",
+    "candidateVotes": {
+      "savannah": 978,
+      "coast": 565,
+      "rainforest": 38
+    },
+    "validVotes": 1581,
+    "invalidVotes": 15,
+    "totalVotes": 1596,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1596,
+    "remainingVotes": 564,
+    "eligibleVoters": 2160,
+    "voterTurnout": 73.88999938964844
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "潮寮里",
+    "candidateVotes": {
+      "savannah": 1547,
+      "coast": 584,
+      "rainforest": 49
+    },
+    "validVotes": 2180,
+    "invalidVotes": 15,
+    "totalVotes": 2195,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2195,
+    "remainingVotes": 672,
+    "eligibleVoters": 2867,
+    "voterTurnout": 76.55999755859375
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "會結里",
+    "candidateVotes": {
+      "savannah": 622,
+      "coast": 339,
+      "rainforest": 28
+    },
+    "validVotes": 989,
+    "invalidVotes": 7,
+    "totalVotes": 996,
+    "receivedUnvoted": 0,
+    "issuedVotes": 996,
+    "remainingVotes": 369,
+    "eligibleVoters": 1365,
+    "voterTurnout": 72.97000122070312
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "會社里",
+    "candidateVotes": {
+      "savannah": 1869,
+      "coast": 1797,
+      "rainforest": 86
+    },
+    "validVotes": 3752,
+    "invalidVotes": 32,
+    "totalVotes": 3784,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3784,
+    "remainingVotes": 1624,
+    "eligibleVoters": 5408,
+    "voterTurnout": 69.97000122070312
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "山頂里",
+    "candidateVotes": {
+      "savannah": 2180,
+      "coast": 2499,
+      "rainforest": 124
+    },
+    "validVotes": 4803,
+    "invalidVotes": 35,
+    "totalVotes": 4838,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4838,
+    "remainingVotes": 1681,
+    "eligibleVoters": 6519,
+    "voterTurnout": 74.20999908447266
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "忠義里",
+    "candidateVotes": {
+      "savannah": 155,
+      "coast": 313,
+      "rainforest": 15
+    },
+    "validVotes": 483,
+    "invalidVotes": 10,
+    "totalVotes": 493,
+    "receivedUnvoted": 0,
+    "issuedVotes": 493,
+    "remainingVotes": 138,
+    "eligibleVoters": 631,
+    "voterTurnout": 78.12999725341797
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "永芳里",
+    "candidateVotes": {
+      "savannah": 2637,
+      "coast": 1836,
+      "rainforest": 96
+    },
+    "validVotes": 4569,
+    "invalidVotes": 41,
+    "totalVotes": 4610,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4610,
+    "remainingVotes": 1553,
+    "eligibleVoters": 6163,
+    "voterTurnout": 74.80000305175781
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "義和里",
+    "candidateVotes": {
+      "savannah": 1003,
+      "coast": 469,
+      "rainforest": 33
+    },
+    "validVotes": 1505,
+    "invalidVotes": 12,
+    "totalVotes": 1517,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1517,
+    "remainingVotes": 444,
+    "eligibleVoters": 1961,
+    "voterTurnout": 77.36000061035156
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "溪寮里",
+    "candidateVotes": {
+      "savannah": 714,
+      "coast": 345,
+      "rainforest": 23
+    },
+    "validVotes": 1082,
+    "invalidVotes": 11,
+    "totalVotes": 1093,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1093,
+    "remainingVotes": 348,
+    "eligibleVoters": 1441,
+    "voterTurnout": 75.8499984741211
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "江山里",
+    "candidateVotes": {
+      "savannah": 806,
+      "coast": 438,
+      "rainforest": 34
+    },
+    "validVotes": 1278,
+    "invalidVotes": 5,
+    "totalVotes": 1283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1283,
+    "remainingVotes": 400,
+    "eligibleVoters": 1683,
+    "voterTurnout": 76.2300033569336
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "昭明里",
+    "candidateVotes": {
+      "savannah": 1638,
+      "coast": 740,
+      "rainforest": 44
+    },
+    "validVotes": 2422,
+    "invalidVotes": 23,
+    "totalVotes": 2445,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2446,
+    "remainingVotes": 952,
+    "eligibleVoters": 3398,
+    "voterTurnout": 71.94999694824219
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "光武里",
+    "candidateVotes": {
+      "savannah": 38,
+      "coast": 141,
+      "rainforest": 10
+    },
+    "validVotes": 189,
+    "invalidVotes": 6,
+    "totalVotes": 195,
+    "receivedUnvoted": 0,
+    "issuedVotes": 195,
+    "remainingVotes": 109,
+    "eligibleVoters": 304,
+    "voterTurnout": 64.13999938964844
+  },
+  {
+    "administrativeDivision": "大寮區",
+    "village": "中興里",
+    "candidateVotes": {
+      "savannah": 1552,
+      "coast": 3009,
+      "rainforest": 138
+    },
+    "validVotes": 4699,
+    "invalidVotes": 21,
+    "totalVotes": 4720,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4720,
+    "remainingVotes": 1485,
+    "eligibleVoters": 6205,
+    "voterTurnout": 76.06999969482422
+  }
+]

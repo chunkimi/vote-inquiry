@@ -1,0 +1,325 @@
+[
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 396,
+      "coast": 3760,
+      "savannah": 4849
+    },
+    "validVotes": 9005,
+    "invalidVotes": 104,
+    "totalVotes": 9109,
+    "receivedUnvoted": 0,
+    "issuedVotes": 9109,
+    "remainingVotes": 3541,
+    "eligibleVoters": 12650,
+    "voterTurnout": 72.0079
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "廣興村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 175,
+      "savannah": 361
+    },
+    "validVotes": 551,
+    "invalidVotes": 7,
+    "totalVotes": 558,
+    "receivedUnvoted": 0,
+    "issuedVotes": 558,
+    "remainingVotes": 216,
+    "eligibleVoters": 774,
+    "voterTurnout": 72.093
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "崁頂村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 116,
+      "savannah": 172
+    },
+    "validVotes": 304,
+    "invalidVotes": 8,
+    "totalVotes": 312,
+    "receivedUnvoted": 0,
+    "issuedVotes": 312,
+    "remainingVotes": 148,
+    "eligibleVoters": 460,
+    "voterTurnout": 67.8261
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "八仙村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 233,
+      "savannah": 281
+    },
+    "validVotes": 535,
+    "invalidVotes": 6,
+    "totalVotes": 541,
+    "receivedUnvoted": 0,
+    "issuedVotes": 541,
+    "remainingVotes": 210,
+    "eligibleVoters": 751,
+    "voterTurnout": 72.0373
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "福盛村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 227,
+      "savannah": 253
+    },
+    "validVotes": 497,
+    "invalidVotes": 3,
+    "totalVotes": 500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 500,
+    "remainingVotes": 188,
+    "eligibleVoters": 688,
+    "voterTurnout": 72.6744
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "和興村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 211,
+      "savannah": 202
+    },
+    "validVotes": 422,
+    "invalidVotes": 4,
+    "totalVotes": 426,
+    "receivedUnvoted": 0,
+    "issuedVotes": 426,
+    "remainingVotes": 201,
+    "eligibleVoters": 627,
+    "voterTurnout": 67.9426
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "復興村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 86,
+      "savannah": 108
+    },
+    "validVotes": 207,
+    "invalidVotes": 3,
+    "totalVotes": 210,
+    "receivedUnvoted": 0,
+    "issuedVotes": 210,
+    "remainingVotes": 77,
+    "eligibleVoters": 287,
+    "voterTurnout": 73.1707
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "永平村",
+    "candidateVotes": {
+      "rainforest": 40,
+      "coast": 532,
+      "savannah": 596
+    },
+    "validVotes": 1168,
+    "invalidVotes": 14,
+    "totalVotes": 1182,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1182,
+    "remainingVotes": 449,
+    "eligibleVoters": 1631,
+    "voterTurnout": 72.4709
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "中寮村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 217,
+      "savannah": 208
+    },
+    "validVotes": 443,
+    "invalidVotes": 9,
+    "totalVotes": 452,
+    "receivedUnvoted": 0,
+    "issuedVotes": 452,
+    "remainingVotes": 179,
+    "eligibleVoters": 631,
+    "voterTurnout": 71.6323
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "廣福村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 112,
+      "savannah": 202
+    },
+    "validVotes": 330,
+    "invalidVotes": 2,
+    "totalVotes": 332,
+    "receivedUnvoted": 0,
+    "issuedVotes": 332,
+    "remainingVotes": 134,
+    "eligibleVoters": 466,
+    "voterTurnout": 71.2446
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "永福村",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 391,
+      "savannah": 463
+    },
+    "validVotes": 904,
+    "invalidVotes": 13,
+    "totalVotes": 917,
+    "receivedUnvoted": 0,
+    "issuedVotes": 917,
+    "remainingVotes": 363,
+    "eligibleVoters": 1280,
+    "voterTurnout": 71.6406
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "義和村",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 295,
+      "savannah": 458
+    },
+    "validVotes": 792,
+    "invalidVotes": 8,
+    "totalVotes": 800,
+    "receivedUnvoted": 0,
+    "issuedVotes": 800,
+    "remainingVotes": 247,
+    "eligibleVoters": 1047,
+    "voterTurnout": 76.4088
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "清水村",
+    "candidateVotes": {
+      "rainforest": 34,
+      "coast": 260,
+      "savannah": 307
+    },
+    "validVotes": 601,
+    "invalidVotes": 2,
+    "totalVotes": 603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 603,
+    "remainingVotes": 253,
+    "eligibleVoters": 856,
+    "voterTurnout": 70.4439
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "內城村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 141,
+      "savannah": 139
+    },
+    "validVotes": 297,
+    "invalidVotes": 2,
+    "totalVotes": 299,
+    "receivedUnvoted": 0,
+    "issuedVotes": 299,
+    "remainingVotes": 145,
+    "eligibleVoters": 444,
+    "voterTurnout": 67.3423
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "龍安村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 147,
+      "savannah": 300
+    },
+    "validVotes": 467,
+    "invalidVotes": 7,
+    "totalVotes": 474,
+    "receivedUnvoted": 0,
+    "issuedVotes": 474,
+    "remainingVotes": 192,
+    "eligibleVoters": 666,
+    "voterTurnout": 71.1712
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "爽文村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 145,
+      "savannah": 179
+    },
+    "validVotes": 348,
+    "invalidVotes": 2,
+    "totalVotes": 350,
+    "receivedUnvoted": 0,
+    "issuedVotes": 350,
+    "remainingVotes": 123,
+    "eligibleVoters": 473,
+    "voterTurnout": 73.9958
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "龍岩村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 192,
+      "savannah": 256
+    },
+    "validVotes": 466,
+    "invalidVotes": 5,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 151,
+    "eligibleVoters": 622,
+    "voterTurnout": 75.7235
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "永芳村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 134,
+      "savannah": 176
+    },
+    "validVotes": 325,
+    "invalidVotes": 3,
+    "totalVotes": 328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 328,
+    "remainingVotes": 116,
+    "eligibleVoters": 444,
+    "voterTurnout": 73.8739
+  },
+  {
+    "administrativeDivision": "中寮鄉",
+    "village": "永和村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 146,
+      "savannah": 188
+    },
+    "validVotes": 348,
+    "invalidVotes": 6,
+    "totalVotes": 354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 354,
+    "remainingVotes": 149,
+    "eligibleVoters": 503,
+    "voterTurnout": 70.3777
+  }
+]

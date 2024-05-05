@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 4301,
+      "coast": 2546,
+      "rainforest": 115
+    },
+    "validVotes": 6962,
+    "invalidVotes": 76,
+    "totalVotes": 7038,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7038,
+    "remainingVotes": 2489,
+    "eligibleVoters": 9527,
+    "voterTurnout": 73.87000274658203
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "溪洲村",
+    "candidateVotes": {
+      "savannah": 764,
+      "coast": 483,
+      "rainforest": 19
+    },
+    "validVotes": 1266,
+    "invalidVotes": 13,
+    "totalVotes": 1279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1279,
+    "remainingVotes": 456,
+    "eligibleVoters": 1735,
+    "voterTurnout": 73.72000122070312
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "溪南村",
+    "candidateVotes": {
+      "savannah": 424,
+      "coast": 294,
+      "rainforest": 10
+    },
+    "validVotes": 728,
+    "invalidVotes": 5,
+    "totalVotes": 733,
+    "receivedUnvoted": 0,
+    "issuedVotes": 733,
+    "remainingVotes": 217,
+    "eligibleVoters": 950,
+    "voterTurnout": 77.16000366210938
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "仁里村",
+    "candidateVotes": {
+      "savannah": 217,
+      "coast": 133,
+      "rainforest": 7
+    },
+    "validVotes": 357,
+    "invalidVotes": 2,
+    "totalVotes": 359,
+    "receivedUnvoted": 0,
+    "issuedVotes": 359,
+    "remainingVotes": 126,
+    "eligibleVoters": 485,
+    "voterTurnout": 74.0199966430664
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "溪北村",
+    "candidateVotes": {
+      "savannah": 200,
+      "coast": 305,
+      "rainforest": 9
+    },
+    "validVotes": 514,
+    "invalidVotes": 6,
+    "totalVotes": 520,
+    "receivedUnvoted": 0,
+    "issuedVotes": 520,
+    "remainingVotes": 154,
+    "eligibleVoters": 674,
+    "voterTurnout": 77.1500015258789
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "七塊村",
+    "candidateVotes": {
+      "savannah": 433,
+      "coast": 309,
+      "rainforest": 11
+    },
+    "validVotes": 753,
+    "invalidVotes": 10,
+    "totalVotes": 763,
+    "receivedUnvoted": 0,
+    "issuedVotes": 763,
+    "remainingVotes": 294,
+    "eligibleVoters": 1057,
+    "voterTurnout": 72.19000244140625
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "萬華村",
+    "candidateVotes": {
+      "savannah": 469,
+      "coast": 243,
+      "rainforest": 19
+    },
+    "validVotes": 731,
+    "invalidVotes": 6,
+    "totalVotes": 737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 737,
+    "remainingVotes": 281,
+    "eligibleVoters": 1018,
+    "voterTurnout": 72.4000015258789
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "米崙村",
+    "candidateVotes": {
+      "savannah": 444,
+      "coast": 303,
+      "rainforest": 9
+    },
+    "validVotes": 756,
+    "invalidVotes": 13,
+    "totalVotes": 769,
+    "receivedUnvoted": 0,
+    "issuedVotes": 769,
+    "remainingVotes": 269,
+    "eligibleVoters": 1038,
+    "voterTurnout": 74.08000183105469
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "壽元村",
+    "candidateVotes": {
+      "savannah": 585,
+      "coast": 157,
+      "rainforest": 15
+    },
+    "validVotes": 757,
+    "invalidVotes": 6,
+    "totalVotes": 763,
+    "receivedUnvoted": 0,
+    "issuedVotes": 763,
+    "remainingVotes": 322,
+    "eligibleVoters": 1085,
+    "voterTurnout": 70.31999969482422
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "同安村",
+    "candidateVotes": {
+      "savannah": 471,
+      "coast": 209,
+      "rainforest": 13
+    },
+    "validVotes": 693,
+    "invalidVotes": 7,
+    "totalVotes": 700,
+    "receivedUnvoted": 0,
+    "issuedVotes": 700,
+    "remainingVotes": 232,
+    "eligibleVoters": 932,
+    "voterTurnout": 75.11000061035156
+  },
+  {
+    "administrativeDivision": "南州鄉",
+    "village": "南安村",
+    "candidateVotes": {
+      "savannah": 294,
+      "coast": 110,
+      "rainforest": 3
+    },
+    "validVotes": 407,
+    "invalidVotes": 8,
+    "totalVotes": 415,
+    "receivedUnvoted": 0,
+    "issuedVotes": 415,
+    "remainingVotes": 138,
+    "eligibleVoters": 553,
+    "voterTurnout": 75.05000305175781
+  }
+]

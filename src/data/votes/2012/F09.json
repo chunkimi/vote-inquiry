@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "深坑區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 5799,
+      "coast": 7847,
+      "rainforest": 430
+    },
+    "validVotes": 14076,
+    "invalidVotes": 95,
+    "totalVotes": 14171,
+    "receivedUnvoted": 0,
+    "issuedVotes": 14171,
+    "remainingVotes": 4476,
+    "eligibleVoters": 18647,
+    "voterTurnout": 76
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "萬順里",
+    "candidateVotes": {
+      "savannah": 696,
+      "coast": 796,
+      "rainforest": 38
+    },
+    "validVotes": 1530,
+    "invalidVotes": 13,
+    "totalVotes": 1543,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1543,
+    "remainingVotes": 502,
+    "eligibleVoters": 2045,
+    "voterTurnout": 75.44999694824219
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "萬福里",
+    "candidateVotes": {
+      "savannah": 754,
+      "coast": 911,
+      "rainforest": 47
+    },
+    "validVotes": 1712,
+    "invalidVotes": 13,
+    "totalVotes": 1725,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1725,
+    "remainingVotes": 535,
+    "eligibleVoters": 2260,
+    "voterTurnout": 76.33000183105469
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "土庫里",
+    "candidateVotes": {
+      "savannah": 774,
+      "coast": 1055,
+      "rainforest": 62
+    },
+    "validVotes": 1891,
+    "invalidVotes": 13,
+    "totalVotes": 1904,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1904,
+    "remainingVotes": 655,
+    "eligibleVoters": 2559,
+    "voterTurnout": 74.4000015258789
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "深坑里",
+    "candidateVotes": {
+      "savannah": 899,
+      "coast": 1057,
+      "rainforest": 56
+    },
+    "validVotes": 2012,
+    "invalidVotes": 16,
+    "totalVotes": 2028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2028,
+    "remainingVotes": 704,
+    "eligibleVoters": 2732,
+    "voterTurnout": 74.2300033569336
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "埔新里",
+    "candidateVotes": {
+      "savannah": 1407,
+      "coast": 2207,
+      "rainforest": 120
+    },
+    "validVotes": 3734,
+    "invalidVotes": 26,
+    "totalVotes": 3760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3760,
+    "remainingVotes": 1085,
+    "eligibleVoters": 4845,
+    "voterTurnout": 77.61000061035156
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "昇高里",
+    "candidateVotes": {
+      "savannah": 564,
+      "coast": 786,
+      "rainforest": 44
+    },
+    "validVotes": 1394,
+    "invalidVotes": 6,
+    "totalVotes": 1400,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1400,
+    "remainingVotes": 417,
+    "eligibleVoters": 1817,
+    "voterTurnout": 77.05000305175781
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "賴仲里",
+    "candidateVotes": {
+      "savannah": 481,
+      "coast": 858,
+      "rainforest": 48
+    },
+    "validVotes": 1387,
+    "invalidVotes": 5,
+    "totalVotes": 1392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1392,
+    "remainingVotes": 457,
+    "eligibleVoters": 1849,
+    "voterTurnout": 75.27999877929688
+  },
+  {
+    "administrativeDivision": "深坑區",
+    "village": "阿柔里",
+    "candidateVotes": {
+      "savannah": 224,
+      "coast": 177,
+      "rainforest": 15
+    },
+    "validVotes": 416,
+    "invalidVotes": 3,
+    "totalVotes": 419,
+    "receivedUnvoted": 0,
+    "issuedVotes": 419,
+    "remainingVotes": 121,
+    "eligibleVoters": 540,
+    "voterTurnout": 77.58999633789062
+  }
+]

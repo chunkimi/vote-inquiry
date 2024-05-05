@@ -1,0 +1,478 @@
+[
+  {
+    "administrativeDivision": "大里區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 6541,
+      "coast": 44782,
+      "savannah": 74935
+    },
+    "validVotes": 126258,
+    "invalidVotes": 1394,
+    "totalVotes": 127652,
+    "receivedUnvoted": 2,
+    "issuedVotes": 127654,
+    "remainingVotes": 40358,
+    "eligibleVoters": 168012,
+    "voterTurnout": 75.9779
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "東湖里",
+    "candidateVotes": {
+      "rainforest": 366,
+      "coast": 2734,
+      "savannah": 4253
+    },
+    "validVotes": 7353,
+    "invalidVotes": 71,
+    "totalVotes": 7424,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7424,
+    "remainingVotes": 2538,
+    "eligibleVoters": 9962,
+    "voterTurnout": 74.5232
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "西湖里",
+    "candidateVotes": {
+      "rainforest": 109,
+      "coast": 678,
+      "savannah": 1258
+    },
+    "validVotes": 2045,
+    "invalidVotes": 27,
+    "totalVotes": 2072,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2072,
+    "remainingVotes": 683,
+    "eligibleVoters": 2755,
+    "voterTurnout": 75.2087
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "大里里",
+    "candidateVotes": {
+      "rainforest": 130,
+      "coast": 886,
+      "savannah": 1606
+    },
+    "validVotes": 2622,
+    "invalidVotes": 39,
+    "totalVotes": 2661,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2661,
+    "remainingVotes": 831,
+    "eligibleVoters": 3492,
+    "voterTurnout": 76.2027
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "新里里",
+    "candidateVotes": {
+      "rainforest": 314,
+      "coast": 2549,
+      "savannah": 4233
+    },
+    "validVotes": 7096,
+    "invalidVotes": 64,
+    "totalVotes": 7160,
+    "receivedUnvoted": 1,
+    "issuedVotes": 7161,
+    "remainingVotes": 2663,
+    "eligibleVoters": 9824,
+    "voterTurnout": 72.8827
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "國光里",
+    "candidateVotes": {
+      "rainforest": 225,
+      "coast": 1590,
+      "savannah": 2435
+    },
+    "validVotes": 4250,
+    "invalidVotes": 64,
+    "totalVotes": 4314,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4314,
+    "remainingVotes": 1259,
+    "eligibleVoters": 5573,
+    "voterTurnout": 77.4089
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "樹王里",
+    "candidateVotes": {
+      "rainforest": 120,
+      "coast": 794,
+      "savannah": 1748
+    },
+    "validVotes": 2662,
+    "invalidVotes": 28,
+    "totalVotes": 2690,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2690,
+    "remainingVotes": 728,
+    "eligibleVoters": 3418,
+    "voterTurnout": 78.701
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "祥興里",
+    "candidateVotes": {
+      "rainforest": 279,
+      "coast": 1712,
+      "savannah": 3102
+    },
+    "validVotes": 5093,
+    "invalidVotes": 52,
+    "totalVotes": 5145,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5145,
+    "remainingVotes": 1713,
+    "eligibleVoters": 6858,
+    "voterTurnout": 75.0219
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "內新里",
+    "candidateVotes": {
+      "rainforest": 297,
+      "coast": 2332,
+      "savannah": 3468
+    },
+    "validVotes": 6097,
+    "invalidVotes": 71,
+    "totalVotes": 6168,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6168,
+    "remainingVotes": 1974,
+    "eligibleVoters": 8142,
+    "voterTurnout": 75.7553
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "中新里",
+    "candidateVotes": {
+      "rainforest": 225,
+      "coast": 1423,
+      "savannah": 2197
+    },
+    "validVotes": 3845,
+    "invalidVotes": 47,
+    "totalVotes": 3892,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3892,
+    "remainingVotes": 1225,
+    "eligibleVoters": 5117,
+    "voterTurnout": 76.0602
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "東昇里",
+    "candidateVotes": {
+      "rainforest": 125,
+      "coast": 869,
+      "savannah": 1432
+    },
+    "validVotes": 2426,
+    "invalidVotes": 25,
+    "totalVotes": 2451,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2451,
+    "remainingVotes": 820,
+    "eligibleVoters": 3271,
+    "voterTurnout": 74.9312
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "大元里",
+    "candidateVotes": {
+      "rainforest": 170,
+      "coast": 1038,
+      "savannah": 2009
+    },
+    "validVotes": 3217,
+    "invalidVotes": 34,
+    "totalVotes": 3251,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3251,
+    "remainingVotes": 836,
+    "eligibleVoters": 4087,
+    "voterTurnout": 79.5449
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "夏田里",
+    "candidateVotes": {
+      "rainforest": 40,
+      "coast": 208,
+      "savannah": 498
+    },
+    "validVotes": 746,
+    "invalidVotes": 14,
+    "totalVotes": 760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 760,
+    "remainingVotes": 219,
+    "eligibleVoters": 979,
+    "voterTurnout": 77.6302
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "仁化里",
+    "candidateVotes": {
+      "rainforest": 301,
+      "coast": 1966,
+      "savannah": 3695
+    },
+    "validVotes": 5962,
+    "invalidVotes": 67,
+    "totalVotes": 6029,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6029,
+    "remainingVotes": 2139,
+    "eligibleVoters": 8168,
+    "voterTurnout": 73.8124
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "仁德里",
+    "candidateVotes": {
+      "rainforest": 239,
+      "coast": 1450,
+      "savannah": 2628
+    },
+    "validVotes": 4317,
+    "invalidVotes": 42,
+    "totalVotes": 4359,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4359,
+    "remainingVotes": 1379,
+    "eligibleVoters": 5738,
+    "voterTurnout": 75.9672
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "健民里",
+    "candidateVotes": {
+      "rainforest": 155,
+      "coast": 1138,
+      "savannah": 1910
+    },
+    "validVotes": 3203,
+    "invalidVotes": 37,
+    "totalVotes": 3240,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3240,
+    "remainingVotes": 1130,
+    "eligibleVoters": 4370,
+    "voterTurnout": 74.1419
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "塗城里",
+    "candidateVotes": {
+      "rainforest": 336,
+      "coast": 2062,
+      "savannah": 3687
+    },
+    "validVotes": 6085,
+    "invalidVotes": 65,
+    "totalVotes": 6150,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6150,
+    "remainingVotes": 2039,
+    "eligibleVoters": 8189,
+    "voterTurnout": 75.1007
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "東興里",
+    "candidateVotes": {
+      "rainforest": 257,
+      "coast": 1866,
+      "savannah": 3109
+    },
+    "validVotes": 5232,
+    "invalidVotes": 51,
+    "totalVotes": 5283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5283,
+    "remainingVotes": 1561,
+    "eligibleVoters": 6844,
+    "voterTurnout": 77.1917
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "大明里",
+    "candidateVotes": {
+      "rainforest": 162,
+      "coast": 1081,
+      "savannah": 1708
+    },
+    "validVotes": 2951,
+    "invalidVotes": 36,
+    "totalVotes": 2987,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2987,
+    "remainingVotes": 990,
+    "eligibleVoters": 3977,
+    "voterTurnout": 75.1069
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "永隆里",
+    "candidateVotes": {
+      "rainforest": 423,
+      "coast": 2711,
+      "savannah": 4156
+    },
+    "validVotes": 7290,
+    "invalidVotes": 64,
+    "totalVotes": 7354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7354,
+    "remainingVotes": 1674,
+    "eligibleVoters": 9028,
+    "voterTurnout": 81.4577
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "日新里",
+    "candidateVotes": {
+      "rainforest": 161,
+      "coast": 1140,
+      "savannah": 1691
+    },
+    "validVotes": 2992,
+    "invalidVotes": 50,
+    "totalVotes": 3042,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3042,
+    "remainingVotes": 828,
+    "eligibleVoters": 3870,
+    "voterTurnout": 78.6047
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "西榮里",
+    "candidateVotes": {
+      "rainforest": 199,
+      "coast": 1466,
+      "savannah": 2383
+    },
+    "validVotes": 4048,
+    "invalidVotes": 48,
+    "totalVotes": 4096,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4096,
+    "remainingVotes": 1340,
+    "eligibleVoters": 5436,
+    "voterTurnout": 75.3495
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "長榮里",
+    "candidateVotes": {
+      "rainforest": 360,
+      "coast": 2442,
+      "savannah": 3686
+    },
+    "validVotes": 6488,
+    "invalidVotes": 61,
+    "totalVotes": 6549,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6549,
+    "remainingVotes": 1766,
+    "eligibleVoters": 8315,
+    "voterTurnout": 78.7613
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "金城里",
+    "candidateVotes": {
+      "rainforest": 370,
+      "coast": 2439,
+      "savannah": 4010
+    },
+    "validVotes": 6819,
+    "invalidVotes": 74,
+    "totalVotes": 6893,
+    "receivedUnvoted": 1,
+    "issuedVotes": 6894,
+    "remainingVotes": 2390,
+    "eligibleVoters": 9284,
+    "voterTurnout": 74.246
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "立仁里",
+    "candidateVotes": {
+      "rainforest": 182,
+      "coast": 1262,
+      "savannah": 2274
+    },
+    "validVotes": 3718,
+    "invalidVotes": 50,
+    "totalVotes": 3768,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3768,
+    "remainingVotes": 1391,
+    "eligibleVoters": 5159,
+    "voterTurnout": 73.0374
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "立德里",
+    "candidateVotes": {
+      "rainforest": 259,
+      "coast": 1961,
+      "savannah": 3389
+    },
+    "validVotes": 5609,
+    "invalidVotes": 65,
+    "totalVotes": 5674,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5674,
+    "remainingVotes": 1746,
+    "eligibleVoters": 7420,
+    "voterTurnout": 76.469
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "新仁里",
+    "candidateVotes": {
+      "rainforest": 281,
+      "coast": 1941,
+      "savannah": 3488
+    },
+    "validVotes": 5710,
+    "invalidVotes": 64,
+    "totalVotes": 5774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5774,
+    "remainingVotes": 1740,
+    "eligibleVoters": 7514,
+    "voterTurnout": 76.8432
+  },
+  {
+    "administrativeDivision": "大里區",
+    "village": "瑞城里",
+    "candidateVotes": {
+      "rainforest": 456,
+      "coast": 3044,
+      "savannah": 4882
+    },
+    "validVotes": 8382,
+    "invalidVotes": 84,
+    "totalVotes": 8466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8466,
+    "remainingVotes": 2756,
+    "eligibleVoters": 11222,
+    "voterTurnout": 75.4411
+  }
+]

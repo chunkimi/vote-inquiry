@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 6491,
+      "coast": 3769,
+      "rainforest": 217
+    },
+    "validVotes": 10477,
+    "invalidVotes": 138,
+    "totalVotes": 10615,
+    "receivedUnvoted": 3,
+    "issuedVotes": 10618,
+    "remainingVotes": 3653,
+    "eligibleVoters": 14271,
+    "voterTurnout": 74.37999725341797
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "後寮村",
+    "candidateVotes": {
+      "savannah": 267,
+      "coast": 98,
+      "rainforest": 9
+    },
+    "validVotes": 374,
+    "invalidVotes": 7,
+    "totalVotes": 381,
+    "receivedUnvoted": 0,
+    "issuedVotes": 381,
+    "remainingVotes": 134,
+    "eligibleVoters": 515,
+    "voterTurnout": 73.9800033569336
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "鹿東村",
+    "candidateVotes": {
+      "savannah": 322,
+      "coast": 136,
+      "rainforest": 15
+    },
+    "validVotes": 473,
+    "invalidVotes": 6,
+    "totalVotes": 479,
+    "receivedUnvoted": 0,
+    "issuedVotes": 479,
+    "remainingVotes": 141,
+    "eligibleVoters": 620,
+    "voterTurnout": 77.26000213623047
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "鹿草村",
+    "candidateVotes": {
+      "savannah": 533,
+      "coast": 400,
+      "rainforest": 20
+    },
+    "validVotes": 953,
+    "invalidVotes": 15,
+    "totalVotes": 968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 968,
+    "remainingVotes": 298,
+    "eligibleVoters": 1266,
+    "voterTurnout": 76.45999908447266
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "西井村",
+    "candidateVotes": {
+      "savannah": 497,
+      "coast": 422,
+      "rainforest": 15
+    },
+    "validVotes": 934,
+    "invalidVotes": 6,
+    "totalVotes": 940,
+    "receivedUnvoted": 3,
+    "issuedVotes": 943,
+    "remainingVotes": 303,
+    "eligibleVoters": 1246,
+    "voterTurnout": 75.44000244140625
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "豊稠村",
+    "candidateVotes": {
+      "savannah": 184,
+      "coast": 181,
+      "rainforest": 8
+    },
+    "validVotes": 373,
+    "invalidVotes": 9,
+    "totalVotes": 382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 382,
+    "remainingVotes": 307,
+    "eligibleVoters": 689,
+    "voterTurnout": 55.439998626708984
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "重寮村",
+    "candidateVotes": {
+      "savannah": 543,
+      "coast": 240,
+      "rainforest": 15
+    },
+    "validVotes": 798,
+    "invalidVotes": 9,
+    "totalVotes": 807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 807,
+    "remainingVotes": 298,
+    "eligibleVoters": 1105,
+    "voterTurnout": 73.02999877929688
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "施家村",
+    "candidateVotes": {
+      "savannah": 244,
+      "coast": 103,
+      "rainforest": 9
+    },
+    "validVotes": 356,
+    "invalidVotes": 4,
+    "totalVotes": 360,
+    "receivedUnvoted": 0,
+    "issuedVotes": 360,
+    "remainingVotes": 125,
+    "eligibleVoters": 485,
+    "voterTurnout": 74.2300033569336
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "下潭村",
+    "candidateVotes": {
+      "savannah": 475,
+      "coast": 163,
+      "rainforest": 15
+    },
+    "validVotes": 653,
+    "invalidVotes": 10,
+    "totalVotes": 663,
+    "receivedUnvoted": 0,
+    "issuedVotes": 663,
+    "remainingVotes": 222,
+    "eligibleVoters": 885,
+    "voterTurnout": 74.91999816894531
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "光潭村",
+    "candidateVotes": {
+      "savannah": 524,
+      "coast": 260,
+      "rainforest": 24
+    },
+    "validVotes": 808,
+    "invalidVotes": 9,
+    "totalVotes": 817,
+    "receivedUnvoted": 0,
+    "issuedVotes": 817,
+    "remainingVotes": 258,
+    "eligibleVoters": 1075,
+    "voterTurnout": 76
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "碧潭村",
+    "candidateVotes": {
+      "savannah": 403,
+      "coast": 333,
+      "rainforest": 14
+    },
+    "validVotes": 750,
+    "invalidVotes": 10,
+    "totalVotes": 760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 760,
+    "remainingVotes": 257,
+    "eligibleVoters": 1017,
+    "voterTurnout": 74.7300033569336
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "松竹村",
+    "candidateVotes": {
+      "savannah": 383,
+      "coast": 267,
+      "rainforest": 19
+    },
+    "validVotes": 669,
+    "invalidVotes": 9,
+    "totalVotes": 678,
+    "receivedUnvoted": 0,
+    "issuedVotes": 678,
+    "remainingVotes": 271,
+    "eligibleVoters": 949,
+    "voterTurnout": 71.44000244140625
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "竹山村",
+    "candidateVotes": {
+      "savannah": 476,
+      "coast": 246,
+      "rainforest": 12
+    },
+    "validVotes": 734,
+    "invalidVotes": 13,
+    "totalVotes": 747,
+    "receivedUnvoted": 0,
+    "issuedVotes": 747,
+    "remainingVotes": 241,
+    "eligibleVoters": 988,
+    "voterTurnout": 75.61000061035156
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "後堀村",
+    "candidateVotes": {
+      "savannah": 623,
+      "coast": 373,
+      "rainforest": 16
+    },
+    "validVotes": 1012,
+    "invalidVotes": 10,
+    "totalVotes": 1022,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1022,
+    "remainingVotes": 304,
+    "eligibleVoters": 1326,
+    "voterTurnout": 77.06999969482422
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "三角村",
+    "candidateVotes": {
+      "savannah": 769,
+      "coast": 352,
+      "rainforest": 20
+    },
+    "validVotes": 1141,
+    "invalidVotes": 13,
+    "totalVotes": 1154,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1154,
+    "remainingVotes": 363,
+    "eligibleVoters": 1517,
+    "voterTurnout": 76.06999969482422
+  },
+  {
+    "administrativeDivision": "鹿草鄉",
+    "village": "下麻村",
+    "candidateVotes": {
+      "savannah": 248,
+      "coast": 195,
+      "rainforest": 6
+    },
+    "validVotes": 449,
+    "invalidVotes": 8,
+    "totalVotes": 457,
+    "receivedUnvoted": 0,
+    "issuedVotes": 457,
+    "remainingVotes": 131,
+    "eligibleVoters": 588,
+    "voterTurnout": 77.72000122070312
+  }
+]

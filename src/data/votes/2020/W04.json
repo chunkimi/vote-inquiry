@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 437,
+      "coast": 7535,
+      "savannah": 3161
+    },
+    "validVotes": 11133,
+    "invalidVotes": 111,
+    "totalVotes": 11244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 11244,
+    "remainingVotes": 16241,
+    "eligibleVoters": 27485,
+    "voterTurnout": 40.9096
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "古寧村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 891,
+      "savannah": 201
+    },
+    "validVotes": 1118,
+    "invalidVotes": 9,
+    "totalVotes": 1127,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1127,
+    "remainingVotes": 2118,
+    "eligibleVoters": 3245,
+    "voterTurnout": 34.7304
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "安美村",
+    "candidateVotes": {
+      "rainforest": 76,
+      "coast": 1330,
+      "savannah": 446
+    },
+    "validVotes": 1852,
+    "invalidVotes": 25,
+    "totalVotes": 1877,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1877,
+    "remainingVotes": 2918,
+    "eligibleVoters": 4795,
+    "voterTurnout": 39.1449
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "湖埔村",
+    "candidateVotes": {
+      "rainforest": 140,
+      "coast": 1884,
+      "savannah": 975
+    },
+    "validVotes": 2999,
+    "invalidVotes": 29,
+    "totalVotes": 3028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3028,
+    "remainingVotes": 3795,
+    "eligibleVoters": 6823,
+    "voterTurnout": 44.3793
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "榜林村",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 1459,
+      "savannah": 460
+    },
+    "validVotes": 1978,
+    "invalidVotes": 18,
+    "totalVotes": 1996,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1996,
+    "remainingVotes": 3089,
+    "eligibleVoters": 5085,
+    "voterTurnout": 39.2527
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "盤山村",
+    "candidateVotes": {
+      "rainforest": 123,
+      "coast": 1517,
+      "savannah": 988
+    },
+    "validVotes": 2628,
+    "invalidVotes": 27,
+    "totalVotes": 2655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2655,
+    "remainingVotes": 3339,
+    "eligibleVoters": 5994,
+    "voterTurnout": 44.2943
+  },
+  {
+    "administrativeDivision": "金寧鄉",
+    "village": "后盤村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 454,
+      "savannah": 91
+    },
+    "validVotes": 558,
+    "invalidVotes": 3,
+    "totalVotes": 561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 561,
+    "remainingVotes": 982,
+    "eligibleVoters": 1543,
+    "voterTurnout": 36.3577
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "五股區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 22314,
+      "coast": 22154,
+      "rainforest": 1276
+    },
+    "validVotes": 45744,
+    "invalidVotes": 278,
+    "totalVotes": 46022,
+    "receivedUnvoted": 0,
+    "issuedVotes": 46022,
+    "remainingVotes": 15270,
+    "eligibleVoters": 61292,
+    "voterTurnout": 75.08999633789062
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "興珍里",
+    "candidateVotes": {
+      "savannah": 1910,
+      "coast": 1288,
+      "rainforest": 82
+    },
+    "validVotes": 3280,
+    "invalidVotes": 31,
+    "totalVotes": 3311,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3311,
+    "remainingVotes": 1001,
+    "eligibleVoters": 4312,
+    "voterTurnout": 76.79000091552734
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "更寮里",
+    "candidateVotes": {
+      "savannah": 578,
+      "coast": 272,
+      "rainforest": 19
+    },
+    "validVotes": 869,
+    "invalidVotes": 7,
+    "totalVotes": 876,
+    "receivedUnvoted": 0,
+    "issuedVotes": 876,
+    "remainingVotes": 215,
+    "eligibleVoters": 1091,
+    "voterTurnout": 80.29000091552734
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "觀音里",
+    "candidateVotes": {
+      "savannah": 581,
+      "coast": 346,
+      "rainforest": 22
+    },
+    "validVotes": 949,
+    "invalidVotes": 9,
+    "totalVotes": 958,
+    "receivedUnvoted": 0,
+    "issuedVotes": 958,
+    "remainingVotes": 317,
+    "eligibleVoters": 1275,
+    "voterTurnout": 75.13999938964844
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "集福里",
+    "candidateVotes": {
+      "savannah": 1155,
+      "coast": 1120,
+      "rainforest": 66
+    },
+    "validVotes": 2341,
+    "invalidVotes": 11,
+    "totalVotes": 2352,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2352,
+    "remainingVotes": 747,
+    "eligibleVoters": 3099,
+    "voterTurnout": 75.9000015258789
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "集賢里",
+    "candidateVotes": {
+      "savannah": 1237,
+      "coast": 997,
+      "rainforest": 68
+    },
+    "validVotes": 2302,
+    "invalidVotes": 15,
+    "totalVotes": 2317,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2317,
+    "remainingVotes": 786,
+    "eligibleVoters": 3103,
+    "voterTurnout": 74.66999816894531
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "成德里",
+    "candidateVotes": {
+      "savannah": 1014,
+      "coast": 673,
+      "rainforest": 37
+    },
+    "validVotes": 1724,
+    "invalidVotes": 12,
+    "totalVotes": 1736,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1736,
+    "remainingVotes": 595,
+    "eligibleVoters": 2331,
+    "voterTurnout": 74.47000122070312
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "成州里",
+    "candidateVotes": {
+      "savannah": 1872,
+      "coast": 1363,
+      "rainforest": 101
+    },
+    "validVotes": 3336,
+    "invalidVotes": 13,
+    "totalVotes": 3349,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3349,
+    "remainingVotes": 1152,
+    "eligibleVoters": 4501,
+    "voterTurnout": 74.41000366210938
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "成功里",
+    "candidateVotes": {
+      "savannah": 1646,
+      "coast": 1307,
+      "rainforest": 73
+    },
+    "validVotes": 3026,
+    "invalidVotes": 23,
+    "totalVotes": 3049,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3049,
+    "remainingVotes": 1170,
+    "eligibleVoters": 4219,
+    "voterTurnout": 72.2699966430664
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "成泰里",
+    "candidateVotes": {
+      "savannah": 1577,
+      "coast": 1219,
+      "rainforest": 70
+    },
+    "validVotes": 2866,
+    "invalidVotes": 23,
+    "totalVotes": 2889,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2889,
+    "remainingVotes": 972,
+    "eligibleVoters": 3861,
+    "voterTurnout": 74.83000183105469
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "五龍里",
+    "candidateVotes": {
+      "savannah": 624,
+      "coast": 316,
+      "rainforest": 31
+    },
+    "validVotes": 971,
+    "invalidVotes": 4,
+    "totalVotes": 975,
+    "receivedUnvoted": 0,
+    "issuedVotes": 975,
+    "remainingVotes": 281,
+    "eligibleVoters": 1256,
+    "voterTurnout": 77.62999725341797
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "五福里",
+    "candidateVotes": {
+      "savannah": 1071,
+      "coast": 1131,
+      "rainforest": 48
+    },
+    "validVotes": 2250,
+    "invalidVotes": 9,
+    "totalVotes": 2259,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2259,
+    "remainingVotes": 681,
+    "eligibleVoters": 2940,
+    "voterTurnout": 76.83999633789062
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "六福里",
+    "candidateVotes": {
+      "savannah": 867,
+      "coast": 1167,
+      "rainforest": 75
+    },
+    "validVotes": 2109,
+    "invalidVotes": 16,
+    "totalVotes": 2125,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2125,
+    "remainingVotes": 694,
+    "eligibleVoters": 2819,
+    "voterTurnout": 75.37999725341797
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "民義里",
+    "candidateVotes": {
+      "savannah": 966,
+      "coast": 995,
+      "rainforest": 59
+    },
+    "validVotes": 2020,
+    "invalidVotes": 8,
+    "totalVotes": 2028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2028,
+    "remainingVotes": 609,
+    "eligibleVoters": 2637,
+    "voterTurnout": 76.91000366210938
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "五股里",
+    "candidateVotes": {
+      "savannah": 1300,
+      "coast": 1077,
+      "rainforest": 60
+    },
+    "validVotes": 2437,
+    "invalidVotes": 15,
+    "totalVotes": 2452,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2452,
+    "remainingVotes": 1090,
+    "eligibleVoters": 3542,
+    "voterTurnout": 69.2300033569336
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "德音里",
+    "candidateVotes": {
+      "savannah": 1365,
+      "coast": 1588,
+      "rainforest": 116
+    },
+    "validVotes": 3069,
+    "invalidVotes": 13,
+    "totalVotes": 3082,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3082,
+    "remainingVotes": 928,
+    "eligibleVoters": 4010,
+    "voterTurnout": 76.86000061035156
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "水碓里",
+    "candidateVotes": {
+      "savannah": 2253,
+      "coast": 2193,
+      "rainforest": 106
+    },
+    "validVotes": 4552,
+    "invalidVotes": 25,
+    "totalVotes": 4577,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4577,
+    "remainingVotes": 1487,
+    "eligibleVoters": 6064,
+    "voterTurnout": 75.4800033569336
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "福德里",
+    "candidateVotes": {
+      "savannah": 726,
+      "coast": 887,
+      "rainforest": 48
+    },
+    "validVotes": 1661,
+    "invalidVotes": 8,
+    "totalVotes": 1669,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1669,
+    "remainingVotes": 769,
+    "eligibleVoters": 2438,
+    "voterTurnout": 68.45999908447266
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "德泰里",
+    "candidateVotes": {
+      "savannah": 1090,
+      "coast": 1330,
+      "rainforest": 73
+    },
+    "validVotes": 2493,
+    "invalidVotes": 14,
+    "totalVotes": 2507,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2507,
+    "remainingVotes": 969,
+    "eligibleVoters": 3476,
+    "voterTurnout": 72.12000274658203
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "貿商里",
+    "candidateVotes": {
+      "savannah": 386,
+      "coast": 1539,
+      "rainforest": 80
+    },
+    "validVotes": 2005,
+    "invalidVotes": 18,
+    "totalVotes": 2023,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2023,
+    "remainingVotes": 454,
+    "eligibleVoters": 2477,
+    "voterTurnout": 81.66999816894531
+  },
+  {
+    "administrativeDivision": "五股區",
+    "village": "陸一里",
+    "candidateVotes": {
+      "savannah": 96,
+      "coast": 1346,
+      "rainforest": 42
+    },
+    "validVotes": 1484,
+    "invalidVotes": 4,
+    "totalVotes": 1488,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1488,
+    "remainingVotes": 353,
+    "eligibleVoters": 1841,
+    "voterTurnout": 80.83000183105469
+  }
+]

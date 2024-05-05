@@ -1,0 +1,512 @@
+[
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 7847,
+      "savannah": 12182,
+      "rainforest": 3590
+    },
+    "validVotes": 23619,
+    "invalidVotes": 293,
+    "totalVotes": 23912,
+    "receivedUnvoted": 0,
+    "issuedVotes": 23912,
+    "remainingVotes": 12769,
+    "eligibleVoters": 36681,
+    "voterTurnout": 65.19000244140625
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "林泉里",
+    "candidateVotes": {
+      "coast": 355,
+      "savannah": 576,
+      "rainforest": 163
+    },
+    "validVotes": 1094,
+    "invalidVotes": 16,
+    "totalVotes": 1110,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1110,
+    "remainingVotes": 675,
+    "eligibleVoters": 1785,
+    "voterTurnout": 62.18000030517578
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "花崗里",
+    "candidateVotes": {
+      "coast": 226,
+      "savannah": 364,
+      "rainforest": 87
+    },
+    "validVotes": 677,
+    "invalidVotes": 9,
+    "totalVotes": 686,
+    "receivedUnvoted": 0,
+    "issuedVotes": 686,
+    "remainingVotes": 364,
+    "eligibleVoters": 1050,
+    "voterTurnout": 65.33000183105469
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "虹橋里",
+    "candidateVotes": {
+      "coast": 371,
+      "savannah": 494,
+      "rainforest": 126
+    },
+    "validVotes": 991,
+    "invalidVotes": 12,
+    "totalVotes": 1003,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1003,
+    "remainingVotes": 550,
+    "eligibleVoters": 1553,
+    "voterTurnout": 64.58000183105469
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "水錦里",
+    "candidateVotes": {
+      "coast": 416,
+      "savannah": 513,
+      "rainforest": 174
+    },
+    "validVotes": 1103,
+    "invalidVotes": 9,
+    "totalVotes": 1112,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1112,
+    "remainingVotes": 625,
+    "eligibleVoters": 1737,
+    "voterTurnout": 64.0199966430664
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "智仁里",
+    "candidateVotes": {
+      "coast": 567,
+      "savannah": 720,
+      "rainforest": 202
+    },
+    "validVotes": 1489,
+    "invalidVotes": 17,
+    "totalVotes": 1506,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1506,
+    "remainingVotes": 860,
+    "eligibleVoters": 2366,
+    "voterTurnout": 63.650001525878906
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "和明里",
+    "candidateVotes": {
+      "coast": 365,
+      "savannah": 488,
+      "rainforest": 160
+    },
+    "validVotes": 1013,
+    "invalidVotes": 14,
+    "totalVotes": 1027,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1027,
+    "remainingVotes": 611,
+    "eligibleVoters": 1638,
+    "voterTurnout": 62.70000076293945
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "忠勇里",
+    "candidateVotes": {
+      "coast": 197,
+      "savannah": 316,
+      "rainforest": 82
+    },
+    "validVotes": 595,
+    "invalidVotes": 10,
+    "totalVotes": 605,
+    "receivedUnvoted": 0,
+    "issuedVotes": 605,
+    "remainingVotes": 360,
+    "eligibleVoters": 965,
+    "voterTurnout": 62.689998626708984
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "玉田里",
+    "candidateVotes": {
+      "coast": 238,
+      "savannah": 363,
+      "rainforest": 91
+    },
+    "validVotes": 692,
+    "invalidVotes": 8,
+    "totalVotes": 700,
+    "receivedUnvoted": 0,
+    "issuedVotes": 700,
+    "remainingVotes": 316,
+    "eligibleVoters": 1016,
+    "voterTurnout": 68.9000015258789
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "仁德里",
+    "candidateVotes": {
+      "coast": 180,
+      "savannah": 354,
+      "rainforest": 73
+    },
+    "validVotes": 607,
+    "invalidVotes": 6,
+    "totalVotes": 613,
+    "receivedUnvoted": 0,
+    "issuedVotes": 613,
+    "remainingVotes": 286,
+    "eligibleVoters": 899,
+    "voterTurnout": 68.19000244140625
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "博愛里",
+    "candidateVotes": {
+      "coast": 341,
+      "savannah": 535,
+      "rainforest": 166
+    },
+    "validVotes": 1042,
+    "invalidVotes": 8,
+    "totalVotes": 1050,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1050,
+    "remainingVotes": 434,
+    "eligibleVoters": 1484,
+    "voterTurnout": 70.75
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "福仁里",
+    "candidateVotes": {
+      "coast": 140,
+      "savannah": 287,
+      "rainforest": 79
+    },
+    "validVotes": 506,
+    "invalidVotes": 5,
+    "totalVotes": 511,
+    "receivedUnvoted": 0,
+    "issuedVotes": 511,
+    "remainingVotes": 268,
+    "eligibleVoters": 779,
+    "voterTurnout": 65.5999984741211
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "誠仁里",
+    "candidateVotes": {
+      "coast": 197,
+      "savannah": 361,
+      "rainforest": 76
+    },
+    "validVotes": 634,
+    "invalidVotes": 10,
+    "totalVotes": 644,
+    "receivedUnvoted": 0,
+    "issuedVotes": 644,
+    "remainingVotes": 336,
+    "eligibleVoters": 980,
+    "voterTurnout": 65.70999908447266
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "吉仁里",
+    "candidateVotes": {
+      "coast": 478,
+      "savannah": 900,
+      "rainforest": 248
+    },
+    "validVotes": 1626,
+    "invalidVotes": 16,
+    "totalVotes": 1642,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1642,
+    "remainingVotes": 952,
+    "eligibleVoters": 2594,
+    "voterTurnout": 63.29999923706055
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "育仁里",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 316,
+      "rainforest": 81
+    },
+    "validVotes": 514,
+    "invalidVotes": 3,
+    "totalVotes": 517,
+    "receivedUnvoted": 0,
+    "issuedVotes": 517,
+    "remainingVotes": 259,
+    "eligibleVoters": 776,
+    "voterTurnout": 66.62000274658203
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "英仁里",
+    "candidateVotes": {
+      "coast": 257,
+      "savannah": 445,
+      "rainforest": 119
+    },
+    "validVotes": 821,
+    "invalidVotes": 11,
+    "totalVotes": 832,
+    "receivedUnvoted": 0,
+    "issuedVotes": 832,
+    "remainingVotes": 481,
+    "eligibleVoters": 1313,
+    "voterTurnout": 63.369998931884766
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "龍門里",
+    "candidateVotes": {
+      "coast": 159,
+      "savannah": 276,
+      "rainforest": 86
+    },
+    "validVotes": 521,
+    "invalidVotes": 6,
+    "totalVotes": 527,
+    "receivedUnvoted": 0,
+    "issuedVotes": 527,
+    "remainingVotes": 259,
+    "eligibleVoters": 786,
+    "voterTurnout": 67.05000305175781
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "德厚里",
+    "candidateVotes": {
+      "coast": 423,
+      "savannah": 562,
+      "rainforest": 152
+    },
+    "validVotes": 1137,
+    "invalidVotes": 10,
+    "totalVotes": 1147,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1147,
+    "remainingVotes": 556,
+    "eligibleVoters": 1703,
+    "voterTurnout": 67.3499984741211
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "曲水里",
+    "candidateVotes": {
+      "coast": 160,
+      "savannah": 317,
+      "rainforest": 71
+    },
+    "validVotes": 548,
+    "invalidVotes": 5,
+    "totalVotes": 553,
+    "receivedUnvoted": 0,
+    "issuedVotes": 553,
+    "remainingVotes": 280,
+    "eligibleVoters": 833,
+    "voterTurnout": 66.38999938964844
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "崇文里",
+    "candidateVotes": {
+      "coast": 185,
+      "savannah": 306,
+      "rainforest": 94
+    },
+    "validVotes": 585,
+    "invalidVotes": 7,
+    "totalVotes": 592,
+    "receivedUnvoted": 0,
+    "issuedVotes": 592,
+    "remainingVotes": 283,
+    "eligibleVoters": 875,
+    "voterTurnout": 67.66000366210938
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "文安里",
+    "candidateVotes": {
+      "coast": 148,
+      "savannah": 322,
+      "rainforest": 70
+    },
+    "validVotes": 540,
+    "invalidVotes": 9,
+    "totalVotes": 549,
+    "receivedUnvoted": 0,
+    "issuedVotes": 549,
+    "remainingVotes": 328,
+    "eligibleVoters": 877,
+    "voterTurnout": 62.599998474121094
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "兆連里",
+    "candidateVotes": {
+      "coast": 168,
+      "savannah": 203,
+      "rainforest": 84
+    },
+    "validVotes": 455,
+    "invalidVotes": 6,
+    "totalVotes": 461,
+    "receivedUnvoted": 0,
+    "issuedVotes": 461,
+    "remainingVotes": 247,
+    "eligibleVoters": 708,
+    "voterTurnout": 65.11000061035156
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "獅球里",
+    "candidateVotes": {
+      "coast": 235,
+      "savannah": 331,
+      "rainforest": 93
+    },
+    "validVotes": 659,
+    "invalidVotes": 11,
+    "totalVotes": 670,
+    "receivedUnvoted": 0,
+    "issuedVotes": 670,
+    "remainingVotes": 344,
+    "eligibleVoters": 1014,
+    "voterTurnout": 66.06999969482422
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "書院里",
+    "candidateVotes": {
+      "coast": 199,
+      "savannah": 377,
+      "rainforest": 96
+    },
+    "validVotes": 672,
+    "invalidVotes": 16,
+    "totalVotes": 688,
+    "receivedUnvoted": 0,
+    "issuedVotes": 688,
+    "remainingVotes": 374,
+    "eligibleVoters": 1062,
+    "voterTurnout": 64.77999877929688
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "朝棟里",
+    "candidateVotes": {
+      "coast": 755,
+      "savannah": 681,
+      "rainforest": 317
+    },
+    "validVotes": 1753,
+    "invalidVotes": 30,
+    "totalVotes": 1783,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1783,
+    "remainingVotes": 996,
+    "eligibleVoters": 2779,
+    "voterTurnout": 64.16000366210938
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "光華里",
+    "candidateVotes": {
+      "coast": 390,
+      "savannah": 768,
+      "rainforest": 360
+    },
+    "validVotes": 1518,
+    "invalidVotes": 20,
+    "totalVotes": 1538,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1538,
+    "remainingVotes": 906,
+    "eligibleVoters": 2444,
+    "voterTurnout": 62.93000030517578
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "明德里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 251,
+      "rainforest": 65
+    },
+    "validVotes": 472,
+    "invalidVotes": 9,
+    "totalVotes": 481,
+    "receivedUnvoted": 0,
+    "issuedVotes": 481,
+    "remainingVotes": 246,
+    "eligibleVoters": 727,
+    "voterTurnout": 66.16000366210938
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "同風里",
+    "candidateVotes": {
+      "coast": 130,
+      "savannah": 193,
+      "rainforest": 62
+    },
+    "validVotes": 385,
+    "invalidVotes": 4,
+    "totalVotes": 389,
+    "receivedUnvoted": 0,
+    "issuedVotes": 389,
+    "remainingVotes": 167,
+    "eligibleVoters": 556,
+    "voterTurnout": 69.95999908447266
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "文昌里",
+    "candidateVotes": {
+      "coast": 142,
+      "savannah": 346,
+      "rainforest": 62
+    },
+    "validVotes": 550,
+    "invalidVotes": 4,
+    "totalVotes": 554,
+    "receivedUnvoted": 0,
+    "issuedVotes": 554,
+    "remainingVotes": 230,
+    "eligibleVoters": 784,
+    "voterTurnout": 70.66000366210938
+  },
+  {
+    "administrativeDivision": "仁愛區",
+    "village": "新店里",
+    "candidateVotes": {
+      "coast": 152,
+      "savannah": 217,
+      "rainforest": 51
+    },
+    "validVotes": 420,
+    "invalidVotes": 2,
+    "totalVotes": 422,
+    "receivedUnvoted": 0,
+    "issuedVotes": 422,
+    "remainingVotes": 176,
+    "eligibleVoters": 598,
+    "voterTurnout": 70.56999969482422
+  }
+]

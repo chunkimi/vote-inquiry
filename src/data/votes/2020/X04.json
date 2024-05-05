@@ -1,0 +1,206 @@
+[
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 177,
+      "coast": 1555,
+      "savannah": 2040
+    },
+    "validVotes": 3772,
+    "invalidVotes": 55,
+    "totalVotes": 3827,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3827,
+    "remainingVotes": 3355,
+    "eligibleVoters": 7182,
+    "voterTurnout": 53.286
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "橫礁村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 65,
+      "savannah": 86
+    },
+    "validVotes": 163,
+    "invalidVotes": 2,
+    "totalVotes": 165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 165,
+    "remainingVotes": 117,
+    "eligibleVoters": 282,
+    "voterTurnout": 58.5106
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "合界村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 63,
+      "savannah": 140
+    },
+    "validVotes": 219,
+    "invalidVotes": 4,
+    "totalVotes": 223,
+    "receivedUnvoted": 0,
+    "issuedVotes": 223,
+    "remainingVotes": 178,
+    "eligibleVoters": 401,
+    "voterTurnout": 55.611
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "竹灣村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 127,
+      "savannah": 274
+    },
+    "validVotes": 416,
+    "invalidVotes": 5,
+    "totalVotes": 421,
+    "receivedUnvoted": 0,
+    "issuedVotes": 421,
+    "remainingVotes": 384,
+    "eligibleVoters": 805,
+    "voterTurnout": 52.2981
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "小門村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 114,
+      "savannah": 29
+    },
+    "validVotes": 150,
+    "invalidVotes": 2,
+    "totalVotes": 152,
+    "receivedUnvoted": 0,
+    "issuedVotes": 152,
+    "remainingVotes": 129,
+    "eligibleVoters": 281,
+    "voterTurnout": 54.0925
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "大池村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 118,
+      "savannah": 207
+    },
+    "validVotes": 342,
+    "invalidVotes": 3,
+    "totalVotes": 345,
+    "receivedUnvoted": 0,
+    "issuedVotes": 345,
+    "remainingVotes": 288,
+    "eligibleVoters": 633,
+    "voterTurnout": 54.5024
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "二崁村",
+    "candidateVotes": {
+      "rainforest": 2,
+      "coast": 23,
+      "savannah": 49
+    },
+    "validVotes": 74,
+    "invalidVotes": 2,
+    "totalVotes": 76,
+    "receivedUnvoted": 0,
+    "issuedVotes": 76,
+    "remainingVotes": 73,
+    "eligibleVoters": 149,
+    "voterTurnout": 51.0067
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "池東村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 148,
+      "savannah": 168
+    },
+    "validVotes": 331,
+    "invalidVotes": 7,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 306,
+    "eligibleVoters": 644,
+    "voterTurnout": 52.4845
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "池西村",
+    "candidateVotes": {
+      "rainforest": 4,
+      "coast": 32,
+      "savannah": 65
+    },
+    "validVotes": 101,
+    "invalidVotes": 5,
+    "totalVotes": 106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 106,
+    "remainingVotes": 110,
+    "eligibleVoters": 216,
+    "voterTurnout": 49.0741
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "赤馬村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 71,
+      "savannah": 191
+    },
+    "validVotes": 275,
+    "invalidVotes": 9,
+    "totalVotes": 284,
+    "receivedUnvoted": 0,
+    "issuedVotes": 284,
+    "remainingVotes": 279,
+    "eligibleVoters": 563,
+    "voterTurnout": 50.444
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "內垵村",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 165,
+      "savannah": 442
+    },
+    "validVotes": 636,
+    "invalidVotes": 8,
+    "totalVotes": 644,
+    "receivedUnvoted": 0,
+    "issuedVotes": 644,
+    "remainingVotes": 571,
+    "eligibleVoters": 1215,
+    "voterTurnout": 53.0041
+  },
+  {
+    "administrativeDivision": "西嶼鄉",
+    "village": "外垵村",
+    "candidateVotes": {
+      "rainforest": 47,
+      "coast": 629,
+      "savannah": 389
+    },
+    "validVotes": 1065,
+    "invalidVotes": 8,
+    "totalVotes": 1073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1073,
+    "remainingVotes": 920,
+    "eligibleVoters": 1993,
+    "voterTurnout": 53.8384
+  }
+]

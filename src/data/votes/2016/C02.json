@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "七堵區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 9264,
+      "savannah": 14567,
+      "rainforest": 4441
+    },
+    "validVotes": 28272,
+    "invalidVotes": 339,
+    "totalVotes": 28611,
+    "receivedUnvoted": 1,
+    "issuedVotes": 28612,
+    "remainingVotes": 15704,
+    "eligibleVoters": 44316,
+    "voterTurnout": 64.55999755859375
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "長興里",
+    "candidateVotes": {
+      "coast": 826,
+      "savannah": 1102,
+      "rainforest": 388
+    },
+    "validVotes": 2316,
+    "invalidVotes": 35,
+    "totalVotes": 2351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2351,
+    "remainingVotes": 1264,
+    "eligibleVoters": 3615,
+    "voterTurnout": 65.02999877929688
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "正光里",
+    "candidateVotes": {
+      "coast": 519,
+      "savannah": 779,
+      "rainforest": 221
+    },
+    "validVotes": 1519,
+    "invalidVotes": 17,
+    "totalVotes": 1536,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1536,
+    "remainingVotes": 869,
+    "eligibleVoters": 2405,
+    "voterTurnout": 63.869998931884766
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "正明里",
+    "candidateVotes": {
+      "coast": 433,
+      "savannah": 660,
+      "rainforest": 187
+    },
+    "validVotes": 1280,
+    "invalidVotes": 16,
+    "totalVotes": 1296,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1296,
+    "remainingVotes": 675,
+    "eligibleVoters": 1971,
+    "voterTurnout": 65.75
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "富民里",
+    "candidateVotes": {
+      "coast": 923,
+      "savannah": 1056,
+      "rainforest": 371
+    },
+    "validVotes": 2350,
+    "invalidVotes": 33,
+    "totalVotes": 2383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2383,
+    "remainingVotes": 1127,
+    "eligibleVoters": 3510,
+    "voterTurnout": 67.88999938964844
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "永平里",
+    "candidateVotes": {
+      "coast": 477,
+      "savannah": 638,
+      "rainforest": 178
+    },
+    "validVotes": 1293,
+    "invalidVotes": 14,
+    "totalVotes": 1307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1307,
+    "remainingVotes": 596,
+    "eligibleVoters": 1903,
+    "voterTurnout": 68.68000030517578
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "永安里",
+    "candidateVotes": {
+      "coast": 507,
+      "savannah": 662,
+      "rainforest": 185
+    },
+    "validVotes": 1354,
+    "invalidVotes": 9,
+    "totalVotes": 1363,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1363,
+    "remainingVotes": 743,
+    "eligibleVoters": 2106,
+    "voterTurnout": 64.72000122070312
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "八德里",
+    "candidateVotes": {
+      "coast": 295,
+      "savannah": 504,
+      "rainforest": 158
+    },
+    "validVotes": 957,
+    "invalidVotes": 11,
+    "totalVotes": 968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 968,
+    "remainingVotes": 517,
+    "eligibleVoters": 1485,
+    "voterTurnout": 65.19000244140625
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "自強里",
+    "candidateVotes": {
+      "coast": 179,
+      "savannah": 327,
+      "rainforest": 106
+    },
+    "validVotes": 612,
+    "invalidVotes": 9,
+    "totalVotes": 621,
+    "receivedUnvoted": 0,
+    "issuedVotes": 621,
+    "remainingVotes": 351,
+    "eligibleVoters": 972,
+    "voterTurnout": 63.88999938964844
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "泰安里",
+    "candidateVotes": {
+      "coast": 847,
+      "savannah": 1253,
+      "rainforest": 419
+    },
+    "validVotes": 2519,
+    "invalidVotes": 37,
+    "totalVotes": 2556,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2556,
+    "remainingVotes": 1507,
+    "eligibleVoters": 4063,
+    "voterTurnout": 62.90999984741211
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "六堵里",
+    "candidateVotes": {
+      "coast": 431,
+      "savannah": 715,
+      "rainforest": 232
+    },
+    "validVotes": 1378,
+    "invalidVotes": 18,
+    "totalVotes": 1396,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1396,
+    "remainingVotes": 758,
+    "eligibleVoters": 2154,
+    "voterTurnout": 64.80999755859375
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "堵南里",
+    "candidateVotes": {
+      "coast": 348,
+      "savannah": 710,
+      "rainforest": 176
+    },
+    "validVotes": 1234,
+    "invalidVotes": 7,
+    "totalVotes": 1241,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1241,
+    "remainingVotes": 769,
+    "eligibleVoters": 2010,
+    "voterTurnout": 61.7400016784668
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "長安里",
+    "candidateVotes": {
+      "coast": 428,
+      "savannah": 651,
+      "rainforest": 269
+    },
+    "validVotes": 1348,
+    "invalidVotes": 14,
+    "totalVotes": 1362,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1363,
+    "remainingVotes": 987,
+    "eligibleVoters": 2350,
+    "voterTurnout": 57.959999084472656
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "堵北里",
+    "candidateVotes": {
+      "coast": 589,
+      "savannah": 1238,
+      "rainforest": 334
+    },
+    "validVotes": 2161,
+    "invalidVotes": 22,
+    "totalVotes": 2183,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2183,
+    "remainingVotes": 1160,
+    "eligibleVoters": 3343,
+    "voterTurnout": 65.30000305175781
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "百福里",
+    "candidateVotes": {
+      "coast": 1067,
+      "savannah": 1916,
+      "rainforest": 533
+    },
+    "validVotes": 3516,
+    "invalidVotes": 47,
+    "totalVotes": 3563,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3563,
+    "remainingVotes": 2033,
+    "eligibleVoters": 5596,
+    "voterTurnout": 63.66999816894531
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "實踐里",
+    "candidateVotes": {
+      "coast": 711,
+      "savannah": 1279,
+      "rainforest": 388
+    },
+    "validVotes": 2378,
+    "invalidVotes": 23,
+    "totalVotes": 2401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2401,
+    "remainingVotes": 1205,
+    "eligibleVoters": 3606,
+    "voterTurnout": 66.58000183105469
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "瑪南里",
+    "candidateVotes": {
+      "coast": 63,
+      "savannah": 169,
+      "rainforest": 30
+    },
+    "validVotes": 262,
+    "invalidVotes": 5,
+    "totalVotes": 267,
+    "receivedUnvoted": 0,
+    "issuedVotes": 267,
+    "remainingVotes": 156,
+    "eligibleVoters": 423,
+    "voterTurnout": 63.119998931884766
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "瑪東里",
+    "candidateVotes": {
+      "coast": 47,
+      "savannah": 106,
+      "rainforest": 34
+    },
+    "validVotes": 187,
+    "invalidVotes": 2,
+    "totalVotes": 189,
+    "receivedUnvoted": 0,
+    "issuedVotes": 189,
+    "remainingVotes": 95,
+    "eligibleVoters": 284,
+    "voterTurnout": 66.55000305175781
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "瑪西里",
+    "candidateVotes": {
+      "coast": 64,
+      "savannah": 138,
+      "rainforest": 25
+    },
+    "validVotes": 227,
+    "invalidVotes": 0,
+    "totalVotes": 227,
+    "receivedUnvoted": 0,
+    "issuedVotes": 227,
+    "remainingVotes": 115,
+    "eligibleVoters": 342,
+    "voterTurnout": 66.37000274658203
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "友一里",
+    "candidateVotes": {
+      "coast": 420,
+      "savannah": 488,
+      "rainforest": 174
+    },
+    "validVotes": 1082,
+    "invalidVotes": 18,
+    "totalVotes": 1100,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1100,
+    "remainingVotes": 639,
+    "eligibleVoters": 1739,
+    "voterTurnout": 63.25
+  },
+  {
+    "administrativeDivision": "七堵區",
+    "village": "友二里",
+    "candidateVotes": {
+      "coast": 90,
+      "savannah": 176,
+      "rainforest": 33
+    },
+    "validVotes": 299,
+    "invalidVotes": 2,
+    "totalVotes": 301,
+    "receivedUnvoted": 0,
+    "issuedVotes": 301,
+    "remainingVotes": 138,
+    "eligibleVoters": 439,
+    "voterTurnout": 68.55999755859375
+  }
+]

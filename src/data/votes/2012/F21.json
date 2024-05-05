@@ -1,0 +1,597 @@
+[
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 10241,
+      "coast": 13697,
+      "rainforest": 787
+    },
+    "validVotes": 24725,
+    "invalidVotes": 267,
+    "totalVotes": 24992,
+    "receivedUnvoted": 0,
+    "issuedVotes": 24992,
+    "remainingVotes": 9341,
+    "eligibleVoters": 34333,
+    "voterTurnout": 72.79000091552734
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍潭里",
+    "candidateVotes": {
+      "savannah": 218,
+      "coast": 334,
+      "rainforest": 14
+    },
+    "validVotes": 566,
+    "invalidVotes": 9,
+    "totalVotes": 575,
+    "receivedUnvoted": 0,
+    "issuedVotes": 575,
+    "remainingVotes": 181,
+    "eligibleVoters": 756,
+    "voterTurnout": 76.05999755859375
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍興里",
+    "candidateVotes": {
+      "savannah": 528,
+      "coast": 749,
+      "rainforest": 44
+    },
+    "validVotes": 1321,
+    "invalidVotes": 9,
+    "totalVotes": 1330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1330,
+    "remainingVotes": 416,
+    "eligibleVoters": 1746,
+    "voterTurnout": 76.16999816894531
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍鎮里",
+    "candidateVotes": {
+      "savannah": 369,
+      "coast": 501,
+      "rainforest": 27
+    },
+    "validVotes": 897,
+    "invalidVotes": 14,
+    "totalVotes": 911,
+    "receivedUnvoted": 0,
+    "issuedVotes": 911,
+    "remainingVotes": 306,
+    "eligibleVoters": 1217,
+    "voterTurnout": 74.86000061035156
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍安里",
+    "candidateVotes": {
+      "savannah": 174,
+      "coast": 256,
+      "rainforest": 25
+    },
+    "validVotes": 455,
+    "invalidVotes": 7,
+    "totalVotes": 462,
+    "receivedUnvoted": 0,
+    "issuedVotes": 462,
+    "remainingVotes": 144,
+    "eligibleVoters": 606,
+    "voterTurnout": 76.23999786376953
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍川里",
+    "candidateVotes": {
+      "savannah": 461,
+      "coast": 651,
+      "rainforest": 38
+    },
+    "validVotes": 1150,
+    "invalidVotes": 14,
+    "totalVotes": 1164,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1164,
+    "remainingVotes": 360,
+    "eligibleVoters": 1524,
+    "voterTurnout": 76.37999725341797
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "龍山里",
+    "candidateVotes": {
+      "savannah": 340,
+      "coast": 550,
+      "rainforest": 39
+    },
+    "validVotes": 929,
+    "invalidVotes": 17,
+    "totalVotes": 946,
+    "receivedUnvoted": 0,
+    "issuedVotes": 946,
+    "remainingVotes": 367,
+    "eligibleVoters": 1313,
+    "voterTurnout": 72.05000305175781
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "爪里",
+    "candidateVotes": {
+      "savannah": 1130,
+      "coast": 1423,
+      "rainforest": 88
+    },
+    "validVotes": 2641,
+    "invalidVotes": 31,
+    "totalVotes": 2672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2672,
+    "remainingVotes": 817,
+    "eligibleVoters": 3489,
+    "voterTurnout": 76.58000183105469
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "新峰里",
+    "candidateVotes": {
+      "savannah": 718,
+      "coast": 1148,
+      "rainforest": 39
+    },
+    "validVotes": 1905,
+    "invalidVotes": 21,
+    "totalVotes": 1926,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1926,
+    "remainingVotes": 810,
+    "eligibleVoters": 2736,
+    "voterTurnout": 70.38999938964844
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "東和里",
+    "candidateVotes": {
+      "savannah": 527,
+      "coast": 691,
+      "rainforest": 32
+    },
+    "validVotes": 1250,
+    "invalidVotes": 13,
+    "totalVotes": 1263,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1263,
+    "remainingVotes": 452,
+    "eligibleVoters": 1715,
+    "voterTurnout": 73.63999938964844
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "柑坪里",
+    "candidateVotes": {
+      "savannah": 385,
+      "coast": 392,
+      "rainforest": 23
+    },
+    "validVotes": 800,
+    "invalidVotes": 12,
+    "totalVotes": 812,
+    "receivedUnvoted": 0,
+    "issuedVotes": 812,
+    "remainingVotes": 250,
+    "eligibleVoters": 1062,
+    "voterTurnout": 76.45999908447266
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "弓橋里",
+    "candidateVotes": {
+      "savannah": 129,
+      "coast": 86,
+      "rainforest": 9
+    },
+    "validVotes": 224,
+    "invalidVotes": 2,
+    "totalVotes": 226,
+    "receivedUnvoted": 0,
+    "issuedVotes": 226,
+    "remainingVotes": 86,
+    "eligibleVoters": 312,
+    "voterTurnout": 72.44000244140625
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "猴硐里",
+    "candidateVotes": {
+      "savannah": 171,
+      "coast": 157,
+      "rainforest": 22
+    },
+    "validVotes": 350,
+    "invalidVotes": 3,
+    "totalVotes": 353,
+    "receivedUnvoted": 0,
+    "issuedVotes": 353,
+    "remainingVotes": 132,
+    "eligibleVoters": 485,
+    "voterTurnout": 72.77999877929688
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "光復里",
+    "candidateVotes": {
+      "savannah": 124,
+      "coast": 100,
+      "rainforest": 4
+    },
+    "validVotes": 228,
+    "invalidVotes": 3,
+    "totalVotes": 231,
+    "receivedUnvoted": 0,
+    "issuedVotes": 231,
+    "remainingVotes": 92,
+    "eligibleVoters": 323,
+    "voterTurnout": 71.5199966430664
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "碩仁里",
+    "candidateVotes": {
+      "savannah": 46,
+      "coast": 49,
+      "rainforest": 5
+    },
+    "validVotes": 100,
+    "invalidVotes": 1,
+    "totalVotes": 101,
+    "receivedUnvoted": 0,
+    "issuedVotes": 101,
+    "remainingVotes": 25,
+    "eligibleVoters": 126,
+    "voterTurnout": 80.16000366210938
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "吉慶里",
+    "candidateVotes": {
+      "savannah": 461,
+      "coast": 684,
+      "rainforest": 31
+    },
+    "validVotes": 1176,
+    "invalidVotes": 17,
+    "totalVotes": 1193,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1193,
+    "remainingVotes": 452,
+    "eligibleVoters": 1645,
+    "voterTurnout": 72.5199966430664
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "吉安里",
+    "candidateVotes": {
+      "savannah": 807,
+      "coast": 1139,
+      "rainforest": 68
+    },
+    "validVotes": 2014,
+    "invalidVotes": 11,
+    "totalVotes": 2025,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2025,
+    "remainingVotes": 792,
+    "eligibleVoters": 2817,
+    "voterTurnout": 71.87999725341797
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "上天里",
+    "candidateVotes": {
+      "savannah": 422,
+      "coast": 458,
+      "rainforest": 45
+    },
+    "validVotes": 925,
+    "invalidVotes": 12,
+    "totalVotes": 937,
+    "receivedUnvoted": 0,
+    "issuedVotes": 937,
+    "remainingVotes": 339,
+    "eligibleVoters": 1276,
+    "voterTurnout": 73.43000030517578
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "傑魚里",
+    "candidateVotes": {
+      "savannah": 635,
+      "coast": 707,
+      "rainforest": 24
+    },
+    "validVotes": 1366,
+    "invalidVotes": 14,
+    "totalVotes": 1380,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1380,
+    "remainingVotes": 487,
+    "eligibleVoters": 1867,
+    "voterTurnout": 73.91999816894531
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "基山里",
+    "candidateVotes": {
+      "savannah": 170,
+      "coast": 158,
+      "rainforest": 6
+    },
+    "validVotes": 334,
+    "invalidVotes": 4,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 157,
+    "eligibleVoters": 495,
+    "voterTurnout": 68.27999877929688
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "永慶里",
+    "candidateVotes": {
+      "savannah": 174,
+      "coast": 149,
+      "rainforest": 7
+    },
+    "validVotes": 330,
+    "invalidVotes": 3,
+    "totalVotes": 333,
+    "receivedUnvoted": 0,
+    "issuedVotes": 333,
+    "remainingVotes": 167,
+    "eligibleVoters": 500,
+    "voterTurnout": 66.5999984741211
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "崇文里",
+    "candidateVotes": {
+      "savannah": 112,
+      "coast": 113,
+      "rainforest": 4
+    },
+    "validVotes": 229,
+    "invalidVotes": 6,
+    "totalVotes": 235,
+    "receivedUnvoted": 0,
+    "issuedVotes": 235,
+    "remainingVotes": 122,
+    "eligibleVoters": 357,
+    "voterTurnout": 65.83000183105469
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "福住里",
+    "candidateVotes": {
+      "savannah": 62,
+      "coast": 78,
+      "rainforest": 6
+    },
+    "validVotes": 146,
+    "invalidVotes": 1,
+    "totalVotes": 147,
+    "receivedUnvoted": 0,
+    "issuedVotes": 147,
+    "remainingVotes": 62,
+    "eligibleVoters": 209,
+    "voterTurnout": 70.33000183105469
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "頌德里",
+    "candidateVotes": {
+      "savannah": 109,
+      "coast": 123,
+      "rainforest": 10
+    },
+    "validVotes": 242,
+    "invalidVotes": 3,
+    "totalVotes": 245,
+    "receivedUnvoted": 0,
+    "issuedVotes": 245,
+    "remainingVotes": 120,
+    "eligibleVoters": 365,
+    "voterTurnout": 67.12000274658203
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "瓜山里",
+    "candidateVotes": {
+      "savannah": 55,
+      "coast": 87,
+      "rainforest": 3
+    },
+    "validVotes": 145,
+    "invalidVotes": 4,
+    "totalVotes": 149,
+    "receivedUnvoted": 0,
+    "issuedVotes": 149,
+    "remainingVotes": 60,
+    "eligibleVoters": 209,
+    "voterTurnout": 71.29000091552734
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "銅山里",
+    "candidateVotes": {
+      "savannah": 83,
+      "coast": 83,
+      "rainforest": 6
+    },
+    "validVotes": 172,
+    "invalidVotes": 2,
+    "totalVotes": 174,
+    "receivedUnvoted": 0,
+    "issuedVotes": 174,
+    "remainingVotes": 45,
+    "eligibleVoters": 219,
+    "voterTurnout": 79.44999694824219
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "新山里",
+    "candidateVotes": {
+      "savannah": 122,
+      "coast": 172,
+      "rainforest": 5
+    },
+    "validVotes": 299,
+    "invalidVotes": 1,
+    "totalVotes": 300,
+    "receivedUnvoted": 0,
+    "issuedVotes": 300,
+    "remainingVotes": 104,
+    "eligibleVoters": 404,
+    "voterTurnout": 74.26000213623047
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "石山里",
+    "candidateVotes": {
+      "savannah": 78,
+      "coast": 166,
+      "rainforest": 5
+    },
+    "validVotes": 249,
+    "invalidVotes": 2,
+    "totalVotes": 251,
+    "receivedUnvoted": 0,
+    "issuedVotes": 251,
+    "remainingVotes": 131,
+    "eligibleVoters": 382,
+    "voterTurnout": 65.70999908447266
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "濂洞里",
+    "candidateVotes": {
+      "savannah": 106,
+      "coast": 210,
+      "rainforest": 12
+    },
+    "validVotes": 328,
+    "invalidVotes": 6,
+    "totalVotes": 334,
+    "receivedUnvoted": 0,
+    "issuedVotes": 334,
+    "remainingVotes": 182,
+    "eligibleVoters": 516,
+    "voterTurnout": 64.7300033569336
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "濂新里",
+    "candidateVotes": {
+      "savannah": 97,
+      "coast": 105,
+      "rainforest": 6
+    },
+    "validVotes": 208,
+    "invalidVotes": 0,
+    "totalVotes": 208,
+    "receivedUnvoted": 0,
+    "issuedVotes": 208,
+    "remainingVotes": 86,
+    "eligibleVoters": 294,
+    "voterTurnout": 70.75
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "南雅里",
+    "candidateVotes": {
+      "savannah": 97,
+      "coast": 92,
+      "rainforest": 1
+    },
+    "validVotes": 190,
+    "invalidVotes": 1,
+    "totalVotes": 191,
+    "receivedUnvoted": 0,
+    "issuedVotes": 191,
+    "remainingVotes": 67,
+    "eligibleVoters": 258,
+    "voterTurnout": 74.02999877929688
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "鼻頭里",
+    "candidateVotes": {
+      "savannah": 233,
+      "coast": 304,
+      "rainforest": 14
+    },
+    "validVotes": 551,
+    "invalidVotes": 4,
+    "totalVotes": 555,
+    "receivedUnvoted": 0,
+    "issuedVotes": 555,
+    "remainingVotes": 270,
+    "eligibleVoters": 825,
+    "voterTurnout": 67.2699966430664
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "海濱里",
+    "candidateVotes": {
+      "savannah": 294,
+      "coast": 467,
+      "rainforest": 43
+    },
+    "validVotes": 804,
+    "invalidVotes": 5,
+    "totalVotes": 809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 809,
+    "remainingVotes": 308,
+    "eligibleVoters": 1117,
+    "voterTurnout": 72.43000030517578
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "瑞濱里",
+    "candidateVotes": {
+      "savannah": 532,
+      "coast": 791,
+      "rainforest": 54
+    },
+    "validVotes": 1377,
+    "invalidVotes": 8,
+    "totalVotes": 1385,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1385,
+    "remainingVotes": 591,
+    "eligibleVoters": 1976,
+    "voterTurnout": 70.08999633789062
+  },
+  {
+    "administrativeDivision": "瑞芳區",
+    "village": "深澳里",
+    "candidateVotes": {
+      "savannah": 272,
+      "coast": 524,
+      "rainforest": 28
+    },
+    "validVotes": 824,
+    "invalidVotes": 7,
+    "totalVotes": 831,
+    "receivedUnvoted": 0,
+    "issuedVotes": 831,
+    "remainingVotes": 361,
+    "eligibleVoters": 1192,
+    "voterTurnout": 69.70999908447266
+  }
+]

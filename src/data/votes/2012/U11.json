@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 963,
+      "coast": 5484,
+      "rainforest": 346
+    },
+    "validVotes": 6793,
+    "invalidVotes": 92,
+    "totalVotes": 6885,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6885,
+    "remainingVotes": 3779,
+    "eligibleVoters": 10664,
+    "voterTurnout": 64.55999755859375
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "和平村",
+    "candidateVotes": {
+      "savannah": 156,
+      "coast": 537,
+      "rainforest": 46
+    },
+    "validVotes": 739,
+    "invalidVotes": 6,
+    "totalVotes": 745,
+    "receivedUnvoted": 0,
+    "issuedVotes": 745,
+    "remainingVotes": 387,
+    "eligibleVoters": 1132,
+    "voterTurnout": 65.80999755859375
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "崇德村",
+    "candidateVotes": {
+      "savannah": 80,
+      "coast": 636,
+      "rainforest": 39
+    },
+    "validVotes": 755,
+    "invalidVotes": 12,
+    "totalVotes": 767,
+    "receivedUnvoted": 0,
+    "issuedVotes": 767,
+    "remainingVotes": 467,
+    "eligibleVoters": 1234,
+    "voterTurnout": 62.15999984741211
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "富世村",
+    "candidateVotes": {
+      "savannah": 188,
+      "coast": 686,
+      "rainforest": 44
+    },
+    "validVotes": 918,
+    "invalidVotes": 17,
+    "totalVotes": 935,
+    "receivedUnvoted": 0,
+    "issuedVotes": 935,
+    "remainingVotes": 559,
+    "eligibleVoters": 1494,
+    "voterTurnout": 62.58000183105469
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "秀林村",
+    "candidateVotes": {
+      "savannah": 114,
+      "coast": 632,
+      "rainforest": 26
+    },
+    "validVotes": 772,
+    "invalidVotes": 12,
+    "totalVotes": 784,
+    "receivedUnvoted": 0,
+    "issuedVotes": 784,
+    "remainingVotes": 420,
+    "eligibleVoters": 1204,
+    "voterTurnout": 65.12000274658203
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "景美村",
+    "candidateVotes": {
+      "savannah": 167,
+      "coast": 703,
+      "rainforest": 55
+    },
+    "validVotes": 925,
+    "invalidVotes": 14,
+    "totalVotes": 939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 939,
+    "remainingVotes": 596,
+    "eligibleVoters": 1535,
+    "voterTurnout": 61.16999816894531
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "佳民村",
+    "candidateVotes": {
+      "savannah": 55,
+      "coast": 477,
+      "rainforest": 23
+    },
+    "validVotes": 555,
+    "invalidVotes": 5,
+    "totalVotes": 560,
+    "receivedUnvoted": 0,
+    "issuedVotes": 560,
+    "remainingVotes": 280,
+    "eligibleVoters": 840,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "水源村",
+    "candidateVotes": {
+      "savannah": 53,
+      "coast": 546,
+      "rainforest": 41
+    },
+    "validVotes": 640,
+    "invalidVotes": 7,
+    "totalVotes": 647,
+    "receivedUnvoted": 0,
+    "issuedVotes": 647,
+    "remainingVotes": 266,
+    "eligibleVoters": 913,
+    "voterTurnout": 70.87000274658203
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "銅門村",
+    "candidateVotes": {
+      "savannah": 61,
+      "coast": 563,
+      "rainforest": 40
+    },
+    "validVotes": 664,
+    "invalidVotes": 4,
+    "totalVotes": 668,
+    "receivedUnvoted": 0,
+    "issuedVotes": 668,
+    "remainingVotes": 367,
+    "eligibleVoters": 1035,
+    "voterTurnout": 64.54000091552734
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "文蘭村",
+    "candidateVotes": {
+      "savannah": 69,
+      "coast": 531,
+      "rainforest": 27
+    },
+    "validVotes": 627,
+    "invalidVotes": 9,
+    "totalVotes": 636,
+    "receivedUnvoted": 0,
+    "issuedVotes": 636,
+    "remainingVotes": 289,
+    "eligibleVoters": 925,
+    "voterTurnout": 68.76000213623047
+  },
+  {
+    "administrativeDivision": "秀林鄉",
+    "village": "秀林村",
+    "candidateVotes": {
+      "savannah": 20,
+      "coast": 173,
+      "rainforest": 5
+    },
+    "validVotes": 198,
+    "invalidVotes": 6,
+    "totalVotes": 204,
+    "receivedUnvoted": 0,
+    "issuedVotes": 204,
+    "remainingVotes": 148,
+    "eligibleVoters": 352,
+    "voterTurnout": 57.95000076293945
+  }
+]

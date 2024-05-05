@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "大雅區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2881,
+      "coast": 21934,
+      "savannah": 32792
+    },
+    "validVotes": 57607,
+    "invalidVotes": 733,
+    "totalVotes": 58340,
+    "receivedUnvoted": 5,
+    "issuedVotes": 58345,
+    "remainingVotes": 16881,
+    "eligibleVoters": 75226,
+    "voterTurnout": 77.553
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "上雅里",
+    "candidateVotes": {
+      "rainforest": 247,
+      "coast": 1582,
+      "savannah": 2530
+    },
+    "validVotes": 4359,
+    "invalidVotes": 54,
+    "totalVotes": 4413,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4413,
+    "remainingVotes": 1437,
+    "eligibleVoters": 5850,
+    "voterTurnout": 75.4359
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "大雅里",
+    "candidateVotes": {
+      "rainforest": 168,
+      "coast": 1260,
+      "savannah": 1914
+    },
+    "validVotes": 3342,
+    "invalidVotes": 50,
+    "totalVotes": 3392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3392,
+    "remainingVotes": 867,
+    "eligibleVoters": 4259,
+    "voterTurnout": 79.6431
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "文雅里",
+    "candidateVotes": {
+      "rainforest": 186,
+      "coast": 1761,
+      "savannah": 2444
+    },
+    "validVotes": 4391,
+    "invalidVotes": 45,
+    "totalVotes": 4436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4436,
+    "remainingVotes": 1320,
+    "eligibleVoters": 5756,
+    "voterTurnout": 77.0674
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "三和里",
+    "candidateVotes": {
+      "rainforest": 185,
+      "coast": 1394,
+      "savannah": 2340
+    },
+    "validVotes": 3919,
+    "invalidVotes": 45,
+    "totalVotes": 3964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3964,
+    "remainingVotes": 1041,
+    "eligibleVoters": 5005,
+    "voterTurnout": 79.2008
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "二和里",
+    "candidateVotes": {
+      "rainforest": 215,
+      "coast": 1649,
+      "savannah": 2519
+    },
+    "validVotes": 4383,
+    "invalidVotes": 60,
+    "totalVotes": 4443,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4443,
+    "remainingVotes": 1297,
+    "eligibleVoters": 5740,
+    "voterTurnout": 77.4042
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "四德里",
+    "candidateVotes": {
+      "rainforest": 189,
+      "coast": 1289,
+      "savannah": 1953
+    },
+    "validVotes": 3431,
+    "invalidVotes": 39,
+    "totalVotes": 3470,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3470,
+    "remainingVotes": 928,
+    "eligibleVoters": 4398,
+    "voterTurnout": 78.8995
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "西寶里",
+    "candidateVotes": {
+      "rainforest": 154,
+      "coast": 1174,
+      "savannah": 2107
+    },
+    "validVotes": 3435,
+    "invalidVotes": 38,
+    "totalVotes": 3473,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3473,
+    "remainingVotes": 1097,
+    "eligibleVoters": 4570,
+    "voterTurnout": 75.9956
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "上楓里",
+    "candidateVotes": {
+      "rainforest": 228,
+      "coast": 1551,
+      "savannah": 2705
+    },
+    "validVotes": 4484,
+    "invalidVotes": 56,
+    "totalVotes": 4540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4540,
+    "remainingVotes": 1300,
+    "eligibleVoters": 5840,
+    "voterTurnout": 77.7397
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "大楓里",
+    "candidateVotes": {
+      "rainforest": 184,
+      "coast": 1269,
+      "savannah": 2117
+    },
+    "validVotes": 3570,
+    "invalidVotes": 42,
+    "totalVotes": 3612,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3612,
+    "remainingVotes": 1128,
+    "eligibleVoters": 4740,
+    "voterTurnout": 76.2025
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "雅楓里",
+    "candidateVotes": {
+      "rainforest": 150,
+      "coast": 1041,
+      "savannah": 1398
+    },
+    "validVotes": 2589,
+    "invalidVotes": 54,
+    "totalVotes": 2643,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2643,
+    "remainingVotes": 843,
+    "eligibleVoters": 3486,
+    "voterTurnout": 75.8176
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "員林里",
+    "candidateVotes": {
+      "rainforest": 350,
+      "coast": 2414,
+      "savannah": 4151
+    },
+    "validVotes": 6915,
+    "invalidVotes": 89,
+    "totalVotes": 7004,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7004,
+    "remainingVotes": 1817,
+    "eligibleVoters": 8821,
+    "voterTurnout": 79.4014
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "六寶里",
+    "candidateVotes": {
+      "rainforest": 224,
+      "coast": 1931,
+      "savannah": 2305
+    },
+    "validVotes": 4460,
+    "invalidVotes": 57,
+    "totalVotes": 4517,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4517,
+    "remainingVotes": 1411,
+    "eligibleVoters": 5928,
+    "voterTurnout": 76.1977
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "秀山里",
+    "candidateVotes": {
+      "rainforest": 131,
+      "coast": 876,
+      "savannah": 1557
+    },
+    "validVotes": 2564,
+    "invalidVotes": 30,
+    "totalVotes": 2594,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2594,
+    "remainingVotes": 584,
+    "eligibleVoters": 3178,
+    "voterTurnout": 81.6237
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "橫山里",
+    "candidateVotes": {
+      "rainforest": 157,
+      "coast": 1113,
+      "savannah": 1960
+    },
+    "validVotes": 3230,
+    "invalidVotes": 33,
+    "totalVotes": 3263,
+    "receivedUnvoted": 5,
+    "issuedVotes": 3268,
+    "remainingVotes": 882,
+    "eligibleVoters": 4150,
+    "voterTurnout": 78.6265
+  },
+  {
+    "administrativeDivision": "大雅區",
+    "village": "忠義里",
+    "candidateVotes": {
+      "rainforest": 113,
+      "coast": 1630,
+      "savannah": 792
+    },
+    "validVotes": 2535,
+    "invalidVotes": 41,
+    "totalVotes": 2576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2576,
+    "remainingVotes": 929,
+    "eligibleVoters": 3505,
+    "voterTurnout": 73.495
+  }
+]

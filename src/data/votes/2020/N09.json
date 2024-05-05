@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 577,
+      "coast": 4159,
+      "savannah": 5188
+    },
+    "validVotes": 9924,
+    "invalidVotes": 149,
+    "totalVotes": 10073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 10073,
+    "remainingVotes": 3562,
+    "eligibleVoters": 13635,
+    "voterTurnout": 73.8761
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "線西村",
+    "candidateVotes": {
+      "rainforest": 82,
+      "coast": 697,
+      "savannah": 810
+    },
+    "validVotes": 1589,
+    "invalidVotes": 25,
+    "totalVotes": 1614,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1614,
+    "remainingVotes": 538,
+    "eligibleVoters": 2152,
+    "voterTurnout": 75
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "頂庄村",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 426,
+      "savannah": 388
+    },
+    "validVotes": 873,
+    "invalidVotes": 14,
+    "totalVotes": 887,
+    "receivedUnvoted": 0,
+    "issuedVotes": 887,
+    "remainingVotes": 332,
+    "eligibleVoters": 1219,
+    "voterTurnout": 72.7646
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "寓埔村",
+    "candidateVotes": {
+      "rainforest": 87,
+      "coast": 672,
+      "savannah": 843
+    },
+    "validVotes": 1602,
+    "invalidVotes": 23,
+    "totalVotes": 1625,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1625,
+    "remainingVotes": 596,
+    "eligibleVoters": 2221,
+    "voterTurnout": 73.1652
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "塭仔村",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 349,
+      "savannah": 510
+    },
+    "validVotes": 922,
+    "invalidVotes": 11,
+    "totalVotes": 933,
+    "receivedUnvoted": 0,
+    "issuedVotes": 933,
+    "remainingVotes": 301,
+    "eligibleVoters": 1234,
+    "voterTurnout": 75.6078
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "溝內村",
+    "candidateVotes": {
+      "rainforest": 51,
+      "coast": 327,
+      "savannah": 426
+    },
+    "validVotes": 804,
+    "invalidVotes": 11,
+    "totalVotes": 815,
+    "receivedUnvoted": 0,
+    "issuedVotes": 815,
+    "remainingVotes": 327,
+    "eligibleVoters": 1142,
+    "voterTurnout": 71.366
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "下犁村",
+    "candidateVotes": {
+      "rainforest": 66,
+      "coast": 524,
+      "savannah": 801
+    },
+    "validVotes": 1391,
+    "invalidVotes": 13,
+    "totalVotes": 1404,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1404,
+    "remainingVotes": 471,
+    "eligibleVoters": 1875,
+    "voterTurnout": 74.88
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "頂犁村",
+    "candidateVotes": {
+      "rainforest": 105,
+      "coast": 742,
+      "savannah": 907
+    },
+    "validVotes": 1754,
+    "invalidVotes": 33,
+    "totalVotes": 1787,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1787,
+    "remainingVotes": 693,
+    "eligibleVoters": 2480,
+    "voterTurnout": 72.0565
+  },
+  {
+    "administrativeDivision": "線西鄉",
+    "village": "德興村",
+    "candidateVotes": {
+      "rainforest": 64,
+      "coast": 422,
+      "savannah": 503
+    },
+    "validVotes": 989,
+    "invalidVotes": 19,
+    "totalVotes": 1008,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1008,
+    "remainingVotes": 304,
+    "eligibleVoters": 1312,
+    "voterTurnout": 76.8293
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2530,
+      "savannah": 9726,
+      "rainforest": 1171
+    },
+    "validVotes": 13427,
+    "invalidVotes": 196,
+    "totalVotes": 13623,
+    "receivedUnvoted": 1,
+    "issuedVotes": 13624,
+    "remainingVotes": 8236,
+    "eligibleVoters": 21860,
+    "voterTurnout": 62.31999969482422
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "水秀里",
+    "candidateVotes": {
+      "coast": 195,
+      "savannah": 660,
+      "rainforest": 96
+    },
+    "validVotes": 951,
+    "invalidVotes": 7,
+    "totalVotes": 958,
+    "receivedUnvoted": 0,
+    "issuedVotes": 958,
+    "remainingVotes": 555,
+    "eligibleVoters": 1513,
+    "voterTurnout": 63.31999969482422
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "福得里",
+    "candidateVotes": {
+      "coast": 81,
+      "savannah": 261,
+      "rainforest": 51
+    },
+    "validVotes": 393,
+    "invalidVotes": 5,
+    "totalVotes": 398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 398,
+    "remainingVotes": 212,
+    "eligibleVoters": 610,
+    "voterTurnout": 65.25
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "三生里",
+    "candidateVotes": {
+      "coast": 45,
+      "savannah": 152,
+      "rainforest": 21
+    },
+    "validVotes": 218,
+    "invalidVotes": 3,
+    "totalVotes": 221,
+    "receivedUnvoted": 0,
+    "issuedVotes": 221,
+    "remainingVotes": 102,
+    "eligibleVoters": 323,
+    "voterTurnout": 68.41999816894531
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "武廟里",
+    "candidateVotes": {
+      "coast": 70,
+      "savannah": 213,
+      "rainforest": 36
+    },
+    "validVotes": 319,
+    "invalidVotes": 6,
+    "totalVotes": 325,
+    "receivedUnvoted": 0,
+    "issuedVotes": 325,
+    "remainingVotes": 198,
+    "eligibleVoters": 523,
+    "voterTurnout": 62.13999938964844
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "中境里",
+    "candidateVotes": {
+      "coast": 98,
+      "savannah": 180,
+      "rainforest": 34
+    },
+    "validVotes": 312,
+    "invalidVotes": 3,
+    "totalVotes": 315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 315,
+    "remainingVotes": 188,
+    "eligibleVoters": 503,
+    "voterTurnout": 62.619998931884766
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "水仙里",
+    "candidateVotes": {
+      "coast": 55,
+      "savannah": 143,
+      "rainforest": 22
+    },
+    "validVotes": 220,
+    "invalidVotes": 2,
+    "totalVotes": 222,
+    "receivedUnvoted": 0,
+    "issuedVotes": 222,
+    "remainingVotes": 123,
+    "eligibleVoters": 345,
+    "voterTurnout": 64.3499984741211
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "水正里",
+    "candidateVotes": {
+      "coast": 118,
+      "savannah": 310,
+      "rainforest": 49
+    },
+    "validVotes": 477,
+    "invalidVotes": 8,
+    "totalVotes": 485,
+    "receivedUnvoted": 0,
+    "issuedVotes": 485,
+    "remainingVotes": 253,
+    "eligibleVoters": 738,
+    "voterTurnout": 65.72000122070312
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "橋南里",
+    "candidateVotes": {
+      "coast": 446,
+      "savannah": 1443,
+      "rainforest": 211
+    },
+    "validVotes": 2100,
+    "invalidVotes": 32,
+    "totalVotes": 2132,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2133,
+    "remainingVotes": 1436,
+    "eligibleVoters": 3569,
+    "voterTurnout": 59.7400016784668
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "舊營里",
+    "candidateVotes": {
+      "coast": 48,
+      "savannah": 399,
+      "rainforest": 32
+    },
+    "validVotes": 479,
+    "invalidVotes": 9,
+    "totalVotes": 488,
+    "receivedUnvoted": 0,
+    "issuedVotes": 488,
+    "remainingVotes": 277,
+    "eligibleVoters": 765,
+    "voterTurnout": 63.790000915527344
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "汫水里",
+    "candidateVotes": {
+      "coast": 48,
+      "savannah": 490,
+      "rainforest": 38
+    },
+    "validVotes": 576,
+    "invalidVotes": 10,
+    "totalVotes": 586,
+    "receivedUnvoted": 0,
+    "issuedVotes": 586,
+    "remainingVotes": 369,
+    "eligibleVoters": 955,
+    "voterTurnout": 61.36000061035156
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "岸內里",
+    "candidateVotes": {
+      "coast": 470,
+      "savannah": 1423,
+      "rainforest": 206
+    },
+    "validVotes": 2099,
+    "invalidVotes": 34,
+    "totalVotes": 2133,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2133,
+    "remainingVotes": 1267,
+    "eligibleVoters": 3400,
+    "voterTurnout": 62.7400016784668
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "義稠里",
+    "candidateVotes": {
+      "coast": 83,
+      "savannah": 370,
+      "rainforest": 43
+    },
+    "validVotes": 496,
+    "invalidVotes": 9,
+    "totalVotes": 505,
+    "receivedUnvoted": 0,
+    "issuedVotes": 505,
+    "remainingVotes": 304,
+    "eligibleVoters": 809,
+    "voterTurnout": 62.41999816894531
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "下中里",
+    "candidateVotes": {
+      "coast": 58,
+      "savannah": 336,
+      "rainforest": 25
+    },
+    "validVotes": 419,
+    "invalidVotes": 6,
+    "totalVotes": 425,
+    "receivedUnvoted": 0,
+    "issuedVotes": 425,
+    "remainingVotes": 318,
+    "eligibleVoters": 743,
+    "voterTurnout": 57.20000076293945
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "歡雅里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 748,
+      "rainforest": 85
+    },
+    "validVotes": 989,
+    "invalidVotes": 11,
+    "totalVotes": 1000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1000,
+    "remainingVotes": 661,
+    "eligibleVoters": 1661,
+    "voterTurnout": 60.20000076293945
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "大莊里",
+    "candidateVotes": {
+      "coast": 45,
+      "savannah": 251,
+      "rainforest": 18
+    },
+    "validVotes": 314,
+    "invalidVotes": 2,
+    "totalVotes": 316,
+    "receivedUnvoted": 0,
+    "issuedVotes": 316,
+    "remainingVotes": 190,
+    "eligibleVoters": 506,
+    "voterTurnout": 62.45000076293945
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "桐寮里",
+    "candidateVotes": {
+      "coast": 25,
+      "savannah": 146,
+      "rainforest": 14
+    },
+    "validVotes": 185,
+    "invalidVotes": 4,
+    "totalVotes": 189,
+    "receivedUnvoted": 0,
+    "issuedVotes": 189,
+    "remainingVotes": 105,
+    "eligibleVoters": 294,
+    "voterTurnout": 64.29000091552734
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "後宅里",
+    "candidateVotes": {
+      "coast": 76,
+      "savannah": 298,
+      "rainforest": 19
+    },
+    "validVotes": 393,
+    "invalidVotes": 5,
+    "totalVotes": 398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 398,
+    "remainingVotes": 237,
+    "eligibleVoters": 635,
+    "voterTurnout": 62.68000030517578
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "孫厝里",
+    "candidateVotes": {
+      "coast": 44,
+      "savannah": 181,
+      "rainforest": 18
+    },
+    "validVotes": 243,
+    "invalidVotes": 2,
+    "totalVotes": 245,
+    "receivedUnvoted": 0,
+    "issuedVotes": 245,
+    "remainingVotes": 180,
+    "eligibleVoters": 425,
+    "voterTurnout": 57.650001525878906
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "竹埔里",
+    "candidateVotes": {
+      "coast": 62,
+      "savannah": 406,
+      "rainforest": 24
+    },
+    "validVotes": 492,
+    "invalidVotes": 11,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 289,
+    "eligibleVoters": 792,
+    "voterTurnout": 63.5099983215332
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "下林里",
+    "candidateVotes": {
+      "coast": 24,
+      "savannah": 205,
+      "rainforest": 14
+    },
+    "validVotes": 243,
+    "invalidVotes": 1,
+    "totalVotes": 244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 244,
+    "remainingVotes": 126,
+    "eligibleVoters": 370,
+    "voterTurnout": 65.94999694824219
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "田寮里",
+    "candidateVotes": {
+      "coast": 23,
+      "savannah": 134,
+      "rainforest": 10
+    },
+    "validVotes": 167,
+    "invalidVotes": 3,
+    "totalVotes": 170,
+    "receivedUnvoted": 0,
+    "issuedVotes": 170,
+    "remainingVotes": 76,
+    "eligibleVoters": 246,
+    "voterTurnout": 69.11000061035156
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "大豐里",
+    "candidateVotes": {
+      "coast": 31,
+      "savannah": 151,
+      "rainforest": 17
+    },
+    "validVotes": 199,
+    "invalidVotes": 0,
+    "totalVotes": 199,
+    "receivedUnvoted": 0,
+    "issuedVotes": 199,
+    "remainingVotes": 134,
+    "eligibleVoters": 333,
+    "voterTurnout": 59.7599983215332
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "飯店里",
+    "candidateVotes": {
+      "coast": 54,
+      "savannah": 169,
+      "rainforest": 30
+    },
+    "validVotes": 253,
+    "invalidVotes": 3,
+    "totalVotes": 256,
+    "receivedUnvoted": 0,
+    "issuedVotes": 256,
+    "remainingVotes": 145,
+    "eligibleVoters": 401,
+    "voterTurnout": 63.84000015258789
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "河南里",
+    "candidateVotes": {
+      "coast": 62,
+      "savannah": 217,
+      "rainforest": 18
+    },
+    "validVotes": 297,
+    "invalidVotes": 7,
+    "totalVotes": 304,
+    "receivedUnvoted": 0,
+    "issuedVotes": 304,
+    "remainingVotes": 207,
+    "eligibleVoters": 511,
+    "voterTurnout": 59.4900016784668
+  },
+  {
+    "administrativeDivision": "鹽水區",
+    "village": "南港里",
+    "candidateVotes": {
+      "coast": 113,
+      "savannah": 440,
+      "rainforest": 40
+    },
+    "validVotes": 593,
+    "invalidVotes": 13,
+    "totalVotes": 606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 606,
+    "remainingVotes": 284,
+    "eligibleVoters": 890,
+    "voterTurnout": 68.08999633789062
+  }
+]

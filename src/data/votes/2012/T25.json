@@ -1,0 +1,87 @@
+[
+  {
+    "administrativeDivision": "枋山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 2135,
+      "coast": 1139,
+      "rainforest": 53
+    },
+    "validVotes": 3327,
+    "invalidVotes": 50,
+    "totalVotes": 3377,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3377,
+    "remainingVotes": 1420,
+    "eligibleVoters": 4797,
+    "voterTurnout": 70.4000015258789
+  },
+  {
+    "administrativeDivision": "枋山鄉",
+    "village": "枋山村",
+    "candidateVotes": {
+      "savannah": 379,
+      "coast": 322,
+      "rainforest": 20
+    },
+    "validVotes": 721,
+    "invalidVotes": 9,
+    "totalVotes": 730,
+    "receivedUnvoted": 0,
+    "issuedVotes": 730,
+    "remainingVotes": 283,
+    "eligibleVoters": 1013,
+    "voterTurnout": 72.05999755859375
+  },
+  {
+    "administrativeDivision": "枋山鄉",
+    "village": "加祿村",
+    "candidateVotes": {
+      "savannah": 835,
+      "coast": 502,
+      "rainforest": 24
+    },
+    "validVotes": 1361,
+    "invalidVotes": 22,
+    "totalVotes": 1383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1383,
+    "remainingVotes": 474,
+    "eligibleVoters": 1857,
+    "voterTurnout": 74.47000122070312
+  },
+  {
+    "administrativeDivision": "枋山鄉",
+    "village": "楓港村",
+    "candidateVotes": {
+      "savannah": 510,
+      "coast": 154,
+      "rainforest": 7
+    },
+    "validVotes": 671,
+    "invalidVotes": 12,
+    "totalVotes": 683,
+    "receivedUnvoted": 0,
+    "issuedVotes": 683,
+    "remainingVotes": 343,
+    "eligibleVoters": 1026,
+    "voterTurnout": 66.56999969482422
+  },
+  {
+    "administrativeDivision": "枋山鄉",
+    "village": "善餘村",
+    "candidateVotes": {
+      "savannah": 411,
+      "coast": 161,
+      "rainforest": 2
+    },
+    "validVotes": 574,
+    "invalidVotes": 7,
+    "totalVotes": 581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 581,
+    "remainingVotes": 320,
+    "eligibleVoters": 901,
+    "voterTurnout": 64.4800033569336
+  }
+]

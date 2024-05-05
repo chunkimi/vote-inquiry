@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2510,
+      "coast": 18102,
+      "savannah": 31079
+    },
+    "validVotes": 51691,
+    "invalidVotes": 568,
+    "totalVotes": 52259,
+    "receivedUnvoted": 5,
+    "issuedVotes": 52264,
+    "remainingVotes": 18153,
+    "eligibleVoters": 70417,
+    "voterTurnout": 74.2136
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "建德里",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 138,
+      "savannah": 232
+    },
+    "validVotes": 391,
+    "invalidVotes": 7,
+    "totalVotes": 398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 398,
+    "remainingVotes": 104,
+    "eligibleVoters": 502,
+    "voterTurnout": 79.2829
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "東鶯里",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 226,
+      "savannah": 435
+    },
+    "validVotes": 692,
+    "invalidVotes": 5,
+    "totalVotes": 697,
+    "receivedUnvoted": 0,
+    "issuedVotes": 697,
+    "remainingVotes": 234,
+    "eligibleVoters": 931,
+    "voterTurnout": 74.8657
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "北鶯里",
+    "candidateVotes": {
+      "rainforest": 135,
+      "coast": 1001,
+      "savannah": 1359
+    },
+    "validVotes": 2495,
+    "invalidVotes": 31,
+    "totalVotes": 2526,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2526,
+    "remainingVotes": 1133,
+    "eligibleVoters": 3659,
+    "voterTurnout": 69.0353
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "西鶯里",
+    "candidateVotes": {
+      "rainforest": 67,
+      "coast": 503,
+      "savannah": 846
+    },
+    "validVotes": 1416,
+    "invalidVotes": 16,
+    "totalVotes": 1432,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1432,
+    "remainingVotes": 491,
+    "eligibleVoters": 1923,
+    "voterTurnout": 74.467
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "中鶯里",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 259,
+      "savannah": 451
+    },
+    "validVotes": 737,
+    "invalidVotes": 5,
+    "totalVotes": 742,
+    "receivedUnvoted": 0,
+    "issuedVotes": 742,
+    "remainingVotes": 185,
+    "eligibleVoters": 927,
+    "voterTurnout": 80.0431
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "南鶯里",
+    "candidateVotes": {
+      "rainforest": 165,
+      "coast": 1268,
+      "savannah": 2205
+    },
+    "validVotes": 3638,
+    "invalidVotes": 41,
+    "totalVotes": 3679,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3680,
+    "remainingVotes": 1169,
+    "eligibleVoters": 4849,
+    "voterTurnout": 75.8713
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "建國里",
+    "candidateVotes": {
+      "rainforest": 217,
+      "coast": 1391,
+      "savannah": 2698
+    },
+    "validVotes": 4306,
+    "invalidVotes": 54,
+    "totalVotes": 4360,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4360,
+    "remainingVotes": 1540,
+    "eligibleVoters": 5900,
+    "voterTurnout": 73.8983
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "二甲里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 188,
+      "savannah": 390
+    },
+    "validVotes": 617,
+    "invalidVotes": 6,
+    "totalVotes": 623,
+    "receivedUnvoted": 0,
+    "issuedVotes": 623,
+    "remainingVotes": 203,
+    "eligibleVoters": 826,
+    "voterTurnout": 75.4237
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "二橋里",
+    "candidateVotes": {
+      "rainforest": 240,
+      "coast": 1673,
+      "savannah": 3078
+    },
+    "validVotes": 4991,
+    "invalidVotes": 67,
+    "totalVotes": 5058,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5058,
+    "remainingVotes": 1876,
+    "eligibleVoters": 6934,
+    "voterTurnout": 72.9449
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "尖山里",
+    "candidateVotes": {
+      "rainforest": 243,
+      "coast": 1753,
+      "savannah": 3104
+    },
+    "validVotes": 5100,
+    "invalidVotes": 48,
+    "totalVotes": 5148,
+    "receivedUnvoted": 1,
+    "issuedVotes": 5149,
+    "remainingVotes": 1799,
+    "eligibleVoters": 6948,
+    "voterTurnout": 74.0933
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "南靖里",
+    "candidateVotes": {
+      "rainforest": 137,
+      "coast": 765,
+      "savannah": 1428
+    },
+    "validVotes": 2330,
+    "invalidVotes": 17,
+    "totalVotes": 2347,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2347,
+    "remainingVotes": 750,
+    "eligibleVoters": 3097,
+    "voterTurnout": 75.783
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "同慶里",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 335,
+      "savannah": 682
+    },
+    "validVotes": 1065,
+    "invalidVotes": 11,
+    "totalVotes": 1076,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1076,
+    "remainingVotes": 301,
+    "eligibleVoters": 1377,
+    "voterTurnout": 78.1409
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "永昌里",
+    "candidateVotes": {
+      "rainforest": 250,
+      "coast": 1892,
+      "savannah": 3118
+    },
+    "validVotes": 5260,
+    "invalidVotes": 48,
+    "totalVotes": 5308,
+    "receivedUnvoted": 1,
+    "issuedVotes": 5309,
+    "remainingVotes": 1766,
+    "eligibleVoters": 7075,
+    "voterTurnout": 75.0247
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "永吉里",
+    "candidateVotes": {
+      "rainforest": 163,
+      "coast": 1066,
+      "savannah": 1942
+    },
+    "validVotes": 3171,
+    "invalidVotes": 29,
+    "totalVotes": 3200,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3200,
+    "remainingVotes": 987,
+    "eligibleVoters": 4187,
+    "voterTurnout": 76.427
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "鳳祥里",
+    "candidateVotes": {
+      "rainforest": 131,
+      "coast": 968,
+      "savannah": 1661
+    },
+    "validVotes": 2760,
+    "invalidVotes": 26,
+    "totalVotes": 2786,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2786,
+    "remainingVotes": 1081,
+    "eligibleVoters": 3867,
+    "voterTurnout": 72.0455
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "鳳鳴里",
+    "candidateVotes": {
+      "rainforest": 166,
+      "coast": 1069,
+      "savannah": 1917
+    },
+    "validVotes": 3152,
+    "invalidVotes": 47,
+    "totalVotes": 3199,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3199,
+    "remainingVotes": 1084,
+    "eligibleVoters": 4283,
+    "voterTurnout": 74.6906
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "鳳福里",
+    "candidateVotes": {
+      "rainforest": 126,
+      "coast": 912,
+      "savannah": 1492
+    },
+    "validVotes": 2530,
+    "invalidVotes": 31,
+    "totalVotes": 2561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2561,
+    "remainingVotes": 859,
+    "eligibleVoters": 3420,
+    "voterTurnout": 74.883
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "大湖里",
+    "candidateVotes": {
+      "rainforest": 135,
+      "coast": 1347,
+      "savannah": 1852
+    },
+    "validVotes": 3334,
+    "invalidVotes": 42,
+    "totalVotes": 3376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3376,
+    "remainingVotes": 1124,
+    "eligibleVoters": 4500,
+    "voterTurnout": 75.0222
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "中湖里",
+    "candidateVotes": {
+      "rainforest": 163,
+      "coast": 1283,
+      "savannah": 2074
+    },
+    "validVotes": 3520,
+    "invalidVotes": 35,
+    "totalVotes": 3555,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3557,
+    "remainingVotes": 1421,
+    "eligibleVoters": 4978,
+    "voterTurnout": 71.4142
+  },
+  {
+    "administrativeDivision": "鶯歌區",
+    "village": "東湖里",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 65,
+      "savannah": 115
+    },
+    "validVotes": 186,
+    "invalidVotes": 2,
+    "totalVotes": 188,
+    "receivedUnvoted": 0,
+    "issuedVotes": 188,
+    "remainingVotes": 46,
+    "eligibleVoters": 234,
+    "voterTurnout": 80.3419
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "山上區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 828,
+      "savannah": 2833,
+      "rainforest": 349
+    },
+    "validVotes": 4010,
+    "invalidVotes": 63,
+    "totalVotes": 4073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4073,
+    "remainingVotes": 2267,
+    "eligibleVoters": 6340,
+    "voterTurnout": 64.23999786376953
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "明和里",
+    "candidateVotes": {
+      "coast": 216,
+      "savannah": 737,
+      "rainforest": 97
+    },
+    "validVotes": 1050,
+    "invalidVotes": 23,
+    "totalVotes": 1073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1073,
+    "remainingVotes": 607,
+    "eligibleVoters": 1680,
+    "voterTurnout": 63.869998931884766
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "南洲里",
+    "candidateVotes": {
+      "coast": 205,
+      "savannah": 754,
+      "rainforest": 72
+    },
+    "validVotes": 1031,
+    "invalidVotes": 6,
+    "totalVotes": 1037,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1037,
+    "remainingVotes": 519,
+    "eligibleVoters": 1556,
+    "voterTurnout": 66.6500015258789
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "山上里",
+    "candidateVotes": {
+      "coast": 128,
+      "savannah": 370,
+      "rainforest": 46
+    },
+    "validVotes": 544,
+    "invalidVotes": 13,
+    "totalVotes": 557,
+    "receivedUnvoted": 0,
+    "issuedVotes": 557,
+    "remainingVotes": 341,
+    "eligibleVoters": 898,
+    "voterTurnout": 62.029998779296875
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "新莊里",
+    "candidateVotes": {
+      "coast": 107,
+      "savannah": 431,
+      "rainforest": 69
+    },
+    "validVotes": 607,
+    "invalidVotes": 10,
+    "totalVotes": 617,
+    "receivedUnvoted": 0,
+    "issuedVotes": 617,
+    "remainingVotes": 289,
+    "eligibleVoters": 906,
+    "voterTurnout": 68.0999984741211
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "玉峯里",
+    "candidateVotes": {
+      "coast": 65,
+      "savannah": 224,
+      "rainforest": 17
+    },
+    "validVotes": 306,
+    "invalidVotes": 5,
+    "totalVotes": 311,
+    "receivedUnvoted": 0,
+    "issuedVotes": 311,
+    "remainingVotes": 230,
+    "eligibleVoters": 541,
+    "voterTurnout": 57.4900016784668
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "平陽里",
+    "candidateVotes": {
+      "coast": 71,
+      "savannah": 136,
+      "rainforest": 25
+    },
+    "validVotes": 232,
+    "invalidVotes": 4,
+    "totalVotes": 236,
+    "receivedUnvoted": 0,
+    "issuedVotes": 236,
+    "remainingVotes": 142,
+    "eligibleVoters": 378,
+    "voterTurnout": 62.43000030517578
+  },
+  {
+    "administrativeDivision": "山上區",
+    "village": "豐德里",
+    "candidateVotes": {
+      "coast": 36,
+      "savannah": 181,
+      "rainforest": 23
+    },
+    "validVotes": 240,
+    "invalidVotes": 2,
+    "totalVotes": 242,
+    "receivedUnvoted": 0,
+    "issuedVotes": 242,
+    "remainingVotes": 139,
+    "eligibleVoters": 381,
+    "voterTurnout": 63.52000045776367
+  }
+]

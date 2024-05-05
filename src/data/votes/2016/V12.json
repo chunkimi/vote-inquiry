@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 990,
+      "savannah": 335,
+      "rainforest": 231
+    },
+    "validVotes": 1556,
+    "invalidVotes": 30,
+    "totalVotes": 1586,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1586,
+    "remainingVotes": 1138,
+    "eligibleVoters": 2724,
+    "voterTurnout": 58.220001220703125
+  },
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "桃源村",
+    "candidateVotes": {
+      "coast": 313,
+      "savannah": 182,
+      "rainforest": 80
+    },
+    "validVotes": 575,
+    "invalidVotes": 9,
+    "totalVotes": 584,
+    "receivedUnvoted": 0,
+    "issuedVotes": 584,
+    "remainingVotes": 359,
+    "eligibleVoters": 943,
+    "voterTurnout": 61.93000030517578
+  },
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "紅葉村",
+    "candidateVotes": {
+      "coast": 139,
+      "savannah": 47,
+      "rainforest": 21
+    },
+    "validVotes": 207,
+    "invalidVotes": 7,
+    "totalVotes": 214,
+    "receivedUnvoted": 0,
+    "issuedVotes": 214,
+    "remainingVotes": 188,
+    "eligibleVoters": 402,
+    "voterTurnout": 53.22999954223633
+  },
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "永康村",
+    "candidateVotes": {
+      "coast": 116,
+      "savannah": 25,
+      "rainforest": 29
+    },
+    "validVotes": 170,
+    "invalidVotes": 2,
+    "totalVotes": 172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 172,
+    "remainingVotes": 102,
+    "eligibleVoters": 274,
+    "voterTurnout": 62.77000045776367
+  },
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "武陵村",
+    "candidateVotes": {
+      "coast": 240,
+      "savannah": 43,
+      "rainforest": 36
+    },
+    "validVotes": 319,
+    "invalidVotes": 6,
+    "totalVotes": 325,
+    "receivedUnvoted": 0,
+    "issuedVotes": 325,
+    "remainingVotes": 231,
+    "eligibleVoters": 556,
+    "voterTurnout": 58.45000076293945
+  },
+  {
+    "administrativeDivision": "延平鄉",
+    "village": "鸞山村",
+    "candidateVotes": {
+      "coast": 182,
+      "savannah": 38,
+      "rainforest": 65
+    },
+    "validVotes": 285,
+    "invalidVotes": 6,
+    "totalVotes": 291,
+    "receivedUnvoted": 0,
+    "issuedVotes": 291,
+    "remainingVotes": 258,
+    "eligibleVoters": 549,
+    "voterTurnout": 53.0099983215332
+  }
+]

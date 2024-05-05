@@ -1,0 +1,1260 @@
+[
+  {
+    "administrativeDivision": "彰化市",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 7159,
+      "coast": 56291,
+      "savannah": 79169
+    },
+    "validVotes": 142619,
+    "invalidVotes": 1787,
+    "totalVotes": 144406,
+    "receivedUnvoted": 6,
+    "issuedVotes": 144412,
+    "remainingVotes": 41260,
+    "eligibleVoters": 185672,
+    "voterTurnout": 77.7748
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "桃源里",
+    "candidateVotes": {
+      "rainforest": 91,
+      "coast": 761,
+      "savannah": 964
+    },
+    "validVotes": 1816,
+    "invalidVotes": 17,
+    "totalVotes": 1833,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1833,
+    "remainingVotes": 603,
+    "eligibleVoters": 2436,
+    "voterTurnout": 75.2463
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "東興里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 464,
+      "savannah": 630
+    },
+    "validVotes": 1144,
+    "invalidVotes": 14,
+    "totalVotes": 1158,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1158,
+    "remainingVotes": 362,
+    "eligibleVoters": 1520,
+    "voterTurnout": 76.1842
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "華北里",
+    "candidateVotes": {
+      "rainforest": 54,
+      "coast": 419,
+      "savannah": 602
+    },
+    "validVotes": 1075,
+    "invalidVotes": 13,
+    "totalVotes": 1088,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1088,
+    "remainingVotes": 328,
+    "eligibleVoters": 1416,
+    "voterTurnout": 76.8362
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "華陽里",
+    "candidateVotes": {
+      "rainforest": 44,
+      "coast": 636,
+      "savannah": 621
+    },
+    "validVotes": 1301,
+    "invalidVotes": 15,
+    "totalVotes": 1316,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1316,
+    "remainingVotes": 450,
+    "eligibleVoters": 1766,
+    "voterTurnout": 74.5187
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "大同里",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 313,
+      "savannah": 417
+    },
+    "validVotes": 760,
+    "invalidVotes": 9,
+    "totalVotes": 769,
+    "receivedUnvoted": 0,
+    "issuedVotes": 769,
+    "remainingVotes": 237,
+    "eligibleVoters": 1006,
+    "voterTurnout": 76.4414
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "永生里",
+    "candidateVotes": {
+      "rainforest": 57,
+      "coast": 377,
+      "savannah": 520
+    },
+    "validVotes": 954,
+    "invalidVotes": 11,
+    "totalVotes": 965,
+    "receivedUnvoted": 0,
+    "issuedVotes": 965,
+    "remainingVotes": 257,
+    "eligibleVoters": 1222,
+    "voterTurnout": 78.9689
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "建寶里",
+    "candidateVotes": {
+      "rainforest": 69,
+      "coast": 827,
+      "savannah": 796
+    },
+    "validVotes": 1692,
+    "invalidVotes": 26,
+    "totalVotes": 1718,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1718,
+    "remainingVotes": 506,
+    "eligibleVoters": 2224,
+    "voterTurnout": 77.2482
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "光南里",
+    "candidateVotes": {
+      "rainforest": 55,
+      "coast": 412,
+      "savannah": 618
+    },
+    "validVotes": 1085,
+    "invalidVotes": 11,
+    "totalVotes": 1096,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1096,
+    "remainingVotes": 285,
+    "eligibleVoters": 1381,
+    "voterTurnout": 79.3628
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "介壽里",
+    "candidateVotes": {
+      "rainforest": 75,
+      "coast": 799,
+      "savannah": 731
+    },
+    "validVotes": 1605,
+    "invalidVotes": 30,
+    "totalVotes": 1635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1635,
+    "remainingVotes": 907,
+    "eligibleVoters": 2542,
+    "voterTurnout": 64.3194
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "延平里",
+    "candidateVotes": {
+      "rainforest": 335,
+      "coast": 2594,
+      "savannah": 3598
+    },
+    "validVotes": 6527,
+    "invalidVotes": 85,
+    "totalVotes": 6612,
+    "receivedUnvoted": 1,
+    "issuedVotes": 6613,
+    "remainingVotes": 1839,
+    "eligibleVoters": 8452,
+    "voterTurnout": 78.23
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "延和里",
+    "candidateVotes": {
+      "rainforest": 181,
+      "coast": 1430,
+      "savannah": 2042
+    },
+    "validVotes": 3653,
+    "invalidVotes": 52,
+    "totalVotes": 3705,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3705,
+    "remainingVotes": 1083,
+    "eligibleVoters": 4788,
+    "voterTurnout": 77.381
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "南興里",
+    "candidateVotes": {
+      "rainforest": 277,
+      "coast": 2072,
+      "savannah": 3228
+    },
+    "validVotes": 5577,
+    "invalidVotes": 72,
+    "totalVotes": 5649,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5649,
+    "remainingVotes": 1534,
+    "eligibleVoters": 7183,
+    "voterTurnout": 78.644
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "南瑶里",
+    "candidateVotes": {
+      "rainforest": 258,
+      "coast": 2226,
+      "savannah": 3197
+    },
+    "validVotes": 5681,
+    "invalidVotes": 69,
+    "totalVotes": 5750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5750,
+    "remainingVotes": 1567,
+    "eligibleVoters": 7317,
+    "voterTurnout": 78.5841
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "成功里",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 426,
+      "savannah": 634
+    },
+    "validVotes": 1119,
+    "invalidVotes": 15,
+    "totalVotes": 1134,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1134,
+    "remainingVotes": 311,
+    "eligibleVoters": 1445,
+    "voterTurnout": 78.4775
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "福安里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 305,
+      "savannah": 409
+    },
+    "validVotes": 753,
+    "invalidVotes": 15,
+    "totalVotes": 768,
+    "receivedUnvoted": 0,
+    "issuedVotes": 768,
+    "remainingVotes": 213,
+    "eligibleVoters": 981,
+    "voterTurnout": 78.2875
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "西安里",
+    "candidateVotes": {
+      "rainforest": 112,
+      "coast": 771,
+      "savannah": 1179
+    },
+    "validVotes": 2062,
+    "invalidVotes": 26,
+    "totalVotes": 2088,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2088,
+    "remainingVotes": 719,
+    "eligibleVoters": 2807,
+    "voterTurnout": 74.3855
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "彰安里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 808,
+      "savannah": 1245
+    },
+    "validVotes": 2154,
+    "invalidVotes": 20,
+    "totalVotes": 2174,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2174,
+    "remainingVotes": 662,
+    "eligibleVoters": 2836,
+    "voterTurnout": 76.6573
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "中央里",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 217,
+      "savannah": 361
+    },
+    "validVotes": 593,
+    "invalidVotes": 6,
+    "totalVotes": 599,
+    "receivedUnvoted": 0,
+    "issuedVotes": 599,
+    "remainingVotes": 160,
+    "eligibleVoters": 759,
+    "voterTurnout": 78.9196
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "富貴里",
+    "candidateVotes": {
+      "rainforest": 28,
+      "coast": 258,
+      "savannah": 391
+    },
+    "validVotes": 677,
+    "invalidVotes": 6,
+    "totalVotes": 683,
+    "receivedUnvoted": 0,
+    "issuedVotes": 683,
+    "remainingVotes": 168,
+    "eligibleVoters": 851,
+    "voterTurnout": 80.2585
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "民權里",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 309,
+      "savannah": 475
+    },
+    "validVotes": 813,
+    "invalidVotes": 7,
+    "totalVotes": 820,
+    "receivedUnvoted": 0,
+    "issuedVotes": 820,
+    "remainingVotes": 257,
+    "eligibleVoters": 1077,
+    "voterTurnout": 76.1374
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "萬壽里",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 193,
+      "savannah": 445
+    },
+    "validVotes": 654,
+    "invalidVotes": 5,
+    "totalVotes": 659,
+    "receivedUnvoted": 0,
+    "issuedVotes": 659,
+    "remainingVotes": 205,
+    "eligibleVoters": 864,
+    "voterTurnout": 76.2731
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "長樂里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 254,
+      "savannah": 475
+    },
+    "validVotes": 754,
+    "invalidVotes": 6,
+    "totalVotes": 760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 760,
+    "remainingVotes": 183,
+    "eligibleVoters": 943,
+    "voterTurnout": 80.5938
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "西興里",
+    "candidateVotes": {
+      "rainforest": 176,
+      "coast": 952,
+      "savannah": 1410
+    },
+    "validVotes": 2538,
+    "invalidVotes": 32,
+    "totalVotes": 2570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2570,
+    "remainingVotes": 685,
+    "eligibleVoters": 3255,
+    "voterTurnout": 78.9555
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "西勢里",
+    "candidateVotes": {
+      "rainforest": 134,
+      "coast": 1161,
+      "savannah": 1467
+    },
+    "validVotes": 2762,
+    "invalidVotes": 35,
+    "totalVotes": 2797,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2797,
+    "remainingVotes": 714,
+    "eligibleVoters": 3511,
+    "voterTurnout": 79.6639
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "忠權里",
+    "candidateVotes": {
+      "rainforest": 117,
+      "coast": 959,
+      "savannah": 1246
+    },
+    "validVotes": 2322,
+    "invalidVotes": 25,
+    "totalVotes": 2347,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2347,
+    "remainingVotes": 702,
+    "eligibleVoters": 3049,
+    "voterTurnout": 76.9761
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "rainforest": 55,
+      "coast": 367,
+      "savannah": 479
+    },
+    "validVotes": 901,
+    "invalidVotes": 16,
+    "totalVotes": 917,
+    "receivedUnvoted": 0,
+    "issuedVotes": 917,
+    "remainingVotes": 233,
+    "eligibleVoters": 1150,
+    "voterTurnout": 79.7391
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "五權里",
+    "candidateVotes": {
+      "rainforest": 153,
+      "coast": 1175,
+      "savannah": 1611
+    },
+    "validVotes": 2939,
+    "invalidVotes": 35,
+    "totalVotes": 2974,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2974,
+    "remainingVotes": 1039,
+    "eligibleVoters": 4013,
+    "voterTurnout": 74.1091
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "平和里",
+    "candidateVotes": {
+      "rainforest": 149,
+      "coast": 1222,
+      "savannah": 1772
+    },
+    "validVotes": 3143,
+    "invalidVotes": 30,
+    "totalVotes": 3173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3173,
+    "remainingVotes": 896,
+    "eligibleVoters": 4069,
+    "voterTurnout": 77.9798
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "崙平里",
+    "candidateVotes": {
+      "rainforest": 177,
+      "coast": 1600,
+      "savannah": 2156
+    },
+    "validVotes": 3933,
+    "invalidVotes": 54,
+    "totalVotes": 3987,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3987,
+    "remainingVotes": 1202,
+    "eligibleVoters": 5189,
+    "voterTurnout": 76.8356
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "向陽里",
+    "candidateVotes": {
+      "rainforest": 194,
+      "coast": 1632,
+      "savannah": 2097
+    },
+    "validVotes": 3923,
+    "invalidVotes": 45,
+    "totalVotes": 3968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3968,
+    "remainingVotes": 1027,
+    "eligibleVoters": 4995,
+    "voterTurnout": 79.4394
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "莿桐里",
+    "candidateVotes": {
+      "rainforest": 108,
+      "coast": 910,
+      "savannah": 1307
+    },
+    "validVotes": 2325,
+    "invalidVotes": 32,
+    "totalVotes": 2357,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2358,
+    "remainingVotes": 665,
+    "eligibleVoters": 3023,
+    "voterTurnout": 77.9689
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "南美里",
+    "candidateVotes": {
+      "rainforest": 72,
+      "coast": 520,
+      "savannah": 787
+    },
+    "validVotes": 1379,
+    "invalidVotes": 22,
+    "totalVotes": 1401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1401,
+    "remainingVotes": 389,
+    "eligibleVoters": 1790,
+    "voterTurnout": 78.2682
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "南安里",
+    "candidateVotes": {
+      "rainforest": 91,
+      "coast": 608,
+      "savannah": 873
+    },
+    "validVotes": 1572,
+    "invalidVotes": 16,
+    "totalVotes": 1588,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1588,
+    "remainingVotes": 483,
+    "eligibleVoters": 2071,
+    "voterTurnout": 76.6779
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "東芳里",
+    "candidateVotes": {
+      "rainforest": 143,
+      "coast": 937,
+      "savannah": 1533
+    },
+    "validVotes": 2613,
+    "invalidVotes": 31,
+    "totalVotes": 2644,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2644,
+    "remainingVotes": 747,
+    "eligibleVoters": 3391,
+    "voterTurnout": 77.9711
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "磚磘里",
+    "candidateVotes": {
+      "rainforest": 118,
+      "coast": 932,
+      "savannah": 1410
+    },
+    "validVotes": 2460,
+    "invalidVotes": 25,
+    "totalVotes": 2485,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2486,
+    "remainingVotes": 725,
+    "eligibleVoters": 3211,
+    "voterTurnout": 77.3902
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "卦山里",
+    "candidateVotes": {
+      "rainforest": 108,
+      "coast": 803,
+      "savannah": 933
+    },
+    "validVotes": 1844,
+    "invalidVotes": 28,
+    "totalVotes": 1872,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1872,
+    "remainingVotes": 566,
+    "eligibleVoters": 2438,
+    "voterTurnout": 76.7842
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "光復里",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 143,
+      "savannah": 347
+    },
+    "validVotes": 512,
+    "invalidVotes": 7,
+    "totalVotes": 519,
+    "receivedUnvoted": 0,
+    "issuedVotes": 519,
+    "remainingVotes": 129,
+    "eligibleVoters": 648,
+    "voterTurnout": 80.0926
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "永福里",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 230,
+      "savannah": 395
+    },
+    "validVotes": 663,
+    "invalidVotes": 7,
+    "totalVotes": 670,
+    "receivedUnvoted": 0,
+    "issuedVotes": 670,
+    "remainingVotes": 195,
+    "eligibleVoters": 865,
+    "voterTurnout": 77.4566
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "光華里",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 212,
+      "savannah": 324
+    },
+    "validVotes": 555,
+    "invalidVotes": 5,
+    "totalVotes": 560,
+    "receivedUnvoted": 0,
+    "issuedVotes": 560,
+    "remainingVotes": 142,
+    "eligibleVoters": 702,
+    "voterTurnout": 79.7721
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "中正里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 418,
+      "savannah": 609
+    },
+    "validVotes": 1077,
+    "invalidVotes": 10,
+    "totalVotes": 1087,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1088,
+    "remainingVotes": 307,
+    "eligibleVoters": 1395,
+    "voterTurnout": 77.9211
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "中山里",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 274,
+      "savannah": 274
+    },
+    "validVotes": 572,
+    "invalidVotes": 11,
+    "totalVotes": 583,
+    "receivedUnvoted": 0,
+    "issuedVotes": 583,
+    "remainingVotes": 160,
+    "eligibleVoters": 743,
+    "voterTurnout": 78.4657
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "龍山里",
+    "candidateVotes": {
+      "rainforest": 70,
+      "coast": 577,
+      "savannah": 767
+    },
+    "validVotes": 1414,
+    "invalidVotes": 15,
+    "totalVotes": 1429,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1429,
+    "remainingVotes": 414,
+    "eligibleVoters": 1843,
+    "voterTurnout": 77.5366
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "新興里",
+    "candidateVotes": {
+      "rainforest": 208,
+      "coast": 1504,
+      "savannah": 2256
+    },
+    "validVotes": 3968,
+    "invalidVotes": 54,
+    "totalVotes": 4022,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4022,
+    "remainingVotes": 1045,
+    "eligibleVoters": 5067,
+    "voterTurnout": 79.3764
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "新華里",
+    "candidateVotes": {
+      "rainforest": 67,
+      "coast": 500,
+      "savannah": 702
+    },
+    "validVotes": 1269,
+    "invalidVotes": 10,
+    "totalVotes": 1279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1279,
+    "remainingVotes": 366,
+    "eligibleVoters": 1645,
+    "voterTurnout": 77.7508
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "興北里",
+    "candidateVotes": {
+      "rainforest": 58,
+      "coast": 463,
+      "savannah": 683
+    },
+    "validVotes": 1204,
+    "invalidVotes": 10,
+    "totalVotes": 1214,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1215,
+    "remainingVotes": 364,
+    "eligibleVoters": 1579,
+    "voterTurnout": 76.8841
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "信義里",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 235,
+      "savannah": 355
+    },
+    "validVotes": 609,
+    "invalidVotes": 6,
+    "totalVotes": 615,
+    "receivedUnvoted": 0,
+    "issuedVotes": 615,
+    "remainingVotes": 162,
+    "eligibleVoters": 777,
+    "voterTurnout": 79.1506
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "民生里",
+    "candidateVotes": {
+      "rainforest": 41,
+      "coast": 406,
+      "savannah": 586
+    },
+    "validVotes": 1033,
+    "invalidVotes": 16,
+    "totalVotes": 1049,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1049,
+    "remainingVotes": 294,
+    "eligibleVoters": 1343,
+    "voterTurnout": 78.1087
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "文化里",
+    "candidateVotes": {
+      "rainforest": 46,
+      "coast": 408,
+      "savannah": 506
+    },
+    "validVotes": 960,
+    "invalidVotes": 8,
+    "totalVotes": 968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 968,
+    "remainingVotes": 282,
+    "eligibleVoters": 1250,
+    "voterTurnout": 77.44
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "陽明里",
+    "candidateVotes": {
+      "rainforest": 66,
+      "coast": 513,
+      "savannah": 710
+    },
+    "validVotes": 1289,
+    "invalidVotes": 17,
+    "totalVotes": 1306,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1306,
+    "remainingVotes": 395,
+    "eligibleVoters": 1701,
+    "voterTurnout": 76.7784
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "萬安里",
+    "candidateVotes": {
+      "rainforest": 156,
+      "coast": 1165,
+      "savannah": 1647
+    },
+    "validVotes": 2968,
+    "invalidVotes": 34,
+    "totalVotes": 3002,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3002,
+    "remainingVotes": 811,
+    "eligibleVoters": 3813,
+    "voterTurnout": 78.7307
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "下廍里",
+    "candidateVotes": {
+      "rainforest": 173,
+      "coast": 1567,
+      "savannah": 2020
+    },
+    "validVotes": 3760,
+    "invalidVotes": 43,
+    "totalVotes": 3803,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3803,
+    "remainingVotes": 1017,
+    "eligibleVoters": 4820,
+    "voterTurnout": 78.9004
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "茄苳里",
+    "candidateVotes": {
+      "rainforest": 37,
+      "coast": 269,
+      "savannah": 395
+    },
+    "validVotes": 701,
+    "invalidVotes": 10,
+    "totalVotes": 711,
+    "receivedUnvoted": 0,
+    "issuedVotes": 711,
+    "remainingVotes": 185,
+    "eligibleVoters": 896,
+    "voterTurnout": 79.3527
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "茄南里",
+    "candidateVotes": {
+      "rainforest": 107,
+      "coast": 906,
+      "savannah": 1193
+    },
+    "validVotes": 2206,
+    "invalidVotes": 32,
+    "totalVotes": 2238,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2238,
+    "remainingVotes": 568,
+    "eligibleVoters": 2806,
+    "voterTurnout": 79.7577
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "寶廍里",
+    "candidateVotes": {
+      "rainforest": 66,
+      "coast": 361,
+      "savannah": 498
+    },
+    "validVotes": 925,
+    "invalidVotes": 15,
+    "totalVotes": 940,
+    "receivedUnvoted": 0,
+    "issuedVotes": 940,
+    "remainingVotes": 242,
+    "eligibleVoters": 1182,
+    "voterTurnout": 79.5262
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "古夷里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 644,
+      "savannah": 1035
+    },
+    "validVotes": 1780,
+    "invalidVotes": 23,
+    "totalVotes": 1803,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1803,
+    "remainingVotes": 522,
+    "eligibleVoters": 2325,
+    "voterTurnout": 77.5484
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "阿夷里",
+    "candidateVotes": {
+      "rainforest": 338,
+      "coast": 2503,
+      "savannah": 3423
+    },
+    "validVotes": 6264,
+    "invalidVotes": 76,
+    "totalVotes": 6340,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6340,
+    "remainingVotes": 1764,
+    "eligibleVoters": 8104,
+    "voterTurnout": 78.233
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "和調里",
+    "candidateVotes": {
+      "rainforest": 123,
+      "coast": 819,
+      "savannah": 1056
+    },
+    "validVotes": 1998,
+    "invalidVotes": 20,
+    "totalVotes": 2018,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2018,
+    "remainingVotes": 537,
+    "eligibleVoters": 2555,
+    "voterTurnout": 78.9824
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "復興里",
+    "candidateVotes": {
+      "rainforest": 141,
+      "coast": 1238,
+      "savannah": 1712
+    },
+    "validVotes": 3091,
+    "invalidVotes": 37,
+    "totalVotes": 3128,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3128,
+    "remainingVotes": 875,
+    "eligibleVoters": 4003,
+    "voterTurnout": 78.1414
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "中庄里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 645,
+      "savannah": 1067
+    },
+    "validVotes": 1813,
+    "invalidVotes": 16,
+    "totalVotes": 1829,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1830,
+    "remainingVotes": 546,
+    "eligibleVoters": 2376,
+    "voterTurnout": 76.9781
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "竹中里",
+    "candidateVotes": {
+      "rainforest": 61,
+      "coast": 526,
+      "savannah": 673
+    },
+    "validVotes": 1260,
+    "invalidVotes": 16,
+    "totalVotes": 1276,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1276,
+    "remainingVotes": 359,
+    "eligibleVoters": 1635,
+    "voterTurnout": 78.0428
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "香山里",
+    "candidateVotes": {
+      "rainforest": 117,
+      "coast": 932,
+      "savannah": 1449
+    },
+    "validVotes": 2498,
+    "invalidVotes": 50,
+    "totalVotes": 2548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2548,
+    "remainingVotes": 675,
+    "eligibleVoters": 3223,
+    "voterTurnout": 79.0568
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "牛埔里",
+    "candidateVotes": {
+      "rainforest": 114,
+      "coast": 773,
+      "savannah": 1369
+    },
+    "validVotes": 2256,
+    "invalidVotes": 34,
+    "totalVotes": 2290,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2290,
+    "remainingVotes": 592,
+    "eligibleVoters": 2882,
+    "voterTurnout": 79.4587
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "台鳳里",
+    "candidateVotes": {
+      "rainforest": 210,
+      "coast": 1428,
+      "savannah": 1598
+    },
+    "validVotes": 3236,
+    "invalidVotes": 49,
+    "totalVotes": 3285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3285,
+    "remainingVotes": 978,
+    "eligibleVoters": 4263,
+    "voterTurnout": 77.0584
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "國聖里",
+    "candidateVotes": {
+      "rainforest": 91,
+      "coast": 711,
+      "savannah": 1084
+    },
+    "validVotes": 1886,
+    "invalidVotes": 21,
+    "totalVotes": 1907,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1907,
+    "remainingVotes": 481,
+    "eligibleVoters": 2388,
+    "voterTurnout": 79.8576
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "福山里",
+    "candidateVotes": {
+      "rainforest": 248,
+      "coast": 1920,
+      "savannah": 2899
+    },
+    "validVotes": 5067,
+    "invalidVotes": 54,
+    "totalVotes": 5121,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5121,
+    "remainingVotes": 1494,
+    "eligibleVoters": 6615,
+    "voterTurnout": 77.415
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "安溪里",
+    "candidateVotes": {
+      "rainforest": 80,
+      "coast": 592,
+      "savannah": 767
+    },
+    "validVotes": 1439,
+    "invalidVotes": 24,
+    "totalVotes": 1463,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1463,
+    "remainingVotes": 381,
+    "eligibleVoters": 1844,
+    "voterTurnout": 79.3384
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "三村里",
+    "candidateVotes": {
+      "rainforest": 49,
+      "coast": 305,
+      "savannah": 519
+    },
+    "validVotes": 873,
+    "invalidVotes": 17,
+    "totalVotes": 890,
+    "receivedUnvoted": 0,
+    "issuedVotes": 890,
+    "remainingVotes": 264,
+    "eligibleVoters": 1154,
+    "voterTurnout": 77.1231
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "大竹里",
+    "candidateVotes": {
+      "rainforest": 134,
+      "coast": 967,
+      "savannah": 1380
+    },
+    "validVotes": 2481,
+    "invalidVotes": 23,
+    "totalVotes": 2504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2504,
+    "remainingVotes": 683,
+    "eligibleVoters": 3187,
+    "voterTurnout": 78.5692
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "田中里",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 245,
+      "savannah": 410
+    },
+    "validVotes": 693,
+    "invalidVotes": 10,
+    "totalVotes": 703,
+    "receivedUnvoted": 0,
+    "issuedVotes": 703,
+    "remainingVotes": 183,
+    "eligibleVoters": 886,
+    "voterTurnout": 79.3454
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "快官里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 310,
+      "savannah": 444
+    },
+    "validVotes": 793,
+    "invalidVotes": 14,
+    "totalVotes": 807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 807,
+    "remainingVotes": 244,
+    "eligibleVoters": 1051,
+    "voterTurnout": 76.784
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "竹巷里",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 226,
+      "savannah": 345
+    },
+    "validVotes": 600,
+    "invalidVotes": 8,
+    "totalVotes": 608,
+    "receivedUnvoted": 0,
+    "issuedVotes": 608,
+    "remainingVotes": 193,
+    "eligibleVoters": 801,
+    "voterTurnout": 75.9051
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "福田里",
+    "candidateVotes": {
+      "rainforest": 44,
+      "coast": 344,
+      "savannah": 574
+    },
+    "validVotes": 962,
+    "invalidVotes": 17,
+    "totalVotes": 979,
+    "receivedUnvoted": 0,
+    "issuedVotes": 979,
+    "remainingVotes": 246,
+    "eligibleVoters": 1225,
+    "voterTurnout": 79.9184
+  },
+  {
+    "administrativeDivision": "彰化市",
+    "village": "石牌里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 363,
+      "savannah": 439
+    },
+    "validVotes": 841,
+    "invalidVotes": 12,
+    "totalVotes": 853,
+    "receivedUnvoted": 0,
+    "issuedVotes": 853,
+    "remainingVotes": 256,
+    "eligibleVoters": 1109,
+    "voterTurnout": 76.9161
+  }
+]

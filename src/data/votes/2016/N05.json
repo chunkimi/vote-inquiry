@@ -1,0 +1,716 @@
+[
+  {
+    "administrativeDivision": "員林市",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 19318,
+      "savannah": 34982,
+      "rainforest": 9404
+    },
+    "validVotes": 63704,
+    "invalidVotes": 921,
+    "totalVotes": 64625,
+    "receivedUnvoted": 1,
+    "issuedVotes": 64626,
+    "remainingVotes": 32486,
+    "eligibleVoters": 97112,
+    "voterTurnout": 66.55000305175781
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "崙雅里",
+    "candidateVotes": {
+      "coast": 597,
+      "savannah": 734,
+      "rainforest": 216
+    },
+    "validVotes": 1547,
+    "invalidVotes": 35,
+    "totalVotes": 1582,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1582,
+    "remainingVotes": 763,
+    "eligibleVoters": 2345,
+    "voterTurnout": 67.45999908447266
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "振興里",
+    "candidateVotes": {
+      "coast": 514,
+      "savannah": 832,
+      "rainforest": 258
+    },
+    "validVotes": 1604,
+    "invalidVotes": 27,
+    "totalVotes": 1631,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1631,
+    "remainingVotes": 892,
+    "eligibleVoters": 2523,
+    "voterTurnout": 64.6500015258789
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "林厝里",
+    "candidateVotes": {
+      "coast": 421,
+      "savannah": 1002,
+      "rainforest": 236
+    },
+    "validVotes": 1659,
+    "invalidVotes": 37,
+    "totalVotes": 1696,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1696,
+    "remainingVotes": 940,
+    "eligibleVoters": 2636,
+    "voterTurnout": 64.33999633789062
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "出水里",
+    "candidateVotes": {
+      "coast": 258,
+      "savannah": 676,
+      "rainforest": 128
+    },
+    "validVotes": 1062,
+    "invalidVotes": 17,
+    "totalVotes": 1079,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1079,
+    "remainingVotes": 603,
+    "eligibleVoters": 1682,
+    "voterTurnout": 64.1500015258789
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "湖水里",
+    "candidateVotes": {
+      "coast": 155,
+      "savannah": 503,
+      "rainforest": 86
+    },
+    "validVotes": 744,
+    "invalidVotes": 12,
+    "totalVotes": 756,
+    "receivedUnvoted": 0,
+    "issuedVotes": 756,
+    "remainingVotes": 426,
+    "eligibleVoters": 1182,
+    "voterTurnout": 63.959999084472656
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "大峯里",
+    "candidateVotes": {
+      "coast": 145,
+      "savannah": 222,
+      "rainforest": 85
+    },
+    "validVotes": 452,
+    "invalidVotes": 9,
+    "totalVotes": 461,
+    "receivedUnvoted": 0,
+    "issuedVotes": 461,
+    "remainingVotes": 247,
+    "eligibleVoters": 708,
+    "voterTurnout": 65.11000061035156
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "鎮興里",
+    "candidateVotes": {
+      "coast": 347,
+      "savannah": 706,
+      "rainforest": 166
+    },
+    "validVotes": 1219,
+    "invalidVotes": 22,
+    "totalVotes": 1241,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1241,
+    "remainingVotes": 689,
+    "eligibleVoters": 1930,
+    "voterTurnout": 64.30000305175781
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "浮圳里",
+    "candidateVotes": {
+      "coast": 403,
+      "savannah": 760,
+      "rainforest": 221
+    },
+    "validVotes": 1384,
+    "invalidVotes": 8,
+    "totalVotes": 1392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1392,
+    "remainingVotes": 722,
+    "eligibleVoters": 2114,
+    "voterTurnout": 65.8499984741211
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "西東里",
+    "candidateVotes": {
+      "coast": 234,
+      "savannah": 805,
+      "rainforest": 182
+    },
+    "validVotes": 1221,
+    "invalidVotes": 16,
+    "totalVotes": 1237,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1237,
+    "remainingVotes": 652,
+    "eligibleVoters": 1889,
+    "voterTurnout": 65.4800033569336
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "南東里",
+    "candidateVotes": {
+      "coast": 290,
+      "savannah": 640,
+      "rainforest": 173
+    },
+    "validVotes": 1103,
+    "invalidVotes": 21,
+    "totalVotes": 1124,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1124,
+    "remainingVotes": 609,
+    "eligibleVoters": 1733,
+    "voterTurnout": 64.86000061035156
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "中東里",
+    "candidateVotes": {
+      "coast": 287,
+      "savannah": 574,
+      "rainforest": 175
+    },
+    "validVotes": 1036,
+    "invalidVotes": 14,
+    "totalVotes": 1050,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1050,
+    "remainingVotes": 658,
+    "eligibleVoters": 1708,
+    "voterTurnout": 61.47999954223633
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "東北里",
+    "candidateVotes": {
+      "coast": 380,
+      "savannah": 838,
+      "rainforest": 238
+    },
+    "validVotes": 1456,
+    "invalidVotes": 28,
+    "totalVotes": 1484,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1484,
+    "remainingVotes": 807,
+    "eligibleVoters": 2291,
+    "voterTurnout": 64.77999877929688
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "東和里",
+    "candidateVotes": {
+      "coast": 234,
+      "savannah": 305,
+      "rainforest": 125
+    },
+    "validVotes": 664,
+    "invalidVotes": 5,
+    "totalVotes": 669,
+    "receivedUnvoted": 0,
+    "issuedVotes": 669,
+    "remainingVotes": 367,
+    "eligibleVoters": 1036,
+    "voterTurnout": 64.58000183105469
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "民生里",
+    "candidateVotes": {
+      "coast": 548,
+      "savannah": 923,
+      "rainforest": 291
+    },
+    "validVotes": 1762,
+    "invalidVotes": 17,
+    "totalVotes": 1779,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1779,
+    "remainingVotes": 911,
+    "eligibleVoters": 2690,
+    "voterTurnout": 66.12999725341797
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "黎明里",
+    "candidateVotes": {
+      "coast": 372,
+      "savannah": 627,
+      "rainforest": 193
+    },
+    "validVotes": 1192,
+    "invalidVotes": 18,
+    "totalVotes": 1210,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1210,
+    "remainingVotes": 576,
+    "eligibleVoters": 1786,
+    "voterTurnout": 67.75
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "惠來里",
+    "candidateVotes": {
+      "coast": 1055,
+      "savannah": 1935,
+      "rainforest": 554
+    },
+    "validVotes": 3544,
+    "invalidVotes": 44,
+    "totalVotes": 3588,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3588,
+    "remainingVotes": 1715,
+    "eligibleVoters": 5303,
+    "voterTurnout": 67.66000366210938
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "中央里",
+    "candidateVotes": {
+      "coast": 321,
+      "savannah": 710,
+      "rainforest": 199
+    },
+    "validVotes": 1230,
+    "invalidVotes": 18,
+    "totalVotes": 1248,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1248,
+    "remainingVotes": 606,
+    "eligibleVoters": 1854,
+    "voterTurnout": 67.30999755859375
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "溝皂里",
+    "candidateVotes": {
+      "coast": 400,
+      "savannah": 808,
+      "rainforest": 223
+    },
+    "validVotes": 1431,
+    "invalidVotes": 20,
+    "totalVotes": 1451,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1451,
+    "remainingVotes": 622,
+    "eligibleVoters": 2073,
+    "voterTurnout": 70
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "大饒里",
+    "candidateVotes": {
+      "coast": 603,
+      "savannah": 1072,
+      "rainforest": 279
+    },
+    "validVotes": 1954,
+    "invalidVotes": 24,
+    "totalVotes": 1978,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1978,
+    "remainingVotes": 973,
+    "eligibleVoters": 2951,
+    "voterTurnout": 67.02999877929688
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "大明里",
+    "candidateVotes": {
+      "coast": 379,
+      "savannah": 912,
+      "rainforest": 214
+    },
+    "validVotes": 1505,
+    "invalidVotes": 24,
+    "totalVotes": 1529,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1529,
+    "remainingVotes": 781,
+    "eligibleVoters": 2310,
+    "voterTurnout": 66.19000244140625
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "萬年里",
+    "candidateVotes": {
+      "coast": 694,
+      "savannah": 1175,
+      "rainforest": 337
+    },
+    "validVotes": 2206,
+    "invalidVotes": 26,
+    "totalVotes": 2232,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2232,
+    "remainingVotes": 1103,
+    "eligibleVoters": 3335,
+    "voterTurnout": 66.93000030517578
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 691,
+      "savannah": 1025,
+      "rainforest": 321
+    },
+    "validVotes": 2037,
+    "invalidVotes": 25,
+    "totalVotes": 2062,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2062,
+    "remainingVotes": 1045,
+    "eligibleVoters": 3107,
+    "voterTurnout": 66.37000274658203
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "仁美里",
+    "candidateVotes": {
+      "coast": 564,
+      "savannah": 895,
+      "rainforest": 247
+    },
+    "validVotes": 1706,
+    "invalidVotes": 28,
+    "totalVotes": 1734,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1734,
+    "remainingVotes": 836,
+    "eligibleVoters": 2570,
+    "voterTurnout": 67.47000122070312
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "新興里",
+    "candidateVotes": {
+      "coast": 172,
+      "savannah": 260,
+      "rainforest": 72
+    },
+    "validVotes": 504,
+    "invalidVotes": 6,
+    "totalVotes": 510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 510,
+    "remainingVotes": 207,
+    "eligibleVoters": 717,
+    "voterTurnout": 71.12999725341797
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "和平里",
+    "candidateVotes": {
+      "coast": 581,
+      "savannah": 987,
+      "rainforest": 232
+    },
+    "validVotes": 1800,
+    "invalidVotes": 10,
+    "totalVotes": 1810,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1810,
+    "remainingVotes": 956,
+    "eligibleVoters": 2766,
+    "voterTurnout": 65.44000244140625
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "光明里",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 319,
+      "rainforest": 90
+    },
+    "validVotes": 602,
+    "invalidVotes": 7,
+    "totalVotes": 609,
+    "receivedUnvoted": 0,
+    "issuedVotes": 609,
+    "remainingVotes": 241,
+    "eligibleVoters": 850,
+    "voterTurnout": 71.6500015258789
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 142,
+      "savannah": 262,
+      "rainforest": 44
+    },
+    "validVotes": 448,
+    "invalidVotes": 7,
+    "totalVotes": 455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 455,
+    "remainingVotes": 154,
+    "eligibleVoters": 609,
+    "voterTurnout": 74.70999908447266
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三條里",
+    "candidateVotes": {
+      "coast": 502,
+      "savannah": 873,
+      "rainforest": 208
+    },
+    "validVotes": 1583,
+    "invalidVotes": 31,
+    "totalVotes": 1614,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1615,
+    "remainingVotes": 806,
+    "eligibleVoters": 2421,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "coast": 485,
+      "savannah": 715,
+      "rainforest": 188
+    },
+    "validVotes": 1388,
+    "invalidVotes": 22,
+    "totalVotes": 1410,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1410,
+    "remainingVotes": 714,
+    "eligibleVoters": 2124,
+    "voterTurnout": 66.37999725341797
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "coast": 329,
+      "savannah": 475,
+      "rainforest": 134
+    },
+    "validVotes": 938,
+    "invalidVotes": 16,
+    "totalVotes": 954,
+    "receivedUnvoted": 0,
+    "issuedVotes": 954,
+    "remainingVotes": 394,
+    "eligibleVoters": 1348,
+    "voterTurnout": 70.7699966430664
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三和里",
+    "candidateVotes": {
+      "coast": 1181,
+      "savannah": 2016,
+      "rainforest": 513
+    },
+    "validVotes": 3710,
+    "invalidVotes": 55,
+    "totalVotes": 3765,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3765,
+    "remainingVotes": 2121,
+    "eligibleVoters": 5886,
+    "voterTurnout": 63.970001220703125
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三橋里",
+    "candidateVotes": {
+      "coast": 588,
+      "savannah": 969,
+      "rainforest": 264
+    },
+    "validVotes": 1821,
+    "invalidVotes": 30,
+    "totalVotes": 1851,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1851,
+    "remainingVotes": 857,
+    "eligibleVoters": 2708,
+    "voterTurnout": 68.3499984741211
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三愛里",
+    "candidateVotes": {
+      "coast": 548,
+      "savannah": 967,
+      "rainforest": 265
+    },
+    "validVotes": 1780,
+    "invalidVotes": 34,
+    "totalVotes": 1814,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1814,
+    "remainingVotes": 889,
+    "eligibleVoters": 2703,
+    "voterTurnout": 67.11000061035156
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三信里",
+    "candidateVotes": {
+      "coast": 509,
+      "savannah": 765,
+      "rainforest": 203
+    },
+    "validVotes": 1477,
+    "invalidVotes": 26,
+    "totalVotes": 1503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1503,
+    "remainingVotes": 655,
+    "eligibleVoters": 2158,
+    "voterTurnout": 69.6500015258789
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三多里",
+    "candidateVotes": {
+      "coast": 441,
+      "savannah": 810,
+      "rainforest": 231
+    },
+    "validVotes": 1482,
+    "invalidVotes": 13,
+    "totalVotes": 1495,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1495,
+    "remainingVotes": 711,
+    "eligibleVoters": 2206,
+    "voterTurnout": 67.7699966430664
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "三義里",
+    "candidateVotes": {
+      "coast": 441,
+      "savannah": 856,
+      "rainforest": 259
+    },
+    "validVotes": 1556,
+    "invalidVotes": 23,
+    "totalVotes": 1579,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1579,
+    "remainingVotes": 822,
+    "eligibleVoters": 2401,
+    "voterTurnout": 65.76000213623047
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "新生里",
+    "candidateVotes": {
+      "coast": 799,
+      "savannah": 1504,
+      "rainforest": 373
+    },
+    "validVotes": 2676,
+    "invalidVotes": 27,
+    "totalVotes": 2703,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2703,
+    "remainingVotes": 1258,
+    "eligibleVoters": 3961,
+    "voterTurnout": 68.23999786376953
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "南平里",
+    "candidateVotes": {
+      "coast": 904,
+      "savannah": 1677,
+      "rainforest": 453
+    },
+    "validVotes": 3034,
+    "invalidVotes": 44,
+    "totalVotes": 3078,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3078,
+    "remainingVotes": 1461,
+    "eligibleVoters": 4539,
+    "voterTurnout": 67.80999755859375
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "南興里",
+    "candidateVotes": {
+      "coast": 968,
+      "savannah": 1429,
+      "rainforest": 380
+    },
+    "validVotes": 2777,
+    "invalidVotes": 31,
+    "totalVotes": 2808,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2808,
+    "remainingVotes": 1483,
+    "eligibleVoters": 4291,
+    "voterTurnout": 65.44000244140625
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "源潭里",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 654,
+      "rainforest": 167
+    },
+    "validVotes": 1106,
+    "invalidVotes": 22,
+    "totalVotes": 1128,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1128,
+    "remainingVotes": 500,
+    "eligibleVoters": 1628,
+    "voterTurnout": 69.29000091552734
+  },
+  {
+    "administrativeDivision": "員林市",
+    "village": "大埔里",
+    "candidateVotes": {
+      "coast": 358,
+      "savannah": 765,
+      "rainforest": 181
+    },
+    "validVotes": 1304,
+    "invalidVotes": 22,
+    "totalVotes": 1326,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1326,
+    "remainingVotes": 714,
+    "eligibleVoters": 2040,
+    "voterTurnout": 65
+  }
+]

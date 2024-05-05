@@ -1,0 +1,512 @@
+[
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 20126,
+      "coast": 7159,
+      "rainforest": 503
+    },
+    "validVotes": 27788,
+    "invalidVotes": 227,
+    "totalVotes": 28015,
+    "receivedUnvoted": 0,
+    "issuedVotes": 28015,
+    "remainingVotes": 8671,
+    "eligibleVoters": 36686,
+    "voterTurnout": 76.36000061035156
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "穀興里",
+    "candidateVotes": {
+      "savannah": 342,
+      "coast": 113,
+      "rainforest": 8
+    },
+    "validVotes": 463,
+    "invalidVotes": 3,
+    "totalVotes": 466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 466,
+    "remainingVotes": 124,
+    "eligibleVoters": 590,
+    "voterTurnout": 78.9800033569336
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "保安里",
+    "candidateVotes": {
+      "savannah": 309,
+      "coast": 111,
+      "rainforest": 6
+    },
+    "validVotes": 426,
+    "invalidVotes": 0,
+    "totalVotes": 426,
+    "receivedUnvoted": 0,
+    "issuedVotes": 426,
+    "remainingVotes": 104,
+    "eligibleVoters": 530,
+    "voterTurnout": 80.37999725341797
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "東角里",
+    "candidateVotes": {
+      "savannah": 1086,
+      "coast": 600,
+      "rainforest": 36
+    },
+    "validVotes": 1722,
+    "invalidVotes": 16,
+    "totalVotes": 1738,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1738,
+    "remainingVotes": 597,
+    "eligibleVoters": 2335,
+    "voterTurnout": 74.43000030517578
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "晉江里",
+    "candidateVotes": {
+      "savannah": 1263,
+      "coast": 491,
+      "rainforest": 42
+    },
+    "validVotes": 1796,
+    "invalidVotes": 10,
+    "totalVotes": 1806,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1806,
+    "remainingVotes": 550,
+    "eligibleVoters": 2356,
+    "voterTurnout": 76.66000366210938
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "巷口里",
+    "candidateVotes": {
+      "savannah": 733,
+      "coast": 372,
+      "rainforest": 23
+    },
+    "validVotes": 1128,
+    "invalidVotes": 8,
+    "totalVotes": 1136,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1136,
+    "remainingVotes": 312,
+    "eligibleVoters": 1448,
+    "voterTurnout": 78.44999694824219
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "中興里",
+    "candidateVotes": {
+      "savannah": 919,
+      "coast": 445,
+      "rainforest": 26
+    },
+    "validVotes": 1390,
+    "invalidVotes": 9,
+    "totalVotes": 1399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1399,
+    "remainingVotes": 504,
+    "eligibleVoters": 1903,
+    "voterTurnout": 73.5199966430664
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "興農里",
+    "candidateVotes": {
+      "savannah": 818,
+      "coast": 271,
+      "rainforest": 19
+    },
+    "validVotes": 1108,
+    "invalidVotes": 13,
+    "totalVotes": 1121,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1121,
+    "remainingVotes": 339,
+    "eligibleVoters": 1460,
+    "voterTurnout": 76.77999877929688
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "新建里",
+    "candidateVotes": {
+      "savannah": 640,
+      "coast": 214,
+      "rainforest": 10
+    },
+    "validVotes": 864,
+    "invalidVotes": 9,
+    "totalVotes": 873,
+    "receivedUnvoted": 0,
+    "issuedVotes": 873,
+    "remainingVotes": 230,
+    "eligibleVoters": 1103,
+    "voterTurnout": 79.1500015258789
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "油車里",
+    "candidateVotes": {
+      "savannah": 1899,
+      "coast": 659,
+      "rainforest": 38
+    },
+    "validVotes": 2596,
+    "invalidVotes": 10,
+    "totalVotes": 2606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2606,
+    "remainingVotes": 775,
+    "eligibleVoters": 3381,
+    "voterTurnout": 77.08000183105469
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "北勢里",
+    "candidateVotes": {
+      "savannah": 677,
+      "coast": 131,
+      "rainforest": 13
+    },
+    "validVotes": 821,
+    "invalidVotes": 9,
+    "totalVotes": 830,
+    "receivedUnvoted": 0,
+    "issuedVotes": 830,
+    "remainingVotes": 320,
+    "eligibleVoters": 1150,
+    "voterTurnout": 72.16999816894531
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "大埕里",
+    "candidateVotes": {
+      "savannah": 1367,
+      "coast": 600,
+      "rainforest": 45
+    },
+    "validVotes": 2012,
+    "invalidVotes": 11,
+    "totalVotes": 2023,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2023,
+    "remainingVotes": 628,
+    "eligibleVoters": 2651,
+    "voterTurnout": 76.30999755859375
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "總榮里",
+    "candidateVotes": {
+      "savannah": 328,
+      "coast": 157,
+      "rainforest": 14
+    },
+    "validVotes": 499,
+    "invalidVotes": 4,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 154,
+    "eligibleVoters": 657,
+    "voterTurnout": 76.55999755859375
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "龍泉里",
+    "candidateVotes": {
+      "savannah": 472,
+      "coast": 119,
+      "rainforest": 9
+    },
+    "validVotes": 600,
+    "invalidVotes": 6,
+    "totalVotes": 606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 606,
+    "remainingVotes": 199,
+    "eligibleVoters": 805,
+    "voterTurnout": 75.27999877929688
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "南勢里",
+    "candidateVotes": {
+      "savannah": 1029,
+      "coast": 625,
+      "rainforest": 51
+    },
+    "validVotes": 1705,
+    "invalidVotes": 10,
+    "totalVotes": 1715,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1715,
+    "remainingVotes": 569,
+    "eligibleVoters": 2284,
+    "voterTurnout": 75.08999633789062
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "寮里",
+    "candidateVotes": {
+      "savannah": 966,
+      "coast": 215,
+      "rainforest": 21
+    },
+    "validVotes": 1202,
+    "invalidVotes": 14,
+    "totalVotes": 1216,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1216,
+    "remainingVotes": 387,
+    "eligibleVoters": 1603,
+    "voterTurnout": 75.86000061035156
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "小埤里",
+    "candidateVotes": {
+      "savannah": 559,
+      "coast": 168,
+      "rainforest": 12
+    },
+    "validVotes": 739,
+    "invalidVotes": 7,
+    "totalVotes": 746,
+    "receivedUnvoted": 0,
+    "issuedVotes": 746,
+    "remainingVotes": 225,
+    "eligibleVoters": 971,
+    "voterTurnout": 76.83000183105469
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "埤頭里",
+    "candidateVotes": {
+      "savannah": 794,
+      "coast": 218,
+      "rainforest": 12
+    },
+    "validVotes": 1024,
+    "invalidVotes": 4,
+    "totalVotes": 1028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1028,
+    "remainingVotes": 302,
+    "eligibleVoters": 1330,
+    "voterTurnout": 77.29000091552734
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "大山里",
+    "candidateVotes": {
+      "savannah": 344,
+      "coast": 97,
+      "rainforest": 6
+    },
+    "validVotes": 447,
+    "invalidVotes": 7,
+    "totalVotes": 454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 454,
+    "remainingVotes": 123,
+    "eligibleVoters": 577,
+    "voterTurnout": 78.68000030517578
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "海埔里",
+    "candidateVotes": {
+      "savannah": 550,
+      "coast": 190,
+      "rainforest": 23
+    },
+    "validVotes": 763,
+    "invalidVotes": 12,
+    "totalVotes": 775,
+    "receivedUnvoted": 0,
+    "issuedVotes": 775,
+    "remainingVotes": 227,
+    "eligibleVoters": 1002,
+    "voterTurnout": 77.3499984741211
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "莊禮里",
+    "candidateVotes": {
+      "savannah": 292,
+      "coast": 83,
+      "rainforest": 8
+    },
+    "validVotes": 383,
+    "invalidVotes": 5,
+    "totalVotes": 388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 388,
+    "remainingVotes": 118,
+    "eligibleVoters": 506,
+    "voterTurnout": 76.68000030517578
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "港尾里",
+    "candidateVotes": {
+      "savannah": 636,
+      "coast": 216,
+      "rainforest": 12
+    },
+    "validVotes": 864,
+    "invalidVotes": 9,
+    "totalVotes": 873,
+    "receivedUnvoted": 0,
+    "issuedVotes": 873,
+    "remainingVotes": 305,
+    "eligibleVoters": 1178,
+    "voterTurnout": 74.11000061035156
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "麻口里",
+    "candidateVotes": {
+      "savannah": 592,
+      "coast": 162,
+      "rainforest": 17
+    },
+    "validVotes": 771,
+    "invalidVotes": 5,
+    "totalVotes": 776,
+    "receivedUnvoted": 0,
+    "issuedVotes": 776,
+    "remainingVotes": 285,
+    "eligibleVoters": 1061,
+    "voterTurnout": 73.13999938964844
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "安東里",
+    "candidateVotes": {
+      "savannah": 343,
+      "coast": 138,
+      "rainforest": 4
+    },
+    "validVotes": 485,
+    "invalidVotes": 4,
+    "totalVotes": 489,
+    "receivedUnvoted": 0,
+    "issuedVotes": 489,
+    "remainingVotes": 163,
+    "eligibleVoters": 652,
+    "voterTurnout": 75
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "安業里",
+    "candidateVotes": {
+      "savannah": 388,
+      "coast": 107,
+      "rainforest": 7
+    },
+    "validVotes": 502,
+    "invalidVotes": 1,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 130,
+    "eligibleVoters": 633,
+    "voterTurnout": 79.45999908447266
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "安西里",
+    "candidateVotes": {
+      "savannah": 468,
+      "coast": 89,
+      "rainforest": 6
+    },
+    "validVotes": 563,
+    "invalidVotes": 11,
+    "totalVotes": 574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 574,
+    "remainingVotes": 166,
+    "eligibleVoters": 740,
+    "voterTurnout": 77.56999969482422
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "謝安里",
+    "candidateVotes": {
+      "savannah": 538,
+      "coast": 134,
+      "rainforest": 7
+    },
+    "validVotes": 679,
+    "invalidVotes": 8,
+    "totalVotes": 687,
+    "receivedUnvoted": 0,
+    "issuedVotes": 687,
+    "remainingVotes": 178,
+    "eligibleVoters": 865,
+    "voterTurnout": 79.41999816894531
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "中民里",
+    "candidateVotes": {
+      "savannah": 533,
+      "coast": 114,
+      "rainforest": 9
+    },
+    "validVotes": 656,
+    "invalidVotes": 8,
+    "totalVotes": 664,
+    "receivedUnvoted": 0,
+    "issuedVotes": 664,
+    "remainingVotes": 176,
+    "eligibleVoters": 840,
+    "voterTurnout": 79.05000305175781
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "安正里",
+    "candidateVotes": {
+      "savannah": 531,
+      "coast": 120,
+      "rainforest": 11
+    },
+    "validVotes": 662,
+    "invalidVotes": 9,
+    "totalVotes": 671,
+    "receivedUnvoted": 0,
+    "issuedVotes": 671,
+    "remainingVotes": 210,
+    "eligibleVoters": 881,
+    "voterTurnout": 76.16000366210938
+  },
+  {
+    "administrativeDivision": "麻豆區",
+    "village": "磚井里",
+    "candidateVotes": {
+      "savannah": 710,
+      "coast": 200,
+      "rainforest": 8
+    },
+    "validVotes": 918,
+    "invalidVotes": 5,
+    "totalVotes": 923,
+    "receivedUnvoted": 0,
+    "issuedVotes": 923,
+    "remainingVotes": 271,
+    "eligibleVoters": 1194,
+    "voterTurnout": 77.30000305175781
+  }
+]

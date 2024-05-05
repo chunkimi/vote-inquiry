@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "永安區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 4737,
+      "coast": 3565,
+      "rainforest": 215
+    },
+    "validVotes": 8517,
+    "invalidVotes": 79,
+    "totalVotes": 8596,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8596,
+    "remainingVotes": 2630,
+    "eligibleVoters": 11226,
+    "voterTurnout": 76.56999969482422
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "永安里",
+    "candidateVotes": {
+      "savannah": 561,
+      "coast": 575,
+      "rainforest": 23
+    },
+    "validVotes": 1159,
+    "invalidVotes": 14,
+    "totalVotes": 1173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1173,
+    "remainingVotes": 379,
+    "eligibleVoters": 1552,
+    "voterTurnout": 75.58000183105469
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "永華里",
+    "candidateVotes": {
+      "savannah": 696,
+      "coast": 587,
+      "rainforest": 37
+    },
+    "validVotes": 1320,
+    "invalidVotes": 12,
+    "totalVotes": 1332,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1332,
+    "remainingVotes": 429,
+    "eligibleVoters": 1761,
+    "voterTurnout": 75.63999938964844
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "新港里",
+    "candidateVotes": {
+      "savannah": 1052,
+      "coast": 662,
+      "rainforest": 44
+    },
+    "validVotes": 1758,
+    "invalidVotes": 12,
+    "totalVotes": 1770,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1770,
+    "remainingVotes": 582,
+    "eligibleVoters": 2352,
+    "voterTurnout": 75.26000213623047
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "鹽田里",
+    "candidateVotes": {
+      "savannah": 190,
+      "coast": 86,
+      "rainforest": 7
+    },
+    "validVotes": 283,
+    "invalidVotes": 3,
+    "totalVotes": 286,
+    "receivedUnvoted": 0,
+    "issuedVotes": 286,
+    "remainingVotes": 100,
+    "eligibleVoters": 386,
+    "voterTurnout": 74.08999633789062
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "保寧里",
+    "candidateVotes": {
+      "savannah": 872,
+      "coast": 788,
+      "rainforest": 46
+    },
+    "validVotes": 1706,
+    "invalidVotes": 19,
+    "totalVotes": 1725,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1725,
+    "remainingVotes": 433,
+    "eligibleVoters": 2158,
+    "voterTurnout": 79.94000244140625
+  },
+  {
+    "administrativeDivision": "永安區",
+    "village": "維新里",
+    "candidateVotes": {
+      "savannah": 1366,
+      "coast": 867,
+      "rainforest": 58
+    },
+    "validVotes": 2291,
+    "invalidVotes": 19,
+    "totalVotes": 2310,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2310,
+    "remainingVotes": 707,
+    "eligibleVoters": 3017,
+    "voterTurnout": 76.56999969482422
+  }
+]

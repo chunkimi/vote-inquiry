@@ -1,0 +1,223 @@
+[
+  {
+    "administrativeDivision": "石碇區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 171,
+      "coast": 1592,
+      "savannah": 3035
+    },
+    "validVotes": 4798,
+    "invalidVotes": 52,
+    "totalVotes": 4850,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4850,
+    "remainingVotes": 1818,
+    "eligibleVoters": 6668,
+    "voterTurnout": 72.7355
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "石碇里",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 113,
+      "savannah": 165
+    },
+    "validVotes": 295,
+    "invalidVotes": 2,
+    "totalVotes": 297,
+    "receivedUnvoted": 0,
+    "issuedVotes": 297,
+    "remainingVotes": 84,
+    "eligibleVoters": 381,
+    "voterTurnout": 77.9528
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "潭邊里",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 214,
+      "savannah": 322
+    },
+    "validVotes": 554,
+    "invalidVotes": 10,
+    "totalVotes": 564,
+    "receivedUnvoted": 0,
+    "issuedVotes": 564,
+    "remainingVotes": 205,
+    "eligibleVoters": 769,
+    "voterTurnout": 73.342
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "烏塗里",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 127,
+      "savannah": 325
+    },
+    "validVotes": 458,
+    "invalidVotes": 9,
+    "totalVotes": 467,
+    "receivedUnvoted": 0,
+    "issuedVotes": 467,
+    "remainingVotes": 177,
+    "eligibleVoters": 644,
+    "voterTurnout": 72.5155
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "彭山里",
+    "candidateVotes": {
+      "rainforest": 3,
+      "coast": 92,
+      "savannah": 108
+    },
+    "validVotes": 203,
+    "invalidVotes": 1,
+    "totalVotes": 204,
+    "receivedUnvoted": 0,
+    "issuedVotes": 204,
+    "remainingVotes": 91,
+    "eligibleVoters": 295,
+    "voterTurnout": 69.1525
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "豐田里",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 102,
+      "savannah": 159
+    },
+    "validVotes": 270,
+    "invalidVotes": 3,
+    "totalVotes": 273,
+    "receivedUnvoted": 0,
+    "issuedVotes": 273,
+    "remainingVotes": 98,
+    "eligibleVoters": 371,
+    "voterTurnout": 73.5849
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "隆盛里",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 151,
+      "savannah": 271
+    },
+    "validVotes": 430,
+    "invalidVotes": 6,
+    "totalVotes": 436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 436,
+    "remainingVotes": 211,
+    "eligibleVoters": 647,
+    "voterTurnout": 67.3879
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "豐林里",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 83,
+      "savannah": 126
+    },
+    "validVotes": 219,
+    "invalidVotes": 1,
+    "totalVotes": 220,
+    "receivedUnvoted": 0,
+    "issuedVotes": 220,
+    "remainingVotes": 77,
+    "eligibleVoters": 297,
+    "voterTurnout": 74.0741
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "中民里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 167,
+      "savannah": 290
+    },
+    "validVotes": 482,
+    "invalidVotes": 5,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 215,
+    "eligibleVoters": 702,
+    "voterTurnout": 69.3732
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "永定里",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 116,
+      "savannah": 248
+    },
+    "validVotes": 386,
+    "invalidVotes": 2,
+    "totalVotes": 388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 388,
+    "remainingVotes": 187,
+    "eligibleVoters": 575,
+    "voterTurnout": 67.4783
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "光明里",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 59,
+      "savannah": 133
+    },
+    "validVotes": 199,
+    "invalidVotes": 3,
+    "totalVotes": 202,
+    "receivedUnvoted": 0,
+    "issuedVotes": 202,
+    "remainingVotes": 68,
+    "eligibleVoters": 270,
+    "voterTurnout": 74.8148
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "永安里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 169,
+      "savannah": 389
+    },
+    "validVotes": 578,
+    "invalidVotes": 4,
+    "totalVotes": 582,
+    "receivedUnvoted": 0,
+    "issuedVotes": 582,
+    "remainingVotes": 201,
+    "eligibleVoters": 783,
+    "voterTurnout": 74.3295
+  },
+  {
+    "administrativeDivision": "石碇區",
+    "village": "格頭里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 199,
+      "savannah": 499
+    },
+    "validVotes": 724,
+    "invalidVotes": 6,
+    "totalVotes": 730,
+    "receivedUnvoted": 0,
+    "issuedVotes": 730,
+    "remainingVotes": 204,
+    "eligibleVoters": 934,
+    "voterTurnout": 78.1585
+  }
+]

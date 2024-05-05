@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 451,
+      "coast": 7130,
+      "savannah": 4004
+    },
+    "validVotes": 11585,
+    "invalidVotes": 133,
+    "totalVotes": 11718,
+    "receivedUnvoted": 0,
+    "issuedVotes": 11718,
+    "remainingVotes": 4948,
+    "eligibleVoters": 16666,
+    "voterTurnout": 70.3108
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "新城村",
+    "candidateVotes": {
+      "rainforest": 34,
+      "coast": 514,
+      "savannah": 377
+    },
+    "validVotes": 925,
+    "invalidVotes": 12,
+    "totalVotes": 937,
+    "receivedUnvoted": 0,
+    "issuedVotes": 937,
+    "remainingVotes": 312,
+    "eligibleVoters": 1249,
+    "voterTurnout": 75.02
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "順安村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 250,
+      "savannah": 353
+    },
+    "validVotes": 623,
+    "invalidVotes": 5,
+    "totalVotes": 628,
+    "receivedUnvoted": 0,
+    "issuedVotes": 628,
+    "remainingVotes": 266,
+    "eligibleVoters": 894,
+    "voterTurnout": 70.2461
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "康樂村",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 1027,
+      "savannah": 596
+    },
+    "validVotes": 1673,
+    "invalidVotes": 14,
+    "totalVotes": 1687,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1687,
+    "remainingVotes": 656,
+    "eligibleVoters": 2343,
+    "voterTurnout": 72.0017
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "大漢村",
+    "candidateVotes": {
+      "rainforest": 75,
+      "coast": 1171,
+      "savannah": 471
+    },
+    "validVotes": 1717,
+    "invalidVotes": 17,
+    "totalVotes": 1734,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1734,
+    "remainingVotes": 720,
+    "eligibleVoters": 2454,
+    "voterTurnout": 70.6601
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "北埔村",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 1611,
+      "savannah": 909
+    },
+    "validVotes": 2621,
+    "invalidVotes": 32,
+    "totalVotes": 2653,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2653,
+    "remainingVotes": 1255,
+    "eligibleVoters": 3908,
+    "voterTurnout": 67.8864
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "佳林村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 425,
+      "savannah": 236
+    },
+    "validVotes": 683,
+    "invalidVotes": 5,
+    "totalVotes": 688,
+    "receivedUnvoted": 0,
+    "issuedVotes": 688,
+    "remainingVotes": 276,
+    "eligibleVoters": 964,
+    "voterTurnout": 71.3693
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "嘉里村",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1563,
+      "savannah": 856
+    },
+    "validVotes": 2538,
+    "invalidVotes": 36,
+    "totalVotes": 2574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2574,
+    "remainingVotes": 1080,
+    "eligibleVoters": 3654,
+    "voterTurnout": 70.4433
+  },
+  {
+    "administrativeDivision": "新城鄉",
+    "village": "嘉新村",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 569,
+      "savannah": 206
+    },
+    "validVotes": 805,
+    "invalidVotes": 12,
+    "totalVotes": 817,
+    "receivedUnvoted": 0,
+    "issuedVotes": 817,
+    "remainingVotes": 383,
+    "eligibleVoters": 1200,
+    "voterTurnout": 68.0833
+  }
+]

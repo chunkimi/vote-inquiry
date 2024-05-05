@@ -1,0 +1,1311 @@
+[
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 51865,
+      "savannah": 116337,
+      "rainforest": 21593
+    },
+    "validVotes": 189795,
+    "invalidVotes": 1971,
+    "totalVotes": 191766,
+    "receivedUnvoted": 8,
+    "issuedVotes": 191774,
+    "remainingVotes": 93127,
+    "eligibleVoters": 284901,
+    "voterTurnout": 67.30999755859375
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鳳崗里",
+    "candidateVotes": {
+      "coast": 247,
+      "savannah": 404,
+      "rainforest": 89
+    },
+    "validVotes": 740,
+    "invalidVotes": 14,
+    "totalVotes": 754,
+    "receivedUnvoted": 0,
+    "issuedVotes": 754,
+    "remainingVotes": 343,
+    "eligibleVoters": 1097,
+    "voterTurnout": 68.7300033569336
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "縣衙里",
+    "candidateVotes": {
+      "coast": 197,
+      "savannah": 285,
+      "rainforest": 53
+    },
+    "validVotes": 535,
+    "invalidVotes": 4,
+    "totalVotes": 539,
+    "receivedUnvoted": 1,
+    "issuedVotes": 540,
+    "remainingVotes": 289,
+    "eligibleVoters": 829,
+    "voterTurnout": 65.0199966430664
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "曹公里",
+    "candidateVotes": {
+      "coast": 394,
+      "savannah": 767,
+      "rainforest": 129
+    },
+    "validVotes": 1290,
+    "invalidVotes": 17,
+    "totalVotes": 1307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1307,
+    "remainingVotes": 675,
+    "eligibleVoters": 1982,
+    "voterTurnout": 65.94000244140625
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鎮西里",
+    "candidateVotes": {
+      "coast": 884,
+      "savannah": 2080,
+      "rainforest": 376
+    },
+    "validVotes": 3340,
+    "invalidVotes": 38,
+    "totalVotes": 3378,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3378,
+    "remainingVotes": 1484,
+    "eligibleVoters": 4862,
+    "voterTurnout": 69.4800033569336
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "北門里",
+    "candidateVotes": {
+      "coast": 679,
+      "savannah": 1672,
+      "rainforest": 313
+    },
+    "validVotes": 2664,
+    "invalidVotes": 31,
+    "totalVotes": 2695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2695,
+    "remainingVotes": 1322,
+    "eligibleVoters": 4017,
+    "voterTurnout": 67.08999633789062
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鎮北里",
+    "candidateVotes": {
+      "coast": 935,
+      "savannah": 2648,
+      "rainforest": 478
+    },
+    "validVotes": 4061,
+    "invalidVotes": 39,
+    "totalVotes": 4100,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4100,
+    "remainingVotes": 2278,
+    "eligibleVoters": 6378,
+    "voterTurnout": 64.27999877929688
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "武松里",
+    "candidateVotes": {
+      "coast": 448,
+      "savannah": 1129,
+      "rainforest": 187
+    },
+    "validVotes": 1764,
+    "invalidVotes": 14,
+    "totalVotes": 1778,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1778,
+    "remainingVotes": 890,
+    "eligibleVoters": 2668,
+    "voterTurnout": 66.63999938964844
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "忠誠里",
+    "candidateVotes": {
+      "coast": 475,
+      "savannah": 1439,
+      "rainforest": 240
+    },
+    "validVotes": 2154,
+    "invalidVotes": 18,
+    "totalVotes": 2172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2172,
+    "remainingVotes": 959,
+    "eligibleVoters": 3131,
+    "voterTurnout": 69.37000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文英里",
+    "candidateVotes": {
+      "coast": 562,
+      "savannah": 1362,
+      "rainforest": 233
+    },
+    "validVotes": 2157,
+    "invalidVotes": 14,
+    "totalVotes": 2171,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2171,
+    "remainingVotes": 1005,
+    "eligibleVoters": 3176,
+    "voterTurnout": 68.36000061035156
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文華里",
+    "candidateVotes": {
+      "coast": 1867,
+      "savannah": 2732,
+      "rainforest": 652
+    },
+    "validVotes": 5251,
+    "invalidVotes": 60,
+    "totalVotes": 5311,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5311,
+    "remainingVotes": 2631,
+    "eligibleVoters": 7942,
+    "voterTurnout": 66.87000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文山里",
+    "candidateVotes": {
+      "coast": 860,
+      "savannah": 2671,
+      "rainforest": 367
+    },
+    "validVotes": 3898,
+    "invalidVotes": 50,
+    "totalVotes": 3948,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3949,
+    "remainingVotes": 1914,
+    "eligibleVoters": 5863,
+    "voterTurnout": 67.33999633789062
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文德里",
+    "candidateVotes": {
+      "coast": 1657,
+      "savannah": 2927,
+      "rainforest": 671
+    },
+    "validVotes": 5255,
+    "invalidVotes": 47,
+    "totalVotes": 5302,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5302,
+    "remainingVotes": 2684,
+    "eligibleVoters": 7986,
+    "voterTurnout": 66.38999938964844
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文衡里",
+    "candidateVotes": {
+      "coast": 733,
+      "savannah": 1493,
+      "rainforest": 281
+    },
+    "validVotes": 2507,
+    "invalidVotes": 23,
+    "totalVotes": 2530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2530,
+    "remainingVotes": 1323,
+    "eligibleVoters": 3853,
+    "voterTurnout": 65.66000366210938
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "文福里",
+    "candidateVotes": {
+      "coast": 1704,
+      "savannah": 3152,
+      "rainforest": 794
+    },
+    "validVotes": 5650,
+    "invalidVotes": 58,
+    "totalVotes": 5708,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5708,
+    "remainingVotes": 2831,
+    "eligibleVoters": 8539,
+    "voterTurnout": 66.8499984741211
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "成功里",
+    "candidateVotes": {
+      "coast": 133,
+      "savannah": 300,
+      "rainforest": 45
+    },
+    "validVotes": 478,
+    "invalidVotes": 5,
+    "totalVotes": 483,
+    "receivedUnvoted": 0,
+    "issuedVotes": 483,
+    "remainingVotes": 220,
+    "eligibleVoters": 703,
+    "voterTurnout": 68.70999908447266
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "縣口里",
+    "candidateVotes": {
+      "coast": 171,
+      "savannah": 210,
+      "rainforest": 58
+    },
+    "validVotes": 439,
+    "invalidVotes": 4,
+    "totalVotes": 443,
+    "receivedUnvoted": 0,
+    "issuedVotes": 443,
+    "remainingVotes": 315,
+    "eligibleVoters": 758,
+    "voterTurnout": 58.439998626708984
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "光明里",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 566,
+      "rainforest": 77
+    },
+    "validVotes": 894,
+    "invalidVotes": 13,
+    "totalVotes": 907,
+    "receivedUnvoted": 0,
+    "issuedVotes": 907,
+    "remainingVotes": 417,
+    "eligibleVoters": 1324,
+    "voterTurnout": 68.5
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "和德里",
+    "candidateVotes": {
+      "coast": 364,
+      "savannah": 742,
+      "rainforest": 186
+    },
+    "validVotes": 1292,
+    "invalidVotes": 11,
+    "totalVotes": 1303,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1303,
+    "remainingVotes": 601,
+    "eligibleVoters": 1904,
+    "voterTurnout": 68.43000030517578
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "和興里",
+    "candidateVotes": {
+      "coast": 924,
+      "savannah": 1926,
+      "rainforest": 364
+    },
+    "validVotes": 3214,
+    "invalidVotes": 39,
+    "totalVotes": 3253,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3253,
+    "remainingVotes": 1486,
+    "eligibleVoters": 4739,
+    "voterTurnout": 68.63999938964844
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "南興里",
+    "candidateVotes": {
+      "coast": 181,
+      "savannah": 377,
+      "rainforest": 62
+    },
+    "validVotes": 620,
+    "invalidVotes": 4,
+    "totalVotes": 624,
+    "receivedUnvoted": 0,
+    "issuedVotes": 624,
+    "remainingVotes": 289,
+    "eligibleVoters": 913,
+    "voterTurnout": 68.3499984741211
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "三民里",
+    "candidateVotes": {
+      "coast": 224,
+      "savannah": 410,
+      "rainforest": 73
+    },
+    "validVotes": 707,
+    "invalidVotes": 3,
+    "totalVotes": 710,
+    "receivedUnvoted": 0,
+    "issuedVotes": 710,
+    "remainingVotes": 299,
+    "eligibleVoters": 1009,
+    "voterTurnout": 70.37000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新興里",
+    "candidateVotes": {
+      "coast": 255,
+      "savannah": 628,
+      "rainforest": 116
+    },
+    "validVotes": 999,
+    "invalidVotes": 8,
+    "totalVotes": 1007,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1007,
+    "remainingVotes": 1400,
+    "eligibleVoters": 2407,
+    "voterTurnout": 41.84000015258789
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "興仁里",
+    "candidateVotes": {
+      "coast": 668,
+      "savannah": 1411,
+      "rainforest": 263
+    },
+    "validVotes": 2342,
+    "invalidVotes": 31,
+    "totalVotes": 2373,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2373,
+    "remainingVotes": 1089,
+    "eligibleVoters": 3462,
+    "voterTurnout": 68.54000091552734
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "興中里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 311,
+      "rainforest": 88
+    },
+    "validVotes": 587,
+    "invalidVotes": 4,
+    "totalVotes": 591,
+    "receivedUnvoted": 0,
+    "issuedVotes": 591,
+    "remainingVotes": 244,
+    "eligibleVoters": 835,
+    "voterTurnout": 70.77999877929688
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "協和里",
+    "candidateVotes": {
+      "coast": 807,
+      "savannah": 1229,
+      "rainforest": 300
+    },
+    "validVotes": 2336,
+    "invalidVotes": 29,
+    "totalVotes": 2365,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2365,
+    "remainingVotes": 1046,
+    "eligibleVoters": 3411,
+    "voterTurnout": 69.33000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "忠義里",
+    "candidateVotes": {
+      "coast": 890,
+      "savannah": 1662,
+      "rainforest": 368
+    },
+    "validVotes": 2920,
+    "invalidVotes": 28,
+    "totalVotes": 2948,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2948,
+    "remainingVotes": 1395,
+    "eligibleVoters": 4343,
+    "voterTurnout": 67.87999725341797
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "coast": 1138,
+      "savannah": 2152,
+      "rainforest": 417
+    },
+    "validVotes": 3707,
+    "invalidVotes": 40,
+    "totalVotes": 3747,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3747,
+    "remainingVotes": 1783,
+    "eligibleVoters": 5530,
+    "voterTurnout": 67.76000213623047
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "中和里",
+    "candidateVotes": {
+      "coast": 824,
+      "savannah": 1181,
+      "rainforest": 283
+    },
+    "validVotes": 2288,
+    "invalidVotes": 27,
+    "totalVotes": 2315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2315,
+    "remainingVotes": 1008,
+    "eligibleVoters": 3323,
+    "voterTurnout": 69.66999816894531
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "誠義里",
+    "candidateVotes": {
+      "coast": 784,
+      "savannah": 1284,
+      "rainforest": 325
+    },
+    "validVotes": 2393,
+    "invalidVotes": 25,
+    "totalVotes": 2418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2418,
+    "remainingVotes": 1012,
+    "eligibleVoters": 3430,
+    "voterTurnout": 70.5
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "生明里",
+    "candidateVotes": {
+      "coast": 557,
+      "savannah": 628,
+      "rainforest": 144
+    },
+    "validVotes": 1329,
+    "invalidVotes": 19,
+    "totalVotes": 1348,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1348,
+    "remainingVotes": 607,
+    "eligibleVoters": 1955,
+    "voterTurnout": 68.94999694824219
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鎮東里",
+    "candidateVotes": {
+      "coast": 415,
+      "savannah": 901,
+      "rainforest": 177
+    },
+    "validVotes": 1493,
+    "invalidVotes": 25,
+    "totalVotes": 1518,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1518,
+    "remainingVotes": 754,
+    "eligibleVoters": 2272,
+    "voterTurnout": 66.80999755859375
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "瑞竹里",
+    "candidateVotes": {
+      "coast": 1096,
+      "savannah": 1825,
+      "rainforest": 384
+    },
+    "validVotes": 3305,
+    "invalidVotes": 35,
+    "totalVotes": 3340,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3340,
+    "remainingVotes": 1424,
+    "eligibleVoters": 4764,
+    "voterTurnout": 70.11000061035156
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "瑞興里",
+    "candidateVotes": {
+      "coast": 1048,
+      "savannah": 1565,
+      "rainforest": 414
+    },
+    "validVotes": 3027,
+    "invalidVotes": 29,
+    "totalVotes": 3056,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3056,
+    "remainingVotes": 1413,
+    "eligibleVoters": 4469,
+    "voterTurnout": 68.37999725341797
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "東門里",
+    "candidateVotes": {
+      "coast": 1332,
+      "savannah": 1654,
+      "rainforest": 418
+    },
+    "validVotes": 3404,
+    "invalidVotes": 44,
+    "totalVotes": 3448,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3448,
+    "remainingVotes": 1833,
+    "eligibleVoters": 5281,
+    "voterTurnout": 65.29000091552734
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "誠德里",
+    "candidateVotes": {
+      "coast": 595,
+      "savannah": 676,
+      "rainforest": 185
+    },
+    "validVotes": 1456,
+    "invalidVotes": 18,
+    "totalVotes": 1474,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1474,
+    "remainingVotes": 652,
+    "eligibleVoters": 2126,
+    "voterTurnout": 69.33000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "誠信里",
+    "candidateVotes": {
+      "coast": 587,
+      "savannah": 497,
+      "rainforest": 183
+    },
+    "validVotes": 1267,
+    "invalidVotes": 15,
+    "totalVotes": 1282,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1282,
+    "remainingVotes": 719,
+    "eligibleVoters": 2001,
+    "voterTurnout": 64.06999969482422
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "誠智里",
+    "candidateVotes": {
+      "coast": 633,
+      "savannah": 842,
+      "rainforest": 229
+    },
+    "validVotes": 1704,
+    "invalidVotes": 18,
+    "totalVotes": 1722,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1723,
+    "remainingVotes": 876,
+    "eligibleVoters": 2599,
+    "voterTurnout": 66.26000213623047
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鳳東里",
+    "candidateVotes": {
+      "coast": 1110,
+      "savannah": 2181,
+      "rainforest": 352
+    },
+    "validVotes": 3643,
+    "invalidVotes": 27,
+    "totalVotes": 3670,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3670,
+    "remainingVotes": 1855,
+    "eligibleVoters": 5525,
+    "voterTurnout": 66.43000030517578
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "埤頂里",
+    "candidateVotes": {
+      "coast": 1382,
+      "savannah": 2125,
+      "rainforest": 438
+    },
+    "validVotes": 3945,
+    "invalidVotes": 40,
+    "totalVotes": 3985,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3986,
+    "remainingVotes": 1783,
+    "eligibleVoters": 5769,
+    "voterTurnout": 69.08000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 1789,
+      "savannah": 523,
+      "rainforest": 340
+    },
+    "validVotes": 2652,
+    "invalidVotes": 32,
+    "totalVotes": 2684,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2684,
+    "remainingVotes": 1144,
+    "eligibleVoters": 3828,
+    "voterTurnout": 70.11000061035156
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "海光里",
+    "candidateVotes": {
+      "coast": 789,
+      "savannah": 865,
+      "rainforest": 261
+    },
+    "validVotes": 1915,
+    "invalidVotes": 18,
+    "totalVotes": 1933,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1933,
+    "remainingVotes": 1003,
+    "eligibleVoters": 2936,
+    "voterTurnout": 65.83999633789062
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "國泰里",
+    "candidateVotes": {
+      "coast": 689,
+      "savannah": 1562,
+      "rainforest": 274
+    },
+    "validVotes": 2525,
+    "invalidVotes": 29,
+    "totalVotes": 2554,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2554,
+    "remainingVotes": 1227,
+    "eligibleVoters": 3781,
+    "voterTurnout": 67.55000305175781
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "國光里",
+    "candidateVotes": {
+      "coast": 656,
+      "savannah": 1325,
+      "rainforest": 261
+    },
+    "validVotes": 2242,
+    "invalidVotes": 19,
+    "totalVotes": 2261,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2261,
+    "remainingVotes": 1117,
+    "eligibleVoters": 3378,
+    "voterTurnout": 66.93000030517578
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "國隆里",
+    "candidateVotes": {
+      "coast": 348,
+      "savannah": 1127,
+      "rainforest": 146
+    },
+    "validVotes": 1621,
+    "invalidVotes": 14,
+    "totalVotes": 1635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1635,
+    "remainingVotes": 859,
+    "eligibleVoters": 2494,
+    "voterTurnout": 65.55999755859375
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "國富里",
+    "candidateVotes": {
+      "coast": 472,
+      "savannah": 1007,
+      "rainforest": 231
+    },
+    "validVotes": 1710,
+    "invalidVotes": 17,
+    "totalVotes": 1727,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1728,
+    "remainingVotes": 745,
+    "eligibleVoters": 2473,
+    "voterTurnout": 69.83000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "武慶里",
+    "candidateVotes": {
+      "coast": 360,
+      "savannah": 1038,
+      "rainforest": 131
+    },
+    "validVotes": 1529,
+    "invalidVotes": 15,
+    "totalVotes": 1544,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1544,
+    "remainingVotes": 735,
+    "eligibleVoters": 2279,
+    "voterTurnout": 67.75
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "武漢里",
+    "candidateVotes": {
+      "coast": 730,
+      "savannah": 2002,
+      "rainforest": 303
+    },
+    "validVotes": 3035,
+    "invalidVotes": 26,
+    "totalVotes": 3061,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3062,
+    "remainingVotes": 1451,
+    "eligibleVoters": 4513,
+    "voterTurnout": 67.83000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新甲里",
+    "candidateVotes": {
+      "coast": 393,
+      "savannah": 1282,
+      "rainforest": 211
+    },
+    "validVotes": 1886,
+    "invalidVotes": 22,
+    "totalVotes": 1908,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1908,
+    "remainingVotes": 852,
+    "eligibleVoters": 2760,
+    "voterTurnout": 69.12999725341797
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新武里",
+    "candidateVotes": {
+      "coast": 319,
+      "savannah": 1031,
+      "rainforest": 144
+    },
+    "validVotes": 1494,
+    "invalidVotes": 15,
+    "totalVotes": 1509,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1509,
+    "remainingVotes": 671,
+    "eligibleVoters": 2180,
+    "voterTurnout": 69.22000122070312
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新泰里",
+    "candidateVotes": {
+      "coast": 583,
+      "savannah": 1571,
+      "rainforest": 303
+    },
+    "validVotes": 2457,
+    "invalidVotes": 28,
+    "totalVotes": 2485,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2485,
+    "remainingVotes": 1296,
+    "eligibleVoters": 3781,
+    "voterTurnout": 65.72000122070312
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新樂里",
+    "candidateVotes": {
+      "coast": 686,
+      "savannah": 1727,
+      "rainforest": 314
+    },
+    "validVotes": 2727,
+    "invalidVotes": 26,
+    "totalVotes": 2753,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2754,
+    "remainingVotes": 1394,
+    "eligibleVoters": 4148,
+    "voterTurnout": 66.37000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新強里",
+    "candidateVotes": {
+      "coast": 827,
+      "savannah": 2159,
+      "rainforest": 329
+    },
+    "validVotes": 3315,
+    "invalidVotes": 37,
+    "totalVotes": 3352,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3352,
+    "remainingVotes": 1614,
+    "eligibleVoters": 4966,
+    "voterTurnout": 67.5
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "海洋里",
+    "candidateVotes": {
+      "coast": 637,
+      "savannah": 1605,
+      "rainforest": 287
+    },
+    "validVotes": 2529,
+    "invalidVotes": 23,
+    "totalVotes": 2552,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2552,
+    "remainingVotes": 1064,
+    "eligibleVoters": 3616,
+    "voterTurnout": 70.58000183105469
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "新富里",
+    "candidateVotes": {
+      "coast": 603,
+      "savannah": 1833,
+      "rainforest": 279
+    },
+    "validVotes": 2715,
+    "invalidVotes": 27,
+    "totalVotes": 2742,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2742,
+    "remainingVotes": 1244,
+    "eligibleVoters": 3986,
+    "voterTurnout": 68.79000091552734
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "老爺里",
+    "candidateVotes": {
+      "coast": 844,
+      "savannah": 3041,
+      "rainforest": 464
+    },
+    "validVotes": 4349,
+    "invalidVotes": 41,
+    "totalVotes": 4390,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4390,
+    "remainingVotes": 2132,
+    "eligibleVoters": 6522,
+    "voterTurnout": 67.30999755859375
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "中民里",
+    "candidateVotes": {
+      "coast": 569,
+      "savannah": 1843,
+      "rainforest": 347
+    },
+    "validVotes": 2759,
+    "invalidVotes": 21,
+    "totalVotes": 2780,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2780,
+    "remainingVotes": 1431,
+    "eligibleVoters": 4211,
+    "voterTurnout": 66.0199966430664
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "中崙里",
+    "candidateVotes": {
+      "coast": 428,
+      "savannah": 973,
+      "rainforest": 221
+    },
+    "validVotes": 1622,
+    "invalidVotes": 21,
+    "totalVotes": 1643,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1643,
+    "remainingVotes": 807,
+    "eligibleVoters": 2450,
+    "voterTurnout": 67.05999755859375
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "中榮里",
+    "candidateVotes": {
+      "coast": 609,
+      "savannah": 1806,
+      "rainforest": 375
+    },
+    "validVotes": 2790,
+    "invalidVotes": 34,
+    "totalVotes": 2824,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2824,
+    "remainingVotes": 1475,
+    "eligibleVoters": 4299,
+    "voterTurnout": 65.69000244140625
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "過埤里",
+    "candidateVotes": {
+      "coast": 1716,
+      "savannah": 4569,
+      "rainforest": 931
+    },
+    "validVotes": 7216,
+    "invalidVotes": 64,
+    "totalVotes": 7280,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7280,
+    "remainingVotes": 3938,
+    "eligibleVoters": 11218,
+    "voterTurnout": 64.9000015258789
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "正義里",
+    "candidateVotes": {
+      "coast": 781,
+      "savannah": 2894,
+      "rainforest": 436
+    },
+    "validVotes": 4111,
+    "invalidVotes": 37,
+    "totalVotes": 4148,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4148,
+    "remainingVotes": 1810,
+    "eligibleVoters": 5958,
+    "voterTurnout": 69.62000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "保安里",
+    "candidateVotes": {
+      "coast": 803,
+      "savannah": 2445,
+      "rainforest": 403
+    },
+    "validVotes": 3651,
+    "invalidVotes": 38,
+    "totalVotes": 3689,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3689,
+    "remainingVotes": 1579,
+    "eligibleVoters": 5268,
+    "voterTurnout": 70.02999877929688
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "一甲里",
+    "candidateVotes": {
+      "coast": 418,
+      "savannah": 1479,
+      "rainforest": 185
+    },
+    "validVotes": 2082,
+    "invalidVotes": 20,
+    "totalVotes": 2102,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2102,
+    "remainingVotes": 1029,
+    "eligibleVoters": 3131,
+    "voterTurnout": 67.13999938964844
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "二甲里",
+    "candidateVotes": {
+      "coast": 645,
+      "savannah": 2058,
+      "rainforest": 320
+    },
+    "validVotes": 3023,
+    "invalidVotes": 31,
+    "totalVotes": 3054,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3054,
+    "remainingVotes": 1366,
+    "eligibleVoters": 4420,
+    "voterTurnout": 69.0999984741211
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "龍成里",
+    "candidateVotes": {
+      "coast": 384,
+      "savannah": 1321,
+      "rainforest": 147
+    },
+    "validVotes": 1852,
+    "invalidVotes": 12,
+    "totalVotes": 1864,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1864,
+    "remainingVotes": 891,
+    "eligibleVoters": 2755,
+    "voterTurnout": 67.66000366210938
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "鎮南里",
+    "candidateVotes": {
+      "coast": 668,
+      "savannah": 2067,
+      "rainforest": 318
+    },
+    "validVotes": 3053,
+    "invalidVotes": 32,
+    "totalVotes": 3085,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3085,
+    "remainingVotes": 1427,
+    "eligibleVoters": 4512,
+    "voterTurnout": 68.37000274658203
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "富甲里",
+    "candidateVotes": {
+      "coast": 263,
+      "savannah": 814,
+      "rainforest": 122
+    },
+    "validVotes": 1199,
+    "invalidVotes": 19,
+    "totalVotes": 1218,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1218,
+    "remainingVotes": 1206,
+    "eligibleVoters": 2424,
+    "voterTurnout": 50.25
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "善美里",
+    "candidateVotes": {
+      "coast": 727,
+      "savannah": 2182,
+      "rainforest": 377
+    },
+    "validVotes": 3286,
+    "invalidVotes": 35,
+    "totalVotes": 3321,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3321,
+    "remainingVotes": 1839,
+    "eligibleVoters": 5160,
+    "voterTurnout": 64.36000061035156
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "富榮里",
+    "candidateVotes": {
+      "coast": 403,
+      "savannah": 1009,
+      "rainforest": 174
+    },
+    "validVotes": 1586,
+    "invalidVotes": 17,
+    "totalVotes": 1603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1603,
+    "remainingVotes": 780,
+    "eligibleVoters": 2383,
+    "voterTurnout": 67.2699966430664
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "南和里",
+    "candidateVotes": {
+      "coast": 376,
+      "savannah": 1233,
+      "rainforest": 174
+    },
+    "validVotes": 1783,
+    "invalidVotes": 19,
+    "totalVotes": 1802,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1802,
+    "remainingVotes": 769,
+    "eligibleVoters": 2571,
+    "voterTurnout": 70.08999633789062
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "南成里",
+    "candidateVotes": {
+      "coast": 956,
+      "savannah": 3385,
+      "rainforest": 520
+    },
+    "validVotes": 4861,
+    "invalidVotes": 48,
+    "totalVotes": 4909,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4909,
+    "remainingVotes": 2128,
+    "eligibleVoters": 7037,
+    "voterTurnout": 69.76000213623047
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "天興里",
+    "candidateVotes": {
+      "coast": 494,
+      "savannah": 1576,
+      "rainforest": 189
+    },
+    "validVotes": 2259,
+    "invalidVotes": 20,
+    "totalVotes": 2279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2279,
+    "remainingVotes": 1063,
+    "eligibleVoters": 3342,
+    "voterTurnout": 68.19000244140625
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "大德里",
+    "candidateVotes": {
+      "coast": 566,
+      "savannah": 1964,
+      "rainforest": 268
+    },
+    "validVotes": 2798,
+    "invalidVotes": 35,
+    "totalVotes": 2833,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2833,
+    "remainingVotes": 1278,
+    "eligibleVoters": 4111,
+    "voterTurnout": 68.91000366210938
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "五福里",
+    "candidateVotes": {
+      "coast": 470,
+      "savannah": 1380,
+      "rainforest": 207
+    },
+    "validVotes": 2057,
+    "invalidVotes": 20,
+    "totalVotes": 2077,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2078,
+    "remainingVotes": 880,
+    "eligibleVoters": 2958,
+    "voterTurnout": 70.22000122070312
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "福興里",
+    "candidateVotes": {
+      "coast": 817,
+      "savannah": 2676,
+      "rainforest": 366
+    },
+    "validVotes": 3859,
+    "invalidVotes": 38,
+    "totalVotes": 3897,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3897,
+    "remainingVotes": 1788,
+    "eligibleVoters": 5685,
+    "voterTurnout": 68.55000305175781
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "福祥里",
+    "candidateVotes": {
+      "coast": 327,
+      "savannah": 1274,
+      "rainforest": 163
+    },
+    "validVotes": 1764,
+    "invalidVotes": 21,
+    "totalVotes": 1785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1785,
+    "remainingVotes": 821,
+    "eligibleVoters": 2606,
+    "voterTurnout": 68.5
+  },
+  {
+    "administrativeDivision": "鳳山區",
+    "village": "福誠里",
+    "candidateVotes": {
+      "coast": 521,
+      "savannah": 1647,
+      "rainforest": 260
+    },
+    "validVotes": 2428,
+    "invalidVotes": 32,
+    "totalVotes": 2460,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2460,
+    "remainingVotes": 1126,
+    "eligibleVoters": 3586,
+    "voterTurnout": 68.5999984741211
+  }
+]

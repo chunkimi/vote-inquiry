@@ -1,0 +1,325 @@
+[
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2410,
+      "savannah": 6648,
+      "rainforest": 1229
+    },
+    "validVotes": 10287,
+    "invalidVotes": 157,
+    "totalVotes": 10444,
+    "receivedUnvoted": 0,
+    "issuedVotes": 10444,
+    "remainingVotes": 6469,
+    "eligibleVoters": 16913,
+    "voterTurnout": 61.75
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "梅東村",
+    "candidateVotes": {
+      "coast": 324,
+      "savannah": 914,
+      "rainforest": 153
+    },
+    "validVotes": 1391,
+    "invalidVotes": 25,
+    "totalVotes": 1416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1416,
+    "remainingVotes": 842,
+    "eligibleVoters": 2258,
+    "voterTurnout": 62.709999084472656
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "梅南村",
+    "candidateVotes": {
+      "coast": 165,
+      "savannah": 369,
+      "rainforest": 68
+    },
+    "validVotes": 602,
+    "invalidVotes": 8,
+    "totalVotes": 610,
+    "receivedUnvoted": 0,
+    "issuedVotes": 610,
+    "remainingVotes": 325,
+    "eligibleVoters": 935,
+    "voterTurnout": 65.23999786376953
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "梅北村",
+    "candidateVotes": {
+      "coast": 593,
+      "savannah": 1812,
+      "rainforest": 302
+    },
+    "validVotes": 2707,
+    "invalidVotes": 28,
+    "totalVotes": 2735,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2735,
+    "remainingVotes": 1508,
+    "eligibleVoters": 4243,
+    "voterTurnout": 64.45999908447266
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "過山村",
+    "candidateVotes": {
+      "coast": 98,
+      "savannah": 225,
+      "rainforest": 38
+    },
+    "validVotes": 361,
+    "invalidVotes": 6,
+    "totalVotes": 367,
+    "receivedUnvoted": 0,
+    "issuedVotes": 367,
+    "remainingVotes": 190,
+    "eligibleVoters": 557,
+    "voterTurnout": 65.88999938964844
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "圳南村",
+    "candidateVotes": {
+      "coast": 41,
+      "savannah": 183,
+      "rainforest": 28
+    },
+    "validVotes": 252,
+    "invalidVotes": 4,
+    "totalVotes": 256,
+    "receivedUnvoted": 0,
+    "issuedVotes": 256,
+    "remainingVotes": 173,
+    "eligibleVoters": 429,
+    "voterTurnout": 59.66999816894531
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "圳北村",
+    "candidateVotes": {
+      "coast": 90,
+      "savannah": 239,
+      "rainforest": 56
+    },
+    "validVotes": 385,
+    "invalidVotes": 3,
+    "totalVotes": 388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 388,
+    "remainingVotes": 249,
+    "eligibleVoters": 637,
+    "voterTurnout": 60.90999984741211
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "双溪村",
+    "candidateVotes": {
+      "coast": 85,
+      "savannah": 241,
+      "rainforest": 36
+    },
+    "validVotes": 362,
+    "invalidVotes": 7,
+    "totalVotes": 369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 369,
+    "remainingVotes": 206,
+    "eligibleVoters": 575,
+    "voterTurnout": 64.16999816894531
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "大南村",
+    "candidateVotes": {
+      "coast": 223,
+      "savannah": 666,
+      "rainforest": 120
+    },
+    "validVotes": 1009,
+    "invalidVotes": 11,
+    "totalVotes": 1020,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1020,
+    "remainingVotes": 610,
+    "eligibleVoters": 1630,
+    "voterTurnout": 62.58000183105469
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "安靖村",
+    "candidateVotes": {
+      "coast": 126,
+      "savannah": 287,
+      "rainforest": 53
+    },
+    "validVotes": 466,
+    "invalidVotes": 4,
+    "totalVotes": 470,
+    "receivedUnvoted": 0,
+    "issuedVotes": 470,
+    "remainingVotes": 386,
+    "eligibleVoters": 856,
+    "voterTurnout": 54.90999984741211
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "永興村",
+    "candidateVotes": {
+      "coast": 86,
+      "savannah": 216,
+      "rainforest": 45
+    },
+    "validVotes": 347,
+    "invalidVotes": 7,
+    "totalVotes": 354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 354,
+    "remainingVotes": 187,
+    "eligibleVoters": 541,
+    "voterTurnout": 65.43000030517578
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "半天村",
+    "candidateVotes": {
+      "coast": 43,
+      "savannah": 149,
+      "rainforest": 17
+    },
+    "validVotes": 209,
+    "invalidVotes": 2,
+    "totalVotes": 211,
+    "receivedUnvoted": 0,
+    "issuedVotes": 211,
+    "remainingVotes": 195,
+    "eligibleVoters": 406,
+    "voterTurnout": 51.970001220703125
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "太平村",
+    "candidateVotes": {
+      "coast": 74,
+      "savannah": 170,
+      "rainforest": 45
+    },
+    "validVotes": 289,
+    "invalidVotes": 7,
+    "totalVotes": 296,
+    "receivedUnvoted": 0,
+    "issuedVotes": 296,
+    "remainingVotes": 195,
+    "eligibleVoters": 491,
+    "voterTurnout": 60.290000915527344
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "太興村",
+    "candidateVotes": {
+      "coast": 60,
+      "savannah": 132,
+      "rainforest": 44
+    },
+    "validVotes": 236,
+    "invalidVotes": 5,
+    "totalVotes": 241,
+    "receivedUnvoted": 0,
+    "issuedVotes": 241,
+    "remainingVotes": 174,
+    "eligibleVoters": 415,
+    "voterTurnout": 58.06999969482422
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "龍眼村",
+    "candidateVotes": {
+      "coast": 32,
+      "savannah": 192,
+      "rainforest": 23
+    },
+    "validVotes": 247,
+    "invalidVotes": 7,
+    "totalVotes": 254,
+    "receivedUnvoted": 0,
+    "issuedVotes": 254,
+    "remainingVotes": 174,
+    "eligibleVoters": 428,
+    "voterTurnout": 59.349998474121094
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "碧湖村",
+    "candidateVotes": {
+      "coast": 35,
+      "savannah": 96,
+      "rainforest": 26
+    },
+    "validVotes": 157,
+    "invalidVotes": 3,
+    "totalVotes": 160,
+    "receivedUnvoted": 0,
+    "issuedVotes": 160,
+    "remainingVotes": 121,
+    "eligibleVoters": 281,
+    "voterTurnout": 56.939998626708984
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "瑞峯村",
+    "candidateVotes": {
+      "coast": 112,
+      "savannah": 255,
+      "rainforest": 61
+    },
+    "validVotes": 428,
+    "invalidVotes": 12,
+    "totalVotes": 440,
+    "receivedUnvoted": 0,
+    "issuedVotes": 440,
+    "remainingVotes": 284,
+    "eligibleVoters": 724,
+    "voterTurnout": 60.77000045776367
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "瑞里村",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 167,
+      "rainforest": 47
+    },
+    "validVotes": 338,
+    "invalidVotes": 7,
+    "totalVotes": 345,
+    "receivedUnvoted": 0,
+    "issuedVotes": 345,
+    "remainingVotes": 264,
+    "eligibleVoters": 609,
+    "voterTurnout": 56.650001525878906
+  },
+  {
+    "administrativeDivision": "梅山鄉",
+    "village": "太和村",
+    "candidateVotes": {
+      "coast": 99,
+      "savannah": 335,
+      "rainforest": 67
+    },
+    "validVotes": 501,
+    "invalidVotes": 11,
+    "totalVotes": 512,
+    "receivedUnvoted": 0,
+    "issuedVotes": 512,
+    "remainingVotes": 386,
+    "eligibleVoters": 898,
+    "voterTurnout": 57.02000045776367
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 9673,
+      "coast": 4946,
+      "rainforest": 375
+    },
+    "validVotes": 14994,
+    "invalidVotes": 228,
+    "totalVotes": 15222,
+    "receivedUnvoted": 1,
+    "issuedVotes": 15223,
+    "remainingVotes": 9471,
+    "eligibleVoters": 24694,
+    "voterTurnout": 61.63999938964844
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "口湖村",
+    "candidateVotes": {
+      "savannah": 386,
+      "coast": 315,
+      "rainforest": 22
+    },
+    "validVotes": 723,
+    "invalidVotes": 6,
+    "totalVotes": 729,
+    "receivedUnvoted": 0,
+    "issuedVotes": 729,
+    "remainingVotes": 407,
+    "eligibleVoters": 1136,
+    "voterTurnout": 64.16999816894531
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "湖東村",
+    "candidateVotes": {
+      "savannah": 405,
+      "coast": 371,
+      "rainforest": 20
+    },
+    "validVotes": 796,
+    "invalidVotes": 13,
+    "totalVotes": 809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 809,
+    "remainingVotes": 463,
+    "eligibleVoters": 1272,
+    "voterTurnout": 63.599998474121094
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "頂湖村",
+    "candidateVotes": {
+      "savannah": 197,
+      "coast": 184,
+      "rainforest": 15
+    },
+    "validVotes": 396,
+    "invalidVotes": 3,
+    "totalVotes": 399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 399,
+    "remainingVotes": 281,
+    "eligibleVoters": 680,
+    "voterTurnout": 58.68000030517578
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "埔南村",
+    "candidateVotes": {
+      "savannah": 284,
+      "coast": 162,
+      "rainforest": 13
+    },
+    "validVotes": 459,
+    "invalidVotes": 8,
+    "totalVotes": 467,
+    "receivedUnvoted": 0,
+    "issuedVotes": 467,
+    "remainingVotes": 252,
+    "eligibleVoters": 719,
+    "voterTurnout": 64.94999694824219
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "埔北村",
+    "candidateVotes": {
+      "savannah": 315,
+      "coast": 135,
+      "rainforest": 15
+    },
+    "validVotes": 465,
+    "invalidVotes": 6,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 418,
+    "eligibleVoters": 889,
+    "voterTurnout": 52.97999954223633
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "謝厝村",
+    "candidateVotes": {
+      "savannah": 451,
+      "coast": 177,
+      "rainforest": 13
+    },
+    "validVotes": 641,
+    "invalidVotes": 13,
+    "totalVotes": 654,
+    "receivedUnvoted": 0,
+    "issuedVotes": 654,
+    "remainingVotes": 342,
+    "eligibleVoters": 996,
+    "voterTurnout": 65.66000366210938
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "蚵寮村",
+    "candidateVotes": {
+      "savannah": 636,
+      "coast": 235,
+      "rainforest": 30
+    },
+    "validVotes": 901,
+    "invalidVotes": 14,
+    "totalVotes": 915,
+    "receivedUnvoted": 0,
+    "issuedVotes": 915,
+    "remainingVotes": 565,
+    "eligibleVoters": 1480,
+    "voterTurnout": 61.81999969482422
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "下崙村",
+    "candidateVotes": {
+      "savannah": 750,
+      "coast": 347,
+      "rainforest": 17
+    },
+    "validVotes": 1114,
+    "invalidVotes": 23,
+    "totalVotes": 1137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1137,
+    "remainingVotes": 882,
+    "eligibleVoters": 2019,
+    "voterTurnout": 56.31999969482422
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "崙中村",
+    "candidateVotes": {
+      "savannah": 614,
+      "coast": 313,
+      "rainforest": 27
+    },
+    "validVotes": 954,
+    "invalidVotes": 16,
+    "totalVotes": 970,
+    "receivedUnvoted": 0,
+    "issuedVotes": 970,
+    "remainingVotes": 701,
+    "eligibleVoters": 1671,
+    "voterTurnout": 58.04999923706055
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "崙東村",
+    "candidateVotes": {
+      "savannah": 587,
+      "coast": 310,
+      "rainforest": 33
+    },
+    "validVotes": 930,
+    "invalidVotes": 14,
+    "totalVotes": 944,
+    "receivedUnvoted": 0,
+    "issuedVotes": 944,
+    "remainingVotes": 588,
+    "eligibleVoters": 1532,
+    "voterTurnout": 61.619998931884766
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "青蚶村",
+    "candidateVotes": {
+      "savannah": 218,
+      "coast": 102,
+      "rainforest": 9
+    },
+    "validVotes": 329,
+    "invalidVotes": 9,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 235,
+    "eligibleVoters": 573,
+    "voterTurnout": 58.9900016784668
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "港東村",
+    "candidateVotes": {
+      "savannah": 509,
+      "coast": 353,
+      "rainforest": 23
+    },
+    "validVotes": 885,
+    "invalidVotes": 14,
+    "totalVotes": 899,
+    "receivedUnvoted": 0,
+    "issuedVotes": 899,
+    "remainingVotes": 642,
+    "eligibleVoters": 1541,
+    "voterTurnout": 58.34000015258789
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "港西村",
+    "candidateVotes": {
+      "savannah": 283,
+      "coast": 235,
+      "rainforest": 14
+    },
+    "validVotes": 532,
+    "invalidVotes": 3,
+    "totalVotes": 535,
+    "receivedUnvoted": 0,
+    "issuedVotes": 535,
+    "remainingVotes": 333,
+    "eligibleVoters": 868,
+    "voterTurnout": 61.63999938964844
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "台子村",
+    "candidateVotes": {
+      "savannah": 919,
+      "coast": 214,
+      "rainforest": 23
+    },
+    "validVotes": 1156,
+    "invalidVotes": 16,
+    "totalVotes": 1172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1172,
+    "remainingVotes": 671,
+    "eligibleVoters": 1843,
+    "voterTurnout": 63.59000015258789
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "成龍村",
+    "candidateVotes": {
+      "savannah": 371,
+      "coast": 228,
+      "rainforest": 17
+    },
+    "validVotes": 616,
+    "invalidVotes": 9,
+    "totalVotes": 625,
+    "receivedUnvoted": 0,
+    "issuedVotes": 625,
+    "remainingVotes": 394,
+    "eligibleVoters": 1019,
+    "voterTurnout": 61.33000183105469
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "梧南村",
+    "candidateVotes": {
+      "savannah": 684,
+      "coast": 415,
+      "rainforest": 25
+    },
+    "validVotes": 1124,
+    "invalidVotes": 19,
+    "totalVotes": 1143,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1143,
+    "remainingVotes": 631,
+    "eligibleVoters": 1774,
+    "voterTurnout": 64.43000030517578
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "梧北村",
+    "candidateVotes": {
+      "savannah": 646,
+      "coast": 177,
+      "rainforest": 15
+    },
+    "validVotes": 838,
+    "invalidVotes": 8,
+    "totalVotes": 846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 846,
+    "remainingVotes": 383,
+    "eligibleVoters": 1229,
+    "voterTurnout": 68.83999633789062
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "水井村",
+    "candidateVotes": {
+      "savannah": 390,
+      "coast": 242,
+      "rainforest": 13
+    },
+    "validVotes": 645,
+    "invalidVotes": 10,
+    "totalVotes": 655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 655,
+    "remainingVotes": 352,
+    "eligibleVoters": 1007,
+    "voterTurnout": 65.04000091552734
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "後厝村",
+    "candidateVotes": {
+      "savannah": 350,
+      "coast": 125,
+      "rainforest": 13
+    },
+    "validVotes": 488,
+    "invalidVotes": 10,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 257,
+    "eligibleVoters": 755,
+    "voterTurnout": 65.95999908447266
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "湖口村",
+    "candidateVotes": {
+      "savannah": 434,
+      "coast": 193,
+      "rainforest": 9
+    },
+    "validVotes": 636,
+    "invalidVotes": 8,
+    "totalVotes": 644,
+    "receivedUnvoted": 1,
+    "issuedVotes": 645,
+    "remainingVotes": 393,
+    "eligibleVoters": 1038,
+    "voterTurnout": 62.040000915527344
+  },
+  {
+    "administrativeDivision": "口湖鄉",
+    "village": "過港村",
+    "candidateVotes": {
+      "savannah": 244,
+      "coast": 113,
+      "rainforest": 9
+    },
+    "validVotes": 366,
+    "invalidVotes": 6,
+    "totalVotes": 372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 372,
+    "remainingVotes": 281,
+    "eligibleVoters": 653,
+    "voterTurnout": 56.970001220703125
+  }
+]

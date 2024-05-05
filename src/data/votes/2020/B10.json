@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "東勢區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 1337,
+      "coast": 14329,
+      "savannah": 15345
+    },
+    "validVotes": 31011,
+    "invalidVotes": 447,
+    "totalVotes": 31458,
+    "receivedUnvoted": 1,
+    "issuedVotes": 31459,
+    "remainingVotes": 10311,
+    "eligibleVoters": 41770,
+    "voterTurnout": 75.3124
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "慶福里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 345,
+      "savannah": 475
+    },
+    "validVotes": 859,
+    "invalidVotes": 16,
+    "totalVotes": 875,
+    "receivedUnvoted": 0,
+    "issuedVotes": 875,
+    "remainingVotes": 388,
+    "eligibleVoters": 1263,
+    "voterTurnout": 69.2795
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "慶東里",
+    "candidateVotes": {
+      "rainforest": 42,
+      "coast": 526,
+      "savannah": 743
+    },
+    "validVotes": 1311,
+    "invalidVotes": 28,
+    "totalVotes": 1339,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1339,
+    "remainingVotes": 451,
+    "eligibleVoters": 1790,
+    "voterTurnout": 74.8045
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "上城里",
+    "candidateVotes": {
+      "rainforest": 33,
+      "coast": 311,
+      "savannah": 390
+    },
+    "validVotes": 734,
+    "invalidVotes": 11,
+    "totalVotes": 745,
+    "receivedUnvoted": 0,
+    "issuedVotes": 745,
+    "remainingVotes": 210,
+    "eligibleVoters": 955,
+    "voterTurnout": 78.0105
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "下城里",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 234,
+      "savannah": 381
+    },
+    "validVotes": 636,
+    "invalidVotes": 11,
+    "totalVotes": 647,
+    "receivedUnvoted": 0,
+    "issuedVotes": 647,
+    "remainingVotes": 188,
+    "eligibleVoters": 835,
+    "voterTurnout": 77.485
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "詒福里",
+    "candidateVotes": {
+      "rainforest": 46,
+      "coast": 514,
+      "savannah": 620
+    },
+    "validVotes": 1180,
+    "invalidVotes": 15,
+    "totalVotes": 1195,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1195,
+    "remainingVotes": 374,
+    "eligibleVoters": 1569,
+    "voterTurnout": 76.1632
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "新盛里",
+    "candidateVotes": {
+      "rainforest": 176,
+      "coast": 1515,
+      "savannah": 1829
+    },
+    "validVotes": 3520,
+    "invalidVotes": 53,
+    "totalVotes": 3573,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3573,
+    "remainingVotes": 1163,
+    "eligibleVoters": 4736,
+    "voterTurnout": 75.4434
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "福隆里",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1293,
+      "savannah": 1288
+    },
+    "validVotes": 2700,
+    "invalidVotes": 32,
+    "totalVotes": 2732,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2732,
+    "remainingVotes": 888,
+    "eligibleVoters": 3620,
+    "voterTurnout": 75.4696
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "隆興里",
+    "candidateVotes": {
+      "rainforest": 42,
+      "coast": 503,
+      "savannah": 482
+    },
+    "validVotes": 1027,
+    "invalidVotes": 11,
+    "totalVotes": 1038,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1038,
+    "remainingVotes": 389,
+    "eligibleVoters": 1427,
+    "voterTurnout": 72.74
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "中嵙里",
+    "candidateVotes": {
+      "rainforest": 56,
+      "coast": 616,
+      "savannah": 639
+    },
+    "validVotes": 1311,
+    "invalidVotes": 13,
+    "totalVotes": 1324,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1324,
+    "remainingVotes": 472,
+    "eligibleVoters": 1796,
+    "voterTurnout": 73.7194
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "泰昌里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 1319,
+      "savannah": 1075
+    },
+    "validVotes": 2495,
+    "invalidVotes": 45,
+    "totalVotes": 2540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2540,
+    "remainingVotes": 816,
+    "eligibleVoters": 3356,
+    "voterTurnout": 75.6853
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "上新里",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 383,
+      "savannah": 316
+    },
+    "validVotes": 737,
+    "invalidVotes": 11,
+    "totalVotes": 748,
+    "receivedUnvoted": 0,
+    "issuedVotes": 748,
+    "remainingVotes": 201,
+    "eligibleVoters": 949,
+    "voterTurnout": 78.8198
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "廣興里",
+    "candidateVotes": {
+      "rainforest": 40,
+      "coast": 555,
+      "savannah": 461
+    },
+    "validVotes": 1056,
+    "invalidVotes": 14,
+    "totalVotes": 1070,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1070,
+    "remainingVotes": 295,
+    "eligibleVoters": 1365,
+    "voterTurnout": 78.3883
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "延平里",
+    "candidateVotes": {
+      "rainforest": 70,
+      "coast": 751,
+      "savannah": 787
+    },
+    "validVotes": 1608,
+    "invalidVotes": 21,
+    "totalVotes": 1629,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1629,
+    "remainingVotes": 506,
+    "eligibleVoters": 2135,
+    "voterTurnout": 76.2998
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "南平里",
+    "candidateVotes": {
+      "rainforest": 65,
+      "coast": 766,
+      "savannah": 538
+    },
+    "validVotes": 1369,
+    "invalidVotes": 13,
+    "totalVotes": 1382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1382,
+    "remainingVotes": 392,
+    "eligibleVoters": 1774,
+    "voterTurnout": 77.903
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "東安里",
+    "candidateVotes": {
+      "rainforest": 32,
+      "coast": 376,
+      "savannah": 339
+    },
+    "validVotes": 747,
+    "invalidVotes": 9,
+    "totalVotes": 756,
+    "receivedUnvoted": 0,
+    "issuedVotes": 756,
+    "remainingVotes": 224,
+    "eligibleVoters": 980,
+    "voterTurnout": 77.1429
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "中寧里",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 307,
+      "savannah": 270
+    },
+    "validVotes": 613,
+    "invalidVotes": 13,
+    "totalVotes": 626,
+    "receivedUnvoted": 0,
+    "issuedVotes": 626,
+    "remainingVotes": 204,
+    "eligibleVoters": 830,
+    "voterTurnout": 75.4217
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "北興里",
+    "candidateVotes": {
+      "rainforest": 44,
+      "coast": 509,
+      "savannah": 421
+    },
+    "validVotes": 974,
+    "invalidVotes": 12,
+    "totalVotes": 986,
+    "receivedUnvoted": 0,
+    "issuedVotes": 986,
+    "remainingVotes": 329,
+    "eligibleVoters": 1315,
+    "voterTurnout": 74.981
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "粵寧里",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 659,
+      "savannah": 762
+    },
+    "validVotes": 1484,
+    "invalidVotes": 18,
+    "totalVotes": 1502,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1502,
+    "remainingVotes": 480,
+    "eligibleVoters": 1982,
+    "voterTurnout": 75.782
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "下新里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 488,
+      "savannah": 665
+    },
+    "validVotes": 1203,
+    "invalidVotes": 22,
+    "totalVotes": 1225,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1226,
+    "remainingVotes": 399,
+    "eligibleVoters": 1625,
+    "voterTurnout": 75.3846
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "東新里",
+    "candidateVotes": {
+      "rainforest": 65,
+      "coast": 722,
+      "savannah": 653
+    },
+    "validVotes": 1440,
+    "invalidVotes": 14,
+    "totalVotes": 1454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1454,
+    "remainingVotes": 446,
+    "eligibleVoters": 1900,
+    "voterTurnout": 76.5263
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "興隆里",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 296,
+      "savannah": 523
+    },
+    "validVotes": 857,
+    "invalidVotes": 17,
+    "totalVotes": 874,
+    "receivedUnvoted": 0,
+    "issuedVotes": 874,
+    "remainingVotes": 290,
+    "eligibleVoters": 1164,
+    "voterTurnout": 75.0859
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "茂興里",
+    "candidateVotes": {
+      "rainforest": 58,
+      "coast": 551,
+      "savannah": 624
+    },
+    "validVotes": 1233,
+    "invalidVotes": 21,
+    "totalVotes": 1254,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1254,
+    "remainingVotes": 509,
+    "eligibleVoters": 1763,
+    "voterTurnout": 71.1288
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "泰興里",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 206,
+      "savannah": 252
+    },
+    "validVotes": 481,
+    "invalidVotes": 12,
+    "totalVotes": 493,
+    "receivedUnvoted": 0,
+    "issuedVotes": 493,
+    "remainingVotes": 190,
+    "eligibleVoters": 683,
+    "voterTurnout": 72.1816
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "埤頭里",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 180,
+      "savannah": 312
+    },
+    "validVotes": 505,
+    "invalidVotes": 5,
+    "totalVotes": 510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 510,
+    "remainingVotes": 133,
+    "eligibleVoters": 643,
+    "voterTurnout": 79.3157
+  },
+  {
+    "administrativeDivision": "東勢區",
+    "village": "明正里",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 404,
+      "savannah": 500
+    },
+    "validVotes": 931,
+    "invalidVotes": 10,
+    "totalVotes": 941,
+    "receivedUnvoted": 0,
+    "issuedVotes": 941,
+    "remainingVotes": 374,
+    "eligibleVoters": 1315,
+    "voterTurnout": 71.5589
+  }
+]

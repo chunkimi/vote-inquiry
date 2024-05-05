@@ -1,0 +1,597 @@
+[
+  {
+    "administrativeDivision": "南投市",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 3077,
+      "coast": 26690,
+      "savannah": 30910
+    },
+    "validVotes": 60677,
+    "invalidVotes": 693,
+    "totalVotes": 61370,
+    "receivedUnvoted": 3,
+    "issuedVotes": 61373,
+    "remainingVotes": 20480,
+    "eligibleVoters": 81853,
+    "voterTurnout": 74.9759
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "龍泉里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 241,
+      "savannah": 391
+    },
+    "validVotes": 658,
+    "invalidVotes": 8,
+    "totalVotes": 666,
+    "receivedUnvoted": 0,
+    "issuedVotes": 666,
+    "remainingVotes": 228,
+    "eligibleVoters": 894,
+    "voterTurnout": 74.4966
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "康壽里",
+    "candidateVotes": {
+      "rainforest": 55,
+      "coast": 455,
+      "savannah": 572
+    },
+    "validVotes": 1082,
+    "invalidVotes": 12,
+    "totalVotes": 1094,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1094,
+    "remainingVotes": 282,
+    "eligibleVoters": 1376,
+    "voterTurnout": 79.5058
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "三民里",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 276,
+      "savannah": 315
+    },
+    "validVotes": 613,
+    "invalidVotes": 8,
+    "totalVotes": 621,
+    "receivedUnvoted": 0,
+    "issuedVotes": 621,
+    "remainingVotes": 154,
+    "eligibleVoters": 775,
+    "voterTurnout": 80.129
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "仁和里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 144,
+      "savannah": 238
+    },
+    "validVotes": 408,
+    "invalidVotes": 5,
+    "totalVotes": 413,
+    "receivedUnvoted": 0,
+    "issuedVotes": 413,
+    "remainingVotes": 83,
+    "eligibleVoters": 496,
+    "voterTurnout": 83.2661
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "南投里",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 171,
+      "savannah": 238
+    },
+    "validVotes": 424,
+    "invalidVotes": 4,
+    "totalVotes": 428,
+    "receivedUnvoted": 0,
+    "issuedVotes": 428,
+    "remainingVotes": 129,
+    "eligibleVoters": 557,
+    "voterTurnout": 76.8402
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "彰仁里",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 92,
+      "savannah": 171
+    },
+    "validVotes": 276,
+    "invalidVotes": 7,
+    "totalVotes": 283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 283,
+    "remainingVotes": 69,
+    "eligibleVoters": 352,
+    "voterTurnout": 80.3977
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "崇文里",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 283,
+      "savannah": 373
+    },
+    "validVotes": 694,
+    "invalidVotes": 10,
+    "totalVotes": 704,
+    "receivedUnvoted": 0,
+    "issuedVotes": 704,
+    "remainingVotes": 225,
+    "eligibleVoters": 929,
+    "voterTurnout": 75.7804
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "三興里",
+    "candidateVotes": {
+      "rainforest": 171,
+      "coast": 1798,
+      "savannah": 1915
+    },
+    "validVotes": 3884,
+    "invalidVotes": 61,
+    "totalVotes": 3945,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3945,
+    "remainingVotes": 1313,
+    "eligibleVoters": 5258,
+    "voterTurnout": 75.0285
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "三和里",
+    "candidateVotes": {
+      "rainforest": 104,
+      "coast": 902,
+      "savannah": 1064
+    },
+    "validVotes": 2070,
+    "invalidVotes": 21,
+    "totalVotes": 2091,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2091,
+    "remainingVotes": 580,
+    "eligibleVoters": 2671,
+    "voterTurnout": 78.2853
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "嘉興里",
+    "candidateVotes": {
+      "rainforest": 66,
+      "coast": 481,
+      "savannah": 913
+    },
+    "validVotes": 1460,
+    "invalidVotes": 26,
+    "totalVotes": 1486,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1486,
+    "remainingVotes": 576,
+    "eligibleVoters": 2062,
+    "voterTurnout": 72.066
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "嘉和里",
+    "candidateVotes": {
+      "rainforest": 171,
+      "coast": 1255,
+      "savannah": 1674
+    },
+    "validVotes": 3100,
+    "invalidVotes": 34,
+    "totalVotes": 3134,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3134,
+    "remainingVotes": 1143,
+    "eligibleVoters": 4277,
+    "voterTurnout": 73.2757
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "平和里",
+    "candidateVotes": {
+      "rainforest": 208,
+      "coast": 1852,
+      "savannah": 2165
+    },
+    "validVotes": 4225,
+    "invalidVotes": 39,
+    "totalVotes": 4264,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4264,
+    "remainingVotes": 1589,
+    "eligibleVoters": 5853,
+    "voterTurnout": 72.8515
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "振興里",
+    "candidateVotes": {
+      "rainforest": 58,
+      "coast": 515,
+      "savannah": 908
+    },
+    "validVotes": 1481,
+    "invalidVotes": 19,
+    "totalVotes": 1500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1500,
+    "remainingVotes": 512,
+    "eligibleVoters": 2012,
+    "voterTurnout": 74.5527
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "千秋里",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 272,
+      "savannah": 419
+    },
+    "validVotes": 722,
+    "invalidVotes": 4,
+    "totalVotes": 726,
+    "receivedUnvoted": 0,
+    "issuedVotes": 726,
+    "remainingVotes": 263,
+    "eligibleVoters": 989,
+    "voterTurnout": 73.4075
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "軍功里",
+    "candidateVotes": {
+      "rainforest": 169,
+      "coast": 1341,
+      "savannah": 1737
+    },
+    "validVotes": 3247,
+    "invalidVotes": 38,
+    "totalVotes": 3285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3285,
+    "remainingVotes": 1154,
+    "eligibleVoters": 4439,
+    "voterTurnout": 74.0032
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "東山里",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 109,
+      "savannah": 150
+    },
+    "validVotes": 277,
+    "invalidVotes": 6,
+    "totalVotes": 283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 283,
+    "remainingVotes": 90,
+    "eligibleVoters": 373,
+    "voterTurnout": 75.8713
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "營南里",
+    "candidateVotes": {
+      "rainforest": 115,
+      "coast": 799,
+      "savannah": 869
+    },
+    "validVotes": 1783,
+    "invalidVotes": 12,
+    "totalVotes": 1795,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1795,
+    "remainingVotes": 510,
+    "eligibleVoters": 2305,
+    "voterTurnout": 77.8742
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "營北里",
+    "candidateVotes": {
+      "rainforest": 251,
+      "coast": 2596,
+      "savannah": 1710
+    },
+    "validVotes": 4557,
+    "invalidVotes": 43,
+    "totalVotes": 4600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4600,
+    "remainingVotes": 1113,
+    "eligibleVoters": 5713,
+    "voterTurnout": 80.5181
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "內興里",
+    "candidateVotes": {
+      "rainforest": 275,
+      "coast": 2425,
+      "savannah": 2200
+    },
+    "validVotes": 4900,
+    "invalidVotes": 59,
+    "totalVotes": 4959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4959,
+    "remainingVotes": 1441,
+    "eligibleVoters": 6400,
+    "voterTurnout": 77.4844
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "內新里",
+    "candidateVotes": {
+      "rainforest": 69,
+      "coast": 404,
+      "savannah": 555
+    },
+    "validVotes": 1028,
+    "invalidVotes": 16,
+    "totalVotes": 1044,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1044,
+    "remainingVotes": 329,
+    "eligibleVoters": 1373,
+    "voterTurnout": 76.0379
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "光輝里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 224,
+      "savannah": 170
+    },
+    "validVotes": 419,
+    "invalidVotes": 2,
+    "totalVotes": 421,
+    "receivedUnvoted": 0,
+    "issuedVotes": 421,
+    "remainingVotes": 88,
+    "eligibleVoters": 509,
+    "voterTurnout": 82.7112
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "光榮里",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 576,
+      "savannah": 163
+    },
+    "validVotes": 775,
+    "invalidVotes": 10,
+    "totalVotes": 785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 785,
+    "remainingVotes": 261,
+    "eligibleVoters": 1046,
+    "voterTurnout": 75.0478
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "光明里",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 591,
+      "savannah": 121
+    },
+    "validVotes": 741,
+    "invalidVotes": 9,
+    "totalVotes": 750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 750,
+    "remainingVotes": 226,
+    "eligibleVoters": 976,
+    "voterTurnout": 76.8443
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "光華里",
+    "candidateVotes": {
+      "rainforest": 34,
+      "coast": 445,
+      "savannah": 118
+    },
+    "validVotes": 597,
+    "invalidVotes": 5,
+    "totalVotes": 602,
+    "receivedUnvoted": 0,
+    "issuedVotes": 602,
+    "remainingVotes": 206,
+    "eligibleVoters": 808,
+    "voterTurnout": 74.505
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "漳興里",
+    "candidateVotes": {
+      "rainforest": 83,
+      "coast": 753,
+      "savannah": 1078
+    },
+    "validVotes": 1914,
+    "invalidVotes": 14,
+    "totalVotes": 1928,
+    "receivedUnvoted": 2,
+    "issuedVotes": 1930,
+    "remainingVotes": 615,
+    "eligibleVoters": 2545,
+    "voterTurnout": 75.7564
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "漳和里",
+    "candidateVotes": {
+      "rainforest": 226,
+      "coast": 2167,
+      "savannah": 2662
+    },
+    "validVotes": 5055,
+    "invalidVotes": 58,
+    "totalVotes": 5113,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5113,
+    "remainingVotes": 1697,
+    "eligibleVoters": 6810,
+    "voterTurnout": 75.0808
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "平山里",
+    "candidateVotes": {
+      "rainforest": 187,
+      "coast": 1545,
+      "savannah": 1965
+    },
+    "validVotes": 3697,
+    "invalidVotes": 32,
+    "totalVotes": 3729,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3729,
+    "remainingVotes": 1445,
+    "eligibleVoters": 5174,
+    "voterTurnout": 72.0719
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "新興里",
+    "candidateVotes": {
+      "rainforest": 179,
+      "coast": 1328,
+      "savannah": 1893
+    },
+    "validVotes": 3400,
+    "invalidVotes": 38,
+    "totalVotes": 3438,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3439,
+    "remainingVotes": 1412,
+    "eligibleVoters": 4851,
+    "voterTurnout": 70.872
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "永豐里",
+    "candidateVotes": {
+      "rainforest": 105,
+      "coast": 753,
+      "savannah": 1161
+    },
+    "validVotes": 2019,
+    "invalidVotes": 21,
+    "totalVotes": 2040,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2040,
+    "remainingVotes": 700,
+    "eligibleVoters": 2740,
+    "voterTurnout": 74.4526
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "福興里",
+    "candidateVotes": {
+      "rainforest": 127,
+      "coast": 822,
+      "savannah": 1206
+    },
+    "validVotes": 2155,
+    "invalidVotes": 24,
+    "totalVotes": 2179,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2179,
+    "remainingVotes": 804,
+    "eligibleVoters": 2983,
+    "voterTurnout": 73.0473
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "鳳山里",
+    "candidateVotes": {
+      "rainforest": 42,
+      "coast": 199,
+      "savannah": 494
+    },
+    "validVotes": 735,
+    "invalidVotes": 15,
+    "totalVotes": 750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 750,
+    "remainingVotes": 327,
+    "eligibleVoters": 1077,
+    "voterTurnout": 69.6379
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "永興里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 220,
+      "savannah": 282
+    },
+    "validVotes": 522,
+    "invalidVotes": 10,
+    "totalVotes": 532,
+    "receivedUnvoted": 0,
+    "issuedVotes": 532,
+    "remainingVotes": 221,
+    "eligibleVoters": 753,
+    "voterTurnout": 70.6507
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "鳳鳴里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 108,
+      "savannah": 287
+    },
+    "validVotes": 415,
+    "invalidVotes": 5,
+    "totalVotes": 420,
+    "receivedUnvoted": 0,
+    "issuedVotes": 420,
+    "remainingVotes": 197,
+    "eligibleVoters": 617,
+    "voterTurnout": 68.0713
+  },
+  {
+    "administrativeDivision": "南投市",
+    "village": "福山里",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 548,
+      "savannah": 733
+    },
+    "validVotes": 1344,
+    "invalidVotes": 18,
+    "totalVotes": 1362,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1362,
+    "remainingVotes": 498,
+    "eligibleVoters": 1860,
+    "voterTurnout": 73.2258
+  }
+]

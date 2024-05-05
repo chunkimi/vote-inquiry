@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 6180,
+      "savannah": 16323,
+      "rainforest": 2495
+    },
+    "validVotes": 24998,
+    "invalidVotes": 304,
+    "totalVotes": 25302,
+    "receivedUnvoted": 0,
+    "issuedVotes": 25302,
+    "remainingVotes": 11832,
+    "eligibleVoters": 37134,
+    "voterTurnout": 68.13999938964844
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "鳥松里",
+    "candidateVotes": {
+      "coast": 1543,
+      "savannah": 3996,
+      "rainforest": 648
+    },
+    "validVotes": 6187,
+    "invalidVotes": 75,
+    "totalVotes": 6262,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6262,
+    "remainingVotes": 3369,
+    "eligibleVoters": 9631,
+    "voterTurnout": 65.0199966430664
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "夢裡里",
+    "candidateVotes": {
+      "coast": 768,
+      "savannah": 1802,
+      "rainforest": 265
+    },
+    "validVotes": 2835,
+    "invalidVotes": 36,
+    "totalVotes": 2871,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2871,
+    "remainingVotes": 1423,
+    "eligibleVoters": 4294,
+    "voterTurnout": 66.86000061035156
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "大華里",
+    "candidateVotes": {
+      "coast": 1907,
+      "savannah": 3842,
+      "rainforest": 630
+    },
+    "validVotes": 6379,
+    "invalidVotes": 92,
+    "totalVotes": 6471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6471,
+    "remainingVotes": 2724,
+    "eligibleVoters": 9195,
+    "voterTurnout": 70.37999725341797
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "坔埔里",
+    "candidateVotes": {
+      "coast": 429,
+      "savannah": 1723,
+      "rainforest": 229
+    },
+    "validVotes": 2381,
+    "invalidVotes": 26,
+    "totalVotes": 2407,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2407,
+    "remainingVotes": 1000,
+    "eligibleVoters": 3407,
+    "voterTurnout": 70.6500015258789
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "仁美里",
+    "candidateVotes": {
+      "coast": 803,
+      "savannah": 2895,
+      "rainforest": 434
+    },
+    "validVotes": 4132,
+    "invalidVotes": 34,
+    "totalVotes": 4166,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4166,
+    "remainingVotes": 1984,
+    "eligibleVoters": 6150,
+    "voterTurnout": 67.73999786376953
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "大竹里",
+    "candidateVotes": {
+      "coast": 85,
+      "savannah": 340,
+      "rainforest": 27
+    },
+    "validVotes": 452,
+    "invalidVotes": 7,
+    "totalVotes": 459,
+    "receivedUnvoted": 0,
+    "issuedVotes": 459,
+    "remainingVotes": 182,
+    "eligibleVoters": 641,
+    "voterTurnout": 71.61000061035156
+  },
+  {
+    "administrativeDivision": "鳥松區",
+    "village": "華美里",
+    "candidateVotes": {
+      "coast": 645,
+      "savannah": 1725,
+      "rainforest": 262
+    },
+    "validVotes": 2632,
+    "invalidVotes": 34,
+    "totalVotes": 2666,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2666,
+    "remainingVotes": 1150,
+    "eligibleVoters": 3816,
+    "voterTurnout": 69.86000061035156
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "administrativeDivision": "茂林區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 134,
+      "coast": 776,
+      "rainforest": 15
+    },
+    "validVotes": 925,
+    "invalidVotes": 12,
+    "totalVotes": 937,
+    "receivedUnvoted": 0,
+    "issuedVotes": 937,
+    "remainingVotes": 415,
+    "eligibleVoters": 1352,
+    "voterTurnout": 69.30000305175781
+  },
+  {
+    "administrativeDivision": "茂林區",
+    "village": "茂林里",
+    "candidateVotes": {
+      "savannah": 76,
+      "coast": 336,
+      "rainforest": 8
+    },
+    "validVotes": 420,
+    "invalidVotes": 4,
+    "totalVotes": 424,
+    "receivedUnvoted": 0,
+    "issuedVotes": 424,
+    "remainingVotes": 187,
+    "eligibleVoters": 611,
+    "voterTurnout": 69.38999938964844
+  },
+  {
+    "administrativeDivision": "茂林區",
+    "village": "萬山里",
+    "candidateVotes": {
+      "savannah": 38,
+      "coast": 181,
+      "rainforest": 4
+    },
+    "validVotes": 223,
+    "invalidVotes": 4,
+    "totalVotes": 227,
+    "receivedUnvoted": 0,
+    "issuedVotes": 227,
+    "remainingVotes": 91,
+    "eligibleVoters": 318,
+    "voterTurnout": 71.37999725341797
+  },
+  {
+    "administrativeDivision": "茂林區",
+    "village": "多納里",
+    "candidateVotes": {
+      "savannah": 20,
+      "coast": 259,
+      "rainforest": 3
+    },
+    "validVotes": 282,
+    "invalidVotes": 4,
+    "totalVotes": 286,
+    "receivedUnvoted": 0,
+    "issuedVotes": 286,
+    "remainingVotes": 137,
+    "eligibleVoters": 423,
+    "voterTurnout": 67.61000061035156
+  }
+]

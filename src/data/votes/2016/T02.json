@@ -1,0 +1,376 @@
+[
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 7570,
+      "savannah": 18296,
+      "rainforest": 2678
+    },
+    "validVotes": 28544,
+    "invalidVotes": 278,
+    "totalVotes": 28822,
+    "receivedUnvoted": 0,
+    "issuedVotes": 28822,
+    "remainingVotes": 15811,
+    "eligibleVoters": 44633,
+    "voterTurnout": 64.58000183105469
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "潮州里",
+    "candidateVotes": {
+      "coast": 123,
+      "savannah": 190,
+      "rainforest": 43
+    },
+    "validVotes": 356,
+    "invalidVotes": 3,
+    "totalVotes": 359,
+    "receivedUnvoted": 0,
+    "issuedVotes": 359,
+    "remainingVotes": 152,
+    "eligibleVoters": 511,
+    "voterTurnout": 70.25
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "光華里",
+    "candidateVotes": {
+      "coast": 821,
+      "savannah": 1642,
+      "rainforest": 295
+    },
+    "validVotes": 2758,
+    "invalidVotes": 32,
+    "totalVotes": 2790,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2790,
+    "remainingVotes": 1755,
+    "eligibleVoters": 4545,
+    "voterTurnout": 61.38999938964844
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "同榮里",
+    "candidateVotes": {
+      "coast": 111,
+      "savannah": 295,
+      "rainforest": 28
+    },
+    "validVotes": 434,
+    "invalidVotes": 5,
+    "totalVotes": 439,
+    "receivedUnvoted": 0,
+    "issuedVotes": 439,
+    "remainingVotes": 172,
+    "eligibleVoters": 611,
+    "voterTurnout": 71.8499984741211
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "彭城里",
+    "candidateVotes": {
+      "coast": 85,
+      "savannah": 458,
+      "rainforest": 45
+    },
+    "validVotes": 588,
+    "invalidVotes": 8,
+    "totalVotes": 596,
+    "receivedUnvoted": 0,
+    "issuedVotes": 596,
+    "remainingVotes": 262,
+    "eligibleVoters": 858,
+    "voterTurnout": 69.45999908447266
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "三星里",
+    "candidateVotes": {
+      "coast": 967,
+      "savannah": 1920,
+      "rainforest": 333
+    },
+    "validVotes": 3220,
+    "invalidVotes": 25,
+    "totalVotes": 3245,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3245,
+    "remainingVotes": 1813,
+    "eligibleVoters": 5058,
+    "voterTurnout": 64.16000366210938
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "三共里",
+    "candidateVotes": {
+      "coast": 1138,
+      "savannah": 2399,
+      "rainforest": 425
+    },
+    "validVotes": 3962,
+    "invalidVotes": 38,
+    "totalVotes": 4000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4000,
+    "remainingVotes": 2196,
+    "eligibleVoters": 6196,
+    "voterTurnout": 64.55999755859375
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "三和里",
+    "candidateVotes": {
+      "coast": 386,
+      "savannah": 799,
+      "rainforest": 125
+    },
+    "validVotes": 1310,
+    "invalidVotes": 20,
+    "totalVotes": 1330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1330,
+    "remainingVotes": 633,
+    "eligibleVoters": 1963,
+    "voterTurnout": 67.75
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "九塊里",
+    "candidateVotes": {
+      "coast": 149,
+      "savannah": 765,
+      "rainforest": 67
+    },
+    "validVotes": 981,
+    "invalidVotes": 9,
+    "totalVotes": 990,
+    "receivedUnvoted": 0,
+    "issuedVotes": 990,
+    "remainingVotes": 642,
+    "eligibleVoters": 1632,
+    "voterTurnout": 60.65999984741211
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "新生里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 432,
+      "rainforest": 69
+    },
+    "validVotes": 689,
+    "invalidVotes": 6,
+    "totalVotes": 695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 695,
+    "remainingVotes": 289,
+    "eligibleVoters": 984,
+    "voterTurnout": 70.62999725341797
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "新榮里",
+    "candidateVotes": {
+      "coast": 218,
+      "savannah": 509,
+      "rainforest": 64
+    },
+    "validVotes": 791,
+    "invalidVotes": 10,
+    "totalVotes": 801,
+    "receivedUnvoted": 0,
+    "issuedVotes": 801,
+    "remainingVotes": 430,
+    "eligibleVoters": 1231,
+    "voterTurnout": 65.06999969482422
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "五魁里",
+    "candidateVotes": {
+      "coast": 207,
+      "savannah": 583,
+      "rainforest": 72
+    },
+    "validVotes": 862,
+    "invalidVotes": 4,
+    "totalVotes": 866,
+    "receivedUnvoted": 0,
+    "issuedVotes": 866,
+    "remainingVotes": 490,
+    "eligibleVoters": 1356,
+    "voterTurnout": 63.86000061035156
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "蓬萊里",
+    "candidateVotes": {
+      "coast": 313,
+      "savannah": 1003,
+      "rainforest": 130
+    },
+    "validVotes": 1446,
+    "invalidVotes": 17,
+    "totalVotes": 1463,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1463,
+    "remainingVotes": 713,
+    "eligibleVoters": 2176,
+    "voterTurnout": 67.2300033569336
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "八爺里",
+    "candidateVotes": {
+      "coast": 388,
+      "savannah": 900,
+      "rainforest": 102
+    },
+    "validVotes": 1390,
+    "invalidVotes": 9,
+    "totalVotes": 1399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1399,
+    "remainingVotes": 778,
+    "eligibleVoters": 2177,
+    "voterTurnout": 64.26000213623047
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "永春里",
+    "candidateVotes": {
+      "coast": 1151,
+      "savannah": 2549,
+      "rainforest": 443
+    },
+    "validVotes": 4143,
+    "invalidVotes": 31,
+    "totalVotes": 4174,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4174,
+    "remainingVotes": 2419,
+    "eligibleVoters": 6593,
+    "voterTurnout": 63.310001373291016
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "富春里",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 446,
+      "rainforest": 77
+    },
+    "validVotes": 774,
+    "invalidVotes": 8,
+    "totalVotes": 782,
+    "receivedUnvoted": 0,
+    "issuedVotes": 782,
+    "remainingVotes": 419,
+    "eligibleVoters": 1201,
+    "voterTurnout": 65.11000061035156
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "光春里",
+    "candidateVotes": {
+      "coast": 222,
+      "savannah": 594,
+      "rainforest": 61
+    },
+    "validVotes": 877,
+    "invalidVotes": 9,
+    "totalVotes": 886,
+    "receivedUnvoted": 0,
+    "issuedVotes": 886,
+    "remainingVotes": 439,
+    "eligibleVoters": 1325,
+    "voterTurnout": 66.87000274658203
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "興美里",
+    "candidateVotes": {
+      "coast": 111,
+      "savannah": 370,
+      "rainforest": 44
+    },
+    "validVotes": 525,
+    "invalidVotes": 5,
+    "totalVotes": 530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 530,
+    "remainingVotes": 344,
+    "eligibleVoters": 874,
+    "voterTurnout": 60.63999938964844
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "檨子里",
+    "candidateVotes": {
+      "coast": 78,
+      "savannah": 178,
+      "rainforest": 15
+    },
+    "validVotes": 271,
+    "invalidVotes": 1,
+    "totalVotes": 272,
+    "receivedUnvoted": 0,
+    "issuedVotes": 272,
+    "remainingVotes": 197,
+    "eligibleVoters": 469,
+    "voterTurnout": 58
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "泗林里",
+    "candidateVotes": {
+      "coast": 235,
+      "savannah": 740,
+      "rainforest": 88
+    },
+    "validVotes": 1063,
+    "invalidVotes": 9,
+    "totalVotes": 1072,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1072,
+    "remainingVotes": 512,
+    "eligibleVoters": 1584,
+    "voterTurnout": 67.68000030517578
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "四春里",
+    "candidateVotes": {
+      "coast": 227,
+      "savannah": 843,
+      "rainforest": 76
+    },
+    "validVotes": 1146,
+    "invalidVotes": 17,
+    "totalVotes": 1163,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1163,
+    "remainingVotes": 608,
+    "eligibleVoters": 1771,
+    "voterTurnout": 65.66999816894531
+  },
+  {
+    "administrativeDivision": "潮州鎮",
+    "village": "崙東里",
+    "candidateVotes": {
+      "coast": 201,
+      "savannah": 681,
+      "rainforest": 76
+    },
+    "validVotes": 958,
+    "invalidVotes": 12,
+    "totalVotes": 970,
+    "receivedUnvoted": 0,
+    "issuedVotes": 970,
+    "remainingVotes": 548,
+    "eligibleVoters": 1518,
+    "voterTurnout": 63.900001525878906
+  }
+]

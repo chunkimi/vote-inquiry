@@ -1,0 +1,376 @@
+[
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 9569,
+      "coast": 6941,
+      "rainforest": 349
+    },
+    "validVotes": 16859,
+    "invalidVotes": 85,
+    "totalVotes": 16944,
+    "receivedUnvoted": 0,
+    "issuedVotes": 16944,
+    "remainingVotes": 5428,
+    "eligibleVoters": 22372,
+    "voterTurnout": 75.73999786376953
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "藍橋里",
+    "candidateVotes": {
+      "savannah": 633,
+      "coast": 345,
+      "rainforest": 34
+    },
+    "validVotes": 1012,
+    "invalidVotes": 5,
+    "totalVotes": 1017,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1017,
+    "remainingVotes": 260,
+    "eligibleVoters": 1277,
+    "voterTurnout": 79.63999938964844
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "慈愛里",
+    "candidateVotes": {
+      "savannah": 147,
+      "coast": 108,
+      "rainforest": 10
+    },
+    "validVotes": 265,
+    "invalidVotes": 3,
+    "totalVotes": 268,
+    "receivedUnvoted": 0,
+    "issuedVotes": 268,
+    "remainingVotes": 81,
+    "eligibleVoters": 349,
+    "voterTurnout": 76.79000091552734
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "博愛里",
+    "candidateVotes": {
+      "savannah": 339,
+      "coast": 158,
+      "rainforest": 11
+    },
+    "validVotes": 508,
+    "invalidVotes": 2,
+    "totalVotes": 510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 510,
+    "remainingVotes": 140,
+    "eligibleVoters": 650,
+    "voterTurnout": 78.45999908447266
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "壽星里",
+    "candidateVotes": {
+      "savannah": 553,
+      "coast": 443,
+      "rainforest": 14
+    },
+    "validVotes": 1010,
+    "invalidVotes": 5,
+    "totalVotes": 1015,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1015,
+    "remainingVotes": 342,
+    "eligibleVoters": 1357,
+    "voterTurnout": 74.80000305175781
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "中山里",
+    "candidateVotes": {
+      "savannah": 467,
+      "coast": 355,
+      "rainforest": 15
+    },
+    "validVotes": 837,
+    "invalidVotes": 3,
+    "totalVotes": 840,
+    "receivedUnvoted": 0,
+    "issuedVotes": 840,
+    "remainingVotes": 249,
+    "eligibleVoters": 1089,
+    "voterTurnout": 77.12999725341797
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "教仁里",
+    "candidateVotes": {
+      "savannah": 936,
+      "coast": 754,
+      "rainforest": 26
+    },
+    "validVotes": 1716,
+    "invalidVotes": 8,
+    "totalVotes": 1724,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1724,
+    "remainingVotes": 444,
+    "eligibleVoters": 2168,
+    "voterTurnout": 79.5199966430664
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "新樂里",
+    "candidateVotes": {
+      "savannah": 363,
+      "coast": 298,
+      "rainforest": 20
+    },
+    "validVotes": 681,
+    "invalidVotes": 3,
+    "totalVotes": 684,
+    "receivedUnvoted": 0,
+    "issuedVotes": 684,
+    "remainingVotes": 189,
+    "eligibleVoters": 873,
+    "voterTurnout": 78.3499984741211
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "中原里",
+    "candidateVotes": {
+      "savannah": 290,
+      "coast": 202,
+      "rainforest": 6
+    },
+    "validVotes": 498,
+    "invalidVotes": 1,
+    "totalVotes": 499,
+    "receivedUnvoted": 0,
+    "issuedVotes": 499,
+    "remainingVotes": 144,
+    "eligibleVoters": 643,
+    "voterTurnout": 77.5999984741211
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "光明里",
+    "candidateVotes": {
+      "savannah": 549,
+      "coast": 420,
+      "rainforest": 28
+    },
+    "validVotes": 997,
+    "invalidVotes": 1,
+    "totalVotes": 998,
+    "receivedUnvoted": 0,
+    "issuedVotes": 998,
+    "remainingVotes": 429,
+    "eligibleVoters": 1427,
+    "voterTurnout": 69.94000244140625
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "育仁里",
+    "candidateVotes": {
+      "savannah": 335,
+      "coast": 264,
+      "rainforest": 9
+    },
+    "validVotes": 608,
+    "invalidVotes": 1,
+    "totalVotes": 609,
+    "receivedUnvoted": 0,
+    "issuedVotes": 609,
+    "remainingVotes": 181,
+    "eligibleVoters": 790,
+    "voterTurnout": 77.08999633789062
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "河濱里",
+    "candidateVotes": {
+      "savannah": 712,
+      "coast": 543,
+      "rainforest": 20
+    },
+    "validVotes": 1275,
+    "invalidVotes": 2,
+    "totalVotes": 1277,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1277,
+    "remainingVotes": 423,
+    "eligibleVoters": 1700,
+    "voterTurnout": 75.12000274658203
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "沙地里",
+    "candidateVotes": {
+      "savannah": 323,
+      "coast": 207,
+      "rainforest": 11
+    },
+    "validVotes": 541,
+    "invalidVotes": 3,
+    "totalVotes": 544,
+    "receivedUnvoted": 0,
+    "issuedVotes": 544,
+    "remainingVotes": 190,
+    "eligibleVoters": 734,
+    "voterTurnout": 74.11000061035156
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "南端里",
+    "candidateVotes": {
+      "savannah": 416,
+      "coast": 336,
+      "rainforest": 18
+    },
+    "validVotes": 770,
+    "invalidVotes": 4,
+    "totalVotes": 774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 774,
+    "remainingVotes": 250,
+    "eligibleVoters": 1024,
+    "voterTurnout": 75.58999633789062
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "港都里",
+    "candidateVotes": {
+      "savannah": 459,
+      "coast": 338,
+      "rainforest": 24
+    },
+    "validVotes": 821,
+    "invalidVotes": 6,
+    "totalVotes": 827,
+    "receivedUnvoted": 0,
+    "issuedVotes": 827,
+    "remainingVotes": 293,
+    "eligibleVoters": 1120,
+    "voterTurnout": 73.83999633789062
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "江西里",
+    "candidateVotes": {
+      "savannah": 551,
+      "coast": 393,
+      "rainforest": 20
+    },
+    "validVotes": 964,
+    "invalidVotes": 4,
+    "totalVotes": 968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 968,
+    "remainingVotes": 308,
+    "eligibleVoters": 1276,
+    "voterTurnout": 75.86000061035156
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "新豐里",
+    "candidateVotes": {
+      "savannah": 283,
+      "coast": 267,
+      "rainforest": 13
+    },
+    "validVotes": 563,
+    "invalidVotes": 7,
+    "totalVotes": 570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 570,
+    "remainingVotes": 197,
+    "eligibleVoters": 767,
+    "voterTurnout": 74.31999969482422
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "府北里",
+    "candidateVotes": {
+      "savannah": 744,
+      "coast": 586,
+      "rainforest": 27
+    },
+    "validVotes": 1357,
+    "invalidVotes": 12,
+    "totalVotes": 1369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1369,
+    "remainingVotes": 535,
+    "eligibleVoters": 1904,
+    "voterTurnout": 71.9000015258789
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "陸橋里",
+    "candidateVotes": {
+      "savannah": 509,
+      "coast": 409,
+      "rainforest": 20
+    },
+    "validVotes": 938,
+    "invalidVotes": 5,
+    "totalVotes": 943,
+    "receivedUnvoted": 0,
+    "issuedVotes": 943,
+    "remainingVotes": 294,
+    "eligibleVoters": 1237,
+    "voterTurnout": 76.2300033569336
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "瀨南里",
+    "candidateVotes": {
+      "savannah": 314,
+      "coast": 165,
+      "rainforest": 9
+    },
+    "validVotes": 488,
+    "invalidVotes": 2,
+    "totalVotes": 490,
+    "receivedUnvoted": 0,
+    "issuedVotes": 490,
+    "remainingVotes": 167,
+    "eligibleVoters": 657,
+    "voterTurnout": 74.58000183105469
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "新化里",
+    "candidateVotes": {
+      "savannah": 291,
+      "coast": 201,
+      "rainforest": 5
+    },
+    "validVotes": 497,
+    "invalidVotes": 3,
+    "totalVotes": 500,
+    "receivedUnvoted": 0,
+    "issuedVotes": 500,
+    "remainingVotes": 123,
+    "eligibleVoters": 623,
+    "voterTurnout": 80.26000213623047
+  },
+  {
+    "administrativeDivision": "鹽埕區",
+    "village": "江南里",
+    "candidateVotes": {
+      "savannah": 355,
+      "coast": 149,
+      "rainforest": 9
+    },
+    "validVotes": 513,
+    "invalidVotes": 5,
+    "totalVotes": 518,
+    "receivedUnvoted": 0,
+    "issuedVotes": 518,
+    "remainingVotes": 189,
+    "eligibleVoters": 707,
+    "voterTurnout": 73.2699966430664
+  }
+]

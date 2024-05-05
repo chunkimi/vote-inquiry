@@ -1,0 +1,580 @@
+[
+  {
+    "administrativeDivision": "松山區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 46270,
+      "coast": 76097,
+      "rainforest": 3191
+    },
+    "validVotes": 125558,
+    "invalidVotes": 702,
+    "totalVotes": 126260,
+    "receivedUnvoted": 2,
+    "issuedVotes": 126262,
+    "remainingVotes": 37952,
+    "eligibleVoters": 164214,
+    "voterTurnout": 76.88999938964844
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "精忠里",
+    "candidateVotes": {
+      "savannah": 1006,
+      "coast": 1701,
+      "rainforest": 83
+    },
+    "validVotes": 2790,
+    "invalidVotes": 10,
+    "totalVotes": 2800,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2800,
+    "remainingVotes": 882,
+    "eligibleVoters": 3682,
+    "voterTurnout": 76.05000305175781
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "東光里",
+    "candidateVotes": {
+      "savannah": 1643,
+      "coast": 2911,
+      "rainforest": 124
+    },
+    "validVotes": 4678,
+    "invalidVotes": 25,
+    "totalVotes": 4703,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4703,
+    "remainingVotes": 1424,
+    "eligibleVoters": 6127,
+    "voterTurnout": 76.76000213623047
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "龍田里",
+    "candidateVotes": {
+      "savannah": 1520,
+      "coast": 4755,
+      "rainforest": 182
+    },
+    "validVotes": 6457,
+    "invalidVotes": 28,
+    "totalVotes": 6485,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6485,
+    "remainingVotes": 1809,
+    "eligibleVoters": 8294,
+    "voterTurnout": 78.19000244140625
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "東昌里",
+    "candidateVotes": {
+      "savannah": 707,
+      "coast": 962,
+      "rainforest": 42
+    },
+    "validVotes": 1711,
+    "invalidVotes": 7,
+    "totalVotes": 1718,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1718,
+    "remainingVotes": 507,
+    "eligibleVoters": 2225,
+    "voterTurnout": 77.20999908447266
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "東勢里",
+    "candidateVotes": {
+      "savannah": 1119,
+      "coast": 1643,
+      "rainforest": 62
+    },
+    "validVotes": 2824,
+    "invalidVotes": 12,
+    "totalVotes": 2836,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2836,
+    "remainingVotes": 866,
+    "eligibleVoters": 3702,
+    "voterTurnout": 76.61000061035156
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "中華里",
+    "candidateVotes": {
+      "savannah": 1423,
+      "coast": 2492,
+      "rainforest": 100
+    },
+    "validVotes": 4015,
+    "invalidVotes": 22,
+    "totalVotes": 4037,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4037,
+    "remainingVotes": 1095,
+    "eligibleVoters": 5132,
+    "voterTurnout": 78.66000366210938
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "民有里",
+    "candidateVotes": {
+      "savannah": 2331,
+      "coast": 3134,
+      "rainforest": 137
+    },
+    "validVotes": 5602,
+    "invalidVotes": 33,
+    "totalVotes": 5635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5635,
+    "remainingVotes": 1652,
+    "eligibleVoters": 7287,
+    "voterTurnout": 77.33000183105469
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "民福里",
+    "candidateVotes": {
+      "savannah": 1365,
+      "coast": 2776,
+      "rainforest": 121
+    },
+    "validVotes": 4262,
+    "invalidVotes": 23,
+    "totalVotes": 4285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4285,
+    "remainingVotes": 1179,
+    "eligibleVoters": 5464,
+    "voterTurnout": 78.41999816894531
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "松基里",
+    "candidateVotes": {
+      "savannah": 1052,
+      "coast": 1318,
+      "rainforest": 61
+    },
+    "validVotes": 2431,
+    "invalidVotes": 14,
+    "totalVotes": 2445,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2445,
+    "remainingVotes": 724,
+    "eligibleVoters": 3169,
+    "voterTurnout": 77.1500015258789
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "莊敬里",
+    "candidateVotes": {
+      "savannah": 1308,
+      "coast": 2149,
+      "rainforest": 90
+    },
+    "validVotes": 3547,
+    "invalidVotes": 28,
+    "totalVotes": 3575,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3575,
+    "remainingVotes": 1062,
+    "eligibleVoters": 4637,
+    "voterTurnout": 77.0999984741211
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "東榮里",
+    "candidateVotes": {
+      "savannah": 1973,
+      "coast": 3079,
+      "rainforest": 105
+    },
+    "validVotes": 5157,
+    "invalidVotes": 27,
+    "totalVotes": 5184,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5184,
+    "remainingVotes": 1462,
+    "eligibleVoters": 6646,
+    "voterTurnout": 78
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "新益里",
+    "candidateVotes": {
+      "savannah": 1311,
+      "coast": 1780,
+      "rainforest": 70
+    },
+    "validVotes": 3161,
+    "invalidVotes": 15,
+    "totalVotes": 3176,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3176,
+    "remainingVotes": 812,
+    "eligibleVoters": 3988,
+    "voterTurnout": 79.63999938964844
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "新東里",
+    "candidateVotes": {
+      "savannah": 1262,
+      "coast": 1898,
+      "rainforest": 69
+    },
+    "validVotes": 3229,
+    "invalidVotes": 15,
+    "totalVotes": 3244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3244,
+    "remainingVotes": 898,
+    "eligibleVoters": 4142,
+    "voterTurnout": 78.31999969482422
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "介壽里",
+    "candidateVotes": {
+      "savannah": 1176,
+      "coast": 1658,
+      "rainforest": 58
+    },
+    "validVotes": 2892,
+    "invalidVotes": 10,
+    "totalVotes": 2902,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2902,
+    "remainingVotes": 835,
+    "eligibleVoters": 3737,
+    "voterTurnout": 77.66000366210938
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "三民里",
+    "candidateVotes": {
+      "savannah": 1555,
+      "coast": 2669,
+      "rainforest": 116
+    },
+    "validVotes": 4340,
+    "invalidVotes": 23,
+    "totalVotes": 4363,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4363,
+    "remainingVotes": 1409,
+    "eligibleVoters": 5772,
+    "voterTurnout": 75.58999633789062
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "富錦里",
+    "candidateVotes": {
+      "savannah": 1202,
+      "coast": 2064,
+      "rainforest": 83
+    },
+    "validVotes": 3349,
+    "invalidVotes": 17,
+    "totalVotes": 3366,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3366,
+    "remainingVotes": 1001,
+    "eligibleVoters": 4367,
+    "voterTurnout": 77.08000183105469
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "富泰里",
+    "candidateVotes": {
+      "savannah": 913,
+      "coast": 1985,
+      "rainforest": 82
+    },
+    "validVotes": 2980,
+    "invalidVotes": 15,
+    "totalVotes": 2995,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2995,
+    "remainingVotes": 904,
+    "eligibleVoters": 3899,
+    "voterTurnout": 76.80999755859375
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "自強里",
+    "candidateVotes": {
+      "savannah": 990,
+      "coast": 5101,
+      "rainforest": 175
+    },
+    "validVotes": 6266,
+    "invalidVotes": 47,
+    "totalVotes": 6313,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6313,
+    "remainingVotes": 1762,
+    "eligibleVoters": 8075,
+    "voterTurnout": 78.18000030517578
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "鵬程里",
+    "candidateVotes": {
+      "savannah": 1081,
+      "coast": 2532,
+      "rainforest": 102
+    },
+    "validVotes": 3715,
+    "invalidVotes": 26,
+    "totalVotes": 3741,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3741,
+    "remainingVotes": 1041,
+    "eligibleVoters": 4782,
+    "voterTurnout": 78.2300033569336
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "安平里",
+    "candidateVotes": {
+      "savannah": 2376,
+      "coast": 2829,
+      "rainforest": 138
+    },
+    "validVotes": 5343,
+    "invalidVotes": 44,
+    "totalVotes": 5387,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5387,
+    "remainingVotes": 1488,
+    "eligibleVoters": 6875,
+    "voterTurnout": 78.36000061035156
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "慈祐里",
+    "candidateVotes": {
+      "savannah": 1970,
+      "coast": 2087,
+      "rainforest": 127
+    },
+    "validVotes": 4184,
+    "invalidVotes": 19,
+    "totalVotes": 4203,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4203,
+    "remainingVotes": 2421,
+    "eligibleVoters": 6624,
+    "voterTurnout": 63.45000076293945
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "吉祥里",
+    "candidateVotes": {
+      "savannah": 2012,
+      "coast": 3240,
+      "rainforest": 130
+    },
+    "validVotes": 5382,
+    "invalidVotes": 22,
+    "totalVotes": 5404,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5404,
+    "remainingVotes": 1693,
+    "eligibleVoters": 7097,
+    "voterTurnout": 76.13999938964844
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "新聚里",
+    "candidateVotes": {
+      "savannah": 2083,
+      "coast": 2832,
+      "rainforest": 155
+    },
+    "validVotes": 5070,
+    "invalidVotes": 29,
+    "totalVotes": 5099,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5099,
+    "remainingVotes": 1533,
+    "eligibleVoters": 6632,
+    "voterTurnout": 76.87999725341797
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "復盛里",
+    "candidateVotes": {
+      "savannah": 1564,
+      "coast": 2579,
+      "rainforest": 126
+    },
+    "validVotes": 4269,
+    "invalidVotes": 26,
+    "totalVotes": 4295,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4295,
+    "remainingVotes": 1197,
+    "eligibleVoters": 5492,
+    "voterTurnout": 78.19999694824219
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "中正里",
+    "candidateVotes": {
+      "savannah": 2382,
+      "coast": 3160,
+      "rainforest": 132
+    },
+    "validVotes": 5674,
+    "invalidVotes": 42,
+    "totalVotes": 5716,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5716,
+    "remainingVotes": 1783,
+    "eligibleVoters": 7499,
+    "voterTurnout": 76.22000122070312
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "中崙里",
+    "candidateVotes": {
+      "savannah": 1016,
+      "coast": 1477,
+      "rainforest": 63
+    },
+    "validVotes": 2556,
+    "invalidVotes": 8,
+    "totalVotes": 2564,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2564,
+    "remainingVotes": 731,
+    "eligibleVoters": 3295,
+    "voterTurnout": 77.80999755859375
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "美仁里",
+    "candidateVotes": {
+      "savannah": 939,
+      "coast": 1152,
+      "rainforest": 39
+    },
+    "validVotes": 2130,
+    "invalidVotes": 8,
+    "totalVotes": 2138,
+    "receivedUnvoted": 2,
+    "issuedVotes": 2140,
+    "remainingVotes": 619,
+    "eligibleVoters": 2759,
+    "voterTurnout": 77.48999786376953
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "吉仁里",
+    "candidateVotes": {
+      "savannah": 982,
+      "coast": 1536,
+      "rainforest": 51
+    },
+    "validVotes": 2569,
+    "invalidVotes": 16,
+    "totalVotes": 2585,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2585,
+    "remainingVotes": 759,
+    "eligibleVoters": 3344,
+    "voterTurnout": 77.30000305175781
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "敦化里",
+    "candidateVotes": {
+      "savannah": 1896,
+      "coast": 2494,
+      "rainforest": 105
+    },
+    "validVotes": 4495,
+    "invalidVotes": 24,
+    "totalVotes": 4519,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4519,
+    "remainingVotes": 1285,
+    "eligibleVoters": 5804,
+    "voterTurnout": 77.86000061035156
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "復源里",
+    "candidateVotes": {
+      "savannah": 756,
+      "coast": 1247,
+      "rainforest": 52
+    },
+    "validVotes": 2055,
+    "invalidVotes": 11,
+    "totalVotes": 2066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2066,
+    "remainingVotes": 616,
+    "eligibleVoters": 2682,
+    "voterTurnout": 77.02999877929688
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "復建里",
+    "candidateVotes": {
+      "savannah": 970,
+      "coast": 1699,
+      "rainforest": 67
+    },
+    "validVotes": 2736,
+    "invalidVotes": 15,
+    "totalVotes": 2751,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2751,
+    "remainingVotes": 851,
+    "eligibleVoters": 3602,
+    "voterTurnout": 76.37000274658203
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "復勢里",
+    "candidateVotes": {
+      "savannah": 1702,
+      "coast": 2184,
+      "rainforest": 97
+    },
+    "validVotes": 3983,
+    "invalidVotes": 28,
+    "totalVotes": 4011,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4011,
+    "remainingVotes": 1110,
+    "eligibleVoters": 5121,
+    "voterTurnout": 78.31999969482422
+  },
+  {
+    "administrativeDivision": "松山區",
+    "village": "福成里",
+    "candidateVotes": {
+      "savannah": 685,
+      "coast": 974,
+      "rainforest": 47
+    },
+    "validVotes": 1706,
+    "invalidVotes": 13,
+    "totalVotes": 1719,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1719,
+    "remainingVotes": 542,
+    "eligibleVoters": 2261,
+    "voterTurnout": 76.02999877929688
+  }
+]

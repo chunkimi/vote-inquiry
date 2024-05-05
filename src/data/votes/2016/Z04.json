@@ -1,0 +1,36 @@
+[
+  {
+    "administrativeDivision": "東引鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 294,
+      "savannah": 82,
+      "rainforest": 120
+    },
+    "validVotes": 496,
+    "invalidVotes": 1,
+    "totalVotes": 497,
+    "receivedUnvoted": 0,
+    "issuedVotes": 497,
+    "remainingVotes": 541,
+    "eligibleVoters": 1038,
+    "voterTurnout": 47.880001068115234
+  },
+  {
+    "administrativeDivision": "東引鄉",
+    "village": "中柳村、樂華村",
+    "candidateVotes": {
+      "coast": 294,
+      "savannah": 82,
+      "rainforest": 120
+    },
+    "validVotes": 496,
+    "invalidVotes": 1,
+    "totalVotes": 497,
+    "receivedUnvoted": 0,
+    "issuedVotes": 497,
+    "remainingVotes": 541,
+    "eligibleVoters": 1038,
+    "voterTurnout": 47.880001068115234
+  }
+]

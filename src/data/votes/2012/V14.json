@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 209,
+      "coast": 1524,
+      "rainforest": 41
+    },
+    "validVotes": 1774,
+    "invalidVotes": 14,
+    "totalVotes": 1788,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1788,
+    "remainingVotes": 1424,
+    "eligibleVoters": 3212,
+    "voterTurnout": 55.66999816894531
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "安朔村",
+    "candidateVotes": {
+      "savannah": 68,
+      "coast": 294,
+      "rainforest": 9
+    },
+    "validVotes": 371,
+    "invalidVotes": 2,
+    "totalVotes": 373,
+    "receivedUnvoted": 0,
+    "issuedVotes": 373,
+    "remainingVotes": 303,
+    "eligibleVoters": 676,
+    "voterTurnout": 55.18000030517578
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "南田村",
+    "candidateVotes": {
+      "savannah": 21,
+      "coast": 166,
+      "rainforest": 5
+    },
+    "validVotes": 192,
+    "invalidVotes": 1,
+    "totalVotes": 193,
+    "receivedUnvoted": 0,
+    "issuedVotes": 193,
+    "remainingVotes": 171,
+    "eligibleVoters": 364,
+    "voterTurnout": 53.02000045776367
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "森永村",
+    "candidateVotes": {
+      "savannah": 53,
+      "coast": 164,
+      "rainforest": 7
+    },
+    "validVotes": 224,
+    "invalidVotes": 1,
+    "totalVotes": 225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 225,
+    "remainingVotes": 198,
+    "eligibleVoters": 423,
+    "voterTurnout": 53.189998626708984
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "新化村",
+    "candidateVotes": {
+      "savannah": 19,
+      "coast": 164,
+      "rainforest": 2
+    },
+    "validVotes": 185,
+    "invalidVotes": 2,
+    "totalVotes": 187,
+    "receivedUnvoted": 0,
+    "issuedVotes": 187,
+    "remainingVotes": 135,
+    "eligibleVoters": 322,
+    "voterTurnout": 58.06999969482422
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "台村",
+    "candidateVotes": {
+      "savannah": 30,
+      "coast": 334,
+      "rainforest": 11
+    },
+    "validVotes": 375,
+    "invalidVotes": 4,
+    "totalVotes": 379,
+    "receivedUnvoted": 0,
+    "issuedVotes": 379,
+    "remainingVotes": 237,
+    "eligibleVoters": 616,
+    "voterTurnout": 61.529998779296875
+  },
+  {
+    "administrativeDivision": "達仁鄉",
+    "village": "土村",
+    "candidateVotes": {
+      "savannah": 18,
+      "coast": 402,
+      "rainforest": 7
+    },
+    "validVotes": 427,
+    "invalidVotes": 4,
+    "totalVotes": 431,
+    "receivedUnvoted": 0,
+    "issuedVotes": 431,
+    "remainingVotes": 380,
+    "eligibleVoters": 811,
+    "voterTurnout": 53.13999938964844
+  }
+]

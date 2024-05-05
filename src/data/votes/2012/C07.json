@@ -1,0 +1,716 @@
+[
+  {
+    "administrativeDivision": "信義區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 50792,
+      "coast": 85314,
+      "rainforest": 3679
+    },
+    "validVotes": 139785,
+    "invalidVotes": 847,
+    "totalVotes": 140632,
+    "receivedUnvoted": 2,
+    "issuedVotes": 140634,
+    "remainingVotes": 43088,
+    "eligibleVoters": 183722,
+    "voterTurnout": 76.55000305175781
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "西村里",
+    "candidateVotes": {
+      "savannah": 648,
+      "coast": 2403,
+      "rainforest": 99
+    },
+    "validVotes": 3150,
+    "invalidVotes": 25,
+    "totalVotes": 3175,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3175,
+    "remainingVotes": 1932,
+    "eligibleVoters": 5107,
+    "voterTurnout": 62.16999816894531
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "正和里",
+    "candidateVotes": {
+      "savannah": 852,
+      "coast": 2047,
+      "rainforest": 78
+    },
+    "validVotes": 2977,
+    "invalidVotes": 21,
+    "totalVotes": 2998,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2998,
+    "remainingVotes": 869,
+    "eligibleVoters": 3867,
+    "voterTurnout": 77.52999877929688
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "興隆里",
+    "candidateVotes": {
+      "savannah": 583,
+      "coast": 1173,
+      "rainforest": 45
+    },
+    "validVotes": 1801,
+    "invalidVotes": 6,
+    "totalVotes": 1807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1807,
+    "remainingVotes": 683,
+    "eligibleVoters": 2490,
+    "voterTurnout": 72.56999969482422
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "中興里",
+    "candidateVotes": {
+      "savannah": 710,
+      "coast": 1249,
+      "rainforest": 55
+    },
+    "validVotes": 2014,
+    "invalidVotes": 14,
+    "totalVotes": 2028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2028,
+    "remainingVotes": 819,
+    "eligibleVoters": 2847,
+    "voterTurnout": 71.2300033569336
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "新仁里",
+    "candidateVotes": {
+      "savannah": 643,
+      "coast": 1499,
+      "rainforest": 63
+    },
+    "validVotes": 2205,
+    "invalidVotes": 14,
+    "totalVotes": 2219,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2219,
+    "remainingVotes": 688,
+    "eligibleVoters": 2907,
+    "voterTurnout": 76.33000183105469
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "興雅里",
+    "candidateVotes": {
+      "savannah": 1424,
+      "coast": 2247,
+      "rainforest": 113
+    },
+    "validVotes": 3784,
+    "invalidVotes": 25,
+    "totalVotes": 3809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3809,
+    "remainingVotes": 1107,
+    "eligibleVoters": 4916,
+    "voterTurnout": 77.4800033569336
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "敦厚里",
+    "candidateVotes": {
+      "savannah": 1209,
+      "coast": 1977,
+      "rainforest": 98
+    },
+    "validVotes": 3284,
+    "invalidVotes": 19,
+    "totalVotes": 3303,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3303,
+    "remainingVotes": 1028,
+    "eligibleVoters": 4331,
+    "voterTurnout": 76.26000213623047
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "廣居里",
+    "candidateVotes": {
+      "savannah": 1661,
+      "coast": 3168,
+      "rainforest": 110
+    },
+    "validVotes": 4939,
+    "invalidVotes": 14,
+    "totalVotes": 4953,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4953,
+    "remainingVotes": 1400,
+    "eligibleVoters": 6353,
+    "voterTurnout": 77.95999908447266
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "安康里",
+    "candidateVotes": {
+      "savannah": 2129,
+      "coast": 3812,
+      "rainforest": 167
+    },
+    "validVotes": 6108,
+    "invalidVotes": 22,
+    "totalVotes": 6130,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6130,
+    "remainingVotes": 1838,
+    "eligibleVoters": 7968,
+    "voterTurnout": 76.93000030517578
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "六藝里",
+    "candidateVotes": {
+      "savannah": 1074,
+      "coast": 1260,
+      "rainforest": 66
+    },
+    "validVotes": 2400,
+    "invalidVotes": 16,
+    "totalVotes": 2416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2416,
+    "remainingVotes": 657,
+    "eligibleVoters": 3073,
+    "voterTurnout": 78.62000274658203
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "雅祥里",
+    "candidateVotes": {
+      "savannah": 1366,
+      "coast": 1638,
+      "rainforest": 86
+    },
+    "validVotes": 3090,
+    "invalidVotes": 16,
+    "totalVotes": 3106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3106,
+    "remainingVotes": 986,
+    "eligibleVoters": 4092,
+    "voterTurnout": 75.9000015258789
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "五常里",
+    "candidateVotes": {
+      "savannah": 976,
+      "coast": 1379,
+      "rainforest": 55
+    },
+    "validVotes": 2410,
+    "invalidVotes": 22,
+    "totalVotes": 2432,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2432,
+    "remainingVotes": 702,
+    "eligibleVoters": 3134,
+    "voterTurnout": 77.5999984741211
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "五全里",
+    "candidateVotes": {
+      "savannah": 1543,
+      "coast": 1744,
+      "rainforest": 81
+    },
+    "validVotes": 3368,
+    "invalidVotes": 20,
+    "totalVotes": 3388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3388,
+    "remainingVotes": 910,
+    "eligibleVoters": 4298,
+    "voterTurnout": 78.83000183105469
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "永吉里",
+    "candidateVotes": {
+      "savannah": 1436,
+      "coast": 1217,
+      "rainforest": 52
+    },
+    "validVotes": 2705,
+    "invalidVotes": 17,
+    "totalVotes": 2722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2722,
+    "remainingVotes": 885,
+    "eligibleVoters": 3607,
+    "voterTurnout": 75.45999908447266
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "長春里",
+    "candidateVotes": {
+      "savannah": 1213,
+      "coast": 1481,
+      "rainforest": 88
+    },
+    "validVotes": 2782,
+    "invalidVotes": 15,
+    "totalVotes": 2797,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2797,
+    "remainingVotes": 829,
+    "eligibleVoters": 3626,
+    "voterTurnout": 77.13999938964844
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "四育里",
+    "candidateVotes": {
+      "savannah": 1650,
+      "coast": 1993,
+      "rainforest": 91
+    },
+    "validVotes": 3734,
+    "invalidVotes": 26,
+    "totalVotes": 3760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3760,
+    "remainingVotes": 1016,
+    "eligibleVoters": 4776,
+    "voterTurnout": 78.7300033569336
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "四維里",
+    "candidateVotes": {
+      "savannah": 1252,
+      "coast": 2119,
+      "rainforest": 106
+    },
+    "validVotes": 3477,
+    "invalidVotes": 21,
+    "totalVotes": 3498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3498,
+    "remainingVotes": 1073,
+    "eligibleVoters": 4571,
+    "voterTurnout": 76.52999877929688
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "永春里",
+    "candidateVotes": {
+      "savannah": 1418,
+      "coast": 1768,
+      "rainforest": 64
+    },
+    "validVotes": 3250,
+    "invalidVotes": 26,
+    "totalVotes": 3276,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3276,
+    "remainingVotes": 993,
+    "eligibleVoters": 4269,
+    "voterTurnout": 76.73999786376953
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "富台里",
+    "candidateVotes": {
+      "savannah": 745,
+      "coast": 1937,
+      "rainforest": 74
+    },
+    "validVotes": 2756,
+    "invalidVotes": 17,
+    "totalVotes": 2773,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2773,
+    "remainingVotes": 832,
+    "eligibleVoters": 3605,
+    "voterTurnout": 76.91999816894531
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "國業里",
+    "candidateVotes": {
+      "savannah": 1639,
+      "coast": 2915,
+      "rainforest": 130
+    },
+    "validVotes": 4684,
+    "invalidVotes": 26,
+    "totalVotes": 4710,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4710,
+    "remainingVotes": 1379,
+    "eligibleVoters": 6089,
+    "voterTurnout": 77.3499984741211
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "松隆里",
+    "candidateVotes": {
+      "savannah": 573,
+      "coast": 821,
+      "rainforest": 42
+    },
+    "validVotes": 1436,
+    "invalidVotes": 9,
+    "totalVotes": 1445,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1445,
+    "remainingVotes": 552,
+    "eligibleVoters": 1997,
+    "voterTurnout": 72.36000061035156
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "松友里",
+    "candidateVotes": {
+      "savannah": 1499,
+      "coast": 2636,
+      "rainforest": 120
+    },
+    "validVotes": 4255,
+    "invalidVotes": 29,
+    "totalVotes": 4284,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4284,
+    "remainingVotes": 1265,
+    "eligibleVoters": 5549,
+    "voterTurnout": 77.19999694824219
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "松光里",
+    "candidateVotes": {
+      "savannah": 1365,
+      "coast": 1831,
+      "rainforest": 88
+    },
+    "validVotes": 3284,
+    "invalidVotes": 18,
+    "totalVotes": 3302,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3302,
+    "remainingVotes": 985,
+    "eligibleVoters": 4287,
+    "voterTurnout": 77.0199966430664
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "中坡里",
+    "candidateVotes": {
+      "savannah": 1183,
+      "coast": 1787,
+      "rainforest": 79
+    },
+    "validVotes": 3049,
+    "invalidVotes": 17,
+    "totalVotes": 3066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3066,
+    "remainingVotes": 793,
+    "eligibleVoters": 3859,
+    "voterTurnout": 79.44999694824219
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "中行里",
+    "candidateVotes": {
+      "savannah": 2235,
+      "coast": 2842,
+      "rainforest": 113
+    },
+    "validVotes": 5190,
+    "invalidVotes": 20,
+    "totalVotes": 5210,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5210,
+    "remainingVotes": 1519,
+    "eligibleVoters": 6729,
+    "voterTurnout": 77.43000030517578
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "大道里",
+    "candidateVotes": {
+      "savannah": 1807,
+      "coast": 2318,
+      "rainforest": 94
+    },
+    "validVotes": 4219,
+    "invalidVotes": 25,
+    "totalVotes": 4244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4244,
+    "remainingVotes": 1153,
+    "eligibleVoters": 5397,
+    "voterTurnout": 78.63999938964844
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "大仁里",
+    "candidateVotes": {
+      "savannah": 1141,
+      "coast": 1521,
+      "rainforest": 61
+    },
+    "validVotes": 2723,
+    "invalidVotes": 17,
+    "totalVotes": 2740,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2740,
+    "remainingVotes": 863,
+    "eligibleVoters": 3603,
+    "voterTurnout": 76.05000305175781
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "景新里",
+    "candidateVotes": {
+      "savannah": 1047,
+      "coast": 2154,
+      "rainforest": 76
+    },
+    "validVotes": 3277,
+    "invalidVotes": 11,
+    "totalVotes": 3288,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3288,
+    "remainingVotes": 991,
+    "eligibleVoters": 4279,
+    "voterTurnout": 76.83999633789062
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "惠安里",
+    "candidateVotes": {
+      "savannah": 1362,
+      "coast": 2840,
+      "rainforest": 134
+    },
+    "validVotes": 4336,
+    "invalidVotes": 28,
+    "totalVotes": 4364,
+    "receivedUnvoted": 1,
+    "issuedVotes": 4365,
+    "remainingVotes": 1170,
+    "eligibleVoters": 5535,
+    "voterTurnout": 78.83999633789062
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "三張里",
+    "candidateVotes": {
+      "savannah": 1948,
+      "coast": 3812,
+      "rainforest": 163
+    },
+    "validVotes": 5923,
+    "invalidVotes": 41,
+    "totalVotes": 5964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5964,
+    "remainingVotes": 1682,
+    "eligibleVoters": 7646,
+    "voterTurnout": 78
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "三犁里",
+    "candidateVotes": {
+      "savannah": 1099,
+      "coast": 2138,
+      "rainforest": 83
+    },
+    "validVotes": 3320,
+    "invalidVotes": 16,
+    "totalVotes": 3336,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3336,
+    "remainingVotes": 1066,
+    "eligibleVoters": 4402,
+    "voterTurnout": 75.77999877929688
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "六合里",
+    "candidateVotes": {
+      "savannah": 1213,
+      "coast": 3039,
+      "rainforest": 124
+    },
+    "validVotes": 4376,
+    "invalidVotes": 38,
+    "totalVotes": 4414,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4414,
+    "remainingVotes": 1401,
+    "eligibleVoters": 5815,
+    "voterTurnout": 75.91000366210938
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "泰和里",
+    "candidateVotes": {
+      "savannah": 1703,
+      "coast": 3116,
+      "rainforest": 131
+    },
+    "validVotes": 4950,
+    "invalidVotes": 39,
+    "totalVotes": 4989,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4989,
+    "remainingVotes": 1746,
+    "eligibleVoters": 6735,
+    "voterTurnout": 74.08000183105469
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "景聯里",
+    "candidateVotes": {
+      "savannah": 1121,
+      "coast": 1850,
+      "rainforest": 102
+    },
+    "validVotes": 3073,
+    "invalidVotes": 18,
+    "totalVotes": 3091,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3091,
+    "remainingVotes": 903,
+    "eligibleVoters": 3994,
+    "voterTurnout": 77.38999938964844
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "景勤里",
+    "candidateVotes": {
+      "savannah": 907,
+      "coast": 1791,
+      "rainforest": 66
+    },
+    "validVotes": 2764,
+    "invalidVotes": 22,
+    "totalVotes": 2786,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2786,
+    "remainingVotes": 828,
+    "eligibleVoters": 3614,
+    "voterTurnout": 77.08999633789062
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "雙和里",
+    "candidateVotes": {
+      "savannah": 1496,
+      "coast": 3070,
+      "rainforest": 131
+    },
+    "validVotes": 4697,
+    "invalidVotes": 40,
+    "totalVotes": 4737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4737,
+    "remainingVotes": 1276,
+    "eligibleVoters": 6013,
+    "voterTurnout": 78.77999877929688
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "嘉興里",
+    "candidateVotes": {
+      "savannah": 845,
+      "coast": 1239,
+      "rainforest": 61
+    },
+    "validVotes": 2145,
+    "invalidVotes": 9,
+    "totalVotes": 2154,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2154,
+    "remainingVotes": 666,
+    "eligibleVoters": 2820,
+    "voterTurnout": 76.37999725341797
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "黎順里",
+    "candidateVotes": {
+      "savannah": 884,
+      "coast": 1625,
+      "rainforest": 57
+    },
+    "validVotes": 2566,
+    "invalidVotes": 15,
+    "totalVotes": 2581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2581,
+    "remainingVotes": 847,
+    "eligibleVoters": 3428,
+    "voterTurnout": 75.29000091552734
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "黎平里",
+    "candidateVotes": {
+      "savannah": 1668,
+      "coast": 2851,
+      "rainforest": 133
+    },
+    "validVotes": 4652,
+    "invalidVotes": 25,
+    "totalVotes": 4677,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4677,
+    "remainingVotes": 1348,
+    "eligibleVoters": 6025,
+    "voterTurnout": 77.62999725341797
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "黎忠里",
+    "candidateVotes": {
+      "savannah": 1163,
+      "coast": 1921,
+      "rainforest": 62
+    },
+    "validVotes": 3146,
+    "invalidVotes": 19,
+    "totalVotes": 3165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3165,
+    "remainingVotes": 941,
+    "eligibleVoters": 4106,
+    "voterTurnout": 77.08000183105469
+  },
+  {
+    "administrativeDivision": "信義區",
+    "village": "黎安里",
+    "candidateVotes": {
+      "savannah": 362,
+      "coast": 1086,
+      "rainforest": 38
+    },
+    "validVotes": 1486,
+    "invalidVotes": 9,
+    "totalVotes": 1495,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1496,
+    "remainingVotes": 467,
+    "eligibleVoters": 1963,
+    "voterTurnout": 76.16000366210938
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "administrativeDivision": "總計",
+    "candidateVotes": {
+      "savannah": 6093578,
+      "coast": 6891139,
+      "rainforest": 369588
+    },
+    "validVotes": 13354305,
+    "invalidVotes": 97711,
+    "totalVotes": 13452016,
+    "receivedUnvoted": 251,
+    "issuedVotes": 13452267,
+    "remainingVotes": 4634188,
+    "eligibleVoters": 18086455,
+    "voterTurnout": 70.65
+  },
+  {
+    "administrativeDivision": "臺北市",
+    "candidateVotes": {
+      "savannah": 634565,
+      "coast": 928717,
+      "rainforest": 41448
+    },
+    "validVotes": 1604730,
+    "invalidVotes": 9669,
+    "totalVotes": 1614399,
+    "receivedUnvoted": 58,
+    "issuedVotes": 1614457,
+    "remainingVotes": 488207,
+    "eligibleVoters": 2102664,
+    "voterTurnout": 76.77999877929688
+  },
+  {
+    "administrativeDivision": "新北市",
+    "candidateVotes": {
+      "savannah": 1007551,
+      "coast": 1245673,
+      "rainforest": 65269
+    },
+    "validVotes": 2318493,
+    "invalidVotes": 15215,
+    "totalVotes": 2333708,
+    "receivedUnvoted": 58,
+    "issuedVotes": 2333766,
+    "remainingVotes": 741083,
+    "eligibleVoters": 3074849,
+    "voterTurnout": 75.9000015258789
+  },
+  {
+    "administrativeDivision": "桃園縣",
+    "candidateVotes": {
+      "savannah": 445308,
+      "coast": 639151,
+      "rainforest": 32927
+    },
+    "validVotes": 1117386,
+    "invalidVotes": 7610,
+    "totalVotes": 1124996,
+    "receivedUnvoted": 12,
+    "issuedVotes": 1125008,
+    "remainingVotes": 381303,
+    "eligibleVoters": 1506311,
+    "voterTurnout": 74.69000244140625
+  },
+  {
+    "administrativeDivision": "臺中市",
+    "candidateVotes": {
+      "savannah": 678736,
+      "coast": 792334,
+      "rainforest": 48030
+    },
+    "validVotes": 1519100,
+    "invalidVotes": 9953,
+    "totalVotes": 1529053,
+    "receivedUnvoted": 23,
+    "issuedVotes": 1529076,
+    "remainingVotes": 489082,
+    "eligibleVoters": 2018158,
+    "voterTurnout": 75.76000213623047
+  },
+  {
+    "administrativeDivision": "臺南市",
+    "candidateVotes": {
+      "savannah": 631232,
+      "coast": 435274,
+      "rainforest": 27066
+    },
+    "validVotes": 1093572,
+    "invalidVotes": 8090,
+    "totalVotes": 1101662,
+    "receivedUnvoted": 19,
+    "issuedVotes": 1101681,
+    "remainingVotes": 383366,
+    "eligibleVoters": 1485047,
+    "voterTurnout": 74.18000030517578
+  },
+  {
+    "administrativeDivision": "高雄市",
+    "candidateVotes": {
+      "savannah": 883158,
+      "coast": 730461,
+      "rainforest": 39469
+    },
+    "validVotes": 1653088,
+    "invalidVotes": 10944,
+    "totalVotes": 1664032,
+    "receivedUnvoted": 19,
+    "issuedVotes": 1664051,
+    "remainingVotes": 527954,
+    "eligibleVoters": 2192005,
+    "voterTurnout": 75.91000366210938
+  },
+  {
+    "administrativeDivision": "新竹縣",
+    "candidateVotes": {
+      "savannah": 89741,
+      "coast": 190797,
+      "rainforest": 9599
+    },
+    "validVotes": 290137,
+    "invalidVotes": 2176,
+    "totalVotes": 292313,
+    "receivedUnvoted": 2,
+    "issuedVotes": 292315,
+    "remainingVotes": 91946,
+    "eligibleVoters": 384261,
+    "voterTurnout": 76.06999969482422
+  },
+  {
+    "administrativeDivision": "苗栗縣",
+    "candidateVotes": {
+      "savannah": 107164,
+      "coast": 206200,
+      "rainforest": 9597
+    },
+    "validVotes": 322961,
+    "invalidVotes": 2600,
+    "totalVotes": 325561,
+    "receivedUnvoted": 6,
+    "issuedVotes": 325567,
+    "remainingVotes": 110652,
+    "eligibleVoters": 436219,
+    "voterTurnout": 74.62999725341797
+  },
+  {
+    "administrativeDivision": "彰化縣",
+    "candidateVotes": {
+      "savannah": 340069,
+      "coast": 369968,
+      "rainforest": 21403
+    },
+    "validVotes": 731440,
+    "invalidVotes": 7367,
+    "totalVotes": 738807,
+    "receivedUnvoted": 6,
+    "issuedVotes": 738813,
+    "remainingVotes": 266901,
+    "eligibleVoters": 1005714,
+    "voterTurnout": 73.45999908447266
+  },
+  {
+    "administrativeDivision": "南投縣",
+    "candidateVotes": {
+      "savannah": 123077,
+      "coast": 158703,
+      "rainforest": 8726
+    },
+    "validVotes": 290506,
+    "invalidVotes": 2165,
+    "totalVotes": 292671,
+    "receivedUnvoted": 9,
+    "issuedVotes": 292680,
+    "remainingVotes": 118802,
+    "eligibleVoters": 411482,
+    "voterTurnout": 71.12999725341797
+  },
+  {
+    "administrativeDivision": "雲林縣",
+    "candidateVotes": {
+      "savannah": 214141,
+      "coast": 159891,
+      "rainforest": 9662
+    },
+    "validVotes": 383694,
+    "invalidVotes": 4348,
+    "totalVotes": 388042,
+    "receivedUnvoted": 4,
+    "issuedVotes": 388046,
+    "remainingVotes": 174988,
+    "eligibleVoters": 563034,
+    "voterTurnout": 68.91999816894531
+  },
+  {
+    "administrativeDivision": "嘉義縣",
+    "candidateVotes": {
+      "savannah": 181463,
+      "coast": 120946,
+      "rainforest": 7364
+    },
+    "validVotes": 309773,
+    "invalidVotes": 3052,
+    "totalVotes": 312825,
+    "receivedUnvoted": 6,
+    "issuedVotes": 312831,
+    "remainingVotes": 118757,
+    "eligibleVoters": 431588,
+    "voterTurnout": 72.4800033569336
+  },
+  {
+    "administrativeDivision": "屏東縣",
+    "candidateVotes": {
+      "savannah": 271722,
+      "coast": 211571,
+      "rainforest": 9562
+    },
+    "validVotes": 492855,
+    "invalidVotes": 4571,
+    "totalVotes": 497426,
+    "receivedUnvoted": 9,
+    "issuedVotes": 497435,
+    "remainingVotes": 187082,
+    "eligibleVoters": 684517,
+    "voterTurnout": 72.66999816894531
+  },
+  {
+    "administrativeDivision": "宜蘭縣",
+    "candidateVotes": {
+      "savannah": 135156,
+      "coast": 115496,
+      "rainforest": 6652
+    },
+    "validVotes": 257304,
+    "invalidVotes": 2437,
+    "totalVotes": 259741,
+    "receivedUnvoted": 3,
+    "issuedVotes": 259744,
+    "remainingVotes": 98315,
+    "eligibleVoters": 358059,
+    "voterTurnout": 72.54000091552734
+  },
+  {
+    "administrativeDivision": "花蓮縣",
+    "candidateVotes": {
+      "savannah": 43845,
+      "coast": 118815,
+      "rainforest": 6359
+    },
+    "validVotes": 169019,
+    "invalidVotes": 1570,
+    "totalVotes": 170589,
+    "receivedUnvoted": 1,
+    "issuedVotes": 170590,
+    "remainingVotes": 93298,
+    "eligibleVoters": 263888,
+    "voterTurnout": 64.63999938964844
+  },
+  {
+    "administrativeDivision": "臺東縣",
+    "candidateVotes": {
+      "savannah": 33417,
+      "coast": 72823,
+      "rainforest": 3313
+    },
+    "validVotes": 109553,
+    "invalidVotes": 1019,
+    "totalVotes": 110572,
+    "receivedUnvoted": 6,
+    "issuedVotes": 110578,
+    "remainingVotes": 68360,
+    "eligibleVoters": 178938,
+    "voterTurnout": 61.790000915527344
+  },
+  {
+    "administrativeDivision": "澎湖縣",
+    "candidateVotes": {
+      "savannah": 20717,
+      "coast": 22579,
+      "rainforest": 2082
+    },
+    "validVotes": 45378,
+    "invalidVotes": 543,
+    "totalVotes": 45921,
+    "receivedUnvoted": 0,
+    "issuedVotes": 45921,
+    "remainingVotes": 31896,
+    "eligibleVoters": 77817,
+    "voterTurnout": 59.0099983215332
+  },
+  {
+    "administrativeDivision": "基隆市",
+    "candidateVotes": {
+      "savannah": 79562,
+      "coast": 128294,
+      "rainforest": 8533
+    },
+    "validVotes": 216389,
+    "invalidVotes": 1414,
+    "totalVotes": 217803,
+    "receivedUnvoted": 3,
+    "issuedVotes": 217806,
+    "remainingVotes": 84333,
+    "eligibleVoters": 302139,
+    "voterTurnout": 72.08999633789062
+  },
+  {
+    "administrativeDivision": "新竹市",
+    "candidateVotes": {
+      "savannah": 92632,
+      "coast": 134728,
+      "rainforest": 7216
+    },
+    "validVotes": 234576,
+    "invalidVotes": 1628,
+    "totalVotes": 236204,
+    "receivedUnvoted": 7,
+    "issuedVotes": 236211,
+    "remainingVotes": 75907,
+    "eligibleVoters": 312118,
+    "voterTurnout": 75.68000030517578
+  },
+  {
+    "administrativeDivision": "嘉義市",
+    "candidateVotes": {
+      "savannah": 76711,
+      "coast": 69535,
+      "rainforest": 4042
+    },
+    "validVotes": 150288,
+    "invalidVotes": 973,
+    "totalVotes": 151261,
+    "receivedUnvoted": 0,
+    "issuedVotes": 151261,
+    "remainingVotes": 54450,
+    "eligibleVoters": 205711,
+    "voterTurnout": 73.52999877929688
+  },
+  {
+    "administrativeDivision": "金門縣",
+    "candidateVotes": {
+      "savannah": 3193,
+      "coast": 34676,
+      "rainforest": 990
+    },
+    "validVotes": 38859,
+    "invalidVotes": 316,
+    "totalVotes": 39175,
+    "receivedUnvoted": 0,
+    "issuedVotes": 39175,
+    "remainingVotes": 44774,
+    "eligibleVoters": 83949,
+    "voterTurnout": 46.66999816894531
+  },
+  {
+    "administrativeDivision": "連江縣",
+    "candidateVotes": {
+      "savannah": 418,
+      "coast": 4507,
+      "rainforest": 279
+    },
+    "validVotes": 5204,
+    "invalidVotes": 51,
+    "totalVotes": 5255,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5255,
+    "remainingVotes": 2732,
+    "eligibleVoters": 7987,
+    "voterTurnout": 65.79000091552734
+  }
+]

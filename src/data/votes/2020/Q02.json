@@ -1,0 +1,478 @@
+[
+  {
+    "administrativeDivision": "朴子市",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 823,
+      "coast": 7657,
+      "savannah": 16136
+    },
+    "validVotes": 24616,
+    "invalidVotes": 297,
+    "totalVotes": 24913,
+    "receivedUnvoted": 1,
+    "issuedVotes": 24914,
+    "remainingVotes": 9020,
+    "eligibleVoters": 33934,
+    "voterTurnout": 73.416
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "安福里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 503,
+      "savannah": 774
+    },
+    "validVotes": 1327,
+    "invalidVotes": 9,
+    "totalVotes": 1336,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1336,
+    "remainingVotes": 501,
+    "eligibleVoters": 1837,
+    "voterTurnout": 72.7273
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "平和里",
+    "candidateVotes": {
+      "rainforest": 66,
+      "coast": 634,
+      "savannah": 983
+    },
+    "validVotes": 1683,
+    "invalidVotes": 23,
+    "totalVotes": 1706,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1706,
+    "remainingVotes": 512,
+    "eligibleVoters": 2218,
+    "voterTurnout": 76.9161
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "內厝里",
+    "candidateVotes": {
+      "rainforest": 32,
+      "coast": 223,
+      "savannah": 560
+    },
+    "validVotes": 815,
+    "invalidVotes": 10,
+    "totalVotes": 825,
+    "receivedUnvoted": 0,
+    "issuedVotes": 825,
+    "remainingVotes": 251,
+    "eligibleVoters": 1076,
+    "voterTurnout": 76.6729
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "開元里",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 87,
+      "savannah": 207
+    },
+    "validVotes": 299,
+    "invalidVotes": 2,
+    "totalVotes": 301,
+    "receivedUnvoted": 0,
+    "issuedVotes": 301,
+    "remainingVotes": 83,
+    "eligibleVoters": 384,
+    "voterTurnout": 78.3854
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "順天里",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 154,
+      "savannah": 276
+    },
+    "validVotes": 447,
+    "invalidVotes": 6,
+    "totalVotes": 453,
+    "receivedUnvoted": 0,
+    "issuedVotes": 453,
+    "remainingVotes": 165,
+    "eligibleVoters": 618,
+    "voterTurnout": 73.301
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "中正里",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 165,
+      "savannah": 285
+    },
+    "validVotes": 466,
+    "invalidVotes": 10,
+    "totalVotes": 476,
+    "receivedUnvoted": 0,
+    "issuedVotes": 476,
+    "remainingVotes": 151,
+    "eligibleVoters": 627,
+    "voterTurnout": 75.9171
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "博厚里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 181,
+      "savannah": 406
+    },
+    "validVotes": 612,
+    "invalidVotes": 4,
+    "totalVotes": 616,
+    "receivedUnvoted": 0,
+    "issuedVotes": 616,
+    "remainingVotes": 168,
+    "eligibleVoters": 784,
+    "voterTurnout": 78.5714
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "文化里",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 414,
+      "savannah": 791
+    },
+    "validVotes": 1253,
+    "invalidVotes": 14,
+    "totalVotes": 1267,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1267,
+    "remainingVotes": 406,
+    "eligibleVoters": 1673,
+    "voterTurnout": 75.7322
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "永和里",
+    "candidateVotes": {
+      "rainforest": 56,
+      "coast": 533,
+      "savannah": 1166
+    },
+    "validVotes": 1755,
+    "invalidVotes": 16,
+    "totalVotes": 1771,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1771,
+    "remainingVotes": 648,
+    "eligibleVoters": 2419,
+    "voterTurnout": 73.2121
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "竹圍里",
+    "candidateVotes": {
+      "rainforest": 113,
+      "coast": 1044,
+      "savannah": 1898
+    },
+    "validVotes": 3055,
+    "invalidVotes": 27,
+    "totalVotes": 3082,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3082,
+    "remainingVotes": 951,
+    "eligibleVoters": 4033,
+    "voterTurnout": 76.4195
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "新寮里",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 156,
+      "savannah": 309
+    },
+    "validVotes": 473,
+    "invalidVotes": 9,
+    "totalVotes": 482,
+    "receivedUnvoted": 0,
+    "issuedVotes": 482,
+    "remainingVotes": 172,
+    "eligibleVoters": 654,
+    "voterTurnout": 73.7003
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "双溪里",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 122,
+      "savannah": 268
+    },
+    "validVotes": 398,
+    "invalidVotes": 4,
+    "totalVotes": 402,
+    "receivedUnvoted": 0,
+    "issuedVotes": 402,
+    "remainingVotes": 198,
+    "eligibleVoters": 600,
+    "voterTurnout": 67
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "溪口里",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 160,
+      "savannah": 369
+    },
+    "validVotes": 548,
+    "invalidVotes": 6,
+    "totalVotes": 554,
+    "receivedUnvoted": 0,
+    "issuedVotes": 554,
+    "remainingVotes": 219,
+    "eligibleVoters": 773,
+    "voterTurnout": 71.6688
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "德興里",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 158,
+      "savannah": 570
+    },
+    "validVotes": 743,
+    "invalidVotes": 7,
+    "totalVotes": 750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 750,
+    "remainingVotes": 241,
+    "eligibleVoters": 991,
+    "voterTurnout": 75.6811
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "仁和里",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 370,
+      "savannah": 791
+    },
+    "validVotes": 1220,
+    "invalidVotes": 13,
+    "totalVotes": 1233,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1233,
+    "remainingVotes": 402,
+    "eligibleVoters": 1635,
+    "voterTurnout": 75.4128
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "大鄉里",
+    "candidateVotes": {
+      "rainforest": 86,
+      "coast": 688,
+      "savannah": 1481
+    },
+    "validVotes": 2255,
+    "invalidVotes": 37,
+    "totalVotes": 2292,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2292,
+    "remainingVotes": 844,
+    "eligibleVoters": 3136,
+    "voterTurnout": 73.0867
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "大葛里",
+    "candidateVotes": {
+      "rainforest": 79,
+      "coast": 701,
+      "savannah": 1256
+    },
+    "validVotes": 2036,
+    "invalidVotes": 22,
+    "totalVotes": 2058,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2059,
+    "remainingVotes": 750,
+    "eligibleVoters": 2809,
+    "voterTurnout": 73.2645
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "佳禾里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 162,
+      "savannah": 314
+    },
+    "validVotes": 488,
+    "invalidVotes": 10,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 218,
+    "eligibleVoters": 716,
+    "voterTurnout": 69.5531
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "竹村里",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 230,
+      "savannah": 478
+    },
+    "validVotes": 732,
+    "invalidVotes": 12,
+    "totalVotes": 744,
+    "receivedUnvoted": 0,
+    "issuedVotes": 744,
+    "remainingVotes": 284,
+    "eligibleVoters": 1028,
+    "voterTurnout": 72.3735
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "崁前里",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 133,
+      "savannah": 413
+    },
+    "validVotes": 560,
+    "invalidVotes": 10,
+    "totalVotes": 570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 570,
+    "remainingVotes": 295,
+    "eligibleVoters": 865,
+    "voterTurnout": 65.896
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "崁後里",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 114,
+      "savannah": 344
+    },
+    "validVotes": 472,
+    "invalidVotes": 8,
+    "totalVotes": 480,
+    "receivedUnvoted": 0,
+    "issuedVotes": 480,
+    "remainingVotes": 222,
+    "eligibleVoters": 702,
+    "voterTurnout": 68.3761
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "順安里",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 47,
+      "savannah": 126
+    },
+    "validVotes": 179,
+    "invalidVotes": 0,
+    "totalVotes": 179,
+    "receivedUnvoted": 0,
+    "issuedVotes": 179,
+    "remainingVotes": 72,
+    "eligibleVoters": 251,
+    "voterTurnout": 71.3147
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "德家里",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 139,
+      "savannah": 357
+    },
+    "validVotes": 504,
+    "invalidVotes": 6,
+    "totalVotes": 510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 510,
+    "remainingVotes": 235,
+    "eligibleVoters": 745,
+    "voterTurnout": 68.4564
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "新庄里",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 152,
+      "savannah": 302
+    },
+    "validVotes": 468,
+    "invalidVotes": 5,
+    "totalVotes": 473,
+    "receivedUnvoted": 0,
+    "issuedVotes": 473,
+    "remainingVotes": 211,
+    "eligibleVoters": 684,
+    "voterTurnout": 69.152
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "梅華里",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 160,
+      "savannah": 542
+    },
+    "validVotes": 716,
+    "invalidVotes": 12,
+    "totalVotes": 728,
+    "receivedUnvoted": 0,
+    "issuedVotes": 728,
+    "remainingVotes": 283,
+    "eligibleVoters": 1011,
+    "voterTurnout": 72.0079
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "松華里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 163,
+      "savannah": 606
+    },
+    "validVotes": 781,
+    "invalidVotes": 9,
+    "totalVotes": 790,
+    "receivedUnvoted": 0,
+    "issuedVotes": 790,
+    "remainingVotes": 390,
+    "eligibleVoters": 1180,
+    "voterTurnout": 66.9492
+  },
+  {
+    "administrativeDivision": "朴子市",
+    "village": "南竹里",
+    "candidateVotes": {
+      "rainforest": 3,
+      "coast": 64,
+      "savannah": 264
+    },
+    "validVotes": 331,
+    "invalidVotes": 6,
+    "totalVotes": 337,
+    "receivedUnvoted": 0,
+    "issuedVotes": 337,
+    "remainingVotes": 148,
+    "eligibleVoters": 485,
+    "voterTurnout": 69.4845
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 209,
+      "coast": 4741,
+      "savannah": 2068
+    },
+    "validVotes": 7018,
+    "invalidVotes": 61,
+    "totalVotes": 7079,
+    "receivedUnvoted": 1,
+    "issuedVotes": 7080,
+    "remainingVotes": 3919,
+    "eligibleVoters": 10999,
+    "voterTurnout": 64.3604
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大華村",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 482,
+      "savannah": 329
+    },
+    "validVotes": 836,
+    "invalidVotes": 12,
+    "totalVotes": 848,
+    "receivedUnvoted": 0,
+    "issuedVotes": 848,
+    "remainingVotes": 405,
+    "eligibleVoters": 1253,
+    "voterTurnout": 67.6776
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大安村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 335,
+      "savannah": 234
+    },
+    "validVotes": 589,
+    "invalidVotes": 0,
+    "totalVotes": 589,
+    "receivedUnvoted": 1,
+    "issuedVotes": 590,
+    "remainingVotes": 234,
+    "eligibleVoters": 824,
+    "voterTurnout": 71.4806
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大平村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 411,
+      "savannah": 159
+    },
+    "validVotes": 584,
+    "invalidVotes": 6,
+    "totalVotes": 590,
+    "receivedUnvoted": 0,
+    "issuedVotes": 590,
+    "remainingVotes": 330,
+    "eligibleVoters": 920,
+    "voterTurnout": 64.1304
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大馬村",
+    "candidateVotes": {
+      "rainforest": 28,
+      "coast": 443,
+      "savannah": 125
+    },
+    "validVotes": 596,
+    "invalidVotes": 10,
+    "totalVotes": 606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 606,
+    "remainingVotes": 360,
+    "eligibleVoters": 966,
+    "voterTurnout": 62.7329
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大同村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 406,
+      "savannah": 224
+    },
+    "validVotes": 646,
+    "invalidVotes": 8,
+    "totalVotes": 654,
+    "receivedUnvoted": 0,
+    "issuedVotes": 654,
+    "remainingVotes": 345,
+    "eligibleVoters": 999,
+    "voterTurnout": 65.4655
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "東富村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 474,
+      "savannah": 102
+    },
+    "validVotes": 592,
+    "invalidVotes": 6,
+    "totalVotes": 598,
+    "receivedUnvoted": 0,
+    "issuedVotes": 598,
+    "remainingVotes": 378,
+    "eligibleVoters": 976,
+    "voterTurnout": 61.2705
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "西富村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 426,
+      "savannah": 147
+    },
+    "validVotes": 587,
+    "invalidVotes": 5,
+    "totalVotes": 592,
+    "receivedUnvoted": 0,
+    "issuedVotes": 592,
+    "remainingVotes": 340,
+    "eligibleVoters": 932,
+    "voterTurnout": 63.5193
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "南富村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 390,
+      "savannah": 128
+    },
+    "validVotes": 534,
+    "invalidVotes": 1,
+    "totalVotes": 535,
+    "receivedUnvoted": 0,
+    "issuedVotes": 535,
+    "remainingVotes": 297,
+    "eligibleVoters": 832,
+    "voterTurnout": 64.3029
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "北富村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 447,
+      "savannah": 114
+    },
+    "validVotes": 572,
+    "invalidVotes": 3,
+    "totalVotes": 575,
+    "receivedUnvoted": 0,
+    "issuedVotes": 575,
+    "remainingVotes": 317,
+    "eligibleVoters": 892,
+    "voterTurnout": 64.4619
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大進村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 200,
+      "savannah": 101
+    },
+    "validVotes": 309,
+    "invalidVotes": 2,
+    "totalVotes": 311,
+    "receivedUnvoted": 0,
+    "issuedVotes": 311,
+    "remainingVotes": 143,
+    "eligibleVoters": 454,
+    "voterTurnout": 68.5022
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大全村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 284,
+      "savannah": 165
+    },
+    "validVotes": 467,
+    "invalidVotes": 4,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 274,
+    "eligibleVoters": 745,
+    "voterTurnout": 63.2215
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大興村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 197,
+      "savannah": 62
+    },
+    "validVotes": 267,
+    "invalidVotes": 2,
+    "totalVotes": 269,
+    "receivedUnvoted": 0,
+    "issuedVotes": 269,
+    "remainingVotes": 189,
+    "eligibleVoters": 458,
+    "voterTurnout": 58.7336
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大富村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 99,
+      "savannah": 79
+    },
+    "validVotes": 188,
+    "invalidVotes": 0,
+    "totalVotes": 188,
+    "receivedUnvoted": 0,
+    "issuedVotes": 188,
+    "remainingVotes": 121,
+    "eligibleVoters": 309,
+    "voterTurnout": 60.8414
+  },
+  {
+    "administrativeDivision": "光復鄉",
+    "village": "大豐村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 147,
+      "savannah": 99
+    },
+    "validVotes": 251,
+    "invalidVotes": 2,
+    "totalVotes": 253,
+    "receivedUnvoted": 0,
+    "issuedVotes": 253,
+    "remainingVotes": 186,
+    "eligibleVoters": 439,
+    "voterTurnout": 57.631
+  }
+]

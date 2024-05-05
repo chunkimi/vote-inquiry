@@ -1,0 +1,410 @@
+[
+  {
+    "administrativeDivision": "七股區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1931,
+      "savannah": 9284,
+      "rainforest": 930
+    },
+    "validVotes": 12145,
+    "invalidVotes": 177,
+    "totalVotes": 12322,
+    "receivedUnvoted": 0,
+    "issuedVotes": 12322,
+    "remainingVotes": 7381,
+    "eligibleVoters": 19703,
+    "voterTurnout": 62.540000915527344
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "後港里",
+    "candidateVotes": {
+      "coast": 58,
+      "savannah": 270,
+      "rainforest": 45
+    },
+    "validVotes": 373,
+    "invalidVotes": 5,
+    "totalVotes": 378,
+    "receivedUnvoted": 0,
+    "issuedVotes": 378,
+    "remainingVotes": 182,
+    "eligibleVoters": 560,
+    "voterTurnout": 67.5
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "大潭里",
+    "candidateVotes": {
+      "coast": 68,
+      "savannah": 312,
+      "rainforest": 24
+    },
+    "validVotes": 404,
+    "invalidVotes": 9,
+    "totalVotes": 413,
+    "receivedUnvoted": 0,
+    "issuedVotes": 413,
+    "remainingVotes": 257,
+    "eligibleVoters": 670,
+    "voterTurnout": 61.63999938964844
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "城內里",
+    "candidateVotes": {
+      "coast": 46,
+      "savannah": 264,
+      "rainforest": 22
+    },
+    "validVotes": 332,
+    "invalidVotes": 5,
+    "totalVotes": 337,
+    "receivedUnvoted": 0,
+    "issuedVotes": 337,
+    "remainingVotes": 135,
+    "eligibleVoters": 472,
+    "voterTurnout": 71.4000015258789
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "篤加里",
+    "candidateVotes": {
+      "coast": 80,
+      "savannah": 374,
+      "rainforest": 29
+    },
+    "validVotes": 483,
+    "invalidVotes": 7,
+    "totalVotes": 490,
+    "receivedUnvoted": 0,
+    "issuedVotes": 490,
+    "remainingVotes": 305,
+    "eligibleVoters": 795,
+    "voterTurnout": 61.63999938964844
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "頂山里",
+    "candidateVotes": {
+      "coast": 81,
+      "savannah": 374,
+      "rainforest": 37
+    },
+    "validVotes": 492,
+    "invalidVotes": 9,
+    "totalVotes": 501,
+    "receivedUnvoted": 0,
+    "issuedVotes": 501,
+    "remainingVotes": 335,
+    "eligibleVoters": 836,
+    "voterTurnout": 59.93000030517578
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "西寮里",
+    "candidateVotes": {
+      "coast": 38,
+      "savannah": 213,
+      "rainforest": 25
+    },
+    "validVotes": 276,
+    "invalidVotes": 2,
+    "totalVotes": 278,
+    "receivedUnvoted": 0,
+    "issuedVotes": 278,
+    "remainingVotes": 198,
+    "eligibleVoters": 476,
+    "voterTurnout": 58.400001525878906
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "塩埕里",
+    "candidateVotes": {
+      "coast": 57,
+      "savannah": 160,
+      "rainforest": 11
+    },
+    "validVotes": 228,
+    "invalidVotes": 3,
+    "totalVotes": 231,
+    "receivedUnvoted": 0,
+    "issuedVotes": 231,
+    "remainingVotes": 166,
+    "eligibleVoters": 397,
+    "voterTurnout": 58.189998626708984
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "中寮里",
+    "candidateVotes": {
+      "coast": 99,
+      "savannah": 294,
+      "rainforest": 31
+    },
+    "validVotes": 424,
+    "invalidVotes": 6,
+    "totalVotes": 430,
+    "receivedUnvoted": 0,
+    "issuedVotes": 430,
+    "remainingVotes": 303,
+    "eligibleVoters": 733,
+    "voterTurnout": 58.65999984741211
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "龍山里",
+    "candidateVotes": {
+      "coast": 143,
+      "savannah": 829,
+      "rainforest": 69
+    },
+    "validVotes": 1041,
+    "invalidVotes": 13,
+    "totalVotes": 1054,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1054,
+    "remainingVotes": 615,
+    "eligibleVoters": 1669,
+    "voterTurnout": 63.150001525878906
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "溪南里",
+    "candidateVotes": {
+      "coast": 69,
+      "savannah": 139,
+      "rainforest": 25
+    },
+    "validVotes": 233,
+    "invalidVotes": 3,
+    "totalVotes": 236,
+    "receivedUnvoted": 0,
+    "issuedVotes": 236,
+    "remainingVotes": 115,
+    "eligibleVoters": 351,
+    "voterTurnout": 67.23999786376953
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "七股里",
+    "candidateVotes": {
+      "coast": 49,
+      "savannah": 524,
+      "rainforest": 38
+    },
+    "validVotes": 611,
+    "invalidVotes": 6,
+    "totalVotes": 617,
+    "receivedUnvoted": 0,
+    "issuedVotes": 617,
+    "remainingVotes": 280,
+    "eligibleVoters": 897,
+    "voterTurnout": 68.77999877929688
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "玉成里",
+    "candidateVotes": {
+      "coast": 90,
+      "savannah": 353,
+      "rainforest": 31
+    },
+    "validVotes": 474,
+    "invalidVotes": 11,
+    "totalVotes": 485,
+    "receivedUnvoted": 0,
+    "issuedVotes": 485,
+    "remainingVotes": 274,
+    "eligibleVoters": 759,
+    "voterTurnout": 63.900001525878906
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "大埕里",
+    "candidateVotes": {
+      "coast": 135,
+      "savannah": 725,
+      "rainforest": 87
+    },
+    "validVotes": 947,
+    "invalidVotes": 7,
+    "totalVotes": 954,
+    "receivedUnvoted": 0,
+    "issuedVotes": 954,
+    "remainingVotes": 651,
+    "eligibleVoters": 1605,
+    "voterTurnout": 59.439998626708984
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "大寮里",
+    "candidateVotes": {
+      "coast": 97,
+      "savannah": 462,
+      "rainforest": 46
+    },
+    "validVotes": 605,
+    "invalidVotes": 6,
+    "totalVotes": 611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 611,
+    "remainingVotes": 323,
+    "eligibleVoters": 934,
+    "voterTurnout": 65.41999816894531
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "看坪里",
+    "candidateVotes": {
+      "coast": 50,
+      "savannah": 355,
+      "rainforest": 22
+    },
+    "validVotes": 427,
+    "invalidVotes": 10,
+    "totalVotes": 437,
+    "receivedUnvoted": 0,
+    "issuedVotes": 437,
+    "remainingVotes": 250,
+    "eligibleVoters": 687,
+    "voterTurnout": 63.61000061035156
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "樹林里",
+    "candidateVotes": {
+      "coast": 91,
+      "savannah": 561,
+      "rainforest": 53
+    },
+    "validVotes": 705,
+    "invalidVotes": 11,
+    "totalVotes": 716,
+    "receivedUnvoted": 0,
+    "issuedVotes": 716,
+    "remainingVotes": 406,
+    "eligibleVoters": 1122,
+    "voterTurnout": 63.810001373291016
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "竹港里",
+    "candidateVotes": {
+      "coast": 65,
+      "savannah": 323,
+      "rainforest": 40
+    },
+    "validVotes": 428,
+    "invalidVotes": 3,
+    "totalVotes": 431,
+    "receivedUnvoted": 0,
+    "issuedVotes": 431,
+    "remainingVotes": 193,
+    "eligibleVoters": 624,
+    "voterTurnout": 69.06999969482422
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "竹橋里",
+    "candidateVotes": {
+      "coast": 66,
+      "savannah": 326,
+      "rainforest": 26
+    },
+    "validVotes": 418,
+    "invalidVotes": 5,
+    "totalVotes": 423,
+    "receivedUnvoted": 0,
+    "issuedVotes": 423,
+    "remainingVotes": 223,
+    "eligibleVoters": 646,
+    "voterTurnout": 65.4800033569336
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "義合里",
+    "candidateVotes": {
+      "coast": 132,
+      "savannah": 495,
+      "rainforest": 58
+    },
+    "validVotes": 685,
+    "invalidVotes": 10,
+    "totalVotes": 695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 695,
+    "remainingVotes": 393,
+    "eligibleVoters": 1088,
+    "voterTurnout": 63.880001068115234
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "槺榔里",
+    "candidateVotes": {
+      "coast": 64,
+      "savannah": 337,
+      "rainforest": 37
+    },
+    "validVotes": 438,
+    "invalidVotes": 9,
+    "totalVotes": 447,
+    "receivedUnvoted": 0,
+    "issuedVotes": 447,
+    "remainingVotes": 247,
+    "eligibleVoters": 694,
+    "voterTurnout": 64.41000366210938
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "永吉里",
+    "candidateVotes": {
+      "coast": 89,
+      "savannah": 430,
+      "rainforest": 55
+    },
+    "validVotes": 574,
+    "invalidVotes": 10,
+    "totalVotes": 584,
+    "receivedUnvoted": 0,
+    "issuedVotes": 584,
+    "remainingVotes": 372,
+    "eligibleVoters": 956,
+    "voterTurnout": 61.09000015258789
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "三股里",
+    "candidateVotes": {
+      "coast": 123,
+      "savannah": 608,
+      "rainforest": 66
+    },
+    "validVotes": 797,
+    "invalidVotes": 15,
+    "totalVotes": 812,
+    "receivedUnvoted": 0,
+    "issuedVotes": 812,
+    "remainingVotes": 574,
+    "eligibleVoters": 1386,
+    "voterTurnout": 58.59000015258789
+  },
+  {
+    "administrativeDivision": "七股區",
+    "village": "十份里",
+    "candidateVotes": {
+      "coast": 141,
+      "savannah": 556,
+      "rainforest": 53
+    },
+    "validVotes": 750,
+    "invalidVotes": 12,
+    "totalVotes": 762,
+    "receivedUnvoted": 0,
+    "issuedVotes": 762,
+    "remainingVotes": 584,
+    "eligibleVoters": 1346,
+    "voterTurnout": 56.61000061035156
+  }
+]

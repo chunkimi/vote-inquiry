@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 149,
+      "coast": 2213,
+      "savannah": 1768
+    },
+    "validVotes": 4130,
+    "invalidVotes": 37,
+    "totalVotes": 4167,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4167,
+    "remainingVotes": 2777,
+    "eligibleVoters": 6944,
+    "voterTurnout": 60.0086
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "福原村",
+    "candidateVotes": {
+      "rainforest": 42,
+      "coast": 632,
+      "savannah": 564
+    },
+    "validVotes": 1238,
+    "invalidVotes": 9,
+    "totalVotes": 1247,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1247,
+    "remainingVotes": 606,
+    "eligibleVoters": 1853,
+    "voterTurnout": 67.2963
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "福文村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 332,
+      "savannah": 263
+    },
+    "validVotes": 621,
+    "invalidVotes": 5,
+    "totalVotes": 626,
+    "receivedUnvoted": 0,
+    "issuedVotes": 626,
+    "remainingVotes": 465,
+    "eligibleVoters": 1091,
+    "voterTurnout": 57.3786
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "慶豐村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 201,
+      "savannah": 147
+    },
+    "validVotes": 360,
+    "invalidVotes": 5,
+    "totalVotes": 365,
+    "receivedUnvoted": 0,
+    "issuedVotes": 365,
+    "remainingVotes": 266,
+    "eligibleVoters": 631,
+    "voterTurnout": 57.8447
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "大坡村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 94,
+      "savannah": 51
+    },
+    "validVotes": 152,
+    "invalidVotes": 4,
+    "totalVotes": 156,
+    "receivedUnvoted": 0,
+    "issuedVotes": 156,
+    "remainingVotes": 165,
+    "eligibleVoters": 321,
+    "voterTurnout": 48.5981
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "大埔村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 272,
+      "savannah": 155
+    },
+    "validVotes": 444,
+    "invalidVotes": 6,
+    "totalVotes": 450,
+    "receivedUnvoted": 0,
+    "issuedVotes": 450,
+    "remainingVotes": 319,
+    "eligibleVoters": 769,
+    "voterTurnout": 58.5176
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "新興村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 259,
+      "savannah": 222
+    },
+    "validVotes": 499,
+    "invalidVotes": 4,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 318,
+    "eligibleVoters": 821,
+    "voterTurnout": 61.2667
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "錦園村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 84,
+      "savannah": 116
+    },
+    "validVotes": 208,
+    "invalidVotes": 2,
+    "totalVotes": 210,
+    "receivedUnvoted": 0,
+    "issuedVotes": 210,
+    "remainingVotes": 133,
+    "eligibleVoters": 343,
+    "voterTurnout": 61.2245
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "萬安村",
+    "candidateVotes": {
+      "rainforest": 3,
+      "coast": 80,
+      "savannah": 110
+    },
+    "validVotes": 193,
+    "invalidVotes": 1,
+    "totalVotes": 194,
+    "receivedUnvoted": 0,
+    "issuedVotes": 194,
+    "remainingVotes": 109,
+    "eligibleVoters": 303,
+    "voterTurnout": 64.0264
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "富興村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 132,
+      "savannah": 81
+    },
+    "validVotes": 224,
+    "invalidVotes": 0,
+    "totalVotes": 224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 224,
+    "remainingVotes": 161,
+    "eligibleVoters": 385,
+    "voterTurnout": 58.1818
+  },
+  {
+    "administrativeDivision": "池上鄉",
+    "village": "振興村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 127,
+      "savannah": 59
+    },
+    "validVotes": 191,
+    "invalidVotes": 1,
+    "totalVotes": 192,
+    "receivedUnvoted": 0,
+    "issuedVotes": 192,
+    "remainingVotes": 235,
+    "eligibleVoters": 427,
+    "voterTurnout": 44.9649
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 2753,
+      "coast": 5428,
+      "rainforest": 312
+    },
+    "validVotes": 8493,
+    "invalidVotes": 66,
+    "totalVotes": 8559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8559,
+    "remainingVotes": 2646,
+    "eligibleVoters": 11205,
+    "voterTurnout": 76.38999938964844
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "雙溪村",
+    "candidateVotes": {
+      "savannah": 411,
+      "coast": 1033,
+      "rainforest": 69
+    },
+    "validVotes": 1513,
+    "invalidVotes": 8,
+    "totalVotes": 1521,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1521,
+    "remainingVotes": 486,
+    "eligibleVoters": 2007,
+    "voterTurnout": 75.77999877929688
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "雙新村",
+    "candidateVotes": {
+      "savannah": 549,
+      "coast": 1068,
+      "rainforest": 63
+    },
+    "validVotes": 1680,
+    "invalidVotes": 15,
+    "totalVotes": 1695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1695,
+    "remainingVotes": 590,
+    "eligibleVoters": 2285,
+    "voterTurnout": 74.18000030517578
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "大崎村",
+    "candidateVotes": {
+      "savannah": 353,
+      "coast": 794,
+      "rainforest": 45
+    },
+    "validVotes": 1192,
+    "invalidVotes": 5,
+    "totalVotes": 1197,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1197,
+    "remainingVotes": 344,
+    "eligibleVoters": 1541,
+    "voterTurnout": 77.68000030517578
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "三峰村",
+    "candidateVotes": {
+      "savannah": 247,
+      "coast": 449,
+      "rainforest": 19
+    },
+    "validVotes": 715,
+    "invalidVotes": 8,
+    "totalVotes": 723,
+    "receivedUnvoted": 0,
+    "issuedVotes": 723,
+    "remainingVotes": 274,
+    "eligibleVoters": 997,
+    "voterTurnout": 72.5199966430664
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "新城村",
+    "candidateVotes": {
+      "savannah": 316,
+      "coast": 507,
+      "rainforest": 35
+    },
+    "validVotes": 858,
+    "invalidVotes": 7,
+    "totalVotes": 865,
+    "receivedUnvoted": 0,
+    "issuedVotes": 865,
+    "remainingVotes": 278,
+    "eligibleVoters": 1143,
+    "voterTurnout": 75.68000030517578
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "寶斗村",
+    "candidateVotes": {
+      "savannah": 202,
+      "coast": 290,
+      "rainforest": 23
+    },
+    "validVotes": 515,
+    "invalidVotes": 4,
+    "totalVotes": 519,
+    "receivedUnvoted": 0,
+    "issuedVotes": 519,
+    "remainingVotes": 146,
+    "eligibleVoters": 665,
+    "voterTurnout": 78.05000305175781
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "深井村",
+    "candidateVotes": {
+      "savannah": 202,
+      "coast": 354,
+      "rainforest": 16
+    },
+    "validVotes": 572,
+    "invalidVotes": 4,
+    "totalVotes": 576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 576,
+    "remainingVotes": 152,
+    "eligibleVoters": 728,
+    "voterTurnout": 79.12000274658203
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "寶山村",
+    "candidateVotes": {
+      "savannah": 160,
+      "coast": 407,
+      "rainforest": 18
+    },
+    "validVotes": 585,
+    "invalidVotes": 6,
+    "totalVotes": 591,
+    "receivedUnvoted": 0,
+    "issuedVotes": 591,
+    "remainingVotes": 148,
+    "eligibleVoters": 739,
+    "voterTurnout": 79.97000122070312
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "油田村",
+    "candidateVotes": {
+      "savannah": 188,
+      "coast": 275,
+      "rainforest": 11
+    },
+    "validVotes": 474,
+    "invalidVotes": 6,
+    "totalVotes": 480,
+    "receivedUnvoted": 0,
+    "issuedVotes": 480,
+    "remainingVotes": 115,
+    "eligibleVoters": 595,
+    "voterTurnout": 80.66999816894531
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "山湖村",
+    "candidateVotes": {
+      "savannah": 125,
+      "coast": 251,
+      "rainforest": 13
+    },
+    "validVotes": 389,
+    "invalidVotes": 3,
+    "totalVotes": 392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 392,
+    "remainingVotes": 113,
+    "eligibleVoters": 505,
+    "voterTurnout": 77.62000274658203
+  }
+]

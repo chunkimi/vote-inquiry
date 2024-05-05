@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1588,
+      "savannah": 4875,
+      "rainforest": 608
+    },
+    "validVotes": 7071,
+    "invalidVotes": 62,
+    "totalVotes": 7133,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7133,
+    "remainingVotes": 2602,
+    "eligibleVoters": 9735,
+    "voterTurnout": 73.2699966430664
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "新田村",
+    "candidateVotes": {
+      "coast": 348,
+      "savannah": 1031,
+      "rainforest": 119
+    },
+    "validVotes": 1498,
+    "invalidVotes": 16,
+    "totalVotes": 1514,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1514,
+    "remainingVotes": 549,
+    "eligibleVoters": 2063,
+    "voterTurnout": 73.38999938964844
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "麟頂村",
+    "candidateVotes": {
+      "coast": 174,
+      "savannah": 448,
+      "rainforest": 65
+    },
+    "validVotes": 687,
+    "invalidVotes": 8,
+    "totalVotes": 695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 695,
+    "remainingVotes": 228,
+    "eligibleVoters": 923,
+    "voterTurnout": 75.30000305175781
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "麟蹄村",
+    "candidateVotes": {
+      "coast": 231,
+      "savannah": 800,
+      "rainforest": 90
+    },
+    "validVotes": 1121,
+    "invalidVotes": 9,
+    "totalVotes": 1130,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1130,
+    "remainingVotes": 437,
+    "eligibleVoters": 1567,
+    "voterTurnout": 72.11000061035156
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "麟趾村",
+    "candidateVotes": {
+      "coast": 386,
+      "savannah": 1223,
+      "rainforest": 167
+    },
+    "validVotes": 1776,
+    "invalidVotes": 13,
+    "totalVotes": 1789,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1789,
+    "remainingVotes": 681,
+    "eligibleVoters": 2470,
+    "voterTurnout": 72.43000030517578
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "田中村",
+    "candidateVotes": {
+      "coast": 198,
+      "savannah": 608,
+      "rainforest": 78
+    },
+    "validVotes": 884,
+    "invalidVotes": 7,
+    "totalVotes": 891,
+    "receivedUnvoted": 0,
+    "issuedVotes": 891,
+    "remainingVotes": 306,
+    "eligibleVoters": 1197,
+    "voterTurnout": 74.44000244140625
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "田心村",
+    "candidateVotes": {
+      "coast": 153,
+      "savannah": 406,
+      "rainforest": 47
+    },
+    "validVotes": 606,
+    "invalidVotes": 5,
+    "totalVotes": 611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 611,
+    "remainingVotes": 230,
+    "eligibleVoters": 841,
+    "voterTurnout": 72.6500015258789
+  },
+  {
+    "administrativeDivision": "麟洛鄉",
+    "village": "田道村",
+    "candidateVotes": {
+      "coast": 98,
+      "savannah": 359,
+      "rainforest": 42
+    },
+    "validVotes": 499,
+    "invalidVotes": 4,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 171,
+    "eligibleVoters": 674,
+    "voterTurnout": 74.62999725341797
+  }
+]

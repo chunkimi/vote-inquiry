@@ -1,0 +1,70 @@
+[
+  {
+    "administrativeDivision": "綠島鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 223,
+      "coast": 1099,
+      "rainforest": 57
+    },
+    "validVotes": 1379,
+    "invalidVotes": 7,
+    "totalVotes": 1386,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1386,
+    "remainingVotes": 1364,
+    "eligibleVoters": 2750,
+    "voterTurnout": 50.400001525878906
+  },
+  {
+    "administrativeDivision": "綠島鄉",
+    "village": "南寮村",
+    "candidateVotes": {
+      "savannah": 85,
+      "coast": 446,
+      "rainforest": 14
+    },
+    "validVotes": 545,
+    "invalidVotes": 2,
+    "totalVotes": 547,
+    "receivedUnvoted": 0,
+    "issuedVotes": 547,
+    "remainingVotes": 550,
+    "eligibleVoters": 1097,
+    "voterTurnout": 49.86000061035156
+  },
+  {
+    "administrativeDivision": "綠島鄉",
+    "village": "中寮村",
+    "candidateVotes": {
+      "savannah": 87,
+      "coast": 338,
+      "rainforest": 27
+    },
+    "validVotes": 452,
+    "invalidVotes": 3,
+    "totalVotes": 455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 455,
+    "remainingVotes": 529,
+    "eligibleVoters": 984,
+    "voterTurnout": 46.2400016784668
+  },
+  {
+    "administrativeDivision": "綠島鄉",
+    "village": "公村",
+    "candidateVotes": {
+      "savannah": 51,
+      "coast": 315,
+      "rainforest": 16
+    },
+    "validVotes": 382,
+    "invalidVotes": 2,
+    "totalVotes": 384,
+    "receivedUnvoted": 0,
+    "issuedVotes": 384,
+    "remainingVotes": 285,
+    "eligibleVoters": 669,
+    "voterTurnout": 57.400001525878906
+  }
+]

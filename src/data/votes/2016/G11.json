@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1155,
+      "savannah": 625,
+      "rainforest": 1068
+    },
+    "validVotes": 2848,
+    "invalidVotes": 31,
+    "totalVotes": 2879,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2879,
+    "remainingVotes": 1656,
+    "eligibleVoters": 4535,
+    "voterTurnout": 63.47999954223633
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "寒溪村",
+    "candidateVotes": {
+      "coast": 244,
+      "savannah": 69,
+      "rainforest": 232
+    },
+    "validVotes": 545,
+    "invalidVotes": 8,
+    "totalVotes": 553,
+    "receivedUnvoted": 0,
+    "issuedVotes": 553,
+    "remainingVotes": 276,
+    "eligibleVoters": 829,
+    "voterTurnout": 66.70999908447266
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "崙埤村",
+    "candidateVotes": {
+      "coast": 159,
+      "savannah": 46,
+      "rainforest": 146
+    },
+    "validVotes": 351,
+    "invalidVotes": 5,
+    "totalVotes": 356,
+    "receivedUnvoted": 0,
+    "issuedVotes": 356,
+    "remainingVotes": 183,
+    "eligibleVoters": 539,
+    "voterTurnout": 66.05000305175781
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "松羅村",
+    "candidateVotes": {
+      "coast": 128,
+      "savannah": 121,
+      "rainforest": 119
+    },
+    "validVotes": 368,
+    "invalidVotes": 4,
+    "totalVotes": 372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 372,
+    "remainingVotes": 255,
+    "eligibleVoters": 627,
+    "voterTurnout": 59.33000183105469
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "復興村",
+    "candidateVotes": {
+      "coast": 63,
+      "savannah": 72,
+      "rainforest": 36
+    },
+    "validVotes": 171,
+    "invalidVotes": 2,
+    "totalVotes": 173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 173,
+    "remainingVotes": 89,
+    "eligibleVoters": 262,
+    "voterTurnout": 66.02999877929688
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "英士村",
+    "candidateVotes": {
+      "coast": 71,
+      "savannah": 47,
+      "rainforest": 67
+    },
+    "validVotes": 185,
+    "invalidVotes": 5,
+    "totalVotes": 190,
+    "receivedUnvoted": 0,
+    "issuedVotes": 190,
+    "remainingVotes": 128,
+    "eligibleVoters": 318,
+    "voterTurnout": 59.75
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "樂水村",
+    "candidateVotes": {
+      "coast": 81,
+      "savannah": 39,
+      "rainforest": 117
+    },
+    "validVotes": 237,
+    "invalidVotes": 2,
+    "totalVotes": 239,
+    "receivedUnvoted": 0,
+    "issuedVotes": 239,
+    "remainingVotes": 134,
+    "eligibleVoters": 373,
+    "voterTurnout": 64.08000183105469
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "太平村",
+    "candidateVotes": {
+      "coast": 14,
+      "savannah": 22,
+      "rainforest": 7
+    },
+    "validVotes": 43,
+    "invalidVotes": 0,
+    "totalVotes": 43,
+    "receivedUnvoted": 0,
+    "issuedVotes": 43,
+    "remainingVotes": 38,
+    "eligibleVoters": 81,
+    "voterTurnout": 53.09000015258789
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "茂安村",
+    "candidateVotes": {
+      "coast": 58,
+      "savannah": 22,
+      "rainforest": 32
+    },
+    "validVotes": 112,
+    "invalidVotes": 2,
+    "totalVotes": 114,
+    "receivedUnvoted": 0,
+    "issuedVotes": 114,
+    "remainingVotes": 71,
+    "eligibleVoters": 185,
+    "voterTurnout": 61.619998931884766
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "四季村",
+    "candidateVotes": {
+      "coast": 224,
+      "savannah": 47,
+      "rainforest": 166
+    },
+    "validVotes": 437,
+    "invalidVotes": 0,
+    "totalVotes": 437,
+    "receivedUnvoted": 0,
+    "issuedVotes": 437,
+    "remainingVotes": 271,
+    "eligibleVoters": 708,
+    "voterTurnout": 61.720001220703125
+  },
+  {
+    "administrativeDivision": "大同鄉",
+    "village": "南山村",
+    "candidateVotes": {
+      "coast": 113,
+      "savannah": 140,
+      "rainforest": 146
+    },
+    "validVotes": 399,
+    "invalidVotes": 3,
+    "totalVotes": 402,
+    "receivedUnvoted": 0,
+    "issuedVotes": 402,
+    "remainingVotes": 211,
+    "eligibleVoters": 613,
+    "voterTurnout": 65.58000183105469
+  }
+]

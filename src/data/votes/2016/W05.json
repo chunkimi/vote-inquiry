@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2280,
+      "savannah": 375,
+      "rainforest": 457
+    },
+    "validVotes": 3112,
+    "invalidVotes": 56,
+    "totalVotes": 3168,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3168,
+    "remainingVotes": 7588,
+    "eligibleVoters": 10756,
+    "voterTurnout": 29.450000762939453
+  },
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "林湖村",
+    "candidateVotes": {
+      "coast": 685,
+      "savannah": 116,
+      "rainforest": 177
+    },
+    "validVotes": 978,
+    "invalidVotes": 19,
+    "totalVotes": 997,
+    "receivedUnvoted": 0,
+    "issuedVotes": 997,
+    "remainingVotes": 2187,
+    "eligibleVoters": 3184,
+    "voterTurnout": 31.309999465942383
+  },
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "黃埔村",
+    "candidateVotes": {
+      "coast": 313,
+      "savannah": 54,
+      "rainforest": 46
+    },
+    "validVotes": 413,
+    "invalidVotes": 6,
+    "totalVotes": 419,
+    "receivedUnvoted": 0,
+    "issuedVotes": 419,
+    "remainingVotes": 1020,
+    "eligibleVoters": 1439,
+    "voterTurnout": 29.1200008392334
+  },
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "西口村",
+    "candidateVotes": {
+      "coast": 412,
+      "savannah": 83,
+      "rainforest": 71
+    },
+    "validVotes": 566,
+    "invalidVotes": 12,
+    "totalVotes": 578,
+    "receivedUnvoted": 0,
+    "issuedVotes": 578,
+    "remainingVotes": 1662,
+    "eligibleVoters": 2240,
+    "voterTurnout": 25.799999237060547
+  },
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "上林村",
+    "candidateVotes": {
+      "coast": 274,
+      "savannah": 24,
+      "rainforest": 59
+    },
+    "validVotes": 357,
+    "invalidVotes": 3,
+    "totalVotes": 360,
+    "receivedUnvoted": 0,
+    "issuedVotes": 360,
+    "remainingVotes": 937,
+    "eligibleVoters": 1297,
+    "voterTurnout": 27.760000228881836
+  },
+  {
+    "administrativeDivision": "烈嶼鄉",
+    "village": "上岐村",
+    "candidateVotes": {
+      "coast": 596,
+      "savannah": 98,
+      "rainforest": 104
+    },
+    "validVotes": 798,
+    "invalidVotes": 16,
+    "totalVotes": 814,
+    "receivedUnvoted": 0,
+    "issuedVotes": 814,
+    "remainingVotes": 1782,
+    "eligibleVoters": 2596,
+    "voterTurnout": 31.360000610351562
+  }
+]

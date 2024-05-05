@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "烏來區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1156,
+      "savannah": 1295,
+      "rainforest": 586
+    },
+    "validVotes": 3037,
+    "invalidVotes": 45,
+    "totalVotes": 3082,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3082,
+    "remainingVotes": 1779,
+    "eligibleVoters": 4861,
+    "voterTurnout": 63.400001525878906
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "忠治里",
+    "candidateVotes": {
+      "coast": 380,
+      "savannah": 359,
+      "rainforest": 168
+    },
+    "validVotes": 907,
+    "invalidVotes": 17,
+    "totalVotes": 924,
+    "receivedUnvoted": 0,
+    "issuedVotes": 924,
+    "remainingVotes": 506,
+    "eligibleVoters": 1430,
+    "voterTurnout": 64.62000274658203
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "烏來里",
+    "candidateVotes": {
+      "coast": 484,
+      "savannah": 605,
+      "rainforest": 283
+    },
+    "validVotes": 1372,
+    "invalidVotes": 19,
+    "totalVotes": 1391,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1391,
+    "remainingVotes": 779,
+    "eligibleVoters": 2170,
+    "voterTurnout": 64.0999984741211
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "孝義里",
+    "candidateVotes": {
+      "coast": 40,
+      "savannah": 92,
+      "rainforest": 19
+    },
+    "validVotes": 151,
+    "invalidVotes": 2,
+    "totalVotes": 153,
+    "receivedUnvoted": 0,
+    "issuedVotes": 153,
+    "remainingVotes": 76,
+    "eligibleVoters": 229,
+    "voterTurnout": 66.80999755859375
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "信賢里",
+    "candidateVotes": {
+      "coast": 106,
+      "savannah": 156,
+      "rainforest": 40
+    },
+    "validVotes": 302,
+    "invalidVotes": 3,
+    "totalVotes": 305,
+    "receivedUnvoted": 0,
+    "issuedVotes": 305,
+    "remainingVotes": 182,
+    "eligibleVoters": 487,
+    "voterTurnout": 62.630001068115234
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "福山里",
+    "candidateVotes": {
+      "coast": 146,
+      "savannah": 83,
+      "rainforest": 76
+    },
+    "validVotes": 305,
+    "invalidVotes": 4,
+    "totalVotes": 309,
+    "receivedUnvoted": 0,
+    "issuedVotes": 309,
+    "remainingVotes": 236,
+    "eligibleVoters": 545,
+    "voterTurnout": 56.70000076293945
+  }
+]

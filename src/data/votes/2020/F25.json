@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "金山區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 465,
+      "coast": 4693,
+      "savannah": 7664
+    },
+    "validVotes": 12822,
+    "invalidVotes": 129,
+    "totalVotes": 12951,
+    "receivedUnvoted": 0,
+    "issuedVotes": 12951,
+    "remainingVotes": 5368,
+    "eligibleVoters": 18319,
+    "voterTurnout": 70.6971
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "和平里",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 160,
+      "savannah": 175
+    },
+    "validVotes": 350,
+    "invalidVotes": 6,
+    "totalVotes": 356,
+    "receivedUnvoted": 0,
+    "issuedVotes": 356,
+    "remainingVotes": 104,
+    "eligibleVoters": 460,
+    "voterTurnout": 77.3913
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "大同里",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 200,
+      "savannah": 245
+    },
+    "validVotes": 463,
+    "invalidVotes": 6,
+    "totalVotes": 469,
+    "receivedUnvoted": 0,
+    "issuedVotes": 469,
+    "remainingVotes": 229,
+    "eligibleVoters": 698,
+    "voterTurnout": 67.192
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "豐漁里",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 116,
+      "savannah": 208
+    },
+    "validVotes": 332,
+    "invalidVotes": 1,
+    "totalVotes": 333,
+    "receivedUnvoted": 0,
+    "issuedVotes": 333,
+    "remainingVotes": 159,
+    "eligibleVoters": 492,
+    "voterTurnout": 67.6829
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "磺港里",
+    "candidateVotes": {
+      "rainforest": 33,
+      "coast": 362,
+      "savannah": 777
+    },
+    "validVotes": 1172,
+    "invalidVotes": 10,
+    "totalVotes": 1182,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1182,
+    "remainingVotes": 530,
+    "eligibleVoters": 1712,
+    "voterTurnout": 69.0421
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "金美里",
+    "candidateVotes": {
+      "rainforest": 114,
+      "coast": 1243,
+      "savannah": 2015
+    },
+    "validVotes": 3372,
+    "invalidVotes": 23,
+    "totalVotes": 3395,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3395,
+    "remainingVotes": 1461,
+    "eligibleVoters": 4856,
+    "voterTurnout": 69.9135
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "五湖里",
+    "candidateVotes": {
+      "rainforest": 53,
+      "coast": 467,
+      "savannah": 691
+    },
+    "validVotes": 1211,
+    "invalidVotes": 19,
+    "totalVotes": 1230,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1230,
+    "remainingVotes": 415,
+    "eligibleVoters": 1645,
+    "voterTurnout": 74.772
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "美田里",
+    "candidateVotes": {
+      "rainforest": 106,
+      "coast": 954,
+      "savannah": 1518
+    },
+    "validVotes": 2578,
+    "invalidVotes": 19,
+    "totalVotes": 2597,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2597,
+    "remainingVotes": 1052,
+    "eligibleVoters": 3649,
+    "voterTurnout": 71.1702
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "重和里",
+    "candidateVotes": {
+      "rainforest": 32,
+      "coast": 284,
+      "savannah": 473
+    },
+    "validVotes": 789,
+    "invalidVotes": 12,
+    "totalVotes": 801,
+    "receivedUnvoted": 0,
+    "issuedVotes": 801,
+    "remainingVotes": 377,
+    "eligibleVoters": 1178,
+    "voterTurnout": 67.9966
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "兩湖里",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 95,
+      "savannah": 173
+    },
+    "validVotes": 283,
+    "invalidVotes": 2,
+    "totalVotes": 285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 285,
+    "remainingVotes": 92,
+    "eligibleVoters": 377,
+    "voterTurnout": 75.5968
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "六股里",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 162,
+      "savannah": 303
+    },
+    "validVotes": 472,
+    "invalidVotes": 5,
+    "totalVotes": 477,
+    "receivedUnvoted": 0,
+    "issuedVotes": 477,
+    "remainingVotes": 162,
+    "eligibleVoters": 639,
+    "voterTurnout": 74.6479
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "三界里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 139,
+      "savannah": 278
+    },
+    "validVotes": 437,
+    "invalidVotes": 6,
+    "totalVotes": 443,
+    "receivedUnvoted": 0,
+    "issuedVotes": 443,
+    "remainingVotes": 181,
+    "eligibleVoters": 624,
+    "voterTurnout": 70.9936
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "萬壽里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 93,
+      "savannah": 192
+    },
+    "validVotes": 297,
+    "invalidVotes": 5,
+    "totalVotes": 302,
+    "receivedUnvoted": 0,
+    "issuedVotes": 302,
+    "remainingVotes": 134,
+    "eligibleVoters": 436,
+    "voterTurnout": 69.2661
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "清泉里",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 215,
+      "savannah": 314
+    },
+    "validVotes": 545,
+    "invalidVotes": 13,
+    "totalVotes": 558,
+    "receivedUnvoted": 0,
+    "issuedVotes": 558,
+    "remainingVotes": 243,
+    "eligibleVoters": 801,
+    "voterTurnout": 69.6629
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "西湖里",
+    "candidateVotes": {
+      "rainforest": 2,
+      "coast": 58,
+      "savannah": 86
+    },
+    "validVotes": 146,
+    "invalidVotes": 1,
+    "totalVotes": 147,
+    "receivedUnvoted": 0,
+    "issuedVotes": 147,
+    "remainingVotes": 37,
+    "eligibleVoters": 184,
+    "voterTurnout": 79.8913
+  },
+  {
+    "administrativeDivision": "金山區",
+    "village": "永興里",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 145,
+      "savannah": 216
+    },
+    "validVotes": 375,
+    "invalidVotes": 1,
+    "totalVotes": 376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 376,
+    "remainingVotes": 192,
+    "eligibleVoters": 568,
+    "voterTurnout": 66.1972
+  }
+]

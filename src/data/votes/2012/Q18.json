@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 948,
+      "coast": 961,
+      "rainforest": 59
+    },
+    "validVotes": 1968,
+    "invalidVotes": 25,
+    "totalVotes": 1993,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1993,
+    "remainingVotes": 1686,
+    "eligibleVoters": 3679,
+    "voterTurnout": 54.16999816894531
+  },
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "大埔村",
+    "candidateVotes": {
+      "savannah": 376,
+      "coast": 284,
+      "rainforest": 15
+    },
+    "validVotes": 675,
+    "invalidVotes": 11,
+    "totalVotes": 686,
+    "receivedUnvoted": 0,
+    "issuedVotes": 686,
+    "remainingVotes": 591,
+    "eligibleVoters": 1277,
+    "voterTurnout": 53.720001220703125
+  },
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "和平村",
+    "candidateVotes": {
+      "savannah": 172,
+      "coast": 159,
+      "rainforest": 15
+    },
+    "validVotes": 346,
+    "invalidVotes": 3,
+    "totalVotes": 349,
+    "receivedUnvoted": 0,
+    "issuedVotes": 349,
+    "remainingVotes": 260,
+    "eligibleVoters": 609,
+    "voterTurnout": 57.310001373291016
+  },
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "永樂村",
+    "candidateVotes": {
+      "savannah": 94,
+      "coast": 137,
+      "rainforest": 7
+    },
+    "validVotes": 238,
+    "invalidVotes": 2,
+    "totalVotes": 240,
+    "receivedUnvoted": 0,
+    "issuedVotes": 240,
+    "remainingVotes": 155,
+    "eligibleVoters": 395,
+    "voterTurnout": 60.7599983215332
+  },
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "茄苳村",
+    "candidateVotes": {
+      "savannah": 168,
+      "coast": 224,
+      "rainforest": 14
+    },
+    "validVotes": 406,
+    "invalidVotes": 7,
+    "totalVotes": 413,
+    "receivedUnvoted": 0,
+    "issuedVotes": 413,
+    "remainingVotes": 438,
+    "eligibleVoters": 851,
+    "voterTurnout": 48.529998779296875
+  },
+  {
+    "administrativeDivision": "大埔鄉",
+    "village": "西興村",
+    "candidateVotes": {
+      "savannah": 138,
+      "coast": 157,
+      "rainforest": 8
+    },
+    "validVotes": 303,
+    "invalidVotes": 2,
+    "totalVotes": 305,
+    "receivedUnvoted": 0,
+    "issuedVotes": 305,
+    "remainingVotes": 242,
+    "eligibleVoters": 547,
+    "voterTurnout": 55.7599983215332
+  }
+]

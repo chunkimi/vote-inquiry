@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1379,
+      "savannah": 3712,
+      "rainforest": 517
+    },
+    "validVotes": 5608,
+    "invalidVotes": 68,
+    "totalVotes": 5676,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5676,
+    "remainingVotes": 3024,
+    "eligibleVoters": 8700,
+    "voterTurnout": 65.23999786376953
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "新埤村",
+    "candidateVotes": {
+      "coast": 333,
+      "savannah": 829,
+      "rainforest": 103
+    },
+    "validVotes": 1265,
+    "invalidVotes": 14,
+    "totalVotes": 1279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1279,
+    "remainingVotes": 687,
+    "eligibleVoters": 1966,
+    "voterTurnout": 65.05999755859375
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "建功村",
+    "candidateVotes": {
+      "coast": 182,
+      "savannah": 518,
+      "rainforest": 63
+    },
+    "validVotes": 763,
+    "invalidVotes": 8,
+    "totalVotes": 771,
+    "receivedUnvoted": 0,
+    "issuedVotes": 771,
+    "remainingVotes": 305,
+    "eligibleVoters": 1076,
+    "voterTurnout": 71.6500015258789
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "打鐵村",
+    "candidateVotes": {
+      "coast": 185,
+      "savannah": 420,
+      "rainforest": 45
+    },
+    "validVotes": 650,
+    "invalidVotes": 8,
+    "totalVotes": 658,
+    "receivedUnvoted": 0,
+    "issuedVotes": 658,
+    "remainingVotes": 291,
+    "eligibleVoters": 949,
+    "voterTurnout": 69.33999633789062
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "南豐村",
+    "candidateVotes": {
+      "coast": 131,
+      "savannah": 303,
+      "rainforest": 37
+    },
+    "validVotes": 471,
+    "invalidVotes": 4,
+    "totalVotes": 475,
+    "receivedUnvoted": 0,
+    "issuedVotes": 475,
+    "remainingVotes": 245,
+    "eligibleVoters": 720,
+    "voterTurnout": 65.97000122070312
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "萬隆村",
+    "candidateVotes": {
+      "coast": 276,
+      "savannah": 662,
+      "rainforest": 110
+    },
+    "validVotes": 1048,
+    "invalidVotes": 15,
+    "totalVotes": 1063,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1063,
+    "remainingVotes": 575,
+    "eligibleVoters": 1638,
+    "voterTurnout": 64.9000015258789
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "餉潭村",
+    "candidateVotes": {
+      "coast": 113,
+      "savannah": 579,
+      "rainforest": 85
+    },
+    "validVotes": 777,
+    "invalidVotes": 13,
+    "totalVotes": 790,
+    "receivedUnvoted": 0,
+    "issuedVotes": 790,
+    "remainingVotes": 489,
+    "eligibleVoters": 1279,
+    "voterTurnout": 61.77000045776367
+  },
+  {
+    "administrativeDivision": "新埤鄉",
+    "village": "箕湖村",
+    "candidateVotes": {
+      "coast": 159,
+      "savannah": 401,
+      "rainforest": 74
+    },
+    "validVotes": 634,
+    "invalidVotes": 6,
+    "totalVotes": 640,
+    "receivedUnvoted": 0,
+    "issuedVotes": 640,
+    "remainingVotes": 432,
+    "eligibleVoters": 1072,
+    "voterTurnout": 59.70000076293945
+  }
+]

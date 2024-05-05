@@ -1,0 +1,206 @@
+[
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 3088,
+      "savannah": 2636,
+      "rainforest": 1650
+    },
+    "validVotes": 7374,
+    "invalidVotes": 99,
+    "totalVotes": 7473,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7473,
+    "remainingVotes": 3800,
+    "eligibleVoters": 11273,
+    "voterTurnout": 66.29000091552734
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "橫山村",
+    "candidateVotes": {
+      "coast": 896,
+      "savannah": 754,
+      "rainforest": 453
+    },
+    "validVotes": 2103,
+    "invalidVotes": 26,
+    "totalVotes": 2129,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2129,
+    "remainingVotes": 1200,
+    "eligibleVoters": 3329,
+    "voterTurnout": 63.95000076293945
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "田寮村",
+    "candidateVotes": {
+      "coast": 196,
+      "savannah": 234,
+      "rainforest": 129
+    },
+    "validVotes": 559,
+    "invalidVotes": 9,
+    "totalVotes": 568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 568,
+    "remainingVotes": 295,
+    "eligibleVoters": 863,
+    "voterTurnout": 65.81999969482422
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "南昌村",
+    "candidateVotes": {
+      "coast": 41,
+      "savannah": 58,
+      "rainforest": 43
+    },
+    "validVotes": 142,
+    "invalidVotes": 2,
+    "totalVotes": 144,
+    "receivedUnvoted": 0,
+    "issuedVotes": 144,
+    "remainingVotes": 78,
+    "eligibleVoters": 222,
+    "voterTurnout": 64.86000061035156
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "豐鄉村",
+    "candidateVotes": {
+      "coast": 44,
+      "savannah": 64,
+      "rainforest": 35
+    },
+    "validVotes": 143,
+    "invalidVotes": 2,
+    "totalVotes": 145,
+    "receivedUnvoted": 0,
+    "issuedVotes": 145,
+    "remainingVotes": 93,
+    "eligibleVoters": 238,
+    "voterTurnout": 60.91999816894531
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "豐田村",
+    "candidateVotes": {
+      "coast": 100,
+      "savannah": 95,
+      "rainforest": 50
+    },
+    "validVotes": 245,
+    "invalidVotes": 2,
+    "totalVotes": 247,
+    "receivedUnvoted": 0,
+    "issuedVotes": 247,
+    "remainingVotes": 105,
+    "eligibleVoters": 352,
+    "voterTurnout": 70.16999816894531
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "內灣村",
+    "candidateVotes": {
+      "coast": 270,
+      "savannah": 196,
+      "rainforest": 137
+    },
+    "validVotes": 603,
+    "invalidVotes": 9,
+    "totalVotes": 612,
+    "receivedUnvoted": 0,
+    "issuedVotes": 612,
+    "remainingVotes": 323,
+    "eligibleVoters": 935,
+    "voterTurnout": 65.44999694824219
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "力行村",
+    "candidateVotes": {
+      "coast": 245,
+      "savannah": 194,
+      "rainforest": 133
+    },
+    "validVotes": 572,
+    "invalidVotes": 8,
+    "totalVotes": 580,
+    "receivedUnvoted": 0,
+    "issuedVotes": 580,
+    "remainingVotes": 256,
+    "eligibleVoters": 836,
+    "voterTurnout": 69.37999725341797
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "福興村",
+    "candidateVotes": {
+      "coast": 126,
+      "savannah": 139,
+      "rainforest": 56
+    },
+    "validVotes": 321,
+    "invalidVotes": 5,
+    "totalVotes": 326,
+    "receivedUnvoted": 0,
+    "issuedVotes": 326,
+    "remainingVotes": 148,
+    "eligibleVoters": 474,
+    "voterTurnout": 68.77999877929688
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "沙坑村",
+    "candidateVotes": {
+      "coast": 288,
+      "savannah": 310,
+      "rainforest": 139
+    },
+    "validVotes": 737,
+    "invalidVotes": 13,
+    "totalVotes": 750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 750,
+    "remainingVotes": 259,
+    "eligibleVoters": 1009,
+    "voterTurnout": 74.33000183105469
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "新興村",
+    "candidateVotes": {
+      "coast": 477,
+      "savannah": 311,
+      "rainforest": 215
+    },
+    "validVotes": 1003,
+    "invalidVotes": 13,
+    "totalVotes": 1016,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1016,
+    "remainingVotes": 508,
+    "eligibleVoters": 1524,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "橫山鄉",
+    "village": "大肚村",
+    "candidateVotes": {
+      "coast": 405,
+      "savannah": 281,
+      "rainforest": 260
+    },
+    "validVotes": 946,
+    "invalidVotes": 10,
+    "totalVotes": 956,
+    "receivedUnvoted": 0,
+    "issuedVotes": 956,
+    "remainingVotes": 535,
+    "eligibleVoters": 1491,
+    "voterTurnout": 64.12000274658203
+  }
+]

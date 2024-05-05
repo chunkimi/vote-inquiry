@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "復興區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2328,
+      "savannah": 1557,
+      "rainforest": 856
+    },
+    "validVotes": 4741,
+    "invalidVotes": 52,
+    "totalVotes": 4793,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4793,
+    "remainingVotes": 3661,
+    "eligibleVoters": 8454,
+    "voterTurnout": 56.70000076293945
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "三民里",
+    "candidateVotes": {
+      "coast": 381,
+      "savannah": 555,
+      "rainforest": 157
+    },
+    "validVotes": 1093,
+    "invalidVotes": 18,
+    "totalVotes": 1111,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1111,
+    "remainingVotes": 704,
+    "eligibleVoters": 1815,
+    "voterTurnout": 61.209999084472656
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "澤仁里",
+    "candidateVotes": {
+      "coast": 374,
+      "savannah": 218,
+      "rainforest": 116
+    },
+    "validVotes": 708,
+    "invalidVotes": 10,
+    "totalVotes": 718,
+    "receivedUnvoted": 0,
+    "issuedVotes": 718,
+    "remainingVotes": 508,
+    "eligibleVoters": 1226,
+    "voterTurnout": 58.560001373291016
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "霞雲里",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 42,
+      "rainforest": 54
+    },
+    "validVotes": 289,
+    "invalidVotes": 1,
+    "totalVotes": 290,
+    "receivedUnvoted": 0,
+    "issuedVotes": 290,
+    "remainingVotes": 202,
+    "eligibleVoters": 492,
+    "voterTurnout": 58.939998626708984
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "義盛里",
+    "candidateVotes": {
+      "coast": 240,
+      "savannah": 45,
+      "rainforest": 74
+    },
+    "validVotes": 359,
+    "invalidVotes": 3,
+    "totalVotes": 362,
+    "receivedUnvoted": 0,
+    "issuedVotes": 362,
+    "remainingVotes": 258,
+    "eligibleVoters": 620,
+    "voterTurnout": 58.38999938964844
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "羅浮里",
+    "candidateVotes": {
+      "coast": 241,
+      "savannah": 152,
+      "rainforest": 112
+    },
+    "validVotes": 505,
+    "invalidVotes": 4,
+    "totalVotes": 509,
+    "receivedUnvoted": 0,
+    "issuedVotes": 509,
+    "remainingVotes": 379,
+    "eligibleVoters": 888,
+    "voterTurnout": 57.31999969482422
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "長興里",
+    "candidateVotes": {
+      "coast": 161,
+      "savannah": 81,
+      "rainforest": 52
+    },
+    "validVotes": 294,
+    "invalidVotes": 4,
+    "totalVotes": 298,
+    "receivedUnvoted": 0,
+    "issuedVotes": 298,
+    "remainingVotes": 275,
+    "eligibleVoters": 573,
+    "voterTurnout": 52.0099983215332
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "奎輝里",
+    "candidateVotes": {
+      "coast": 170,
+      "savannah": 70,
+      "rainforest": 64
+    },
+    "validVotes": 304,
+    "invalidVotes": 3,
+    "totalVotes": 307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 307,
+    "remainingVotes": 274,
+    "eligibleVoters": 581,
+    "voterTurnout": 52.84000015258789
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "高義里",
+    "candidateVotes": {
+      "coast": 155,
+      "savannah": 89,
+      "rainforest": 67
+    },
+    "validVotes": 311,
+    "invalidVotes": 3,
+    "totalVotes": 314,
+    "receivedUnvoted": 0,
+    "issuedVotes": 314,
+    "remainingVotes": 297,
+    "eligibleVoters": 611,
+    "voterTurnout": 51.38999938964844
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "三光里",
+    "candidateVotes": {
+      "coast": 163,
+      "savannah": 84,
+      "rainforest": 66
+    },
+    "validVotes": 313,
+    "invalidVotes": 2,
+    "totalVotes": 315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 315,
+    "remainingVotes": 255,
+    "eligibleVoters": 570,
+    "voterTurnout": 55.2599983215332
+  },
+  {
+    "administrativeDivision": "復興區",
+    "village": "華陵里",
+    "candidateVotes": {
+      "coast": 250,
+      "savannah": 221,
+      "rainforest": 94
+    },
+    "validVotes": 565,
+    "invalidVotes": 4,
+    "totalVotes": 569,
+    "receivedUnvoted": 0,
+    "issuedVotes": 569,
+    "remainingVotes": 509,
+    "eligibleVoters": 1078,
+    "voterTurnout": 52.779998779296875
+  }
+]

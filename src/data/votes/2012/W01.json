@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 806,
+      "coast": 7740,
+      "rainforest": 268
+    },
+    "validVotes": 8814,
+    "invalidVotes": 58,
+    "totalVotes": 8872,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8872,
+    "remainingVotes": 9496,
+    "eligibleVoters": 18368,
+    "voterTurnout": 48.29999923706055
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "新市里",
+    "candidateVotes": {
+      "savannah": 162,
+      "coast": 1590,
+      "rainforest": 52
+    },
+    "validVotes": 1804,
+    "invalidVotes": 8,
+    "totalVotes": 1812,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1812,
+    "remainingVotes": 1759,
+    "eligibleVoters": 3571,
+    "voterTurnout": 50.7400016784668
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "山外里",
+    "candidateVotes": {
+      "savannah": 117,
+      "coast": 1025,
+      "rainforest": 31
+    },
+    "validVotes": 1173,
+    "invalidVotes": 5,
+    "totalVotes": 1178,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1178,
+    "remainingVotes": 1305,
+    "eligibleVoters": 2483,
+    "voterTurnout": 47.439998626708984
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "溪湖里",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 428,
+      "rainforest": 18
+    },
+    "validVotes": 477,
+    "invalidVotes": 4,
+    "totalVotes": 481,
+    "receivedUnvoted": 0,
+    "issuedVotes": 481,
+    "remainingVotes": 555,
+    "eligibleVoters": 1036,
+    "voterTurnout": 46.43000030517578
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "蓮庵里",
+    "candidateVotes": {
+      "savannah": 35,
+      "coast": 487,
+      "rainforest": 12
+    },
+    "validVotes": 534,
+    "invalidVotes": 8,
+    "totalVotes": 542,
+    "receivedUnvoted": 0,
+    "issuedVotes": 542,
+    "remainingVotes": 631,
+    "eligibleVoters": 1173,
+    "voterTurnout": 46.209999084472656
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "料羅里",
+    "candidateVotes": {
+      "savannah": 38,
+      "coast": 525,
+      "rainforest": 25
+    },
+    "validVotes": 588,
+    "invalidVotes": 6,
+    "totalVotes": 594,
+    "receivedUnvoted": 0,
+    "issuedVotes": 594,
+    "remainingVotes": 682,
+    "eligibleVoters": 1276,
+    "voterTurnout": 46.54999923706055
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "新湖里",
+    "candidateVotes": {
+      "savannah": 251,
+      "coast": 1968,
+      "rainforest": 81
+    },
+    "validVotes": 2300,
+    "invalidVotes": 9,
+    "totalVotes": 2309,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2309,
+    "remainingVotes": 2472,
+    "eligibleVoters": 4781,
+    "voterTurnout": 48.29999923706055
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "正義里",
+    "candidateVotes": {
+      "savannah": 72,
+      "coast": 758,
+      "rainforest": 25
+    },
+    "validVotes": 855,
+    "invalidVotes": 12,
+    "totalVotes": 867,
+    "receivedUnvoted": 0,
+    "issuedVotes": 867,
+    "remainingVotes": 908,
+    "eligibleVoters": 1775,
+    "voterTurnout": 48.849998474121094
+  },
+  {
+    "administrativeDivision": "金湖鎮",
+    "village": "瓊林里",
+    "candidateVotes": {
+      "savannah": 100,
+      "coast": 959,
+      "rainforest": 24
+    },
+    "validVotes": 1083,
+    "invalidVotes": 6,
+    "totalVotes": 1089,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1089,
+    "remainingVotes": 1184,
+    "eligibleVoters": 2273,
+    "voterTurnout": 47.90999984741211
+  }
+]

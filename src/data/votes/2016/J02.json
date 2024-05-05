@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 18414,
+      "savannah": 17130,
+      "rainforest": 11811
+    },
+    "validVotes": 47355,
+    "invalidVotes": 659,
+    "totalVotes": 48014,
+    "receivedUnvoted": 0,
+    "issuedVotes": 48014,
+    "remainingVotes": 26054,
+    "eligibleVoters": 74068,
+    "voterTurnout": 64.81999969482422
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "上坪里",
+    "candidateVotes": {
+      "coast": 67,
+      "savannah": 63,
+      "rainforest": 74
+    },
+    "validVotes": 204,
+    "invalidVotes": 3,
+    "totalVotes": 207,
+    "receivedUnvoted": 0,
+    "issuedVotes": 207,
+    "remainingVotes": 122,
+    "eligibleVoters": 329,
+    "voterTurnout": 62.91999816894531
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "瑞峰里",
+    "candidateVotes": {
+      "coast": 104,
+      "savannah": 110,
+      "rainforest": 55
+    },
+    "validVotes": 269,
+    "invalidVotes": 4,
+    "totalVotes": 273,
+    "receivedUnvoted": 0,
+    "issuedVotes": 273,
+    "remainingVotes": 146,
+    "eligibleVoters": 419,
+    "voterTurnout": 65.16000366210938
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "軟橋里",
+    "candidateVotes": {
+      "coast": 90,
+      "savannah": 87,
+      "rainforest": 46
+    },
+    "validVotes": 223,
+    "invalidVotes": 3,
+    "totalVotes": 226,
+    "receivedUnvoted": 0,
+    "issuedVotes": 226,
+    "remainingVotes": 138,
+    "eligibleVoters": 364,
+    "voterTurnout": 62.09000015258789
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "員崠里",
+    "candidateVotes": {
+      "coast": 517,
+      "savannah": 453,
+      "rainforest": 383
+    },
+    "validVotes": 1353,
+    "invalidVotes": 22,
+    "totalVotes": 1375,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1375,
+    "remainingVotes": 777,
+    "eligibleVoters": 2152,
+    "voterTurnout": 63.88999938964844
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "上舘里",
+    "candidateVotes": {
+      "coast": 2002,
+      "savannah": 1715,
+      "rainforest": 1596
+    },
+    "validVotes": 5313,
+    "invalidVotes": 45,
+    "totalVotes": 5358,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5358,
+    "remainingVotes": 3169,
+    "eligibleVoters": 8527,
+    "voterTurnout": 62.84000015258789
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "東寧里",
+    "candidateVotes": {
+      "coast": 833,
+      "savannah": 664,
+      "rainforest": 540
+    },
+    "validVotes": 2037,
+    "invalidVotes": 24,
+    "totalVotes": 2061,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2061,
+    "remainingVotes": 1094,
+    "eligibleVoters": 3155,
+    "voterTurnout": 65.31999969482422
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 410,
+      "savannah": 498,
+      "rainforest": 323
+    },
+    "validVotes": 1231,
+    "invalidVotes": 16,
+    "totalVotes": 1247,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1247,
+    "remainingVotes": 565,
+    "eligibleVoters": 1812,
+    "voterTurnout": 68.81999969482422
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "大鄉里",
+    "candidateVotes": {
+      "coast": 1068,
+      "savannah": 896,
+      "rainforest": 699
+    },
+    "validVotes": 2663,
+    "invalidVotes": 31,
+    "totalVotes": 2694,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2694,
+    "remainingVotes": 1602,
+    "eligibleVoters": 4296,
+    "voterTurnout": 62.709999084472656
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 472,
+      "savannah": 413,
+      "rainforest": 241
+    },
+    "validVotes": 1126,
+    "invalidVotes": 22,
+    "totalVotes": 1148,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1148,
+    "remainingVotes": 539,
+    "eligibleVoters": 1687,
+    "voterTurnout": 68.05000305175781
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "南華里",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 269,
+      "rainforest": 146
+    },
+    "validVotes": 700,
+    "invalidVotes": 10,
+    "totalVotes": 710,
+    "receivedUnvoted": 0,
+    "issuedVotes": 710,
+    "remainingVotes": 357,
+    "eligibleVoters": 1067,
+    "voterTurnout": 66.54000091552734
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "東華里",
+    "candidateVotes": {
+      "coast": 208,
+      "savannah": 211,
+      "rainforest": 89
+    },
+    "validVotes": 508,
+    "invalidVotes": 5,
+    "totalVotes": 513,
+    "receivedUnvoted": 0,
+    "issuedVotes": 513,
+    "remainingVotes": 223,
+    "eligibleVoters": 736,
+    "voterTurnout": 69.69999694824219
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "商華里",
+    "candidateVotes": {
+      "coast": 760,
+      "savannah": 560,
+      "rainforest": 419
+    },
+    "validVotes": 1739,
+    "invalidVotes": 26,
+    "totalVotes": 1765,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1765,
+    "remainingVotes": 1227,
+    "eligibleVoters": 2992,
+    "voterTurnout": 58.9900016784668
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "竹東里",
+    "candidateVotes": {
+      "coast": 359,
+      "savannah": 396,
+      "rainforest": 179
+    },
+    "validVotes": 934,
+    "invalidVotes": 13,
+    "totalVotes": 947,
+    "receivedUnvoted": 0,
+    "issuedVotes": 947,
+    "remainingVotes": 392,
+    "eligibleVoters": 1339,
+    "voterTurnout": 70.72000122070312
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "鷄林里",
+    "candidateVotes": {
+      "coast": 1042,
+      "savannah": 792,
+      "rainforest": 584
+    },
+    "validVotes": 2418,
+    "invalidVotes": 34,
+    "totalVotes": 2452,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2452,
+    "remainingVotes": 1280,
+    "eligibleVoters": 3732,
+    "voterTurnout": 65.69999694824219
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "coast": 770,
+      "savannah": 777,
+      "rainforest": 526
+    },
+    "validVotes": 2073,
+    "invalidVotes": 30,
+    "totalVotes": 2103,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2103,
+    "remainingVotes": 1043,
+    "eligibleVoters": 3146,
+    "voterTurnout": 66.8499984741211
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "coast": 421,
+      "savannah": 368,
+      "rainforest": 215
+    },
+    "validVotes": 1004,
+    "invalidVotes": 17,
+    "totalVotes": 1021,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1021,
+    "remainingVotes": 529,
+    "eligibleVoters": 1550,
+    "voterTurnout": 65.87000274658203
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "榮樂里",
+    "candidateVotes": {
+      "coast": 392,
+      "savannah": 320,
+      "rainforest": 203
+    },
+    "validVotes": 915,
+    "invalidVotes": 12,
+    "totalVotes": 927,
+    "receivedUnvoted": 0,
+    "issuedVotes": 927,
+    "remainingVotes": 468,
+    "eligibleVoters": 1395,
+    "voterTurnout": 66.44999694824219
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "榮華里",
+    "candidateVotes": {
+      "coast": 1762,
+      "savannah": 1361,
+      "rainforest": 993
+    },
+    "validVotes": 4116,
+    "invalidVotes": 73,
+    "totalVotes": 4189,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4189,
+    "remainingVotes": 2155,
+    "eligibleVoters": 6344,
+    "voterTurnout": 66.02999877929688
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "五豐里",
+    "candidateVotes": {
+      "coast": 1637,
+      "savannah": 1529,
+      "rainforest": 1144
+    },
+    "validVotes": 4310,
+    "invalidVotes": 59,
+    "totalVotes": 4369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4369,
+    "remainingVotes": 2783,
+    "eligibleVoters": 7152,
+    "voterTurnout": 61.09000015258789
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "陸豐里",
+    "candidateVotes": {
+      "coast": 141,
+      "savannah": 151,
+      "rainforest": 119
+    },
+    "validVotes": 411,
+    "invalidVotes": 7,
+    "totalVotes": 418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 418,
+    "remainingVotes": 166,
+    "eligibleVoters": 584,
+    "voterTurnout": 71.58000183105469
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "三重里",
+    "candidateVotes": {
+      "coast": 1369,
+      "savannah": 1446,
+      "rainforest": 930
+    },
+    "validVotes": 3745,
+    "invalidVotes": 57,
+    "totalVotes": 3802,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3802,
+    "remainingVotes": 2071,
+    "eligibleVoters": 5873,
+    "voterTurnout": 64.73999786376953
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "二重里",
+    "candidateVotes": {
+      "coast": 2077,
+      "savannah": 2263,
+      "rainforest": 1288
+    },
+    "validVotes": 5628,
+    "invalidVotes": 83,
+    "totalVotes": 5711,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5711,
+    "remainingVotes": 3091,
+    "eligibleVoters": 8802,
+    "voterTurnout": 64.87999725341797
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "頭重里",
+    "candidateVotes": {
+      "coast": 1070,
+      "savannah": 1100,
+      "rainforest": 644
+    },
+    "validVotes": 2814,
+    "invalidVotes": 44,
+    "totalVotes": 2858,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2858,
+    "remainingVotes": 1357,
+    "eligibleVoters": 4215,
+    "voterTurnout": 67.80999755859375
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "員山里",
+    "candidateVotes": {
+      "coast": 433,
+      "savannah": 489,
+      "rainforest": 288
+    },
+    "validVotes": 1210,
+    "invalidVotes": 12,
+    "totalVotes": 1222,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1222,
+    "remainingVotes": 562,
+    "eligibleVoters": 1784,
+    "voterTurnout": 68.5
+  },
+  {
+    "administrativeDivision": "竹東鎮",
+    "village": "柯湖里",
+    "candidateVotes": {
+      "coast": 125,
+      "savannah": 199,
+      "rainforest": 87
+    },
+    "validVotes": 411,
+    "invalidVotes": 7,
+    "totalVotes": 418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 418,
+    "remainingVotes": 198,
+    "eligibleVoters": 616,
+    "voterTurnout": 67.86000061035156
+  }
+]

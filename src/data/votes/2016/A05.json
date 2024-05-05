@@ -1,0 +1,631 @@
+[
+  {
+    "administrativeDivision": "萬華區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 37911,
+      "savannah": 60566,
+      "rainforest": 11239
+    },
+    "validVotes": 109716,
+    "invalidVotes": 1524,
+    "totalVotes": 111240,
+    "receivedUnvoted": 6,
+    "issuedVotes": 111246,
+    "remainingVotes": 50996,
+    "eligibleVoters": 162242,
+    "voterTurnout": 68.55999755859375
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "福星里",
+    "candidateVotes": {
+      "coast": 1191,
+      "savannah": 1530,
+      "rainforest": 314
+    },
+    "validVotes": 3035,
+    "invalidVotes": 44,
+    "totalVotes": 3079,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3079,
+    "remainingVotes": 1694,
+    "eligibleVoters": 4773,
+    "voterTurnout": 64.51000213623047
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "萬壽里",
+    "candidateVotes": {
+      "coast": 698,
+      "savannah": 941,
+      "rainforest": 195
+    },
+    "validVotes": 1834,
+    "invalidVotes": 27,
+    "totalVotes": 1861,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1861,
+    "remainingVotes": 1204,
+    "eligibleVoters": 3065,
+    "voterTurnout": 60.720001220703125
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "西門里",
+    "candidateVotes": {
+      "coast": 769,
+      "savannah": 1043,
+      "rainforest": 257
+    },
+    "validVotes": 2069,
+    "invalidVotes": 34,
+    "totalVotes": 2103,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2103,
+    "remainingVotes": 1260,
+    "eligibleVoters": 3363,
+    "voterTurnout": 62.529998779296875
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "新起里",
+    "candidateVotes": {
+      "coast": 1238,
+      "savannah": 2148,
+      "rainforest": 408
+    },
+    "validVotes": 3794,
+    "invalidVotes": 42,
+    "totalVotes": 3836,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3836,
+    "remainingVotes": 1878,
+    "eligibleVoters": 5714,
+    "voterTurnout": 67.12999725341797
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "菜園里",
+    "candidateVotes": {
+      "coast": 1121,
+      "savannah": 2126,
+      "rainforest": 371
+    },
+    "validVotes": 3618,
+    "invalidVotes": 37,
+    "totalVotes": 3655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3655,
+    "remainingVotes": 1692,
+    "eligibleVoters": 5347,
+    "voterTurnout": 68.36000061035156
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "青山里",
+    "candidateVotes": {
+      "coast": 1035,
+      "savannah": 2001,
+      "rainforest": 356
+    },
+    "validVotes": 3392,
+    "invalidVotes": 51,
+    "totalVotes": 3443,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3443,
+    "remainingVotes": 1712,
+    "eligibleVoters": 5155,
+    "voterTurnout": 66.79000091552734
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "富民里",
+    "candidateVotes": {
+      "coast": 837,
+      "savannah": 1890,
+      "rainforest": 265
+    },
+    "validVotes": 2992,
+    "invalidVotes": 40,
+    "totalVotes": 3032,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3032,
+    "remainingVotes": 1414,
+    "eligibleVoters": 4446,
+    "voterTurnout": 68.19999694824219
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "福音里",
+    "candidateVotes": {
+      "coast": 636,
+      "savannah": 1271,
+      "rainforest": 219
+    },
+    "validVotes": 2126,
+    "invalidVotes": 29,
+    "totalVotes": 2155,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2155,
+    "remainingVotes": 906,
+    "eligibleVoters": 3061,
+    "voterTurnout": 70.4000015258789
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "仁德里",
+    "candidateVotes": {
+      "coast": 997,
+      "savannah": 1638,
+      "rainforest": 268
+    },
+    "validVotes": 2903,
+    "invalidVotes": 53,
+    "totalVotes": 2956,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2956,
+    "remainingVotes": 1255,
+    "eligibleVoters": 4211,
+    "voterTurnout": 70.19999694824219
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "富福里",
+    "candidateVotes": {
+      "coast": 879,
+      "savannah": 1846,
+      "rainforest": 245
+    },
+    "validVotes": 2970,
+    "invalidVotes": 44,
+    "totalVotes": 3014,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3014,
+    "remainingVotes": 2535,
+    "eligibleVoters": 5549,
+    "voterTurnout": 54.31999969482422
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "柳鄉里",
+    "candidateVotes": {
+      "coast": 865,
+      "savannah": 2012,
+      "rainforest": 321
+    },
+    "validVotes": 3198,
+    "invalidVotes": 32,
+    "totalVotes": 3230,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3230,
+    "remainingVotes": 1512,
+    "eligibleVoters": 4742,
+    "voterTurnout": 68.11000061035156
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "華江里",
+    "candidateVotes": {
+      "coast": 1514,
+      "savannah": 2971,
+      "rainforest": 523
+    },
+    "validVotes": 5008,
+    "invalidVotes": 65,
+    "totalVotes": 5073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5073,
+    "remainingVotes": 2339,
+    "eligibleVoters": 7412,
+    "voterTurnout": 68.44000244140625
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "糖廍里",
+    "candidateVotes": {
+      "coast": 1017,
+      "savannah": 2018,
+      "rainforest": 309
+    },
+    "validVotes": 3344,
+    "invalidVotes": 35,
+    "totalVotes": 3379,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3379,
+    "remainingVotes": 1502,
+    "eligibleVoters": 4881,
+    "voterTurnout": 69.2300033569336
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "綠堤里",
+    "candidateVotes": {
+      "coast": 848,
+      "savannah": 1374,
+      "rainforest": 287
+    },
+    "validVotes": 2509,
+    "invalidVotes": 35,
+    "totalVotes": 2544,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2544,
+    "remainingVotes": 1279,
+    "eligibleVoters": 3823,
+    "voterTurnout": 66.54000091552734
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "頂碩里",
+    "candidateVotes": {
+      "coast": 1220,
+      "savannah": 2874,
+      "rainforest": 416
+    },
+    "validVotes": 4510,
+    "invalidVotes": 71,
+    "totalVotes": 4581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4581,
+    "remainingVotes": 1879,
+    "eligibleVoters": 6460,
+    "voterTurnout": 70.91000366210938
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "雙園里",
+    "candidateVotes": {
+      "coast": 772,
+      "savannah": 1690,
+      "rainforest": 287
+    },
+    "validVotes": 2749,
+    "invalidVotes": 36,
+    "totalVotes": 2785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2785,
+    "remainingVotes": 1202,
+    "eligibleVoters": 3987,
+    "voterTurnout": 69.8499984741211
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "和平里",
+    "candidateVotes": {
+      "coast": 1069,
+      "savannah": 2725,
+      "rainforest": 417
+    },
+    "validVotes": 4211,
+    "invalidVotes": 53,
+    "totalVotes": 4264,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4264,
+    "remainingVotes": 1848,
+    "eligibleVoters": 6112,
+    "voterTurnout": 69.76000213623047
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "和德里",
+    "candidateVotes": {
+      "coast": 1148,
+      "savannah": 2514,
+      "rainforest": 408
+    },
+    "validVotes": 4070,
+    "invalidVotes": 49,
+    "totalVotes": 4119,
+    "receivedUnvoted": 6,
+    "issuedVotes": 4125,
+    "remainingVotes": 2017,
+    "eligibleVoters": 6142,
+    "voterTurnout": 67.05999755859375
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "全德里",
+    "candidateVotes": {
+      "coast": 820,
+      "savannah": 1492,
+      "rainforest": 248
+    },
+    "validVotes": 2560,
+    "invalidVotes": 32,
+    "totalVotes": 2592,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2592,
+    "remainingVotes": 1042,
+    "eligibleVoters": 3634,
+    "voterTurnout": 71.33000183105469
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "日善里",
+    "candidateVotes": {
+      "coast": 682,
+      "savannah": 1369,
+      "rainforest": 242
+    },
+    "validVotes": 2293,
+    "invalidVotes": 35,
+    "totalVotes": 2328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2328,
+    "remainingVotes": 866,
+    "eligibleVoters": 3194,
+    "voterTurnout": 72.88999938964844
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "壽德里",
+    "candidateVotes": {
+      "coast": 1044,
+      "savannah": 1771,
+      "rainforest": 289
+    },
+    "validVotes": 3104,
+    "invalidVotes": 46,
+    "totalVotes": 3150,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3150,
+    "remainingVotes": 1353,
+    "eligibleVoters": 4503,
+    "voterTurnout": 69.94999694824219
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "忠德里",
+    "candidateVotes": {
+      "coast": 705,
+      "savannah": 1629,
+      "rainforest": 254
+    },
+    "validVotes": 2588,
+    "invalidVotes": 25,
+    "totalVotes": 2613,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2613,
+    "remainingVotes": 1126,
+    "eligibleVoters": 3739,
+    "voterTurnout": 69.87999725341797
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "錦德里",
+    "candidateVotes": {
+      "coast": 969,
+      "savannah": 2065,
+      "rainforest": 333
+    },
+    "validVotes": 3367,
+    "invalidVotes": 44,
+    "totalVotes": 3411,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3411,
+    "remainingVotes": 1462,
+    "eligibleVoters": 4873,
+    "voterTurnout": 70
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "銘德里",
+    "candidateVotes": {
+      "coast": 858,
+      "savannah": 1758,
+      "rainforest": 270
+    },
+    "validVotes": 2886,
+    "invalidVotes": 39,
+    "totalVotes": 2925,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2925,
+    "remainingVotes": 1195,
+    "eligibleVoters": 4120,
+    "voterTurnout": 71
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "孝德里",
+    "candidateVotes": {
+      "coast": 512,
+      "savannah": 1355,
+      "rainforest": 240
+    },
+    "validVotes": 2107,
+    "invalidVotes": 22,
+    "totalVotes": 2129,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2129,
+    "remainingVotes": 786,
+    "eligibleVoters": 2915,
+    "voterTurnout": 73.04000091552734
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "保德里",
+    "candidateVotes": {
+      "coast": 668,
+      "savannah": 1170,
+      "rainforest": 201
+    },
+    "validVotes": 2039,
+    "invalidVotes": 27,
+    "totalVotes": 2066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2066,
+    "remainingVotes": 800,
+    "eligibleVoters": 2866,
+    "voterTurnout": 72.08999633789062
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "榮德里",
+    "candidateVotes": {
+      "coast": 658,
+      "savannah": 1356,
+      "rainforest": 227
+    },
+    "validVotes": 2241,
+    "invalidVotes": 37,
+    "totalVotes": 2278,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2278,
+    "remainingVotes": 912,
+    "eligibleVoters": 3190,
+    "voterTurnout": 71.41000366210938
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "華中里",
+    "candidateVotes": {
+      "coast": 1181,
+      "savannah": 2297,
+      "rainforest": 337
+    },
+    "validVotes": 3815,
+    "invalidVotes": 39,
+    "totalVotes": 3854,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3854,
+    "remainingVotes": 1541,
+    "eligibleVoters": 5395,
+    "voterTurnout": 71.44000244140625
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "興德里",
+    "candidateVotes": {
+      "coast": 838,
+      "savannah": 1724,
+      "rainforest": 326
+    },
+    "validVotes": 2888,
+    "invalidVotes": 34,
+    "totalVotes": 2922,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2922,
+    "remainingVotes": 1253,
+    "eligibleVoters": 4175,
+    "voterTurnout": 69.98999786376953
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "日祥里",
+    "candidateVotes": {
+      "coast": 1692,
+      "savannah": 1361,
+      "rainforest": 365
+    },
+    "validVotes": 3418,
+    "invalidVotes": 50,
+    "totalVotes": 3468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3468,
+    "remainingVotes": 1371,
+    "eligibleVoters": 4839,
+    "voterTurnout": 71.66999816894531
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "忠貞里",
+    "candidateVotes": {
+      "coast": 1635,
+      "savannah": 1054,
+      "rainforest": 301
+    },
+    "validVotes": 2990,
+    "invalidVotes": 53,
+    "totalVotes": 3043,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3043,
+    "remainingVotes": 1312,
+    "eligibleVoters": 4355,
+    "voterTurnout": 69.87000274658203
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "新忠里",
+    "candidateVotes": {
+      "coast": 1313,
+      "savannah": 578,
+      "rainforest": 220
+    },
+    "validVotes": 2111,
+    "invalidVotes": 29,
+    "totalVotes": 2140,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2140,
+    "remainingVotes": 1029,
+    "eligibleVoters": 3169,
+    "voterTurnout": 67.52999877929688
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "新和里",
+    "candidateVotes": {
+      "coast": 3007,
+      "savannah": 1631,
+      "rainforest": 582
+    },
+    "validVotes": 5220,
+    "invalidVotes": 97,
+    "totalVotes": 5317,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5317,
+    "remainingVotes": 2231,
+    "eligibleVoters": 7548,
+    "voterTurnout": 70.44000244140625
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "新安里",
+    "candidateVotes": {
+      "coast": 1546,
+      "savannah": 1586,
+      "rainforest": 438
+    },
+    "validVotes": 3570,
+    "invalidVotes": 65,
+    "totalVotes": 3635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3635,
+    "remainingVotes": 1817,
+    "eligibleVoters": 5452,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "凌霄里",
+    "candidateVotes": {
+      "coast": 1069,
+      "savannah": 925,
+      "rainforest": 285
+    },
+    "validVotes": 2279,
+    "invalidVotes": 42,
+    "totalVotes": 2321,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2321,
+    "remainingVotes": 1012,
+    "eligibleVoters": 3333,
+    "voterTurnout": 69.63999938964844
+  },
+  {
+    "administrativeDivision": "萬華區",
+    "village": "騰雲里",
+    "candidateVotes": {
+      "coast": 860,
+      "savannah": 833,
+      "rainforest": 215
+    },
+    "validVotes": 1908,
+    "invalidVotes": 31,
+    "totalVotes": 1939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1939,
+    "remainingVotes": 760,
+    "eligibleVoters": 2699,
+    "voterTurnout": 71.83999633789062
+  }
+]

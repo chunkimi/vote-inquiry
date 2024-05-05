@@ -1,0 +1,172 @@
+[
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1892,
+      "savannah": 2004,
+      "rainforest": 1228
+    },
+    "validVotes": 5124,
+    "invalidVotes": 83,
+    "totalVotes": 5207,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5207,
+    "remainingVotes": 2737,
+    "eligibleVoters": 7944,
+    "voterTurnout": 65.55000305175781
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "北埔村",
+    "candidateVotes": {
+      "coast": 270,
+      "savannah": 302,
+      "rainforest": 163
+    },
+    "validVotes": 735,
+    "invalidVotes": 5,
+    "totalVotes": 740,
+    "receivedUnvoted": 0,
+    "issuedVotes": 740,
+    "remainingVotes": 359,
+    "eligibleVoters": 1099,
+    "voterTurnout": 67.33000183105469
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "南興村",
+    "candidateVotes": {
+      "coast": 363,
+      "savannah": 268,
+      "rainforest": 146
+    },
+    "validVotes": 777,
+    "invalidVotes": 8,
+    "totalVotes": 785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 785,
+    "remainingVotes": 436,
+    "eligibleVoters": 1221,
+    "voterTurnout": 64.29000091552734
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "大湖村",
+    "candidateVotes": {
+      "coast": 106,
+      "savannah": 135,
+      "rainforest": 108
+    },
+    "validVotes": 349,
+    "invalidVotes": 6,
+    "totalVotes": 355,
+    "receivedUnvoted": 0,
+    "issuedVotes": 355,
+    "remainingVotes": 210,
+    "eligibleVoters": 565,
+    "voterTurnout": 62.83000183105469
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "埔尾村",
+    "candidateVotes": {
+      "coast": 587,
+      "savannah": 608,
+      "rainforest": 382
+    },
+    "validVotes": 1577,
+    "invalidVotes": 41,
+    "totalVotes": 1618,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1618,
+    "remainingVotes": 871,
+    "eligibleVoters": 2489,
+    "voterTurnout": 65.01000213623047
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "水磜村",
+    "candidateVotes": {
+      "coast": 137,
+      "savannah": 234,
+      "rainforest": 133
+    },
+    "validVotes": 504,
+    "invalidVotes": 11,
+    "totalVotes": 515,
+    "receivedUnvoted": 0,
+    "issuedVotes": 515,
+    "remainingVotes": 294,
+    "eligibleVoters": 809,
+    "voterTurnout": 63.65999984741211
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "南埔村",
+    "candidateVotes": {
+      "coast": 95,
+      "savannah": 96,
+      "rainforest": 70
+    },
+    "validVotes": 261,
+    "invalidVotes": 4,
+    "totalVotes": 265,
+    "receivedUnvoted": 0,
+    "issuedVotes": 265,
+    "remainingVotes": 121,
+    "eligibleVoters": 386,
+    "voterTurnout": 68.6500015258789
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "大林村",
+    "candidateVotes": {
+      "coast": 196,
+      "savannah": 174,
+      "rainforest": 141
+    },
+    "validVotes": 511,
+    "invalidVotes": 6,
+    "totalVotes": 517,
+    "receivedUnvoted": 0,
+    "issuedVotes": 517,
+    "remainingVotes": 218,
+    "eligibleVoters": 735,
+    "voterTurnout": 70.33999633789062
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "南坑村",
+    "candidateVotes": {
+      "coast": 86,
+      "savannah": 94,
+      "rainforest": 53
+    },
+    "validVotes": 233,
+    "invalidVotes": 2,
+    "totalVotes": 235,
+    "receivedUnvoted": 0,
+    "issuedVotes": 235,
+    "remainingVotes": 117,
+    "eligibleVoters": 352,
+    "voterTurnout": 66.76000213623047
+  },
+  {
+    "administrativeDivision": "北埔鄉",
+    "village": "外坪村",
+    "candidateVotes": {
+      "coast": 52,
+      "savannah": 93,
+      "rainforest": 32
+    },
+    "validVotes": 177,
+    "invalidVotes": 0,
+    "totalVotes": 177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 177,
+    "remainingVotes": 111,
+    "eligibleVoters": 288,
+    "voterTurnout": 61.459999084472656
+  }
+]

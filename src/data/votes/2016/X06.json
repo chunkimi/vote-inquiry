@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 191,
+      "savannah": 301,
+      "rainforest": 485
+    },
+    "validVotes": 977,
+    "invalidVotes": 23,
+    "totalVotes": 1000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1000,
+    "remainingVotes": 2148,
+    "eligibleVoters": 3148,
+    "voterTurnout": 31.770000457763672
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "東湖村",
+    "candidateVotes": {
+      "coast": 11,
+      "savannah": 23,
+      "rainforest": 32
+    },
+    "validVotes": 66,
+    "invalidVotes": 2,
+    "totalVotes": 68,
+    "receivedUnvoted": 0,
+    "issuedVotes": 68,
+    "remainingVotes": 170,
+    "eligibleVoters": 238,
+    "voterTurnout": 28.56999969482422
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "西湖村",
+    "candidateVotes": {
+      "coast": 40,
+      "savannah": 48,
+      "rainforest": 84
+    },
+    "validVotes": 172,
+    "invalidVotes": 4,
+    "totalVotes": 176,
+    "receivedUnvoted": 0,
+    "issuedVotes": 176,
+    "remainingVotes": 362,
+    "eligibleVoters": 538,
+    "voterTurnout": 32.709999084472656
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "中和村",
+    "candidateVotes": {
+      "coast": 42,
+      "savannah": 49,
+      "rainforest": 83
+    },
+    "validVotes": 174,
+    "invalidVotes": 6,
+    "totalVotes": 180,
+    "receivedUnvoted": 0,
+    "issuedVotes": 180,
+    "remainingVotes": 408,
+    "eligibleVoters": 588,
+    "voterTurnout": 30.610000610351562
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "平和村",
+    "candidateVotes": {
+      "coast": 19,
+      "savannah": 48,
+      "rainforest": 51
+    },
+    "validVotes": 118,
+    "invalidVotes": 4,
+    "totalVotes": 122,
+    "receivedUnvoted": 0,
+    "issuedVotes": 122,
+    "remainingVotes": 244,
+    "eligibleVoters": 366,
+    "voterTurnout": 33.33000183105469
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "海豐村",
+    "candidateVotes": {
+      "coast": 18,
+      "savannah": 33,
+      "rainforest": 35
+    },
+    "validVotes": 86,
+    "invalidVotes": 0,
+    "totalVotes": 86,
+    "receivedUnvoted": 0,
+    "issuedVotes": 86,
+    "remainingVotes": 236,
+    "eligibleVoters": 322,
+    "voterTurnout": 26.709999084472656
+  },
+  {
+    "administrativeDivision": "七美鄉",
+    "village": "南港村",
+    "candidateVotes": {
+      "coast": 61,
+      "savannah": 100,
+      "rainforest": 200
+    },
+    "validVotes": 361,
+    "invalidVotes": 7,
+    "totalVotes": 368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 368,
+    "remainingVotes": 728,
+    "eligibleVoters": 1096,
+    "voterTurnout": 33.58000183105469
+  }
+]

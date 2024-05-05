@@ -1,0 +1,665 @@
+[
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2432,
+      "coast": 20740,
+      "savannah": 33814
+    },
+    "validVotes": 56986,
+    "invalidVotes": 635,
+    "totalVotes": 57621,
+    "receivedUnvoted": 0,
+    "issuedVotes": 57621,
+    "remainingVotes": 19146,
+    "eligibleVoters": 76767,
+    "voterTurnout": 75.0596
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "民族里",
+    "candidateVotes": {
+      "rainforest": 68,
+      "coast": 679,
+      "savannah": 869
+    },
+    "validVotes": 1616,
+    "invalidVotes": 17,
+    "totalVotes": 1633,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1633,
+    "remainingVotes": 518,
+    "eligibleVoters": 2151,
+    "voterTurnout": 75.9182
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "建軍里",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 453,
+      "savannah": 682
+    },
+    "validVotes": 1183,
+    "invalidVotes": 18,
+    "totalVotes": 1201,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1201,
+    "remainingVotes": 360,
+    "eligibleVoters": 1561,
+    "voterTurnout": 76.9379
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "泰山里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 568,
+      "savannah": 749
+    },
+    "validVotes": 1367,
+    "invalidVotes": 16,
+    "totalVotes": 1383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1383,
+    "remainingVotes": 555,
+    "eligibleVoters": 1938,
+    "voterTurnout": 71.3622
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "負郭里",
+    "candidateVotes": {
+      "rainforest": 93,
+      "coast": 776,
+      "savannah": 1217
+    },
+    "validVotes": 2086,
+    "invalidVotes": 28,
+    "totalVotes": 2114,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2114,
+    "remainingVotes": 703,
+    "eligibleVoters": 2817,
+    "voterTurnout": 75.0444
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "思源里",
+    "candidateVotes": {
+      "rainforest": 156,
+      "coast": 1318,
+      "savannah": 1719
+    },
+    "validVotes": 3193,
+    "invalidVotes": 32,
+    "totalVotes": 3225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3225,
+    "remainingVotes": 922,
+    "eligibleVoters": 4147,
+    "voterTurnout": 77.7671
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "七結里",
+    "candidateVotes": {
+      "rainforest": 81,
+      "coast": 778,
+      "savannah": 979
+    },
+    "validVotes": 1838,
+    "invalidVotes": 28,
+    "totalVotes": 1866,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1866,
+    "remainingVotes": 546,
+    "eligibleVoters": 2412,
+    "voterTurnout": 77.3632
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "文化里",
+    "candidateVotes": {
+      "rainforest": 85,
+      "coast": 824,
+      "savannah": 1215
+    },
+    "validVotes": 2124,
+    "invalidVotes": 27,
+    "totalVotes": 2151,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2151,
+    "remainingVotes": 747,
+    "eligibleVoters": 2898,
+    "voterTurnout": 74.2236
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "復興里",
+    "candidateVotes": {
+      "rainforest": 75,
+      "coast": 903,
+      "savannah": 964
+    },
+    "validVotes": 1942,
+    "invalidVotes": 19,
+    "totalVotes": 1961,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1961,
+    "remainingVotes": 637,
+    "eligibleVoters": 2598,
+    "voterTurnout": 75.4811
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "民權里",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 465,
+      "savannah": 546
+    },
+    "validVotes": 1050,
+    "invalidVotes": 17,
+    "totalVotes": 1067,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1067,
+    "remainingVotes": 651,
+    "eligibleVoters": 1718,
+    "voterTurnout": 62.1071
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "神農里",
+    "candidateVotes": {
+      "rainforest": 76,
+      "coast": 790,
+      "savannah": 1022
+    },
+    "validVotes": 1888,
+    "invalidVotes": 27,
+    "totalVotes": 1915,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1915,
+    "remainingVotes": 628,
+    "eligibleVoters": 2543,
+    "voterTurnout": 75.3048
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "大新里",
+    "candidateVotes": {
+      "rainforest": 32,
+      "coast": 198,
+      "savannah": 323
+    },
+    "validVotes": 553,
+    "invalidVotes": 8,
+    "totalVotes": 561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 561,
+    "remainingVotes": 183,
+    "eligibleVoters": 744,
+    "voterTurnout": 75.4032
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "新民里",
+    "candidateVotes": {
+      "rainforest": 53,
+      "coast": 374,
+      "savannah": 698
+    },
+    "validVotes": 1125,
+    "invalidVotes": 12,
+    "totalVotes": 1137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1137,
+    "remainingVotes": 356,
+    "eligibleVoters": 1493,
+    "voterTurnout": 76.1554
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "進士里",
+    "candidateVotes": {
+      "rainforest": 72,
+      "coast": 608,
+      "savannah": 885
+    },
+    "validVotes": 1565,
+    "invalidVotes": 17,
+    "totalVotes": 1582,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1582,
+    "remainingVotes": 473,
+    "eligibleVoters": 2055,
+    "voterTurnout": 76.983
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "南橋里",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 296,
+      "savannah": 575
+    },
+    "validVotes": 901,
+    "invalidVotes": 11,
+    "totalVotes": 912,
+    "receivedUnvoted": 0,
+    "issuedVotes": 912,
+    "remainingVotes": 278,
+    "eligibleVoters": 1190,
+    "voterTurnout": 76.6387
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "凱旋里",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 284,
+      "savannah": 617
+    },
+    "validVotes": 936,
+    "invalidVotes": 9,
+    "totalVotes": 945,
+    "receivedUnvoted": 0,
+    "issuedVotes": 945,
+    "remainingVotes": 306,
+    "eligibleVoters": 1251,
+    "voterTurnout": 75.5396
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "南津里",
+    "candidateVotes": {
+      "rainforest": 52,
+      "coast": 704,
+      "savannah": 736
+    },
+    "validVotes": 1492,
+    "invalidVotes": 21,
+    "totalVotes": 1513,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1513,
+    "remainingVotes": 487,
+    "eligibleVoters": 2000,
+    "voterTurnout": 75.65
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "建業里",
+    "candidateVotes": {
+      "rainforest": 57,
+      "coast": 425,
+      "savannah": 796
+    },
+    "validVotes": 1278,
+    "invalidVotes": 17,
+    "totalVotes": 1295,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1295,
+    "remainingVotes": 390,
+    "eligibleVoters": 1685,
+    "voterTurnout": 76.8546
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "擺厘里",
+    "candidateVotes": {
+      "rainforest": 87,
+      "coast": 842,
+      "savannah": 1216
+    },
+    "validVotes": 2145,
+    "invalidVotes": 20,
+    "totalVotes": 2165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2165,
+    "remainingVotes": 690,
+    "eligibleVoters": 2855,
+    "voterTurnout": 75.8319
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "延平里",
+    "candidateVotes": {
+      "rainforest": 115,
+      "coast": 884,
+      "savannah": 1393
+    },
+    "validVotes": 2392,
+    "invalidVotes": 24,
+    "totalVotes": 2416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2416,
+    "remainingVotes": 716,
+    "eligibleVoters": 3132,
+    "voterTurnout": 77.1392
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "成功里",
+    "candidateVotes": {
+      "rainforest": 94,
+      "coast": 785,
+      "savannah": 1297
+    },
+    "validVotes": 2176,
+    "invalidVotes": 26,
+    "totalVotes": 2202,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2202,
+    "remainingVotes": 753,
+    "eligibleVoters": 2955,
+    "voterTurnout": 74.5178
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "東村里",
+    "candidateVotes": {
+      "rainforest": 71,
+      "coast": 574,
+      "savannah": 1002
+    },
+    "validVotes": 1647,
+    "invalidVotes": 17,
+    "totalVotes": 1664,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1664,
+    "remainingVotes": 463,
+    "eligibleVoters": 2127,
+    "voterTurnout": 78.2323
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "新東里",
+    "candidateVotes": {
+      "rainforest": 89,
+      "coast": 800,
+      "savannah": 1336
+    },
+    "validVotes": 2225,
+    "invalidVotes": 17,
+    "totalVotes": 2242,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2242,
+    "remainingVotes": 781,
+    "eligibleVoters": 3023,
+    "voterTurnout": 74.1647
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "黎明里",
+    "candidateVotes": {
+      "rainforest": 55,
+      "coast": 418,
+      "savannah": 855
+    },
+    "validVotes": 1328,
+    "invalidVotes": 14,
+    "totalVotes": 1342,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1342,
+    "remainingVotes": 422,
+    "eligibleVoters": 1764,
+    "voterTurnout": 76.0771
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "七張里",
+    "candidateVotes": {
+      "rainforest": 41,
+      "coast": 284,
+      "savannah": 740
+    },
+    "validVotes": 1065,
+    "invalidVotes": 9,
+    "totalVotes": 1074,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1074,
+    "remainingVotes": 360,
+    "eligibleVoters": 1434,
+    "voterTurnout": 74.8954
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "孝廉里",
+    "candidateVotes": {
+      "rainforest": 40,
+      "coast": 251,
+      "savannah": 556
+    },
+    "validVotes": 847,
+    "invalidVotes": 11,
+    "totalVotes": 858,
+    "receivedUnvoted": 0,
+    "issuedVotes": 858,
+    "remainingVotes": 300,
+    "eligibleVoters": 1158,
+    "voterTurnout": 74.0933
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "東門里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 221,
+      "savannah": 451
+    },
+    "validVotes": 698,
+    "invalidVotes": 9,
+    "totalVotes": 707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 707,
+    "remainingVotes": 216,
+    "eligibleVoters": 923,
+    "voterTurnout": 76.598
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "小東里",
+    "candidateVotes": {
+      "rainforest": 46,
+      "coast": 430,
+      "savannah": 741
+    },
+    "validVotes": 1217,
+    "invalidVotes": 8,
+    "totalVotes": 1225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1225,
+    "remainingVotes": 348,
+    "eligibleVoters": 1573,
+    "voterTurnout": 77.8767
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "菜園里",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 341,
+      "savannah": 570
+    },
+    "validVotes": 946,
+    "invalidVotes": 11,
+    "totalVotes": 957,
+    "receivedUnvoted": 0,
+    "issuedVotes": 957,
+    "remainingVotes": 339,
+    "eligibleVoters": 1296,
+    "voterTurnout": 73.8426
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "慈安里",
+    "candidateVotes": {
+      "rainforest": 61,
+      "coast": 422,
+      "savannah": 727
+    },
+    "validVotes": 1210,
+    "invalidVotes": 8,
+    "totalVotes": 1218,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1218,
+    "remainingVotes": 535,
+    "eligibleVoters": 1753,
+    "voterTurnout": 69.4809
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "中興里",
+    "candidateVotes": {
+      "rainforest": 100,
+      "coast": 732,
+      "savannah": 1121
+    },
+    "validVotes": 1953,
+    "invalidVotes": 23,
+    "totalVotes": 1976,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1976,
+    "remainingVotes": 817,
+    "eligibleVoters": 2793,
+    "voterTurnout": 70.7483
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "新生里",
+    "candidateVotes": {
+      "rainforest": 69,
+      "coast": 529,
+      "savannah": 1269
+    },
+    "validVotes": 1867,
+    "invalidVotes": 19,
+    "totalVotes": 1886,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1886,
+    "remainingVotes": 659,
+    "eligibleVoters": 2545,
+    "voterTurnout": 74.1061
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "茭白里",
+    "candidateVotes": {
+      "rainforest": 71,
+      "coast": 473,
+      "savannah": 914
+    },
+    "validVotes": 1458,
+    "invalidVotes": 18,
+    "totalVotes": 1476,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1476,
+    "remainingVotes": 519,
+    "eligibleVoters": 1995,
+    "voterTurnout": 73.985
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "北津里",
+    "candidateVotes": {
+      "rainforest": 65,
+      "coast": 475,
+      "savannah": 1081
+    },
+    "validVotes": 1621,
+    "invalidVotes": 13,
+    "totalVotes": 1634,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1634,
+    "remainingVotes": 533,
+    "eligibleVoters": 2167,
+    "voterTurnout": 75.4038
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "梅洲里",
+    "candidateVotes": {
+      "rainforest": 95,
+      "coast": 642,
+      "savannah": 1518
+    },
+    "validVotes": 2255,
+    "invalidVotes": 21,
+    "totalVotes": 2276,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2276,
+    "remainingVotes": 753,
+    "eligibleVoters": 3029,
+    "voterTurnout": 75.1403
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "南門里",
+    "candidateVotes": {
+      "rainforest": 44,
+      "coast": 321,
+      "savannah": 647
+    },
+    "validVotes": 1012,
+    "invalidVotes": 13,
+    "totalVotes": 1025,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1025,
+    "remainingVotes": 316,
+    "eligibleVoters": 1341,
+    "voterTurnout": 76.4355
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "中山里",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 244,
+      "savannah": 375
+    },
+    "validVotes": 648,
+    "invalidVotes": 10,
+    "totalVotes": 658,
+    "receivedUnvoted": 0,
+    "issuedVotes": 658,
+    "remainingVotes": 251,
+    "eligibleVoters": 909,
+    "voterTurnout": 72.3872
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "西門里",
+    "candidateVotes": {
+      "rainforest": 60,
+      "coast": 384,
+      "savannah": 845
+    },
+    "validVotes": 1289,
+    "invalidVotes": 12,
+    "totalVotes": 1301,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1301,
+    "remainingVotes": 381,
+    "eligibleVoters": 1682,
+    "voterTurnout": 77.3484
+  },
+  {
+    "administrativeDivision": "宜蘭市",
+    "village": "北門里",
+    "candidateVotes": {
+      "rainforest": 37,
+      "coast": 245,
+      "savannah": 568
+    },
+    "validVotes": 850,
+    "invalidVotes": 8,
+    "totalVotes": 858,
+    "receivedUnvoted": 0,
+    "issuedVotes": 858,
+    "remainingVotes": 254,
+    "eligibleVoters": 1112,
+    "voterTurnout": 77.1583
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1070,
+      "savannah": 337,
+      "rainforest": 329
+    },
+    "validVotes": 1736,
+    "invalidVotes": 38,
+    "totalVotes": 1774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1774,
+    "remainingVotes": 1434,
+    "eligibleVoters": 3208,
+    "voterTurnout": 55.29999923706055
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "加拿村",
+    "candidateVotes": {
+      "coast": 159,
+      "savannah": 46,
+      "rainforest": 58
+    },
+    "validVotes": 263,
+    "invalidVotes": 6,
+    "totalVotes": 269,
+    "receivedUnvoted": 0,
+    "issuedVotes": 269,
+    "remainingVotes": 224,
+    "eligibleVoters": 493,
+    "voterTurnout": 54.560001373291016
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "崁頂村",
+    "candidateVotes": {
+      "coast": 171,
+      "savannah": 49,
+      "rainforest": 59
+    },
+    "validVotes": 279,
+    "invalidVotes": 4,
+    "totalVotes": 283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 283,
+    "remainingVotes": 265,
+    "eligibleVoters": 548,
+    "voterTurnout": 51.63999938964844
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "海端村",
+    "candidateVotes": {
+      "coast": 279,
+      "savannah": 104,
+      "rainforest": 113
+    },
+    "validVotes": 496,
+    "invalidVotes": 8,
+    "totalVotes": 504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 504,
+    "remainingVotes": 406,
+    "eligibleVoters": 910,
+    "voterTurnout": 55.380001068115234
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "廣原村",
+    "candidateVotes": {
+      "coast": 271,
+      "savannah": 62,
+      "rainforest": 51
+    },
+    "validVotes": 384,
+    "invalidVotes": 14,
+    "totalVotes": 398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 398,
+    "remainingVotes": 351,
+    "eligibleVoters": 749,
+    "voterTurnout": 53.13999938964844
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "霧鹿村",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 27,
+      "rainforest": 22
+    },
+    "validVotes": 166,
+    "invalidVotes": 4,
+    "totalVotes": 170,
+    "receivedUnvoted": 0,
+    "issuedVotes": 170,
+    "remainingVotes": 106,
+    "eligibleVoters": 276,
+    "voterTurnout": 61.59000015258789
+  },
+  {
+    "administrativeDivision": "海端鄉",
+    "village": "利稻村",
+    "candidateVotes": {
+      "coast": 73,
+      "savannah": 49,
+      "rainforest": 26
+    },
+    "validVotes": 148,
+    "invalidVotes": 2,
+    "totalVotes": 150,
+    "receivedUnvoted": 0,
+    "issuedVotes": 150,
+    "remainingVotes": 82,
+    "eligibleVoters": 232,
+    "voterTurnout": 64.66000366210938
+  }
+]

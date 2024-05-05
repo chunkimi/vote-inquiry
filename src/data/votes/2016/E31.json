@@ -1,0 +1,342 @@
+[
+  {
+    "administrativeDivision": "美濃區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 6801,
+      "savannah": 13471,
+      "rainforest": 2496
+    },
+    "validVotes": 22768,
+    "invalidVotes": 269,
+    "totalVotes": 23037,
+    "receivedUnvoted": 0,
+    "issuedVotes": 23037,
+    "remainingVotes": 11824,
+    "eligibleVoters": 34861,
+    "voterTurnout": 66.08000183105469
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "福安里",
+    "candidateVotes": {
+      "coast": 523,
+      "savannah": 1032,
+      "rainforest": 174
+    },
+    "validVotes": 1729,
+    "invalidVotes": 20,
+    "totalVotes": 1749,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1749,
+    "remainingVotes": 877,
+    "eligibleVoters": 2626,
+    "voterTurnout": 66.5999984741211
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "合和里",
+    "candidateVotes": {
+      "coast": 498,
+      "savannah": 791,
+      "rainforest": 192
+    },
+    "validVotes": 1481,
+    "invalidVotes": 11,
+    "totalVotes": 1492,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1492,
+    "remainingVotes": 824,
+    "eligibleVoters": 2316,
+    "voterTurnout": 64.41999816894531
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "祿興里",
+    "candidateVotes": {
+      "coast": 499,
+      "savannah": 931,
+      "rainforest": 197
+    },
+    "validVotes": 1627,
+    "invalidVotes": 16,
+    "totalVotes": 1643,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1643,
+    "remainingVotes": 843,
+    "eligibleVoters": 2486,
+    "voterTurnout": 66.08999633789062
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "中壇里",
+    "candidateVotes": {
+      "coast": 473,
+      "savannah": 739,
+      "rainforest": 164
+    },
+    "validVotes": 1376,
+    "invalidVotes": 20,
+    "totalVotes": 1396,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1396,
+    "remainingVotes": 679,
+    "eligibleVoters": 2075,
+    "voterTurnout": 67.27999877929688
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "德興里",
+    "candidateVotes": {
+      "coast": 390,
+      "savannah": 478,
+      "rainforest": 150
+    },
+    "validVotes": 1018,
+    "invalidVotes": 14,
+    "totalVotes": 1032,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1032,
+    "remainingVotes": 464,
+    "eligibleVoters": 1496,
+    "voterTurnout": 68.9800033569336
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "龍山里",
+    "candidateVotes": {
+      "coast": 400,
+      "savannah": 835,
+      "rainforest": 134
+    },
+    "validVotes": 1369,
+    "invalidVotes": 26,
+    "totalVotes": 1395,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1395,
+    "remainingVotes": 723,
+    "eligibleVoters": 2118,
+    "voterTurnout": 65.86000061035156
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "獅山里",
+    "candidateVotes": {
+      "coast": 377,
+      "savannah": 1078,
+      "rainforest": 198
+    },
+    "validVotes": 1653,
+    "invalidVotes": 15,
+    "totalVotes": 1668,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1668,
+    "remainingVotes": 769,
+    "eligibleVoters": 2437,
+    "voterTurnout": 68.44000244140625
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "龍肚里",
+    "candidateVotes": {
+      "coast": 337,
+      "savannah": 600,
+      "rainforest": 107
+    },
+    "validVotes": 1044,
+    "invalidVotes": 14,
+    "totalVotes": 1058,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1058,
+    "remainingVotes": 477,
+    "eligibleVoters": 1535,
+    "voterTurnout": 68.93000030517578
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "廣德里",
+    "candidateVotes": {
+      "coast": 214,
+      "savannah": 584,
+      "rainforest": 94
+    },
+    "validVotes": 892,
+    "invalidVotes": 7,
+    "totalVotes": 899,
+    "receivedUnvoted": 0,
+    "issuedVotes": 899,
+    "remainingVotes": 456,
+    "eligibleVoters": 1355,
+    "voterTurnout": 66.3499984741211
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "興隆里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 504,
+      "rainforest": 74
+    },
+    "validVotes": 766,
+    "invalidVotes": 6,
+    "totalVotes": 772,
+    "receivedUnvoted": 0,
+    "issuedVotes": 772,
+    "remainingVotes": 422,
+    "eligibleVoters": 1194,
+    "voterTurnout": 64.66000366210938
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "中圳里",
+    "candidateVotes": {
+      "coast": 382,
+      "savannah": 787,
+      "rainforest": 132
+    },
+    "validVotes": 1301,
+    "invalidVotes": 9,
+    "totalVotes": 1310,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1310,
+    "remainingVotes": 695,
+    "eligibleVoters": 2005,
+    "voterTurnout": 65.33999633789062
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "東門里",
+    "candidateVotes": {
+      "coast": 230,
+      "savannah": 471,
+      "rainforest": 71
+    },
+    "validVotes": 772,
+    "invalidVotes": 17,
+    "totalVotes": 789,
+    "receivedUnvoted": 0,
+    "issuedVotes": 789,
+    "remainingVotes": 467,
+    "eligibleVoters": 1256,
+    "voterTurnout": 62.81999969482422
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "泰安里",
+    "candidateVotes": {
+      "coast": 340,
+      "savannah": 493,
+      "rainforest": 115
+    },
+    "validVotes": 948,
+    "invalidVotes": 11,
+    "totalVotes": 959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 959,
+    "remainingVotes": 533,
+    "eligibleVoters": 1492,
+    "voterTurnout": 64.27999877929688
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "瀰濃里",
+    "candidateVotes": {
+      "coast": 464,
+      "savannah": 785,
+      "rainforest": 138
+    },
+    "validVotes": 1387,
+    "invalidVotes": 13,
+    "totalVotes": 1400,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1400,
+    "remainingVotes": 831,
+    "eligibleVoters": 2231,
+    "voterTurnout": 62.75
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "清水里",
+    "candidateVotes": {
+      "coast": 320,
+      "savannah": 716,
+      "rainforest": 121
+    },
+    "validVotes": 1157,
+    "invalidVotes": 12,
+    "totalVotes": 1169,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1169,
+    "remainingVotes": 577,
+    "eligibleVoters": 1746,
+    "voterTurnout": 66.94999694824219
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "吉洋里",
+    "candidateVotes": {
+      "coast": 363,
+      "savannah": 783,
+      "rainforest": 101
+    },
+    "validVotes": 1247,
+    "invalidVotes": 26,
+    "totalVotes": 1273,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1273,
+    "remainingVotes": 617,
+    "eligibleVoters": 1890,
+    "voterTurnout": 67.3499984741211
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "吉和里",
+    "candidateVotes": {
+      "coast": 272,
+      "savannah": 490,
+      "rainforest": 111
+    },
+    "validVotes": 873,
+    "invalidVotes": 8,
+    "totalVotes": 881,
+    "receivedUnvoted": 0,
+    "issuedVotes": 881,
+    "remainingVotes": 474,
+    "eligibleVoters": 1355,
+    "voterTurnout": 65.0199966430664
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "吉東里",
+    "candidateVotes": {
+      "coast": 286,
+      "savannah": 735,
+      "rainforest": 117
+    },
+    "validVotes": 1138,
+    "invalidVotes": 12,
+    "totalVotes": 1150,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1150,
+    "remainingVotes": 583,
+    "eligibleVoters": 1733,
+    "voterTurnout": 66.36000061035156
+  },
+  {
+    "administrativeDivision": "美濃區",
+    "village": "廣林里",
+    "candidateVotes": {
+      "coast": 245,
+      "savannah": 639,
+      "rainforest": 106
+    },
+    "validVotes": 990,
+    "invalidVotes": 12,
+    "totalVotes": 1002,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1002,
+    "remainingVotes": 513,
+    "eligibleVoters": 1515,
+    "voterTurnout": 66.13999938964844
+  }
+]

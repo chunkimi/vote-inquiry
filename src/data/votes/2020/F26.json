@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "萬里區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 462,
+      "coast": 5206,
+      "savannah": 7213
+    },
+    "validVotes": 12881,
+    "invalidVotes": 129,
+    "totalVotes": 13010,
+    "receivedUnvoted": 0,
+    "issuedVotes": 13010,
+    "remainingVotes": 5746,
+    "eligibleVoters": 18756,
+    "voterTurnout": 69.3645
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "萬里里",
+    "candidateVotes": {
+      "rainforest": 106,
+      "coast": 1156,
+      "savannah": 1681
+    },
+    "validVotes": 2943,
+    "invalidVotes": 30,
+    "totalVotes": 2973,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2973,
+    "remainingVotes": 1194,
+    "eligibleVoters": 4167,
+    "voterTurnout": 71.3463
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "北基里",
+    "candidateVotes": {
+      "rainforest": 76,
+      "coast": 814,
+      "savannah": 844
+    },
+    "validVotes": 1734,
+    "invalidVotes": 16,
+    "totalVotes": 1750,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1750,
+    "remainingVotes": 980,
+    "eligibleVoters": 2730,
+    "voterTurnout": 64.1026
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "龜吼里",
+    "candidateVotes": {
+      "rainforest": 52,
+      "coast": 686,
+      "savannah": 919
+    },
+    "validVotes": 1657,
+    "invalidVotes": 19,
+    "totalVotes": 1676,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1676,
+    "remainingVotes": 807,
+    "eligibleVoters": 2483,
+    "voterTurnout": 67.499
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "野柳里",
+    "candidateVotes": {
+      "rainforest": 58,
+      "coast": 840,
+      "savannah": 1251
+    },
+    "validVotes": 2149,
+    "invalidVotes": 21,
+    "totalVotes": 2170,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2170,
+    "remainingVotes": 957,
+    "eligibleVoters": 3127,
+    "voterTurnout": 69.3956
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "大鵬里",
+    "candidateVotes": {
+      "rainforest": 68,
+      "coast": 791,
+      "savannah": 1020
+    },
+    "validVotes": 1879,
+    "invalidVotes": 21,
+    "totalVotes": 1900,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1900,
+    "remainingVotes": 717,
+    "eligibleVoters": 2617,
+    "voterTurnout": 72.6022
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "磺潭里",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 173,
+      "savannah": 206
+    },
+    "validVotes": 396,
+    "invalidVotes": 2,
+    "totalVotes": 398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 398,
+    "remainingVotes": 176,
+    "eligibleVoters": 574,
+    "voterTurnout": 69.338
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "雙興里",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 238,
+      "savannah": 421
+    },
+    "validVotes": 688,
+    "invalidVotes": 8,
+    "totalVotes": 696,
+    "receivedUnvoted": 0,
+    "issuedVotes": 696,
+    "remainingVotes": 254,
+    "eligibleVoters": 950,
+    "voterTurnout": 73.2632
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "溪底里",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 143,
+      "savannah": 288
+    },
+    "validVotes": 444,
+    "invalidVotes": 4,
+    "totalVotes": 448,
+    "receivedUnvoted": 0,
+    "issuedVotes": 448,
+    "remainingVotes": 203,
+    "eligibleVoters": 651,
+    "voterTurnout": 68.8172
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "崁脚里",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 91,
+      "savannah": 167
+    },
+    "validVotes": 275,
+    "invalidVotes": 2,
+    "totalVotes": 277,
+    "receivedUnvoted": 0,
+    "issuedVotes": 277,
+    "remainingVotes": 123,
+    "eligibleVoters": 400,
+    "voterTurnout": 69.25
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "中幅里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 274,
+      "savannah": 416
+    },
+    "validVotes": 716,
+    "invalidVotes": 6,
+    "totalVotes": 722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 722,
+    "remainingVotes": 335,
+    "eligibleVoters": 1057,
+    "voterTurnout": 68.3065
+  }
+]

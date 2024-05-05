@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 95,
+      "coast": 2392,
+      "savannah": 797
+    },
+    "validVotes": 3284,
+    "invalidVotes": 24,
+    "totalVotes": 3308,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3308,
+    "remainingVotes": 922,
+    "eligibleVoters": 4230,
+    "voterTurnout": 78.2033
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "佳平村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 494,
+      "savannah": 148
+    },
+    "validVotes": 657,
+    "invalidVotes": 6,
+    "totalVotes": 663,
+    "receivedUnvoted": 0,
+    "issuedVotes": 663,
+    "remainingVotes": 161,
+    "eligibleVoters": 824,
+    "voterTurnout": 80.4612
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "武潭村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 524,
+      "savannah": 144
+    },
+    "validVotes": 688,
+    "invalidVotes": 2,
+    "totalVotes": 690,
+    "receivedUnvoted": 0,
+    "issuedVotes": 690,
+    "remainingVotes": 205,
+    "eligibleVoters": 895,
+    "voterTurnout": 77.095
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "平和村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 246,
+      "savannah": 232
+    },
+    "validVotes": 491,
+    "invalidVotes": 6,
+    "totalVotes": 497,
+    "receivedUnvoted": 0,
+    "issuedVotes": 497,
+    "remainingVotes": 87,
+    "eligibleVoters": 584,
+    "voterTurnout": 85.1027
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "萬安村",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 454,
+      "savannah": 103
+    },
+    "validVotes": 582,
+    "invalidVotes": 3,
+    "totalVotes": 585,
+    "receivedUnvoted": 0,
+    "issuedVotes": 585,
+    "remainingVotes": 164,
+    "eligibleVoters": 749,
+    "voterTurnout": 78.1041
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "佳興村",
+    "candidateVotes": {
+      "rainforest": 3,
+      "coast": 224,
+      "savannah": 53
+    },
+    "validVotes": 280,
+    "invalidVotes": 1,
+    "totalVotes": 281,
+    "receivedUnvoted": 0,
+    "issuedVotes": 281,
+    "remainingVotes": 124,
+    "eligibleVoters": 405,
+    "voterTurnout": 69.3827
+  },
+  {
+    "administrativeDivision": "泰武鄉",
+    "village": "泰武村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 450,
+      "savannah": 117
+    },
+    "validVotes": 586,
+    "invalidVotes": 6,
+    "totalVotes": 592,
+    "receivedUnvoted": 0,
+    "issuedVotes": 592,
+    "remainingVotes": 181,
+    "eligibleVoters": 773,
+    "voterTurnout": 76.5847
+  }
+]

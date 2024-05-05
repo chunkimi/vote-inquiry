@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 69,
+      "coast": 1496,
+      "savannah": 669
+    },
+    "validVotes": 2234,
+    "invalidVotes": 13,
+    "totalVotes": 2247,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2247,
+    "remainingVotes": 592,
+    "eligibleVoters": 2839,
+    "voterTurnout": 79.1476
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "霧台村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 569,
+      "savannah": 296
+    },
+    "validVotes": 888,
+    "invalidVotes": 4,
+    "totalVotes": 892,
+    "receivedUnvoted": 0,
+    "issuedVotes": 892,
+    "remainingVotes": 221,
+    "eligibleVoters": 1113,
+    "voterTurnout": 80.1438
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "吉露村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 103,
+      "savannah": 29
+    },
+    "validVotes": 137,
+    "invalidVotes": 0,
+    "totalVotes": 137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 137,
+    "remainingVotes": 38,
+    "eligibleVoters": 175,
+    "voterTurnout": 78.2857
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "阿禮村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 172,
+      "savannah": 58
+    },
+    "validVotes": 237,
+    "invalidVotes": 1,
+    "totalVotes": 238,
+    "receivedUnvoted": 0,
+    "issuedVotes": 238,
+    "remainingVotes": 54,
+    "eligibleVoters": 292,
+    "voterTurnout": 81.5068
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "好茶村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 227,
+      "savannah": 156
+    },
+    "validVotes": 396,
+    "invalidVotes": 3,
+    "totalVotes": 399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 399,
+    "remainingVotes": 85,
+    "eligibleVoters": 484,
+    "voterTurnout": 82.438
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "佳暮村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 200,
+      "savannah": 51
+    },
+    "validVotes": 263,
+    "invalidVotes": 3,
+    "totalVotes": 266,
+    "receivedUnvoted": 0,
+    "issuedVotes": 266,
+    "remainingVotes": 71,
+    "eligibleVoters": 337,
+    "voterTurnout": 78.9318
+  },
+  {
+    "administrativeDivision": "霧臺鄉",
+    "village": "大武村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 225,
+      "savannah": 79
+    },
+    "validVotes": 313,
+    "invalidVotes": 2,
+    "totalVotes": 315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 315,
+    "remainingVotes": 123,
+    "eligibleVoters": 438,
+    "voterTurnout": 71.9178
+  }
+]

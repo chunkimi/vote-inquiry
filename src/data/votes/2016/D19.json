@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "大內區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1010,
+      "savannah": 3984,
+      "rainforest": 524
+    },
+    "validVotes": 5518,
+    "invalidVotes": 92,
+    "totalVotes": 5610,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5610,
+    "remainingVotes": 3020,
+    "eligibleVoters": 8630,
+    "voterTurnout": 65.01000213623047
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石湖里",
+    "candidateVotes": {
+      "coast": 119,
+      "savannah": 471,
+      "rainforest": 54
+    },
+    "validVotes": 644,
+    "invalidVotes": 12,
+    "totalVotes": 656,
+    "receivedUnvoted": 0,
+    "issuedVotes": 656,
+    "remainingVotes": 358,
+    "eligibleVoters": 1014,
+    "voterTurnout": 64.69000244140625
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石林里",
+    "candidateVotes": {
+      "coast": 43,
+      "savannah": 363,
+      "rainforest": 41
+    },
+    "validVotes": 447,
+    "invalidVotes": 9,
+    "totalVotes": 456,
+    "receivedUnvoted": 0,
+    "issuedVotes": 456,
+    "remainingVotes": 198,
+    "eligibleVoters": 654,
+    "voterTurnout": 69.72000122070312
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石城里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 707,
+      "rainforest": 74
+    },
+    "validVotes": 937,
+    "invalidVotes": 15,
+    "totalVotes": 952,
+    "receivedUnvoted": 0,
+    "issuedVotes": 952,
+    "remainingVotes": 500,
+    "eligibleVoters": 1452,
+    "voterTurnout": 65.55999755859375
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "內江里",
+    "candidateVotes": {
+      "coast": 135,
+      "savannah": 402,
+      "rainforest": 52
+    },
+    "validVotes": 589,
+    "invalidVotes": 15,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 332,
+    "eligibleVoters": 936,
+    "voterTurnout": 64.52999877929688
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "大內里",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 368,
+      "rainforest": 46
+    },
+    "validVotes": 531,
+    "invalidVotes": 10,
+    "totalVotes": 541,
+    "receivedUnvoted": 0,
+    "issuedVotes": 541,
+    "remainingVotes": 257,
+    "eligibleVoters": 798,
+    "voterTurnout": 67.79000091552734
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "內郭里",
+    "candidateVotes": {
+      "coast": 67,
+      "savannah": 289,
+      "rainforest": 28
+    },
+    "validVotes": 384,
+    "invalidVotes": 7,
+    "totalVotes": 391,
+    "receivedUnvoted": 0,
+    "issuedVotes": 391,
+    "remainingVotes": 224,
+    "eligibleVoters": 615,
+    "voterTurnout": 63.58000183105469
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "頭社里",
+    "candidateVotes": {
+      "coast": 103,
+      "savannah": 441,
+      "rainforest": 55
+    },
+    "validVotes": 599,
+    "invalidVotes": 7,
+    "totalVotes": 606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 606,
+    "remainingVotes": 389,
+    "eligibleVoters": 995,
+    "voterTurnout": 60.900001525878906
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "環湖里",
+    "candidateVotes": {
+      "coast": 104,
+      "savannah": 273,
+      "rainforest": 64
+    },
+    "validVotes": 441,
+    "invalidVotes": 8,
+    "totalVotes": 449,
+    "receivedUnvoted": 0,
+    "issuedVotes": 449,
+    "remainingVotes": 296,
+    "eligibleVoters": 745,
+    "voterTurnout": 60.27000045776367
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "二溪里",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 374,
+      "rainforest": 61
+    },
+    "validVotes": 552,
+    "invalidVotes": 6,
+    "totalVotes": 558,
+    "receivedUnvoted": 0,
+    "issuedVotes": 558,
+    "remainingVotes": 285,
+    "eligibleVoters": 843,
+    "voterTurnout": 66.19000244140625
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "曲溪里",
+    "candidateVotes": {
+      "coast": 49,
+      "savannah": 296,
+      "rainforest": 49
+    },
+    "validVotes": 394,
+    "invalidVotes": 3,
+    "totalVotes": 397,
+    "receivedUnvoted": 0,
+    "issuedVotes": 397,
+    "remainingVotes": 181,
+    "eligibleVoters": 578,
+    "voterTurnout": 68.69000244140625
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 3142,
+      "coast": 8351,
+      "rainforest": 455
+    },
+    "validVotes": 11948,
+    "invalidVotes": 137,
+    "totalVotes": 12085,
+    "receivedUnvoted": 1,
+    "issuedVotes": 12086,
+    "remainingVotes": 9092,
+    "eligibleVoters": 21178,
+    "voterTurnout": 57.060001373291016
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "中城里",
+    "candidateVotes": {
+      "savannah": 872,
+      "coast": 2055,
+      "rainforest": 118
+    },
+    "validVotes": 3045,
+    "invalidVotes": 21,
+    "totalVotes": 3066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3066,
+    "remainingVotes": 1773,
+    "eligibleVoters": 4839,
+    "voterTurnout": 63.36000061035156
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "國武里",
+    "candidateVotes": {
+      "savannah": 255,
+      "coast": 557,
+      "rainforest": 30
+    },
+    "validVotes": 842,
+    "invalidVotes": 4,
+    "totalVotes": 846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 846,
+    "remainingVotes": 409,
+    "eligibleVoters": 1255,
+    "voterTurnout": 67.41000366210938
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "啟模里",
+    "candidateVotes": {
+      "savannah": 308,
+      "coast": 645,
+      "rainforest": 56
+    },
+    "validVotes": 1009,
+    "invalidVotes": 7,
+    "totalVotes": 1016,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1016,
+    "remainingVotes": 601,
+    "eligibleVoters": 1617,
+    "voterTurnout": 62.83000183105469
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "泰昌里",
+    "candidateVotes": {
+      "savannah": 123,
+      "coast": 490,
+      "rainforest": 18
+    },
+    "validVotes": 631,
+    "invalidVotes": 12,
+    "totalVotes": 643,
+    "receivedUnvoted": 0,
+    "issuedVotes": 643,
+    "remainingVotes": 1036,
+    "eligibleVoters": 1679,
+    "voterTurnout": 38.29999923706055
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "永昌里",
+    "candidateVotes": {
+      "savannah": 173,
+      "coast": 547,
+      "rainforest": 33
+    },
+    "validVotes": 753,
+    "invalidVotes": 9,
+    "totalVotes": 762,
+    "receivedUnvoted": 0,
+    "issuedVotes": 762,
+    "remainingVotes": 601,
+    "eligibleVoters": 1363,
+    "voterTurnout": 55.90999984741211
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "源城里",
+    "candidateVotes": {
+      "savannah": 225,
+      "coast": 474,
+      "rainforest": 45
+    },
+    "validVotes": 744,
+    "invalidVotes": 9,
+    "totalVotes": 753,
+    "receivedUnvoted": 0,
+    "issuedVotes": 753,
+    "remainingVotes": 528,
+    "eligibleVoters": 1281,
+    "voterTurnout": 58.779998779296875
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "長良里",
+    "candidateVotes": {
+      "savannah": 58,
+      "coast": 286,
+      "rainforest": 11
+    },
+    "validVotes": 355,
+    "invalidVotes": 5,
+    "totalVotes": 360,
+    "receivedUnvoted": 0,
+    "issuedVotes": 360,
+    "remainingVotes": 343,
+    "eligibleVoters": 703,
+    "voterTurnout": 51.209999084472656
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "樂合里",
+    "candidateVotes": {
+      "savannah": 83,
+      "coast": 435,
+      "rainforest": 11
+    },
+    "validVotes": 529,
+    "invalidVotes": 9,
+    "totalVotes": 538,
+    "receivedUnvoted": 0,
+    "issuedVotes": 538,
+    "remainingVotes": 509,
+    "eligibleVoters": 1047,
+    "voterTurnout": 51.380001068115234
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "東豐里",
+    "candidateVotes": {
+      "savannah": 82,
+      "coast": 226,
+      "rainforest": 12
+    },
+    "validVotes": 320,
+    "invalidVotes": 5,
+    "totalVotes": 325,
+    "receivedUnvoted": 0,
+    "issuedVotes": 325,
+    "remainingVotes": 209,
+    "eligibleVoters": 534,
+    "voterTurnout": 60.86000061035156
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "觀音里",
+    "candidateVotes": {
+      "savannah": 201,
+      "coast": 613,
+      "rainforest": 37
+    },
+    "validVotes": 851,
+    "invalidVotes": 16,
+    "totalVotes": 867,
+    "receivedUnvoted": 1,
+    "issuedVotes": 868,
+    "remainingVotes": 723,
+    "eligibleVoters": 1591,
+    "voterTurnout": 54.4900016784668
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "松浦里",
+    "candidateVotes": {
+      "savannah": 162,
+      "coast": 561,
+      "rainforest": 19
+    },
+    "validVotes": 742,
+    "invalidVotes": 17,
+    "totalVotes": 759,
+    "receivedUnvoted": 0,
+    "issuedVotes": 759,
+    "remainingVotes": 842,
+    "eligibleVoters": 1601,
+    "voterTurnout": 47.40999984741211
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "春日里",
+    "candidateVotes": {
+      "savannah": 143,
+      "coast": 348,
+      "rainforest": 20
+    },
+    "validVotes": 511,
+    "invalidVotes": 3,
+    "totalVotes": 514,
+    "receivedUnvoted": 0,
+    "issuedVotes": 514,
+    "remainingVotes": 370,
+    "eligibleVoters": 884,
+    "voterTurnout": 58.13999938964844
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "德武里",
+    "candidateVotes": {
+      "savannah": 42,
+      "coast": 336,
+      "rainforest": 3
+    },
+    "validVotes": 381,
+    "invalidVotes": 2,
+    "totalVotes": 383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 383,
+    "remainingVotes": 352,
+    "eligibleVoters": 735,
+    "voterTurnout": 52.11000061035156
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "三民里",
+    "candidateVotes": {
+      "savannah": 220,
+      "coast": 333,
+      "rainforest": 26
+    },
+    "validVotes": 579,
+    "invalidVotes": 8,
+    "totalVotes": 587,
+    "receivedUnvoted": 0,
+    "issuedVotes": 587,
+    "remainingVotes": 337,
+    "eligibleVoters": 924,
+    "voterTurnout": 63.529998779296875
+  },
+  {
+    "administrativeDivision": "玉里鎮",
+    "village": "大禹里",
+    "candidateVotes": {
+      "savannah": 195,
+      "coast": 445,
+      "rainforest": 16
+    },
+    "validVotes": 656,
+    "invalidVotes": 10,
+    "totalVotes": 666,
+    "receivedUnvoted": 0,
+    "issuedVotes": 666,
+    "remainingVotes": 459,
+    "eligibleVoters": 1125,
+    "voterTurnout": 59.20000076293945
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1555,
+      "coast": 5106,
+      "rainforest": 206
+    },
+    "validVotes": 6867,
+    "invalidVotes": 67,
+    "totalVotes": 6934,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6934,
+    "remainingVotes": 5794,
+    "eligibleVoters": 12728,
+    "voterTurnout": 54.47999954223633
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "信義里",
+    "candidateVotes": {
+      "savannah": 164,
+      "coast": 775,
+      "rainforest": 37
+    },
+    "validVotes": 976,
+    "invalidVotes": 7,
+    "totalVotes": 983,
+    "receivedUnvoted": 0,
+    "issuedVotes": 983,
+    "remainingVotes": 936,
+    "eligibleVoters": 1919,
+    "voterTurnout": 51.220001220703125
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "和平里",
+    "candidateVotes": {
+      "savannah": 72,
+      "coast": 293,
+      "rainforest": 5
+    },
+    "validVotes": 370,
+    "invalidVotes": 2,
+    "totalVotes": 372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 372,
+    "remainingVotes": 407,
+    "eligibleVoters": 779,
+    "voterTurnout": 47.75
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "忠仁里",
+    "candidateVotes": {
+      "savannah": 377,
+      "coast": 911,
+      "rainforest": 42
+    },
+    "validVotes": 1330,
+    "invalidVotes": 11,
+    "totalVotes": 1341,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1341,
+    "remainingVotes": 866,
+    "eligibleVoters": 2207,
+    "voterTurnout": 60.7599983215332
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "忠智里",
+    "candidateVotes": {
+      "savannah": 318,
+      "coast": 826,
+      "rainforest": 34
+    },
+    "validVotes": 1178,
+    "invalidVotes": 6,
+    "totalVotes": 1184,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1184,
+    "remainingVotes": 717,
+    "eligibleVoters": 1901,
+    "voterTurnout": 62.279998779296875
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "三民里",
+    "candidateVotes": {
+      "savannah": 271,
+      "coast": 1121,
+      "rainforest": 46
+    },
+    "validVotes": 1438,
+    "invalidVotes": 19,
+    "totalVotes": 1457,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1457,
+    "remainingVotes": 1249,
+    "eligibleVoters": 2706,
+    "voterTurnout": 53.84000015258789
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "三仙里",
+    "candidateVotes": {
+      "savannah": 154,
+      "coast": 551,
+      "rainforest": 20
+    },
+    "validVotes": 725,
+    "invalidVotes": 12,
+    "totalVotes": 737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 737,
+    "remainingVotes": 760,
+    "eligibleVoters": 1497,
+    "voterTurnout": 49.22999954223633
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "savannah": 146,
+      "coast": 367,
+      "rainforest": 15
+    },
+    "validVotes": 528,
+    "invalidVotes": 4,
+    "totalVotes": 532,
+    "receivedUnvoted": 0,
+    "issuedVotes": 532,
+    "remainingVotes": 516,
+    "eligibleVoters": 1048,
+    "voterTurnout": 50.7599983215332
+  },
+  {
+    "administrativeDivision": "成功鎮",
+    "village": "博愛里",
+    "candidateVotes": {
+      "savannah": 53,
+      "coast": 262,
+      "rainforest": 7
+    },
+    "validVotes": 322,
+    "invalidVotes": 6,
+    "totalVotes": 328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 328,
+    "remainingVotes": 343,
+    "eligibleVoters": 671,
+    "voterTurnout": 48.880001068115234
+  }
+]

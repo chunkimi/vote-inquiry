@@ -1,0 +1,223 @@
+[
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2771,
+      "savannah": 7127,
+      "rainforest": 1331
+    },
+    "validVotes": 11229,
+    "invalidVotes": 187,
+    "totalVotes": 11416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 11416,
+    "remainingVotes": 4557,
+    "eligibleVoters": 15973,
+    "voterTurnout": 71.47000122070312
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "光和里",
+    "candidateVotes": {
+      "coast": 196,
+      "savannah": 535,
+      "rainforest": 101
+    },
+    "validVotes": 832,
+    "invalidVotes": 15,
+    "totalVotes": 847,
+    "receivedUnvoted": 0,
+    "issuedVotes": 847,
+    "remainingVotes": 369,
+    "eligibleVoters": 1216,
+    "voterTurnout": 69.6500015258789
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "彌靖里",
+    "candidateVotes": {
+      "coast": 327,
+      "savannah": 811,
+      "rainforest": 107
+    },
+    "validVotes": 1245,
+    "invalidVotes": 17,
+    "totalVotes": 1262,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1262,
+    "remainingVotes": 495,
+    "eligibleVoters": 1757,
+    "voterTurnout": 71.83000183105469
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "彌仁里",
+    "candidateVotes": {
+      "coast": 106,
+      "savannah": 237,
+      "rainforest": 39
+    },
+    "validVotes": 382,
+    "invalidVotes": 4,
+    "totalVotes": 386,
+    "receivedUnvoted": 0,
+    "issuedVotes": 386,
+    "remainingVotes": 164,
+    "eligibleVoters": 550,
+    "voterTurnout": 70.18000030517578
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "彌壽里",
+    "candidateVotes": {
+      "coast": 175,
+      "savannah": 293,
+      "rainforest": 57
+    },
+    "validVotes": 525,
+    "invalidVotes": 11,
+    "totalVotes": 536,
+    "receivedUnvoted": 0,
+    "issuedVotes": 536,
+    "remainingVotes": 184,
+    "eligibleVoters": 720,
+    "voterTurnout": 74.44000244140625
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "彌陀里",
+    "candidateVotes": {
+      "coast": 347,
+      "savannah": 692,
+      "rainforest": 142
+    },
+    "validVotes": 1181,
+    "invalidVotes": 21,
+    "totalVotes": 1202,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1202,
+    "remainingVotes": 462,
+    "eligibleVoters": 1664,
+    "voterTurnout": 72.23999786376953
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "舊港里",
+    "candidateVotes": {
+      "coast": 234,
+      "savannah": 702,
+      "rainforest": 165
+    },
+    "validVotes": 1101,
+    "invalidVotes": 11,
+    "totalVotes": 1112,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1112,
+    "remainingVotes": 451,
+    "eligibleVoters": 1563,
+    "voterTurnout": 71.1500015258789
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "文安里",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 841,
+      "rainforest": 136
+    },
+    "validVotes": 1213,
+    "invalidVotes": 24,
+    "totalVotes": 1237,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1237,
+    "remainingVotes": 443,
+    "eligibleVoters": 1680,
+    "voterTurnout": 73.62999725341797
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "過港里",
+    "candidateVotes": {
+      "coast": 157,
+      "savannah": 411,
+      "rainforest": 74
+    },
+    "validVotes": 642,
+    "invalidVotes": 13,
+    "totalVotes": 655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 655,
+    "remainingVotes": 229,
+    "eligibleVoters": 884,
+    "voterTurnout": 74.0999984741211
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "鹽埕里",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 914,
+      "rainforest": 192
+    },
+    "validVotes": 1391,
+    "invalidVotes": 24,
+    "totalVotes": 1415,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1415,
+    "remainingVotes": 578,
+    "eligibleVoters": 1993,
+    "voterTurnout": 71
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "海尾里",
+    "candidateVotes": {
+      "coast": 150,
+      "savannah": 323,
+      "rainforest": 83
+    },
+    "validVotes": 556,
+    "invalidVotes": 15,
+    "totalVotes": 571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 571,
+    "remainingVotes": 253,
+    "eligibleVoters": 824,
+    "voterTurnout": 69.30000305175781
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "漯底里",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 485,
+      "rainforest": 69
+    },
+    "validVotes": 790,
+    "invalidVotes": 10,
+    "totalVotes": 800,
+    "receivedUnvoted": 0,
+    "issuedVotes": 800,
+    "remainingVotes": 289,
+    "eligibleVoters": 1089,
+    "voterTurnout": 73.45999908447266
+  },
+  {
+    "administrativeDivision": "彌陀區",
+    "village": "南寮里",
+    "candidateVotes": {
+      "coast": 322,
+      "savannah": 883,
+      "rainforest": 166
+    },
+    "validVotes": 1371,
+    "invalidVotes": 22,
+    "totalVotes": 1393,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1393,
+    "remainingVotes": 640,
+    "eligibleVoters": 2033,
+    "voterTurnout": 68.5199966430664
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 7318,
+      "coast": 5043,
+      "rainforest": 251
+    },
+    "validVotes": 12612,
+    "invalidVotes": 226,
+    "totalVotes": 12838,
+    "receivedUnvoted": 0,
+    "issuedVotes": 12838,
+    "remainingVotes": 9319,
+    "eligibleVoters": 22157,
+    "voterTurnout": 57.939998626708984
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "四湖村",
+    "candidateVotes": {
+      "savannah": 654,
+      "coast": 484,
+      "rainforest": 24
+    },
+    "validVotes": 1162,
+    "invalidVotes": 21,
+    "totalVotes": 1183,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1183,
+    "remainingVotes": 572,
+    "eligibleVoters": 1755,
+    "voterTurnout": 67.41000366210938
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "湖西村",
+    "candidateVotes": {
+      "savannah": 777,
+      "coast": 691,
+      "rainforest": 30
+    },
+    "validVotes": 1498,
+    "invalidVotes": 25,
+    "totalVotes": 1523,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1523,
+    "remainingVotes": 700,
+    "eligibleVoters": 2223,
+    "voterTurnout": 68.51000213623047
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "新庄村",
+    "candidateVotes": {
+      "savannah": 258,
+      "coast": 151,
+      "rainforest": 10
+    },
+    "validVotes": 419,
+    "invalidVotes": 9,
+    "totalVotes": 428,
+    "receivedUnvoted": 0,
+    "issuedVotes": 428,
+    "remainingVotes": 248,
+    "eligibleVoters": 676,
+    "voterTurnout": 63.310001373291016
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "溪底村",
+    "candidateVotes": {
+      "savannah": 398,
+      "coast": 218,
+      "rainforest": 14
+    },
+    "validVotes": 630,
+    "invalidVotes": 7,
+    "totalVotes": 637,
+    "receivedUnvoted": 0,
+    "issuedVotes": 637,
+    "remainingVotes": 423,
+    "eligibleVoters": 1060,
+    "voterTurnout": 60.09000015258789
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "鹿場村",
+    "candidateVotes": {
+      "savannah": 370,
+      "coast": 236,
+      "rainforest": 13
+    },
+    "validVotes": 619,
+    "invalidVotes": 10,
+    "totalVotes": 629,
+    "receivedUnvoted": 0,
+    "issuedVotes": 629,
+    "remainingVotes": 422,
+    "eligibleVoters": 1051,
+    "voterTurnout": 59.849998474121094
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "蔡厝村",
+    "candidateVotes": {
+      "savannah": 329,
+      "coast": 189,
+      "rainforest": 10
+    },
+    "validVotes": 528,
+    "invalidVotes": 10,
+    "totalVotes": 538,
+    "receivedUnvoted": 0,
+    "issuedVotes": 538,
+    "remainingVotes": 383,
+    "eligibleVoters": 921,
+    "voterTurnout": 58.40999984741211
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "湖寮村",
+    "candidateVotes": {
+      "savannah": 305,
+      "coast": 159,
+      "rainforest": 7
+    },
+    "validVotes": 471,
+    "invalidVotes": 11,
+    "totalVotes": 482,
+    "receivedUnvoted": 0,
+    "issuedVotes": 482,
+    "remainingVotes": 356,
+    "eligibleVoters": 838,
+    "voterTurnout": 57.52000045776367
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "施湖村",
+    "candidateVotes": {
+      "savannah": 389,
+      "coast": 282,
+      "rainforest": 16
+    },
+    "validVotes": 687,
+    "invalidVotes": 25,
+    "totalVotes": 712,
+    "receivedUnvoted": 0,
+    "issuedVotes": 712,
+    "remainingVotes": 523,
+    "eligibleVoters": 1235,
+    "voterTurnout": 57.650001525878906
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "羊調村",
+    "candidateVotes": {
+      "savannah": 327,
+      "coast": 263,
+      "rainforest": 8
+    },
+    "validVotes": 598,
+    "invalidVotes": 10,
+    "totalVotes": 608,
+    "receivedUnvoted": 0,
+    "issuedVotes": 608,
+    "remainingVotes": 467,
+    "eligibleVoters": 1075,
+    "voterTurnout": 56.560001373291016
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "內湖村",
+    "candidateVotes": {
+      "savannah": 287,
+      "coast": 153,
+      "rainforest": 10
+    },
+    "validVotes": 450,
+    "invalidVotes": 8,
+    "totalVotes": 458,
+    "receivedUnvoted": 0,
+    "issuedVotes": 458,
+    "remainingVotes": 411,
+    "eligibleVoters": 869,
+    "voterTurnout": 52.70000076293945
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "飛東村",
+    "candidateVotes": {
+      "savannah": 187,
+      "coast": 131,
+      "rainforest": 6
+    },
+    "validVotes": 324,
+    "invalidVotes": 6,
+    "totalVotes": 330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 330,
+    "remainingVotes": 284,
+    "eligibleVoters": 614,
+    "voterTurnout": 53.75
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "飛沙村",
+    "candidateVotes": {
+      "savannah": 219,
+      "coast": 260,
+      "rainforest": 12
+    },
+    "validVotes": 491,
+    "invalidVotes": 5,
+    "totalVotes": 496,
+    "receivedUnvoted": 0,
+    "issuedVotes": 496,
+    "remainingVotes": 442,
+    "eligibleVoters": 938,
+    "voterTurnout": 52.880001068115234
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "三姓村",
+    "candidateVotes": {
+      "savannah": 109,
+      "coast": 107,
+      "rainforest": 5
+    },
+    "validVotes": 221,
+    "invalidVotes": 5,
+    "totalVotes": 226,
+    "receivedUnvoted": 0,
+    "issuedVotes": 226,
+    "remainingVotes": 164,
+    "eligibleVoters": 390,
+    "voterTurnout": 57.95000076293945
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "崙北村",
+    "candidateVotes": {
+      "savannah": 502,
+      "coast": 409,
+      "rainforest": 11
+    },
+    "validVotes": 922,
+    "invalidVotes": 15,
+    "totalVotes": 937,
+    "receivedUnvoted": 0,
+    "issuedVotes": 937,
+    "remainingVotes": 784,
+    "eligibleVoters": 1721,
+    "voterTurnout": 54.45000076293945
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "崙南村",
+    "candidateVotes": {
+      "savannah": 238,
+      "coast": 207,
+      "rainforest": 11
+    },
+    "validVotes": 456,
+    "invalidVotes": 12,
+    "totalVotes": 468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 468,
+    "remainingVotes": 423,
+    "eligibleVoters": 891,
+    "voterTurnout": 52.529998779296875
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "廣溝村",
+    "candidateVotes": {
+      "savannah": 183,
+      "coast": 210,
+      "rainforest": 11
+    },
+    "validVotes": 404,
+    "invalidVotes": 4,
+    "totalVotes": 408,
+    "receivedUnvoted": 0,
+    "issuedVotes": 408,
+    "remainingVotes": 365,
+    "eligibleVoters": 773,
+    "voterTurnout": 52.779998779296875
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "子村",
+    "candidateVotes": {
+      "savannah": 380,
+      "coast": 129,
+      "rainforest": 7
+    },
+    "validVotes": 516,
+    "invalidVotes": 12,
+    "totalVotes": 528,
+    "receivedUnvoted": 0,
+    "issuedVotes": 528,
+    "remainingVotes": 479,
+    "eligibleVoters": 1007,
+    "voterTurnout": 52.43000030517578
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "東村",
+    "candidateVotes": {
+      "savannah": 482,
+      "coast": 118,
+      "rainforest": 12
+    },
+    "validVotes": 612,
+    "invalidVotes": 9,
+    "totalVotes": 621,
+    "receivedUnvoted": 0,
+    "issuedVotes": 621,
+    "remainingVotes": 500,
+    "eligibleVoters": 1121,
+    "voterTurnout": 55.400001525878906
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "林厝村",
+    "candidateVotes": {
+      "savannah": 422,
+      "coast": 240,
+      "rainforest": 6
+    },
+    "validVotes": 668,
+    "invalidVotes": 10,
+    "totalVotes": 678,
+    "receivedUnvoted": 0,
+    "issuedVotes": 678,
+    "remainingVotes": 511,
+    "eligibleVoters": 1189,
+    "voterTurnout": 57.02000045776367
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "林東村",
+    "candidateVotes": {
+      "savannah": 303,
+      "coast": 211,
+      "rainforest": 15
+    },
+    "validVotes": 529,
+    "invalidVotes": 3,
+    "totalVotes": 532,
+    "receivedUnvoted": 0,
+    "issuedVotes": 532,
+    "remainingVotes": 511,
+    "eligibleVoters": 1043,
+    "voterTurnout": 51.0099983215332
+  },
+  {
+    "administrativeDivision": "四湖鄉",
+    "village": "溪尾村",
+    "candidateVotes": {
+      "savannah": 199,
+      "coast": 195,
+      "rainforest": 13
+    },
+    "validVotes": 407,
+    "invalidVotes": 9,
+    "totalVotes": 416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 416,
+    "remainingVotes": 351,
+    "eligibleVoters": 767,
+    "voterTurnout": 54.2400016784668
+  }
+]

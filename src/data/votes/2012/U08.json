@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 325,
+      "coast": 1718,
+      "rainforest": 67
+    },
+    "validVotes": 2110,
+    "invalidVotes": 19,
+    "totalVotes": 2129,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2129,
+    "remainingVotes": 2050,
+    "eligibleVoters": 4179,
+    "voterTurnout": 50.95000076293945
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "靜浦村",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 281,
+      "rainforest": 15
+    },
+    "validVotes": 327,
+    "invalidVotes": 3,
+    "totalVotes": 330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 330,
+    "remainingVotes": 361,
+    "eligibleVoters": 691,
+    "voterTurnout": 47.7599983215332
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "港口村",
+    "candidateVotes": {
+      "savannah": 88,
+      "coast": 319,
+      "rainforest": 19
+    },
+    "validVotes": 426,
+    "invalidVotes": 3,
+    "totalVotes": 429,
+    "receivedUnvoted": 0,
+    "issuedVotes": 429,
+    "remainingVotes": 323,
+    "eligibleVoters": 752,
+    "voterTurnout": 57.04999923706055
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "豐濱村",
+    "candidateVotes": {
+      "savannah": 159,
+      "coast": 696,
+      "rainforest": 22
+    },
+    "validVotes": 877,
+    "invalidVotes": 6,
+    "totalVotes": 883,
+    "receivedUnvoted": 0,
+    "issuedVotes": 883,
+    "remainingVotes": 899,
+    "eligibleVoters": 1782,
+    "voterTurnout": 49.54999923706055
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "新社村",
+    "candidateVotes": {
+      "savannah": 28,
+      "coast": 268,
+      "rainforest": 5
+    },
+    "validVotes": 301,
+    "invalidVotes": 6,
+    "totalVotes": 307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 307,
+    "remainingVotes": 313,
+    "eligibleVoters": 620,
+    "voterTurnout": 49.52000045776367
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "磯崎村",
+    "candidateVotes": {
+      "savannah": 19,
+      "coast": 154,
+      "rainforest": 6
+    },
+    "validVotes": 179,
+    "invalidVotes": 1,
+    "totalVotes": 180,
+    "receivedUnvoted": 0,
+    "issuedVotes": 180,
+    "remainingVotes": 154,
+    "eligibleVoters": 334,
+    "voterTurnout": 53.88999938964844
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2377,
+      "savannah": 7268,
+      "rainforest": 668
+    },
+    "validVotes": 10313,
+    "invalidVotes": 166,
+    "totalVotes": 10479,
+    "receivedUnvoted": 0,
+    "issuedVotes": 10479,
+    "remainingVotes": 5365,
+    "eligibleVoters": 15844,
+    "voterTurnout": 66.13999938964844
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "林邊村",
+    "candidateVotes": {
+      "coast": 197,
+      "savannah": 707,
+      "rainforest": 51
+    },
+    "validVotes": 955,
+    "invalidVotes": 13,
+    "totalVotes": 968,
+    "receivedUnvoted": 0,
+    "issuedVotes": 968,
+    "remainingVotes": 455,
+    "eligibleVoters": 1423,
+    "voterTurnout": 68.02999877929688
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "光林村",
+    "candidateVotes": {
+      "coast": 222,
+      "savannah": 706,
+      "rainforest": 85
+    },
+    "validVotes": 1013,
+    "invalidVotes": 15,
+    "totalVotes": 1028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1028,
+    "remainingVotes": 534,
+    "eligibleVoters": 1562,
+    "voterTurnout": 65.80999755859375
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "永樂村",
+    "candidateVotes": {
+      "coast": 477,
+      "savannah": 1570,
+      "rainforest": 139
+    },
+    "validVotes": 2186,
+    "invalidVotes": 29,
+    "totalVotes": 2215,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2215,
+    "remainingVotes": 928,
+    "eligibleVoters": 3143,
+    "voterTurnout": 70.47000122070312
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "中林村",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 341,
+      "rainforest": 30
+    },
+    "validVotes": 495,
+    "invalidVotes": 8,
+    "totalVotes": 503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 503,
+    "remainingVotes": 239,
+    "eligibleVoters": 742,
+    "voterTurnout": 67.79000091552734
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "仁和村",
+    "candidateVotes": {
+      "coast": 200,
+      "savannah": 754,
+      "rainforest": 66
+    },
+    "validVotes": 1020,
+    "invalidVotes": 16,
+    "totalVotes": 1036,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1036,
+    "remainingVotes": 554,
+    "eligibleVoters": 1590,
+    "voterTurnout": 65.16000366210938
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "田厝村",
+    "candidateVotes": {
+      "coast": 150,
+      "savannah": 419,
+      "rainforest": 25
+    },
+    "validVotes": 594,
+    "invalidVotes": 8,
+    "totalVotes": 602,
+    "receivedUnvoted": 0,
+    "issuedVotes": 602,
+    "remainingVotes": 297,
+    "eligibleVoters": 899,
+    "voterTurnout": 66.95999908447266
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "崎峯村",
+    "candidateVotes": {
+      "coast": 149,
+      "savannah": 557,
+      "rainforest": 60
+    },
+    "validVotes": 766,
+    "invalidVotes": 13,
+    "totalVotes": 779,
+    "receivedUnvoted": 0,
+    "issuedVotes": 779,
+    "remainingVotes": 496,
+    "eligibleVoters": 1275,
+    "voterTurnout": 61.099998474121094
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "水利村",
+    "candidateVotes": {
+      "coast": 295,
+      "savannah": 772,
+      "rainforest": 68
+    },
+    "validVotes": 1135,
+    "invalidVotes": 23,
+    "totalVotes": 1158,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1158,
+    "remainingVotes": 708,
+    "eligibleVoters": 1866,
+    "voterTurnout": 62.060001373291016
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "竹林村",
+    "candidateVotes": {
+      "coast": 406,
+      "savannah": 885,
+      "rainforest": 97
+    },
+    "validVotes": 1388,
+    "invalidVotes": 22,
+    "totalVotes": 1410,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1410,
+    "remainingVotes": 799,
+    "eligibleVoters": 2209,
+    "voterTurnout": 63.83000183105469
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "鎮安村",
+    "candidateVotes": {
+      "coast": 157,
+      "savannah": 557,
+      "rainforest": 47
+    },
+    "validVotes": 761,
+    "invalidVotes": 19,
+    "totalVotes": 780,
+    "receivedUnvoted": 0,
+    "issuedVotes": 780,
+    "remainingVotes": 355,
+    "eligibleVoters": 1135,
+    "voterTurnout": 68.72000122070312
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "玉井區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2177,
+      "savannah": 4204,
+      "rainforest": 926
+    },
+    "validVotes": 7307,
+    "invalidVotes": 81,
+    "totalVotes": 7388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7388,
+    "remainingVotes": 4832,
+    "eligibleVoters": 12220,
+    "voterTurnout": 60.459999084472656
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "玉井里",
+    "candidateVotes": {
+      "coast": 197,
+      "savannah": 256,
+      "rainforest": 55
+    },
+    "validVotes": 508,
+    "invalidVotes": 5,
+    "totalVotes": 513,
+    "receivedUnvoted": 0,
+    "issuedVotes": 513,
+    "remainingVotes": 280,
+    "eligibleVoters": 793,
+    "voterTurnout": 64.69000244140625
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "玉田里",
+    "candidateVotes": {
+      "coast": 730,
+      "savannah": 1301,
+      "rainforest": 343
+    },
+    "validVotes": 2374,
+    "invalidVotes": 17,
+    "totalVotes": 2391,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2391,
+    "remainingVotes": 1580,
+    "eligibleVoters": 3971,
+    "voterTurnout": 60.209999084472656
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 203,
+      "savannah": 447,
+      "rainforest": 74
+    },
+    "validVotes": 724,
+    "invalidVotes": 15,
+    "totalVotes": 739,
+    "receivedUnvoted": 0,
+    "issuedVotes": 739,
+    "remainingVotes": 482,
+    "eligibleVoters": 1221,
+    "voterTurnout": 60.52000045776367
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "竹圍里",
+    "candidateVotes": {
+      "coast": 242,
+      "savannah": 524,
+      "rainforest": 86
+    },
+    "validVotes": 852,
+    "invalidVotes": 10,
+    "totalVotes": 862,
+    "receivedUnvoted": 0,
+    "issuedVotes": 862,
+    "remainingVotes": 529,
+    "eligibleVoters": 1391,
+    "voterTurnout": 61.970001220703125
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "沙田里",
+    "candidateVotes": {
+      "coast": 118,
+      "savannah": 147,
+      "rainforest": 28
+    },
+    "validVotes": 293,
+    "invalidVotes": 5,
+    "totalVotes": 298,
+    "receivedUnvoted": 0,
+    "issuedVotes": 298,
+    "remainingVotes": 208,
+    "eligibleVoters": 506,
+    "voterTurnout": 58.88999938964844
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "三埔里",
+    "candidateVotes": {
+      "coast": 72,
+      "savannah": 167,
+      "rainforest": 37
+    },
+    "validVotes": 276,
+    "invalidVotes": 4,
+    "totalVotes": 280,
+    "receivedUnvoted": 0,
+    "issuedVotes": 280,
+    "remainingVotes": 214,
+    "eligibleVoters": 494,
+    "voterTurnout": 56.68000030517578
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "三和里",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 278,
+      "rainforest": 61
+    },
+    "validVotes": 456,
+    "invalidVotes": 3,
+    "totalVotes": 459,
+    "receivedUnvoted": 0,
+    "issuedVotes": 459,
+    "remainingVotes": 279,
+    "eligibleVoters": 738,
+    "voterTurnout": 62.20000076293945
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "望明里",
+    "candidateVotes": {
+      "coast": 239,
+      "savannah": 544,
+      "rainforest": 94
+    },
+    "validVotes": 877,
+    "invalidVotes": 14,
+    "totalVotes": 891,
+    "receivedUnvoted": 0,
+    "issuedVotes": 891,
+    "remainingVotes": 594,
+    "eligibleVoters": 1485,
+    "voterTurnout": 60
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "層林里",
+    "candidateVotes": {
+      "coast": 103,
+      "savannah": 220,
+      "rainforest": 59
+    },
+    "validVotes": 382,
+    "invalidVotes": 1,
+    "totalVotes": 383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 383,
+    "remainingVotes": 247,
+    "eligibleVoters": 630,
+    "voterTurnout": 60.790000915527344
+  },
+  {
+    "administrativeDivision": "玉井區",
+    "village": "豐里里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 320,
+      "rainforest": 89
+    },
+    "validVotes": 565,
+    "invalidVotes": 7,
+    "totalVotes": 572,
+    "receivedUnvoted": 0,
+    "issuedVotes": 572,
+    "remainingVotes": 419,
+    "eligibleVoters": 991,
+    "voterTurnout": 57.720001220703125
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1496,
+      "savannah": 2372,
+      "rainforest": 659
+    },
+    "validVotes": 4527,
+    "invalidVotes": 84,
+    "totalVotes": 4611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4611,
+    "remainingVotes": 5658,
+    "eligibleVoters": 10269,
+    "voterTurnout": 44.900001525878906
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "本福村",
+    "candidateVotes": {
+      "coast": 297,
+      "savannah": 585,
+      "rainforest": 133
+    },
+    "validVotes": 1015,
+    "invalidVotes": 10,
+    "totalVotes": 1025,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1025,
+    "remainingVotes": 994,
+    "eligibleVoters": 2019,
+    "voterTurnout": 50.77000045776367
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "中福村",
+    "candidateVotes": {
+      "coast": 203,
+      "savannah": 270,
+      "rainforest": 94
+    },
+    "validVotes": 567,
+    "invalidVotes": 11,
+    "totalVotes": 578,
+    "receivedUnvoted": 0,
+    "issuedVotes": 578,
+    "remainingVotes": 608,
+    "eligibleVoters": 1186,
+    "voterTurnout": 48.7400016784668
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "漁福村",
+    "candidateVotes": {
+      "coast": 157,
+      "savannah": 175,
+      "rainforest": 86
+    },
+    "validVotes": 418,
+    "invalidVotes": 14,
+    "totalVotes": 432,
+    "receivedUnvoted": 0,
+    "issuedVotes": 432,
+    "remainingVotes": 527,
+    "eligibleVoters": 959,
+    "voterTurnout": 45.04999923706055
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "大福村",
+    "candidateVotes": {
+      "coast": 255,
+      "savannah": 290,
+      "rainforest": 100
+    },
+    "validVotes": 645,
+    "invalidVotes": 11,
+    "totalVotes": 656,
+    "receivedUnvoted": 0,
+    "issuedVotes": 656,
+    "remainingVotes": 912,
+    "eligibleVoters": 1568,
+    "voterTurnout": 41.84000015258789
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "南福村",
+    "candidateVotes": {
+      "coast": 135,
+      "savannah": 239,
+      "rainforest": 61
+    },
+    "validVotes": 435,
+    "invalidVotes": 12,
+    "totalVotes": 447,
+    "receivedUnvoted": 0,
+    "issuedVotes": 447,
+    "remainingVotes": 677,
+    "eligibleVoters": 1124,
+    "voterTurnout": 39.77000045776367
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "天福村",
+    "candidateVotes": {
+      "coast": 147,
+      "savannah": 266,
+      "rainforest": 47
+    },
+    "validVotes": 460,
+    "invalidVotes": 7,
+    "totalVotes": 467,
+    "receivedUnvoted": 0,
+    "issuedVotes": 467,
+    "remainingVotes": 583,
+    "eligibleVoters": 1050,
+    "voterTurnout": 44.47999954223633
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "上福村",
+    "candidateVotes": {
+      "coast": 200,
+      "savannah": 340,
+      "rainforest": 86
+    },
+    "validVotes": 626,
+    "invalidVotes": 12,
+    "totalVotes": 638,
+    "receivedUnvoted": 0,
+    "issuedVotes": 638,
+    "remainingVotes": 907,
+    "eligibleVoters": 1545,
+    "voterTurnout": 41.290000915527344
+  },
+  {
+    "administrativeDivision": "琉球鄉",
+    "village": "杉福村",
+    "candidateVotes": {
+      "coast": 102,
+      "savannah": 207,
+      "rainforest": 52
+    },
+    "validVotes": 361,
+    "invalidVotes": 7,
+    "totalVotes": 368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 368,
+    "remainingVotes": 450,
+    "eligibleVoters": 818,
+    "voterTurnout": 44.9900016784668
+  }
+]

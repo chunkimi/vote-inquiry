@@ -1,0 +1,393 @@
+[
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 6147,
+      "savannah": 14939,
+      "rainforest": 2704
+    },
+    "validVotes": 23790,
+    "invalidVotes": 278,
+    "totalVotes": 24068,
+    "receivedUnvoted": 0,
+    "issuedVotes": 24068,
+    "remainingVotes": 12881,
+    "eligibleVoters": 36949,
+    "voterTurnout": 65.13999938964844
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "東仁里",
+    "candidateVotes": {
+      "coast": 239,
+      "savannah": 466,
+      "rainforest": 91
+    },
+    "validVotes": 796,
+    "invalidVotes": 12,
+    "totalVotes": 808,
+    "receivedUnvoted": 0,
+    "issuedVotes": 808,
+    "remainingVotes": 373,
+    "eligibleVoters": 1181,
+    "voterTurnout": 68.41999816894531
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "西岐里",
+    "candidateVotes": {
+      "coast": 1014,
+      "savannah": 1741,
+      "rainforest": 369
+    },
+    "validVotes": 3124,
+    "invalidVotes": 30,
+    "totalVotes": 3154,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3154,
+    "remainingVotes": 1814,
+    "eligibleVoters": 4968,
+    "voterTurnout": 63.4900016784668
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "南昌里",
+    "candidateVotes": {
+      "coast": 396,
+      "savannah": 809,
+      "rainforest": 166
+    },
+    "validVotes": 1371,
+    "invalidVotes": 19,
+    "totalVotes": 1390,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1390,
+    "remainingVotes": 749,
+    "eligibleVoters": 2139,
+    "voterTurnout": 64.9800033569336
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "北銘里",
+    "candidateVotes": {
+      "coast": 287,
+      "savannah": 491,
+      "rainforest": 120
+    },
+    "validVotes": 898,
+    "invalidVotes": 9,
+    "totalVotes": 907,
+    "receivedUnvoted": 0,
+    "issuedVotes": 907,
+    "remainingVotes": 439,
+    "eligibleVoters": 1346,
+    "voterTurnout": 67.37999725341797
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "中天里",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 439,
+      "rainforest": 82
+    },
+    "validVotes": 714,
+    "invalidVotes": 5,
+    "totalVotes": 719,
+    "receivedUnvoted": 0,
+    "issuedVotes": 719,
+    "remainingVotes": 352,
+    "eligibleVoters": 1071,
+    "voterTurnout": 67.12999725341797
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "林子里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 565,
+      "rainforest": 91
+    },
+    "validVotes": 844,
+    "invalidVotes": 4,
+    "totalVotes": 848,
+    "receivedUnvoted": 0,
+    "issuedVotes": 848,
+    "remainingVotes": 410,
+    "eligibleVoters": 1258,
+    "voterTurnout": 67.41000366210938
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "石龜里",
+    "candidateVotes": {
+      "coast": 129,
+      "savannah": 350,
+      "rainforest": 58
+    },
+    "validVotes": 537,
+    "invalidVotes": 8,
+    "totalVotes": 545,
+    "receivedUnvoted": 0,
+    "issuedVotes": 545,
+    "remainingVotes": 233,
+    "eligibleVoters": 778,
+    "voterTurnout": 70.05000305175781
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "石溪里",
+    "candidateVotes": {
+      "coast": 129,
+      "savannah": 415,
+      "rainforest": 59
+    },
+    "validVotes": 603,
+    "invalidVotes": 8,
+    "totalVotes": 611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 611,
+    "remainingVotes": 275,
+    "eligibleVoters": 886,
+    "voterTurnout": 68.95999908447266
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "靖興里",
+    "candidateVotes": {
+      "coast": 149,
+      "savannah": 317,
+      "rainforest": 56
+    },
+    "validVotes": 522,
+    "invalidVotes": 7,
+    "totalVotes": 529,
+    "receivedUnvoted": 0,
+    "issuedVotes": 529,
+    "remainingVotes": 352,
+    "eligibleVoters": 881,
+    "voterTurnout": 60.04999923706055
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "新南里",
+    "candidateVotes": {
+      "coast": 92,
+      "savannah": 288,
+      "rainforest": 47
+    },
+    "validVotes": 427,
+    "invalidVotes": 6,
+    "totalVotes": 433,
+    "receivedUnvoted": 0,
+    "issuedVotes": 433,
+    "remainingVotes": 241,
+    "eligibleVoters": 674,
+    "voterTurnout": 64.23999786376953
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "阿丹里",
+    "candidateVotes": {
+      "coast": 167,
+      "savannah": 504,
+      "rainforest": 56
+    },
+    "validVotes": 727,
+    "invalidVotes": 11,
+    "totalVotes": 738,
+    "receivedUnvoted": 0,
+    "issuedVotes": 738,
+    "remainingVotes": 368,
+    "eligibleVoters": 1106,
+    "voterTurnout": 66.7300033569336
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "將軍里",
+    "candidateVotes": {
+      "coast": 262,
+      "savannah": 687,
+      "rainforest": 88
+    },
+    "validVotes": 1037,
+    "invalidVotes": 14,
+    "totalVotes": 1051,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1051,
+    "remainingVotes": 605,
+    "eligibleVoters": 1656,
+    "voterTurnout": 63.470001220703125
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "舊社里",
+    "candidateVotes": {
+      "coast": 337,
+      "savannah": 1000,
+      "rainforest": 215
+    },
+    "validVotes": 1552,
+    "invalidVotes": 18,
+    "totalVotes": 1570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1570,
+    "remainingVotes": 924,
+    "eligibleVoters": 2494,
+    "voterTurnout": 62.95000076293945
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "明昌里",
+    "candidateVotes": {
+      "coast": 879,
+      "savannah": 2046,
+      "rainforest": 376
+    },
+    "validVotes": 3301,
+    "invalidVotes": 26,
+    "totalVotes": 3327,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3327,
+    "remainingVotes": 1882,
+    "eligibleVoters": 5209,
+    "voterTurnout": 63.869998931884766
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "大東里",
+    "candidateVotes": {
+      "coast": 123,
+      "savannah": 370,
+      "rainforest": 65
+    },
+    "validVotes": 558,
+    "invalidVotes": 8,
+    "totalVotes": 566,
+    "receivedUnvoted": 0,
+    "issuedVotes": 566,
+    "remainingVotes": 328,
+    "eligibleVoters": 894,
+    "voterTurnout": 63.310001373291016
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "埤麻里",
+    "candidateVotes": {
+      "coast": 182,
+      "savannah": 278,
+      "rainforest": 60
+    },
+    "validVotes": 520,
+    "invalidVotes": 4,
+    "totalVotes": 524,
+    "receivedUnvoted": 0,
+    "issuedVotes": 524,
+    "remainingVotes": 276,
+    "eligibleVoters": 800,
+    "voterTurnout": 65.5
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "西伯里",
+    "candidateVotes": {
+      "coast": 181,
+      "savannah": 300,
+      "rainforest": 72
+    },
+    "validVotes": 553,
+    "invalidVotes": 5,
+    "totalVotes": 558,
+    "receivedUnvoted": 0,
+    "issuedVotes": 558,
+    "remainingVotes": 319,
+    "eligibleVoters": 877,
+    "voterTurnout": 63.630001068115234
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "新崙里",
+    "candidateVotes": {
+      "coast": 219,
+      "savannah": 676,
+      "rainforest": 80
+    },
+    "validVotes": 975,
+    "invalidVotes": 10,
+    "totalVotes": 985,
+    "receivedUnvoted": 0,
+    "issuedVotes": 985,
+    "remainingVotes": 516,
+    "eligibleVoters": 1501,
+    "voterTurnout": 65.62000274658203
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "東明里",
+    "candidateVotes": {
+      "coast": 142,
+      "savannah": 364,
+      "rainforest": 97
+    },
+    "validVotes": 603,
+    "invalidVotes": 12,
+    "totalVotes": 615,
+    "receivedUnvoted": 0,
+    "issuedVotes": 615,
+    "remainingVotes": 343,
+    "eligibleVoters": 958,
+    "voterTurnout": 64.19999694824219
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "新光里",
+    "candidateVotes": {
+      "coast": 377,
+      "savannah": 1170,
+      "rainforest": 170
+    },
+    "validVotes": 1717,
+    "invalidVotes": 26,
+    "totalVotes": 1743,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1743,
+    "remainingVotes": 856,
+    "eligibleVoters": 2599,
+    "voterTurnout": 67.05999755859375
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "田頭里",
+    "candidateVotes": {
+      "coast": 312,
+      "savannah": 910,
+      "rainforest": 175
+    },
+    "validVotes": 1397,
+    "invalidVotes": 21,
+    "totalVotes": 1418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1418,
+    "remainingVotes": 741,
+    "eligibleVoters": 2159,
+    "voterTurnout": 65.68000030517578
+  },
+  {
+    "administrativeDivision": "斗南鎮",
+    "village": "小東里",
+    "candidateVotes": {
+      "coast": 150,
+      "savannah": 753,
+      "rainforest": 111
+    },
+    "validVotes": 1014,
+    "invalidVotes": 15,
+    "totalVotes": 1029,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1029,
+    "remainingVotes": 485,
+    "eligibleVoters": 1514,
+    "voterTurnout": 67.97000122070312
+  }
+]

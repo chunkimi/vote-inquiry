@@ -1,0 +1,240 @@
+[
+  {
+    "administrativeDivision": "學甲區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 10931,
+      "coast": 4743,
+      "rainforest": 315
+    },
+    "validVotes": 15989,
+    "invalidVotes": 133,
+    "totalVotes": 16122,
+    "receivedUnvoted": 0,
+    "issuedVotes": 16122,
+    "remainingVotes": 6438,
+    "eligibleVoters": 22560,
+    "voterTurnout": 71.45999908447266
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "秀昌里",
+    "candidateVotes": {
+      "savannah": 1104,
+      "coast": 502,
+      "rainforest": 28
+    },
+    "validVotes": 1634,
+    "invalidVotes": 14,
+    "totalVotes": 1648,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1648,
+    "remainingVotes": 616,
+    "eligibleVoters": 2264,
+    "voterTurnout": 72.79000091552734
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "明宜里",
+    "candidateVotes": {
+      "savannah": 975,
+      "coast": 381,
+      "rainforest": 33
+    },
+    "validVotes": 1389,
+    "invalidVotes": 10,
+    "totalVotes": 1399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1399,
+    "remainingVotes": 538,
+    "eligibleVoters": 1937,
+    "voterTurnout": 72.2300033569336
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "慈福里",
+    "candidateVotes": {
+      "savannah": 848,
+      "coast": 510,
+      "rainforest": 37
+    },
+    "validVotes": 1395,
+    "invalidVotes": 9,
+    "totalVotes": 1404,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1404,
+    "remainingVotes": 521,
+    "eligibleVoters": 1925,
+    "voterTurnout": 72.94000244140625
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "仁得里",
+    "candidateVotes": {
+      "savannah": 1788,
+      "coast": 889,
+      "rainforest": 61
+    },
+    "validVotes": 2738,
+    "invalidVotes": 18,
+    "totalVotes": 2756,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2756,
+    "remainingVotes": 1067,
+    "eligibleVoters": 3823,
+    "voterTurnout": 72.08999633789062
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "新達里",
+    "candidateVotes": {
+      "savannah": 949,
+      "coast": 547,
+      "rainforest": 26
+    },
+    "validVotes": 1522,
+    "invalidVotes": 14,
+    "totalVotes": 1536,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1536,
+    "remainingVotes": 599,
+    "eligibleVoters": 2135,
+    "voterTurnout": 71.94000244140625
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "新榮里",
+    "candidateVotes": {
+      "savannah": 920,
+      "coast": 423,
+      "rainforest": 21
+    },
+    "validVotes": 1364,
+    "invalidVotes": 10,
+    "totalVotes": 1374,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1374,
+    "remainingVotes": 543,
+    "eligibleVoters": 1917,
+    "voterTurnout": 71.66999816894531
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "大灣里",
+    "candidateVotes": {
+      "savannah": 516,
+      "coast": 212,
+      "rainforest": 15
+    },
+    "validVotes": 743,
+    "invalidVotes": 8,
+    "totalVotes": 751,
+    "receivedUnvoted": 0,
+    "issuedVotes": 751,
+    "remainingVotes": 316,
+    "eligibleVoters": 1067,
+    "voterTurnout": 70.37999725341797
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "豐和里",
+    "candidateVotes": {
+      "savannah": 658,
+      "coast": 179,
+      "rainforest": 25
+    },
+    "validVotes": 862,
+    "invalidVotes": 12,
+    "totalVotes": 874,
+    "receivedUnvoted": 0,
+    "issuedVotes": 874,
+    "remainingVotes": 380,
+    "eligibleVoters": 1254,
+    "voterTurnout": 69.69999694824219
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "中洲里",
+    "candidateVotes": {
+      "savannah": 719,
+      "coast": 329,
+      "rainforest": 19
+    },
+    "validVotes": 1067,
+    "invalidVotes": 6,
+    "totalVotes": 1073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1073,
+    "remainingVotes": 398,
+    "eligibleVoters": 1471,
+    "voterTurnout": 72.94000244140625
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "光華里",
+    "candidateVotes": {
+      "savannah": 662,
+      "coast": 172,
+      "rainforest": 15
+    },
+    "validVotes": 849,
+    "invalidVotes": 6,
+    "totalVotes": 855,
+    "receivedUnvoted": 0,
+    "issuedVotes": 855,
+    "remainingVotes": 443,
+    "eligibleVoters": 1298,
+    "voterTurnout": 65.87000274658203
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "宅港里",
+    "candidateVotes": {
+      "savannah": 429,
+      "coast": 133,
+      "rainforest": 7
+    },
+    "validVotes": 569,
+    "invalidVotes": 7,
+    "totalVotes": 576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 576,
+    "remainingVotes": 276,
+    "eligibleVoters": 852,
+    "voterTurnout": 67.61000061035156
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "平和里",
+    "candidateVotes": {
+      "savannah": 652,
+      "coast": 146,
+      "rainforest": 10
+    },
+    "validVotes": 808,
+    "invalidVotes": 13,
+    "totalVotes": 821,
+    "receivedUnvoted": 0,
+    "issuedVotes": 821,
+    "remainingVotes": 298,
+    "eligibleVoters": 1119,
+    "voterTurnout": 73.37000274658203
+  },
+  {
+    "administrativeDivision": "學甲區",
+    "village": "三慶里",
+    "candidateVotes": {
+      "savannah": 711,
+      "coast": 320,
+      "rainforest": 18
+    },
+    "validVotes": 1049,
+    "invalidVotes": 6,
+    "totalVotes": 1055,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1055,
+    "remainingVotes": 443,
+    "eligibleVoters": 1498,
+    "voterTurnout": 70.43000030517578
+  }
+]

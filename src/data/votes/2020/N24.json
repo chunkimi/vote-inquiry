@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 320,
+      "coast": 3901,
+      "savannah": 4607
+    },
+    "validVotes": 8828,
+    "invalidVotes": 151,
+    "totalVotes": 8979,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8979,
+    "remainingVotes": 5135,
+    "eligibleVoters": 14114,
+    "voterTurnout": 63.6177
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "山腳村",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 288,
+      "savannah": 452
+    },
+    "validVotes": 770,
+    "invalidVotes": 16,
+    "totalVotes": 786,
+    "receivedUnvoted": 0,
+    "issuedVotes": 786,
+    "remainingVotes": 458,
+    "eligibleVoters": 1244,
+    "voterTurnout": 63.1833
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "潭墘村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 234,
+      "savannah": 426
+    },
+    "validVotes": 675,
+    "invalidVotes": 7,
+    "totalVotes": 682,
+    "receivedUnvoted": 0,
+    "issuedVotes": 682,
+    "remainingVotes": 367,
+    "eligibleVoters": 1049,
+    "voterTurnout": 65.0143
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "大城村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 317,
+      "savannah": 287
+    },
+    "validVotes": 628,
+    "invalidVotes": 12,
+    "totalVotes": 640,
+    "receivedUnvoted": 0,
+    "issuedVotes": 640,
+    "remainingVotes": 280,
+    "eligibleVoters": 920,
+    "voterTurnout": 69.5652
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "東城村",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 411,
+      "savannah": 425
+    },
+    "validVotes": 871,
+    "invalidVotes": 17,
+    "totalVotes": 888,
+    "receivedUnvoted": 0,
+    "issuedVotes": 888,
+    "remainingVotes": 402,
+    "eligibleVoters": 1290,
+    "voterTurnout": 68.8372
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "西城村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 207,
+      "savannah": 274
+    },
+    "validVotes": 505,
+    "invalidVotes": 10,
+    "totalVotes": 515,
+    "receivedUnvoted": 0,
+    "issuedVotes": 515,
+    "remainingVotes": 283,
+    "eligibleVoters": 798,
+    "voterTurnout": 64.5363
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "上山村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 303,
+      "savannah": 337
+    },
+    "validVotes": 664,
+    "invalidVotes": 7,
+    "totalVotes": 671,
+    "receivedUnvoted": 0,
+    "issuedVotes": 671,
+    "remainingVotes": 377,
+    "eligibleVoters": 1048,
+    "voterTurnout": 64.0267
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "永和村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 193,
+      "savannah": 216
+    },
+    "validVotes": 428,
+    "invalidVotes": 5,
+    "totalVotes": 433,
+    "receivedUnvoted": 0,
+    "issuedVotes": 433,
+    "remainingVotes": 240,
+    "eligibleVoters": 673,
+    "voterTurnout": 64.3388
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "公館村",
+    "candidateVotes": {
+      "rainforest": 28,
+      "coast": 299,
+      "savannah": 329
+    },
+    "validVotes": 656,
+    "invalidVotes": 4,
+    "totalVotes": 660,
+    "receivedUnvoted": 0,
+    "issuedVotes": 660,
+    "remainingVotes": 371,
+    "eligibleVoters": 1031,
+    "voterTurnout": 64.0155
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "豐美村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 206,
+      "savannah": 292
+    },
+    "validVotes": 513,
+    "invalidVotes": 12,
+    "totalVotes": 525,
+    "receivedUnvoted": 0,
+    "issuedVotes": 525,
+    "remainingVotes": 317,
+    "eligibleVoters": 842,
+    "voterTurnout": 62.3515
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "三豐村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 164,
+      "savannah": 183
+    },
+    "validVotes": 356,
+    "invalidVotes": 8,
+    "totalVotes": 364,
+    "receivedUnvoted": 0,
+    "issuedVotes": 364,
+    "remainingVotes": 271,
+    "eligibleVoters": 635,
+    "voterTurnout": 57.3228
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "菜寮村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 311,
+      "savannah": 278
+    },
+    "validVotes": 612,
+    "invalidVotes": 18,
+    "totalVotes": 630,
+    "receivedUnvoted": 0,
+    "issuedVotes": 630,
+    "remainingVotes": 423,
+    "eligibleVoters": 1053,
+    "voterTurnout": 59.8291
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "東港村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 344,
+      "savannah": 322
+    },
+    "validVotes": 692,
+    "invalidVotes": 14,
+    "totalVotes": 706,
+    "receivedUnvoted": 0,
+    "issuedVotes": 706,
+    "remainingVotes": 437,
+    "eligibleVoters": 1143,
+    "voterTurnout": 61.7673
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "西港村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 288,
+      "savannah": 260
+    },
+    "validVotes": 567,
+    "invalidVotes": 8,
+    "totalVotes": 575,
+    "receivedUnvoted": 0,
+    "issuedVotes": 575,
+    "remainingVotes": 301,
+    "eligibleVoters": 876,
+    "voterTurnout": 65.6393
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "頂庄村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 151,
+      "savannah": 238
+    },
+    "validVotes": 401,
+    "invalidVotes": 5,
+    "totalVotes": 406,
+    "receivedUnvoted": 0,
+    "issuedVotes": 406,
+    "remainingVotes": 249,
+    "eligibleVoters": 655,
+    "voterTurnout": 61.9847
+  },
+  {
+    "administrativeDivision": "大城鄉",
+    "village": "台西村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 185,
+      "savannah": 288
+    },
+    "validVotes": 490,
+    "invalidVotes": 8,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 359,
+    "eligibleVoters": 857,
+    "voterTurnout": 58.1097
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1226,
+      "savannah": 453,
+      "rainforest": 261
+    },
+    "validVotes": 1940,
+    "invalidVotes": 37,
+    "totalVotes": 1977,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1977,
+    "remainingVotes": 2049,
+    "eligibleVoters": 4026,
+    "voterTurnout": 49.11000061035156
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "靜浦村",
+    "candidateVotes": {
+      "coast": 206,
+      "savannah": 61,
+      "rainforest": 28
+    },
+    "validVotes": 295,
+    "invalidVotes": 3,
+    "totalVotes": 298,
+    "receivedUnvoted": 0,
+    "issuedVotes": 298,
+    "remainingVotes": 375,
+    "eligibleVoters": 673,
+    "voterTurnout": 44.279998779296875
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "港口村",
+    "candidateVotes": {
+      "coast": 234,
+      "savannah": 120,
+      "rainforest": 40
+    },
+    "validVotes": 394,
+    "invalidVotes": 5,
+    "totalVotes": 399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 399,
+    "remainingVotes": 320,
+    "eligibleVoters": 719,
+    "voterTurnout": 55.4900016784668
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "豐濱村",
+    "candidateVotes": {
+      "coast": 473,
+      "savannah": 182,
+      "rainforest": 114
+    },
+    "validVotes": 769,
+    "invalidVotes": 16,
+    "totalVotes": 785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 785,
+    "remainingVotes": 885,
+    "eligibleVoters": 1670,
+    "voterTurnout": 47.0099983215332
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "新社村",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 55,
+      "rainforest": 56
+    },
+    "validVotes": 304,
+    "invalidVotes": 11,
+    "totalVotes": 315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 315,
+    "remainingVotes": 285,
+    "eligibleVoters": 600,
+    "voterTurnout": 52.5
+  },
+  {
+    "administrativeDivision": "豐濱鄉",
+    "village": "磯崎村",
+    "candidateVotes": {
+      "coast": 120,
+      "savannah": 35,
+      "rainforest": 23
+    },
+    "validVotes": 178,
+    "invalidVotes": 2,
+    "totalVotes": 180,
+    "receivedUnvoted": 0,
+    "issuedVotes": 180,
+    "remainingVotes": 184,
+    "eligibleVoters": 364,
+    "voterTurnout": 49.45000076293945
+  }
+]

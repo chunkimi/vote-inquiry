@@ -1,0 +1,563 @@
+[
+  {
+    "administrativeDivision": "頭份市",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 19694,
+      "savannah": 19700,
+      "rainforest": 9618
+    },
+    "validVotes": 49012,
+    "invalidVotes": 535,
+    "totalVotes": 49547,
+    "receivedUnvoted": 1,
+    "issuedVotes": 49548,
+    "remainingVotes": 29611,
+    "eligibleVoters": 79159,
+    "voterTurnout": 62.59000015258789
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "流東里",
+    "candidateVotes": {
+      "coast": 519,
+      "savannah": 522,
+      "rainforest": 277
+    },
+    "validVotes": 1318,
+    "invalidVotes": 18,
+    "totalVotes": 1336,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1336,
+    "remainingVotes": 838,
+    "eligibleVoters": 2174,
+    "voterTurnout": 61.45000076293945
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "珊湖里",
+    "candidateVotes": {
+      "coast": 473,
+      "savannah": 420,
+      "rainforest": 208
+    },
+    "validVotes": 1101,
+    "invalidVotes": 9,
+    "totalVotes": 1110,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1110,
+    "remainingVotes": 605,
+    "eligibleVoters": 1715,
+    "voterTurnout": 64.72000122070312
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "斗煥里",
+    "candidateVotes": {
+      "coast": 739,
+      "savannah": 737,
+      "rainforest": 384
+    },
+    "validVotes": 1860,
+    "invalidVotes": 16,
+    "totalVotes": 1876,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1876,
+    "remainingVotes": 1056,
+    "eligibleVoters": 2932,
+    "voterTurnout": 63.97999954223633
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "新華里",
+    "candidateVotes": {
+      "coast": 975,
+      "savannah": 853,
+      "rainforest": 428
+    },
+    "validVotes": 2256,
+    "invalidVotes": 26,
+    "totalVotes": 2282,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2282,
+    "remainingVotes": 1346,
+    "eligibleVoters": 3628,
+    "voterTurnout": 62.900001525878906
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "興隆里",
+    "candidateVotes": {
+      "coast": 914,
+      "savannah": 1049,
+      "rainforest": 500
+    },
+    "validVotes": 2463,
+    "invalidVotes": 26,
+    "totalVotes": 2489,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2490,
+    "remainingVotes": 1477,
+    "eligibleVoters": 3967,
+    "voterTurnout": 62.7400016784668
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "上埔里",
+    "candidateVotes": {
+      "coast": 719,
+      "savannah": 541,
+      "rainforest": 299
+    },
+    "validVotes": 1559,
+    "invalidVotes": 15,
+    "totalVotes": 1574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1574,
+    "remainingVotes": 892,
+    "eligibleVoters": 2466,
+    "voterTurnout": 63.83000183105469
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "土牛里",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 255,
+      "rainforest": 95
+    },
+    "validVotes": 543,
+    "invalidVotes": 2,
+    "totalVotes": 545,
+    "receivedUnvoted": 0,
+    "issuedVotes": 545,
+    "remainingVotes": 338,
+    "eligibleVoters": 883,
+    "voterTurnout": 61.720001220703125
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "頭份里",
+    "candidateVotes": {
+      "coast": 778,
+      "savannah": 740,
+      "rainforest": 448
+    },
+    "validVotes": 1966,
+    "invalidVotes": 25,
+    "totalVotes": 1991,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1991,
+    "remainingVotes": 1195,
+    "eligibleVoters": 3186,
+    "voterTurnout": 62.4900016784668
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "coast": 852,
+      "savannah": 710,
+      "rainforest": 371
+    },
+    "validVotes": 1933,
+    "invalidVotes": 30,
+    "totalVotes": 1963,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1963,
+    "remainingVotes": 1106,
+    "eligibleVoters": 3069,
+    "voterTurnout": 63.959999084472656
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "自強里",
+    "candidateVotes": {
+      "coast": 527,
+      "savannah": 474,
+      "rainforest": 210
+    },
+    "validVotes": 1211,
+    "invalidVotes": 19,
+    "totalVotes": 1230,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1230,
+    "remainingVotes": 770,
+    "eligibleVoters": 2000,
+    "voterTurnout": 61.5
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "信義里",
+    "candidateVotes": {
+      "coast": 185,
+      "savannah": 200,
+      "rainforest": 74
+    },
+    "validVotes": 459,
+    "invalidVotes": 10,
+    "totalVotes": 469,
+    "receivedUnvoted": 0,
+    "issuedVotes": 469,
+    "remainingVotes": 449,
+    "eligibleVoters": 918,
+    "voterTurnout": 51.09000015258789
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "coast": 352,
+      "savannah": 407,
+      "rainforest": 177
+    },
+    "validVotes": 936,
+    "invalidVotes": 7,
+    "totalVotes": 943,
+    "receivedUnvoted": 0,
+    "issuedVotes": 943,
+    "remainingVotes": 572,
+    "eligibleVoters": 1515,
+    "voterTurnout": 62.2400016784668
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "上興里",
+    "candidateVotes": {
+      "coast": 384,
+      "savannah": 443,
+      "rainforest": 253
+    },
+    "validVotes": 1080,
+    "invalidVotes": 12,
+    "totalVotes": 1092,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1092,
+    "remainingVotes": 787,
+    "eligibleVoters": 1879,
+    "voterTurnout": 58.119998931884766
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "下興里",
+    "candidateVotes": {
+      "coast": 571,
+      "savannah": 627,
+      "rainforest": 276
+    },
+    "validVotes": 1474,
+    "invalidVotes": 16,
+    "totalVotes": 1490,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1490,
+    "remainingVotes": 949,
+    "eligibleVoters": 2439,
+    "voterTurnout": 61.09000015258789
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "和平里",
+    "candidateVotes": {
+      "coast": 276,
+      "savannah": 332,
+      "rainforest": 108
+    },
+    "validVotes": 716,
+    "invalidVotes": 6,
+    "totalVotes": 722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 722,
+    "remainingVotes": 321,
+    "eligibleVoters": 1043,
+    "voterTurnout": 69.22000122070312
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "山下里",
+    "candidateVotes": {
+      "coast": 914,
+      "savannah": 879,
+      "rainforest": 465
+    },
+    "validVotes": 2258,
+    "invalidVotes": 23,
+    "totalVotes": 2281,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2281,
+    "remainingVotes": 1196,
+    "eligibleVoters": 3477,
+    "voterTurnout": 65.5999984741211
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "後庄里",
+    "candidateVotes": {
+      "coast": 850,
+      "savannah": 1022,
+      "rainforest": 456
+    },
+    "validVotes": 2328,
+    "invalidVotes": 28,
+    "totalVotes": 2356,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2356,
+    "remainingVotes": 1183,
+    "eligibleVoters": 3539,
+    "voterTurnout": 66.56999969482422
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "合興里",
+    "candidateVotes": {
+      "coast": 559,
+      "savannah": 603,
+      "rainforest": 324
+    },
+    "validVotes": 1486,
+    "invalidVotes": 15,
+    "totalVotes": 1501,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1501,
+    "remainingVotes": 891,
+    "eligibleVoters": 2392,
+    "voterTurnout": 62.75
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "文化里",
+    "candidateVotes": {
+      "coast": 729,
+      "savannah": 818,
+      "rainforest": 340
+    },
+    "validVotes": 1887,
+    "invalidVotes": 21,
+    "totalVotes": 1908,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1908,
+    "remainingVotes": 1085,
+    "eligibleVoters": 2993,
+    "voterTurnout": 63.75
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "蟠桃里",
+    "candidateVotes": {
+      "coast": 1208,
+      "savannah": 1298,
+      "rainforest": 629
+    },
+    "validVotes": 3135,
+    "invalidVotes": 39,
+    "totalVotes": 3174,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3174,
+    "remainingVotes": 2021,
+    "eligibleVoters": 5195,
+    "voterTurnout": 61.099998474121094
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "建國里",
+    "candidateVotes": {
+      "coast": 827,
+      "savannah": 864,
+      "rainforest": 410
+    },
+    "validVotes": 2101,
+    "invalidVotes": 25,
+    "totalVotes": 2126,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2126,
+    "remainingVotes": 1238,
+    "eligibleVoters": 3364,
+    "voterTurnout": 63.20000076293945
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "成功里",
+    "candidateVotes": {
+      "coast": 873,
+      "savannah": 797,
+      "rainforest": 449
+    },
+    "validVotes": 2119,
+    "invalidVotes": 19,
+    "totalVotes": 2138,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2138,
+    "remainingVotes": 1309,
+    "eligibleVoters": 3447,
+    "voterTurnout": 62.02000045776367
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "民族里",
+    "candidateVotes": {
+      "coast": 488,
+      "savannah": 447,
+      "rainforest": 276
+    },
+    "validVotes": 1211,
+    "invalidVotes": 14,
+    "totalVotes": 1225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1225,
+    "remainingVotes": 734,
+    "eligibleVoters": 1959,
+    "voterTurnout": 62.529998779296875
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "民權里",
+    "candidateVotes": {
+      "coast": 450,
+      "savannah": 504,
+      "rainforest": 218
+    },
+    "validVotes": 1172,
+    "invalidVotes": 14,
+    "totalVotes": 1186,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1186,
+    "remainingVotes": 698,
+    "eligibleVoters": 1884,
+    "voterTurnout": 62.95000076293945
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "東庄里",
+    "candidateVotes": {
+      "coast": 758,
+      "savannah": 722,
+      "rainforest": 333
+    },
+    "validVotes": 1813,
+    "invalidVotes": 16,
+    "totalVotes": 1829,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1829,
+    "remainingVotes": 1105,
+    "eligibleVoters": 2934,
+    "voterTurnout": 62.34000015258789
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "田寮里",
+    "candidateVotes": {
+      "coast": 874,
+      "savannah": 889,
+      "rainforest": 435
+    },
+    "validVotes": 2198,
+    "invalidVotes": 20,
+    "totalVotes": 2218,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2218,
+    "remainingVotes": 1390,
+    "eligibleVoters": 3608,
+    "voterTurnout": 61.470001220703125
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "民生里",
+    "candidateVotes": {
+      "coast": 486,
+      "savannah": 524,
+      "rainforest": 285
+    },
+    "validVotes": 1295,
+    "invalidVotes": 11,
+    "totalVotes": 1306,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1306,
+    "remainingVotes": 905,
+    "eligibleVoters": 2211,
+    "voterTurnout": 59.06999969482422
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "蘆竹里",
+    "candidateVotes": {
+      "coast": 319,
+      "savannah": 415,
+      "rainforest": 122
+    },
+    "validVotes": 856,
+    "invalidVotes": 9,
+    "totalVotes": 865,
+    "receivedUnvoted": 0,
+    "issuedVotes": 865,
+    "remainingVotes": 509,
+    "eligibleVoters": 1374,
+    "voterTurnout": 62.95000076293945
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "尖山里",
+    "candidateVotes": {
+      "coast": 382,
+      "savannah": 330,
+      "rainforest": 121
+    },
+    "validVotes": 833,
+    "invalidVotes": 11,
+    "totalVotes": 844,
+    "receivedUnvoted": 0,
+    "issuedVotes": 844,
+    "remainingVotes": 538,
+    "eligibleVoters": 1382,
+    "voterTurnout": 61.06999969482422
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "廣興里",
+    "candidateVotes": {
+      "coast": 252,
+      "savannah": 200,
+      "rainforest": 116
+    },
+    "validVotes": 568,
+    "invalidVotes": 4,
+    "totalVotes": 572,
+    "receivedUnvoted": 0,
+    "issuedVotes": 572,
+    "remainingVotes": 297,
+    "eligibleVoters": 869,
+    "voterTurnout": 65.81999969482422
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "尖下里",
+    "candidateVotes": {
+      "coast": 731,
+      "savannah": 574,
+      "rainforest": 293
+    },
+    "validVotes": 1598,
+    "invalidVotes": 13,
+    "totalVotes": 1611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1611,
+    "remainingVotes": 990,
+    "eligibleVoters": 2601,
+    "voterTurnout": 61.939998626708984
+  },
+  {
+    "administrativeDivision": "頭份市",
+    "village": "濫坑里",
+    "candidateVotes": {
+      "coast": 537,
+      "savannah": 504,
+      "rainforest": 238
+    },
+    "validVotes": 1279,
+    "invalidVotes": 16,
+    "totalVotes": 1295,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1295,
+    "remainingVotes": 821,
+    "eligibleVoters": 2116,
+    "voterTurnout": 61.20000076293945
+  }
+]

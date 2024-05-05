@@ -1,0 +1,240 @@
+[
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 3374,
+      "savannah": 3596,
+      "rainforest": 1338
+    },
+    "validVotes": 8308,
+    "invalidVotes": 110,
+    "totalVotes": 8418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8418,
+    "remainingVotes": 6182,
+    "eligibleVoters": 14600,
+    "voterTurnout": 57.65999984741211
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "賓朗村",
+    "candidateVotes": {
+      "coast": 445,
+      "savannah": 657,
+      "rainforest": 172
+    },
+    "validVotes": 1274,
+    "invalidVotes": 18,
+    "totalVotes": 1292,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1292,
+    "remainingVotes": 853,
+    "eligibleVoters": 2145,
+    "voterTurnout": 60.22999954223633
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "美農村",
+    "candidateVotes": {
+      "coast": 130,
+      "savannah": 341,
+      "rainforest": 71
+    },
+    "validVotes": 542,
+    "invalidVotes": 6,
+    "totalVotes": 548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 548,
+    "remainingVotes": 466,
+    "eligibleVoters": 1014,
+    "voterTurnout": 54.040000915527344
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "初鹿村",
+    "candidateVotes": {
+      "coast": 274,
+      "savannah": 337,
+      "rainforest": 118
+    },
+    "validVotes": 729,
+    "invalidVotes": 12,
+    "totalVotes": 741,
+    "receivedUnvoted": 0,
+    "issuedVotes": 741,
+    "remainingVotes": 518,
+    "eligibleVoters": 1259,
+    "voterTurnout": 58.86000061035156
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "明峰村",
+    "candidateVotes": {
+      "coast": 207,
+      "savannah": 296,
+      "rainforest": 97
+    },
+    "validVotes": 600,
+    "invalidVotes": 4,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 558,
+    "eligibleVoters": 1162,
+    "voterTurnout": 51.97999954223633
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "嘉豐村",
+    "candidateVotes": {
+      "coast": 81,
+      "savannah": 117,
+      "rainforest": 25
+    },
+    "validVotes": 223,
+    "invalidVotes": 5,
+    "totalVotes": 228,
+    "receivedUnvoted": 0,
+    "issuedVotes": 228,
+    "remainingVotes": 268,
+    "eligibleVoters": 496,
+    "voterTurnout": 45.970001220703125
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "太平村",
+    "candidateVotes": {
+      "coast": 735,
+      "savannah": 634,
+      "rainforest": 257
+    },
+    "validVotes": 1626,
+    "invalidVotes": 25,
+    "totalVotes": 1651,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1651,
+    "remainingVotes": 1225,
+    "eligibleVoters": 2876,
+    "voterTurnout": 57.40999984741211
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "泰安村",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 196,
+      "rainforest": 163
+    },
+    "validVotes": 644,
+    "invalidVotes": 5,
+    "totalVotes": 649,
+    "receivedUnvoted": 0,
+    "issuedVotes": 649,
+    "remainingVotes": 413,
+    "eligibleVoters": 1062,
+    "voterTurnout": 61.11000061035156
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "利嘉村",
+    "candidateVotes": {
+      "coast": 334,
+      "savannah": 150,
+      "rainforest": 120
+    },
+    "validVotes": 604,
+    "invalidVotes": 14,
+    "totalVotes": 618,
+    "receivedUnvoted": 0,
+    "issuedVotes": 618,
+    "remainingVotes": 407,
+    "eligibleVoters": 1025,
+    "voterTurnout": 60.290000915527344
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "東興村",
+    "candidateVotes": {
+      "coast": 426,
+      "savannah": 102,
+      "rainforest": 133
+    },
+    "validVotes": 661,
+    "invalidVotes": 8,
+    "totalVotes": 669,
+    "receivedUnvoted": 0,
+    "issuedVotes": 669,
+    "remainingVotes": 467,
+    "eligibleVoters": 1136,
+    "voterTurnout": 58.88999938964844
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "溫泉村",
+    "candidateVotes": {
+      "coast": 181,
+      "savannah": 411,
+      "rainforest": 85
+    },
+    "validVotes": 677,
+    "invalidVotes": 7,
+    "totalVotes": 684,
+    "receivedUnvoted": 0,
+    "issuedVotes": 684,
+    "remainingVotes": 454,
+    "eligibleVoters": 1138,
+    "voterTurnout": 60.11000061035156
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "富山村",
+    "candidateVotes": {
+      "coast": 120,
+      "savannah": 111,
+      "rainforest": 38
+    },
+    "validVotes": 269,
+    "invalidVotes": 3,
+    "totalVotes": 272,
+    "receivedUnvoted": 0,
+    "issuedVotes": 272,
+    "remainingVotes": 237,
+    "eligibleVoters": 509,
+    "voterTurnout": 53.439998626708984
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "富源村",
+    "candidateVotes": {
+      "coast": 49,
+      "savannah": 144,
+      "rainforest": 19
+    },
+    "validVotes": 212,
+    "invalidVotes": 2,
+    "totalVotes": 214,
+    "receivedUnvoted": 0,
+    "issuedVotes": 214,
+    "remainingVotes": 136,
+    "eligibleVoters": 350,
+    "voterTurnout": 61.13999938964844
+  },
+  {
+    "administrativeDivision": "卑南鄉",
+    "village": "利吉村",
+    "candidateVotes": {
+      "coast": 107,
+      "savannah": 100,
+      "rainforest": 40
+    },
+    "validVotes": 247,
+    "invalidVotes": 1,
+    "totalVotes": 248,
+    "receivedUnvoted": 0,
+    "issuedVotes": 248,
+    "remainingVotes": 180,
+    "eligibleVoters": 428,
+    "voterTurnout": 57.939998626708984
+  }
+]

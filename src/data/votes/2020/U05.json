@@ -1,0 +1,325 @@
+[
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 1900,
+      "coast": 28957,
+      "savannah": 19318
+    },
+    "validVotes": 50175,
+    "invalidVotes": 533,
+    "totalVotes": 50708,
+    "receivedUnvoted": 1,
+    "issuedVotes": 50709,
+    "remainingVotes": 19673,
+    "eligibleVoters": 70382,
+    "voterTurnout": 72.0468
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "永安村",
+    "candidateVotes": {
+      "rainforest": 116,
+      "coast": 1663,
+      "savannah": 1179
+    },
+    "validVotes": 2958,
+    "invalidVotes": 34,
+    "totalVotes": 2992,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2992,
+    "remainingVotes": 1108,
+    "eligibleVoters": 4100,
+    "voterTurnout": 72.9756
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "太昌村",
+    "candidateVotes": {
+      "rainforest": 88,
+      "coast": 1351,
+      "savannah": 1046
+    },
+    "validVotes": 2485,
+    "invalidVotes": 25,
+    "totalVotes": 2510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2510,
+    "remainingVotes": 1134,
+    "eligibleVoters": 3644,
+    "voterTurnout": 68.8804
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "慶豐村",
+    "candidateVotes": {
+      "rainforest": 205,
+      "coast": 2685,
+      "savannah": 1981
+    },
+    "validVotes": 4871,
+    "invalidVotes": 52,
+    "totalVotes": 4923,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4923,
+    "remainingVotes": 1769,
+    "eligibleVoters": 6692,
+    "voterTurnout": 73.5655
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "吉安村",
+    "candidateVotes": {
+      "rainforest": 171,
+      "coast": 2113,
+      "savannah": 1388
+    },
+    "validVotes": 3672,
+    "invalidVotes": 42,
+    "totalVotes": 3714,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3714,
+    "remainingVotes": 1486,
+    "eligibleVoters": 5200,
+    "voterTurnout": 71.4231
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "福興村",
+    "candidateVotes": {
+      "rainforest": 88,
+      "coast": 1086,
+      "savannah": 916
+    },
+    "validVotes": 2090,
+    "invalidVotes": 34,
+    "totalVotes": 2124,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2124,
+    "remainingVotes": 740,
+    "eligibleVoters": 2864,
+    "voterTurnout": 74.162
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "南華村",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 573,
+      "savannah": 472
+    },
+    "validVotes": 1080,
+    "invalidVotes": 17,
+    "totalVotes": 1097,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1097,
+    "remainingVotes": 428,
+    "eligibleVoters": 1525,
+    "voterTurnout": 71.9344
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "干城村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 521,
+      "savannah": 184
+    },
+    "validVotes": 726,
+    "invalidVotes": 8,
+    "totalVotes": 734,
+    "receivedUnvoted": 0,
+    "issuedVotes": 734,
+    "remainingVotes": 527,
+    "eligibleVoters": 1261,
+    "voterTurnout": 58.2078
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "永興村",
+    "candidateVotes": {
+      "rainforest": 74,
+      "coast": 1175,
+      "savannah": 666
+    },
+    "validVotes": 1915,
+    "invalidVotes": 18,
+    "totalVotes": 1933,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1933,
+    "remainingVotes": 845,
+    "eligibleVoters": 2778,
+    "voterTurnout": 69.5824
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "稻香村",
+    "candidateVotes": {
+      "rainforest": 99,
+      "coast": 1309,
+      "savannah": 819
+    },
+    "validVotes": 2227,
+    "invalidVotes": 23,
+    "totalVotes": 2250,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2251,
+    "remainingVotes": 806,
+    "eligibleVoters": 3057,
+    "voterTurnout": 73.6016
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "南昌村",
+    "candidateVotes": {
+      "rainforest": 102,
+      "coast": 1707,
+      "savannah": 984
+    },
+    "validVotes": 2793,
+    "invalidVotes": 27,
+    "totalVotes": 2820,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2820,
+    "remainingVotes": 1179,
+    "eligibleVoters": 3999,
+    "voterTurnout": 70.5176
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "宜昌村",
+    "candidateVotes": {
+      "rainforest": 96,
+      "coast": 1577,
+      "savannah": 1065
+    },
+    "validVotes": 2738,
+    "invalidVotes": 29,
+    "totalVotes": 2767,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2767,
+    "remainingVotes": 1060,
+    "eligibleVoters": 3827,
+    "voterTurnout": 72.3021
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "北昌村",
+    "candidateVotes": {
+      "rainforest": 180,
+      "coast": 2808,
+      "savannah": 2145
+    },
+    "validVotes": 5133,
+    "invalidVotes": 54,
+    "totalVotes": 5187,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5187,
+    "remainingVotes": 1766,
+    "eligibleVoters": 6953,
+    "voterTurnout": 74.6009
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "勝安村",
+    "candidateVotes": {
+      "rainforest": 128,
+      "coast": 1904,
+      "savannah": 1507
+    },
+    "validVotes": 3539,
+    "invalidVotes": 32,
+    "totalVotes": 3571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3571,
+    "remainingVotes": 1209,
+    "eligibleVoters": 4780,
+    "voterTurnout": 74.7071
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "仁里村",
+    "candidateVotes": {
+      "rainforest": 144,
+      "coast": 2602,
+      "savannah": 1538
+    },
+    "validVotes": 4284,
+    "invalidVotes": 37,
+    "totalVotes": 4321,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4321,
+    "remainingVotes": 1563,
+    "eligibleVoters": 5884,
+    "voterTurnout": 73.4364
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "東昌村",
+    "candidateVotes": {
+      "rainforest": 130,
+      "coast": 2349,
+      "savannah": 1360
+    },
+    "validVotes": 3839,
+    "invalidVotes": 39,
+    "totalVotes": 3878,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3878,
+    "remainingVotes": 1436,
+    "eligibleVoters": 5314,
+    "voterTurnout": 72.977
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "仁安村",
+    "candidateVotes": {
+      "rainforest": 56,
+      "coast": 877,
+      "savannah": 621
+    },
+    "validVotes": 1554,
+    "invalidVotes": 10,
+    "totalVotes": 1564,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1564,
+    "remainingVotes": 708,
+    "eligibleVoters": 2272,
+    "voterTurnout": 68.838
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "仁和村",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1766,
+      "savannah": 1072
+    },
+    "validVotes": 2957,
+    "invalidVotes": 37,
+    "totalVotes": 2994,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2994,
+    "remainingVotes": 1354,
+    "eligibleVoters": 4348,
+    "voterTurnout": 68.8592
+  },
+  {
+    "administrativeDivision": "吉安鄉",
+    "village": "光華村",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 891,
+      "savannah": 375
+    },
+    "validVotes": 1314,
+    "invalidVotes": 15,
+    "totalVotes": 1329,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1329,
+    "remainingVotes": 555,
+    "eligibleVoters": 1884,
+    "voterTurnout": 70.5414
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 835,
+      "coast": 2393,
+      "rainforest": 89
+    },
+    "validVotes": 3317,
+    "invalidVotes": 39,
+    "totalVotes": 3356,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3356,
+    "remainingVotes": 3551,
+    "eligibleVoters": 6907,
+    "voterTurnout": 48.59000015258789
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "寧埔村",
+    "candidateVotes": {
+      "savannah": 115,
+      "coast": 455,
+      "rainforest": 17
+    },
+    "validVotes": 587,
+    "invalidVotes": 7,
+    "totalVotes": 594,
+    "receivedUnvoted": 0,
+    "issuedVotes": 594,
+    "remainingVotes": 741,
+    "eligibleVoters": 1335,
+    "voterTurnout": 44.4900016784668
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "竹湖村",
+    "candidateVotes": {
+      "savannah": 134,
+      "coast": 288,
+      "rainforest": 10
+    },
+    "validVotes": 432,
+    "invalidVotes": 3,
+    "totalVotes": 435,
+    "receivedUnvoted": 0,
+    "issuedVotes": 435,
+    "remainingVotes": 564,
+    "eligibleVoters": 999,
+    "voterTurnout": 43.540000915527344
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "長濱村",
+    "candidateVotes": {
+      "savannah": 279,
+      "coast": 719,
+      "rainforest": 28
+    },
+    "validVotes": 1026,
+    "invalidVotes": 8,
+    "totalVotes": 1034,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1034,
+    "remainingVotes": 993,
+    "eligibleVoters": 2027,
+    "voterTurnout": 51.0099983215332
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "忠勇村",
+    "candidateVotes": {
+      "savannah": 76,
+      "coast": 169,
+      "rainforest": 10
+    },
+    "validVotes": 255,
+    "invalidVotes": 2,
+    "totalVotes": 257,
+    "receivedUnvoted": 0,
+    "issuedVotes": 257,
+    "remainingVotes": 310,
+    "eligibleVoters": 567,
+    "voterTurnout": 45.33000183105469
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "三間村",
+    "candidateVotes": {
+      "savannah": 118,
+      "coast": 420,
+      "rainforest": 13
+    },
+    "validVotes": 551,
+    "invalidVotes": 10,
+    "totalVotes": 561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 561,
+    "remainingVotes": 514,
+    "eligibleVoters": 1075,
+    "voterTurnout": 52.189998626708984
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "樟原村、三間村",
+    "candidateVotes": {
+      "savannah": 28,
+      "coast": 90,
+      "rainforest": 1
+    },
+    "validVotes": 119,
+    "invalidVotes": 4,
+    "totalVotes": 123,
+    "receivedUnvoted": 0,
+    "issuedVotes": 123,
+    "remainingVotes": 138,
+    "eligibleVoters": 261,
+    "voterTurnout": 47.130001068115234
+  },
+  {
+    "administrativeDivision": "長濱鄉",
+    "village": "樟原村",
+    "candidateVotes": {
+      "savannah": 85,
+      "coast": 252,
+      "rainforest": 10
+    },
+    "validVotes": 347,
+    "invalidVotes": 5,
+    "totalVotes": 352,
+    "receivedUnvoted": 0,
+    "issuedVotes": 352,
+    "remainingVotes": 291,
+    "eligibleVoters": 643,
+    "voterTurnout": 54.7400016784668
+  }
+]

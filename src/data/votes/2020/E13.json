@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "林園區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 1259,
+      "coast": 12247,
+      "savannah": 29882
+    },
+    "validVotes": 43388,
+    "invalidVotes": 472,
+    "totalVotes": 43860,
+    "receivedUnvoted": 0,
+    "issuedVotes": 43860,
+    "remainingVotes": 13641,
+    "eligibleVoters": 57501,
+    "voterTurnout": 76.2769
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "東林里",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 608,
+      "savannah": 1386
+    },
+    "validVotes": 2053,
+    "invalidVotes": 23,
+    "totalVotes": 2076,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2076,
+    "remainingVotes": 632,
+    "eligibleVoters": 2708,
+    "voterTurnout": 76.6617
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "林園里",
+    "candidateVotes": {
+      "rainforest": 57,
+      "coast": 715,
+      "savannah": 1517
+    },
+    "validVotes": 2289,
+    "invalidVotes": 30,
+    "totalVotes": 2319,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2319,
+    "remainingVotes": 628,
+    "eligibleVoters": 2947,
+    "voterTurnout": 78.6902
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "溪州里",
+    "candidateVotes": {
+      "rainforest": 81,
+      "coast": 810,
+      "savannah": 1969
+    },
+    "validVotes": 2860,
+    "invalidVotes": 44,
+    "totalVotes": 2904,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2904,
+    "remainingVotes": 940,
+    "eligibleVoters": 3844,
+    "voterTurnout": 75.5463
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "潭頭里",
+    "candidateVotes": {
+      "rainforest": 73,
+      "coast": 646,
+      "savannah": 1260
+    },
+    "validVotes": 1979,
+    "invalidVotes": 21,
+    "totalVotes": 2000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2000,
+    "remainingVotes": 693,
+    "eligibleVoters": 2693,
+    "voterTurnout": 74.2666
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "中厝里",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 744,
+      "savannah": 1345
+    },
+    "validVotes": 2152,
+    "invalidVotes": 35,
+    "totalVotes": 2187,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2187,
+    "remainingVotes": 668,
+    "eligibleVoters": 2855,
+    "voterTurnout": 76.6025
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "中門里",
+    "candidateVotes": {
+      "rainforest": 49,
+      "coast": 550,
+      "savannah": 1241
+    },
+    "validVotes": 1840,
+    "invalidVotes": 22,
+    "totalVotes": 1862,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1862,
+    "remainingVotes": 580,
+    "eligibleVoters": 2442,
+    "voterTurnout": 76.249
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "頂厝里",
+    "candidateVotes": {
+      "rainforest": 91,
+      "coast": 900,
+      "savannah": 2317
+    },
+    "validVotes": 3308,
+    "invalidVotes": 25,
+    "totalVotes": 3333,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3333,
+    "remainingVotes": 1044,
+    "eligibleVoters": 4377,
+    "voterTurnout": 76.148
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "港埔里",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 326,
+      "savannah": 978
+    },
+    "validVotes": 1335,
+    "invalidVotes": 14,
+    "totalVotes": 1349,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1349,
+    "remainingVotes": 419,
+    "eligibleVoters": 1768,
+    "voterTurnout": 76.3009
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "西溪里",
+    "candidateVotes": {
+      "rainforest": 82,
+      "coast": 617,
+      "savannah": 1865
+    },
+    "validVotes": 2564,
+    "invalidVotes": 14,
+    "totalVotes": 2578,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2578,
+    "remainingVotes": 777,
+    "eligibleVoters": 3355,
+    "voterTurnout": 76.8405
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "港嘴里",
+    "candidateVotes": {
+      "rainforest": 34,
+      "coast": 279,
+      "savannah": 946
+    },
+    "validVotes": 1259,
+    "invalidVotes": 11,
+    "totalVotes": 1270,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1270,
+    "remainingVotes": 361,
+    "eligibleVoters": 1631,
+    "voterTurnout": 77.8663
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "北汕里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 391,
+      "savannah": 705
+    },
+    "validVotes": 1121,
+    "invalidVotes": 16,
+    "totalVotes": 1137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1137,
+    "remainingVotes": 433,
+    "eligibleVoters": 1570,
+    "voterTurnout": 72.4204
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "林內里",
+    "candidateVotes": {
+      "rainforest": 52,
+      "coast": 562,
+      "savannah": 811
+    },
+    "validVotes": 1425,
+    "invalidVotes": 11,
+    "totalVotes": 1436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1436,
+    "remainingVotes": 473,
+    "eligibleVoters": 1909,
+    "voterTurnout": 75.2226
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "王公里",
+    "candidateVotes": {
+      "rainforest": 88,
+      "coast": 864,
+      "savannah": 2011
+    },
+    "validVotes": 2963,
+    "invalidVotes": 38,
+    "totalVotes": 3001,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3001,
+    "remainingVotes": 917,
+    "eligibleVoters": 3918,
+    "voterTurnout": 76.5952
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "林家里",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 255,
+      "savannah": 648
+    },
+    "validVotes": 934,
+    "invalidVotes": 15,
+    "totalVotes": 949,
+    "receivedUnvoted": 0,
+    "issuedVotes": 949,
+    "remainingVotes": 306,
+    "eligibleVoters": 1255,
+    "voterTurnout": 75.6175
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "龔厝里",
+    "candidateVotes": {
+      "rainforest": 45,
+      "coast": 408,
+      "savannah": 1005
+    },
+    "validVotes": 1458,
+    "invalidVotes": 7,
+    "totalVotes": 1465,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1465,
+    "remainingVotes": 409,
+    "eligibleVoters": 1874,
+    "voterTurnout": 78.175
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "鳳芸里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 304,
+      "savannah": 1039
+    },
+    "validVotes": 1369,
+    "invalidVotes": 7,
+    "totalVotes": 1376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1376,
+    "remainingVotes": 363,
+    "eligibleVoters": 1739,
+    "voterTurnout": 79.1259
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "中芸里",
+    "candidateVotes": {
+      "rainforest": 45,
+      "coast": 295,
+      "savannah": 1000
+    },
+    "validVotes": 1340,
+    "invalidVotes": 11,
+    "totalVotes": 1351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1351,
+    "remainingVotes": 398,
+    "eligibleVoters": 1749,
+    "voterTurnout": 77.2441
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "東汕里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 167,
+      "savannah": 436
+    },
+    "validVotes": 623,
+    "invalidVotes": 4,
+    "totalVotes": 627,
+    "receivedUnvoted": 0,
+    "issuedVotes": 627,
+    "remainingVotes": 251,
+    "eligibleVoters": 878,
+    "voterTurnout": 71.4123
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "西汕里",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 116,
+      "savannah": 391
+    },
+    "validVotes": 520,
+    "invalidVotes": 3,
+    "totalVotes": 523,
+    "receivedUnvoted": 0,
+    "issuedVotes": 523,
+    "remainingVotes": 208,
+    "eligibleVoters": 731,
+    "voterTurnout": 71.5458
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "rainforest": 71,
+      "coast": 606,
+      "savannah": 1562
+    },
+    "validVotes": 2239,
+    "invalidVotes": 28,
+    "totalVotes": 2267,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2267,
+    "remainingVotes": 607,
+    "eligibleVoters": 2874,
+    "voterTurnout": 78.8796
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "文賢里",
+    "candidateVotes": {
+      "rainforest": 60,
+      "coast": 561,
+      "savannah": 1155
+    },
+    "validVotes": 1776,
+    "invalidVotes": 20,
+    "totalVotes": 1796,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1796,
+    "remainingVotes": 521,
+    "eligibleVoters": 2317,
+    "voterTurnout": 77.514
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "廣應里",
+    "candidateVotes": {
+      "rainforest": 85,
+      "coast": 689,
+      "savannah": 1768
+    },
+    "validVotes": 2542,
+    "invalidVotes": 26,
+    "totalVotes": 2568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2568,
+    "remainingVotes": 737,
+    "eligibleVoters": 3305,
+    "voterTurnout": 77.7005
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "五福里",
+    "candidateVotes": {
+      "rainforest": 43,
+      "coast": 499,
+      "savannah": 1265
+    },
+    "validVotes": 1807,
+    "invalidVotes": 21,
+    "totalVotes": 1828,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1828,
+    "remainingVotes": 679,
+    "eligibleVoters": 2507,
+    "voterTurnout": 72.9158
+  },
+  {
+    "administrativeDivision": "林園區",
+    "village": "中汕里",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 335,
+      "savannah": 1262
+    },
+    "validVotes": 1632,
+    "invalidVotes": 26,
+    "totalVotes": 1658,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1658,
+    "remainingVotes": 597,
+    "eligibleVoters": 2255,
+    "voterTurnout": 73.5255
+  }
+]

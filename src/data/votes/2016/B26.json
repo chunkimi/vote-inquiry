@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 10215,
+      "savannah": 20344,
+      "rainforest": 6047
+    },
+    "validVotes": 36606,
+    "invalidVotes": 554,
+    "totalVotes": 37160,
+    "receivedUnvoted": 2,
+    "issuedVotes": 37162,
+    "remainingVotes": 14963,
+    "eligibleVoters": 52125,
+    "voterTurnout": 71.29000091552734
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "桐林里",
+    "candidateVotes": {
+      "coast": 235,
+      "savannah": 482,
+      "rainforest": 159
+    },
+    "validVotes": 876,
+    "invalidVotes": 13,
+    "totalVotes": 889,
+    "receivedUnvoted": 0,
+    "issuedVotes": 889,
+    "remainingVotes": 267,
+    "eligibleVoters": 1156,
+    "voterTurnout": 76.9000015258789
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "吉峰里",
+    "candidateVotes": {
+      "coast": 1635,
+      "savannah": 3066,
+      "rainforest": 984
+    },
+    "validVotes": 5685,
+    "invalidVotes": 77,
+    "totalVotes": 5762,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5762,
+    "remainingVotes": 2914,
+    "eligibleVoters": 8676,
+    "voterTurnout": 66.41000366210938
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "甲寅里",
+    "candidateVotes": {
+      "coast": 933,
+      "savannah": 1627,
+      "rainforest": 533
+    },
+    "validVotes": 3093,
+    "invalidVotes": 44,
+    "totalVotes": 3137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3137,
+    "remainingVotes": 1332,
+    "eligibleVoters": 4469,
+    "voterTurnout": 70.19000244140625
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "本鄉里",
+    "candidateVotes": {
+      "coast": 481,
+      "savannah": 869,
+      "rainforest": 210
+    },
+    "validVotes": 1560,
+    "invalidVotes": 28,
+    "totalVotes": 1588,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1588,
+    "remainingVotes": 595,
+    "eligibleVoters": 2183,
+    "voterTurnout": 72.73999786376953
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 438,
+      "savannah": 688,
+      "rainforest": 213
+    },
+    "validVotes": 1339,
+    "invalidVotes": 18,
+    "totalVotes": 1357,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1357,
+    "remainingVotes": 536,
+    "eligibleVoters": 1893,
+    "voterTurnout": 71.69000244140625
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "錦榮里",
+    "candidateVotes": {
+      "coast": 245,
+      "savannah": 417,
+      "rainforest": 140
+    },
+    "validVotes": 802,
+    "invalidVotes": 7,
+    "totalVotes": 809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 809,
+    "remainingVotes": 327,
+    "eligibleVoters": 1136,
+    "voterTurnout": 71.20999908447266
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "萊園里",
+    "candidateVotes": {
+      "coast": 169,
+      "savannah": 396,
+      "rainforest": 129
+    },
+    "validVotes": 694,
+    "invalidVotes": 12,
+    "totalVotes": 706,
+    "receivedUnvoted": 0,
+    "issuedVotes": 706,
+    "remainingVotes": 335,
+    "eligibleVoters": 1041,
+    "voterTurnout": 67.81999969482422
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "本堂里",
+    "candidateVotes": {
+      "coast": 1286,
+      "savannah": 1893,
+      "rainforest": 661
+    },
+    "validVotes": 3840,
+    "invalidVotes": 59,
+    "totalVotes": 3899,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3899,
+    "remainingVotes": 1617,
+    "eligibleVoters": 5516,
+    "voterTurnout": 70.69000244140625
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "北柳里",
+    "candidateVotes": {
+      "coast": 723,
+      "savannah": 1559,
+      "rainforest": 350
+    },
+    "validVotes": 2632,
+    "invalidVotes": 29,
+    "totalVotes": 2661,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2662,
+    "remainingVotes": 972,
+    "eligibleVoters": 3634,
+    "voterTurnout": 73.2300033569336
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "南柳里",
+    "candidateVotes": {
+      "coast": 357,
+      "savannah": 762,
+      "rainforest": 198
+    },
+    "validVotes": 1317,
+    "invalidVotes": 24,
+    "totalVotes": 1341,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1341,
+    "remainingVotes": 406,
+    "eligibleVoters": 1747,
+    "voterTurnout": 76.76000213623047
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "四德里",
+    "candidateVotes": {
+      "coast": 407,
+      "savannah": 940,
+      "rainforest": 204
+    },
+    "validVotes": 1551,
+    "invalidVotes": 19,
+    "totalVotes": 1570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1570,
+    "remainingVotes": 656,
+    "eligibleVoters": 2226,
+    "voterTurnout": 70.52999877929688
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "五福里",
+    "candidateVotes": {
+      "coast": 475,
+      "savannah": 1056,
+      "rainforest": 336
+    },
+    "validVotes": 1867,
+    "invalidVotes": 17,
+    "totalVotes": 1884,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1885,
+    "remainingVotes": 587,
+    "eligibleVoters": 2472,
+    "voterTurnout": 76.20999908447266
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "丁台里",
+    "candidateVotes": {
+      "coast": 318,
+      "savannah": 1030,
+      "rainforest": 220
+    },
+    "validVotes": 1568,
+    "invalidVotes": 29,
+    "totalVotes": 1597,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1597,
+    "remainingVotes": 538,
+    "eligibleVoters": 2135,
+    "voterTurnout": 74.80000305175781
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "北勢里",
+    "candidateVotes": {
+      "coast": 404,
+      "savannah": 744,
+      "rainforest": 283
+    },
+    "validVotes": 1431,
+    "invalidVotes": 20,
+    "totalVotes": 1451,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1451,
+    "remainingVotes": 511,
+    "eligibleVoters": 1962,
+    "voterTurnout": 73.95999908447266
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "南勢里",
+    "candidateVotes": {
+      "coast": 196,
+      "savannah": 497,
+      "rainforest": 156
+    },
+    "validVotes": 849,
+    "invalidVotes": 17,
+    "totalVotes": 866,
+    "receivedUnvoted": 0,
+    "issuedVotes": 866,
+    "remainingVotes": 365,
+    "eligibleVoters": 1231,
+    "voterTurnout": 70.3499984741211
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "萬豐里",
+    "candidateVotes": {
+      "coast": 438,
+      "savannah": 1091,
+      "rainforest": 239
+    },
+    "validVotes": 1768,
+    "invalidVotes": 24,
+    "totalVotes": 1792,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1792,
+    "remainingVotes": 771,
+    "eligibleVoters": 2563,
+    "voterTurnout": 69.91999816894531
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "舊正里",
+    "candidateVotes": {
+      "coast": 342,
+      "savannah": 807,
+      "rainforest": 280
+    },
+    "validVotes": 1429,
+    "invalidVotes": 26,
+    "totalVotes": 1455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1455,
+    "remainingVotes": 532,
+    "eligibleVoters": 1987,
+    "voterTurnout": 73.2300033569336
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "坑口里",
+    "candidateVotes": {
+      "coast": 579,
+      "savannah": 950,
+      "rainforest": 374
+    },
+    "validVotes": 1903,
+    "invalidVotes": 36,
+    "totalVotes": 1939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1939,
+    "remainingVotes": 844,
+    "eligibleVoters": 2783,
+    "voterTurnout": 69.66999816894531
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "峰谷里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 438,
+      "rainforest": 134
+    },
+    "validVotes": 760,
+    "invalidVotes": 14,
+    "totalVotes": 774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 774,
+    "remainingVotes": 312,
+    "eligibleVoters": 1086,
+    "voterTurnout": 71.2699966430664
+  },
+  {
+    "administrativeDivision": "霧峰區",
+    "village": "六股里",
+    "candidateVotes": {
+      "coast": 366,
+      "savannah": 1032,
+      "rainforest": 244
+    },
+    "validVotes": 1642,
+    "invalidVotes": 41,
+    "totalVotes": 1683,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1683,
+    "remainingVotes": 546,
+    "eligibleVoters": 2229,
+    "voterTurnout": 75.5
+  }
+]

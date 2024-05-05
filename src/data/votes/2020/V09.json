@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 128,
+      "coast": 2240,
+      "savannah": 1755
+    },
+    "validVotes": 4123,
+    "invalidVotes": 52,
+    "totalVotes": 4175,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4175,
+    "remainingVotes": 2504,
+    "eligibleVoters": 6679,
+    "voterTurnout": 62.5094
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "鹿野村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 407,
+      "savannah": 244
+    },
+    "validVotes": 669,
+    "invalidVotes": 7,
+    "totalVotes": 676,
+    "receivedUnvoted": 0,
+    "issuedVotes": 676,
+    "remainingVotes": 377,
+    "eligibleVoters": 1053,
+    "voterTurnout": 64.1975
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "龍田村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 273,
+      "savannah": 366
+    },
+    "validVotes": 653,
+    "invalidVotes": 9,
+    "totalVotes": 662,
+    "receivedUnvoted": 0,
+    "issuedVotes": 662,
+    "remainingVotes": 354,
+    "eligibleVoters": 1016,
+    "voterTurnout": 65.1575
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "永安村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 529,
+      "savannah": 318
+    },
+    "validVotes": 868,
+    "invalidVotes": 14,
+    "totalVotes": 882,
+    "receivedUnvoted": 0,
+    "issuedVotes": 882,
+    "remainingVotes": 514,
+    "eligibleVoters": 1396,
+    "voterTurnout": 63.1805
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "瑞隆村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 338,
+      "savannah": 158
+    },
+    "validVotes": 510,
+    "invalidVotes": 3,
+    "totalVotes": 513,
+    "receivedUnvoted": 0,
+    "issuedVotes": 513,
+    "remainingVotes": 345,
+    "eligibleVoters": 858,
+    "voterTurnout": 59.7902
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "瑞源村",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 310,
+      "savannah": 187
+    },
+    "validVotes": 522,
+    "invalidVotes": 7,
+    "totalVotes": 529,
+    "receivedUnvoted": 0,
+    "issuedVotes": 529,
+    "remainingVotes": 313,
+    "eligibleVoters": 842,
+    "voterTurnout": 62.8266
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "瑞和村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 195,
+      "savannah": 132
+    },
+    "validVotes": 344,
+    "invalidVotes": 5,
+    "totalVotes": 349,
+    "receivedUnvoted": 0,
+    "issuedVotes": 349,
+    "remainingVotes": 290,
+    "eligibleVoters": 639,
+    "voterTurnout": 54.6166
+  },
+  {
+    "administrativeDivision": "鹿野鄉",
+    "village": "瑞豐村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 188,
+      "savannah": 350
+    },
+    "validVotes": 557,
+    "invalidVotes": 7,
+    "totalVotes": 564,
+    "receivedUnvoted": 0,
+    "issuedVotes": 564,
+    "remainingVotes": 311,
+    "eligibleVoters": 875,
+    "voterTurnout": 64.4571
+  }
+]

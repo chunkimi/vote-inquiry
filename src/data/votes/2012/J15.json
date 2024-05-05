@@ -1,0 +1,87 @@
+[
+  {
+    "administrativeDivision": "五峰鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 417,
+      "coast": 1825,
+      "rainforest": 127
+    },
+    "validVotes": 2369,
+    "invalidVotes": 21,
+    "totalVotes": 2390,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2391,
+    "remainingVotes": 1233,
+    "eligibleVoters": 3624,
+    "voterTurnout": 65.94999694824219
+  },
+  {
+    "administrativeDivision": "五峰鄉",
+    "village": "大隘村",
+    "candidateVotes": {
+      "savannah": 101,
+      "coast": 751,
+      "rainforest": 39
+    },
+    "validVotes": 891,
+    "invalidVotes": 6,
+    "totalVotes": 897,
+    "receivedUnvoted": 0,
+    "issuedVotes": 897,
+    "remainingVotes": 411,
+    "eligibleVoters": 1308,
+    "voterTurnout": 68.58000183105469
+  },
+  {
+    "administrativeDivision": "五峰鄉",
+    "village": "桃山村",
+    "candidateVotes": {
+      "savannah": 198,
+      "coast": 613,
+      "rainforest": 36
+    },
+    "validVotes": 847,
+    "invalidVotes": 7,
+    "totalVotes": 854,
+    "receivedUnvoted": 1,
+    "issuedVotes": 855,
+    "remainingVotes": 485,
+    "eligibleVoters": 1340,
+    "voterTurnout": 63.72999954223633
+  },
+  {
+    "administrativeDivision": "五峰鄉",
+    "village": "花園村",
+    "candidateVotes": {
+      "savannah": 80,
+      "coast": 311,
+      "rainforest": 26
+    },
+    "validVotes": 417,
+    "invalidVotes": 3,
+    "totalVotes": 420,
+    "receivedUnvoted": 0,
+    "issuedVotes": 420,
+    "remainingVotes": 210,
+    "eligibleVoters": 630,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "五峰鄉",
+    "village": "竹林村",
+    "candidateVotes": {
+      "savannah": 38,
+      "coast": 150,
+      "rainforest": 26
+    },
+    "validVotes": 214,
+    "invalidVotes": 5,
+    "totalVotes": 219,
+    "receivedUnvoted": 0,
+    "issuedVotes": 219,
+    "remainingVotes": 127,
+    "eligibleVoters": 346,
+    "voterTurnout": 63.290000915527344
+  }
+]

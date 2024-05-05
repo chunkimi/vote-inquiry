@@ -1,0 +1,1192 @@
+[
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 28264,
+      "savannah": 59698,
+      "rainforest": 10019
+    },
+    "validVotes": 97981,
+    "invalidVotes": 1302,
+    "totalVotes": 99283,
+    "receivedUnvoted": 3,
+    "issuedVotes": 99286,
+    "remainingVotes": 46290,
+    "eligibleVoters": 145576,
+    "voterTurnout": 68.19999694824219
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "博仁里",
+    "candidateVotes": {
+      "coast": 152,
+      "savannah": 273,
+      "rainforest": 64
+    },
+    "validVotes": 489,
+    "invalidVotes": 6,
+    "totalVotes": 495,
+    "receivedUnvoted": 0,
+    "issuedVotes": 495,
+    "remainingVotes": 199,
+    "eligibleVoters": 694,
+    "voterTurnout": 71.33000183105469
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "苓洲里",
+    "candidateVotes": {
+      "coast": 305,
+      "savannah": 563,
+      "rainforest": 98
+    },
+    "validVotes": 966,
+    "invalidVotes": 15,
+    "totalVotes": 981,
+    "receivedUnvoted": 0,
+    "issuedVotes": 981,
+    "remainingVotes": 478,
+    "eligibleVoters": 1459,
+    "voterTurnout": 67.23999786376953
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "苓昇里",
+    "candidateVotes": {
+      "coast": 208,
+      "savannah": 540,
+      "rainforest": 88
+    },
+    "validVotes": 836,
+    "invalidVotes": 13,
+    "totalVotes": 849,
+    "receivedUnvoted": 0,
+    "issuedVotes": 849,
+    "remainingVotes": 362,
+    "eligibleVoters": 1211,
+    "voterTurnout": 70.11000061035156
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "苓中里",
+    "candidateVotes": {
+      "coast": 258,
+      "savannah": 727,
+      "rainforest": 100
+    },
+    "validVotes": 1085,
+    "invalidVotes": 16,
+    "totalVotes": 1101,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1101,
+    "remainingVotes": 489,
+    "eligibleVoters": 1590,
+    "voterTurnout": 69.25
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "苓雅里",
+    "candidateVotes": {
+      "coast": 335,
+      "savannah": 579,
+      "rainforest": 104
+    },
+    "validVotes": 1018,
+    "invalidVotes": 18,
+    "totalVotes": 1036,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1036,
+    "remainingVotes": 407,
+    "eligibleVoters": 1443,
+    "voterTurnout": 71.79000091552734
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "苓東里",
+    "candidateVotes": {
+      "coast": 235,
+      "savannah": 615,
+      "rainforest": 82
+    },
+    "validVotes": 932,
+    "invalidVotes": 11,
+    "totalVotes": 943,
+    "receivedUnvoted": 0,
+    "issuedVotes": 943,
+    "remainingVotes": 524,
+    "eligibleVoters": 1467,
+    "voterTurnout": 64.27999877929688
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "城北里",
+    "candidateVotes": {
+      "coast": 264,
+      "savannah": 558,
+      "rainforest": 92
+    },
+    "validVotes": 914,
+    "invalidVotes": 14,
+    "totalVotes": 928,
+    "receivedUnvoted": 0,
+    "issuedVotes": 928,
+    "remainingVotes": 498,
+    "eligibleVoters": 1426,
+    "voterTurnout": 65.08000183105469
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "城西里",
+    "candidateVotes": {
+      "coast": 116,
+      "savannah": 306,
+      "rainforest": 70
+    },
+    "validVotes": 492,
+    "invalidVotes": 4,
+    "totalVotes": 496,
+    "receivedUnvoted": 0,
+    "issuedVotes": 496,
+    "remainingVotes": 272,
+    "eligibleVoters": 768,
+    "voterTurnout": 64.58000183105469
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "城東里",
+    "candidateVotes": {
+      "coast": 279,
+      "savannah": 751,
+      "rainforest": 119
+    },
+    "validVotes": 1149,
+    "invalidVotes": 14,
+    "totalVotes": 1163,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1163,
+    "remainingVotes": 713,
+    "eligibleVoters": 1876,
+    "voterTurnout": 61.9900016784668
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "意誠里",
+    "candidateVotes": {
+      "coast": 609,
+      "savannah": 1216,
+      "rainforest": 262
+    },
+    "validVotes": 2087,
+    "invalidVotes": 21,
+    "totalVotes": 2108,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2108,
+    "remainingVotes": 1389,
+    "eligibleVoters": 3497,
+    "voterTurnout": 60.279998779296875
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "鼓中里",
+    "candidateVotes": {
+      "coast": 179,
+      "savannah": 449,
+      "rainforest": 75
+    },
+    "validVotes": 703,
+    "invalidVotes": 8,
+    "totalVotes": 711,
+    "receivedUnvoted": 0,
+    "issuedVotes": 711,
+    "remainingVotes": 258,
+    "eligibleVoters": 969,
+    "voterTurnout": 73.37000274658203
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "田西里",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 560,
+      "rainforest": 81
+    },
+    "validVotes": 892,
+    "invalidVotes": 16,
+    "totalVotes": 908,
+    "receivedUnvoted": 0,
+    "issuedVotes": 908,
+    "remainingVotes": 384,
+    "eligibleVoters": 1292,
+    "voterTurnout": 70.27999877929688
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "人和里",
+    "candidateVotes": {
+      "coast": 314,
+      "savannah": 739,
+      "rainforest": 109
+    },
+    "validVotes": 1162,
+    "invalidVotes": 10,
+    "totalVotes": 1172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1172,
+    "remainingVotes": 583,
+    "eligibleVoters": 1755,
+    "voterTurnout": 66.77999877929688
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "仁政里",
+    "candidateVotes": {
+      "coast": 262,
+      "savannah": 484,
+      "rainforest": 90
+    },
+    "validVotes": 836,
+    "invalidVotes": 3,
+    "totalVotes": 839,
+    "receivedUnvoted": 0,
+    "issuedVotes": 839,
+    "remainingVotes": 388,
+    "eligibleVoters": 1227,
+    "voterTurnout": 68.37999725341797
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "廣澤里",
+    "candidateVotes": {
+      "coast": 323,
+      "savannah": 823,
+      "rainforest": 89
+    },
+    "validVotes": 1235,
+    "invalidVotes": 28,
+    "totalVotes": 1263,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1263,
+    "remainingVotes": 516,
+    "eligibleVoters": 1779,
+    "voterTurnout": 70.98999786376953
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "美田里",
+    "candidateVotes": {
+      "coast": 231,
+      "savannah": 444,
+      "rainforest": 111
+    },
+    "validVotes": 786,
+    "invalidVotes": 21,
+    "totalVotes": 807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 807,
+    "remainingVotes": 339,
+    "eligibleVoters": 1146,
+    "voterTurnout": 70.41999816894531
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "華堂里",
+    "candidateVotes": {
+      "coast": 538,
+      "savannah": 1257,
+      "rainforest": 200
+    },
+    "validVotes": 1995,
+    "invalidVotes": 21,
+    "totalVotes": 2016,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2016,
+    "remainingVotes": 979,
+    "eligibleVoters": 2995,
+    "voterTurnout": 67.30999755859375
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "日中里",
+    "candidateVotes": {
+      "coast": 383,
+      "savannah": 883,
+      "rainforest": 122
+    },
+    "validVotes": 1388,
+    "invalidVotes": 17,
+    "totalVotes": 1405,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1405,
+    "remainingVotes": 732,
+    "eligibleVoters": 2137,
+    "voterTurnout": 65.75
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "普照里",
+    "candidateVotes": {
+      "coast": 546,
+      "savannah": 1193,
+      "rainforest": 218
+    },
+    "validVotes": 1957,
+    "invalidVotes": 25,
+    "totalVotes": 1982,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1982,
+    "remainingVotes": 932,
+    "eligibleVoters": 2914,
+    "voterTurnout": 68.0199966430664
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "和煦里",
+    "candidateVotes": {
+      "coast": 407,
+      "savannah": 827,
+      "rainforest": 142
+    },
+    "validVotes": 1376,
+    "invalidVotes": 21,
+    "totalVotes": 1397,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1397,
+    "remainingVotes": 576,
+    "eligibleVoters": 1973,
+    "voterTurnout": 70.80999755859375
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "晴朗里",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 505,
+      "rainforest": 68
+    },
+    "validVotes": 809,
+    "invalidVotes": 11,
+    "totalVotes": 820,
+    "receivedUnvoted": 0,
+    "issuedVotes": 820,
+    "remainingVotes": 1223,
+    "eligibleVoters": 2043,
+    "voterTurnout": 40.13999938964844
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "普天里",
+    "candidateVotes": {
+      "coast": 605,
+      "savannah": 1270,
+      "rainforest": 194
+    },
+    "validVotes": 2069,
+    "invalidVotes": 23,
+    "totalVotes": 2092,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2092,
+    "remainingVotes": 955,
+    "eligibleVoters": 3047,
+    "voterTurnout": 68.66000366210938
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林富里",
+    "candidateVotes": {
+      "coast": 371,
+      "savannah": 716,
+      "rainforest": 129
+    },
+    "validVotes": 1216,
+    "invalidVotes": 21,
+    "totalVotes": 1237,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1237,
+    "remainingVotes": 553,
+    "eligibleVoters": 1790,
+    "voterTurnout": 69.11000061035156
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林圍里",
+    "candidateVotes": {
+      "coast": 535,
+      "savannah": 823,
+      "rainforest": 165
+    },
+    "validVotes": 1523,
+    "invalidVotes": 19,
+    "totalVotes": 1542,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1542,
+    "remainingVotes": 724,
+    "eligibleVoters": 2266,
+    "voterTurnout": 68.05000305175781
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林安里",
+    "candidateVotes": {
+      "coast": 354,
+      "savannah": 544,
+      "rainforest": 118
+    },
+    "validVotes": 1016,
+    "invalidVotes": 12,
+    "totalVotes": 1028,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1028,
+    "remainingVotes": 407,
+    "eligibleVoters": 1435,
+    "voterTurnout": 71.63999938964844
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "光華里",
+    "candidateVotes": {
+      "coast": 109,
+      "savannah": 349,
+      "rainforest": 42
+    },
+    "validVotes": 500,
+    "invalidVotes": 8,
+    "totalVotes": 508,
+    "receivedUnvoted": 0,
+    "issuedVotes": 508,
+    "remainingVotes": 174,
+    "eligibleVoters": 682,
+    "voterTurnout": 74.48999786376953
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林興里",
+    "candidateVotes": {
+      "coast": 194,
+      "savannah": 630,
+      "rainforest": 87
+    },
+    "validVotes": 911,
+    "invalidVotes": 8,
+    "totalVotes": 919,
+    "receivedUnvoted": 0,
+    "issuedVotes": 919,
+    "remainingVotes": 410,
+    "eligibleVoters": 1329,
+    "voterTurnout": 69.1500015258789
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林華里",
+    "candidateVotes": {
+      "coast": 508,
+      "savannah": 1241,
+      "rainforest": 180
+    },
+    "validVotes": 1929,
+    "invalidVotes": 18,
+    "totalVotes": 1947,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1947,
+    "remainingVotes": 804,
+    "eligibleVoters": 2751,
+    "voterTurnout": 70.7699966430664
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林西里",
+    "candidateVotes": {
+      "coast": 276,
+      "savannah": 646,
+      "rainforest": 102
+    },
+    "validVotes": 1024,
+    "invalidVotes": 7,
+    "totalVotes": 1031,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1031,
+    "remainingVotes": 536,
+    "eligibleVoters": 1567,
+    "voterTurnout": 65.79000091552734
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林中里",
+    "candidateVotes": {
+      "coast": 556,
+      "savannah": 1217,
+      "rainforest": 169
+    },
+    "validVotes": 1942,
+    "invalidVotes": 30,
+    "totalVotes": 1972,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1972,
+    "remainingVotes": 906,
+    "eligibleVoters": 2878,
+    "voterTurnout": 68.5199966430664
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林泉里",
+    "candidateVotes": {
+      "coast": 458,
+      "savannah": 688,
+      "rainforest": 118
+    },
+    "validVotes": 1264,
+    "invalidVotes": 15,
+    "totalVotes": 1279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1279,
+    "remainingVotes": 508,
+    "eligibleVoters": 1787,
+    "voterTurnout": 71.56999969482422
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林南里",
+    "candidateVotes": {
+      "coast": 682,
+      "savannah": 1071,
+      "rainforest": 186
+    },
+    "validVotes": 1939,
+    "invalidVotes": 34,
+    "totalVotes": 1973,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1973,
+    "remainingVotes": 855,
+    "eligibleVoters": 2828,
+    "voterTurnout": 69.7699966430664
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 555,
+      "savannah": 1050,
+      "rainforest": 174
+    },
+    "validVotes": 1779,
+    "invalidVotes": 23,
+    "totalVotes": 1802,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1802,
+    "remainingVotes": 840,
+    "eligibleVoters": 2642,
+    "voterTurnout": 68.20999908447266
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "尚義里",
+    "candidateVotes": {
+      "coast": 331,
+      "savannah": 549,
+      "rainforest": 99
+    },
+    "validVotes": 979,
+    "invalidVotes": 15,
+    "totalVotes": 994,
+    "receivedUnvoted": 0,
+    "issuedVotes": 994,
+    "remainingVotes": 433,
+    "eligibleVoters": 1427,
+    "voterTurnout": 69.66000366210938
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "同慶里",
+    "candidateVotes": {
+      "coast": 502,
+      "savannah": 779,
+      "rainforest": 145
+    },
+    "validVotes": 1426,
+    "invalidVotes": 22,
+    "totalVotes": 1448,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1448,
+    "remainingVotes": 705,
+    "eligibleVoters": 2153,
+    "voterTurnout": 67.25
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "凱旋里",
+    "candidateVotes": {
+      "coast": 528,
+      "savannah": 686,
+      "rainforest": 176
+    },
+    "validVotes": 1390,
+    "invalidVotes": 19,
+    "totalVotes": 1409,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1409,
+    "remainingVotes": 620,
+    "eligibleVoters": 2029,
+    "voterTurnout": 69.44000244140625
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "安祥里",
+    "candidateVotes": {
+      "coast": 524,
+      "savannah": 862,
+      "rainforest": 139
+    },
+    "validVotes": 1525,
+    "invalidVotes": 25,
+    "totalVotes": 1550,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1550,
+    "remainingVotes": 671,
+    "eligibleVoters": 2221,
+    "voterTurnout": 69.79000091552734
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "奏捷里",
+    "candidateVotes": {
+      "coast": 359,
+      "savannah": 592,
+      "rainforest": 90
+    },
+    "validVotes": 1041,
+    "invalidVotes": 18,
+    "totalVotes": 1059,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1059,
+    "remainingVotes": 443,
+    "eligibleVoters": 1502,
+    "voterTurnout": 70.51000213623047
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福壽里",
+    "candidateVotes": {
+      "coast": 217,
+      "savannah": 744,
+      "rainforest": 87
+    },
+    "validVotes": 1048,
+    "invalidVotes": 21,
+    "totalVotes": 1069,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1069,
+    "remainingVotes": 392,
+    "eligibleVoters": 1461,
+    "voterTurnout": 73.16999816894531
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福南里",
+    "candidateVotes": {
+      "coast": 262,
+      "savannah": 874,
+      "rainforest": 120
+    },
+    "validVotes": 1256,
+    "invalidVotes": 18,
+    "totalVotes": 1274,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1274,
+    "remainingVotes": 490,
+    "eligibleVoters": 1764,
+    "voterTurnout": 72.22000122070312
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "五權里",
+    "candidateVotes": {
+      "coast": 412,
+      "savannah": 858,
+      "rainforest": 150
+    },
+    "validVotes": 1420,
+    "invalidVotes": 19,
+    "totalVotes": 1439,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1439,
+    "remainingVotes": 568,
+    "eligibleVoters": 2007,
+    "voterTurnout": 71.69999694824219
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "民主里",
+    "candidateVotes": {
+      "coast": 779,
+      "savannah": 1523,
+      "rainforest": 243
+    },
+    "validVotes": 2545,
+    "invalidVotes": 39,
+    "totalVotes": 2584,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2584,
+    "remainingVotes": 1190,
+    "eligibleVoters": 3774,
+    "voterTurnout": 68.47000122070312
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林德里",
+    "candidateVotes": {
+      "coast": 407,
+      "savannah": 693,
+      "rainforest": 99
+    },
+    "validVotes": 1199,
+    "invalidVotes": 24,
+    "totalVotes": 1223,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1223,
+    "remainingVotes": 537,
+    "eligibleVoters": 1760,
+    "voterTurnout": 69.48999786376953
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林貴里",
+    "candidateVotes": {
+      "coast": 347,
+      "savannah": 708,
+      "rainforest": 116
+    },
+    "validVotes": 1171,
+    "invalidVotes": 14,
+    "totalVotes": 1185,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1185,
+    "remainingVotes": 552,
+    "eligibleVoters": 1737,
+    "voterTurnout": 68.22000122070312
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林榮里",
+    "candidateVotes": {
+      "coast": 808,
+      "savannah": 1514,
+      "rainforest": 326
+    },
+    "validVotes": 2648,
+    "invalidVotes": 32,
+    "totalVotes": 2680,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2680,
+    "remainingVotes": 1233,
+    "eligibleVoters": 3913,
+    "voterTurnout": 68.48999786376953
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "英明里",
+    "candidateVotes": {
+      "coast": 321,
+      "savannah": 866,
+      "rainforest": 128
+    },
+    "validVotes": 1315,
+    "invalidVotes": 10,
+    "totalVotes": 1325,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1325,
+    "remainingVotes": 583,
+    "eligibleVoters": 1908,
+    "voterTurnout": 69.44000244140625
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "林靖里",
+    "candidateVotes": {
+      "coast": 449,
+      "savannah": 498,
+      "rainforest": 100
+    },
+    "validVotes": 1047,
+    "invalidVotes": 26,
+    "totalVotes": 1073,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1073,
+    "remainingVotes": 458,
+    "eligibleVoters": 1531,
+    "voterTurnout": 70.08000183105469
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "朝陽里",
+    "candidateVotes": {
+      "coast": 261,
+      "savannah": 631,
+      "rainforest": 104
+    },
+    "validVotes": 996,
+    "invalidVotes": 15,
+    "totalVotes": 1011,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1011,
+    "remainingVotes": 437,
+    "eligibleVoters": 1448,
+    "voterTurnout": 69.81999969482422
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福隆里",
+    "candidateVotes": {
+      "coast": 478,
+      "savannah": 1137,
+      "rainforest": 175
+    },
+    "validVotes": 1790,
+    "invalidVotes": 19,
+    "totalVotes": 1809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1809,
+    "remainingVotes": 701,
+    "eligibleVoters": 2510,
+    "voterTurnout": 72.06999969482422
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福祥里",
+    "candidateVotes": {
+      "coast": 255,
+      "savannah": 491,
+      "rainforest": 72
+    },
+    "validVotes": 818,
+    "invalidVotes": 22,
+    "totalVotes": 840,
+    "receivedUnvoted": 0,
+    "issuedVotes": 840,
+    "remainingVotes": 362,
+    "eligibleVoters": 1202,
+    "voterTurnout": 69.87999725341797
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福海里",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 400,
+      "rainforest": 78
+    },
+    "validVotes": 714,
+    "invalidVotes": 6,
+    "totalVotes": 720,
+    "receivedUnvoted": 0,
+    "issuedVotes": 720,
+    "remainingVotes": 320,
+    "eligibleVoters": 1040,
+    "voterTurnout": 69.2300033569336
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福康里",
+    "candidateVotes": {
+      "coast": 295,
+      "savannah": 925,
+      "rainforest": 105
+    },
+    "validVotes": 1325,
+    "invalidVotes": 9,
+    "totalVotes": 1334,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1334,
+    "remainingVotes": 527,
+    "eligibleVoters": 1861,
+    "voterTurnout": 71.68000030517578
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福人里",
+    "candidateVotes": {
+      "coast": 405,
+      "savannah": 858,
+      "rainforest": 129
+    },
+    "validVotes": 1392,
+    "invalidVotes": 25,
+    "totalVotes": 1417,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1417,
+    "remainingVotes": 624,
+    "eligibleVoters": 2041,
+    "voterTurnout": 69.43000030517578
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福地里",
+    "candidateVotes": {
+      "coast": 467,
+      "savannah": 1112,
+      "rainforest": 230
+    },
+    "validVotes": 1809,
+    "invalidVotes": 30,
+    "totalVotes": 1839,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1839,
+    "remainingVotes": 854,
+    "eligibleVoters": 2693,
+    "voterTurnout": 68.29000091552734
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福居里",
+    "candidateVotes": {
+      "coast": 425,
+      "savannah": 1247,
+      "rainforest": 170
+    },
+    "validVotes": 1842,
+    "invalidVotes": 27,
+    "totalVotes": 1869,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1870,
+    "remainingVotes": 782,
+    "eligibleVoters": 2652,
+    "voterTurnout": 70.4800033569336
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福東里",
+    "candidateVotes": {
+      "coast": 467,
+      "savannah": 1107,
+      "rainforest": 196
+    },
+    "validVotes": 1770,
+    "invalidVotes": 13,
+    "totalVotes": 1783,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1783,
+    "remainingVotes": 768,
+    "eligibleVoters": 2551,
+    "voterTurnout": 69.88999938964844
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "福西里",
+    "candidateVotes": {
+      "coast": 249,
+      "savannah": 844,
+      "rainforest": 116
+    },
+    "validVotes": 1209,
+    "invalidVotes": 15,
+    "totalVotes": 1224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1224,
+    "remainingVotes": 545,
+    "eligibleVoters": 1769,
+    "voterTurnout": 69.19000244140625
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "永康里",
+    "candidateVotes": {
+      "coast": 463,
+      "savannah": 869,
+      "rainforest": 169
+    },
+    "validVotes": 1501,
+    "invalidVotes": 23,
+    "totalVotes": 1524,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1524,
+    "remainingVotes": 673,
+    "eligibleVoters": 2197,
+    "voterTurnout": 69.37000274658203
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正文里",
+    "candidateVotes": {
+      "coast": 356,
+      "savannah": 819,
+      "rainforest": 127
+    },
+    "validVotes": 1302,
+    "invalidVotes": 11,
+    "totalVotes": 1313,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1313,
+    "remainingVotes": 626,
+    "eligibleVoters": 1939,
+    "voterTurnout": 67.72000122070312
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正言里",
+    "candidateVotes": {
+      "coast": 512,
+      "savannah": 1201,
+      "rainforest": 206
+    },
+    "validVotes": 1919,
+    "invalidVotes": 20,
+    "totalVotes": 1939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1939,
+    "remainingVotes": 1021,
+    "eligibleVoters": 2960,
+    "voterTurnout": 65.51000213623047
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正大里",
+    "candidateVotes": {
+      "coast": 912,
+      "savannah": 1819,
+      "rainforest": 331
+    },
+    "validVotes": 3062,
+    "invalidVotes": 53,
+    "totalVotes": 3115,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3115,
+    "remainingVotes": 1732,
+    "eligibleVoters": 4847,
+    "voterTurnout": 64.2699966430664
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "五福里",
+    "candidateVotes": {
+      "coast": 746,
+      "savannah": 1464,
+      "rainforest": 275
+    },
+    "validVotes": 2485,
+    "invalidVotes": 27,
+    "totalVotes": 2512,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2513,
+    "remainingVotes": 1170,
+    "eligibleVoters": 3683,
+    "voterTurnout": 68.20999908447266
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正心里",
+    "candidateVotes": {
+      "coast": 716,
+      "savannah": 1437,
+      "rainforest": 222
+    },
+    "validVotes": 2375,
+    "invalidVotes": 27,
+    "totalVotes": 2402,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2403,
+    "remainingVotes": 1144,
+    "eligibleVoters": 3547,
+    "voterTurnout": 67.72000122070312
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正道里",
+    "candidateVotes": {
+      "coast": 794,
+      "savannah": 1612,
+      "rainforest": 267
+    },
+    "validVotes": 2673,
+    "invalidVotes": 30,
+    "totalVotes": 2703,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2703,
+    "remainingVotes": 1392,
+    "eligibleVoters": 4095,
+    "voterTurnout": 66.01000213623047
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正義里",
+    "candidateVotes": {
+      "coast": 455,
+      "savannah": 1115,
+      "rainforest": 180
+    },
+    "validVotes": 1750,
+    "invalidVotes": 19,
+    "totalVotes": 1769,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1769,
+    "remainingVotes": 664,
+    "eligibleVoters": 2433,
+    "voterTurnout": 72.70999908447266
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "正仁里",
+    "candidateVotes": {
+      "coast": 511,
+      "savannah": 1007,
+      "rainforest": 193
+    },
+    "validVotes": 1711,
+    "invalidVotes": 17,
+    "totalVotes": 1728,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1728,
+    "remainingVotes": 827,
+    "eligibleVoters": 2555,
+    "voterTurnout": 67.62999725341797
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "文昌里",
+    "candidateVotes": {
+      "coast": 628,
+      "savannah": 1659,
+      "rainforest": 287
+    },
+    "validVotes": 2574,
+    "invalidVotes": 26,
+    "totalVotes": 2600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2600,
+    "remainingVotes": 1144,
+    "eligibleVoters": 3744,
+    "voterTurnout": 69.44000244140625
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "建軍里",
+    "candidateVotes": {
+      "coast": 330,
+      "savannah": 913,
+      "rainforest": 157
+    },
+    "validVotes": 1400,
+    "invalidVotes": 19,
+    "totalVotes": 1419,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1419,
+    "remainingVotes": 530,
+    "eligibleVoters": 1949,
+    "voterTurnout": 72.80999755859375
+  },
+  {
+    "administrativeDivision": "苓雅區",
+    "village": "衛武里",
+    "candidateVotes": {
+      "coast": 423,
+      "savannah": 748,
+      "rainforest": 164
+    },
+    "validVotes": 1335,
+    "invalidVotes": 16,
+    "totalVotes": 1351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1351,
+    "remainingVotes": 659,
+    "eligibleVoters": 2010,
+    "voterTurnout": 67.20999908447266
+  }
+]

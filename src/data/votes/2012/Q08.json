@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 10265,
+      "coast": 4770,
+      "rainforest": 406
+    },
+    "validVotes": 15441,
+    "invalidVotes": 224,
+    "totalVotes": 15665,
+    "receivedUnvoted": 0,
+    "issuedVotes": 15665,
+    "remainingVotes": 6159,
+    "eligibleVoters": 21824,
+    "voterTurnout": 71.77999877929688
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "蒜頭村",
+    "candidateVotes": {
+      "savannah": 492,
+      "coast": 420,
+      "rainforest": 28
+    },
+    "validVotes": 940,
+    "invalidVotes": 11,
+    "totalVotes": 951,
+    "receivedUnvoted": 0,
+    "issuedVotes": 951,
+    "remainingVotes": 308,
+    "eligibleVoters": 1259,
+    "voterTurnout": 75.54000091552734
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "蒜東村",
+    "candidateVotes": {
+      "savannah": 384,
+      "coast": 211,
+      "rainforest": 16
+    },
+    "validVotes": 611,
+    "invalidVotes": 12,
+    "totalVotes": 623,
+    "receivedUnvoted": 0,
+    "issuedVotes": 623,
+    "remainingVotes": 236,
+    "eligibleVoters": 859,
+    "voterTurnout": 72.52999877929688
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "蒜南村",
+    "candidateVotes": {
+      "savannah": 418,
+      "coast": 226,
+      "rainforest": 18
+    },
+    "validVotes": 662,
+    "invalidVotes": 10,
+    "totalVotes": 672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 672,
+    "remainingVotes": 214,
+    "eligibleVoters": 886,
+    "voterTurnout": 75.8499984741211
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "工廠村",
+    "candidateVotes": {
+      "savannah": 62,
+      "coast": 120,
+      "rainforest": 3
+    },
+    "validVotes": 185,
+    "invalidVotes": 3,
+    "totalVotes": 188,
+    "receivedUnvoted": 0,
+    "issuedVotes": 188,
+    "remainingVotes": 62,
+    "eligibleVoters": 250,
+    "voterTurnout": 75.19999694824219
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "灣南村",
+    "candidateVotes": {
+      "savannah": 548,
+      "coast": 328,
+      "rainforest": 25
+    },
+    "validVotes": 901,
+    "invalidVotes": 9,
+    "totalVotes": 910,
+    "receivedUnvoted": 0,
+    "issuedVotes": 910,
+    "remainingVotes": 303,
+    "eligibleVoters": 1213,
+    "voterTurnout": 75.0199966430664
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "灣北村",
+    "candidateVotes": {
+      "savannah": 506,
+      "coast": 370,
+      "rainforest": 19
+    },
+    "validVotes": 895,
+    "invalidVotes": 11,
+    "totalVotes": 906,
+    "receivedUnvoted": 0,
+    "issuedVotes": 906,
+    "remainingVotes": 315,
+    "eligibleVoters": 1221,
+    "voterTurnout": 74.19999694824219
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "雙涵村",
+    "candidateVotes": {
+      "savannah": 440,
+      "coast": 176,
+      "rainforest": 19
+    },
+    "validVotes": 635,
+    "invalidVotes": 7,
+    "totalVotes": 642,
+    "receivedUnvoted": 0,
+    "issuedVotes": 642,
+    "remainingVotes": 273,
+    "eligibleVoters": 915,
+    "voterTurnout": 70.16000366210938
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "塗師村",
+    "candidateVotes": {
+      "savannah": 345,
+      "coast": 104,
+      "rainforest": 11
+    },
+    "validVotes": 460,
+    "invalidVotes": 8,
+    "totalVotes": 468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 468,
+    "remainingVotes": 193,
+    "eligibleVoters": 661,
+    "voterTurnout": 70.80000305175781
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "三義村",
+    "candidateVotes": {
+      "savannah": 392,
+      "coast": 130,
+      "rainforest": 16
+    },
+    "validVotes": 538,
+    "invalidVotes": 4,
+    "totalVotes": 542,
+    "receivedUnvoted": 0,
+    "issuedVotes": 542,
+    "remainingVotes": 232,
+    "eligibleVoters": 774,
+    "voterTurnout": 70.02999877929688
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "正義村",
+    "candidateVotes": {
+      "savannah": 784,
+      "coast": 242,
+      "rainforest": 19
+    },
+    "validVotes": 1045,
+    "invalidVotes": 20,
+    "totalVotes": 1065,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1065,
+    "remainingVotes": 356,
+    "eligibleVoters": 1421,
+    "voterTurnout": 74.94999694824219
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "溪厝村",
+    "candidateVotes": {
+      "savannah": 312,
+      "coast": 138,
+      "rainforest": 17
+    },
+    "validVotes": 467,
+    "invalidVotes": 4,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 192,
+    "eligibleVoters": 663,
+    "voterTurnout": 71.04000091552734
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "港美村",
+    "candidateVotes": {
+      "savannah": 444,
+      "coast": 107,
+      "rainforest": 14
+    },
+    "validVotes": 565,
+    "invalidVotes": 5,
+    "totalVotes": 570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 570,
+    "remainingVotes": 206,
+    "eligibleVoters": 776,
+    "voterTurnout": 73.44999694824219
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "豐美村",
+    "candidateVotes": {
+      "savannah": 543,
+      "coast": 230,
+      "rainforest": 13
+    },
+    "validVotes": 786,
+    "invalidVotes": 17,
+    "totalVotes": 803,
+    "receivedUnvoted": 0,
+    "issuedVotes": 803,
+    "remainingVotes": 299,
+    "eligibleVoters": 1102,
+    "voterTurnout": 72.87000274658203
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "六斗村",
+    "candidateVotes": {
+      "savannah": 455,
+      "coast": 214,
+      "rainforest": 10
+    },
+    "validVotes": 679,
+    "invalidVotes": 4,
+    "totalVotes": 683,
+    "receivedUnvoted": 0,
+    "issuedVotes": 683,
+    "remainingVotes": 262,
+    "eligibleVoters": 945,
+    "voterTurnout": 72.27999877929688
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "崙陽村",
+    "candidateVotes": {
+      "savannah": 508,
+      "coast": 217,
+      "rainforest": 26
+    },
+    "validVotes": 751,
+    "invalidVotes": 13,
+    "totalVotes": 764,
+    "receivedUnvoted": 0,
+    "issuedVotes": 764,
+    "remainingVotes": 256,
+    "eligibleVoters": 1020,
+    "voterTurnout": 74.9000015258789
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "蘇厝村",
+    "candidateVotes": {
+      "savannah": 700,
+      "coast": 359,
+      "rainforest": 29
+    },
+    "validVotes": 1088,
+    "invalidVotes": 16,
+    "totalVotes": 1104,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1104,
+    "remainingVotes": 381,
+    "eligibleVoters": 1485,
+    "voterTurnout": 74.33999633789062
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "竹本村",
+    "candidateVotes": {
+      "savannah": 338,
+      "coast": 103,
+      "rainforest": 16
+    },
+    "validVotes": 457,
+    "invalidVotes": 9,
+    "totalVotes": 466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 466,
+    "remainingVotes": 231,
+    "eligibleVoters": 697,
+    "voterTurnout": 66.86000061035156
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "永賢村",
+    "candidateVotes": {
+      "savannah": 251,
+      "coast": 89,
+      "rainforest": 11
+    },
+    "validVotes": 351,
+    "invalidVotes": 4,
+    "totalVotes": 355,
+    "receivedUnvoted": 0,
+    "issuedVotes": 355,
+    "remainingVotes": 194,
+    "eligibleVoters": 549,
+    "voterTurnout": 64.66000366210938
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "魚寮村",
+    "candidateVotes": {
+      "savannah": 361,
+      "coast": 104,
+      "rainforest": 13
+    },
+    "validVotes": 478,
+    "invalidVotes": 10,
+    "totalVotes": 488,
+    "receivedUnvoted": 0,
+    "issuedVotes": 488,
+    "remainingVotes": 229,
+    "eligibleVoters": 717,
+    "voterTurnout": 68.05999755859375
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "潭墘村",
+    "candidateVotes": {
+      "savannah": 372,
+      "coast": 200,
+      "rainforest": 19
+    },
+    "validVotes": 591,
+    "invalidVotes": 9,
+    "totalVotes": 600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 600,
+    "remainingVotes": 312,
+    "eligibleVoters": 912,
+    "voterTurnout": 65.79000091552734
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "六腳村",
+    "candidateVotes": {
+      "savannah": 317,
+      "coast": 214,
+      "rainforest": 12
+    },
+    "validVotes": 543,
+    "invalidVotes": 8,
+    "totalVotes": 551,
+    "receivedUnvoted": 0,
+    "issuedVotes": 551,
+    "remainingVotes": 272,
+    "eligibleVoters": 823,
+    "voterTurnout": 66.94999694824219
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "六南村",
+    "candidateVotes": {
+      "savannah": 272,
+      "coast": 115,
+      "rainforest": 12
+    },
+    "validVotes": 399,
+    "invalidVotes": 4,
+    "totalVotes": 403,
+    "receivedUnvoted": 0,
+    "issuedVotes": 403,
+    "remainingVotes": 180,
+    "eligibleVoters": 583,
+    "voterTurnout": 69.12999725341797
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "崩山村",
+    "candidateVotes": {
+      "savannah": 356,
+      "coast": 128,
+      "rainforest": 12
+    },
+    "validVotes": 496,
+    "invalidVotes": 11,
+    "totalVotes": 507,
+    "receivedUnvoted": 0,
+    "issuedVotes": 507,
+    "remainingVotes": 214,
+    "eligibleVoters": 721,
+    "voterTurnout": 70.31999969482422
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "古林村",
+    "candidateVotes": {
+      "savannah": 419,
+      "coast": 103,
+      "rainforest": 17
+    },
+    "validVotes": 539,
+    "invalidVotes": 9,
+    "totalVotes": 548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 548,
+    "remainingVotes": 237,
+    "eligibleVoters": 785,
+    "voterTurnout": 69.80999755859375
+  },
+  {
+    "administrativeDivision": "六腳鄉",
+    "village": "更寮村",
+    "candidateVotes": {
+      "savannah": 246,
+      "coast": 122,
+      "rainforest": 11
+    },
+    "validVotes": 379,
+    "invalidVotes": 6,
+    "totalVotes": 385,
+    "receivedUnvoted": 0,
+    "issuedVotes": 385,
+    "remainingVotes": 202,
+    "eligibleVoters": 587,
+    "voterTurnout": 65.58999633789062
+  }
+]

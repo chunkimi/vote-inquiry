@@ -1,0 +1,2042 @@
+[
+  {
+    "administrativeDivision": "三重區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 58077,
+      "savannah": 134575,
+      "rainforest": 24853
+    },
+    "validVotes": 217505,
+    "invalidVotes": 2389,
+    "totalVotes": 219894,
+    "receivedUnvoted": 2,
+    "issuedVotes": 219896,
+    "remainingVotes": 97724,
+    "eligibleVoters": 317620,
+    "voterTurnout": 69.2300033569336
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永福里",
+    "candidateVotes": {
+      "coast": 711,
+      "savannah": 2134,
+      "rainforest": 321
+    },
+    "validVotes": 3166,
+    "invalidVotes": 30,
+    "totalVotes": 3196,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3196,
+    "remainingVotes": 1339,
+    "eligibleVoters": 4535,
+    "voterTurnout": 70.47000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永清里",
+    "candidateVotes": {
+      "coast": 725,
+      "savannah": 2149,
+      "rainforest": 345
+    },
+    "validVotes": 3219,
+    "invalidVotes": 23,
+    "totalVotes": 3242,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3242,
+    "remainingVotes": 1515,
+    "eligibleVoters": 4757,
+    "voterTurnout": 68.1500015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永順里",
+    "candidateVotes": {
+      "coast": 600,
+      "savannah": 1916,
+      "rainforest": 330
+    },
+    "validVotes": 2846,
+    "invalidVotes": 33,
+    "totalVotes": 2879,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2879,
+    "remainingVotes": 1393,
+    "eligibleVoters": 4272,
+    "voterTurnout": 67.38999938964844
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "五福里",
+    "candidateVotes": {
+      "coast": 564,
+      "savannah": 1349,
+      "rainforest": 215
+    },
+    "validVotes": 2128,
+    "invalidVotes": 14,
+    "totalVotes": 2142,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2142,
+    "remainingVotes": 1104,
+    "eligibleVoters": 3246,
+    "voterTurnout": 65.98999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈福里",
+    "candidateVotes": {
+      "coast": 310,
+      "savannah": 887,
+      "rainforest": 159
+    },
+    "validVotes": 1356,
+    "invalidVotes": 22,
+    "totalVotes": 1378,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1378,
+    "remainingVotes": 652,
+    "eligibleVoters": 2030,
+    "voterTurnout": 67.87999725341797
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈生里",
+    "candidateVotes": {
+      "coast": 396,
+      "savannah": 905,
+      "rainforest": 157
+    },
+    "validVotes": 1458,
+    "invalidVotes": 20,
+    "totalVotes": 1478,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1478,
+    "remainingVotes": 611,
+    "eligibleVoters": 2089,
+    "voterTurnout": 70.75
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈惠里",
+    "candidateVotes": {
+      "coast": 284,
+      "savannah": 954,
+      "rainforest": 122
+    },
+    "validVotes": 1360,
+    "invalidVotes": 18,
+    "totalVotes": 1378,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1378,
+    "remainingVotes": 564,
+    "eligibleVoters": 1942,
+    "voterTurnout": 70.95999908447266
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈愛里",
+    "candidateVotes": {
+      "coast": 517,
+      "savannah": 1428,
+      "rainforest": 202
+    },
+    "validVotes": 2147,
+    "invalidVotes": 30,
+    "totalVotes": 2177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2177,
+    "remainingVotes": 995,
+    "eligibleVoters": 3172,
+    "voterTurnout": 68.62999725341797
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈化里",
+    "candidateVotes": {
+      "coast": 368,
+      "savannah": 943,
+      "rainforest": 185
+    },
+    "validVotes": 1496,
+    "invalidVotes": 9,
+    "totalVotes": 1505,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1505,
+    "remainingVotes": 694,
+    "eligibleVoters": 2199,
+    "voterTurnout": 68.44000244140625
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "慈祐里",
+    "candidateVotes": {
+      "coast": 700,
+      "savannah": 1866,
+      "rainforest": 287
+    },
+    "validVotes": 2853,
+    "invalidVotes": 23,
+    "totalVotes": 2876,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2876,
+    "remainingVotes": 1169,
+    "eligibleVoters": 4045,
+    "voterTurnout": 71.0999984741211
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "富華里",
+    "candidateVotes": {
+      "coast": 465,
+      "savannah": 1161,
+      "rainforest": 203
+    },
+    "validVotes": 1829,
+    "invalidVotes": 17,
+    "totalVotes": 1846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1846,
+    "remainingVotes": 923,
+    "eligibleVoters": 2769,
+    "voterTurnout": 66.66999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "富貴里",
+    "candidateVotes": {
+      "coast": 1063,
+      "savannah": 1987,
+      "rainforest": 410
+    },
+    "validVotes": 3460,
+    "invalidVotes": 31,
+    "totalVotes": 3491,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3492,
+    "remainingVotes": 1705,
+    "eligibleVoters": 5197,
+    "voterTurnout": 67.16999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "富福里",
+    "candidateVotes": {
+      "coast": 291,
+      "savannah": 747,
+      "rainforest": 106
+    },
+    "validVotes": 1144,
+    "invalidVotes": 12,
+    "totalVotes": 1156,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1156,
+    "remainingVotes": 632,
+    "eligibleVoters": 1788,
+    "voterTurnout": 64.6500015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "五華里",
+    "candidateVotes": {
+      "coast": 709,
+      "savannah": 1929,
+      "rainforest": 332
+    },
+    "validVotes": 2970,
+    "invalidVotes": 27,
+    "totalVotes": 2997,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2997,
+    "remainingVotes": 1353,
+    "eligibleVoters": 4350,
+    "voterTurnout": 68.9000015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "碧華里",
+    "candidateVotes": {
+      "coast": 1133,
+      "savannah": 2249,
+      "rainforest": 401
+    },
+    "validVotes": 3783,
+    "invalidVotes": 26,
+    "totalVotes": 3809,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3809,
+    "remainingVotes": 1900,
+    "eligibleVoters": 5709,
+    "voterTurnout": 66.72000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "仁華里",
+    "candidateVotes": {
+      "coast": 618,
+      "savannah": 1608,
+      "rainforest": 321
+    },
+    "validVotes": 2547,
+    "invalidVotes": 24,
+    "totalVotes": 2571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2571,
+    "remainingVotes": 1127,
+    "eligibleVoters": 3698,
+    "voterTurnout": 69.5199966430664
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "大有里",
+    "candidateVotes": {
+      "coast": 827,
+      "savannah": 2066,
+      "rainforest": 351
+    },
+    "validVotes": 3244,
+    "invalidVotes": 29,
+    "totalVotes": 3273,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3273,
+    "remainingVotes": 1411,
+    "eligibleVoters": 4684,
+    "voterTurnout": 69.87999725341797
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "博愛里",
+    "candidateVotes": {
+      "coast": 787,
+      "savannah": 1669,
+      "rainforest": 308
+    },
+    "validVotes": 2764,
+    "invalidVotes": 37,
+    "totalVotes": 2801,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2801,
+    "remainingVotes": 1226,
+    "eligibleVoters": 4027,
+    "voterTurnout": 69.55999755859375
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "二重里",
+    "candidateVotes": {
+      "coast": 227,
+      "savannah": 641,
+      "rainforest": 97
+    },
+    "validVotes": 965,
+    "invalidVotes": 17,
+    "totalVotes": 982,
+    "receivedUnvoted": 0,
+    "issuedVotes": 982,
+    "remainingVotes": 438,
+    "eligibleVoters": 1420,
+    "voterTurnout": 69.1500015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "頂崁里",
+    "candidateVotes": {
+      "coast": 304,
+      "savannah": 1003,
+      "rainforest": 162
+    },
+    "validVotes": 1469,
+    "invalidVotes": 12,
+    "totalVotes": 1481,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1481,
+    "remainingVotes": 517,
+    "eligibleVoters": 1998,
+    "voterTurnout": 74.12000274658203
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "谷王里",
+    "candidateVotes": {
+      "coast": 190,
+      "savannah": 410,
+      "rainforest": 59
+    },
+    "validVotes": 659,
+    "invalidVotes": 5,
+    "totalVotes": 664,
+    "receivedUnvoted": 0,
+    "issuedVotes": 664,
+    "remainingVotes": 206,
+    "eligibleVoters": 870,
+    "voterTurnout": 76.31999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "五谷里",
+    "candidateVotes": {
+      "coast": 301,
+      "savannah": 691,
+      "rainforest": 128
+    },
+    "validVotes": 1120,
+    "invalidVotes": 11,
+    "totalVotes": 1131,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1131,
+    "remainingVotes": 451,
+    "eligibleVoters": 1582,
+    "voterTurnout": 71.48999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "中興里",
+    "candidateVotes": {
+      "coast": 603,
+      "savannah": 1532,
+      "rainforest": 256
+    },
+    "validVotes": 2391,
+    "invalidVotes": 18,
+    "totalVotes": 2409,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2409,
+    "remainingVotes": 892,
+    "eligibleVoters": 3301,
+    "voterTurnout": 72.9800033569336
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "德厚里",
+    "candidateVotes": {
+      "coast": 74,
+      "savannah": 195,
+      "rainforest": 16
+    },
+    "validVotes": 285,
+    "invalidVotes": 2,
+    "totalVotes": 287,
+    "receivedUnvoted": 0,
+    "issuedVotes": 287,
+    "remainingVotes": 97,
+    "eligibleVoters": 384,
+    "voterTurnout": 74.73999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "成功里",
+    "candidateVotes": {
+      "coast": 1078,
+      "savannah": 1967,
+      "rainforest": 447
+    },
+    "validVotes": 3492,
+    "invalidVotes": 29,
+    "totalVotes": 3521,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3521,
+    "remainingVotes": 1532,
+    "eligibleVoters": 5053,
+    "voterTurnout": 69.68000030517578
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福祉里",
+    "candidateVotes": {
+      "coast": 912,
+      "savannah": 1918,
+      "rainforest": 363
+    },
+    "validVotes": 3193,
+    "invalidVotes": 25,
+    "totalVotes": 3218,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3218,
+    "remainingVotes": 1427,
+    "eligibleVoters": 4645,
+    "voterTurnout": 69.27999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福德里",
+    "candidateVotes": {
+      "coast": 668,
+      "savannah": 1401,
+      "rainforest": 277
+    },
+    "validVotes": 2346,
+    "invalidVotes": 29,
+    "totalVotes": 2375,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2375,
+    "remainingVotes": 995,
+    "eligibleVoters": 3370,
+    "voterTurnout": 70.47000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福民里",
+    "candidateVotes": {
+      "coast": 552,
+      "savannah": 1274,
+      "rainforest": 200
+    },
+    "validVotes": 2026,
+    "invalidVotes": 29,
+    "totalVotes": 2055,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2055,
+    "remainingVotes": 956,
+    "eligibleVoters": 3011,
+    "voterTurnout": 68.25
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "過田里",
+    "candidateVotes": {
+      "coast": 1171,
+      "savannah": 2058,
+      "rainforest": 446
+    },
+    "validVotes": 3675,
+    "invalidVotes": 49,
+    "totalVotes": 3724,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3724,
+    "remainingVotes": 4318,
+    "eligibleVoters": 8042,
+    "voterTurnout": 46.310001373291016
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "錦田里",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 784,
+      "rainforest": 150
+    },
+    "validVotes": 1219,
+    "invalidVotes": 10,
+    "totalVotes": 1229,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1229,
+    "remainingVotes": 580,
+    "eligibleVoters": 1809,
+    "voterTurnout": 67.94000244140625
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "重明里",
+    "candidateVotes": {
+      "coast": 601,
+      "savannah": 1305,
+      "rainforest": 211
+    },
+    "validVotes": 2117,
+    "invalidVotes": 26,
+    "totalVotes": 2143,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2143,
+    "remainingVotes": 837,
+    "eligibleVoters": 2980,
+    "voterTurnout": 71.91000366210938
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光田里",
+    "candidateVotes": {
+      "coast": 830,
+      "savannah": 1700,
+      "rainforest": 313
+    },
+    "validVotes": 2843,
+    "invalidVotes": 34,
+    "totalVotes": 2877,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2877,
+    "remainingVotes": 1034,
+    "eligibleVoters": 3911,
+    "voterTurnout": 73.55999755859375
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光陽里",
+    "candidateVotes": {
+      "coast": 1187,
+      "savannah": 2318,
+      "rainforest": 449
+    },
+    "validVotes": 3954,
+    "invalidVotes": 46,
+    "totalVotes": 4000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4000,
+    "remainingVotes": 1485,
+    "eligibleVoters": 5485,
+    "voterTurnout": 72.93000030517578
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "田心里",
+    "candidateVotes": {
+      "coast": 627,
+      "savannah": 1588,
+      "rainforest": 275
+    },
+    "validVotes": 2490,
+    "invalidVotes": 33,
+    "totalVotes": 2523,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2523,
+    "remainingVotes": 1072,
+    "eligibleVoters": 3595,
+    "voterTurnout": 70.18000030517578
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福田里",
+    "candidateVotes": {
+      "coast": 554,
+      "savannah": 1466,
+      "rainforest": 266
+    },
+    "validVotes": 2286,
+    "invalidVotes": 29,
+    "totalVotes": 2315,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2315,
+    "remainingVotes": 859,
+    "eligibleVoters": 3174,
+    "voterTurnout": 72.94000244140625
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "田中里",
+    "candidateVotes": {
+      "coast": 891,
+      "savannah": 2516,
+      "rainforest": 395
+    },
+    "validVotes": 3802,
+    "invalidVotes": 47,
+    "totalVotes": 3849,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3849,
+    "remainingVotes": 1486,
+    "eligibleVoters": 5335,
+    "voterTurnout": 72.1500015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "田安里",
+    "candidateVotes": {
+      "coast": 1005,
+      "savannah": 2262,
+      "rainforest": 474
+    },
+    "validVotes": 3741,
+    "invalidVotes": 45,
+    "totalVotes": 3786,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3786,
+    "remainingVotes": 1520,
+    "eligibleVoters": 5306,
+    "voterTurnout": 71.3499984741211
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "三民里",
+    "candidateVotes": {
+      "coast": 498,
+      "savannah": 1188,
+      "rainforest": 201
+    },
+    "validVotes": 1887,
+    "invalidVotes": 19,
+    "totalVotes": 1906,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1906,
+    "remainingVotes": 908,
+    "eligibleVoters": 2814,
+    "voterTurnout": 67.7300033569336
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光明里",
+    "candidateVotes": {
+      "coast": 1255,
+      "savannah": 2364,
+      "rainforest": 557
+    },
+    "validVotes": 4176,
+    "invalidVotes": 48,
+    "totalVotes": 4224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4224,
+    "remainingVotes": 1957,
+    "eligibleVoters": 6181,
+    "voterTurnout": 68.33999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光正里",
+    "candidateVotes": {
+      "coast": 487,
+      "savannah": 768,
+      "rainforest": 170
+    },
+    "validVotes": 1425,
+    "invalidVotes": 16,
+    "totalVotes": 1441,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1441,
+    "remainingVotes": 707,
+    "eligibleVoters": 2148,
+    "voterTurnout": 67.08999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "同安里",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 463,
+      "rainforest": 118
+    },
+    "validVotes": 817,
+    "invalidVotes": 12,
+    "totalVotes": 829,
+    "receivedUnvoted": 0,
+    "issuedVotes": 829,
+    "remainingVotes": 427,
+    "eligibleVoters": 1256,
+    "voterTurnout": 66
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "同慶里",
+    "candidateVotes": {
+      "coast": 352,
+      "savannah": 588,
+      "rainforest": 136
+    },
+    "validVotes": 1076,
+    "invalidVotes": 17,
+    "totalVotes": 1093,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1093,
+    "remainingVotes": 479,
+    "eligibleVoters": 1572,
+    "voterTurnout": 69.52999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "菜寮里",
+    "candidateVotes": {
+      "coast": 377,
+      "savannah": 795,
+      "rainforest": 160
+    },
+    "validVotes": 1332,
+    "invalidVotes": 19,
+    "totalVotes": 1351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1351,
+    "remainingVotes": 524,
+    "eligibleVoters": 1875,
+    "voterTurnout": 72.05000305175781
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永春里",
+    "candidateVotes": {
+      "coast": 356,
+      "savannah": 701,
+      "rainforest": 156
+    },
+    "validVotes": 1213,
+    "invalidVotes": 26,
+    "totalVotes": 1239,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1239,
+    "remainingVotes": 439,
+    "eligibleVoters": 1678,
+    "voterTurnout": 73.83999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 257,
+      "savannah": 518,
+      "rainforest": 121
+    },
+    "validVotes": 896,
+    "invalidVotes": 10,
+    "totalVotes": 906,
+    "receivedUnvoted": 0,
+    "issuedVotes": 906,
+    "remainingVotes": 356,
+    "eligibleVoters": 1262,
+    "voterTurnout": 71.79000091552734
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "吉利里",
+    "candidateVotes": {
+      "coast": 261,
+      "savannah": 507,
+      "rainforest": 101
+    },
+    "validVotes": 869,
+    "invalidVotes": 9,
+    "totalVotes": 878,
+    "receivedUnvoted": 0,
+    "issuedVotes": 878,
+    "remainingVotes": 418,
+    "eligibleVoters": 1296,
+    "voterTurnout": 67.75
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "大同里",
+    "candidateVotes": {
+      "coast": 364,
+      "savannah": 633,
+      "rainforest": 121
+    },
+    "validVotes": 1118,
+    "invalidVotes": 19,
+    "totalVotes": 1137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1137,
+    "remainingVotes": 565,
+    "eligibleVoters": 1702,
+    "voterTurnout": 66.80000305175781
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "中民里",
+    "candidateVotes": {
+      "coast": 266,
+      "savannah": 428,
+      "rainforest": 95
+    },
+    "validVotes": 789,
+    "invalidVotes": 15,
+    "totalVotes": 804,
+    "receivedUnvoted": 0,
+    "issuedVotes": 804,
+    "remainingVotes": 347,
+    "eligibleVoters": 1151,
+    "voterTurnout": 69.8499984741211
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "平和里",
+    "candidateVotes": {
+      "coast": 275,
+      "savannah": 539,
+      "rainforest": 111
+    },
+    "validVotes": 925,
+    "invalidVotes": 23,
+    "totalVotes": 948,
+    "receivedUnvoted": 0,
+    "issuedVotes": 948,
+    "remainingVotes": 449,
+    "eligibleVoters": 1397,
+    "voterTurnout": 67.86000061035156
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "大安里",
+    "candidateVotes": {
+      "coast": 319,
+      "savannah": 522,
+      "rainforest": 115
+    },
+    "validVotes": 956,
+    "invalidVotes": 7,
+    "totalVotes": 963,
+    "receivedUnvoted": 0,
+    "issuedVotes": 963,
+    "remainingVotes": 479,
+    "eligibleVoters": 1442,
+    "voterTurnout": 66.77999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "仁德里",
+    "candidateVotes": {
+      "coast": 309,
+      "savannah": 766,
+      "rainforest": 120
+    },
+    "validVotes": 1195,
+    "invalidVotes": 16,
+    "totalVotes": 1211,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1211,
+    "remainingVotes": 601,
+    "eligibleVoters": 1812,
+    "voterTurnout": 66.83000183105469
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "忠孝里",
+    "candidateVotes": {
+      "coast": 296,
+      "savannah": 605,
+      "rainforest": 130
+    },
+    "validVotes": 1031,
+    "invalidVotes": 11,
+    "totalVotes": 1042,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1042,
+    "remainingVotes": 493,
+    "eligibleVoters": 1535,
+    "voterTurnout": 67.87999725341797
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "仁義里",
+    "candidateVotes": {
+      "coast": 225,
+      "savannah": 401,
+      "rainforest": 73
+    },
+    "validVotes": 699,
+    "invalidVotes": 10,
+    "totalVotes": 709,
+    "receivedUnvoted": 0,
+    "issuedVotes": 709,
+    "remainingVotes": 305,
+    "eligibleVoters": 1014,
+    "voterTurnout": 69.91999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光榮里",
+    "candidateVotes": {
+      "coast": 269,
+      "savannah": 514,
+      "rainforest": 98
+    },
+    "validVotes": 881,
+    "invalidVotes": 8,
+    "totalVotes": 889,
+    "receivedUnvoted": 0,
+    "issuedVotes": 889,
+    "remainingVotes": 385,
+    "eligibleVoters": 1274,
+    "voterTurnout": 69.77999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光輝里",
+    "candidateVotes": {
+      "coast": 301,
+      "savannah": 561,
+      "rainforest": 102
+    },
+    "validVotes": 964,
+    "invalidVotes": 11,
+    "totalVotes": 975,
+    "receivedUnvoted": 0,
+    "issuedVotes": 975,
+    "remainingVotes": 388,
+    "eligibleVoters": 1363,
+    "voterTurnout": 71.52999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福星里",
+    "candidateVotes": {
+      "coast": 172,
+      "savannah": 364,
+      "rainforest": 72
+    },
+    "validVotes": 608,
+    "invalidVotes": 9,
+    "totalVotes": 617,
+    "receivedUnvoted": 0,
+    "issuedVotes": 617,
+    "remainingVotes": 284,
+    "eligibleVoters": 901,
+    "voterTurnout": 68.4800033569336
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福利里",
+    "candidateVotes": {
+      "coast": 413,
+      "savannah": 762,
+      "rainforest": 176
+    },
+    "validVotes": 1351,
+    "invalidVotes": 11,
+    "totalVotes": 1362,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1362,
+    "remainingVotes": 661,
+    "eligibleVoters": 2023,
+    "voterTurnout": 67.33000183105469
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "清和里",
+    "candidateVotes": {
+      "coast": 700,
+      "savannah": 1353,
+      "rainforest": 288
+    },
+    "validVotes": 2341,
+    "invalidVotes": 32,
+    "totalVotes": 2373,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2373,
+    "remainingVotes": 941,
+    "eligibleVoters": 3314,
+    "voterTurnout": 71.61000061035156
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永興里",
+    "candidateVotes": {
+      "coast": 257,
+      "savannah": 449,
+      "rainforest": 89
+    },
+    "validVotes": 795,
+    "invalidVotes": 12,
+    "totalVotes": 807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 807,
+    "remainingVotes": 362,
+    "eligibleVoters": 1169,
+    "voterTurnout": 69.02999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 454,
+      "savannah": 945,
+      "rainforest": 146
+    },
+    "validVotes": 1545,
+    "invalidVotes": 17,
+    "totalVotes": 1562,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1562,
+    "remainingVotes": 751,
+    "eligibleVoters": 2313,
+    "voterTurnout": 67.52999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "大園里",
+    "candidateVotes": {
+      "coast": 403,
+      "savannah": 974,
+      "rainforest": 186
+    },
+    "validVotes": 1563,
+    "invalidVotes": 10,
+    "totalVotes": 1573,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1573,
+    "remainingVotes": 684,
+    "eligibleVoters": 2257,
+    "voterTurnout": 69.69000244140625
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "國隆里",
+    "candidateVotes": {
+      "coast": 504,
+      "savannah": 963,
+      "rainforest": 226
+    },
+    "validVotes": 1693,
+    "invalidVotes": 23,
+    "totalVotes": 1716,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1716,
+    "remainingVotes": 631,
+    "eligibleVoters": 2347,
+    "voterTurnout": 73.11000061035156
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "重陽里",
+    "candidateVotes": {
+      "coast": 635,
+      "savannah": 1308,
+      "rainforest": 256
+    },
+    "validVotes": 2199,
+    "invalidVotes": 29,
+    "totalVotes": 2228,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2228,
+    "remainingVotes": 918,
+    "eligibleVoters": 3146,
+    "voterTurnout": 70.81999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "民生里",
+    "candidateVotes": {
+      "coast": 672,
+      "savannah": 1638,
+      "rainforest": 300
+    },
+    "validVotes": 2610,
+    "invalidVotes": 24,
+    "totalVotes": 2634,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2634,
+    "remainingVotes": 1106,
+    "eligibleVoters": 3740,
+    "voterTurnout": 70.43000030517578
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "重新里",
+    "candidateVotes": {
+      "coast": 198,
+      "savannah": 597,
+      "rainforest": 101
+    },
+    "validVotes": 896,
+    "invalidVotes": 10,
+    "totalVotes": 906,
+    "receivedUnvoted": 0,
+    "issuedVotes": 906,
+    "remainingVotes": 373,
+    "eligibleVoters": 1279,
+    "voterTurnout": 70.83999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "正德里",
+    "candidateVotes": {
+      "coast": 210,
+      "savannah": 438,
+      "rainforest": 79
+    },
+    "validVotes": 727,
+    "invalidVotes": 3,
+    "totalVotes": 730,
+    "receivedUnvoted": 0,
+    "issuedVotes": 730,
+    "remainingVotes": 281,
+    "eligibleVoters": 1011,
+    "voterTurnout": 72.20999908447266
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "正義里",
+    "candidateVotes": {
+      "coast": 323,
+      "savannah": 693,
+      "rainforest": 152
+    },
+    "validVotes": 1168,
+    "invalidVotes": 21,
+    "totalVotes": 1189,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1189,
+    "remainingVotes": 431,
+    "eligibleVoters": 1620,
+    "voterTurnout": 73.4000015258789
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "正安里",
+    "candidateVotes": {
+      "coast": 344,
+      "savannah": 726,
+      "rainforest": 136
+    },
+    "validVotes": 1206,
+    "invalidVotes": 13,
+    "totalVotes": 1219,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1219,
+    "remainingVotes": 527,
+    "eligibleVoters": 1746,
+    "voterTurnout": 69.81999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "自強里",
+    "candidateVotes": {
+      "coast": 301,
+      "savannah": 728,
+      "rainforest": 143
+    },
+    "validVotes": 1172,
+    "invalidVotes": 19,
+    "totalVotes": 1191,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1191,
+    "remainingVotes": 445,
+    "eligibleVoters": 1636,
+    "voterTurnout": 72.80000305175781
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "文化里",
+    "candidateVotes": {
+      "coast": 418,
+      "savannah": 898,
+      "rainforest": 172
+    },
+    "validVotes": 1488,
+    "invalidVotes": 17,
+    "totalVotes": 1505,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1505,
+    "remainingVotes": 567,
+    "eligibleVoters": 2072,
+    "voterTurnout": 72.63999938964844
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "中央里",
+    "candidateVotes": {
+      "coast": 293,
+      "savannah": 711,
+      "rainforest": 123
+    },
+    "validVotes": 1127,
+    "invalidVotes": 12,
+    "totalVotes": 1139,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1139,
+    "remainingVotes": 417,
+    "eligibleVoters": 1556,
+    "voterTurnout": 73.19999694824219
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "雙園里",
+    "candidateVotes": {
+      "coast": 191,
+      "savannah": 333,
+      "rainforest": 69
+    },
+    "validVotes": 593,
+    "invalidVotes": 5,
+    "totalVotes": 598,
+    "receivedUnvoted": 0,
+    "issuedVotes": 598,
+    "remainingVotes": 272,
+    "eligibleVoters": 870,
+    "voterTurnout": 68.73999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "錦通里",
+    "candidateVotes": {
+      "coast": 291,
+      "savannah": 561,
+      "rainforest": 131
+    },
+    "validVotes": 983,
+    "invalidVotes": 10,
+    "totalVotes": 993,
+    "receivedUnvoted": 0,
+    "issuedVotes": 993,
+    "remainingVotes": 382,
+    "eligibleVoters": 1375,
+    "voterTurnout": 72.22000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "錦安里",
+    "candidateVotes": {
+      "coast": 340,
+      "savannah": 663,
+      "rainforest": 110
+    },
+    "validVotes": 1113,
+    "invalidVotes": 11,
+    "totalVotes": 1124,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1124,
+    "remainingVotes": 512,
+    "eligibleVoters": 1636,
+    "voterTurnout": 68.69999694824219
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長安里",
+    "candidateVotes": {
+      "coast": 382,
+      "savannah": 832,
+      "rainforest": 147
+    },
+    "validVotes": 1361,
+    "invalidVotes": 11,
+    "totalVotes": 1372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1372,
+    "remainingVotes": 635,
+    "eligibleVoters": 2007,
+    "voterTurnout": 68.36000061035156
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "光華里",
+    "candidateVotes": {
+      "coast": 337,
+      "savannah": 689,
+      "rainforest": 152
+    },
+    "validVotes": 1178,
+    "invalidVotes": 6,
+    "totalVotes": 1184,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1184,
+    "remainingVotes": 558,
+    "eligibleVoters": 1742,
+    "voterTurnout": 67.97000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長生里",
+    "candidateVotes": {
+      "coast": 109,
+      "savannah": 349,
+      "rainforest": 69
+    },
+    "validVotes": 527,
+    "invalidVotes": 3,
+    "totalVotes": 530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 530,
+    "remainingVotes": 259,
+    "eligibleVoters": 789,
+    "voterTurnout": 67.16999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "開元里",
+    "candidateVotes": {
+      "coast": 252,
+      "savannah": 561,
+      "rainforest": 120
+    },
+    "validVotes": 933,
+    "invalidVotes": 12,
+    "totalVotes": 945,
+    "receivedUnvoted": 0,
+    "issuedVotes": 945,
+    "remainingVotes": 356,
+    "eligibleVoters": 1301,
+    "voterTurnout": 72.63999938964844
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "大德里",
+    "candidateVotes": {
+      "coast": 132,
+      "savannah": 314,
+      "rainforest": 66
+    },
+    "validVotes": 512,
+    "invalidVotes": 3,
+    "totalVotes": 515,
+    "receivedUnvoted": 0,
+    "issuedVotes": 515,
+    "remainingVotes": 221,
+    "eligibleVoters": 736,
+    "voterTurnout": 69.97000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長元里",
+    "candidateVotes": {
+      "coast": 433,
+      "savannah": 896,
+      "rainforest": 185
+    },
+    "validVotes": 1514,
+    "invalidVotes": 27,
+    "totalVotes": 1541,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1541,
+    "remainingVotes": 647,
+    "eligibleVoters": 2188,
+    "voterTurnout": 70.43000030517578
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長江里",
+    "candidateVotes": {
+      "coast": 349,
+      "savannah": 786,
+      "rainforest": 130
+    },
+    "validVotes": 1265,
+    "invalidVotes": 15,
+    "totalVotes": 1280,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1280,
+    "remainingVotes": 537,
+    "eligibleVoters": 1817,
+    "voterTurnout": 70.44999694824219
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長泰里",
+    "candidateVotes": {
+      "coast": 302,
+      "savannah": 887,
+      "rainforest": 168
+    },
+    "validVotes": 1357,
+    "invalidVotes": 11,
+    "totalVotes": 1368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1368,
+    "remainingVotes": 643,
+    "eligibleVoters": 2011,
+    "voterTurnout": 68.02999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "長福里",
+    "candidateVotes": {
+      "coast": 238,
+      "savannah": 577,
+      "rainforest": 140
+    },
+    "validVotes": 955,
+    "invalidVotes": 9,
+    "totalVotes": 964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 964,
+    "remainingVotes": 447,
+    "eligibleVoters": 1411,
+    "voterTurnout": 68.31999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "介壽里",
+    "candidateVotes": {
+      "coast": 226,
+      "savannah": 409,
+      "rainforest": 72
+    },
+    "validVotes": 707,
+    "invalidVotes": 10,
+    "totalVotes": 717,
+    "receivedUnvoted": 0,
+    "issuedVotes": 717,
+    "remainingVotes": 328,
+    "eligibleVoters": 1045,
+    "voterTurnout": 68.61000061035156
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "萬壽里",
+    "candidateVotes": {
+      "coast": 422,
+      "savannah": 720,
+      "rainforest": 134
+    },
+    "validVotes": 1276,
+    "invalidVotes": 17,
+    "totalVotes": 1293,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1293,
+    "remainingVotes": 501,
+    "eligibleVoters": 1794,
+    "voterTurnout": 72.06999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "錦江里",
+    "candidateVotes": {
+      "coast": 399,
+      "savannah": 909,
+      "rainforest": 170
+    },
+    "validVotes": 1478,
+    "invalidVotes": 20,
+    "totalVotes": 1498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1498,
+    "remainingVotes": 639,
+    "eligibleVoters": 2137,
+    "voterTurnout": 70.0999984741211
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "龍濱里",
+    "candidateVotes": {
+      "coast": 522,
+      "savannah": 1204,
+      "rainforest": 232
+    },
+    "validVotes": 1958,
+    "invalidVotes": 20,
+    "totalVotes": 1978,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1978,
+    "remainingVotes": 843,
+    "eligibleVoters": 2821,
+    "voterTurnout": 70.12000274658203
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "龍門里",
+    "candidateVotes": {
+      "coast": 275,
+      "savannah": 705,
+      "rainforest": 133
+    },
+    "validVotes": 1113,
+    "invalidVotes": 11,
+    "totalVotes": 1124,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1124,
+    "remainingVotes": 533,
+    "eligibleVoters": 1657,
+    "voterTurnout": 67.83000183105469
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "秀江里",
+    "candidateVotes": {
+      "coast": 255,
+      "savannah": 490,
+      "rainforest": 77
+    },
+    "validVotes": 822,
+    "invalidVotes": 10,
+    "totalVotes": 832,
+    "receivedUnvoted": 0,
+    "issuedVotes": 832,
+    "remainingVotes": 371,
+    "eligibleVoters": 1203,
+    "voterTurnout": 69.16000366210938
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "奕壽里",
+    "candidateVotes": {
+      "coast": 277,
+      "savannah": 666,
+      "rainforest": 115
+    },
+    "validVotes": 1058,
+    "invalidVotes": 22,
+    "totalVotes": 1080,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1080,
+    "remainingVotes": 500,
+    "eligibleVoters": 1580,
+    "voterTurnout": 68.3499984741211
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "三安里",
+    "candidateVotes": {
+      "coast": 426,
+      "savannah": 1008,
+      "rainforest": 192
+    },
+    "validVotes": 1626,
+    "invalidVotes": 12,
+    "totalVotes": 1638,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1638,
+    "remainingVotes": 783,
+    "eligibleVoters": 2421,
+    "voterTurnout": 67.66000366210938
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福安里",
+    "candidateVotes": {
+      "coast": 491,
+      "savannah": 1154,
+      "rainforest": 206
+    },
+    "validVotes": 1851,
+    "invalidVotes": 17,
+    "totalVotes": 1868,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1868,
+    "remainingVotes": 781,
+    "eligibleVoters": 2649,
+    "voterTurnout": 70.5199966430664
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "信安里",
+    "candidateVotes": {
+      "coast": 320,
+      "savannah": 689,
+      "rainforest": 115
+    },
+    "validVotes": 1124,
+    "invalidVotes": 15,
+    "totalVotes": 1139,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1139,
+    "remainingVotes": 574,
+    "eligibleVoters": 1713,
+    "voterTurnout": 66.48999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "安慶里",
+    "candidateVotes": {
+      "coast": 331,
+      "savannah": 836,
+      "rainforest": 149
+    },
+    "validVotes": 1316,
+    "invalidVotes": 11,
+    "totalVotes": 1327,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1327,
+    "remainingVotes": 498,
+    "eligibleVoters": 1825,
+    "voterTurnout": 72.70999908447266
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "幸福里",
+    "candidateVotes": {
+      "coast": 699,
+      "savannah": 1636,
+      "rainforest": 342
+    },
+    "validVotes": 2677,
+    "invalidVotes": 30,
+    "totalVotes": 2707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2707,
+    "remainingVotes": 1247,
+    "eligibleVoters": 3954,
+    "voterTurnout": 68.45999908447266
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "六合里",
+    "candidateVotes": {
+      "coast": 596,
+      "savannah": 1374,
+      "rainforest": 286
+    },
+    "validVotes": 2256,
+    "invalidVotes": 28,
+    "totalVotes": 2284,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2284,
+    "remainingVotes": 971,
+    "eligibleVoters": 3255,
+    "voterTurnout": 70.16999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "六福里",
+    "candidateVotes": {
+      "coast": 758,
+      "savannah": 2151,
+      "rainforest": 387
+    },
+    "validVotes": 3296,
+    "invalidVotes": 27,
+    "totalVotes": 3323,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3323,
+    "remainingVotes": 1443,
+    "eligibleVoters": 4766,
+    "voterTurnout": 69.72000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "順德里",
+    "candidateVotes": {
+      "coast": 369,
+      "savannah": 853,
+      "rainforest": 169
+    },
+    "validVotes": 1391,
+    "invalidVotes": 7,
+    "totalVotes": 1398,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1398,
+    "remainingVotes": 626,
+    "eligibleVoters": 2024,
+    "voterTurnout": 69.06999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "承德里",
+    "candidateVotes": {
+      "coast": 328,
+      "savannah": 661,
+      "rainforest": 139
+    },
+    "validVotes": 1128,
+    "invalidVotes": 19,
+    "totalVotes": 1147,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1147,
+    "remainingVotes": 461,
+    "eligibleVoters": 1608,
+    "voterTurnout": 71.33000183105469
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "瑞德里",
+    "candidateVotes": {
+      "coast": 373,
+      "savannah": 942,
+      "rainforest": 145
+    },
+    "validVotes": 1460,
+    "invalidVotes": 14,
+    "totalVotes": 1474,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1474,
+    "remainingVotes": 589,
+    "eligibleVoters": 2063,
+    "voterTurnout": 71.44999694824219
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "崇德里",
+    "candidateVotes": {
+      "coast": 614,
+      "savannah": 1609,
+      "rainforest": 252
+    },
+    "validVotes": 2475,
+    "invalidVotes": 24,
+    "totalVotes": 2499,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2499,
+    "remainingVotes": 1042,
+    "eligibleVoters": 3541,
+    "voterTurnout": 70.56999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "厚德里",
+    "candidateVotes": {
+      "coast": 602,
+      "savannah": 1341,
+      "rainforest": 227
+    },
+    "validVotes": 2170,
+    "invalidVotes": 36,
+    "totalVotes": 2206,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2206,
+    "remainingVotes": 814,
+    "eligibleVoters": 3020,
+    "voterTurnout": 73.05000305175781
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "維德里",
+    "candidateVotes": {
+      "coast": 412,
+      "savannah": 1219,
+      "rainforest": 180
+    },
+    "validVotes": 1811,
+    "invalidVotes": 18,
+    "totalVotes": 1829,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1829,
+    "remainingVotes": 714,
+    "eligibleVoters": 2543,
+    "voterTurnout": 71.91999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "尚德里",
+    "candidateVotes": {
+      "coast": 559,
+      "savannah": 1101,
+      "rainforest": 226
+    },
+    "validVotes": 1886,
+    "invalidVotes": 21,
+    "totalVotes": 1907,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1907,
+    "remainingVotes": 804,
+    "eligibleVoters": 2711,
+    "voterTurnout": 70.33999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "培德里",
+    "candidateVotes": {
+      "coast": 580,
+      "savannah": 1446,
+      "rainforest": 250
+    },
+    "validVotes": 2276,
+    "invalidVotes": 21,
+    "totalVotes": 2297,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2297,
+    "remainingVotes": 939,
+    "eligibleVoters": 3236,
+    "voterTurnout": 70.9800033569336
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "立德里",
+    "candidateVotes": {
+      "coast": 533,
+      "savannah": 1306,
+      "rainforest": 246
+    },
+    "validVotes": 2085,
+    "invalidVotes": 22,
+    "totalVotes": 2107,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2107,
+    "remainingVotes": 826,
+    "eligibleVoters": 2933,
+    "voterTurnout": 71.83999633789062
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永德里",
+    "candidateVotes": {
+      "coast": 704,
+      "savannah": 1850,
+      "rainforest": 337
+    },
+    "validVotes": 2891,
+    "invalidVotes": 40,
+    "totalVotes": 2931,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2931,
+    "remainingVotes": 1291,
+    "eligibleVoters": 4222,
+    "voterTurnout": 69.41999816894531
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永煇里",
+    "candidateVotes": {
+      "coast": 331,
+      "savannah": 1131,
+      "rainforest": 150
+    },
+    "validVotes": 1612,
+    "invalidVotes": 14,
+    "totalVotes": 1626,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1626,
+    "remainingVotes": 630,
+    "eligibleVoters": 2256,
+    "voterTurnout": 72.06999969482422
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永發里",
+    "candidateVotes": {
+      "coast": 820,
+      "savannah": 2280,
+      "rainforest": 415
+    },
+    "validVotes": 3515,
+    "invalidVotes": 37,
+    "totalVotes": 3552,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3552,
+    "remainingVotes": 1402,
+    "eligibleVoters": 4954,
+    "voterTurnout": 71.69999694824219
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永盛里",
+    "candidateVotes": {
+      "coast": 464,
+      "savannah": 1280,
+      "rainforest": 240
+    },
+    "validVotes": 1984,
+    "invalidVotes": 21,
+    "totalVotes": 2005,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2005,
+    "remainingVotes": 838,
+    "eligibleVoters": 2843,
+    "voterTurnout": 70.5199966430664
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永吉里",
+    "candidateVotes": {
+      "coast": 475,
+      "savannah": 1068,
+      "rainforest": 207
+    },
+    "validVotes": 1750,
+    "invalidVotes": 24,
+    "totalVotes": 1774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1774,
+    "remainingVotes": 797,
+    "eligibleVoters": 2571,
+    "voterTurnout": 69
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永安里",
+    "candidateVotes": {
+      "coast": 646,
+      "savannah": 1498,
+      "rainforest": 273
+    },
+    "validVotes": 2417,
+    "invalidVotes": 23,
+    "totalVotes": 2440,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2440,
+    "remainingVotes": 1015,
+    "eligibleVoters": 3455,
+    "voterTurnout": 70.62000274658203
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "永豐里",
+    "candidateVotes": {
+      "coast": 749,
+      "savannah": 2112,
+      "rainforest": 384
+    },
+    "validVotes": 3245,
+    "invalidVotes": 36,
+    "totalVotes": 3281,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3281,
+    "remainingVotes": 1524,
+    "eligibleVoters": 4805,
+    "voterTurnout": 68.27999877929688
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "溪美里",
+    "candidateVotes": {
+      "coast": 1217,
+      "savannah": 2938,
+      "rainforest": 553
+    },
+    "validVotes": 4708,
+    "invalidVotes": 50,
+    "totalVotes": 4758,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4758,
+    "remainingVotes": 2016,
+    "eligibleVoters": 6774,
+    "voterTurnout": 70.23999786376953
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福隆里",
+    "candidateVotes": {
+      "coast": 632,
+      "savannah": 1548,
+      "rainforest": 315
+    },
+    "validVotes": 2495,
+    "invalidVotes": 21,
+    "totalVotes": 2516,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2516,
+    "remainingVotes": 1241,
+    "eligibleVoters": 3757,
+    "voterTurnout": 66.97000122070312
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "五常里",
+    "candidateVotes": {
+      "coast": 617,
+      "savannah": 1611,
+      "rainforest": 292
+    },
+    "validVotes": 2520,
+    "invalidVotes": 20,
+    "totalVotes": 2540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2540,
+    "remainingVotes": 1049,
+    "eligibleVoters": 3589,
+    "voterTurnout": 70.7699966430664
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "仁忠里",
+    "candidateVotes": {
+      "coast": 482,
+      "savannah": 1138,
+      "rainforest": 206
+    },
+    "validVotes": 1826,
+    "invalidVotes": 24,
+    "totalVotes": 1850,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1850,
+    "remainingVotes": 908,
+    "eligibleVoters": 2758,
+    "voterTurnout": 67.08000183105469
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "福樂里",
+    "candidateVotes": {
+      "coast": 526,
+      "savannah": 1401,
+      "rainforest": 229
+    },
+    "validVotes": 2156,
+    "invalidVotes": 21,
+    "totalVotes": 2177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2177,
+    "remainingVotes": 1046,
+    "eligibleVoters": 3223,
+    "voterTurnout": 67.55000305175781
+  },
+  {
+    "administrativeDivision": "三重區",
+    "village": "五順里",
+    "candidateVotes": {
+      "coast": 563,
+      "savannah": 1459,
+      "rainforest": 252
+    },
+    "validVotes": 2274,
+    "invalidVotes": 24,
+    "totalVotes": 2298,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2299,
+    "remainingVotes": 1050,
+    "eligibleVoters": 3349,
+    "voterTurnout": 68.62000274658203
+  }
+]

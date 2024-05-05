@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "杉林區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 3668,
+      "coast": 3002,
+      "rainforest": 167
+    },
+    "validVotes": 6837,
+    "invalidVotes": 103,
+    "totalVotes": 6940,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6940,
+    "remainingVotes": 3300,
+    "eligibleVoters": 10240,
+    "voterTurnout": 67.7699966430664
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "杉林里",
+    "candidateVotes": {
+      "savannah": 288,
+      "coast": 169,
+      "rainforest": 14
+    },
+    "validVotes": 471,
+    "invalidVotes": 8,
+    "totalVotes": 479,
+    "receivedUnvoted": 0,
+    "issuedVotes": 479,
+    "remainingVotes": 223,
+    "eligibleVoters": 702,
+    "voterTurnout": 68.2300033569336
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "木梓里",
+    "candidateVotes": {
+      "savannah": 277,
+      "coast": 187,
+      "rainforest": 9
+    },
+    "validVotes": 473,
+    "invalidVotes": 7,
+    "totalVotes": 480,
+    "receivedUnvoted": 0,
+    "issuedVotes": 480,
+    "remainingVotes": 226,
+    "eligibleVoters": 706,
+    "voterTurnout": 67.98999786376953
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "集來里",
+    "candidateVotes": {
+      "savannah": 594,
+      "coast": 355,
+      "rainforest": 18
+    },
+    "validVotes": 967,
+    "invalidVotes": 15,
+    "totalVotes": 982,
+    "receivedUnvoted": 0,
+    "issuedVotes": 982,
+    "remainingVotes": 552,
+    "eligibleVoters": 1534,
+    "voterTurnout": 64.0199966430664
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "新庄里",
+    "candidateVotes": {
+      "savannah": 493,
+      "coast": 545,
+      "rainforest": 28
+    },
+    "validVotes": 1066,
+    "invalidVotes": 26,
+    "totalVotes": 1092,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1092,
+    "remainingVotes": 539,
+    "eligibleVoters": 1631,
+    "voterTurnout": 66.94999694824219
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "上平里",
+    "candidateVotes": {
+      "savannah": 459,
+      "coast": 509,
+      "rainforest": 29
+    },
+    "validVotes": 997,
+    "invalidVotes": 12,
+    "totalVotes": 1009,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1009,
+    "remainingVotes": 475,
+    "eligibleVoters": 1484,
+    "voterTurnout": 67.98999786376953
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "月眉里",
+    "candidateVotes": {
+      "savannah": 1030,
+      "coast": 879,
+      "rainforest": 51
+    },
+    "validVotes": 1960,
+    "invalidVotes": 29,
+    "totalVotes": 1989,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1989,
+    "remainingVotes": 939,
+    "eligibleVoters": 2928,
+    "voterTurnout": 67.93000030517578
+  },
+  {
+    "administrativeDivision": "杉林區",
+    "village": "月美里",
+    "candidateVotes": {
+      "savannah": 527,
+      "coast": 358,
+      "rainforest": 18
+    },
+    "validVotes": 903,
+    "invalidVotes": 6,
+    "totalVotes": 909,
+    "receivedUnvoted": 0,
+    "issuedVotes": 909,
+    "remainingVotes": 346,
+    "eligibleVoters": 1255,
+    "voterTurnout": 72.43000030517578
+  }
+]

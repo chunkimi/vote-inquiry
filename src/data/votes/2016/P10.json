@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2377,
+      "savannah": 6046,
+      "rainforest": 1114
+    },
+    "validVotes": 9537,
+    "invalidVotes": 136,
+    "totalVotes": 9673,
+    "receivedUnvoted": 0,
+    "issuedVotes": 9673,
+    "remainingVotes": 5632,
+    "eligibleVoters": 15305,
+    "voterTurnout": 63.20000076293945
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "林南村",
+    "candidateVotes": {
+      "coast": 193,
+      "savannah": 365,
+      "rainforest": 59
+    },
+    "validVotes": 617,
+    "invalidVotes": 14,
+    "totalVotes": 631,
+    "receivedUnvoted": 0,
+    "issuedVotes": 631,
+    "remainingVotes": 378,
+    "eligibleVoters": 1009,
+    "voterTurnout": 62.540000915527344
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "林中村",
+    "candidateVotes": {
+      "coast": 596,
+      "savannah": 1298,
+      "rainforest": 298
+    },
+    "validVotes": 2192,
+    "invalidVotes": 35,
+    "totalVotes": 2227,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2227,
+    "remainingVotes": 1328,
+    "eligibleVoters": 3555,
+    "voterTurnout": 62.63999938964844
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "林北村",
+    "candidateVotes": {
+      "coast": 337,
+      "savannah": 908,
+      "rainforest": 147
+    },
+    "validVotes": 1392,
+    "invalidVotes": 9,
+    "totalVotes": 1401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1401,
+    "remainingVotes": 783,
+    "eligibleVoters": 2184,
+    "voterTurnout": 64.1500015258789
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "坪頂村",
+    "candidateVotes": {
+      "coast": 101,
+      "savannah": 196,
+      "rainforest": 22
+    },
+    "validVotes": 319,
+    "invalidVotes": 8,
+    "totalVotes": 327,
+    "receivedUnvoted": 0,
+    "issuedVotes": 327,
+    "remainingVotes": 211,
+    "eligibleVoters": 538,
+    "voterTurnout": 60.779998779296875
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "林茂村",
+    "candidateVotes": {
+      "coast": 146,
+      "savannah": 326,
+      "rainforest": 42
+    },
+    "validVotes": 514,
+    "invalidVotes": 10,
+    "totalVotes": 524,
+    "receivedUnvoted": 0,
+    "issuedVotes": 524,
+    "remainingVotes": 298,
+    "eligibleVoters": 822,
+    "voterTurnout": 63.75
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "九芎村",
+    "candidateVotes": {
+      "coast": 353,
+      "savannah": 1015,
+      "rainforest": 190
+    },
+    "validVotes": 1558,
+    "invalidVotes": 23,
+    "totalVotes": 1581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1581,
+    "remainingVotes": 949,
+    "eligibleVoters": 2530,
+    "voterTurnout": 62.4900016784668
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "湖本村",
+    "candidateVotes": {
+      "coast": 72,
+      "savannah": 285,
+      "rainforest": 61
+    },
+    "validVotes": 418,
+    "invalidVotes": 9,
+    "totalVotes": 427,
+    "receivedUnvoted": 0,
+    "issuedVotes": 427,
+    "remainingVotes": 245,
+    "eligibleVoters": 672,
+    "voterTurnout": 63.540000915527344
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "烏塗村",
+    "candidateVotes": {
+      "coast": 186,
+      "savannah": 432,
+      "rainforest": 87
+    },
+    "validVotes": 705,
+    "invalidVotes": 8,
+    "totalVotes": 713,
+    "receivedUnvoted": 0,
+    "issuedVotes": 713,
+    "remainingVotes": 442,
+    "eligibleVoters": 1155,
+    "voterTurnout": 61.72999954223633
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "烏麻村",
+    "candidateVotes": {
+      "coast": 192,
+      "savannah": 391,
+      "rainforest": 79
+    },
+    "validVotes": 662,
+    "invalidVotes": 7,
+    "totalVotes": 669,
+    "receivedUnvoted": 0,
+    "issuedVotes": 669,
+    "remainingVotes": 397,
+    "eligibleVoters": 1066,
+    "voterTurnout": 62.7599983215332
+  },
+  {
+    "administrativeDivision": "林內鄉",
+    "village": "重興村",
+    "candidateVotes": {
+      "coast": 201,
+      "savannah": 830,
+      "rainforest": 129
+    },
+    "validVotes": 1160,
+    "invalidVotes": 13,
+    "totalVotes": 1173,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1173,
+    "remainingVotes": 601,
+    "eligibleVoters": 1774,
+    "voterTurnout": 66.12000274658203
+  }
+]

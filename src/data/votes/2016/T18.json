@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1594,
+      "savannah": 5720,
+      "rainforest": 572
+    },
+    "validVotes": 7886,
+    "invalidVotes": 99,
+    "totalVotes": 7985,
+    "receivedUnvoted": 1,
+    "issuedVotes": 7986,
+    "remainingVotes": 3950,
+    "eligibleVoters": 11936,
+    "voterTurnout": 66.9000015258789
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "崁頂村",
+    "candidateVotes": {
+      "coast": 373,
+      "savannah": 938,
+      "rainforest": 111
+    },
+    "validVotes": 1422,
+    "invalidVotes": 15,
+    "totalVotes": 1437,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1438,
+    "remainingVotes": 734,
+    "eligibleVoters": 2172,
+    "voterTurnout": 66.16000366210938
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "園寮村",
+    "candidateVotes": {
+      "coast": 277,
+      "savannah": 867,
+      "rainforest": 122
+    },
+    "validVotes": 1266,
+    "invalidVotes": 19,
+    "totalVotes": 1285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1285,
+    "remainingVotes": 630,
+    "eligibleVoters": 1915,
+    "voterTurnout": 67.0999984741211
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "力社村",
+    "candidateVotes": {
+      "coast": 153,
+      "savannah": 630,
+      "rainforest": 58
+    },
+    "validVotes": 841,
+    "invalidVotes": 11,
+    "totalVotes": 852,
+    "receivedUnvoted": 0,
+    "issuedVotes": 852,
+    "remainingVotes": 422,
+    "eligibleVoters": 1274,
+    "voterTurnout": 66.87999725341797
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "圍內村",
+    "candidateVotes": {
+      "coast": 187,
+      "savannah": 586,
+      "rainforest": 54
+    },
+    "validVotes": 827,
+    "invalidVotes": 13,
+    "totalVotes": 840,
+    "receivedUnvoted": 0,
+    "issuedVotes": 840,
+    "remainingVotes": 405,
+    "eligibleVoters": 1245,
+    "voterTurnout": 67.47000122070312
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "洲子村",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 477,
+      "rainforest": 47
+    },
+    "validVotes": 648,
+    "invalidVotes": 8,
+    "totalVotes": 656,
+    "receivedUnvoted": 0,
+    "issuedVotes": 656,
+    "remainingVotes": 334,
+    "eligibleVoters": 990,
+    "voterTurnout": 66.26000213623047
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "北勢村",
+    "candidateVotes": {
+      "coast": 167,
+      "savannah": 769,
+      "rainforest": 49
+    },
+    "validVotes": 985,
+    "invalidVotes": 15,
+    "totalVotes": 1000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1000,
+    "remainingVotes": 552,
+    "eligibleVoters": 1552,
+    "voterTurnout": 64.43000030517578
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "越溪村",
+    "candidateVotes": {
+      "coast": 119,
+      "savannah": 465,
+      "rainforest": 60
+    },
+    "validVotes": 644,
+    "invalidVotes": 7,
+    "totalVotes": 651,
+    "receivedUnvoted": 0,
+    "issuedVotes": 651,
+    "remainingVotes": 273,
+    "eligibleVoters": 924,
+    "voterTurnout": 70.44999694824219
+  },
+  {
+    "administrativeDivision": "崁頂鄉",
+    "village": "港東村",
+    "candidateVotes": {
+      "coast": 194,
+      "savannah": 988,
+      "rainforest": 71
+    },
+    "validVotes": 1253,
+    "invalidVotes": 11,
+    "totalVotes": 1264,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1264,
+    "remainingVotes": 600,
+    "eligibleVoters": 1864,
+    "voterTurnout": 67.80999755859375
+  }
+]

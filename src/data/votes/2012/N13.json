@@ -1,0 +1,325 @@
+[
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 11236,
+      "coast": 14364,
+      "rainforest": 746
+    },
+    "validVotes": 26346,
+    "invalidVotes": 201,
+    "totalVotes": 26547,
+    "receivedUnvoted": 0,
+    "issuedVotes": 26547,
+    "remainingVotes": 9377,
+    "eligibleVoters": 35924,
+    "voterTurnout": 73.9000015258789
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "花壇村",
+    "candidateVotes": {
+      "savannah": 912,
+      "coast": 1221,
+      "rainforest": 65
+    },
+    "validVotes": 2198,
+    "invalidVotes": 22,
+    "totalVotes": 2220,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2220,
+    "remainingVotes": 773,
+    "eligibleVoters": 2993,
+    "voterTurnout": 74.16999816894531
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "金墩村",
+    "candidateVotes": {
+      "savannah": 592,
+      "coast": 643,
+      "rainforest": 47
+    },
+    "validVotes": 1282,
+    "invalidVotes": 5,
+    "totalVotes": 1287,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1287,
+    "remainingVotes": 439,
+    "eligibleVoters": 1726,
+    "voterTurnout": 74.56999969482422
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "中庄村",
+    "candidateVotes": {
+      "savannah": 715,
+      "coast": 974,
+      "rainforest": 46
+    },
+    "validVotes": 1735,
+    "invalidVotes": 25,
+    "totalVotes": 1760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1760,
+    "remainingVotes": 567,
+    "eligibleVoters": 2327,
+    "voterTurnout": 75.62999725341797
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "崙雅村",
+    "candidateVotes": {
+      "savannah": 519,
+      "coast": 482,
+      "rainforest": 19
+    },
+    "validVotes": 1020,
+    "invalidVotes": 9,
+    "totalVotes": 1029,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1029,
+    "remainingVotes": 369,
+    "eligibleVoters": 1398,
+    "voterTurnout": 73.61000061035156
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "劉厝村",
+    "candidateVotes": {
+      "savannah": 440,
+      "coast": 311,
+      "rainforest": 16
+    },
+    "validVotes": 767,
+    "invalidVotes": 8,
+    "totalVotes": 775,
+    "receivedUnvoted": 0,
+    "issuedVotes": 775,
+    "remainingVotes": 241,
+    "eligibleVoters": 1016,
+    "voterTurnout": 76.27999877929688
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "南口村",
+    "candidateVotes": {
+      "savannah": 497,
+      "coast": 646,
+      "rainforest": 20
+    },
+    "validVotes": 1163,
+    "invalidVotes": 9,
+    "totalVotes": 1172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1172,
+    "remainingVotes": 425,
+    "eligibleVoters": 1597,
+    "voterTurnout": 73.38999938964844
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "北口村",
+    "candidateVotes": {
+      "savannah": 598,
+      "coast": 643,
+      "rainforest": 35
+    },
+    "validVotes": 1276,
+    "invalidVotes": 13,
+    "totalVotes": 1289,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1289,
+    "remainingVotes": 443,
+    "eligibleVoters": 1732,
+    "voterTurnout": 74.41999816894531
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "中口村",
+    "candidateVotes": {
+      "savannah": 276,
+      "coast": 211,
+      "rainforest": 20
+    },
+    "validVotes": 507,
+    "invalidVotes": 2,
+    "totalVotes": 509,
+    "receivedUnvoted": 0,
+    "issuedVotes": 509,
+    "remainingVotes": 142,
+    "eligibleVoters": 651,
+    "voterTurnout": 78.19000244140625
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "文德村",
+    "candidateVotes": {
+      "savannah": 824,
+      "coast": 1072,
+      "rainforest": 79
+    },
+    "validVotes": 1975,
+    "invalidVotes": 15,
+    "totalVotes": 1990,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1990,
+    "remainingVotes": 752,
+    "eligibleVoters": 2742,
+    "voterTurnout": 72.56999969482422
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "白沙村",
+    "candidateVotes": {
+      "savannah": 1226,
+      "coast": 1760,
+      "rainforest": 104
+    },
+    "validVotes": 3090,
+    "invalidVotes": 16,
+    "totalVotes": 3106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3106,
+    "remainingVotes": 1042,
+    "eligibleVoters": 4148,
+    "voterTurnout": 74.87999725341797
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "岩竹村",
+    "candidateVotes": {
+      "savannah": 449,
+      "coast": 441,
+      "rainforest": 23
+    },
+    "validVotes": 913,
+    "invalidVotes": 10,
+    "totalVotes": 923,
+    "receivedUnvoted": 0,
+    "issuedVotes": 923,
+    "remainingVotes": 312,
+    "eligibleVoters": 1235,
+    "voterTurnout": 74.73999786376953
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "長沙村",
+    "candidateVotes": {
+      "savannah": 1375,
+      "coast": 1924,
+      "rainforest": 62
+    },
+    "validVotes": 3361,
+    "invalidVotes": 19,
+    "totalVotes": 3380,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3380,
+    "remainingVotes": 1160,
+    "eligibleVoters": 4540,
+    "voterTurnout": 74.44999694824219
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "橋頭村",
+    "candidateVotes": {
+      "savannah": 895,
+      "coast": 1338,
+      "rainforest": 75
+    },
+    "validVotes": 2308,
+    "invalidVotes": 15,
+    "totalVotes": 2323,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2323,
+    "remainingVotes": 773,
+    "eligibleVoters": 3096,
+    "voterTurnout": 75.02999877929688
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "灣雅村",
+    "candidateVotes": {
+      "savannah": 221,
+      "coast": 385,
+      "rainforest": 25
+    },
+    "validVotes": 631,
+    "invalidVotes": 5,
+    "totalVotes": 636,
+    "receivedUnvoted": 0,
+    "issuedVotes": 636,
+    "remainingVotes": 216,
+    "eligibleVoters": 852,
+    "voterTurnout": 74.6500015258789
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "灣東村",
+    "candidateVotes": {
+      "savannah": 288,
+      "coast": 378,
+      "rainforest": 18
+    },
+    "validVotes": 684,
+    "invalidVotes": 3,
+    "totalVotes": 687,
+    "receivedUnvoted": 0,
+    "issuedVotes": 687,
+    "remainingVotes": 277,
+    "eligibleVoters": 964,
+    "voterTurnout": 71.2699966430664
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "三春村",
+    "candidateVotes": {
+      "savannah": 511,
+      "coast": 675,
+      "rainforest": 24
+    },
+    "validVotes": 1210,
+    "invalidVotes": 6,
+    "totalVotes": 1216,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1216,
+    "remainingVotes": 501,
+    "eligibleVoters": 1717,
+    "voterTurnout": 70.81999969482422
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "永春村",
+    "candidateVotes": {
+      "savannah": 465,
+      "coast": 657,
+      "rainforest": 45
+    },
+    "validVotes": 1167,
+    "invalidVotes": 8,
+    "totalVotes": 1175,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1175,
+    "remainingVotes": 486,
+    "eligibleVoters": 1661,
+    "voterTurnout": 70.73999786376953
+  },
+  {
+    "administrativeDivision": "花壇鄉",
+    "village": "長春村",
+    "candidateVotes": {
+      "savannah": 433,
+      "coast": 603,
+      "rainforest": 23
+    },
+    "validVotes": 1059,
+    "invalidVotes": 11,
+    "totalVotes": 1070,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1070,
+    "remainingVotes": 459,
+    "eligibleVoters": 1529,
+    "voterTurnout": 69.9800033569336
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 118,
+      "coast": 1559,
+      "savannah": 2401
+    },
+    "validVotes": 4078,
+    "invalidVotes": 46,
+    "totalVotes": 4124,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4124,
+    "remainingVotes": 2593,
+    "eligibleVoters": 6717,
+    "voterTurnout": 61.3965
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "滿州村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 350,
+      "savannah": 548
+    },
+    "validVotes": 921,
+    "invalidVotes": 5,
+    "totalVotes": 926,
+    "receivedUnvoted": 0,
+    "issuedVotes": 926,
+    "remainingVotes": 495,
+    "eligibleVoters": 1421,
+    "voterTurnout": 65.1654
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "里德村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 82,
+      "savannah": 136
+    },
+    "validVotes": 228,
+    "invalidVotes": 5,
+    "totalVotes": 233,
+    "receivedUnvoted": 0,
+    "issuedVotes": 233,
+    "remainingVotes": 164,
+    "eligibleVoters": 397,
+    "voterTurnout": 58.6902
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "响林村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 77,
+      "savannah": 237
+    },
+    "validVotes": 329,
+    "invalidVotes": 1,
+    "totalVotes": 330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 330,
+    "remainingVotes": 235,
+    "eligibleVoters": 565,
+    "voterTurnout": 58.4071
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "永靖村",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 323,
+      "savannah": 387
+    },
+    "validVotes": 735,
+    "invalidVotes": 8,
+    "totalVotes": 743,
+    "receivedUnvoted": 0,
+    "issuedVotes": 743,
+    "remainingVotes": 480,
+    "eligibleVoters": 1223,
+    "voterTurnout": 60.7522
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "港口村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 236,
+      "savannah": 538
+    },
+    "validVotes": 787,
+    "invalidVotes": 6,
+    "totalVotes": 793,
+    "receivedUnvoted": 0,
+    "issuedVotes": 793,
+    "remainingVotes": 413,
+    "eligibleVoters": 1206,
+    "voterTurnout": 65.7546
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "長樂村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 354,
+      "savannah": 326
+    },
+    "validVotes": 706,
+    "invalidVotes": 16,
+    "totalVotes": 722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 722,
+    "remainingVotes": 535,
+    "eligibleVoters": 1257,
+    "voterTurnout": 57.4383
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "九棚村",
+    "candidateVotes": {
+      "rainforest": 4,
+      "coast": 72,
+      "savannah": 117
+    },
+    "validVotes": 193,
+    "invalidVotes": 1,
+    "totalVotes": 194,
+    "receivedUnvoted": 0,
+    "issuedVotes": 194,
+    "remainingVotes": 157,
+    "eligibleVoters": 351,
+    "voterTurnout": 55.2707
+  },
+  {
+    "administrativeDivision": "滿州鄉",
+    "village": "港仔村",
+    "candidateVotes": {
+      "rainforest": 2,
+      "coast": 65,
+      "savannah": 112
+    },
+    "validVotes": 179,
+    "invalidVotes": 4,
+    "totalVotes": 183,
+    "receivedUnvoted": 0,
+    "issuedVotes": 183,
+    "remainingVotes": 114,
+    "eligibleVoters": 297,
+    "voterTurnout": 61.6162
+  }
+]

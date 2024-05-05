@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 451,
+      "coast": 6292,
+      "savannah": 4114
+    },
+    "validVotes": 10857,
+    "invalidVotes": 120,
+    "totalVotes": 10977,
+    "receivedUnvoted": 0,
+    "issuedVotes": 10977,
+    "remainingVotes": 3863,
+    "eligibleVoters": 14840,
+    "voterTurnout": 73.969
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "銅鑼村",
+    "candidateVotes": {
+      "rainforest": 131,
+      "coast": 1860,
+      "savannah": 1211
+    },
+    "validVotes": 3202,
+    "invalidVotes": 34,
+    "totalVotes": 3236,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3236,
+    "remainingVotes": 1069,
+    "eligibleVoters": 4305,
+    "voterTurnout": 75.1684
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "樟樹村",
+    "candidateVotes": {
+      "rainforest": 40,
+      "coast": 505,
+      "savannah": 401
+    },
+    "validVotes": 946,
+    "invalidVotes": 13,
+    "totalVotes": 959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 959,
+    "remainingVotes": 281,
+    "eligibleVoters": 1240,
+    "voterTurnout": 77.3387
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "九湖村",
+    "candidateVotes": {
+      "rainforest": 47,
+      "coast": 461,
+      "savannah": 310
+    },
+    "validVotes": 818,
+    "invalidVotes": 6,
+    "totalVotes": 824,
+    "receivedUnvoted": 0,
+    "issuedVotes": 824,
+    "remainingVotes": 307,
+    "eligibleVoters": 1131,
+    "voterTurnout": 72.8559
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "福興村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 506,
+      "savannah": 178
+    },
+    "validVotes": 705,
+    "invalidVotes": 7,
+    "totalVotes": 712,
+    "receivedUnvoted": 0,
+    "issuedVotes": 712,
+    "remainingVotes": 250,
+    "eligibleVoters": 962,
+    "voterTurnout": 74.0125
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "朝陽村",
+    "candidateVotes": {
+      "rainforest": 62,
+      "coast": 702,
+      "savannah": 437
+    },
+    "validVotes": 1201,
+    "invalidVotes": 10,
+    "totalVotes": 1211,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1211,
+    "remainingVotes": 394,
+    "eligibleVoters": 1605,
+    "voterTurnout": 75.4517
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "竹森村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 474,
+      "savannah": 235
+    },
+    "validVotes": 728,
+    "invalidVotes": 10,
+    "totalVotes": 738,
+    "receivedUnvoted": 0,
+    "issuedVotes": 738,
+    "remainingVotes": 296,
+    "eligibleVoters": 1034,
+    "voterTurnout": 71.3733
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "中平村",
+    "candidateVotes": {
+      "rainforest": 96,
+      "coast": 1151,
+      "savannah": 909
+    },
+    "validVotes": 2156,
+    "invalidVotes": 21,
+    "totalVotes": 2177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2177,
+    "remainingVotes": 896,
+    "eligibleVoters": 3073,
+    "voterTurnout": 70.8428
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "興隆村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 215,
+      "savannah": 173
+    },
+    "validVotes": 404,
+    "invalidVotes": 11,
+    "totalVotes": 415,
+    "receivedUnvoted": 0,
+    "issuedVotes": 415,
+    "remainingVotes": 144,
+    "eligibleVoters": 559,
+    "voterTurnout": 74.2397
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "盛隆村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 165,
+      "savannah": 121
+    },
+    "validVotes": 294,
+    "invalidVotes": 5,
+    "totalVotes": 299,
+    "receivedUnvoted": 0,
+    "issuedVotes": 299,
+    "remainingVotes": 112,
+    "eligibleVoters": 411,
+    "voterTurnout": 72.7494
+  },
+  {
+    "administrativeDivision": "銅鑼鄉",
+    "village": "新隆村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 253,
+      "savannah": 139
+    },
+    "validVotes": 403,
+    "invalidVotes": 3,
+    "totalVotes": 406,
+    "receivedUnvoted": 0,
+    "issuedVotes": 406,
+    "remainingVotes": 114,
+    "eligibleVoters": 520,
+    "voterTurnout": 78.0769
+  }
+]

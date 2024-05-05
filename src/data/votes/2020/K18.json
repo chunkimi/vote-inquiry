@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 102,
+      "coast": 2743,
+      "savannah": 772
+    },
+    "validVotes": 3617,
+    "invalidVotes": 28,
+    "totalVotes": 3645,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3645,
+    "remainingVotes": 1301,
+    "eligibleVoters": 4946,
+    "voterTurnout": 73.6959
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "八卦村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 160,
+      "savannah": 58
+    },
+    "validVotes": 223,
+    "invalidVotes": 2,
+    "totalVotes": 225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 225,
+    "remainingVotes": 94,
+    "eligibleVoters": 319,
+    "voterTurnout": 70.5329
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "錦水村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 581,
+      "savannah": 165
+    },
+    "validVotes": 768,
+    "invalidVotes": 4,
+    "totalVotes": 772,
+    "receivedUnvoted": 0,
+    "issuedVotes": 772,
+    "remainingVotes": 321,
+    "eligibleVoters": 1093,
+    "voterTurnout": 70.6313
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "清安村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 442,
+      "savannah": 168
+    },
+    "validVotes": 629,
+    "invalidVotes": 6,
+    "totalVotes": 635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 635,
+    "remainingVotes": 236,
+    "eligibleVoters": 871,
+    "voterTurnout": 72.9047
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "大興村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 280,
+      "savannah": 56
+    },
+    "validVotes": 343,
+    "invalidVotes": 3,
+    "totalVotes": 346,
+    "receivedUnvoted": 0,
+    "issuedVotes": 346,
+    "remainingVotes": 125,
+    "eligibleVoters": 471,
+    "voterTurnout": 73.4607
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "中興村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 266,
+      "savannah": 82
+    },
+    "validVotes": 357,
+    "invalidVotes": 4,
+    "totalVotes": 361,
+    "receivedUnvoted": 0,
+    "issuedVotes": 361,
+    "remainingVotes": 148,
+    "eligibleVoters": 509,
+    "voterTurnout": 70.9234
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "梅園村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 287,
+      "savannah": 74
+    },
+    "validVotes": 374,
+    "invalidVotes": 1,
+    "totalVotes": 375,
+    "receivedUnvoted": 0,
+    "issuedVotes": 375,
+    "remainingVotes": 100,
+    "eligibleVoters": 475,
+    "voterTurnout": 78.9474
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "象鼻村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 375,
+      "savannah": 113
+    },
+    "validVotes": 500,
+    "invalidVotes": 4,
+    "totalVotes": 504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 504,
+    "remainingVotes": 144,
+    "eligibleVoters": 648,
+    "voterTurnout": 77.7778
+  },
+  {
+    "administrativeDivision": "泰安鄉",
+    "village": "士林村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 352,
+      "savannah": 56
+    },
+    "validVotes": 423,
+    "invalidVotes": 4,
+    "totalVotes": 427,
+    "receivedUnvoted": 0,
+    "issuedVotes": 427,
+    "remainingVotes": 133,
+    "eligibleVoters": 560,
+    "voterTurnout": 76.25
+  }
+]

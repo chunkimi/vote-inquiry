@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 278,
+      "coast": 3971,
+      "savannah": 2542
+    },
+    "validVotes": 6791,
+    "invalidVotes": 78,
+    "totalVotes": 6869,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6869,
+    "remainingVotes": 2201,
+    "eligibleVoters": 9070,
+    "voterTurnout": 75.7332
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "頭屋村",
+    "candidateVotes": {
+      "rainforest": 68,
+      "coast": 1115,
+      "savannah": 627
+    },
+    "validVotes": 1810,
+    "invalidVotes": 20,
+    "totalVotes": 1830,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1830,
+    "remainingVotes": 590,
+    "eligibleVoters": 2420,
+    "voterTurnout": 75.6198
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "獅潭村",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 684,
+      "savannah": 452
+    },
+    "validVotes": 1199,
+    "invalidVotes": 20,
+    "totalVotes": 1219,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1219,
+    "remainingVotes": 417,
+    "eligibleVoters": 1636,
+    "voterTurnout": 74.511
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "北坑村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 312,
+      "savannah": 178
+    },
+    "validVotes": 513,
+    "invalidVotes": 2,
+    "totalVotes": 515,
+    "receivedUnvoted": 0,
+    "issuedVotes": 515,
+    "remainingVotes": 177,
+    "eligibleVoters": 692,
+    "voterTurnout": 74.422
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "曲洞村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 380,
+      "savannah": 269
+    },
+    "validVotes": 671,
+    "invalidVotes": 5,
+    "totalVotes": 676,
+    "receivedUnvoted": 0,
+    "issuedVotes": 676,
+    "remainingVotes": 187,
+    "eligibleVoters": 863,
+    "voterTurnout": 78.3314
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "飛鳳村",
+    "candidateVotes": {
+      "rainforest": 4,
+      "coast": 164,
+      "savannah": 107
+    },
+    "validVotes": 275,
+    "invalidVotes": 0,
+    "totalVotes": 275,
+    "receivedUnvoted": 0,
+    "issuedVotes": 275,
+    "remainingVotes": 97,
+    "eligibleVoters": 372,
+    "voterTurnout": 73.9247
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "象山村",
+    "candidateVotes": {
+      "rainforest": 59,
+      "coast": 740,
+      "savannah": 552
+    },
+    "validVotes": 1351,
+    "invalidVotes": 20,
+    "totalVotes": 1371,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1371,
+    "remainingVotes": 412,
+    "eligibleVoters": 1783,
+    "voterTurnout": 76.8929
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "明德村",
+    "candidateVotes": {
+      "rainforest": 33,
+      "coast": 448,
+      "savannah": 269
+    },
+    "validVotes": 750,
+    "invalidVotes": 9,
+    "totalVotes": 759,
+    "receivedUnvoted": 0,
+    "issuedVotes": 759,
+    "remainingVotes": 228,
+    "eligibleVoters": 987,
+    "voterTurnout": 76.8997
+  },
+  {
+    "administrativeDivision": "頭屋鄉",
+    "village": "鳴鳳村",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 128,
+      "savannah": 88
+    },
+    "validVotes": 222,
+    "invalidVotes": 2,
+    "totalVotes": 224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 224,
+    "remainingVotes": 93,
+    "eligibleVoters": 317,
+    "voterTurnout": 70.6625
+  }
+]

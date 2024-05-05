@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 269,
+      "coast": 2449,
+      "rainforest": 121
+    },
+    "validVotes": 2839,
+    "invalidVotes": 19,
+    "totalVotes": 2858,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2858,
+    "remainingVotes": 1304,
+    "eligibleVoters": 4162,
+    "voterTurnout": 68.66999816894531
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "東岳村",
+    "candidateVotes": {
+      "savannah": 24,
+      "coast": 262,
+      "rainforest": 10
+    },
+    "validVotes": 296,
+    "invalidVotes": 1,
+    "totalVotes": 297,
+    "receivedUnvoted": 0,
+    "issuedVotes": 297,
+    "remainingVotes": 132,
+    "eligibleVoters": 429,
+    "voterTurnout": 69.2300033569336
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "南澳村",
+    "candidateVotes": {
+      "savannah": 65,
+      "coast": 632,
+      "rainforest": 26
+    },
+    "validVotes": 723,
+    "invalidVotes": 6,
+    "totalVotes": 729,
+    "receivedUnvoted": 0,
+    "issuedVotes": 729,
+    "remainingVotes": 323,
+    "eligibleVoters": 1052,
+    "voterTurnout": 69.30000305175781
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "碧候村",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 516,
+      "rainforest": 14
+    },
+    "validVotes": 561,
+    "invalidVotes": 5,
+    "totalVotes": 566,
+    "receivedUnvoted": 0,
+    "issuedVotes": 566,
+    "remainingVotes": 230,
+    "eligibleVoters": 796,
+    "voterTurnout": 71.11000061035156
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "金岳村",
+    "candidateVotes": {
+      "savannah": 15,
+      "coast": 237,
+      "rainforest": 6
+    },
+    "validVotes": 258,
+    "invalidVotes": 0,
+    "totalVotes": 258,
+    "receivedUnvoted": 0,
+    "issuedVotes": 258,
+    "remainingVotes": 125,
+    "eligibleVoters": 383,
+    "voterTurnout": 67.36000061035156
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "武塔村",
+    "candidateVotes": {
+      "savannah": 63,
+      "coast": 211,
+      "rainforest": 17
+    },
+    "validVotes": 291,
+    "invalidVotes": 3,
+    "totalVotes": 294,
+    "receivedUnvoted": 0,
+    "issuedVotes": 294,
+    "remainingVotes": 129,
+    "eligibleVoters": 423,
+    "voterTurnout": 69.5
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "金洋村",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 211,
+      "rainforest": 19
+    },
+    "validVotes": 261,
+    "invalidVotes": 1,
+    "totalVotes": 262,
+    "receivedUnvoted": 0,
+    "issuedVotes": 262,
+    "remainingVotes": 162,
+    "eligibleVoters": 424,
+    "voterTurnout": 61.790000915527344
+  },
+  {
+    "administrativeDivision": "南澳鄉",
+    "village": "澳花村",
+    "candidateVotes": {
+      "savannah": 40,
+      "coast": 380,
+      "rainforest": 29
+    },
+    "validVotes": 449,
+    "invalidVotes": 3,
+    "totalVotes": 452,
+    "receivedUnvoted": 0,
+    "issuedVotes": 452,
+    "remainingVotes": 203,
+    "eligibleVoters": 655,
+    "voterTurnout": 69.01000213623047
+  }
+]

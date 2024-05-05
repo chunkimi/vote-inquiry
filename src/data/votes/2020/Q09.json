@@ -1,0 +1,410 @@
+[
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 512,
+      "coast": 4731,
+      "savannah": 8943
+    },
+    "validVotes": 14186,
+    "invalidVotes": 218,
+    "totalVotes": 14404,
+    "receivedUnvoted": 1,
+    "issuedVotes": 14405,
+    "remainingVotes": 6740,
+    "eligibleVoters": 21145,
+    "voterTurnout": 68.1201
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "東石村",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 377,
+      "savannah": 836
+    },
+    "validVotes": 1261,
+    "invalidVotes": 15,
+    "totalVotes": 1276,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1276,
+    "remainingVotes": 575,
+    "eligibleVoters": 1851,
+    "voterTurnout": 68.9357
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "猿樹村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 196,
+      "savannah": 373
+    },
+    "validVotes": 581,
+    "invalidVotes": 9,
+    "totalVotes": 590,
+    "receivedUnvoted": 0,
+    "issuedVotes": 590,
+    "remainingVotes": 319,
+    "eligibleVoters": 909,
+    "voterTurnout": 64.9065
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "型厝村",
+    "candidateVotes": {
+      "rainforest": 37,
+      "coast": 314,
+      "savannah": 531
+    },
+    "validVotes": 882,
+    "invalidVotes": 14,
+    "totalVotes": 896,
+    "receivedUnvoted": 0,
+    "issuedVotes": 896,
+    "remainingVotes": 425,
+    "eligibleVoters": 1321,
+    "voterTurnout": 67.8274
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "塭港村",
+    "candidateVotes": {
+      "rainforest": 44,
+      "coast": 415,
+      "savannah": 602
+    },
+    "validVotes": 1061,
+    "invalidVotes": 25,
+    "totalVotes": 1086,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1086,
+    "remainingVotes": 516,
+    "eligibleVoters": 1602,
+    "voterTurnout": 67.7903
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "三家村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 261,
+      "savannah": 455
+    },
+    "validVotes": 742,
+    "invalidVotes": 11,
+    "totalVotes": 753,
+    "receivedUnvoted": 0,
+    "issuedVotes": 753,
+    "remainingVotes": 343,
+    "eligibleVoters": 1096,
+    "voterTurnout": 68.7044
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "永屯村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 174,
+      "savannah": 281
+    },
+    "validVotes": 479,
+    "invalidVotes": 8,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 192,
+    "eligibleVoters": 679,
+    "voterTurnout": 71.7231
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "海埔村",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 77,
+      "savannah": 166
+    },
+    "validVotes": 249,
+    "invalidVotes": 5,
+    "totalVotes": 254,
+    "receivedUnvoted": 0,
+    "issuedVotes": 254,
+    "remainingVotes": 136,
+    "eligibleVoters": 390,
+    "voterTurnout": 65.1282
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "龍港村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 264,
+      "savannah": 261
+    },
+    "validVotes": 542,
+    "invalidVotes": 8,
+    "totalVotes": 550,
+    "receivedUnvoted": 0,
+    "issuedVotes": 550,
+    "remainingVotes": 275,
+    "eligibleVoters": 825,
+    "voterTurnout": 66.6667
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "副瀨村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 182,
+      "savannah": 390
+    },
+    "validVotes": 594,
+    "invalidVotes": 9,
+    "totalVotes": 603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 603,
+    "remainingVotes": 273,
+    "eligibleVoters": 876,
+    "voterTurnout": 68.8356
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "下揖村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 125,
+      "savannah": 336
+    },
+    "validVotes": 480,
+    "invalidVotes": 9,
+    "totalVotes": 489,
+    "receivedUnvoted": 0,
+    "issuedVotes": 489,
+    "remainingVotes": 230,
+    "eligibleVoters": 719,
+    "voterTurnout": 68.0111
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "頂揖村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 66,
+      "savannah": 169
+    },
+    "validVotes": 240,
+    "invalidVotes": 4,
+    "totalVotes": 244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 244,
+    "remainingVotes": 120,
+    "eligibleVoters": 364,
+    "voterTurnout": 67.033
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "溪下村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 181,
+      "savannah": 369
+    },
+    "validVotes": 569,
+    "invalidVotes": 11,
+    "totalVotes": 580,
+    "receivedUnvoted": 0,
+    "issuedVotes": 580,
+    "remainingVotes": 387,
+    "eligibleVoters": 967,
+    "voterTurnout": 59.9793
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "港口村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 78,
+      "savannah": 104
+    },
+    "validVotes": 191,
+    "invalidVotes": 2,
+    "totalVotes": 193,
+    "receivedUnvoted": 0,
+    "issuedVotes": 193,
+    "remainingVotes": 99,
+    "eligibleVoters": 292,
+    "voterTurnout": 66.0959
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "鰲鼓村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 260,
+      "savannah": 546
+    },
+    "validVotes": 829,
+    "invalidVotes": 10,
+    "totalVotes": 839,
+    "receivedUnvoted": 0,
+    "issuedVotes": 839,
+    "remainingVotes": 387,
+    "eligibleVoters": 1226,
+    "voterTurnout": 68.4339
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "港墘村",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 279,
+      "savannah": 556
+    },
+    "validVotes": 862,
+    "invalidVotes": 13,
+    "totalVotes": 875,
+    "receivedUnvoted": 0,
+    "issuedVotes": 875,
+    "remainingVotes": 297,
+    "eligibleVoters": 1172,
+    "voterTurnout": 74.6587
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "蔦松村",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 184,
+      "savannah": 360
+    },
+    "validVotes": 571,
+    "invalidVotes": 10,
+    "totalVotes": 581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 581,
+    "remainingVotes": 251,
+    "eligibleVoters": 832,
+    "voterTurnout": 69.8317
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "圍潭村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 134,
+      "savannah": 302
+    },
+    "validVotes": 448,
+    "invalidVotes": 7,
+    "totalVotes": 455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 455,
+    "remainingVotes": 208,
+    "eligibleVoters": 663,
+    "voterTurnout": 68.6275
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "洲仔村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 197,
+      "savannah": 359
+    },
+    "validVotes": 577,
+    "invalidVotes": 8,
+    "totalVotes": 585,
+    "receivedUnvoted": 0,
+    "issuedVotes": 585,
+    "remainingVotes": 229,
+    "eligibleVoters": 814,
+    "voterTurnout": 71.8673
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "東崙村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 131,
+      "savannah": 271
+    },
+    "validVotes": 419,
+    "invalidVotes": 5,
+    "totalVotes": 424,
+    "receivedUnvoted": 0,
+    "issuedVotes": 424,
+    "remainingVotes": 251,
+    "eligibleVoters": 675,
+    "voterTurnout": 62.8148
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "西崙村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 208,
+      "savannah": 494
+    },
+    "validVotes": 724,
+    "invalidVotes": 14,
+    "totalVotes": 738,
+    "receivedUnvoted": 1,
+    "issuedVotes": 739,
+    "remainingVotes": 307,
+    "eligibleVoters": 1046,
+    "voterTurnout": 70.5545
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "塭仔村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 158,
+      "savannah": 424
+    },
+    "validVotes": 605,
+    "invalidVotes": 6,
+    "totalVotes": 611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 611,
+    "remainingVotes": 265,
+    "eligibleVoters": 876,
+    "voterTurnout": 69.7489
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "網寮村",
+    "candidateVotes": {
+      "rainforest": 32,
+      "coast": 260,
+      "savannah": 445
+    },
+    "validVotes": 737,
+    "invalidVotes": 4,
+    "totalVotes": 741,
+    "receivedUnvoted": 0,
+    "issuedVotes": 741,
+    "remainingVotes": 436,
+    "eligibleVoters": 1177,
+    "voterTurnout": 62.9567
+  },
+  {
+    "administrativeDivision": "東石鄉",
+    "village": "掌潭村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 210,
+      "savannah": 313
+    },
+    "validVotes": 543,
+    "invalidVotes": 11,
+    "totalVotes": 554,
+    "receivedUnvoted": 0,
+    "issuedVotes": 554,
+    "remainingVotes": 219,
+    "eligibleVoters": 773,
+    "voterTurnout": 71.6688
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1005,
+      "coast": 6198,
+      "rainforest": 302
+    },
+    "validVotes": 7505,
+    "invalidVotes": 53,
+    "totalVotes": 7558,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7558,
+    "remainingVotes": 4067,
+    "eligibleVoters": 11625,
+    "voterTurnout": 65.0199966430664
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "南豐村",
+    "candidateVotes": {
+      "savannah": 192,
+      "coast": 547,
+      "rainforest": 82
+    },
+    "validVotes": 821,
+    "invalidVotes": 4,
+    "totalVotes": 825,
+    "receivedUnvoted": 0,
+    "issuedVotes": 825,
+    "remainingVotes": 318,
+    "eligibleVoters": 1143,
+    "voterTurnout": 72.18000030517578
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "大同村",
+    "candidateVotes": {
+      "savannah": 247,
+      "coast": 806,
+      "rainforest": 36
+    },
+    "validVotes": 1089,
+    "invalidVotes": 11,
+    "totalVotes": 1100,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1100,
+    "remainingVotes": 522,
+    "eligibleVoters": 1622,
+    "voterTurnout": 67.81999969482422
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "榮興村",
+    "candidateVotes": {
+      "savannah": 7,
+      "coast": 45,
+      "rainforest": 1
+    },
+    "validVotes": 53,
+    "invalidVotes": 0,
+    "totalVotes": 53,
+    "receivedUnvoted": 0,
+    "issuedVotes": 53,
+    "remainingVotes": 36,
+    "eligibleVoters": 89,
+    "voterTurnout": 59.54999923706055
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "春陽村",
+    "candidateVotes": {
+      "savannah": 77,
+      "coast": 508,
+      "rainforest": 28
+    },
+    "validVotes": 613,
+    "invalidVotes": 4,
+    "totalVotes": 617,
+    "receivedUnvoted": 0,
+    "issuedVotes": 617,
+    "remainingVotes": 282,
+    "eligibleVoters": 899,
+    "voterTurnout": 68.62999725341797
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "精英村",
+    "candidateVotes": {
+      "savannah": 88,
+      "coast": 679,
+      "rainforest": 29
+    },
+    "validVotes": 796,
+    "invalidVotes": 4,
+    "totalVotes": 800,
+    "receivedUnvoted": 0,
+    "issuedVotes": 800,
+    "remainingVotes": 453,
+    "eligibleVoters": 1253,
+    "voterTurnout": 63.849998474121094
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "合作村",
+    "candidateVotes": {
+      "savannah": 35,
+      "coast": 291,
+      "rainforest": 7
+    },
+    "validVotes": 333,
+    "invalidVotes": 5,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 209,
+    "eligibleVoters": 547,
+    "voterTurnout": 61.790000915527344
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "發祥村",
+    "candidateVotes": {
+      "savannah": 49,
+      "coast": 341,
+      "rainforest": 8
+    },
+    "validVotes": 398,
+    "invalidVotes": 2,
+    "totalVotes": 400,
+    "receivedUnvoted": 0,
+    "issuedVotes": 400,
+    "remainingVotes": 317,
+    "eligibleVoters": 717,
+    "voterTurnout": 55.790000915527344
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "力行村",
+    "candidateVotes": {
+      "savannah": 28,
+      "coast": 238,
+      "rainforest": 8
+    },
+    "validVotes": 274,
+    "invalidVotes": 0,
+    "totalVotes": 274,
+    "receivedUnvoted": 0,
+    "issuedVotes": 274,
+    "remainingVotes": 182,
+    "eligibleVoters": 456,
+    "voterTurnout": 60.09000015258789
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "翠華村",
+    "candidateVotes": {
+      "savannah": 50,
+      "coast": 149,
+      "rainforest": 12
+    },
+    "validVotes": 211,
+    "invalidVotes": 2,
+    "totalVotes": 213,
+    "receivedUnvoted": 0,
+    "issuedVotes": 213,
+    "remainingVotes": 263,
+    "eligibleVoters": 476,
+    "voterTurnout": 44.75
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "親愛村",
+    "candidateVotes": {
+      "savannah": 57,
+      "coast": 604,
+      "rainforest": 26
+    },
+    "validVotes": 687,
+    "invalidVotes": 2,
+    "totalVotes": 689,
+    "receivedUnvoted": 0,
+    "issuedVotes": 689,
+    "remainingVotes": 368,
+    "eligibleVoters": 1057,
+    "voterTurnout": 65.18000030517578
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "萬豐村",
+    "candidateVotes": {
+      "savannah": 41,
+      "coast": 299,
+      "rainforest": 7
+    },
+    "validVotes": 347,
+    "invalidVotes": 6,
+    "totalVotes": 353,
+    "receivedUnvoted": 0,
+    "issuedVotes": 353,
+    "remainingVotes": 200,
+    "eligibleVoters": 553,
+    "voterTurnout": 63.83000183105469
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "法治村",
+    "candidateVotes": {
+      "savannah": 34,
+      "coast": 391,
+      "rainforest": 4
+    },
+    "validVotes": 429,
+    "invalidVotes": 5,
+    "totalVotes": 434,
+    "receivedUnvoted": 0,
+    "issuedVotes": 434,
+    "remainingVotes": 259,
+    "eligibleVoters": 693,
+    "voterTurnout": 62.630001068115234
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "中正村",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 466,
+      "rainforest": 17
+    },
+    "validVotes": 514,
+    "invalidVotes": 4,
+    "totalVotes": 518,
+    "receivedUnvoted": 0,
+    "issuedVotes": 518,
+    "remainingVotes": 264,
+    "eligibleVoters": 782,
+    "voterTurnout": 66.23999786376953
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "互助村",
+    "candidateVotes": {
+      "savannah": 62,
+      "coast": 586,
+      "rainforest": 23
+    },
+    "validVotes": 671,
+    "invalidVotes": 1,
+    "totalVotes": 672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 672,
+    "remainingVotes": 315,
+    "eligibleVoters": 987,
+    "voterTurnout": 68.08999633789062
+  },
+  {
+    "administrativeDivision": "仁愛鄉",
+    "village": "新生村",
+    "candidateVotes": {
+      "savannah": 7,
+      "coast": 248,
+      "rainforest": 14
+    },
+    "validVotes": 269,
+    "invalidVotes": 3,
+    "totalVotes": 272,
+    "receivedUnvoted": 0,
+    "issuedVotes": 272,
+    "remainingVotes": 79,
+    "eligibleVoters": 351,
+    "voterTurnout": 77.48999786376953
+  }
+]

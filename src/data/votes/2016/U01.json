@@ -1,0 +1,767 @@
+[
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 23381,
+      "savannah": 19917,
+      "rainforest": 7125
+    },
+    "validVotes": 50423,
+    "invalidVotes": 727,
+    "totalVotes": 51150,
+    "receivedUnvoted": 1,
+    "issuedVotes": 51151,
+    "remainingVotes": 31007,
+    "eligibleVoters": 82158,
+    "voterTurnout": 62.2599983215332
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民德里",
+    "candidateVotes": {
+      "coast": 511,
+      "savannah": 358,
+      "rainforest": 102
+    },
+    "validVotes": 971,
+    "invalidVotes": 19,
+    "totalVotes": 990,
+    "receivedUnvoted": 0,
+    "issuedVotes": 990,
+    "remainingVotes": 511,
+    "eligibleVoters": 1501,
+    "voterTurnout": 65.95999908447266
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民勤里",
+    "candidateVotes": {
+      "coast": 1056,
+      "savannah": 607,
+      "rainforest": 281
+    },
+    "validVotes": 1944,
+    "invalidVotes": 31,
+    "totalVotes": 1975,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1975,
+    "remainingVotes": 1056,
+    "eligibleVoters": 3031,
+    "voterTurnout": 65.16000366210938
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民意里",
+    "candidateVotes": {
+      "coast": 776,
+      "savannah": 265,
+      "rainforest": 194
+    },
+    "validVotes": 1235,
+    "invalidVotes": 21,
+    "totalVotes": 1256,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1256,
+    "remainingVotes": 823,
+    "eligibleVoters": 2079,
+    "voterTurnout": 60.40999984741211
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民心里",
+    "candidateVotes": {
+      "coast": 237,
+      "savannah": 237,
+      "rainforest": 99
+    },
+    "validVotes": 573,
+    "invalidVotes": 9,
+    "totalVotes": 582,
+    "receivedUnvoted": 0,
+    "issuedVotes": 582,
+    "remainingVotes": 337,
+    "eligibleVoters": 919,
+    "voterTurnout": 63.33000183105469
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民享里",
+    "candidateVotes": {
+      "coast": 858,
+      "savannah": 516,
+      "rainforest": 266
+    },
+    "validVotes": 1640,
+    "invalidVotes": 24,
+    "totalVotes": 1664,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1664,
+    "remainingVotes": 1107,
+    "eligibleVoters": 2771,
+    "voterTurnout": 60.04999923706055
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民孝里",
+    "candidateVotes": {
+      "coast": 1114,
+      "savannah": 626,
+      "rainforest": 307
+    },
+    "validVotes": 2047,
+    "invalidVotes": 28,
+    "totalVotes": 2075,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2076,
+    "remainingVotes": 1308,
+    "eligibleVoters": 3384,
+    "voterTurnout": 61.31999969482422
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民運里",
+    "candidateVotes": {
+      "coast": 550,
+      "savannah": 455,
+      "rainforest": 199
+    },
+    "validVotes": 1204,
+    "invalidVotes": 22,
+    "totalVotes": 1226,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1226,
+    "remainingVotes": 740,
+    "eligibleVoters": 1966,
+    "voterTurnout": 62.36000061035156
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民政里",
+    "candidateVotes": {
+      "coast": 1086,
+      "savannah": 756,
+      "rainforest": 267
+    },
+    "validVotes": 2109,
+    "invalidVotes": 25,
+    "totalVotes": 2134,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2134,
+    "remainingVotes": 1263,
+    "eligibleVoters": 3397,
+    "voterTurnout": 62.81999969482422
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民立里",
+    "candidateVotes": {
+      "coast": 437,
+      "savannah": 335,
+      "rainforest": 95
+    },
+    "validVotes": 867,
+    "invalidVotes": 11,
+    "totalVotes": 878,
+    "receivedUnvoted": 0,
+    "issuedVotes": 878,
+    "remainingVotes": 503,
+    "eligibleVoters": 1381,
+    "voterTurnout": 63.58000183105469
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民樂里",
+    "candidateVotes": {
+      "coast": 167,
+      "savannah": 128,
+      "rainforest": 59
+    },
+    "validVotes": 354,
+    "invalidVotes": 9,
+    "totalVotes": 363,
+    "receivedUnvoted": 0,
+    "issuedVotes": 363,
+    "remainingVotes": 216,
+    "eligibleVoters": 579,
+    "voterTurnout": 62.689998626708984
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民有里",
+    "candidateVotes": {
+      "coast": 137,
+      "savannah": 180,
+      "rainforest": 61
+    },
+    "validVotes": 378,
+    "invalidVotes": 3,
+    "totalVotes": 381,
+    "receivedUnvoted": 0,
+    "issuedVotes": 381,
+    "remainingVotes": 229,
+    "eligibleVoters": 610,
+    "voterTurnout": 62.459999084472656
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民治里、民主里",
+    "candidateVotes": {
+      "coast": 177,
+      "savannah": 117,
+      "rainforest": 39
+    },
+    "validVotes": 333,
+    "invalidVotes": 6,
+    "totalVotes": 339,
+    "receivedUnvoted": 0,
+    "issuedVotes": 339,
+    "remainingVotes": 196,
+    "eligibleVoters": 535,
+    "voterTurnout": 63.36000061035156
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民族里",
+    "candidateVotes": {
+      "coast": 145,
+      "savannah": 107,
+      "rainforest": 33
+    },
+    "validVotes": 285,
+    "invalidVotes": 2,
+    "totalVotes": 287,
+    "receivedUnvoted": 0,
+    "issuedVotes": 287,
+    "remainingVotes": 165,
+    "eligibleVoters": 452,
+    "voterTurnout": 63.5
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民生里",
+    "candidateVotes": {
+      "coast": 302,
+      "savannah": 313,
+      "rainforest": 79
+    },
+    "validVotes": 694,
+    "invalidVotes": 7,
+    "totalVotes": 701,
+    "receivedUnvoted": 0,
+    "issuedVotes": 701,
+    "remainingVotes": 438,
+    "eligibleVoters": 1139,
+    "voterTurnout": 61.54999923706055
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "民權里",
+    "candidateVotes": {
+      "coast": 128,
+      "savannah": 73,
+      "rainforest": 37
+    },
+    "validVotes": 238,
+    "invalidVotes": 5,
+    "totalVotes": 243,
+    "receivedUnvoted": 0,
+    "issuedVotes": 243,
+    "remainingVotes": 145,
+    "eligibleVoters": 388,
+    "voterTurnout": 62.630001068115234
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主商里",
+    "candidateVotes": {
+      "coast": 151,
+      "savannah": 205,
+      "rainforest": 53
+    },
+    "validVotes": 409,
+    "invalidVotes": 9,
+    "totalVotes": 418,
+    "receivedUnvoted": 0,
+    "issuedVotes": 418,
+    "remainingVotes": 187,
+    "eligibleVoters": 605,
+    "voterTurnout": 69.08999633789062
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主勤里",
+    "candidateVotes": {
+      "coast": 215,
+      "savannah": 235,
+      "rainforest": 70
+    },
+    "validVotes": 520,
+    "invalidVotes": 7,
+    "totalVotes": 527,
+    "receivedUnvoted": 0,
+    "issuedVotes": 527,
+    "remainingVotes": 312,
+    "eligibleVoters": 839,
+    "voterTurnout": 62.810001373291016
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主工里",
+    "candidateVotes": {
+      "coast": 155,
+      "savannah": 169,
+      "rainforest": 51
+    },
+    "validVotes": 375,
+    "invalidVotes": 1,
+    "totalVotes": 376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 376,
+    "remainingVotes": 171,
+    "eligibleVoters": 547,
+    "voterTurnout": 68.73999786376953
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主信里",
+    "candidateVotes": {
+      "coast": 148,
+      "savannah": 187,
+      "rainforest": 44
+    },
+    "validVotes": 379,
+    "invalidVotes": 2,
+    "totalVotes": 381,
+    "receivedUnvoted": 0,
+    "issuedVotes": 381,
+    "remainingVotes": 169,
+    "eligibleVoters": 550,
+    "voterTurnout": 69.2699966430664
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主義里",
+    "candidateVotes": {
+      "coast": 119,
+      "savannah": 129,
+      "rainforest": 30
+    },
+    "validVotes": 278,
+    "invalidVotes": 4,
+    "totalVotes": 282,
+    "receivedUnvoted": 0,
+    "issuedVotes": 282,
+    "remainingVotes": 167,
+    "eligibleVoters": 449,
+    "voterTurnout": 62.810001373291016
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主睦里",
+    "candidateVotes": {
+      "coast": 143,
+      "savannah": 160,
+      "rainforest": 41
+    },
+    "validVotes": 344,
+    "invalidVotes": 2,
+    "totalVotes": 346,
+    "receivedUnvoted": 0,
+    "issuedVotes": 346,
+    "remainingVotes": 206,
+    "eligibleVoters": 552,
+    "voterTurnout": 62.68000030517578
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主計里",
+    "candidateVotes": {
+      "coast": 203,
+      "savannah": 196,
+      "rainforest": 59
+    },
+    "validVotes": 458,
+    "invalidVotes": 10,
+    "totalVotes": 468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 468,
+    "remainingVotes": 331,
+    "eligibleVoters": 799,
+    "voterTurnout": 58.56999969482422
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主和里",
+    "candidateVotes": {
+      "coast": 780,
+      "savannah": 825,
+      "rainforest": 231
+    },
+    "validVotes": 1836,
+    "invalidVotes": 23,
+    "totalVotes": 1859,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1859,
+    "remainingVotes": 1064,
+    "eligibleVoters": 2923,
+    "voterTurnout": 63.599998474121094
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主學里",
+    "candidateVotes": {
+      "coast": 478,
+      "savannah": 472,
+      "rainforest": 146
+    },
+    "validVotes": 1096,
+    "invalidVotes": 11,
+    "totalVotes": 1107,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1107,
+    "remainingVotes": 672,
+    "eligibleVoters": 1779,
+    "voterTurnout": 62.22999954223633
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主農里",
+    "candidateVotes": {
+      "coast": 967,
+      "savannah": 849,
+      "rainforest": 301
+    },
+    "validVotes": 2117,
+    "invalidVotes": 28,
+    "totalVotes": 2145,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2145,
+    "remainingVotes": 1249,
+    "eligibleVoters": 3394,
+    "voterTurnout": 63.20000076293945
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主安里",
+    "candidateVotes": {
+      "coast": 682,
+      "savannah": 582,
+      "rainforest": 211
+    },
+    "validVotes": 1475,
+    "invalidVotes": 17,
+    "totalVotes": 1492,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1492,
+    "remainingVotes": 885,
+    "eligibleVoters": 2377,
+    "voterTurnout": 62.77000045776367
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主權里",
+    "candidateVotes": {
+      "coast": 1434,
+      "savannah": 1270,
+      "rainforest": 474
+    },
+    "validVotes": 3178,
+    "invalidVotes": 34,
+    "totalVotes": 3212,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3212,
+    "remainingVotes": 1902,
+    "eligibleVoters": 5114,
+    "voterTurnout": 62.810001373291016
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "主力里",
+    "candidateVotes": {
+      "coast": 686,
+      "savannah": 717,
+      "rainforest": 223
+    },
+    "validVotes": 1626,
+    "invalidVotes": 29,
+    "totalVotes": 1655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1655,
+    "remainingVotes": 900,
+    "eligibleVoters": 2555,
+    "voterTurnout": 64.7699966430664
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國風里",
+    "candidateVotes": {
+      "coast": 883,
+      "savannah": 805,
+      "rainforest": 278
+    },
+    "validVotes": 1966,
+    "invalidVotes": 32,
+    "totalVotes": 1998,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1998,
+    "remainingVotes": 1147,
+    "eligibleVoters": 3145,
+    "voterTurnout": 63.529998779296875
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國威里",
+    "candidateVotes": {
+      "coast": 406,
+      "savannah": 429,
+      "rainforest": 121
+    },
+    "validVotes": 956,
+    "invalidVotes": 18,
+    "totalVotes": 974,
+    "receivedUnvoted": 0,
+    "issuedVotes": 974,
+    "remainingVotes": 872,
+    "eligibleVoters": 1846,
+    "voterTurnout": 52.7599983215332
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國治里",
+    "candidateVotes": {
+      "coast": 266,
+      "savannah": 229,
+      "rainforest": 66
+    },
+    "validVotes": 561,
+    "invalidVotes": 13,
+    "totalVotes": 574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 574,
+    "remainingVotes": 337,
+    "eligibleVoters": 911,
+    "voterTurnout": 63.0099983215332
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國安里",
+    "candidateVotes": {
+      "coast": 154,
+      "savannah": 156,
+      "rainforest": 41
+    },
+    "validVotes": 351,
+    "invalidVotes": 3,
+    "totalVotes": 354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 354,
+    "remainingVotes": 160,
+    "eligibleVoters": 514,
+    "voterTurnout": 68.87000274658203
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國光里",
+    "candidateVotes": {
+      "coast": 327,
+      "savannah": 279,
+      "rainforest": 86
+    },
+    "validVotes": 692,
+    "invalidVotes": 17,
+    "totalVotes": 709,
+    "receivedUnvoted": 0,
+    "issuedVotes": 709,
+    "remainingVotes": 453,
+    "eligibleVoters": 1162,
+    "voterTurnout": 61.02000045776367
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國防里",
+    "candidateVotes": {
+      "coast": 188,
+      "savannah": 198,
+      "rainforest": 70
+    },
+    "validVotes": 456,
+    "invalidVotes": 8,
+    "totalVotes": 464,
+    "receivedUnvoted": 0,
+    "issuedVotes": 464,
+    "remainingVotes": 368,
+    "eligibleVoters": 832,
+    "voterTurnout": 55.77000045776367
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國華里",
+    "candidateVotes": {
+      "coast": 640,
+      "savannah": 618,
+      "rainforest": 167
+    },
+    "validVotes": 1425,
+    "invalidVotes": 13,
+    "totalVotes": 1438,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1438,
+    "remainingVotes": 729,
+    "eligibleVoters": 2167,
+    "voterTurnout": 66.36000061035156
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國魂里",
+    "candidateVotes": {
+      "coast": 517,
+      "savannah": 547,
+      "rainforest": 162
+    },
+    "validVotes": 1226,
+    "invalidVotes": 21,
+    "totalVotes": 1247,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1247,
+    "remainingVotes": 721,
+    "eligibleVoters": 1968,
+    "voterTurnout": 63.36000061035156
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國聯里",
+    "candidateVotes": {
+      "coast": 683,
+      "savannah": 758,
+      "rainforest": 232
+    },
+    "validVotes": 1673,
+    "invalidVotes": 23,
+    "totalVotes": 1696,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1696,
+    "remainingVotes": 933,
+    "eligibleVoters": 2629,
+    "voterTurnout": 64.51000213623047
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國盛里",
+    "candidateVotes": {
+      "coast": 870,
+      "savannah": 792,
+      "rainforest": 352
+    },
+    "validVotes": 2014,
+    "invalidVotes": 25,
+    "totalVotes": 2039,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2039,
+    "remainingVotes": 1526,
+    "eligibleVoters": 3565,
+    "voterTurnout": 57.189998626708984
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國強里",
+    "candidateVotes": {
+      "coast": 441,
+      "savannah": 386,
+      "rainforest": 149
+    },
+    "validVotes": 976,
+    "invalidVotes": 14,
+    "totalVotes": 990,
+    "receivedUnvoted": 0,
+    "issuedVotes": 990,
+    "remainingVotes": 635,
+    "eligibleVoters": 1625,
+    "voterTurnout": 60.91999816894531
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國富里",
+    "candidateVotes": {
+      "coast": 1327,
+      "savannah": 1304,
+      "rainforest": 401
+    },
+    "validVotes": 3032,
+    "invalidVotes": 42,
+    "totalVotes": 3074,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3074,
+    "remainingVotes": 1953,
+    "eligibleVoters": 5027,
+    "voterTurnout": 61.150001525878906
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國裕里",
+    "candidateVotes": {
+      "coast": 1164,
+      "savannah": 953,
+      "rainforest": 360
+    },
+    "validVotes": 2477,
+    "invalidVotes": 33,
+    "totalVotes": 2510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2510,
+    "remainingVotes": 1525,
+    "eligibleVoters": 4035,
+    "voterTurnout": 62.209999084472656
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國慶里",
+    "candidateVotes": {
+      "coast": 224,
+      "savannah": 276,
+      "rainforest": 95
+    },
+    "validVotes": 595,
+    "invalidVotes": 9,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 360,
+    "eligibleVoters": 964,
+    "voterTurnout": 62.65999984741211
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國興里",
+    "candidateVotes": {
+      "coast": 1129,
+      "savannah": 818,
+      "rainforest": 337
+    },
+    "validVotes": 2284,
+    "invalidVotes": 44,
+    "totalVotes": 2328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2328,
+    "remainingVotes": 1411,
+    "eligibleVoters": 3739,
+    "voterTurnout": 62.2599983215332
+  },
+  {
+    "administrativeDivision": "花蓮市",
+    "village": "國福里",
+    "candidateVotes": {
+      "coast": 320,
+      "savannah": 300,
+      "rainforest": 156
+    },
+    "validVotes": 776,
+    "invalidVotes": 13,
+    "totalVotes": 789,
+    "receivedUnvoted": 0,
+    "issuedVotes": 789,
+    "remainingVotes": 625,
+    "eligibleVoters": 1414,
+    "voterTurnout": 55.79999923706055
+  }
+]

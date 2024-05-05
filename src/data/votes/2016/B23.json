@@ -1,0 +1,291 @@
+[
+  {
+    "administrativeDivision": "烏日區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 11211,
+      "savannah": 22315,
+      "rainforest": 6041
+    },
+    "validVotes": 39567,
+    "invalidVotes": 543,
+    "totalVotes": 40110,
+    "receivedUnvoted": 0,
+    "issuedVotes": 40110,
+    "remainingVotes": 16440,
+    "eligibleVoters": 56550,
+    "voterTurnout": 70.93000030517578
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "烏日里",
+    "candidateVotes": {
+      "coast": 1461,
+      "savannah": 3153,
+      "rainforest": 783
+    },
+    "validVotes": 5397,
+    "invalidVotes": 59,
+    "totalVotes": 5456,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5456,
+    "remainingVotes": 2272,
+    "eligibleVoters": 7728,
+    "voterTurnout": 70.5999984741211
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "湖日里",
+    "candidateVotes": {
+      "coast": 427,
+      "savannah": 1022,
+      "rainforest": 253
+    },
+    "validVotes": 1702,
+    "invalidVotes": 21,
+    "totalVotes": 1723,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1723,
+    "remainingVotes": 716,
+    "eligibleVoters": 2439,
+    "voterTurnout": 70.63999938964844
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "三和里",
+    "candidateVotes": {
+      "coast": 1015,
+      "savannah": 1285,
+      "rainforest": 409
+    },
+    "validVotes": 2709,
+    "invalidVotes": 46,
+    "totalVotes": 2755,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2755,
+    "remainingVotes": 1264,
+    "eligibleVoters": 4019,
+    "voterTurnout": 68.55000305175781
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "榮泉里",
+    "candidateVotes": {
+      "coast": 832,
+      "savannah": 1216,
+      "rainforest": 409
+    },
+    "validVotes": 2457,
+    "invalidVotes": 40,
+    "totalVotes": 2497,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2497,
+    "remainingVotes": 1253,
+    "eligibleVoters": 3750,
+    "voterTurnout": 66.58999633789062
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "學田里",
+    "candidateVotes": {
+      "coast": 485,
+      "savannah": 824,
+      "rainforest": 237
+    },
+    "validVotes": 1546,
+    "invalidVotes": 28,
+    "totalVotes": 1574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1574,
+    "remainingVotes": 716,
+    "eligibleVoters": 2290,
+    "voterTurnout": 68.7300033569336
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "九德里",
+    "candidateVotes": {
+      "coast": 2414,
+      "savannah": 4675,
+      "rainforest": 1248
+    },
+    "validVotes": 8337,
+    "invalidVotes": 90,
+    "totalVotes": 8427,
+    "receivedUnvoted": 0,
+    "issuedVotes": 8427,
+    "remainingVotes": 3576,
+    "eligibleVoters": 12003,
+    "voterTurnout": 70.20999908447266
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "仁德里",
+    "candidateVotes": {
+      "coast": 1464,
+      "savannah": 2547,
+      "rainforest": 702
+    },
+    "validVotes": 4713,
+    "invalidVotes": 61,
+    "totalVotes": 4774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4774,
+    "remainingVotes": 2054,
+    "eligibleVoters": 6828,
+    "voterTurnout": 69.91999816894531
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "前竹里",
+    "candidateVotes": {
+      "coast": 308,
+      "savannah": 1104,
+      "rainforest": 223
+    },
+    "validVotes": 1635,
+    "invalidVotes": 28,
+    "totalVotes": 1663,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1663,
+    "remainingVotes": 563,
+    "eligibleVoters": 2226,
+    "voterTurnout": 74.70999908447266
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "五光里",
+    "candidateVotes": {
+      "coast": 253,
+      "savannah": 646,
+      "rainforest": 210
+    },
+    "validVotes": 1109,
+    "invalidVotes": 16,
+    "totalVotes": 1125,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1125,
+    "remainingVotes": 446,
+    "eligibleVoters": 1571,
+    "voterTurnout": 71.61000061035156
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "光明里",
+    "candidateVotes": {
+      "coast": 364,
+      "savannah": 913,
+      "rainforest": 244
+    },
+    "validVotes": 1521,
+    "invalidVotes": 19,
+    "totalVotes": 1540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1540,
+    "remainingVotes": 568,
+    "eligibleVoters": 2108,
+    "voterTurnout": 73.05999755859375
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "東園里",
+    "candidateVotes": {
+      "coast": 333,
+      "savannah": 866,
+      "rainforest": 218
+    },
+    "validVotes": 1417,
+    "invalidVotes": 15,
+    "totalVotes": 1432,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1432,
+    "remainingVotes": 482,
+    "eligibleVoters": 1914,
+    "voterTurnout": 74.81999969482422
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "溪埧里",
+    "candidateVotes": {
+      "coast": 835,
+      "savannah": 1725,
+      "rainforest": 490
+    },
+    "validVotes": 3050,
+    "invalidVotes": 45,
+    "totalVotes": 3095,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3095,
+    "remainingVotes": 1079,
+    "eligibleVoters": 4174,
+    "voterTurnout": 74.1500015258789
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "螺潭里",
+    "candidateVotes": {
+      "coast": 378,
+      "savannah": 795,
+      "rainforest": 207
+    },
+    "validVotes": 1380,
+    "invalidVotes": 21,
+    "totalVotes": 1401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1401,
+    "remainingVotes": 508,
+    "eligibleVoters": 1909,
+    "voterTurnout": 73.38999938964844
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "北里里",
+    "candidateVotes": {
+      "coast": 268,
+      "savannah": 720,
+      "rainforest": 154
+    },
+    "validVotes": 1142,
+    "invalidVotes": 23,
+    "totalVotes": 1165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1165,
+    "remainingVotes": 387,
+    "eligibleVoters": 1552,
+    "voterTurnout": 75.05999755859375
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "南里里",
+    "candidateVotes": {
+      "coast": 250,
+      "savannah": 532,
+      "rainforest": 147
+    },
+    "validVotes": 929,
+    "invalidVotes": 20,
+    "totalVotes": 949,
+    "receivedUnvoted": 0,
+    "issuedVotes": 949,
+    "remainingVotes": 285,
+    "eligibleVoters": 1234,
+    "voterTurnout": 76.9000015258789
+  },
+  {
+    "administrativeDivision": "烏日區",
+    "village": "溪尾里",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 292,
+      "rainforest": 107
+    },
+    "validVotes": 523,
+    "invalidVotes": 11,
+    "totalVotes": 534,
+    "receivedUnvoted": 0,
+    "issuedVotes": 534,
+    "remainingVotes": 271,
+    "eligibleVoters": 805,
+    "voterTurnout": 66.33999633789062
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1493,
+      "coast": 2135,
+      "rainforest": 117
+    },
+    "validVotes": 3745,
+    "invalidVotes": 51,
+    "totalVotes": 3796,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3796,
+    "remainingVotes": 1181,
+    "eligibleVoters": 4977,
+    "voterTurnout": 76.2699966430664
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "峨眉村",
+    "candidateVotes": {
+      "savannah": 202,
+      "coast": 443,
+      "rainforest": 22
+    },
+    "validVotes": 667,
+    "invalidVotes": 13,
+    "totalVotes": 680,
+    "receivedUnvoted": 0,
+    "issuedVotes": 680,
+    "remainingVotes": 189,
+    "eligibleVoters": 869,
+    "voterTurnout": 78.25
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "中盛村",
+    "candidateVotes": {
+      "savannah": 236,
+      "coast": 277,
+      "rainforest": 22
+    },
+    "validVotes": 535,
+    "invalidVotes": 4,
+    "totalVotes": 539,
+    "receivedUnvoted": 0,
+    "issuedVotes": 539,
+    "remainingVotes": 158,
+    "eligibleVoters": 697,
+    "voterTurnout": 77.33000183105469
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "石井村",
+    "candidateVotes": {
+      "savannah": 182,
+      "coast": 259,
+      "rainforest": 19
+    },
+    "validVotes": 460,
+    "invalidVotes": 3,
+    "totalVotes": 463,
+    "receivedUnvoted": 0,
+    "issuedVotes": 463,
+    "remainingVotes": 176,
+    "eligibleVoters": 639,
+    "voterTurnout": 72.45999908447266
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "七星村",
+    "candidateVotes": {
+      "savannah": 217,
+      "coast": 235,
+      "rainforest": 12
+    },
+    "validVotes": 464,
+    "invalidVotes": 12,
+    "totalVotes": 476,
+    "receivedUnvoted": 0,
+    "issuedVotes": 476,
+    "remainingVotes": 151,
+    "eligibleVoters": 627,
+    "voterTurnout": 75.91999816894531
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "富興村",
+    "candidateVotes": {
+      "savannah": 330,
+      "coast": 594,
+      "rainforest": 28
+    },
+    "validVotes": 952,
+    "invalidVotes": 12,
+    "totalVotes": 964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 964,
+    "remainingVotes": 298,
+    "eligibleVoters": 1262,
+    "voterTurnout": 76.38999938964844
+  },
+  {
+    "administrativeDivision": "峨眉鄉",
+    "village": "湖光村",
+    "candidateVotes": {
+      "savannah": 326,
+      "coast": 327,
+      "rainforest": 14
+    },
+    "validVotes": 667,
+    "invalidVotes": 7,
+    "totalVotes": 674,
+    "receivedUnvoted": 0,
+    "issuedVotes": 674,
+    "remainingVotes": 209,
+    "eligibleVoters": 883,
+    "voterTurnout": 76.33000183105469
+  }
+]

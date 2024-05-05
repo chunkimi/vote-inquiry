@@ -1,0 +1,495 @@
+[
+  {
+    "administrativeDivision": "三峽區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 25257,
+      "coast": 29844,
+      "rainforest": 1706
+    },
+    "validVotes": 56807,
+    "invalidVotes": 430,
+    "totalVotes": 57237,
+    "receivedUnvoted": 2,
+    "issuedVotes": 57239,
+    "remainingVotes": 21342,
+    "eligibleVoters": 78581,
+    "voterTurnout": 72.83999633789062
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "三峽里",
+    "candidateVotes": {
+      "savannah": 105,
+      "coast": 105,
+      "rainforest": 8
+    },
+    "validVotes": 218,
+    "invalidVotes": 1,
+    "totalVotes": 219,
+    "receivedUnvoted": 0,
+    "issuedVotes": 219,
+    "remainingVotes": 58,
+    "eligibleVoters": 277,
+    "voterTurnout": 79.05999755859375
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "秀川里",
+    "candidateVotes": {
+      "savannah": 153,
+      "coast": 200,
+      "rainforest": 14
+    },
+    "validVotes": 367,
+    "invalidVotes": 0,
+    "totalVotes": 367,
+    "receivedUnvoted": 0,
+    "issuedVotes": 367,
+    "remainingVotes": 115,
+    "eligibleVoters": 482,
+    "voterTurnout": 76.13999938964844
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "八張里",
+    "candidateVotes": {
+      "savannah": 1038,
+      "coast": 1055,
+      "rainforest": 68
+    },
+    "validVotes": 2161,
+    "invalidVotes": 8,
+    "totalVotes": 2169,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2169,
+    "remainingVotes": 772,
+    "eligibleVoters": 2941,
+    "voterTurnout": 73.75
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "中埔里",
+    "candidateVotes": {
+      "savannah": 559,
+      "coast": 672,
+      "rainforest": 43
+    },
+    "validVotes": 1274,
+    "invalidVotes": 9,
+    "totalVotes": 1283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1283,
+    "remainingVotes": 495,
+    "eligibleVoters": 1778,
+    "voterTurnout": 72.16000366210938
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "弘道里",
+    "candidateVotes": {
+      "savannah": 432,
+      "coast": 292,
+      "rainforest": 17
+    },
+    "validVotes": 741,
+    "invalidVotes": 8,
+    "totalVotes": 749,
+    "receivedUnvoted": 0,
+    "issuedVotes": 749,
+    "remainingVotes": 294,
+    "eligibleVoters": 1043,
+    "voterTurnout": 71.80999755859375
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "永里",
+    "candidateVotes": {
+      "savannah": 2010,
+      "coast": 2267,
+      "rainforest": 111
+    },
+    "validVotes": 4388,
+    "invalidVotes": 22,
+    "totalVotes": 4410,
+    "receivedUnvoted": 1,
+    "issuedVotes": 4411,
+    "remainingVotes": 1462,
+    "eligibleVoters": 5873,
+    "voterTurnout": 75.08999633789062
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "鳶山里",
+    "candidateVotes": {
+      "savannah": 2338,
+      "coast": 2689,
+      "rainforest": 172
+    },
+    "validVotes": 5199,
+    "invalidVotes": 34,
+    "totalVotes": 5233,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5233,
+    "remainingVotes": 2137,
+    "eligibleVoters": 7370,
+    "voterTurnout": 71
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "龍埔里",
+    "candidateVotes": {
+      "savannah": 2071,
+      "coast": 2375,
+      "rainforest": 158
+    },
+    "validVotes": 4604,
+    "invalidVotes": 48,
+    "totalVotes": 4652,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4652,
+    "remainingVotes": 1650,
+    "eligibleVoters": 6302,
+    "voterTurnout": 73.81999969482422
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "龍恩里",
+    "candidateVotes": {
+      "savannah": 882,
+      "coast": 1779,
+      "rainforest": 90
+    },
+    "validVotes": 2751,
+    "invalidVotes": 17,
+    "totalVotes": 2768,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2768,
+    "remainingVotes": 1004,
+    "eligibleVoters": 3772,
+    "voterTurnout": 73.37999725341797
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "龍學里",
+    "candidateVotes": {
+      "savannah": 1899,
+      "coast": 3629,
+      "rainforest": 184
+    },
+    "validVotes": 5712,
+    "invalidVotes": 26,
+    "totalVotes": 5738,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5738,
+    "remainingVotes": 1926,
+    "eligibleVoters": 7664,
+    "voterTurnout": 74.87000274658203
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "礁溪里",
+    "candidateVotes": {
+      "savannah": 1378,
+      "coast": 1631,
+      "rainforest": 86
+    },
+    "validVotes": 3095,
+    "invalidVotes": 25,
+    "totalVotes": 3120,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3120,
+    "remainingVotes": 1122,
+    "eligibleVoters": 4242,
+    "voterTurnout": 73.55000305175781
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "安溪里",
+    "candidateVotes": {
+      "savannah": 1694,
+      "coast": 2281,
+      "rainforest": 123
+    },
+    "validVotes": 4098,
+    "invalidVotes": 27,
+    "totalVotes": 4125,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4125,
+    "remainingVotes": 1586,
+    "eligibleVoters": 5711,
+    "voterTurnout": 72.2300033569336
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "介壽里",
+    "candidateVotes": {
+      "savannah": 1607,
+      "coast": 1661,
+      "rainforest": 112
+    },
+    "validVotes": 3380,
+    "invalidVotes": 20,
+    "totalVotes": 3400,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3401,
+    "remainingVotes": 1684,
+    "eligibleVoters": 5085,
+    "voterTurnout": 66.86000061035156
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "中正里",
+    "candidateVotes": {
+      "savannah": 1371,
+      "coast": 1501,
+      "rainforest": 87
+    },
+    "validVotes": 2959,
+    "invalidVotes": 26,
+    "totalVotes": 2985,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2985,
+    "remainingVotes": 1065,
+    "eligibleVoters": 4050,
+    "voterTurnout": 73.69999694824219
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "大埔里",
+    "candidateVotes": {
+      "savannah": 1083,
+      "coast": 1381,
+      "rainforest": 89
+    },
+    "validVotes": 2553,
+    "invalidVotes": 20,
+    "totalVotes": 2573,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2573,
+    "remainingVotes": 919,
+    "eligibleVoters": 3492,
+    "voterTurnout": 73.68000030517578
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "嘉添里",
+    "candidateVotes": {
+      "savannah": 590,
+      "coast": 984,
+      "rainforest": 55
+    },
+    "validVotes": 1629,
+    "invalidVotes": 38,
+    "totalVotes": 1667,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1667,
+    "remainingVotes": 670,
+    "eligibleVoters": 2337,
+    "voterTurnout": 71.33000183105469
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "添福里",
+    "candidateVotes": {
+      "savannah": 415,
+      "coast": 319,
+      "rainforest": 18
+    },
+    "validVotes": 752,
+    "invalidVotes": 11,
+    "totalVotes": 763,
+    "receivedUnvoted": 0,
+    "issuedVotes": 763,
+    "remainingVotes": 253,
+    "eligibleVoters": 1016,
+    "voterTurnout": 75.0999984741211
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "金圳里",
+    "candidateVotes": {
+      "savannah": 161,
+      "coast": 159,
+      "rainforest": 3
+    },
+    "validVotes": 323,
+    "invalidVotes": 1,
+    "totalVotes": 324,
+    "receivedUnvoted": 0,
+    "issuedVotes": 324,
+    "remainingVotes": 161,
+    "eligibleVoters": 485,
+    "voterTurnout": 66.80000305175781
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "五寮里",
+    "candidateVotes": {
+      "savannah": 302,
+      "coast": 254,
+      "rainforest": 12
+    },
+    "validVotes": 568,
+    "invalidVotes": 8,
+    "totalVotes": 576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 576,
+    "remainingVotes": 234,
+    "eligibleVoters": 810,
+    "voterTurnout": 71.11000061035156
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "插角里",
+    "candidateVotes": {
+      "savannah": 322,
+      "coast": 208,
+      "rainforest": 5
+    },
+    "validVotes": 535,
+    "invalidVotes": 4,
+    "totalVotes": 539,
+    "receivedUnvoted": 0,
+    "issuedVotes": 539,
+    "remainingVotes": 213,
+    "eligibleVoters": 752,
+    "voterTurnout": 71.68000030517578
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "有木里",
+    "candidateVotes": {
+      "savannah": 312,
+      "coast": 173,
+      "rainforest": 14
+    },
+    "validVotes": 499,
+    "invalidVotes": 3,
+    "totalVotes": 502,
+    "receivedUnvoted": 0,
+    "issuedVotes": 502,
+    "remainingVotes": 240,
+    "eligibleVoters": 742,
+    "voterTurnout": 67.6500015258789
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "二鬮里",
+    "candidateVotes": {
+      "savannah": 699,
+      "coast": 1135,
+      "rainforest": 58
+    },
+    "validVotes": 1892,
+    "invalidVotes": 24,
+    "totalVotes": 1916,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1916,
+    "remainingVotes": 755,
+    "eligibleVoters": 2671,
+    "voterTurnout": 71.7300033569336
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "溪南里",
+    "candidateVotes": {
+      "savannah": 537,
+      "coast": 410,
+      "rainforest": 20
+    },
+    "validVotes": 967,
+    "invalidVotes": 4,
+    "totalVotes": 971,
+    "receivedUnvoted": 0,
+    "issuedVotes": 971,
+    "remainingVotes": 326,
+    "eligibleVoters": 1297,
+    "voterTurnout": 74.87000274658203
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "溪北里",
+    "candidateVotes": {
+      "savannah": 779,
+      "coast": 609,
+      "rainforest": 41
+    },
+    "validVotes": 1429,
+    "invalidVotes": 10,
+    "totalVotes": 1439,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1439,
+    "remainingVotes": 437,
+    "eligibleVoters": 1876,
+    "voterTurnout": 76.70999908447266
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "溪東里",
+    "candidateVotes": {
+      "savannah": 836,
+      "coast": 940,
+      "rainforest": 52
+    },
+    "validVotes": 1828,
+    "invalidVotes": 12,
+    "totalVotes": 1840,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1840,
+    "remainingVotes": 692,
+    "eligibleVoters": 2532,
+    "voterTurnout": 72.66999816894531
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "成福里",
+    "candidateVotes": {
+      "savannah": 362,
+      "coast": 264,
+      "rainforest": 13
+    },
+    "validVotes": 639,
+    "invalidVotes": 6,
+    "totalVotes": 645,
+    "receivedUnvoted": 0,
+    "issuedVotes": 645,
+    "remainingVotes": 206,
+    "eligibleVoters": 851,
+    "voterTurnout": 75.79000091552734
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "竹崙里",
+    "candidateVotes": {
+      "savannah": 752,
+      "coast": 512,
+      "rainforest": 34
+    },
+    "validVotes": 1298,
+    "invalidVotes": 7,
+    "totalVotes": 1305,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1305,
+    "remainingVotes": 510,
+    "eligibleVoters": 1815,
+    "voterTurnout": 71.9000015258789
+  },
+  {
+    "administrativeDivision": "三峽區",
+    "village": "安坑里",
+    "candidateVotes": {
+      "savannah": 570,
+      "coast": 359,
+      "rainforest": 19
+    },
+    "validVotes": 948,
+    "invalidVotes": 11,
+    "totalVotes": 959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 959,
+    "remainingVotes": 356,
+    "eligibleVoters": 1315,
+    "voterTurnout": 72.93000030517578
+  }
+]

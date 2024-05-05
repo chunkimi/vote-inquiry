@@ -1,0 +1,478 @@
+[
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 16216,
+      "coast": 9289,
+      "rainforest": 534
+    },
+    "validVotes": 26039,
+    "invalidVotes": 274,
+    "totalVotes": 26313,
+    "receivedUnvoted": 0,
+    "issuedVotes": 26313,
+    "remainingVotes": 10551,
+    "eligibleVoters": 36864,
+    "voterTurnout": 71.37999725341797
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "振興里",
+    "candidateVotes": {
+      "savannah": 751,
+      "coast": 318,
+      "rainforest": 21
+    },
+    "validVotes": 1090,
+    "invalidVotes": 16,
+    "totalVotes": 1106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1106,
+    "remainingVotes": 466,
+    "eligibleVoters": 1572,
+    "voterTurnout": 70.36000061035156
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "大園里",
+    "candidateVotes": {
+      "savannah": 679,
+      "coast": 437,
+      "rainforest": 28
+    },
+    "validVotes": 1144,
+    "invalidVotes": 13,
+    "totalVotes": 1157,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1157,
+    "remainingVotes": 456,
+    "eligibleVoters": 1613,
+    "voterTurnout": 71.7300033569336
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "廣福里",
+    "candidateVotes": {
+      "savannah": 683,
+      "coast": 605,
+      "rainforest": 33
+    },
+    "validVotes": 1321,
+    "invalidVotes": 5,
+    "totalVotes": 1326,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1326,
+    "remainingVotes": 508,
+    "eligibleVoters": 1834,
+    "voterTurnout": 72.30000305175781
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "正興里",
+    "candidateVotes": {
+      "savannah": 1044,
+      "coast": 971,
+      "rainforest": 64
+    },
+    "validVotes": 2079,
+    "invalidVotes": 15,
+    "totalVotes": 2094,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2094,
+    "remainingVotes": 789,
+    "eligibleVoters": 2883,
+    "voterTurnout": 72.62999725341797
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "永安里",
+    "candidateVotes": {
+      "savannah": 150,
+      "coast": 123,
+      "rainforest": 5
+    },
+    "validVotes": 278,
+    "invalidVotes": 2,
+    "totalVotes": 280,
+    "receivedUnvoted": 0,
+    "issuedVotes": 280,
+    "remainingVotes": 107,
+    "eligibleVoters": 387,
+    "voterTurnout": 72.3499984741211
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "中和里",
+    "candidateVotes": {
+      "savannah": 238,
+      "coast": 189,
+      "rainforest": 10
+    },
+    "validVotes": 437,
+    "invalidVotes": 3,
+    "totalVotes": 440,
+    "receivedUnvoted": 0,
+    "issuedVotes": 440,
+    "remainingVotes": 159,
+    "eligibleVoters": 599,
+    "voterTurnout": 73.45999908447266
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "福興里",
+    "candidateVotes": {
+      "savannah": 222,
+      "coast": 183,
+      "rainforest": 10
+    },
+    "validVotes": 415,
+    "invalidVotes": 1,
+    "totalVotes": 416,
+    "receivedUnvoted": 0,
+    "issuedVotes": 416,
+    "remainingVotes": 165,
+    "eligibleVoters": 581,
+    "voterTurnout": 71.5999984741211
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "光華里",
+    "candidateVotes": {
+      "savannah": 413,
+      "coast": 330,
+      "rainforest": 15
+    },
+    "validVotes": 758,
+    "invalidVotes": 5,
+    "totalVotes": 763,
+    "receivedUnvoted": 0,
+    "issuedVotes": 763,
+    "remainingVotes": 286,
+    "eligibleVoters": 1049,
+    "voterTurnout": 72.73999786376953
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "中興里",
+    "candidateVotes": {
+      "savannah": 1009,
+      "coast": 749,
+      "rainforest": 33
+    },
+    "validVotes": 1791,
+    "invalidVotes": 13,
+    "totalVotes": 1804,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1804,
+    "remainingVotes": 710,
+    "eligibleVoters": 2514,
+    "voterTurnout": 71.76000213623047
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "漢光里",
+    "candidateVotes": {
+      "savannah": 1573,
+      "coast": 1101,
+      "rainforest": 62
+    },
+    "validVotes": 2736,
+    "invalidVotes": 20,
+    "totalVotes": 2756,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2756,
+    "remainingVotes": 1105,
+    "eligibleVoters": 3861,
+    "voterTurnout": 71.37999725341797
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "新安里",
+    "candidateVotes": {
+      "savannah": 706,
+      "coast": 232,
+      "rainforest": 13
+    },
+    "validVotes": 951,
+    "invalidVotes": 5,
+    "totalVotes": 956,
+    "receivedUnvoted": 0,
+    "issuedVotes": 956,
+    "remainingVotes": 339,
+    "eligibleVoters": 1295,
+    "voterTurnout": 73.81999969482422
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "新豐里",
+    "candidateVotes": {
+      "savannah": 741,
+      "coast": 289,
+      "rainforest": 21
+    },
+    "validVotes": 1051,
+    "invalidVotes": 11,
+    "totalVotes": 1062,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1062,
+    "remainingVotes": 429,
+    "eligibleVoters": 1491,
+    "voterTurnout": 71.2300033569336
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "大新里",
+    "candidateVotes": {
+      "savannah": 732,
+      "coast": 417,
+      "rainforest": 22
+    },
+    "validVotes": 1171,
+    "invalidVotes": 10,
+    "totalVotes": 1181,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1181,
+    "remainingVotes": 512,
+    "eligibleVoters": 1693,
+    "voterTurnout": 69.76000213623047
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "埤頭里",
+    "candidateVotes": {
+      "savannah": 463,
+      "coast": 152,
+      "rainforest": 15
+    },
+    "validVotes": 630,
+    "invalidVotes": 15,
+    "totalVotes": 645,
+    "receivedUnvoted": 0,
+    "issuedVotes": 645,
+    "remainingVotes": 218,
+    "eligibleVoters": 863,
+    "voterTurnout": 74.73999786376953
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "東興里",
+    "candidateVotes": {
+      "savannah": 543,
+      "coast": 158,
+      "rainforest": 11
+    },
+    "validVotes": 712,
+    "invalidVotes": 12,
+    "totalVotes": 724,
+    "receivedUnvoted": 0,
+    "issuedVotes": 724,
+    "remainingVotes": 294,
+    "eligibleVoters": 1018,
+    "voterTurnout": 71.12000274658203
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "鹿場里",
+    "candidateVotes": {
+      "savannah": 726,
+      "coast": 285,
+      "rainforest": 16
+    },
+    "validVotes": 1027,
+    "invalidVotes": 17,
+    "totalVotes": 1044,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1044,
+    "remainingVotes": 440,
+    "eligibleVoters": 1484,
+    "voterTurnout": 70.3499984741211
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "廣興里",
+    "candidateVotes": {
+      "savannah": 302,
+      "coast": 283,
+      "rainforest": 12
+    },
+    "validVotes": 597,
+    "invalidVotes": 6,
+    "totalVotes": 603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 603,
+    "remainingVotes": 223,
+    "eligibleVoters": 826,
+    "voterTurnout": 73
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "頂湳里",
+    "candidateVotes": {
+      "savannah": 481,
+      "coast": 229,
+      "rainforest": 15
+    },
+    "validVotes": 725,
+    "invalidVotes": 11,
+    "totalVotes": 736,
+    "receivedUnvoted": 0,
+    "issuedVotes": 736,
+    "remainingVotes": 248,
+    "eligibleVoters": 984,
+    "voterTurnout": 74.80000305175781
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "吳厝里",
+    "candidateVotes": {
+      "savannah": 611,
+      "coast": 270,
+      "rainforest": 20
+    },
+    "validVotes": 901,
+    "invalidVotes": 10,
+    "totalVotes": 911,
+    "receivedUnvoted": 0,
+    "issuedVotes": 911,
+    "remainingVotes": 413,
+    "eligibleVoters": 1324,
+    "voterTurnout": 68.80999755859375
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "九隆里",
+    "candidateVotes": {
+      "savannah": 363,
+      "coast": 166,
+      "rainforest": 6
+    },
+    "validVotes": 535,
+    "invalidVotes": 1,
+    "totalVotes": 536,
+    "receivedUnvoted": 0,
+    "issuedVotes": 536,
+    "remainingVotes": 208,
+    "eligibleVoters": 744,
+    "voterTurnout": 72.04000091552734
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "下湳里",
+    "candidateVotes": {
+      "savannah": 226,
+      "coast": 323,
+      "rainforest": 12
+    },
+    "validVotes": 561,
+    "invalidVotes": 7,
+    "totalVotes": 568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 568,
+    "remainingVotes": 258,
+    "eligibleVoters": 826,
+    "voterTurnout": 68.7699966430664
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "七座里",
+    "candidateVotes": {
+      "savannah": 443,
+      "coast": 177,
+      "rainforest": 12
+    },
+    "validVotes": 632,
+    "invalidVotes": 10,
+    "totalVotes": 642,
+    "receivedUnvoted": 0,
+    "issuedVotes": 642,
+    "remainingVotes": 261,
+    "eligibleVoters": 903,
+    "voterTurnout": 71.0999984741211
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "公里",
+    "candidateVotes": {
+      "savannah": 645,
+      "coast": 285,
+      "rainforest": 19
+    },
+    "validVotes": 949,
+    "invalidVotes": 9,
+    "totalVotes": 958,
+    "receivedUnvoted": 0,
+    "issuedVotes": 958,
+    "remainingVotes": 401,
+    "eligibleVoters": 1359,
+    "voterTurnout": 70.48999786376953
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "詔安里",
+    "candidateVotes": {
+      "savannah": 404,
+      "coast": 236,
+      "rainforest": 8
+    },
+    "validVotes": 648,
+    "invalidVotes": 12,
+    "totalVotes": 660,
+    "receivedUnvoted": 0,
+    "issuedVotes": 660,
+    "remainingVotes": 296,
+    "eligibleVoters": 956,
+    "voterTurnout": 69.04000091552734
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "河南里",
+    "candidateVotes": {
+      "savannah": 422,
+      "coast": 225,
+      "rainforest": 15
+    },
+    "validVotes": 662,
+    "invalidVotes": 9,
+    "totalVotes": 671,
+    "receivedUnvoted": 0,
+    "issuedVotes": 671,
+    "remainingVotes": 279,
+    "eligibleVoters": 950,
+    "voterTurnout": 70.62999725341797
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "安定里",
+    "candidateVotes": {
+      "savannah": 904,
+      "coast": 256,
+      "rainforest": 13
+    },
+    "validVotes": 1173,
+    "invalidVotes": 18,
+    "totalVotes": 1191,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1191,
+    "remainingVotes": 599,
+    "eligibleVoters": 1790,
+    "voterTurnout": 66.54000091552734
+  },
+  {
+    "administrativeDivision": "西螺鎮",
+    "village": "福田里",
+    "candidateVotes": {
+      "savannah": 742,
+      "coast": 300,
+      "rainforest": 23
+    },
+    "validVotes": 1065,
+    "invalidVotes": 18,
+    "totalVotes": 1083,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1083,
+    "remainingVotes": 382,
+    "eligibleVoters": 1465,
+    "voterTurnout": 73.91999816894531
+  }
+]

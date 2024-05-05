@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2630,
+      "coast": 22354,
+      "savannah": 19949
+    },
+    "validVotes": 44933,
+    "invalidVotes": 529,
+    "totalVotes": 45462,
+    "receivedUnvoted": 0,
+    "issuedVotes": 45462,
+    "remainingVotes": 16603,
+    "eligibleVoters": 62065,
+    "voterTurnout": 73.249
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "和興村",
+    "candidateVotes": {
+      "rainforest": 84,
+      "coast": 930,
+      "savannah": 1027
+    },
+    "validVotes": 2041,
+    "invalidVotes": 18,
+    "totalVotes": 2059,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2059,
+    "remainingVotes": 721,
+    "eligibleVoters": 2780,
+    "voterTurnout": 74.0647
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "東興村",
+    "candidateVotes": {
+      "rainforest": 180,
+      "coast": 1328,
+      "savannah": 1390
+    },
+    "validVotes": 2898,
+    "invalidVotes": 26,
+    "totalVotes": 2924,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2924,
+    "remainingVotes": 1077,
+    "eligibleVoters": 4001,
+    "voterTurnout": 73.0817
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "德盛村",
+    "candidateVotes": {
+      "rainforest": 183,
+      "coast": 1554,
+      "savannah": 1519
+    },
+    "validVotes": 3256,
+    "invalidVotes": 45,
+    "totalVotes": 3301,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3301,
+    "remainingVotes": 1311,
+    "eligibleVoters": 4612,
+    "voterTurnout": 71.5742
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "愛勢村",
+    "candidateVotes": {
+      "rainforest": 158,
+      "coast": 1428,
+      "savannah": 1330
+    },
+    "validVotes": 2916,
+    "invalidVotes": 37,
+    "totalVotes": 2953,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2953,
+    "remainingVotes": 866,
+    "eligibleVoters": 3819,
+    "voterTurnout": 77.3239
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "仁勢村",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 299,
+      "savannah": 298
+    },
+    "validVotes": 635,
+    "invalidVotes": 7,
+    "totalVotes": 642,
+    "receivedUnvoted": 0,
+    "issuedVotes": 642,
+    "remainingVotes": 197,
+    "eligibleVoters": 839,
+    "voterTurnout": 76.5197
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "孝勢村",
+    "candidateVotes": {
+      "rainforest": 45,
+      "coast": 497,
+      "savannah": 405
+    },
+    "validVotes": 947,
+    "invalidVotes": 12,
+    "totalVotes": 959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 959,
+    "remainingVotes": 258,
+    "eligibleVoters": 1217,
+    "voterTurnout": 78.8003
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "中勢村",
+    "candidateVotes": {
+      "rainforest": 148,
+      "coast": 1018,
+      "savannah": 1058
+    },
+    "validVotes": 2224,
+    "invalidVotes": 26,
+    "totalVotes": 2250,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2250,
+    "remainingVotes": 671,
+    "eligibleVoters": 2921,
+    "voterTurnout": 77.0284
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "中正村",
+    "candidateVotes": {
+      "rainforest": 126,
+      "coast": 1073,
+      "savannah": 1080
+    },
+    "validVotes": 2279,
+    "invalidVotes": 21,
+    "totalVotes": 2300,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2300,
+    "remainingVotes": 656,
+    "eligibleVoters": 2956,
+    "voterTurnout": 77.8078
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "信勢村",
+    "candidateVotes": {
+      "rainforest": 232,
+      "coast": 1658,
+      "savannah": 1652
+    },
+    "validVotes": 3542,
+    "invalidVotes": 34,
+    "totalVotes": 3576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3576,
+    "remainingVotes": 1470,
+    "eligibleVoters": 5046,
+    "voterTurnout": 70.868
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "信義村",
+    "candidateVotes": {
+      "rainforest": 154,
+      "coast": 1213,
+      "savannah": 1108
+    },
+    "validVotes": 2475,
+    "invalidVotes": 30,
+    "totalVotes": 2505,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2505,
+    "remainingVotes": 810,
+    "eligibleVoters": 3315,
+    "voterTurnout": 75.5656
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "波羅村",
+    "candidateVotes": {
+      "rainforest": 90,
+      "coast": 668,
+      "savannah": 749
+    },
+    "validVotes": 1507,
+    "invalidVotes": 26,
+    "totalVotes": 1533,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1533,
+    "remainingVotes": 605,
+    "eligibleVoters": 2138,
+    "voterTurnout": 71.7025
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "長嶺村",
+    "candidateVotes": {
+      "rainforest": 131,
+      "coast": 1090,
+      "savannah": 966
+    },
+    "validVotes": 2187,
+    "invalidVotes": 22,
+    "totalVotes": 2209,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2209,
+    "remainingVotes": 854,
+    "eligibleVoters": 3063,
+    "voterTurnout": 72.1188
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "長安村",
+    "candidateVotes": {
+      "rainforest": 43,
+      "coast": 333,
+      "savannah": 414
+    },
+    "validVotes": 790,
+    "invalidVotes": 13,
+    "totalVotes": 803,
+    "receivedUnvoted": 0,
+    "issuedVotes": 803,
+    "remainingVotes": 257,
+    "eligibleVoters": 1060,
+    "voterTurnout": 75.7547
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "湖口村",
+    "candidateVotes": {
+      "rainforest": 116,
+      "coast": 1006,
+      "savannah": 902
+    },
+    "validVotes": 2024,
+    "invalidVotes": 28,
+    "totalVotes": 2052,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2052,
+    "remainingVotes": 643,
+    "eligibleVoters": 2695,
+    "voterTurnout": 76.141
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "湖鏡村",
+    "candidateVotes": {
+      "rainforest": 85,
+      "coast": 978,
+      "savannah": 659
+    },
+    "validVotes": 1722,
+    "invalidVotes": 18,
+    "totalVotes": 1740,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1740,
+    "remainingVotes": 537,
+    "eligibleVoters": 2277,
+    "voterTurnout": 76.4163
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "湖南村",
+    "candidateVotes": {
+      "rainforest": 64,
+      "coast": 606,
+      "savannah": 426
+    },
+    "validVotes": 1096,
+    "invalidVotes": 10,
+    "totalVotes": 1106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1106,
+    "remainingVotes": 369,
+    "eligibleVoters": 1475,
+    "voterTurnout": 74.9831
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "中興村",
+    "candidateVotes": {
+      "rainforest": 263,
+      "coast": 2248,
+      "savannah": 1522
+    },
+    "validVotes": 4033,
+    "invalidVotes": 51,
+    "totalVotes": 4084,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4084,
+    "remainingVotes": 1744,
+    "eligibleVoters": 5828,
+    "voterTurnout": 70.0755
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "鳳凰村",
+    "candidateVotes": {
+      "rainforest": 189,
+      "coast": 1651,
+      "savannah": 1533
+    },
+    "validVotes": 3373,
+    "invalidVotes": 55,
+    "totalVotes": 3428,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3428,
+    "remainingVotes": 1507,
+    "eligibleVoters": 4935,
+    "voterTurnout": 69.463
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "勝利村",
+    "candidateVotes": {
+      "rainforest": 161,
+      "coast": 1528,
+      "savannah": 1070
+    },
+    "validVotes": 2759,
+    "invalidVotes": 28,
+    "totalVotes": 2787,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2787,
+    "remainingVotes": 1188,
+    "eligibleVoters": 3975,
+    "voterTurnout": 70.1132
+  },
+  {
+    "administrativeDivision": "湖口鄉",
+    "village": "鳳山村",
+    "candidateVotes": {
+      "rainforest": 140,
+      "coast": 1248,
+      "savannah": 841
+    },
+    "validVotes": 2229,
+    "invalidVotes": 22,
+    "totalVotes": 2251,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2251,
+    "remainingVotes": 862,
+    "eligibleVoters": 3113,
+    "voterTurnout": 72.3097
+  }
+]

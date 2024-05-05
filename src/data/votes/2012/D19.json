@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "大內區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 4304,
+      "coast": 2042,
+      "rainforest": 157
+    },
+    "validVotes": 6503,
+    "invalidVotes": 49,
+    "totalVotes": 6552,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6552,
+    "remainingVotes": 2410,
+    "eligibleVoters": 8962,
+    "voterTurnout": 73.11000061035156
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石湖里",
+    "candidateVotes": {
+      "savannah": 511,
+      "coast": 220,
+      "rainforest": 17
+    },
+    "validVotes": 748,
+    "invalidVotes": 4,
+    "totalVotes": 752,
+    "receivedUnvoted": 0,
+    "issuedVotes": 752,
+    "remainingVotes": 281,
+    "eligibleVoters": 1033,
+    "voterTurnout": 72.80000305175781
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石林里",
+    "candidateVotes": {
+      "savannah": 415,
+      "coast": 123,
+      "rainforest": 8
+    },
+    "validVotes": 546,
+    "invalidVotes": 3,
+    "totalVotes": 549,
+    "receivedUnvoted": 0,
+    "issuedVotes": 549,
+    "remainingVotes": 171,
+    "eligibleVoters": 720,
+    "voterTurnout": 76.25
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "石城里",
+    "candidateVotes": {
+      "savannah": 716,
+      "coast": 326,
+      "rainforest": 21
+    },
+    "validVotes": 1063,
+    "invalidVotes": 6,
+    "totalVotes": 1069,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1069,
+    "remainingVotes": 394,
+    "eligibleVoters": 1463,
+    "voterTurnout": 73.06999969482422
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "內江里",
+    "candidateVotes": {
+      "savannah": 423,
+      "coast": 288,
+      "rainforest": 16
+    },
+    "validVotes": 727,
+    "invalidVotes": 10,
+    "totalVotes": 737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 737,
+    "remainingVotes": 242,
+    "eligibleVoters": 979,
+    "voterTurnout": 75.27999877929688
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "大內里",
+    "candidateVotes": {
+      "savannah": 372,
+      "coast": 217,
+      "rainforest": 17
+    },
+    "validVotes": 606,
+    "invalidVotes": 5,
+    "totalVotes": 611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 611,
+    "remainingVotes": 206,
+    "eligibleVoters": 817,
+    "voterTurnout": 74.79000091552734
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "內郭里",
+    "candidateVotes": {
+      "savannah": 317,
+      "coast": 123,
+      "rainforest": 5
+    },
+    "validVotes": 445,
+    "invalidVotes": 0,
+    "totalVotes": 445,
+    "receivedUnvoted": 0,
+    "issuedVotes": 445,
+    "remainingVotes": 179,
+    "eligibleVoters": 624,
+    "voterTurnout": 71.30999755859375
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "頭社里",
+    "candidateVotes": {
+      "savannah": 510,
+      "coast": 204,
+      "rainforest": 17
+    },
+    "validVotes": 731,
+    "invalidVotes": 6,
+    "totalVotes": 737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 737,
+    "remainingVotes": 293,
+    "eligibleVoters": 1030,
+    "voterTurnout": 71.55000305175781
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "環湖里",
+    "candidateVotes": {
+      "savannah": 307,
+      "coast": 228,
+      "rainforest": 13
+    },
+    "validVotes": 548,
+    "invalidVotes": 5,
+    "totalVotes": 553,
+    "receivedUnvoted": 0,
+    "issuedVotes": 553,
+    "remainingVotes": 247,
+    "eligibleVoters": 800,
+    "voterTurnout": 69.12999725341797
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "二溪里",
+    "candidateVotes": {
+      "savannah": 397,
+      "coast": 193,
+      "rainforest": 22
+    },
+    "validVotes": 612,
+    "invalidVotes": 8,
+    "totalVotes": 620,
+    "receivedUnvoted": 0,
+    "issuedVotes": 620,
+    "remainingVotes": 253,
+    "eligibleVoters": 873,
+    "voterTurnout": 71.0199966430664
+  },
+  {
+    "administrativeDivision": "大內區",
+    "village": "曲溪里",
+    "candidateVotes": {
+      "savannah": 336,
+      "coast": 120,
+      "rainforest": 21
+    },
+    "validVotes": 477,
+    "invalidVotes": 2,
+    "totalVotes": 479,
+    "receivedUnvoted": 0,
+    "issuedVotes": 479,
+    "remainingVotes": 144,
+    "eligibleVoters": 623,
+    "voterTurnout": 76.88999938964844
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 93,
+      "coast": 2410,
+      "savannah": 706
+    },
+    "validVotes": 3209,
+    "invalidVotes": 31,
+    "totalVotes": 3240,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3241,
+    "remainingVotes": 1791,
+    "eligibleVoters": 5032,
+    "voterTurnout": 64.3879
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "西林村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 534,
+      "savannah": 152
+    },
+    "validVotes": 704,
+    "invalidVotes": 4,
+    "totalVotes": 708,
+    "receivedUnvoted": 0,
+    "issuedVotes": 708,
+    "remainingVotes": 333,
+    "eligibleVoters": 1041,
+    "voterTurnout": 68.0115
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "見晴村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 242,
+      "savannah": 73
+    },
+    "validVotes": 323,
+    "invalidVotes": 8,
+    "totalVotes": 331,
+    "receivedUnvoted": 0,
+    "issuedVotes": 331,
+    "remainingVotes": 187,
+    "eligibleVoters": 518,
+    "voterTurnout": 63.8996
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "萬榮村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 392,
+      "savannah": 105
+    },
+    "validVotes": 508,
+    "invalidVotes": 3,
+    "totalVotes": 511,
+    "receivedUnvoted": 0,
+    "issuedVotes": 511,
+    "remainingVotes": 232,
+    "eligibleVoters": 743,
+    "voterTurnout": 68.7752
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "明利村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 300,
+      "savannah": 90
+    },
+    "validVotes": 400,
+    "invalidVotes": 1,
+    "totalVotes": 401,
+    "receivedUnvoted": 0,
+    "issuedVotes": 401,
+    "remainingVotes": 231,
+    "eligibleVoters": 632,
+    "voterTurnout": 63.4494
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "馬遠村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 455,
+      "savannah": 154
+    },
+    "validVotes": 633,
+    "invalidVotes": 6,
+    "totalVotes": 639,
+    "receivedUnvoted": 0,
+    "issuedVotes": 639,
+    "remainingVotes": 424,
+    "eligibleVoters": 1063,
+    "voterTurnout": 60.1129
+  },
+  {
+    "administrativeDivision": "萬榮鄉",
+    "village": "紅葉村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 487,
+      "savannah": 132
+    },
+    "validVotes": 641,
+    "invalidVotes": 9,
+    "totalVotes": 650,
+    "receivedUnvoted": 1,
+    "issuedVotes": 651,
+    "remainingVotes": 384,
+    "eligibleVoters": 1035,
+    "voterTurnout": 62.8019
+  }
+]

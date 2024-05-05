@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 264,
+      "coast": 3235,
+      "savannah": 7954
+    },
+    "validVotes": 11453,
+    "invalidVotes": 120,
+    "totalVotes": 11573,
+    "receivedUnvoted": 3,
+    "issuedVotes": 11576,
+    "remainingVotes": 3533,
+    "eligibleVoters": 15109,
+    "voterTurnout": 76.5967
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "林邊村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 275,
+      "savannah": 762
+    },
+    "validVotes": 1057,
+    "invalidVotes": 12,
+    "totalVotes": 1069,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1069,
+    "remainingVotes": 315,
+    "eligibleVoters": 1384,
+    "voterTurnout": 77.2399
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "光林村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 321,
+      "savannah": 817
+    },
+    "validVotes": 1162,
+    "invalidVotes": 17,
+    "totalVotes": 1179,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1180,
+    "remainingVotes": 336,
+    "eligibleVoters": 1516,
+    "voterTurnout": 77.7704
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "永樂村",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 629,
+      "savannah": 1697
+    },
+    "validVotes": 2389,
+    "invalidVotes": 23,
+    "totalVotes": 2412,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2412,
+    "remainingVotes": 639,
+    "eligibleVoters": 3051,
+    "voterTurnout": 79.056
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "中林村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 192,
+      "savannah": 349
+    },
+    "validVotes": 552,
+    "invalidVotes": 5,
+    "totalVotes": 557,
+    "receivedUnvoted": 0,
+    "issuedVotes": 557,
+    "remainingVotes": 144,
+    "eligibleVoters": 701,
+    "voterTurnout": 79.4579
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "仁和村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 348,
+      "savannah": 865
+    },
+    "validVotes": 1239,
+    "invalidVotes": 16,
+    "totalVotes": 1255,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1255,
+    "remainingVotes": 352,
+    "eligibleVoters": 1607,
+    "voterTurnout": 78.0958
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "田厝村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 176,
+      "savannah": 476
+    },
+    "validVotes": 666,
+    "invalidVotes": 7,
+    "totalVotes": 673,
+    "receivedUnvoted": 0,
+    "issuedVotes": 673,
+    "remainingVotes": 209,
+    "eligibleVoters": 882,
+    "voterTurnout": 76.3039
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "崎峯村",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 250,
+      "savannah": 600
+    },
+    "validVotes": 881,
+    "invalidVotes": 7,
+    "totalVotes": 888,
+    "receivedUnvoted": 0,
+    "issuedVotes": 888,
+    "remainingVotes": 349,
+    "eligibleVoters": 1237,
+    "voterTurnout": 71.7866
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "水利村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 408,
+      "savannah": 841
+    },
+    "validVotes": 1265,
+    "invalidVotes": 11,
+    "totalVotes": 1276,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1276,
+    "remainingVotes": 476,
+    "eligibleVoters": 1752,
+    "voterTurnout": 72.8311
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "竹林村",
+    "candidateVotes": {
+      "rainforest": 39,
+      "coast": 397,
+      "savannah": 952
+    },
+    "validVotes": 1388,
+    "invalidVotes": 14,
+    "totalVotes": 1402,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1403,
+    "remainingVotes": 479,
+    "eligibleVoters": 1882,
+    "voterTurnout": 74.4952
+  },
+  {
+    "administrativeDivision": "林邊鄉",
+    "village": "鎮安村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 239,
+      "savannah": 595
+    },
+    "validVotes": 854,
+    "invalidVotes": 8,
+    "totalVotes": 862,
+    "receivedUnvoted": 1,
+    "issuedVotes": 863,
+    "remainingVotes": 234,
+    "eligibleVoters": 1097,
+    "voterTurnout": 78.5779
+  }
+]

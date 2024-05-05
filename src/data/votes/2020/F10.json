@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "坪林區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 132,
+      "coast": 1362,
+      "savannah": 2688
+    },
+    "validVotes": 4182,
+    "invalidVotes": 47,
+    "totalVotes": 4229,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4229,
+    "remainingVotes": 1655,
+    "eligibleVoters": 5884,
+    "voterTurnout": 71.8729
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "坪林里",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 295,
+      "savannah": 598
+    },
+    "validVotes": 929,
+    "invalidVotes": 16,
+    "totalVotes": 945,
+    "receivedUnvoted": 0,
+    "issuedVotes": 945,
+    "remainingVotes": 304,
+    "eligibleVoters": 1249,
+    "voterTurnout": 75.6605
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "水德里",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 164,
+      "savannah": 268
+    },
+    "validVotes": 441,
+    "invalidVotes": 8,
+    "totalVotes": 449,
+    "receivedUnvoted": 0,
+    "issuedVotes": 449,
+    "remainingVotes": 161,
+    "eligibleVoters": 610,
+    "voterTurnout": 73.6066
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "大林里",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 219,
+      "savannah": 524
+    },
+    "validVotes": 766,
+    "invalidVotes": 8,
+    "totalVotes": 774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 774,
+    "remainingVotes": 352,
+    "eligibleVoters": 1126,
+    "voterTurnout": 68.7389
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "石𥕢里",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 79,
+      "savannah": 192
+    },
+    "validVotes": 280,
+    "invalidVotes": 1,
+    "totalVotes": 281,
+    "receivedUnvoted": 0,
+    "issuedVotes": 281,
+    "remainingVotes": 131,
+    "eligibleVoters": 412,
+    "voterTurnout": 68.2039
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "粗窟里",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 239,
+      "savannah": 390
+    },
+    "validVotes": 652,
+    "invalidVotes": 7,
+    "totalVotes": 659,
+    "receivedUnvoted": 0,
+    "issuedVotes": 659,
+    "remainingVotes": 191,
+    "eligibleVoters": 850,
+    "voterTurnout": 77.5294
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "上德里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 216,
+      "savannah": 308
+    },
+    "validVotes": 544,
+    "invalidVotes": 4,
+    "totalVotes": 548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 548,
+    "remainingVotes": 246,
+    "eligibleVoters": 794,
+    "voterTurnout": 69.0176
+  },
+  {
+    "administrativeDivision": "坪林區",
+    "village": "漁光里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 150,
+      "savannah": 408
+    },
+    "validVotes": 570,
+    "invalidVotes": 3,
+    "totalVotes": 573,
+    "receivedUnvoted": 0,
+    "issuedVotes": 573,
+    "remainingVotes": 270,
+    "eligibleVoters": 843,
+    "voterTurnout": 67.9715
+  }
+]

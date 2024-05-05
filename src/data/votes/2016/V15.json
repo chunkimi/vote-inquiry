@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1184,
+      "savannah": 166,
+      "rainforest": 309
+    },
+    "validVotes": 1659,
+    "invalidVotes": 22,
+    "totalVotes": 1681,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1681,
+    "remainingVotes": 1051,
+    "eligibleVoters": 2732,
+    "voterTurnout": 61.529998779296875
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "嘉蘭村",
+    "candidateVotes": {
+      "coast": 433,
+      "savannah": 65,
+      "rainforest": 123
+    },
+    "validVotes": 621,
+    "invalidVotes": 7,
+    "totalVotes": 628,
+    "receivedUnvoted": 0,
+    "issuedVotes": 628,
+    "remainingVotes": 489,
+    "eligibleVoters": 1117,
+    "voterTurnout": 56.220001220703125
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "正興村",
+    "candidateVotes": {
+      "coast": 237,
+      "savannah": 31,
+      "rainforest": 82
+    },
+    "validVotes": 350,
+    "invalidVotes": 4,
+    "totalVotes": 354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 354,
+    "remainingVotes": 184,
+    "eligibleVoters": 538,
+    "voterTurnout": 65.80000305175781
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "新興村",
+    "candidateVotes": {
+      "coast": 225,
+      "savannah": 36,
+      "rainforest": 39
+    },
+    "validVotes": 300,
+    "invalidVotes": 3,
+    "totalVotes": 303,
+    "receivedUnvoted": 0,
+    "issuedVotes": 303,
+    "remainingVotes": 155,
+    "eligibleVoters": 458,
+    "voterTurnout": 66.16000366210938
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "賓茂村",
+    "candidateVotes": {
+      "coast": 131,
+      "savannah": 9,
+      "rainforest": 40
+    },
+    "validVotes": 180,
+    "invalidVotes": 5,
+    "totalVotes": 185,
+    "receivedUnvoted": 0,
+    "issuedVotes": 185,
+    "remainingVotes": 131,
+    "eligibleVoters": 316,
+    "voterTurnout": 58.540000915527344
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "歷坵村",
+    "candidateVotes": {
+      "coast": 158,
+      "savannah": 25,
+      "rainforest": 25
+    },
+    "validVotes": 208,
+    "invalidVotes": 3,
+    "totalVotes": 211,
+    "receivedUnvoted": 0,
+    "issuedVotes": 211,
+    "remainingVotes": 92,
+    "eligibleVoters": 303,
+    "voterTurnout": 69.63999938964844
+  }
+]

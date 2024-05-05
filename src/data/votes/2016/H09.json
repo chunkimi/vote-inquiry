@@ -1,0 +1,529 @@
+[
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 23696,
+      "savannah": 27280,
+      "rainforest": 9226
+    },
+    "validVotes": 60202,
+    "invalidVotes": 697,
+    "totalVotes": 60899,
+    "receivedUnvoted": 1,
+    "issuedVotes": 60900,
+    "remainingVotes": 31990,
+    "eligibleVoters": 92890,
+    "voterTurnout": 65.55999755859375
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "黃唐里",
+    "candidateVotes": {
+      "coast": 928,
+      "savannah": 1256,
+      "rainforest": 456
+    },
+    "validVotes": 2640,
+    "invalidVotes": 25,
+    "totalVotes": 2665,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2665,
+    "remainingVotes": 1471,
+    "eligibleVoters": 4136,
+    "voterTurnout": 64.43000030517578
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "永興里",
+    "candidateVotes": {
+      "coast": 652,
+      "savannah": 809,
+      "rainforest": 245
+    },
+    "validVotes": 1706,
+    "invalidVotes": 21,
+    "totalVotes": 1727,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1727,
+    "remainingVotes": 967,
+    "eligibleVoters": 2694,
+    "voterTurnout": 64.11000061035156
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 1166,
+      "savannah": 1549,
+      "rainforest": 439
+    },
+    "validVotes": 3154,
+    "invalidVotes": 39,
+    "totalVotes": 3193,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3193,
+    "remainingVotes": 1365,
+    "eligibleVoters": 4558,
+    "voterTurnout": 70.05000305175781
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "烏樹林里",
+    "candidateVotes": {
+      "coast": 466,
+      "savannah": 771,
+      "rainforest": 212
+    },
+    "validVotes": 1449,
+    "invalidVotes": 19,
+    "totalVotes": 1468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1468,
+    "remainingVotes": 697,
+    "eligibleVoters": 2165,
+    "voterTurnout": 67.80999755859375
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "烏林里",
+    "candidateVotes": {
+      "coast": 895,
+      "savannah": 1072,
+      "rainforest": 330
+    },
+    "validVotes": 2297,
+    "invalidVotes": 24,
+    "totalVotes": 2321,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2321,
+    "remainingVotes": 1364,
+    "eligibleVoters": 3685,
+    "voterTurnout": 62.9900016784668
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "百年里",
+    "candidateVotes": {
+      "coast": 1276,
+      "savannah": 772,
+      "rainforest": 423
+    },
+    "validVotes": 2471,
+    "invalidVotes": 33,
+    "totalVotes": 2504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2504,
+    "remainingVotes": 1175,
+    "eligibleVoters": 3679,
+    "voterTurnout": 68.05999755859375
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "凌雲里",
+    "candidateVotes": {
+      "coast": 792,
+      "savannah": 983,
+      "rainforest": 334
+    },
+    "validVotes": 2109,
+    "invalidVotes": 29,
+    "totalVotes": 2138,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2138,
+    "remainingVotes": 1205,
+    "eligibleVoters": 3343,
+    "voterTurnout": 63.95000076293945
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "龍祥里",
+    "candidateVotes": {
+      "coast": 846,
+      "savannah": 925,
+      "rainforest": 340
+    },
+    "validVotes": 2111,
+    "invalidVotes": 18,
+    "totalVotes": 2129,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2129,
+    "remainingVotes": 1214,
+    "eligibleVoters": 3343,
+    "voterTurnout": 63.689998626708984
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "八德里",
+    "candidateVotes": {
+      "coast": 829,
+      "savannah": 1163,
+      "rainforest": 378
+    },
+    "validVotes": 2370,
+    "invalidVotes": 27,
+    "totalVotes": 2397,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2397,
+    "remainingVotes": 1375,
+    "eligibleVoters": 3772,
+    "voterTurnout": 63.54999923706055
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "聖德里",
+    "candidateVotes": {
+      "coast": 570,
+      "savannah": 912,
+      "rainforest": 287
+    },
+    "validVotes": 1769,
+    "invalidVotes": 13,
+    "totalVotes": 1782,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1782,
+    "remainingVotes": 1076,
+    "eligibleVoters": 2858,
+    "voterTurnout": 62.349998474121094
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "上林里",
+    "candidateVotes": {
+      "coast": 786,
+      "savannah": 1319,
+      "rainforest": 397
+    },
+    "validVotes": 2502,
+    "invalidVotes": 28,
+    "totalVotes": 2530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2530,
+    "remainingVotes": 1364,
+    "eligibleVoters": 3894,
+    "voterTurnout": 64.97000122070312
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "龍潭里",
+    "candidateVotes": {
+      "coast": 453,
+      "savannah": 728,
+      "rainforest": 177
+    },
+    "validVotes": 1358,
+    "invalidVotes": 14,
+    "totalVotes": 1372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1372,
+    "remainingVotes": 490,
+    "eligibleVoters": 1862,
+    "voterTurnout": 73.68000030517578
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "龍星里",
+    "candidateVotes": {
+      "coast": 992,
+      "savannah": 1196,
+      "rainforest": 348
+    },
+    "validVotes": 2536,
+    "invalidVotes": 27,
+    "totalVotes": 2563,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2563,
+    "remainingVotes": 1561,
+    "eligibleVoters": 4124,
+    "voterTurnout": 62.150001525878906
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 1161,
+      "savannah": 1287,
+      "rainforest": 457
+    },
+    "validVotes": 2905,
+    "invalidVotes": 20,
+    "totalVotes": 2925,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2925,
+    "remainingVotes": 1510,
+    "eligibleVoters": 4435,
+    "voterTurnout": 65.94999694824219
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "上華里",
+    "candidateVotes": {
+      "coast": 835,
+      "savannah": 739,
+      "rainforest": 332
+    },
+    "validVotes": 1906,
+    "invalidVotes": 20,
+    "totalVotes": 1926,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1926,
+    "remainingVotes": 971,
+    "eligibleVoters": 2897,
+    "voterTurnout": 66.4800033569336
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "九龍里",
+    "candidateVotes": {
+      "coast": 830,
+      "savannah": 953,
+      "rainforest": 345
+    },
+    "validVotes": 2128,
+    "invalidVotes": 27,
+    "totalVotes": 2155,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2155,
+    "remainingVotes": 1213,
+    "eligibleVoters": 3368,
+    "voterTurnout": 63.97999954223633
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "武漢里",
+    "candidateVotes": {
+      "coast": 569,
+      "savannah": 782,
+      "rainforest": 224
+    },
+    "validVotes": 1575,
+    "invalidVotes": 15,
+    "totalVotes": 1590,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1590,
+    "remainingVotes": 970,
+    "eligibleVoters": 2560,
+    "voterTurnout": 62.11000061035156
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "東興里",
+    "candidateVotes": {
+      "coast": 1205,
+      "savannah": 784,
+      "rainforest": 415
+    },
+    "validVotes": 2404,
+    "invalidVotes": 29,
+    "totalVotes": 2433,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2433,
+    "remainingVotes": 1385,
+    "eligibleVoters": 3818,
+    "voterTurnout": 63.720001220703125
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "中興里",
+    "candidateVotes": {
+      "coast": 1089,
+      "savannah": 1058,
+      "rainforest": 425
+    },
+    "validVotes": 2572,
+    "invalidVotes": 20,
+    "totalVotes": 2592,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2592,
+    "remainingVotes": 1442,
+    "eligibleVoters": 4034,
+    "voterTurnout": 64.25
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "北興里",
+    "candidateVotes": {
+      "coast": 591,
+      "savannah": 483,
+      "rainforest": 233
+    },
+    "validVotes": 1307,
+    "invalidVotes": 14,
+    "totalVotes": 1321,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1321,
+    "remainingVotes": 868,
+    "eligibleVoters": 2189,
+    "voterTurnout": 60.349998474121094
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "佳安里",
+    "candidateVotes": {
+      "coast": 1065,
+      "savannah": 722,
+      "rainforest": 308
+    },
+    "validVotes": 2095,
+    "invalidVotes": 25,
+    "totalVotes": 2120,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2120,
+    "remainingVotes": 958,
+    "eligibleVoters": 3078,
+    "voterTurnout": 68.87999725341797
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "三坑里",
+    "candidateVotes": {
+      "coast": 242,
+      "savannah": 583,
+      "rainforest": 113
+    },
+    "validVotes": 938,
+    "invalidVotes": 8,
+    "totalVotes": 946,
+    "receivedUnvoted": 0,
+    "issuedVotes": 946,
+    "remainingVotes": 490,
+    "eligibleVoters": 1436,
+    "voterTurnout": 65.87999725341797
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "大平里",
+    "candidateVotes": {
+      "coast": 423,
+      "savannah": 664,
+      "rainforest": 164
+    },
+    "validVotes": 1251,
+    "invalidVotes": 12,
+    "totalVotes": 1263,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1264,
+    "remainingVotes": 678,
+    "eligibleVoters": 1942,
+    "voterTurnout": 65.04000091552734
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "三林里",
+    "candidateVotes": {
+      "coast": 846,
+      "savannah": 743,
+      "rainforest": 231
+    },
+    "validVotes": 1820,
+    "invalidVotes": 34,
+    "totalVotes": 1854,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1854,
+    "remainingVotes": 813,
+    "eligibleVoters": 2667,
+    "voterTurnout": 69.5199966430664
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "建林里",
+    "candidateVotes": {
+      "coast": 1244,
+      "savannah": 817,
+      "rainforest": 334
+    },
+    "validVotes": 2395,
+    "invalidVotes": 39,
+    "totalVotes": 2434,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2434,
+    "remainingVotes": 1070,
+    "eligibleVoters": 3504,
+    "voterTurnout": 69.45999908447266
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "富林里",
+    "candidateVotes": {
+      "coast": 1021,
+      "savannah": 805,
+      "rainforest": 361
+    },
+    "validVotes": 2187,
+    "invalidVotes": 39,
+    "totalVotes": 2226,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2226,
+    "remainingVotes": 1095,
+    "eligibleVoters": 3321,
+    "voterTurnout": 67.02999877929688
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "高平里",
+    "candidateVotes": {
+      "coast": 564,
+      "savannah": 1040,
+      "rainforest": 280
+    },
+    "validVotes": 1884,
+    "invalidVotes": 23,
+    "totalVotes": 1907,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1907,
+    "remainingVotes": 996,
+    "eligibleVoters": 2903,
+    "voterTurnout": 65.69000244140625
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "高原里",
+    "candidateVotes": {
+      "coast": 744,
+      "savannah": 1309,
+      "rainforest": 415
+    },
+    "validVotes": 2468,
+    "invalidVotes": 28,
+    "totalVotes": 2496,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2496,
+    "remainingVotes": 1433,
+    "eligibleVoters": 3929,
+    "voterTurnout": 63.529998779296875
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "三和里",
+    "candidateVotes": {
+      "coast": 510,
+      "savannah": 708,
+      "rainforest": 184
+    },
+    "validVotes": 1402,
+    "invalidVotes": 22,
+    "totalVotes": 1424,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1424,
+    "remainingVotes": 615,
+    "eligibleVoters": 2039,
+    "voterTurnout": 69.83999633789062
+  },
+  {
+    "administrativeDivision": "龍潭區",
+    "village": "三水里",
+    "candidateVotes": {
+      "coast": 106,
+      "savannah": 348,
+      "rainforest": 39
+    },
+    "validVotes": 493,
+    "invalidVotes": 5,
+    "totalVotes": 498,
+    "receivedUnvoted": 0,
+    "issuedVotes": 498,
+    "remainingVotes": 159,
+    "eligibleVoters": 657,
+    "voterTurnout": 75.80000305175781
+  }
+]

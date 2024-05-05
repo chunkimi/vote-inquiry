@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 298,
+      "coast": 3644,
+      "rainforest": 87
+    },
+    "validVotes": 4029,
+    "invalidVotes": 30,
+    "totalVotes": 4059,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4059,
+    "remainingVotes": 1900,
+    "eligibleVoters": 5959,
+    "voterTurnout": 68.12000274658203
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "來義村",
+    "candidateVotes": {
+      "savannah": 63,
+      "coast": 478,
+      "rainforest": 10
+    },
+    "validVotes": 551,
+    "invalidVotes": 4,
+    "totalVotes": 555,
+    "receivedUnvoted": 0,
+    "issuedVotes": 555,
+    "remainingVotes": 295,
+    "eligibleVoters": 850,
+    "voterTurnout": 65.29000091552734
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "義林村",
+    "candidateVotes": {
+      "savannah": 34,
+      "coast": 332,
+      "rainforest": 10
+    },
+    "validVotes": 376,
+    "invalidVotes": 1,
+    "totalVotes": 377,
+    "receivedUnvoted": 0,
+    "issuedVotes": 377,
+    "remainingVotes": 151,
+    "eligibleVoters": 528,
+    "voterTurnout": 71.4000015258789
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "丹林村",
+    "candidateVotes": {
+      "savannah": 40,
+      "coast": 436,
+      "rainforest": 8
+    },
+    "validVotes": 484,
+    "invalidVotes": 3,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 206,
+    "eligibleVoters": 693,
+    "voterTurnout": 70.2699966430664
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "古樓村",
+    "candidateVotes": {
+      "savannah": 66,
+      "coast": 629,
+      "rainforest": 17
+    },
+    "validVotes": 712,
+    "invalidVotes": 4,
+    "totalVotes": 716,
+    "receivedUnvoted": 0,
+    "issuedVotes": 716,
+    "remainingVotes": 351,
+    "eligibleVoters": 1067,
+    "voterTurnout": 67.0999984741211
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "文樂村",
+    "candidateVotes": {
+      "savannah": 28,
+      "coast": 484,
+      "rainforest": 13
+    },
+    "validVotes": 525,
+    "invalidVotes": 4,
+    "totalVotes": 529,
+    "receivedUnvoted": 0,
+    "issuedVotes": 529,
+    "remainingVotes": 291,
+    "eligibleVoters": 820,
+    "voterTurnout": 64.51000213623047
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "望嘉村",
+    "candidateVotes": {
+      "savannah": 30,
+      "coast": 592,
+      "rainforest": 9
+    },
+    "validVotes": 631,
+    "invalidVotes": 5,
+    "totalVotes": 636,
+    "receivedUnvoted": 0,
+    "issuedVotes": 636,
+    "remainingVotes": 211,
+    "eligibleVoters": 847,
+    "voterTurnout": 75.08999633789062
+  },
+  {
+    "administrativeDivision": "來義鄉",
+    "village": "南和村",
+    "candidateVotes": {
+      "savannah": 37,
+      "coast": 693,
+      "rainforest": 20
+    },
+    "validVotes": 750,
+    "invalidVotes": 9,
+    "totalVotes": 759,
+    "receivedUnvoted": 0,
+    "issuedVotes": 759,
+    "remainingVotes": 395,
+    "eligibleVoters": 1154,
+    "voterTurnout": 65.7699966430664
+  }
+]

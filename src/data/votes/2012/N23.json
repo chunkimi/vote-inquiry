@@ -1,0 +1,461 @@
+[
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 9838,
+      "coast": 8207,
+      "rainforest": 477
+    },
+    "validVotes": 18522,
+    "invalidVotes": 367,
+    "totalVotes": 18889,
+    "receivedUnvoted": 0,
+    "issuedVotes": 18889,
+    "remainingVotes": 10110,
+    "eligibleVoters": 28999,
+    "voterTurnout": 65.13999938964844
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "芳苑村",
+    "candidateVotes": {
+      "savannah": 294,
+      "coast": 276,
+      "rainforest": 12
+    },
+    "validVotes": 582,
+    "invalidVotes": 8,
+    "totalVotes": 590,
+    "receivedUnvoted": 0,
+    "issuedVotes": 590,
+    "remainingVotes": 382,
+    "eligibleVoters": 972,
+    "voterTurnout": 60.70000076293945
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "芳中村",
+    "candidateVotes": {
+      "savannah": 170,
+      "coast": 125,
+      "rainforest": 2
+    },
+    "validVotes": 297,
+    "invalidVotes": 2,
+    "totalVotes": 299,
+    "receivedUnvoted": 0,
+    "issuedVotes": 299,
+    "remainingVotes": 156,
+    "eligibleVoters": 455,
+    "voterTurnout": 65.70999908447266
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "仁愛村",
+    "candidateVotes": {
+      "savannah": 256,
+      "coast": 257,
+      "rainforest": 16
+    },
+    "validVotes": 529,
+    "invalidVotes": 11,
+    "totalVotes": 540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 540,
+    "remainingVotes": 239,
+    "eligibleVoters": 779,
+    "voterTurnout": 69.31999969482422
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "信義村",
+    "candidateVotes": {
+      "savannah": 162,
+      "coast": 196,
+      "rainforest": 3
+    },
+    "validVotes": 361,
+    "invalidVotes": 7,
+    "totalVotes": 368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 368,
+    "remainingVotes": 230,
+    "eligibleVoters": 598,
+    "voterTurnout": 61.540000915527344
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "後寮村",
+    "candidateVotes": {
+      "savannah": 206,
+      "coast": 373,
+      "rainforest": 16
+    },
+    "validVotes": 595,
+    "invalidVotes": 8,
+    "totalVotes": 603,
+    "receivedUnvoted": 0,
+    "issuedVotes": 603,
+    "remainingVotes": 346,
+    "eligibleVoters": 949,
+    "voterTurnout": 63.540000915527344
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "三合村",
+    "candidateVotes": {
+      "savannah": 577,
+      "coast": 703,
+      "rainforest": 45
+    },
+    "validVotes": 1325,
+    "invalidVotes": 34,
+    "totalVotes": 1359,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1359,
+    "remainingVotes": 622,
+    "eligibleVoters": 1981,
+    "voterTurnout": 68.5999984741211
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "永興村",
+    "candidateVotes": {
+      "savannah": 456,
+      "coast": 415,
+      "rainforest": 16
+    },
+    "validVotes": 887,
+    "invalidVotes": 28,
+    "totalVotes": 915,
+    "receivedUnvoted": 0,
+    "issuedVotes": 915,
+    "remainingVotes": 470,
+    "eligibleVoters": 1385,
+    "voterTurnout": 66.05999755859375
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "新街村",
+    "candidateVotes": {
+      "savannah": 335,
+      "coast": 154,
+      "rainforest": 9
+    },
+    "validVotes": 498,
+    "invalidVotes": 12,
+    "totalVotes": 510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 510,
+    "remainingVotes": 418,
+    "eligibleVoters": 928,
+    "voterTurnout": 54.959999084472656
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "路上村",
+    "candidateVotes": {
+      "savannah": 218,
+      "coast": 210,
+      "rainforest": 16
+    },
+    "validVotes": 444,
+    "invalidVotes": 11,
+    "totalVotes": 455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 455,
+    "remainingVotes": 262,
+    "eligibleVoters": 717,
+    "voterTurnout": 63.459999084472656
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "路平村",
+    "candidateVotes": {
+      "savannah": 203,
+      "coast": 280,
+      "rainforest": 8
+    },
+    "validVotes": 491,
+    "invalidVotes": 8,
+    "totalVotes": 499,
+    "receivedUnvoted": 0,
+    "issuedVotes": 499,
+    "remainingVotes": 226,
+    "eligibleVoters": 725,
+    "voterTurnout": 68.83000183105469
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "三成村",
+    "candidateVotes": {
+      "savannah": 372,
+      "coast": 270,
+      "rainforest": 15
+    },
+    "validVotes": 657,
+    "invalidVotes": 27,
+    "totalVotes": 684,
+    "receivedUnvoted": 0,
+    "issuedVotes": 684,
+    "remainingVotes": 314,
+    "eligibleVoters": 998,
+    "voterTurnout": 68.54000091552734
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "福榮村",
+    "candidateVotes": {
+      "savannah": 225,
+      "coast": 171,
+      "rainforest": 9
+    },
+    "validVotes": 405,
+    "invalidVotes": 8,
+    "totalVotes": 413,
+    "receivedUnvoted": 0,
+    "issuedVotes": 413,
+    "remainingVotes": 204,
+    "eligibleVoters": 617,
+    "voterTurnout": 66.94000244140625
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "頂村",
+    "candidateVotes": {
+      "savannah": 180,
+      "coast": 167,
+      "rainforest": 14
+    },
+    "validVotes": 361,
+    "invalidVotes": 11,
+    "totalVotes": 372,
+    "receivedUnvoted": 0,
+    "issuedVotes": 372,
+    "remainingVotes": 218,
+    "eligibleVoters": 590,
+    "voterTurnout": 63.04999923706055
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "王功村",
+    "candidateVotes": {
+      "savannah": 882,
+      "coast": 420,
+      "rainforest": 31
+    },
+    "validVotes": 1333,
+    "invalidVotes": 34,
+    "totalVotes": 1367,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1367,
+    "remainingVotes": 735,
+    "eligibleVoters": 2102,
+    "voterTurnout": 65.02999877929688
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "博愛村",
+    "candidateVotes": {
+      "savannah": 290,
+      "coast": 149,
+      "rainforest": 13
+    },
+    "validVotes": 452,
+    "invalidVotes": 14,
+    "totalVotes": 466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 466,
+    "remainingVotes": 246,
+    "eligibleVoters": 712,
+    "voterTurnout": 65.44999694824219
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "和平村",
+    "candidateVotes": {
+      "savannah": 300,
+      "coast": 170,
+      "rainforest": 8
+    },
+    "validVotes": 478,
+    "invalidVotes": 9,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 298,
+    "eligibleVoters": 785,
+    "voterTurnout": 62.040000915527344
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "興仁村",
+    "candidateVotes": {
+      "savannah": 530,
+      "coast": 259,
+      "rainforest": 18
+    },
+    "validVotes": 807,
+    "invalidVotes": 10,
+    "totalVotes": 817,
+    "receivedUnvoted": 0,
+    "issuedVotes": 817,
+    "remainingVotes": 517,
+    "eligibleVoters": 1334,
+    "voterTurnout": 61.2400016784668
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "民生村",
+    "candidateVotes": {
+      "savannah": 306,
+      "coast": 148,
+      "rainforest": 6
+    },
+    "validVotes": 460,
+    "invalidVotes": 12,
+    "totalVotes": 472,
+    "receivedUnvoted": 0,
+    "issuedVotes": 472,
+    "remainingVotes": 222,
+    "eligibleVoters": 694,
+    "voterTurnout": 68.01000213623047
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "新寶村",
+    "candidateVotes": {
+      "savannah": 586,
+      "coast": 464,
+      "rainforest": 36
+    },
+    "validVotes": 1086,
+    "invalidVotes": 7,
+    "totalVotes": 1093,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1093,
+    "remainingVotes": 509,
+    "eligibleVoters": 1602,
+    "voterTurnout": 68.2300033569336
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "五俊村",
+    "candidateVotes": {
+      "savannah": 142,
+      "coast": 120,
+      "rainforest": 9
+    },
+    "validVotes": 271,
+    "invalidVotes": 7,
+    "totalVotes": 278,
+    "receivedUnvoted": 0,
+    "issuedVotes": 278,
+    "remainingVotes": 219,
+    "eligibleVoters": 497,
+    "voterTurnout": 55.939998626708984
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "草湖村",
+    "candidateVotes": {
+      "savannah": 410,
+      "coast": 486,
+      "rainforest": 22
+    },
+    "validVotes": 918,
+    "invalidVotes": 21,
+    "totalVotes": 939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 939,
+    "remainingVotes": 461,
+    "eligibleVoters": 1400,
+    "voterTurnout": 67.06999969482422
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "建平村",
+    "candidateVotes": {
+      "savannah": 650,
+      "coast": 629,
+      "rainforest": 40
+    },
+    "validVotes": 1319,
+    "invalidVotes": 18,
+    "totalVotes": 1337,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1337,
+    "remainingVotes": 706,
+    "eligibleVoters": 2043,
+    "voterTurnout": 65.44000244140625
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "崙腳村",
+    "candidateVotes": {
+      "savannah": 190,
+      "coast": 276,
+      "rainforest": 12
+    },
+    "validVotes": 478,
+    "invalidVotes": 9,
+    "totalVotes": 487,
+    "receivedUnvoted": 0,
+    "issuedVotes": 487,
+    "remainingVotes": 241,
+    "eligibleVoters": 728,
+    "voterTurnout": 66.9000015258789
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "文津村",
+    "candidateVotes": {
+      "savannah": 328,
+      "coast": 315,
+      "rainforest": 21
+    },
+    "validVotes": 664,
+    "invalidVotes": 9,
+    "totalVotes": 673,
+    "receivedUnvoted": 0,
+    "issuedVotes": 673,
+    "remainingVotes": 353,
+    "eligibleVoters": 1026,
+    "voterTurnout": 65.58999633789062
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "新生村",
+    "candidateVotes": {
+      "savannah": 487,
+      "coast": 318,
+      "rainforest": 23
+    },
+    "validVotes": 828,
+    "invalidVotes": 8,
+    "totalVotes": 836,
+    "receivedUnvoted": 0,
+    "issuedVotes": 836,
+    "remainingVotes": 484,
+    "eligibleVoters": 1320,
+    "voterTurnout": 63.33000183105469
+  },
+  {
+    "administrativeDivision": "芳苑鄉",
+    "village": "漢寶村",
+    "candidateVotes": {
+      "savannah": 1083,
+      "coast": 856,
+      "rainforest": 57
+    },
+    "validVotes": 1996,
+    "invalidVotes": 34,
+    "totalVotes": 2030,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2030,
+    "remainingVotes": 1032,
+    "eligibleVoters": 3062,
+    "voterTurnout": 66.30000305175781
+  }
+]

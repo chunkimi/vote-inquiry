@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1232,
+      "coast": 3116,
+      "rainforest": 122
+    },
+    "validVotes": 4470,
+    "invalidVotes": 38,
+    "totalVotes": 4508,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4508,
+    "remainingVotes": 1408,
+    "eligibleVoters": 5916,
+    "voterTurnout": 76.19999694824219
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "三灣村",
+    "candidateVotes": {
+      "savannah": 451,
+      "coast": 1151,
+      "rainforest": 54
+    },
+    "validVotes": 1656,
+    "invalidVotes": 11,
+    "totalVotes": 1667,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1667,
+    "remainingVotes": 524,
+    "eligibleVoters": 2191,
+    "voterTurnout": 76.08000183105469
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "內灣村",
+    "candidateVotes": {
+      "savannah": 124,
+      "coast": 367,
+      "rainforest": 9
+    },
+    "validVotes": 500,
+    "invalidVotes": 2,
+    "totalVotes": 502,
+    "receivedUnvoted": 0,
+    "issuedVotes": 502,
+    "remainingVotes": 132,
+    "eligibleVoters": 634,
+    "voterTurnout": 79.18000030517578
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "銅鏡村",
+    "candidateVotes": {
+      "savannah": 179,
+      "coast": 470,
+      "rainforest": 12
+    },
+    "validVotes": 661,
+    "invalidVotes": 7,
+    "totalVotes": 668,
+    "receivedUnvoted": 0,
+    "issuedVotes": 668,
+    "remainingVotes": 210,
+    "eligibleVoters": 878,
+    "voterTurnout": 76.08000183105469
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "頂寮村",
+    "candidateVotes": {
+      "savannah": 40,
+      "coast": 145,
+      "rainforest": 7
+    },
+    "validVotes": 192,
+    "invalidVotes": 1,
+    "totalVotes": 193,
+    "receivedUnvoted": 0,
+    "issuedVotes": 193,
+    "remainingVotes": 67,
+    "eligibleVoters": 260,
+    "voterTurnout": 74.2300033569336
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "北埔村",
+    "candidateVotes": {
+      "savannah": 114,
+      "coast": 255,
+      "rainforest": 15
+    },
+    "validVotes": 384,
+    "invalidVotes": 10,
+    "totalVotes": 394,
+    "receivedUnvoted": 0,
+    "issuedVotes": 394,
+    "remainingVotes": 141,
+    "eligibleVoters": 535,
+    "voterTurnout": 73.63999938964844
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "大河村",
+    "candidateVotes": {
+      "savannah": 143,
+      "coast": 284,
+      "rainforest": 12
+    },
+    "validVotes": 439,
+    "invalidVotes": 2,
+    "totalVotes": 441,
+    "receivedUnvoted": 0,
+    "issuedVotes": 441,
+    "remainingVotes": 140,
+    "eligibleVoters": 581,
+    "voterTurnout": 75.9000015258789
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "大坪村",
+    "candidateVotes": {
+      "savannah": 106,
+      "coast": 235,
+      "rainforest": 7
+    },
+    "validVotes": 348,
+    "invalidVotes": 3,
+    "totalVotes": 351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 351,
+    "remainingVotes": 91,
+    "eligibleVoters": 442,
+    "voterTurnout": 79.41000366210938
+  },
+  {
+    "administrativeDivision": "三灣鄉",
+    "village": "永和村",
+    "candidateVotes": {
+      "savannah": 75,
+      "coast": 209,
+      "rainforest": 6
+    },
+    "validVotes": 290,
+    "invalidVotes": 2,
+    "totalVotes": 292,
+    "receivedUnvoted": 0,
+    "issuedVotes": 292,
+    "remainingVotes": 103,
+    "eligibleVoters": 395,
+    "voterTurnout": 73.91999816894531
+  }
+]

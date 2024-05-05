@@ -1,0 +1,172 @@
+[
+  {
+    "administrativeDivision": "南化區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 2515,
+      "coast": 2382,
+      "rainforest": 190
+    },
+    "validVotes": 5087,
+    "invalidVotes": 40,
+    "totalVotes": 5127,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5127,
+    "remainingVotes": 2285,
+    "eligibleVoters": 7412,
+    "voterTurnout": 69.16999816894531
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "南化里",
+    "candidateVotes": {
+      "savannah": 552,
+      "coast": 443,
+      "rainforest": 24
+    },
+    "validVotes": 1019,
+    "invalidVotes": 6,
+    "totalVotes": 1025,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1025,
+    "remainingVotes": 370,
+    "eligibleVoters": 1395,
+    "voterTurnout": 73.4800033569336
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "小崙里",
+    "candidateVotes": {
+      "savannah": 267,
+      "coast": 245,
+      "rainforest": 19
+    },
+    "validVotes": 531,
+    "invalidVotes": 4,
+    "totalVotes": 535,
+    "receivedUnvoted": 0,
+    "issuedVotes": 535,
+    "remainingVotes": 253,
+    "eligibleVoters": 788,
+    "voterTurnout": 67.88999938964844
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "東和里",
+    "candidateVotes": {
+      "savannah": 234,
+      "coast": 178,
+      "rainforest": 16
+    },
+    "validVotes": 428,
+    "invalidVotes": 7,
+    "totalVotes": 435,
+    "receivedUnvoted": 0,
+    "issuedVotes": 435,
+    "remainingVotes": 234,
+    "eligibleVoters": 669,
+    "voterTurnout": 65.0199966430664
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "西埔里",
+    "candidateVotes": {
+      "savannah": 271,
+      "coast": 264,
+      "rainforest": 26
+    },
+    "validVotes": 561,
+    "invalidVotes": 5,
+    "totalVotes": 566,
+    "receivedUnvoted": 0,
+    "issuedVotes": 566,
+    "remainingVotes": 254,
+    "eligibleVoters": 820,
+    "voterTurnout": 69.0199966430664
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "中坑里",
+    "candidateVotes": {
+      "savannah": 152,
+      "coast": 175,
+      "rainforest": 9
+    },
+    "validVotes": 336,
+    "invalidVotes": 2,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 119,
+    "eligibleVoters": 457,
+    "voterTurnout": 73.95999908447266
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "北平里",
+    "candidateVotes": {
+      "savannah": 252,
+      "coast": 184,
+      "rainforest": 5
+    },
+    "validVotes": 441,
+    "invalidVotes": 5,
+    "totalVotes": 446,
+    "receivedUnvoted": 0,
+    "issuedVotes": 446,
+    "remainingVotes": 126,
+    "eligibleVoters": 572,
+    "voterTurnout": 77.97000122070312
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "北寮里",
+    "candidateVotes": {
+      "savannah": 356,
+      "coast": 448,
+      "rainforest": 31
+    },
+    "validVotes": 835,
+    "invalidVotes": 6,
+    "totalVotes": 841,
+    "receivedUnvoted": 0,
+    "issuedVotes": 841,
+    "remainingVotes": 344,
+    "eligibleVoters": 1185,
+    "voterTurnout": 70.97000122070312
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "玉山里",
+    "candidateVotes": {
+      "savannah": 293,
+      "coast": 302,
+      "rainforest": 29
+    },
+    "validVotes": 624,
+    "invalidVotes": 3,
+    "totalVotes": 627,
+    "receivedUnvoted": 0,
+    "issuedVotes": 627,
+    "remainingVotes": 281,
+    "eligibleVoters": 908,
+    "voterTurnout": 69.05000305175781
+  },
+  {
+    "administrativeDivision": "南化區",
+    "village": "關山里",
+    "candidateVotes": {
+      "savannah": 138,
+      "coast": 143,
+      "rainforest": 31
+    },
+    "validVotes": 312,
+    "invalidVotes": 2,
+    "totalVotes": 314,
+    "receivedUnvoted": 0,
+    "issuedVotes": 314,
+    "remainingVotes": 304,
+    "eligibleVoters": 618,
+    "voterTurnout": 50.810001373291016
+  }
+]

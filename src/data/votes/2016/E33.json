@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1021,
+      "savannah": 1678,
+      "rainforest": 427
+    },
+    "validVotes": 3126,
+    "invalidVotes": 41,
+    "totalVotes": 3167,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3167,
+    "remainingVotes": 2211,
+    "eligibleVoters": 5378,
+    "voterTurnout": 58.88999938964844
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "東安里",
+    "candidateVotes": {
+      "coast": 90,
+      "savannah": 137,
+      "rainforest": 30
+    },
+    "validVotes": 257,
+    "invalidVotes": 1,
+    "totalVotes": 258,
+    "receivedUnvoted": 0,
+    "issuedVotes": 258,
+    "remainingVotes": 221,
+    "eligibleVoters": 479,
+    "voterTurnout": 53.86000061035156
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "西安里",
+    "candidateVotes": {
+      "coast": 264,
+      "savannah": 252,
+      "rainforest": 84
+    },
+    "validVotes": 600,
+    "invalidVotes": 4,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 288,
+    "eligibleVoters": 892,
+    "voterTurnout": 67.70999908447266
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "和安里",
+    "candidateVotes": {
+      "coast": 124,
+      "savannah": 193,
+      "rainforest": 82
+    },
+    "validVotes": 399,
+    "invalidVotes": 6,
+    "totalVotes": 405,
+    "receivedUnvoted": 0,
+    "issuedVotes": 405,
+    "remainingVotes": 255,
+    "eligibleVoters": 660,
+    "voterTurnout": 61.36000061035156
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "大田里",
+    "candidateVotes": {
+      "coast": 264,
+      "savannah": 422,
+      "rainforest": 133
+    },
+    "validVotes": 819,
+    "invalidVotes": 16,
+    "totalVotes": 835,
+    "receivedUnvoted": 0,
+    "issuedVotes": 835,
+    "remainingVotes": 700,
+    "eligibleVoters": 1535,
+    "voterTurnout": 54.400001525878906
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "寶隆里",
+    "candidateVotes": {
+      "coast": 109,
+      "savannah": 277,
+      "rainforest": 29
+    },
+    "validVotes": 415,
+    "invalidVotes": 6,
+    "totalVotes": 421,
+    "receivedUnvoted": 0,
+    "issuedVotes": 421,
+    "remainingVotes": 273,
+    "eligibleVoters": 694,
+    "voterTurnout": 60.65999984741211
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "關山里",
+    "candidateVotes": {
+      "coast": 102,
+      "savannah": 221,
+      "rainforest": 38
+    },
+    "validVotes": 361,
+    "invalidVotes": 4,
+    "totalVotes": 365,
+    "receivedUnvoted": 0,
+    "issuedVotes": 365,
+    "remainingVotes": 226,
+    "eligibleVoters": 591,
+    "voterTurnout": 61.7599983215332
+  },
+  {
+    "administrativeDivision": "甲仙區",
+    "village": "小林里",
+    "candidateVotes": {
+      "coast": 68,
+      "savannah": 176,
+      "rainforest": 31
+    },
+    "validVotes": 275,
+    "invalidVotes": 4,
+    "totalVotes": 279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 279,
+    "remainingVotes": 248,
+    "eligibleVoters": 527,
+    "voterTurnout": 52.939998626708984
+  }
+]

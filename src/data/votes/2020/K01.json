@@ -1,0 +1,495 @@
+[
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2366,
+      "coast": 30335,
+      "savannah": 20569
+    },
+    "validVotes": 53270,
+    "invalidVotes": 552,
+    "totalVotes": 53822,
+    "receivedUnvoted": 1,
+    "issuedVotes": 53823,
+    "remainingVotes": 18301,
+    "eligibleVoters": 72124,
+    "voterTurnout": 74.6243
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "中苗里",
+    "candidateVotes": {
+      "rainforest": 37,
+      "coast": 467,
+      "savannah": 304
+    },
+    "validVotes": 808,
+    "invalidVotes": 16,
+    "totalVotes": 824,
+    "receivedUnvoted": 0,
+    "issuedVotes": 824,
+    "remainingVotes": 260,
+    "eligibleVoters": 1084,
+    "voterTurnout": 76.0148
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "青苗里",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 416,
+      "savannah": 275
+    },
+    "validVotes": 726,
+    "invalidVotes": 7,
+    "totalVotes": 733,
+    "receivedUnvoted": 0,
+    "issuedVotes": 733,
+    "remainingVotes": 263,
+    "eligibleVoters": 996,
+    "voterTurnout": 73.5944
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "維祥里",
+    "candidateVotes": {
+      "rainforest": 108,
+      "coast": 1424,
+      "savannah": 840
+    },
+    "validVotes": 2372,
+    "invalidVotes": 18,
+    "totalVotes": 2390,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2390,
+    "remainingVotes": 832,
+    "eligibleVoters": 3222,
+    "voterTurnout": 74.1775
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "維新里",
+    "candidateVotes": {
+      "rainforest": 125,
+      "coast": 1557,
+      "savannah": 968
+    },
+    "validVotes": 2650,
+    "invalidVotes": 22,
+    "totalVotes": 2672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2672,
+    "remainingVotes": 890,
+    "eligibleVoters": 3562,
+    "voterTurnout": 75.014
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "玉清里",
+    "candidateVotes": {
+      "rainforest": 72,
+      "coast": 985,
+      "savannah": 581
+    },
+    "validVotes": 1638,
+    "invalidVotes": 16,
+    "totalVotes": 1654,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1654,
+    "remainingVotes": 509,
+    "eligibleVoters": 2163,
+    "voterTurnout": 76.4679
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "玉華里",
+    "candidateVotes": {
+      "rainforest": 130,
+      "coast": 1621,
+      "savannah": 928
+    },
+    "validVotes": 2679,
+    "invalidVotes": 30,
+    "totalVotes": 2709,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2709,
+    "remainingVotes": 845,
+    "eligibleVoters": 3554,
+    "voterTurnout": 76.224
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "綠苗里",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 363,
+      "savannah": 234
+    },
+    "validVotes": 620,
+    "invalidVotes": 8,
+    "totalVotes": 628,
+    "receivedUnvoted": 0,
+    "issuedVotes": 628,
+    "remainingVotes": 201,
+    "eligibleVoters": 829,
+    "voterTurnout": 75.7539
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "高苗里",
+    "candidateVotes": {
+      "rainforest": 94,
+      "coast": 1275,
+      "savannah": 859
+    },
+    "validVotes": 2228,
+    "invalidVotes": 21,
+    "totalVotes": 2249,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2249,
+    "remainingVotes": 857,
+    "eligibleVoters": 3106,
+    "voterTurnout": 72.4082
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "新苗里",
+    "candidateVotes": {
+      "rainforest": 43,
+      "coast": 335,
+      "savannah": 264
+    },
+    "validVotes": 642,
+    "invalidVotes": 4,
+    "totalVotes": 646,
+    "receivedUnvoted": 0,
+    "issuedVotes": 646,
+    "remainingVotes": 206,
+    "eligibleVoters": 852,
+    "voterTurnout": 75.8216
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "玉苗里",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 352,
+      "savannah": 268
+    },
+    "validVotes": 641,
+    "invalidVotes": 5,
+    "totalVotes": 646,
+    "receivedUnvoted": 0,
+    "issuedVotes": 646,
+    "remainingVotes": 225,
+    "eligibleVoters": 871,
+    "voterTurnout": 74.1676
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "大同里",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 217,
+      "savannah": 143
+    },
+    "validVotes": 380,
+    "invalidVotes": 7,
+    "totalVotes": 387,
+    "receivedUnvoted": 0,
+    "issuedVotes": 387,
+    "remainingVotes": 122,
+    "eligibleVoters": 509,
+    "voterTurnout": 76.0314
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "恭敬里",
+    "candidateVotes": {
+      "rainforest": 43,
+      "coast": 549,
+      "savannah": 404
+    },
+    "validVotes": 996,
+    "invalidVotes": 13,
+    "totalVotes": 1009,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1009,
+    "remainingVotes": 317,
+    "eligibleVoters": 1326,
+    "voterTurnout": 76.0935
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "水源里",
+    "candidateVotes": {
+      "rainforest": 68,
+      "coast": 1010,
+      "savannah": 700
+    },
+    "validVotes": 1778,
+    "invalidVotes": 18,
+    "totalVotes": 1796,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1796,
+    "remainingVotes": 619,
+    "eligibleVoters": 2415,
+    "voterTurnout": 74.3685
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "勝利里",
+    "candidateVotes": {
+      "rainforest": 109,
+      "coast": 1597,
+      "savannah": 1159
+    },
+    "validVotes": 2865,
+    "invalidVotes": 18,
+    "totalVotes": 2883,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2883,
+    "remainingVotes": 924,
+    "eligibleVoters": 3807,
+    "voterTurnout": 75.7289
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "清華里",
+    "candidateVotes": {
+      "rainforest": 100,
+      "coast": 1275,
+      "savannah": 918
+    },
+    "validVotes": 2293,
+    "invalidVotes": 26,
+    "totalVotes": 2319,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2319,
+    "remainingVotes": 741,
+    "eligibleVoters": 3060,
+    "voterTurnout": 75.7843
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "上苗里",
+    "candidateVotes": {
+      "rainforest": 50,
+      "coast": 606,
+      "savannah": 494
+    },
+    "validVotes": 1150,
+    "invalidVotes": 10,
+    "totalVotes": 1160,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1160,
+    "remainingVotes": 369,
+    "eligibleVoters": 1529,
+    "voterTurnout": 75.8666
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "北苗里",
+    "candidateVotes": {
+      "rainforest": 154,
+      "coast": 2082,
+      "savannah": 1444
+    },
+    "validVotes": 3680,
+    "invalidVotes": 47,
+    "totalVotes": 3727,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3727,
+    "remainingVotes": 1211,
+    "eligibleVoters": 4938,
+    "voterTurnout": 75.4759
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "嘉盛里",
+    "candidateVotes": {
+      "rainforest": 130,
+      "coast": 1419,
+      "savannah": 930
+    },
+    "validVotes": 2479,
+    "invalidVotes": 31,
+    "totalVotes": 2510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2510,
+    "remainingVotes": 859,
+    "eligibleVoters": 3369,
+    "voterTurnout": 74.5028
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "福星里",
+    "candidateVotes": {
+      "rainforest": 126,
+      "coast": 1624,
+      "savannah": 1168
+    },
+    "validVotes": 2918,
+    "invalidVotes": 35,
+    "totalVotes": 2953,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2953,
+    "remainingVotes": 1071,
+    "eligibleVoters": 4024,
+    "voterTurnout": 73.3847
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "福安里",
+    "candidateVotes": {
+      "rainforest": 107,
+      "coast": 1327,
+      "savannah": 974
+    },
+    "validVotes": 2408,
+    "invalidVotes": 29,
+    "totalVotes": 2437,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2438,
+    "remainingVotes": 866,
+    "eligibleVoters": 3304,
+    "voterTurnout": 73.7591
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "嘉新里",
+    "candidateVotes": {
+      "rainforest": 87,
+      "coast": 1241,
+      "savannah": 807
+    },
+    "validVotes": 2135,
+    "invalidVotes": 17,
+    "totalVotes": 2152,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2152,
+    "remainingVotes": 634,
+    "eligibleVoters": 2786,
+    "voterTurnout": 77.2434
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "建功里",
+    "candidateVotes": {
+      "rainforest": 137,
+      "coast": 1737,
+      "savannah": 1132
+    },
+    "validVotes": 3006,
+    "invalidVotes": 35,
+    "totalVotes": 3041,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3041,
+    "remainingVotes": 924,
+    "eligibleVoters": 3965,
+    "voterTurnout": 76.6961
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "福麗里",
+    "candidateVotes": {
+      "rainforest": 177,
+      "coast": 2153,
+      "savannah": 1391
+    },
+    "validVotes": 3721,
+    "invalidVotes": 39,
+    "totalVotes": 3760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3760,
+    "remainingVotes": 1430,
+    "eligibleVoters": 5190,
+    "voterTurnout": 72.447
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "文山里",
+    "candidateVotes": {
+      "rainforest": 127,
+      "coast": 1519,
+      "savannah": 1088
+    },
+    "validVotes": 2734,
+    "invalidVotes": 20,
+    "totalVotes": 2754,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2754,
+    "remainingVotes": 851,
+    "eligibleVoters": 3605,
+    "voterTurnout": 76.3939
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "文聖里",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1385,
+      "savannah": 991
+    },
+    "validVotes": 2495,
+    "invalidVotes": 23,
+    "totalVotes": 2518,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2518,
+    "remainingVotes": 887,
+    "eligibleVoters": 3405,
+    "voterTurnout": 73.9501
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "新川里",
+    "candidateVotes": {
+      "rainforest": 25,
+      "coast": 420,
+      "savannah": 331
+    },
+    "validVotes": 776,
+    "invalidVotes": 9,
+    "totalVotes": 785,
+    "receivedUnvoted": 0,
+    "issuedVotes": 785,
+    "remainingVotes": 345,
+    "eligibleVoters": 1130,
+    "voterTurnout": 69.469
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "南勢里",
+    "candidateVotes": {
+      "rainforest": 53,
+      "coast": 750,
+      "savannah": 531
+    },
+    "validVotes": 1334,
+    "invalidVotes": 14,
+    "totalVotes": 1348,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1348,
+    "remainingVotes": 564,
+    "eligibleVoters": 1912,
+    "voterTurnout": 70.5021
+  },
+  {
+    "administrativeDivision": "苗栗市",
+    "village": "新英里",
+    "candidateVotes": {
+      "rainforest": 46,
+      "coast": 629,
+      "savannah": 443
+    },
+    "validVotes": 1118,
+    "invalidVotes": 14,
+    "totalVotes": 1132,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1132,
+    "remainingVotes": 479,
+    "eligibleVoters": 1611,
+    "voterTurnout": 70.2669
+  }
+]

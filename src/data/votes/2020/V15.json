@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 58,
+      "coast": 1785,
+      "savannah": 341
+    },
+    "validVotes": 2184,
+    "invalidVotes": 12,
+    "totalVotes": 2196,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2196,
+    "remainingVotes": 691,
+    "eligibleVoters": 2887,
+    "voterTurnout": 76.0651
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "嘉蘭村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 679,
+      "savannah": 156
+    },
+    "validVotes": 857,
+    "invalidVotes": 3,
+    "totalVotes": 860,
+    "receivedUnvoted": 0,
+    "issuedVotes": 860,
+    "remainingVotes": 325,
+    "eligibleVoters": 1185,
+    "voterTurnout": 72.5738
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "正興村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 365,
+      "savannah": 65
+    },
+    "validVotes": 447,
+    "invalidVotes": 1,
+    "totalVotes": 448,
+    "receivedUnvoted": 0,
+    "issuedVotes": 448,
+    "remainingVotes": 132,
+    "eligibleVoters": 580,
+    "voterTurnout": 77.2414
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "新興村",
+    "candidateVotes": {
+      "rainforest": 4,
+      "coast": 324,
+      "savannah": 71
+    },
+    "validVotes": 399,
+    "invalidVotes": 3,
+    "totalVotes": 402,
+    "receivedUnvoted": 0,
+    "issuedVotes": 402,
+    "remainingVotes": 92,
+    "eligibleVoters": 494,
+    "voterTurnout": 81.3765
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "賓茂村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 213,
+      "savannah": 25
+    },
+    "validVotes": 246,
+    "invalidVotes": 2,
+    "totalVotes": 248,
+    "receivedUnvoted": 0,
+    "issuedVotes": 248,
+    "remainingVotes": 66,
+    "eligibleVoters": 314,
+    "voterTurnout": 78.9809
+  },
+  {
+    "administrativeDivision": "金峰鄉",
+    "village": "歷坵村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 204,
+      "savannah": 24
+    },
+    "validVotes": 235,
+    "invalidVotes": 3,
+    "totalVotes": 238,
+    "receivedUnvoted": 0,
+    "issuedVotes": 238,
+    "remainingVotes": 76,
+    "eligibleVoters": 314,
+    "voterTurnout": 75.7962
+  }
+]

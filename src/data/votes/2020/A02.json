@@ -1,0 +1,920 @@
+[
+  {
+    "administrativeDivision": "大安區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 7534,
+      "coast": 85490,
+      "savannah": 88977
+    },
+    "validVotes": 182001,
+    "invalidVotes": 2501,
+    "totalVotes": 184502,
+    "receivedUnvoted": 22,
+    "issuedVotes": 184524,
+    "remainingVotes": 62035,
+    "eligibleVoters": 246559,
+    "voterTurnout": 74.8308
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "德安里",
+    "candidateVotes": {
+      "rainforest": 128,
+      "coast": 1788,
+      "savannah": 1540
+    },
+    "validVotes": 3456,
+    "invalidVotes": 37,
+    "totalVotes": 3493,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3493,
+    "remainingVotes": 1280,
+    "eligibleVoters": 4773,
+    "voterTurnout": 73.1825
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "仁慈里",
+    "candidateVotes": {
+      "rainforest": 129,
+      "coast": 1396,
+      "savannah": 1762
+    },
+    "validVotes": 3287,
+    "invalidVotes": 43,
+    "totalVotes": 3330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3330,
+    "remainingVotes": 995,
+    "eligibleVoters": 4325,
+    "voterTurnout": 76.9942
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "和安里",
+    "candidateVotes": {
+      "rainforest": 191,
+      "coast": 1975,
+      "savannah": 1971
+    },
+    "validVotes": 4137,
+    "invalidVotes": 65,
+    "totalVotes": 4202,
+    "receivedUnvoted": 1,
+    "issuedVotes": 4203,
+    "remainingVotes": 1337,
+    "eligibleVoters": 5540,
+    "voterTurnout": 75.8484
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "民炤里",
+    "candidateVotes": {
+      "rainforest": 196,
+      "coast": 2106,
+      "savannah": 2561
+    },
+    "validVotes": 4863,
+    "invalidVotes": 73,
+    "totalVotes": 4936,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4936,
+    "remainingVotes": 1731,
+    "eligibleVoters": 6667,
+    "voterTurnout": 74.0363
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "rainforest": 96,
+      "coast": 1437,
+      "savannah": 1446
+    },
+    "validVotes": 2979,
+    "invalidVotes": 34,
+    "totalVotes": 3013,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3013,
+    "remainingVotes": 1349,
+    "eligibleVoters": 4362,
+    "voterTurnout": 69.0738
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "義村里",
+    "candidateVotes": {
+      "rainforest": 158,
+      "coast": 2032,
+      "savannah": 1472
+    },
+    "validVotes": 3662,
+    "invalidVotes": 45,
+    "totalVotes": 3707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3707,
+    "remainingVotes": 1184,
+    "eligibleVoters": 4891,
+    "voterTurnout": 75.7923
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "民輝里",
+    "candidateVotes": {
+      "rainforest": 146,
+      "coast": 1868,
+      "savannah": 2204
+    },
+    "validVotes": 4218,
+    "invalidVotes": 68,
+    "totalVotes": 4286,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4286,
+    "remainingVotes": 1494,
+    "eligibleVoters": 5780,
+    "voterTurnout": 74.1522
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "昌隆里",
+    "candidateVotes": {
+      "rainforest": 74,
+      "coast": 873,
+      "savannah": 1085
+    },
+    "validVotes": 2032,
+    "invalidVotes": 34,
+    "totalVotes": 2066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2066,
+    "remainingVotes": 723,
+    "eligibleVoters": 2789,
+    "voterTurnout": 74.0767
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "誠安里",
+    "candidateVotes": {
+      "rainforest": 104,
+      "coast": 1121,
+      "savannah": 1291
+    },
+    "validVotes": 2516,
+    "invalidVotes": 39,
+    "totalVotes": 2555,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2555,
+    "remainingVotes": 1017,
+    "eligibleVoters": 3572,
+    "voterTurnout": 71.5286
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "光武里",
+    "candidateVotes": {
+      "rainforest": 179,
+      "coast": 2076,
+      "savannah": 2230
+    },
+    "validVotes": 4485,
+    "invalidVotes": 82,
+    "totalVotes": 4567,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4567,
+    "remainingVotes": 1727,
+    "eligibleVoters": 6294,
+    "voterTurnout": 72.5612
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍坡里",
+    "candidateVotes": {
+      "rainforest": 167,
+      "coast": 1658,
+      "savannah": 1691
+    },
+    "validVotes": 3516,
+    "invalidVotes": 54,
+    "totalVotes": 3570,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3571,
+    "remainingVotes": 1128,
+    "eligibleVoters": 4699,
+    "voterTurnout": 75.9736
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍泉里",
+    "candidateVotes": {
+      "rainforest": 133,
+      "coast": 1307,
+      "savannah": 1603
+    },
+    "validVotes": 3043,
+    "invalidVotes": 30,
+    "totalVotes": 3073,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3075,
+    "remainingVotes": 965,
+    "eligibleVoters": 4040,
+    "voterTurnout": 76.0644
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "古風里",
+    "candidateVotes": {
+      "rainforest": 116,
+      "coast": 1178,
+      "savannah": 1399
+    },
+    "validVotes": 2693,
+    "invalidVotes": 41,
+    "totalVotes": 2734,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2735,
+    "remainingVotes": 828,
+    "eligibleVoters": 3563,
+    "voterTurnout": 76.7331
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "古莊里",
+    "candidateVotes": {
+      "rainforest": 196,
+      "coast": 2008,
+      "savannah": 2351
+    },
+    "validVotes": 4555,
+    "invalidVotes": 57,
+    "totalVotes": 4612,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4612,
+    "remainingVotes": 1482,
+    "eligibleVoters": 6094,
+    "voterTurnout": 75.681
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍安里",
+    "candidateVotes": {
+      "rainforest": 157,
+      "coast": 1789,
+      "savannah": 2092
+    },
+    "validVotes": 4038,
+    "invalidVotes": 59,
+    "totalVotes": 4097,
+    "receivedUnvoted": 1,
+    "issuedVotes": 4098,
+    "remainingVotes": 2497,
+    "eligibleVoters": 6595,
+    "voterTurnout": 62.1228
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "錦安里",
+    "candidateVotes": {
+      "rainforest": 145,
+      "coast": 1650,
+      "savannah": 1753
+    },
+    "validVotes": 3548,
+    "invalidVotes": 53,
+    "totalVotes": 3601,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3603,
+    "remainingVotes": 1170,
+    "eligibleVoters": 4773,
+    "voterTurnout": 75.4452
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "福住里",
+    "candidateVotes": {
+      "rainforest": 167,
+      "coast": 1587,
+      "savannah": 1975
+    },
+    "validVotes": 3729,
+    "invalidVotes": 71,
+    "totalVotes": 3800,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3800,
+    "remainingVotes": 1254,
+    "eligibleVoters": 5054,
+    "voterTurnout": 75.188
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "永康里",
+    "candidateVotes": {
+      "rainforest": 115,
+      "coast": 1060,
+      "savannah": 1082
+    },
+    "validVotes": 2257,
+    "invalidVotes": 32,
+    "totalVotes": 2289,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2289,
+    "remainingVotes": 732,
+    "eligibleVoters": 3021,
+    "voterTurnout": 75.7696
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "光明里",
+    "candidateVotes": {
+      "rainforest": 86,
+      "coast": 939,
+      "savannah": 1158
+    },
+    "validVotes": 2183,
+    "invalidVotes": 31,
+    "totalVotes": 2214,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2214,
+    "remainingVotes": 702,
+    "eligibleVoters": 2916,
+    "voterTurnout": 75.9259
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "錦泰里",
+    "candidateVotes": {
+      "rainforest": 80,
+      "coast": 1106,
+      "savannah": 1067
+    },
+    "validVotes": 2253,
+    "invalidVotes": 22,
+    "totalVotes": 2275,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2275,
+    "remainingVotes": 671,
+    "eligibleVoters": 2946,
+    "voterTurnout": 77.2234
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "錦華里",
+    "candidateVotes": {
+      "rainforest": 155,
+      "coast": 1600,
+      "savannah": 1807
+    },
+    "validVotes": 3562,
+    "invalidVotes": 52,
+    "totalVotes": 3614,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3614,
+    "remainingVotes": 971,
+    "eligibleVoters": 4585,
+    "voterTurnout": 78.8222
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍圖里",
+    "candidateVotes": {
+      "rainforest": 165,
+      "coast": 2072,
+      "savannah": 1993
+    },
+    "validVotes": 4230,
+    "invalidVotes": 58,
+    "totalVotes": 4288,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4288,
+    "remainingVotes": 1466,
+    "eligibleVoters": 5754,
+    "voterTurnout": 74.5221
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "新龍里",
+    "candidateVotes": {
+      "rainforest": 194,
+      "coast": 2423,
+      "savannah": 1691
+    },
+    "validVotes": 4308,
+    "invalidVotes": 63,
+    "totalVotes": 4371,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4371,
+    "remainingVotes": 1197,
+    "eligibleVoters": 5568,
+    "voterTurnout": 78.5022
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍陣里",
+    "candidateVotes": {
+      "rainforest": 79,
+      "coast": 1069,
+      "savannah": 1070
+    },
+    "validVotes": 2218,
+    "invalidVotes": 31,
+    "totalVotes": 2249,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2249,
+    "remainingVotes": 735,
+    "eligibleVoters": 2984,
+    "voterTurnout": 75.3686
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍雲里",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1373,
+      "savannah": 1551
+    },
+    "validVotes": 3043,
+    "invalidVotes": 32,
+    "totalVotes": 3075,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3075,
+    "remainingVotes": 1012,
+    "eligibleVoters": 4087,
+    "voterTurnout": 75.2386
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍生里",
+    "candidateVotes": {
+      "rainforest": 183,
+      "coast": 1954,
+      "savannah": 1946
+    },
+    "validVotes": 4083,
+    "invalidVotes": 59,
+    "totalVotes": 4142,
+    "receivedUnvoted": 5,
+    "issuedVotes": 4147,
+    "remainingVotes": 1243,
+    "eligibleVoters": 5390,
+    "voterTurnout": 76.846
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "住安里",
+    "candidateVotes": {
+      "rainforest": 115,
+      "coast": 1529,
+      "savannah": 1469
+    },
+    "validVotes": 3113,
+    "invalidVotes": 54,
+    "totalVotes": 3167,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3167,
+    "remainingVotes": 1232,
+    "eligibleVoters": 4399,
+    "voterTurnout": 71.9936
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "義安里",
+    "candidateVotes": {
+      "rainforest": 145,
+      "coast": 1640,
+      "savannah": 1547
+    },
+    "validVotes": 3332,
+    "invalidVotes": 37,
+    "totalVotes": 3369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3369,
+    "remainingVotes": 1197,
+    "eligibleVoters": 4566,
+    "voterTurnout": 73.7845
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "通化里",
+    "candidateVotes": {
+      "rainforest": 185,
+      "coast": 1563,
+      "savannah": 2209
+    },
+    "validVotes": 3957,
+    "invalidVotes": 52,
+    "totalVotes": 4009,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4009,
+    "remainingVotes": 1326,
+    "eligibleVoters": 5335,
+    "voterTurnout": 75.1453
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "通安里",
+    "candidateVotes": {
+      "rainforest": 148,
+      "coast": 1585,
+      "savannah": 1743
+    },
+    "validVotes": 3476,
+    "invalidVotes": 47,
+    "totalVotes": 3523,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3523,
+    "remainingVotes": 1116,
+    "eligibleVoters": 4639,
+    "voterTurnout": 75.9431
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "臨江里",
+    "candidateVotes": {
+      "rainforest": 126,
+      "coast": 1199,
+      "savannah": 1343
+    },
+    "validVotes": 2668,
+    "invalidVotes": 32,
+    "totalVotes": 2700,
+    "receivedUnvoted": 3,
+    "issuedVotes": 2703,
+    "remainingVotes": 860,
+    "eligibleVoters": 3563,
+    "voterTurnout": 75.7788
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "法治里",
+    "candidateVotes": {
+      "rainforest": 109,
+      "coast": 1418,
+      "savannah": 1285
+    },
+    "validVotes": 2812,
+    "invalidVotes": 45,
+    "totalVotes": 2857,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2857,
+    "remainingVotes": 962,
+    "eligibleVoters": 3819,
+    "voterTurnout": 74.8102
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "全安里",
+    "candidateVotes": {
+      "rainforest": 100,
+      "coast": 1330,
+      "savannah": 1276
+    },
+    "validVotes": 2706,
+    "invalidVotes": 36,
+    "totalVotes": 2742,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2742,
+    "remainingVotes": 994,
+    "eligibleVoters": 3736,
+    "voterTurnout": 73.394
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "群賢里",
+    "candidateVotes": {
+      "rainforest": 159,
+      "coast": 1861,
+      "savannah": 1696
+    },
+    "validVotes": 3716,
+    "invalidVotes": 57,
+    "totalVotes": 3773,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3773,
+    "remainingVotes": 1247,
+    "eligibleVoters": 5020,
+    "voterTurnout": 75.1594
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "群英里",
+    "candidateVotes": {
+      "rainforest": 220,
+      "coast": 2769,
+      "savannah": 1568
+    },
+    "validVotes": 4557,
+    "invalidVotes": 65,
+    "totalVotes": 4622,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4622,
+    "remainingVotes": 1308,
+    "eligibleVoters": 5930,
+    "voterTurnout": 77.9427
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "虎嘯里",
+    "candidateVotes": {
+      "rainforest": 122,
+      "coast": 1147,
+      "savannah": 1158
+    },
+    "validVotes": 2427,
+    "invalidVotes": 43,
+    "totalVotes": 2470,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2471,
+    "remainingVotes": 790,
+    "eligibleVoters": 3261,
+    "voterTurnout": 75.7436
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "臥龍里",
+    "candidateVotes": {
+      "rainforest": 60,
+      "coast": 640,
+      "savannah": 620
+    },
+    "validVotes": 1320,
+    "invalidVotes": 15,
+    "totalVotes": 1335,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1335,
+    "remainingVotes": 408,
+    "eligibleVoters": 1743,
+    "voterTurnout": 76.5921
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍淵里",
+    "candidateVotes": {
+      "rainforest": 232,
+      "coast": 2550,
+      "savannah": 2951
+    },
+    "validVotes": 5733,
+    "invalidVotes": 90,
+    "totalVotes": 5823,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5823,
+    "remainingVotes": 1656,
+    "eligibleVoters": 7479,
+    "voterTurnout": 77.858
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "龍門里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 1226,
+      "savannah": 1350
+    },
+    "validVotes": 2677,
+    "invalidVotes": 19,
+    "totalVotes": 2696,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2696,
+    "remainingVotes": 851,
+    "eligibleVoters": 3547,
+    "voterTurnout": 76.0079
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "大學里",
+    "candidateVotes": {
+      "rainforest": 236,
+      "coast": 2488,
+      "savannah": 2688
+    },
+    "validVotes": 5412,
+    "invalidVotes": 73,
+    "totalVotes": 5485,
+    "receivedUnvoted": 1,
+    "issuedVotes": 5486,
+    "remainingVotes": 1650,
+    "eligibleVoters": 7136,
+    "voterTurnout": 76.8638
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "芳和里",
+    "candidateVotes": {
+      "rainforest": 140,
+      "coast": 1754,
+      "savannah": 1796
+    },
+    "validVotes": 3690,
+    "invalidVotes": 44,
+    "totalVotes": 3734,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3734,
+    "remainingVotes": 1207,
+    "eligibleVoters": 4941,
+    "voterTurnout": 75.5717
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "黎元里",
+    "candidateVotes": {
+      "rainforest": 139,
+      "coast": 1557,
+      "savannah": 1844
+    },
+    "validVotes": 3540,
+    "invalidVotes": 44,
+    "totalVotes": 3584,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3584,
+    "remainingVotes": 1100,
+    "eligibleVoters": 4684,
+    "voterTurnout": 76.5158
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "黎孝里",
+    "candidateVotes": {
+      "rainforest": 235,
+      "coast": 2307,
+      "savannah": 2562
+    },
+    "validVotes": 5104,
+    "invalidVotes": 76,
+    "totalVotes": 5180,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5180,
+    "remainingVotes": 1440,
+    "eligibleVoters": 6620,
+    "voterTurnout": 78.2477
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "黎和里",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1575,
+      "savannah": 1451
+    },
+    "validVotes": 3145,
+    "invalidVotes": 29,
+    "totalVotes": 3174,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3176,
+    "remainingVotes": 954,
+    "eligibleVoters": 4130,
+    "voterTurnout": 76.8523
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "建安里",
+    "candidateVotes": {
+      "rainforest": 124,
+      "coast": 1398,
+      "savannah": 1410
+    },
+    "validVotes": 2932,
+    "invalidVotes": 32,
+    "totalVotes": 2964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2964,
+    "remainingVotes": 1160,
+    "eligibleVoters": 4124,
+    "voterTurnout": 71.872
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "建倫里",
+    "candidateVotes": {
+      "rainforest": 132,
+      "coast": 1733,
+      "savannah": 1785
+    },
+    "validVotes": 3650,
+    "invalidVotes": 48,
+    "totalVotes": 3698,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3698,
+    "remainingVotes": 1471,
+    "eligibleVoters": 5169,
+    "voterTurnout": 71.5419
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "敦安里",
+    "candidateVotes": {
+      "rainforest": 146,
+      "coast": 1694,
+      "savannah": 1942
+    },
+    "validVotes": 3782,
+    "invalidVotes": 36,
+    "totalVotes": 3818,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3820,
+    "remainingVotes": 1366,
+    "eligibleVoters": 5186,
+    "voterTurnout": 73.6213
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "正聲里",
+    "candidateVotes": {
+      "rainforest": 125,
+      "coast": 1394,
+      "savannah": 1330
+    },
+    "validVotes": 2849,
+    "invalidVotes": 48,
+    "totalVotes": 2897,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2897,
+    "remainingVotes": 1106,
+    "eligibleVoters": 4003,
+    "voterTurnout": 72.3707
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "敦煌里",
+    "candidateVotes": {
+      "rainforest": 157,
+      "coast": 1629,
+      "savannah": 1895
+    },
+    "validVotes": 3681,
+    "invalidVotes": 48,
+    "totalVotes": 3729,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3729,
+    "remainingVotes": 1256,
+    "eligibleVoters": 4985,
+    "voterTurnout": 74.8044
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "華聲里",
+    "candidateVotes": {
+      "rainforest": 102,
+      "coast": 1240,
+      "savannah": 1255
+    },
+    "validVotes": 2597,
+    "invalidVotes": 42,
+    "totalVotes": 2639,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2639,
+    "remainingVotes": 944,
+    "eligibleVoters": 3583,
+    "voterTurnout": 73.6534
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "車層里",
+    "candidateVotes": {
+      "rainforest": 140,
+      "coast": 1797,
+      "savannah": 1944
+    },
+    "validVotes": 3881,
+    "invalidVotes": 39,
+    "totalVotes": 3920,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3920,
+    "remainingVotes": 1394,
+    "eligibleVoters": 5314,
+    "voterTurnout": 73.7674
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "光信里",
+    "candidateVotes": {
+      "rainforest": 196,
+      "coast": 2175,
+      "savannah": 2345
+    },
+    "validVotes": 4716,
+    "invalidVotes": 64,
+    "totalVotes": 4780,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4780,
+    "remainingVotes": 1559,
+    "eligibleVoters": 6339,
+    "voterTurnout": 75.4062
+  },
+  {
+    "administrativeDivision": "大安區",
+    "village": "學府里",
+    "candidateVotes": {
+      "rainforest": 63,
+      "coast": 847,
+      "savannah": 724
+    },
+    "validVotes": 1634,
+    "invalidVotes": 21,
+    "totalVotes": 1655,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1655,
+    "remainingVotes": 591,
+    "eligibleVoters": 2246,
+    "voterTurnout": 73.6866
+  }
+]

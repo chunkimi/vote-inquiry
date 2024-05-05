@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 846,
+      "coast": 7404,
+      "savannah": 13350
+    },
+    "validVotes": 21600,
+    "invalidVotes": 220,
+    "totalVotes": 21820,
+    "receivedUnvoted": 0,
+    "issuedVotes": 21820,
+    "remainingVotes": 8387,
+    "eligibleVoters": 30207,
+    "voterTurnout": 72.2349
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "竹崎村",
+    "candidateVotes": {
+      "rainforest": 77,
+      "coast": 616,
+      "savannah": 1094
+    },
+    "validVotes": 1787,
+    "invalidVotes": 21,
+    "totalVotes": 1808,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1808,
+    "remainingVotes": 582,
+    "eligibleVoters": 2390,
+    "voterTurnout": 75.6485
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "和平村",
+    "candidateVotes": {
+      "rainforest": 67,
+      "coast": 486,
+      "savannah": 946
+    },
+    "validVotes": 1499,
+    "invalidVotes": 13,
+    "totalVotes": 1512,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1512,
+    "remainingVotes": 605,
+    "eligibleVoters": 2117,
+    "voterTurnout": 71.4218
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "坑頭村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 172,
+      "savannah": 314
+    },
+    "validVotes": 503,
+    "invalidVotes": 5,
+    "totalVotes": 508,
+    "receivedUnvoted": 0,
+    "issuedVotes": 508,
+    "remainingVotes": 220,
+    "eligibleVoters": 728,
+    "voterTurnout": 69.7802
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "沙坑村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 152,
+      "savannah": 423
+    },
+    "validVotes": 591,
+    "invalidVotes": 13,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 207,
+    "eligibleVoters": 811,
+    "voterTurnout": 74.476
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "獅埜村",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 263,
+      "savannah": 607
+    },
+    "validVotes": 897,
+    "invalidVotes": 7,
+    "totalVotes": 904,
+    "receivedUnvoted": 0,
+    "issuedVotes": 904,
+    "remainingVotes": 281,
+    "eligibleVoters": 1185,
+    "voterTurnout": 76.2869
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "義和村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 153,
+      "savannah": 305
+    },
+    "validVotes": 477,
+    "invalidVotes": 3,
+    "totalVotes": 480,
+    "receivedUnvoted": 0,
+    "issuedVotes": 480,
+    "remainingVotes": 112,
+    "eligibleVoters": 592,
+    "voterTurnout": 81.0811
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "義仁村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 226,
+      "savannah": 466
+    },
+    "validVotes": 716,
+    "invalidVotes": 5,
+    "totalVotes": 721,
+    "receivedUnvoted": 0,
+    "issuedVotes": 721,
+    "remainingVotes": 288,
+    "eligibleVoters": 1009,
+    "voterTurnout": 71.4569
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "灣橋村",
+    "candidateVotes": {
+      "rainforest": 136,
+      "coast": 1356,
+      "savannah": 2231
+    },
+    "validVotes": 3723,
+    "invalidVotes": 25,
+    "totalVotes": 3748,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3748,
+    "remainingVotes": 1391,
+    "eligibleVoters": 5139,
+    "voterTurnout": 72.9325
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "鹿滿村",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 337,
+      "savannah": 644
+    },
+    "validVotes": 1017,
+    "invalidVotes": 16,
+    "totalVotes": 1033,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1033,
+    "remainingVotes": 350,
+    "eligibleVoters": 1383,
+    "voterTurnout": 74.6927
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "紫雲村",
+    "candidateVotes": {
+      "rainforest": 54,
+      "coast": 334,
+      "savannah": 577
+    },
+    "validVotes": 965,
+    "invalidVotes": 8,
+    "totalVotes": 973,
+    "receivedUnvoted": 0,
+    "issuedVotes": 973,
+    "remainingVotes": 395,
+    "eligibleVoters": 1368,
+    "voterTurnout": 71.1257
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "內埔村",
+    "candidateVotes": {
+      "rainforest": 56,
+      "coast": 373,
+      "savannah": 717
+    },
+    "validVotes": 1146,
+    "invalidVotes": 11,
+    "totalVotes": 1157,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1157,
+    "remainingVotes": 390,
+    "eligibleVoters": 1547,
+    "voterTurnout": 74.7899
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "昇平村",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 406,
+      "savannah": 718
+    },
+    "validVotes": 1160,
+    "invalidVotes": 16,
+    "totalVotes": 1176,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1176,
+    "remainingVotes": 536,
+    "eligibleVoters": 1712,
+    "voterTurnout": 68.6916
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "桃源村",
+    "candidateVotes": {
+      "rainforest": 23,
+      "coast": 258,
+      "savannah": 404
+    },
+    "validVotes": 685,
+    "invalidVotes": 6,
+    "totalVotes": 691,
+    "receivedUnvoted": 0,
+    "issuedVotes": 691,
+    "remainingVotes": 291,
+    "eligibleVoters": 982,
+    "voterTurnout": 70.3666
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "白杞村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 190,
+      "savannah": 241
+    },
+    "validVotes": 450,
+    "invalidVotes": 6,
+    "totalVotes": 456,
+    "receivedUnvoted": 0,
+    "issuedVotes": 456,
+    "remainingVotes": 171,
+    "eligibleVoters": 627,
+    "voterTurnout": 72.7273
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "塘興村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 262,
+      "savannah": 304
+    },
+    "validVotes": 592,
+    "invalidVotes": 9,
+    "totalVotes": 601,
+    "receivedUnvoted": 0,
+    "issuedVotes": 601,
+    "remainingVotes": 230,
+    "eligibleVoters": 831,
+    "voterTurnout": 72.3225
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "義隆村",
+    "candidateVotes": {
+      "rainforest": 22,
+      "coast": 177,
+      "savannah": 250
+    },
+    "validVotes": 449,
+    "invalidVotes": 10,
+    "totalVotes": 459,
+    "receivedUnvoted": 0,
+    "issuedVotes": 459,
+    "remainingVotes": 157,
+    "eligibleVoters": 616,
+    "voterTurnout": 74.513
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "龍山村",
+    "candidateVotes": {
+      "rainforest": 41,
+      "coast": 348,
+      "savannah": 839
+    },
+    "validVotes": 1228,
+    "invalidVotes": 9,
+    "totalVotes": 1237,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1237,
+    "remainingVotes": 468,
+    "eligibleVoters": 1705,
+    "voterTurnout": 72.5513
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "文峯村",
+    "candidateVotes": {
+      "rainforest": 19,
+      "coast": 149,
+      "savannah": 255
+    },
+    "validVotes": 423,
+    "invalidVotes": 2,
+    "totalVotes": 425,
+    "receivedUnvoted": 0,
+    "issuedVotes": 425,
+    "remainingVotes": 211,
+    "eligibleVoters": 636,
+    "voterTurnout": 66.8239
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "金獅村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 101,
+      "savannah": 172
+    },
+    "validVotes": 291,
+    "invalidVotes": 4,
+    "totalVotes": 295,
+    "receivedUnvoted": 0,
+    "issuedVotes": 295,
+    "remainingVotes": 110,
+    "eligibleVoters": 405,
+    "voterTurnout": 72.8395
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "復金村",
+    "candidateVotes": {
+      "rainforest": 45,
+      "coast": 435,
+      "savannah": 822
+    },
+    "validVotes": 1302,
+    "invalidVotes": 17,
+    "totalVotes": 1319,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1319,
+    "remainingVotes": 516,
+    "eligibleVoters": 1835,
+    "voterTurnout": 71.8801
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "緞繻村",
+    "candidateVotes": {
+      "rainforest": 21,
+      "coast": 227,
+      "savannah": 328
+    },
+    "validVotes": 576,
+    "invalidVotes": 3,
+    "totalVotes": 579,
+    "receivedUnvoted": 0,
+    "issuedVotes": 579,
+    "remainingVotes": 320,
+    "eligibleVoters": 899,
+    "voterTurnout": 64.4049
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "仁壽村",
+    "candidateVotes": {
+      "rainforest": 1,
+      "coast": 27,
+      "savannah": 94
+    },
+    "validVotes": 122,
+    "invalidVotes": 4,
+    "totalVotes": 126,
+    "receivedUnvoted": 0,
+    "issuedVotes": 126,
+    "remainingVotes": 102,
+    "eligibleVoters": 228,
+    "voterTurnout": 55.2632
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "中和村",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 181,
+      "savannah": 333
+    },
+    "validVotes": 543,
+    "invalidVotes": 5,
+    "totalVotes": 548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 548,
+    "remainingVotes": 221,
+    "eligibleVoters": 769,
+    "voterTurnout": 71.2614
+  },
+  {
+    "administrativeDivision": "竹崎鄉",
+    "village": "光華村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 175,
+      "savannah": 266
+    },
+    "validVotes": 458,
+    "invalidVotes": 2,
+    "totalVotes": 460,
+    "receivedUnvoted": 0,
+    "issuedVotes": 460,
+    "remainingVotes": 233,
+    "eligibleVoters": 693,
+    "voterTurnout": 66.3781
+  }
+]

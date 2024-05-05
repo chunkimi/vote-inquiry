@@ -1,0 +1,308 @@
+[
+  {
+    "administrativeDivision": "大肚區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 9504,
+      "savannah": 17025,
+      "rainforest": 4955
+    },
+    "validVotes": 31484,
+    "invalidVotes": 527,
+    "totalVotes": 32011,
+    "receivedUnvoted": 1,
+    "issuedVotes": 32012,
+    "remainingVotes": 12626,
+    "eligibleVoters": 44638,
+    "voterTurnout": 71.70999908447266
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "王田里",
+    "candidateVotes": {
+      "coast": 764,
+      "savannah": 1651,
+      "rainforest": 448
+    },
+    "validVotes": 2863,
+    "invalidVotes": 49,
+    "totalVotes": 2912,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2912,
+    "remainingVotes": 1132,
+    "eligibleVoters": 4044,
+    "voterTurnout": 72.01000213623047
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "中和里",
+    "candidateVotes": {
+      "coast": 154,
+      "savannah": 372,
+      "rainforest": 92
+    },
+    "validVotes": 618,
+    "invalidVotes": 15,
+    "totalVotes": 633,
+    "receivedUnvoted": 0,
+    "issuedVotes": 633,
+    "remainingVotes": 207,
+    "eligibleVoters": 840,
+    "voterTurnout": 75.36000061035156
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "福山里",
+    "candidateVotes": {
+      "coast": 705,
+      "savannah": 1460,
+      "rainforest": 349
+    },
+    "validVotes": 2514,
+    "invalidVotes": 47,
+    "totalVotes": 2561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2561,
+    "remainingVotes": 941,
+    "eligibleVoters": 3502,
+    "voterTurnout": 73.12999725341797
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "營埔里",
+    "candidateVotes": {
+      "coast": 284,
+      "savannah": 551,
+      "rainforest": 175
+    },
+    "validVotes": 1010,
+    "invalidVotes": 21,
+    "totalVotes": 1031,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1031,
+    "remainingVotes": 366,
+    "eligibleVoters": 1397,
+    "voterTurnout": 73.80000305175781
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "社腳里",
+    "candidateVotes": {
+      "coast": 546,
+      "savannah": 840,
+      "rainforest": 275
+    },
+    "validVotes": 1661,
+    "invalidVotes": 33,
+    "totalVotes": 1694,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1694,
+    "remainingVotes": 651,
+    "eligibleVoters": 2345,
+    "voterTurnout": 72.23999786376953
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "新興里",
+    "candidateVotes": {
+      "coast": 601,
+      "savannah": 866,
+      "rainforest": 314
+    },
+    "validVotes": 1781,
+    "invalidVotes": 31,
+    "totalVotes": 1812,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1812,
+    "remainingVotes": 707,
+    "eligibleVoters": 2519,
+    "voterTurnout": 71.93000030517578
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "大東里",
+    "candidateVotes": {
+      "coast": 700,
+      "savannah": 1041,
+      "rainforest": 268
+    },
+    "validVotes": 2009,
+    "invalidVotes": 33,
+    "totalVotes": 2042,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2042,
+    "remainingVotes": 816,
+    "eligibleVoters": 2858,
+    "voterTurnout": 71.44999694824219
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "大肚里",
+    "candidateVotes": {
+      "coast": 512,
+      "savannah": 730,
+      "rainforest": 178
+    },
+    "validVotes": 1420,
+    "invalidVotes": 19,
+    "totalVotes": 1439,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1439,
+    "remainingVotes": 489,
+    "eligibleVoters": 1928,
+    "voterTurnout": 74.63999938964844
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "永和里",
+    "candidateVotes": {
+      "coast": 209,
+      "savannah": 309,
+      "rainforest": 81
+    },
+    "validVotes": 599,
+    "invalidVotes": 8,
+    "totalVotes": 607,
+    "receivedUnvoted": 0,
+    "issuedVotes": 607,
+    "remainingVotes": 214,
+    "eligibleVoters": 821,
+    "voterTurnout": 73.93000030517578
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "磺溪里",
+    "candidateVotes": {
+      "coast": 353,
+      "savannah": 570,
+      "rainforest": 173
+    },
+    "validVotes": 1096,
+    "invalidVotes": 22,
+    "totalVotes": 1118,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1118,
+    "remainingVotes": 469,
+    "eligibleVoters": 1587,
+    "voterTurnout": 70.44999694824219
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "永順里",
+    "candidateVotes": {
+      "coast": 335,
+      "savannah": 666,
+      "rainforest": 147
+    },
+    "validVotes": 1148,
+    "invalidVotes": 17,
+    "totalVotes": 1165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1165,
+    "remainingVotes": 411,
+    "eligibleVoters": 1576,
+    "voterTurnout": 73.91999816894531
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "成功里",
+    "candidateVotes": {
+      "coast": 219,
+      "savannah": 317,
+      "rainforest": 134
+    },
+    "validVotes": 670,
+    "invalidVotes": 11,
+    "totalVotes": 681,
+    "receivedUnvoted": 0,
+    "issuedVotes": 681,
+    "remainingVotes": 238,
+    "eligibleVoters": 919,
+    "voterTurnout": 74.0999984741211
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "山陽里",
+    "candidateVotes": {
+      "coast": 271,
+      "savannah": 535,
+      "rainforest": 131
+    },
+    "validVotes": 937,
+    "invalidVotes": 22,
+    "totalVotes": 959,
+    "receivedUnvoted": 0,
+    "issuedVotes": 959,
+    "remainingVotes": 325,
+    "eligibleVoters": 1284,
+    "voterTurnout": 74.69000244140625
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "頂街里",
+    "candidateVotes": {
+      "coast": 1438,
+      "savannah": 2402,
+      "rainforest": 772
+    },
+    "validVotes": 4612,
+    "invalidVotes": 70,
+    "totalVotes": 4682,
+    "receivedUnvoted": 1,
+    "issuedVotes": 4683,
+    "remainingVotes": 1924,
+    "eligibleVoters": 6607,
+    "voterTurnout": 70.86000061035156
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "瑞井里",
+    "candidateVotes": {
+      "coast": 870,
+      "savannah": 1796,
+      "rainforest": 569
+    },
+    "validVotes": 3235,
+    "invalidVotes": 57,
+    "totalVotes": 3292,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3292,
+    "remainingVotes": 1325,
+    "eligibleVoters": 4617,
+    "voterTurnout": 71.30000305175781
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "蔗廍里",
+    "candidateVotes": {
+      "coast": 704,
+      "savannah": 1793,
+      "rainforest": 468
+    },
+    "validVotes": 2965,
+    "invalidVotes": 43,
+    "totalVotes": 3008,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3008,
+    "remainingVotes": 1412,
+    "eligibleVoters": 4420,
+    "voterTurnout": 68.05000305175781
+  },
+  {
+    "administrativeDivision": "大肚區",
+    "village": "自強里",
+    "candidateVotes": {
+      "coast": 839,
+      "savannah": 1126,
+      "rainforest": 381
+    },
+    "validVotes": 2346,
+    "invalidVotes": 29,
+    "totalVotes": 2375,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2375,
+    "remainingVotes": 999,
+    "eligibleVoters": 3374,
+    "voterTurnout": 70.38999938964844
+  }
+]

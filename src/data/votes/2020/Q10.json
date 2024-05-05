@@ -1,0 +1,393 @@
+[
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 384,
+      "coast": 3616,
+      "savannah": 7615
+    },
+    "validVotes": 11615,
+    "invalidVotes": 167,
+    "totalVotes": 11782,
+    "receivedUnvoted": 0,
+    "issuedVotes": 11782,
+    "remainingVotes": 4215,
+    "eligibleVoters": 15997,
+    "voterTurnout": 73.6513
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "岸腳村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 129,
+      "savannah": 312
+    },
+    "validVotes": 459,
+    "invalidVotes": 8,
+    "totalVotes": 467,
+    "receivedUnvoted": 0,
+    "issuedVotes": 467,
+    "remainingVotes": 201,
+    "eligibleVoters": 668,
+    "voterTurnout": 69.9102
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "義竹村",
+    "candidateVotes": {
+      "rainforest": 46,
+      "coast": 347,
+      "savannah": 694
+    },
+    "validVotes": 1087,
+    "invalidVotes": 11,
+    "totalVotes": 1098,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1098,
+    "remainingVotes": 356,
+    "eligibleVoters": 1454,
+    "voterTurnout": 75.5158
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "六桂村",
+    "candidateVotes": {
+      "rainforest": 24,
+      "coast": 301,
+      "savannah": 506
+    },
+    "validVotes": 831,
+    "invalidVotes": 12,
+    "totalVotes": 843,
+    "receivedUnvoted": 0,
+    "issuedVotes": 843,
+    "remainingVotes": 278,
+    "eligibleVoters": 1121,
+    "voterTurnout": 75.2007
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "仁里村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 247,
+      "savannah": 387
+    },
+    "validVotes": 651,
+    "invalidVotes": 7,
+    "totalVotes": 658,
+    "receivedUnvoted": 0,
+    "issuedVotes": 658,
+    "remainingVotes": 186,
+    "eligibleVoters": 844,
+    "voterTurnout": 77.9621
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "傳芳村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 175,
+      "savannah": 334
+    },
+    "validVotes": 527,
+    "invalidVotes": 8,
+    "totalVotes": 535,
+    "receivedUnvoted": 0,
+    "issuedVotes": 535,
+    "remainingVotes": 191,
+    "eligibleVoters": 726,
+    "voterTurnout": 73.6915
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "頭竹村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 221,
+      "savannah": 655
+    },
+    "validVotes": 892,
+    "invalidVotes": 10,
+    "totalVotes": 902,
+    "receivedUnvoted": 0,
+    "issuedVotes": 902,
+    "remainingVotes": 285,
+    "eligibleVoters": 1187,
+    "voterTurnout": 75.9899
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "五厝村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 95,
+      "savannah": 172
+    },
+    "validVotes": 282,
+    "invalidVotes": 3,
+    "totalVotes": 285,
+    "receivedUnvoted": 0,
+    "issuedVotes": 285,
+    "remainingVotes": 86,
+    "eligibleVoters": 371,
+    "voterTurnout": 76.8194
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "中平村",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 118,
+      "savannah": 180
+    },
+    "validVotes": 310,
+    "invalidVotes": 4,
+    "totalVotes": 314,
+    "receivedUnvoted": 0,
+    "issuedVotes": 314,
+    "remainingVotes": 113,
+    "eligibleVoters": 427,
+    "voterTurnout": 73.5363
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "埤前村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 215,
+      "savannah": 319
+    },
+    "validVotes": 552,
+    "invalidVotes": 7,
+    "totalVotes": 559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 559,
+    "remainingVotes": 162,
+    "eligibleVoters": 721,
+    "voterTurnout": 77.5312
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "平溪村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 84,
+      "savannah": 239
+    },
+    "validVotes": 328,
+    "invalidVotes": 2,
+    "totalVotes": 330,
+    "receivedUnvoted": 0,
+    "issuedVotes": 330,
+    "remainingVotes": 95,
+    "eligibleVoters": 425,
+    "voterTurnout": 77.6471
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "後鎮村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 99,
+      "savannah": 193
+    },
+    "validVotes": 300,
+    "invalidVotes": 5,
+    "totalVotes": 305,
+    "receivedUnvoted": 0,
+    "issuedVotes": 305,
+    "remainingVotes": 114,
+    "eligibleVoters": 419,
+    "voterTurnout": 72.7924
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "北華村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 131,
+      "savannah": 295
+    },
+    "validVotes": 439,
+    "invalidVotes": 10,
+    "totalVotes": 449,
+    "receivedUnvoted": 0,
+    "issuedVotes": 449,
+    "remainingVotes": 131,
+    "eligibleVoters": 580,
+    "voterTurnout": 77.4138
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "新店村",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 296,
+      "savannah": 727
+    },
+    "validVotes": 1053,
+    "invalidVotes": 13,
+    "totalVotes": 1066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1066,
+    "remainingVotes": 371,
+    "eligibleVoters": 1437,
+    "voterTurnout": 74.1823
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "東過村",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 159,
+      "savannah": 364
+    },
+    "validVotes": 558,
+    "invalidVotes": 10,
+    "totalVotes": 568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 568,
+    "remainingVotes": 246,
+    "eligibleVoters": 814,
+    "voterTurnout": 69.7789
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "西過村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 152,
+      "savannah": 357
+    },
+    "validVotes": 522,
+    "invalidVotes": 9,
+    "totalVotes": 531,
+    "receivedUnvoted": 0,
+    "issuedVotes": 531,
+    "remainingVotes": 246,
+    "eligibleVoters": 777,
+    "voterTurnout": 68.3398
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "官和村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 117,
+      "savannah": 418
+    },
+    "validVotes": 552,
+    "invalidVotes": 13,
+    "totalVotes": 565,
+    "receivedUnvoted": 0,
+    "issuedVotes": 565,
+    "remainingVotes": 237,
+    "eligibleVoters": 802,
+    "voterTurnout": 70.4489
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "官順村",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 75,
+      "savannah": 185
+    },
+    "validVotes": 266,
+    "invalidVotes": 4,
+    "totalVotes": 270,
+    "receivedUnvoted": 0,
+    "issuedVotes": 270,
+    "remainingVotes": 140,
+    "eligibleVoters": 410,
+    "voterTurnout": 65.8537
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "新富村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 152,
+      "savannah": 203
+    },
+    "validVotes": 375,
+    "invalidVotes": 8,
+    "totalVotes": 383,
+    "receivedUnvoted": 0,
+    "issuedVotes": 383,
+    "remainingVotes": 150,
+    "eligibleVoters": 533,
+    "voterTurnout": 71.8574
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "東光村",
+    "candidateVotes": {
+      "rainforest": 15,
+      "coast": 166,
+      "savannah": 332
+    },
+    "validVotes": 513,
+    "invalidVotes": 11,
+    "totalVotes": 524,
+    "receivedUnvoted": 0,
+    "issuedVotes": 524,
+    "remainingVotes": 189,
+    "eligibleVoters": 713,
+    "voterTurnout": 73.4923
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "東榮村",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 86,
+      "savannah": 173
+    },
+    "validVotes": 270,
+    "invalidVotes": 4,
+    "totalVotes": 274,
+    "receivedUnvoted": 0,
+    "issuedVotes": 274,
+    "remainingVotes": 106,
+    "eligibleVoters": 380,
+    "voterTurnout": 72.1053
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "龍蛟村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 142,
+      "savannah": 233
+    },
+    "validVotes": 389,
+    "invalidVotes": 2,
+    "totalVotes": 391,
+    "receivedUnvoted": 0,
+    "issuedVotes": 391,
+    "remainingVotes": 161,
+    "eligibleVoters": 552,
+    "voterTurnout": 70.8333
+  },
+  {
+    "administrativeDivision": "義竹鄉",
+    "village": "溪洲村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 109,
+      "savannah": 337
+    },
+    "validVotes": 459,
+    "invalidVotes": 6,
+    "totalVotes": 465,
+    "receivedUnvoted": 0,
+    "issuedVotes": 465,
+    "remainingVotes": 171,
+    "eligibleVoters": 636,
+    "voterTurnout": 73.1132
+  }
+]

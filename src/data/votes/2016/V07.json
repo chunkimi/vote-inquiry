@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1926,
+      "savannah": 1227,
+      "rainforest": 647
+    },
+    "validVotes": 3800,
+    "invalidVotes": 38,
+    "totalVotes": 3838,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3838,
+    "remainingVotes": 3870,
+    "eligibleVoters": 7708,
+    "voterTurnout": 49.790000915527344
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "都蘭村",
+    "candidateVotes": {
+      "coast": 597,
+      "savannah": 448,
+      "rainforest": 140
+    },
+    "validVotes": 1185,
+    "invalidVotes": 11,
+    "totalVotes": 1196,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1196,
+    "remainingVotes": 950,
+    "eligibleVoters": 2146,
+    "voterTurnout": 55.72999954223633
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "興昌村",
+    "candidateVotes": {
+      "coast": 226,
+      "savannah": 199,
+      "rainforest": 76
+    },
+    "validVotes": 501,
+    "invalidVotes": 3,
+    "totalVotes": 504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 504,
+    "remainingVotes": 415,
+    "eligibleVoters": 919,
+    "voterTurnout": 54.84000015258789
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "隆昌村",
+    "candidateVotes": {
+      "coast": 146,
+      "savannah": 87,
+      "rainforest": 38
+    },
+    "validVotes": 271,
+    "invalidVotes": 6,
+    "totalVotes": 277,
+    "receivedUnvoted": 0,
+    "issuedVotes": 277,
+    "remainingVotes": 262,
+    "eligibleVoters": 539,
+    "voterTurnout": 51.38999938964844
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "東河村",
+    "candidateVotes": {
+      "coast": 285,
+      "savannah": 106,
+      "rainforest": 101
+    },
+    "validVotes": 492,
+    "invalidVotes": 3,
+    "totalVotes": 495,
+    "receivedUnvoted": 0,
+    "issuedVotes": 495,
+    "remainingVotes": 479,
+    "eligibleVoters": 974,
+    "voterTurnout": 50.81999969482422
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "泰源村",
+    "candidateVotes": {
+      "coast": 269,
+      "savannah": 146,
+      "rainforest": 132
+    },
+    "validVotes": 547,
+    "invalidVotes": 5,
+    "totalVotes": 552,
+    "receivedUnvoted": 0,
+    "issuedVotes": 552,
+    "remainingVotes": 661,
+    "eligibleVoters": 1213,
+    "voterTurnout": 45.5099983215332
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "北源村",
+    "candidateVotes": {
+      "coast": 352,
+      "savannah": 179,
+      "rainforest": 137
+    },
+    "validVotes": 668,
+    "invalidVotes": 9,
+    "totalVotes": 677,
+    "receivedUnvoted": 0,
+    "issuedVotes": 677,
+    "remainingVotes": 961,
+    "eligibleVoters": 1638,
+    "voterTurnout": 41.33000183105469
+  },
+  {
+    "administrativeDivision": "東河鄉",
+    "village": "尚德村",
+    "candidateVotes": {
+      "coast": 51,
+      "savannah": 62,
+      "rainforest": 23
+    },
+    "validVotes": 136,
+    "invalidVotes": 1,
+    "totalVotes": 137,
+    "receivedUnvoted": 0,
+    "issuedVotes": 137,
+    "remainingVotes": 142,
+    "eligibleVoters": 279,
+    "voterTurnout": 49.099998474121094
+  }
+]

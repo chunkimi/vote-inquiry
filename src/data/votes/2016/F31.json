@@ -1,0 +1,172 @@
+[
+  {
+    "administrativeDivision": "石門區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2431,
+      "savannah": 3199,
+      "rainforest": 602
+    },
+    "validVotes": 6232,
+    "invalidVotes": 80,
+    "totalVotes": 6312,
+    "receivedUnvoted": 1,
+    "issuedVotes": 6313,
+    "remainingVotes": 3962,
+    "eligibleVoters": 10275,
+    "voterTurnout": 61.43000030517578
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "德茂里",
+    "candidateVotes": {
+      "coast": 243,
+      "savannah": 364,
+      "rainforest": 59
+    },
+    "validVotes": 666,
+    "invalidVotes": 4,
+    "totalVotes": 670,
+    "receivedUnvoted": 0,
+    "issuedVotes": 670,
+    "remainingVotes": 437,
+    "eligibleVoters": 1107,
+    "voterTurnout": 60.52000045776367
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "富基里",
+    "candidateVotes": {
+      "coast": 325,
+      "savannah": 451,
+      "rainforest": 76
+    },
+    "validVotes": 852,
+    "invalidVotes": 5,
+    "totalVotes": 857,
+    "receivedUnvoted": 0,
+    "issuedVotes": 857,
+    "remainingVotes": 501,
+    "eligibleVoters": 1358,
+    "voterTurnout": 63.11000061035156
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "老梅里",
+    "candidateVotes": {
+      "coast": 441,
+      "savannah": 682,
+      "rainforest": 133
+    },
+    "validVotes": 1256,
+    "invalidVotes": 26,
+    "totalVotes": 1282,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1282,
+    "remainingVotes": 832,
+    "eligibleVoters": 2114,
+    "voterTurnout": 60.63999938964844
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "山溪里",
+    "candidateVotes": {
+      "coast": 211,
+      "savannah": 266,
+      "rainforest": 44
+    },
+    "validVotes": 521,
+    "invalidVotes": 4,
+    "totalVotes": 525,
+    "receivedUnvoted": 0,
+    "issuedVotes": 525,
+    "remainingVotes": 329,
+    "eligibleVoters": 854,
+    "voterTurnout": 61.47999954223633
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "石門里",
+    "candidateVotes": {
+      "coast": 406,
+      "savannah": 437,
+      "rainforest": 100
+    },
+    "validVotes": 943,
+    "invalidVotes": 15,
+    "totalVotes": 958,
+    "receivedUnvoted": 1,
+    "issuedVotes": 959,
+    "remainingVotes": 514,
+    "eligibleVoters": 1473,
+    "voterTurnout": 65.04000091552734
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "尖鹿里",
+    "candidateVotes": {
+      "coast": 357,
+      "savannah": 450,
+      "rainforest": 64
+    },
+    "validVotes": 871,
+    "invalidVotes": 13,
+    "totalVotes": 884,
+    "receivedUnvoted": 0,
+    "issuedVotes": 884,
+    "remainingVotes": 577,
+    "eligibleVoters": 1461,
+    "voterTurnout": 60.5099983215332
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "乾華里",
+    "candidateVotes": {
+      "coast": 89,
+      "savannah": 112,
+      "rainforest": 25
+    },
+    "validVotes": 226,
+    "invalidVotes": 3,
+    "totalVotes": 229,
+    "receivedUnvoted": 0,
+    "issuedVotes": 229,
+    "remainingVotes": 115,
+    "eligibleVoters": 344,
+    "voterTurnout": 66.56999969482422
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "茂林里",
+    "candidateVotes": {
+      "coast": 128,
+      "savannah": 189,
+      "rainforest": 56
+    },
+    "validVotes": 373,
+    "invalidVotes": 3,
+    "totalVotes": 376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 376,
+    "remainingVotes": 287,
+    "eligibleVoters": 663,
+    "voterTurnout": 56.709999084472656
+  },
+  {
+    "administrativeDivision": "石門區",
+    "village": "草里里",
+    "candidateVotes": {
+      "coast": 231,
+      "savannah": 248,
+      "rainforest": 45
+    },
+    "validVotes": 524,
+    "invalidVotes": 7,
+    "totalVotes": 531,
+    "receivedUnvoted": 0,
+    "issuedVotes": 531,
+    "remainingVotes": 370,
+    "eligibleVoters": 901,
+    "voterTurnout": 58.93000030517578
+  }
+]

@@ -1,0 +1,2161 @@
+[
+  {
+    "administrativeDivision": "板橋區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 155253,
+      "coast": 169703,
+      "rainforest": 9084
+    },
+    "validVotes": 334040,
+    "invalidVotes": 2235,
+    "totalVotes": 336275,
+    "receivedUnvoted": 9,
+    "issuedVotes": 336284,
+    "remainingVotes": 100600,
+    "eligibleVoters": 436884,
+    "voterTurnout": 76.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "留侯里",
+    "candidateVotes": {
+      "savannah": 416,
+      "coast": 565,
+      "rainforest": 39
+    },
+    "validVotes": 1020,
+    "invalidVotes": 13,
+    "totalVotes": 1033,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1033,
+    "remainingVotes": 309,
+    "eligibleVoters": 1342,
+    "voterTurnout": 76.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "流芳里",
+    "candidateVotes": {
+      "savannah": 410,
+      "coast": 494,
+      "rainforest": 30
+    },
+    "validVotes": 934,
+    "invalidVotes": 5,
+    "totalVotes": 939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 939,
+    "remainingVotes": 291,
+    "eligibleVoters": 1230,
+    "voterTurnout": 76.33999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "赤松里",
+    "candidateVotes": {
+      "savannah": 207,
+      "coast": 270,
+      "rainforest": 13
+    },
+    "validVotes": 490,
+    "invalidVotes": 5,
+    "totalVotes": 495,
+    "receivedUnvoted": 0,
+    "issuedVotes": 495,
+    "remainingVotes": 127,
+    "eligibleVoters": 622,
+    "voterTurnout": 79.58000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "黃石里",
+    "candidateVotes": {
+      "savannah": 360,
+      "coast": 383,
+      "rainforest": 23
+    },
+    "validVotes": 766,
+    "invalidVotes": 4,
+    "totalVotes": 770,
+    "receivedUnvoted": 0,
+    "issuedVotes": 770,
+    "remainingVotes": 220,
+    "eligibleVoters": 990,
+    "voterTurnout": 77.77999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "挹秀里",
+    "candidateVotes": {
+      "savannah": 397,
+      "coast": 706,
+      "rainforest": 26
+    },
+    "validVotes": 1129,
+    "invalidVotes": 7,
+    "totalVotes": 1136,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1136,
+    "remainingVotes": 340,
+    "eligibleVoters": 1476,
+    "voterTurnout": 76.95999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "湳興里",
+    "candidateVotes": {
+      "savannah": 1533,
+      "coast": 1841,
+      "rainforest": 99
+    },
+    "validVotes": 3473,
+    "invalidVotes": 17,
+    "totalVotes": 3490,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3490,
+    "remainingVotes": 1123,
+    "eligibleVoters": 4613,
+    "voterTurnout": 75.66000366210938
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新興里",
+    "candidateVotes": {
+      "savannah": 926,
+      "coast": 1067,
+      "rainforest": 59
+    },
+    "validVotes": 2052,
+    "invalidVotes": 15,
+    "totalVotes": 2067,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2067,
+    "remainingVotes": 684,
+    "eligibleVoters": 2751,
+    "voterTurnout": 75.13999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "社後里",
+    "candidateVotes": {
+      "savannah": 1838,
+      "coast": 1952,
+      "rainforest": 111
+    },
+    "validVotes": 3901,
+    "invalidVotes": 32,
+    "totalVotes": 3933,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3933,
+    "remainingVotes": 3469,
+    "eligibleVoters": 7402,
+    "voterTurnout": 53.130001068115234
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "香社里",
+    "candidateVotes": {
+      "savannah": 1425,
+      "coast": 1313,
+      "rainforest": 68
+    },
+    "validVotes": 2806,
+    "invalidVotes": 22,
+    "totalVotes": 2828,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2828,
+    "remainingVotes": 854,
+    "eligibleVoters": 3682,
+    "voterTurnout": 76.80999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "香雅里",
+    "candidateVotes": {
+      "savannah": 858,
+      "coast": 869,
+      "rainforest": 47
+    },
+    "validVotes": 1774,
+    "invalidVotes": 6,
+    "totalVotes": 1780,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1780,
+    "remainingVotes": 539,
+    "eligibleVoters": 2319,
+    "voterTurnout": 76.76000213623047
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "中正里",
+    "candidateVotes": {
+      "savannah": 1375,
+      "coast": 1493,
+      "rainforest": 57
+    },
+    "validVotes": 2925,
+    "invalidVotes": 27,
+    "totalVotes": 2952,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2952,
+    "remainingVotes": 952,
+    "eligibleVoters": 3904,
+    "voterTurnout": 75.61000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "自強里",
+    "candidateVotes": {
+      "savannah": 1275,
+      "coast": 2237,
+      "rainforest": 100
+    },
+    "validVotes": 3612,
+    "invalidVotes": 23,
+    "totalVotes": 3635,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3635,
+    "remainingVotes": 965,
+    "eligibleVoters": 4600,
+    "voterTurnout": 79.0199966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "自立里",
+    "candidateVotes": {
+      "savannah": 937,
+      "coast": 947,
+      "rainforest": 48
+    },
+    "validVotes": 1932,
+    "invalidVotes": 15,
+    "totalVotes": 1947,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1947,
+    "remainingVotes": 501,
+    "eligibleVoters": 2448,
+    "voterTurnout": 79.52999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "光華里",
+    "candidateVotes": {
+      "savannah": 762,
+      "coast": 1016,
+      "rainforest": 49
+    },
+    "validVotes": 1827,
+    "invalidVotes": 7,
+    "totalVotes": 1834,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1834,
+    "remainingVotes": 532,
+    "eligibleVoters": 2366,
+    "voterTurnout": 77.51000213623047
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "光榮里",
+    "candidateVotes": {
+      "savannah": 719,
+      "coast": 981,
+      "rainforest": 31
+    },
+    "validVotes": 1731,
+    "invalidVotes": 10,
+    "totalVotes": 1741,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1741,
+    "remainingVotes": 492,
+    "eligibleVoters": 2233,
+    "voterTurnout": 77.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "國光里",
+    "candidateVotes": {
+      "savannah": 604,
+      "coast": 1958,
+      "rainforest": 95
+    },
+    "validVotes": 2657,
+    "invalidVotes": 11,
+    "totalVotes": 2668,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2669,
+    "remainingVotes": 626,
+    "eligibleVoters": 3295,
+    "voterTurnout": 80.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "港尾里",
+    "candidateVotes": {
+      "savannah": 846,
+      "coast": 959,
+      "rainforest": 34
+    },
+    "validVotes": 1839,
+    "invalidVotes": 13,
+    "totalVotes": 1852,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1852,
+    "remainingVotes": 450,
+    "eligibleVoters": 2302,
+    "voterTurnout": 80.44999694824219
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新生里",
+    "candidateVotes": {
+      "savannah": 1464,
+      "coast": 1434,
+      "rainforest": 87
+    },
+    "validVotes": 2985,
+    "invalidVotes": 22,
+    "totalVotes": 3007,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3007,
+    "remainingVotes": 790,
+    "eligibleVoters": 3797,
+    "voterTurnout": 79.19000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "金華里",
+    "candidateVotes": {
+      "savannah": 1269,
+      "coast": 1225,
+      "rainforest": 71
+    },
+    "validVotes": 2565,
+    "invalidVotes": 24,
+    "totalVotes": 2589,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2589,
+    "remainingVotes": 868,
+    "eligibleVoters": 3457,
+    "voterTurnout": 74.88999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "港德里",
+    "candidateVotes": {
+      "savannah": 1533,
+      "coast": 1492,
+      "rainforest": 95
+    },
+    "validVotes": 3120,
+    "invalidVotes": 15,
+    "totalVotes": 3135,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3135,
+    "remainingVotes": 1041,
+    "eligibleVoters": 4176,
+    "voterTurnout": 75.06999969482422
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "民權里",
+    "candidateVotes": {
+      "savannah": 800,
+      "coast": 1052,
+      "rainforest": 43
+    },
+    "validVotes": 1895,
+    "invalidVotes": 15,
+    "totalVotes": 1910,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1910,
+    "remainingVotes": 481,
+    "eligibleVoters": 2391,
+    "voterTurnout": 79.87999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "民安里",
+    "candidateVotes": {
+      "savannah": 575,
+      "coast": 783,
+      "rainforest": 34
+    },
+    "validVotes": 1392,
+    "invalidVotes": 7,
+    "totalVotes": 1399,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1399,
+    "remainingVotes": 357,
+    "eligibleVoters": 1756,
+    "voterTurnout": 79.66999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "建國里",
+    "candidateVotes": {
+      "savannah": 1258,
+      "coast": 1120,
+      "rainforest": 81
+    },
+    "validVotes": 2459,
+    "invalidVotes": 18,
+    "totalVotes": 2477,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2477,
+    "remainingVotes": 682,
+    "eligibleVoters": 3159,
+    "voterTurnout": 78.41000366210938
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "漢生里",
+    "candidateVotes": {
+      "savannah": 1288,
+      "coast": 1662,
+      "rainforest": 85
+    },
+    "validVotes": 3035,
+    "invalidVotes": 20,
+    "totalVotes": 3055,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3055,
+    "remainingVotes": 737,
+    "eligibleVoters": 3792,
+    "voterTurnout": 80.55999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "公館里",
+    "candidateVotes": {
+      "savannah": 1247,
+      "coast": 1185,
+      "rainforest": 67
+    },
+    "validVotes": 2499,
+    "invalidVotes": 14,
+    "totalVotes": 2513,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2513,
+    "remainingVotes": 758,
+    "eligibleVoters": 3271,
+    "voterTurnout": 76.83000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新民里",
+    "candidateVotes": {
+      "savannah": 1305,
+      "coast": 1469,
+      "rainforest": 81
+    },
+    "validVotes": 2855,
+    "invalidVotes": 15,
+    "totalVotes": 2870,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2870,
+    "remainingVotes": 793,
+    "eligibleVoters": 3663,
+    "voterTurnout": 78.3499984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "幸福里",
+    "candidateVotes": {
+      "savannah": 1308,
+      "coast": 1225,
+      "rainforest": 49
+    },
+    "validVotes": 2582,
+    "invalidVotes": 18,
+    "totalVotes": 2600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2600,
+    "remainingVotes": 846,
+    "eligibleVoters": 3446,
+    "voterTurnout": 75.44999694824219
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "文德里",
+    "candidateVotes": {
+      "savannah": 954,
+      "coast": 1036,
+      "rainforest": 50
+    },
+    "validVotes": 2040,
+    "invalidVotes": 7,
+    "totalVotes": 2047,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2047,
+    "remainingVotes": 580,
+    "eligibleVoters": 2627,
+    "voterTurnout": 77.91999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "忠誠里",
+    "candidateVotes": {
+      "savannah": 623,
+      "coast": 2085,
+      "rainforest": 62
+    },
+    "validVotes": 2770,
+    "invalidVotes": 19,
+    "totalVotes": 2789,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2789,
+    "remainingVotes": 614,
+    "eligibleVoters": 3403,
+    "voterTurnout": 81.95999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "陽明里",
+    "candidateVotes": {
+      "savannah": 998,
+      "coast": 950,
+      "rainforest": 42
+    },
+    "validVotes": 1990,
+    "invalidVotes": 13,
+    "totalVotes": 2003,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2003,
+    "remainingVotes": 510,
+    "eligibleVoters": 2513,
+    "voterTurnout": 79.70999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "百壽里",
+    "candidateVotes": {
+      "savannah": 765,
+      "coast": 797,
+      "rainforest": 40
+    },
+    "validVotes": 1602,
+    "invalidVotes": 9,
+    "totalVotes": 1611,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1611,
+    "remainingVotes": 465,
+    "eligibleVoters": 2076,
+    "voterTurnout": 77.5999984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "介壽里",
+    "candidateVotes": {
+      "savannah": 937,
+      "coast": 1010,
+      "rainforest": 57
+    },
+    "validVotes": 2004,
+    "invalidVotes": 15,
+    "totalVotes": 2019,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2019,
+    "remainingVotes": 609,
+    "eligibleVoters": 2628,
+    "voterTurnout": 76.83000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新埔里",
+    "candidateVotes": {
+      "savannah": 740,
+      "coast": 727,
+      "rainforest": 46
+    },
+    "validVotes": 1513,
+    "invalidVotes": 6,
+    "totalVotes": 1519,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1519,
+    "remainingVotes": 440,
+    "eligibleVoters": 1959,
+    "voterTurnout": 77.54000091552734
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華江里",
+    "candidateVotes": {
+      "savannah": 1742,
+      "coast": 2156,
+      "rainforest": 104
+    },
+    "validVotes": 4002,
+    "invalidVotes": 29,
+    "totalVotes": 4031,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4031,
+    "remainingVotes": 1179,
+    "eligibleVoters": 5210,
+    "voterTurnout": 77.37000274658203
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "江翠里",
+    "candidateVotes": {
+      "savannah": 1648,
+      "coast": 1520,
+      "rainforest": 68
+    },
+    "validVotes": 3236,
+    "invalidVotes": 14,
+    "totalVotes": 3250,
+    "receivedUnvoted": 2,
+    "issuedVotes": 3252,
+    "remainingVotes": 946,
+    "eligibleVoters": 4198,
+    "voterTurnout": 77.41999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "純翠里",
+    "candidateVotes": {
+      "savannah": 1820,
+      "coast": 1612,
+      "rainforest": 108
+    },
+    "validVotes": 3540,
+    "invalidVotes": 12,
+    "totalVotes": 3552,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3552,
+    "remainingVotes": 1035,
+    "eligibleVoters": 4587,
+    "voterTurnout": 77.44000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "溪頭里",
+    "candidateVotes": {
+      "savannah": 2037,
+      "coast": 1731,
+      "rainforest": 91
+    },
+    "validVotes": 3859,
+    "invalidVotes": 30,
+    "totalVotes": 3889,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3889,
+    "remainingVotes": 1201,
+    "eligibleVoters": 5090,
+    "voterTurnout": 76.4000015258789
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "聯翠里",
+    "candidateVotes": {
+      "savannah": 1073,
+      "coast": 1233,
+      "rainforest": 63
+    },
+    "validVotes": 2369,
+    "invalidVotes": 16,
+    "totalVotes": 2385,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2385,
+    "remainingVotes": 820,
+    "eligibleVoters": 3205,
+    "voterTurnout": 74.41000366210938
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "文化里",
+    "candidateVotes": {
+      "savannah": 1050,
+      "coast": 969,
+      "rainforest": 50
+    },
+    "validVotes": 2069,
+    "invalidVotes": 12,
+    "totalVotes": 2081,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2081,
+    "remainingVotes": 559,
+    "eligibleVoters": 2640,
+    "voterTurnout": 78.83000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "宏翠里",
+    "candidateVotes": {
+      "savannah": 1424,
+      "coast": 1619,
+      "rainforest": 74
+    },
+    "validVotes": 3117,
+    "invalidVotes": 17,
+    "totalVotes": 3134,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3134,
+    "remainingVotes": 967,
+    "eligibleVoters": 4101,
+    "voterTurnout": 76.41999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "仁翠里",
+    "candidateVotes": {
+      "savannah": 1214,
+      "coast": 751,
+      "rainforest": 59
+    },
+    "validVotes": 2024,
+    "invalidVotes": 20,
+    "totalVotes": 2044,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2044,
+    "remainingVotes": 596,
+    "eligibleVoters": 2640,
+    "voterTurnout": 77.41999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新翠里",
+    "candidateVotes": {
+      "savannah": 2403,
+      "coast": 2535,
+      "rainforest": 151
+    },
+    "validVotes": 5089,
+    "invalidVotes": 25,
+    "totalVotes": 5114,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5114,
+    "remainingVotes": 1538,
+    "eligibleVoters": 6652,
+    "voterTurnout": 76.87999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "朝陽里",
+    "candidateVotes": {
+      "savannah": 1244,
+      "coast": 1027,
+      "rainforest": 55
+    },
+    "validVotes": 2326,
+    "invalidVotes": 10,
+    "totalVotes": 2336,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2336,
+    "remainingVotes": 700,
+    "eligibleVoters": 3036,
+    "voterTurnout": 76.94000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "吉翠里",
+    "candidateVotes": {
+      "savannah": 1342,
+      "coast": 1151,
+      "rainforest": 62
+    },
+    "validVotes": 2555,
+    "invalidVotes": 18,
+    "totalVotes": 2573,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2573,
+    "remainingVotes": 658,
+    "eligibleVoters": 3231,
+    "voterTurnout": 79.62999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "德翠里",
+    "candidateVotes": {
+      "savannah": 2017,
+      "coast": 2282,
+      "rainforest": 99
+    },
+    "validVotes": 4398,
+    "invalidVotes": 28,
+    "totalVotes": 4426,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4426,
+    "remainingVotes": 1180,
+    "eligibleVoters": 5606,
+    "voterTurnout": 78.94999694824219
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "新海里",
+    "candidateVotes": {
+      "savannah": 1197,
+      "coast": 1094,
+      "rainforest": 56
+    },
+    "validVotes": 2347,
+    "invalidVotes": 8,
+    "totalVotes": 2355,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2355,
+    "remainingVotes": 835,
+    "eligibleVoters": 3190,
+    "voterTurnout": 73.81999969482422
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "滿翠里",
+    "candidateVotes": {
+      "savannah": 1167,
+      "coast": 867,
+      "rainforest": 67
+    },
+    "validVotes": 2101,
+    "invalidVotes": 10,
+    "totalVotes": 2111,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2111,
+    "remainingVotes": 582,
+    "eligibleVoters": 2693,
+    "voterTurnout": 78.38999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "明翠里",
+    "candidateVotes": {
+      "savannah": 1726,
+      "coast": 1525,
+      "rainforest": 76
+    },
+    "validVotes": 3327,
+    "invalidVotes": 21,
+    "totalVotes": 3348,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3348,
+    "remainingVotes": 946,
+    "eligibleVoters": 4294,
+    "voterTurnout": 77.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "松翠里",
+    "candidateVotes": {
+      "savannah": 1137,
+      "coast": 1082,
+      "rainforest": 73
+    },
+    "validVotes": 2292,
+    "invalidVotes": 16,
+    "totalVotes": 2308,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2308,
+    "remainingVotes": 752,
+    "eligibleVoters": 3060,
+    "voterTurnout": 75.41999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "柏翠里",
+    "candidateVotes": {
+      "savannah": 1207,
+      "coast": 1318,
+      "rainforest": 70
+    },
+    "validVotes": 2595,
+    "invalidVotes": 10,
+    "totalVotes": 2605,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2605,
+    "remainingVotes": 754,
+    "eligibleVoters": 3359,
+    "voterTurnout": 77.55000305175781
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "龍翠里",
+    "candidateVotes": {
+      "savannah": 1705,
+      "coast": 1565,
+      "rainforest": 97
+    },
+    "validVotes": 3367,
+    "invalidVotes": 17,
+    "totalVotes": 3384,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3384,
+    "remainingVotes": 967,
+    "eligibleVoters": 4351,
+    "voterTurnout": 77.77999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "松柏里",
+    "candidateVotes": {
+      "savannah": 737,
+      "coast": 623,
+      "rainforest": 36
+    },
+    "validVotes": 1396,
+    "invalidVotes": 10,
+    "totalVotes": 1406,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1406,
+    "remainingVotes": 411,
+    "eligibleVoters": 1817,
+    "voterTurnout": 77.37999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華翠里",
+    "candidateVotes": {
+      "savannah": 1198,
+      "coast": 1114,
+      "rainforest": 65
+    },
+    "validVotes": 2377,
+    "invalidVotes": 12,
+    "totalVotes": 2389,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2389,
+    "remainingVotes": 706,
+    "eligibleVoters": 3095,
+    "voterTurnout": 77.19000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "莒光里",
+    "candidateVotes": {
+      "savannah": 1009,
+      "coast": 896,
+      "rainforest": 53
+    },
+    "validVotes": 1958,
+    "invalidVotes": 12,
+    "totalVotes": 1970,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1970,
+    "remainingVotes": 602,
+    "eligibleVoters": 2572,
+    "voterTurnout": 76.58999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "忠翠里",
+    "candidateVotes": {
+      "savannah": 2626,
+      "coast": 3502,
+      "rainforest": 154
+    },
+    "validVotes": 6282,
+    "invalidVotes": 38,
+    "totalVotes": 6320,
+    "receivedUnvoted": 2,
+    "issuedVotes": 6322,
+    "remainingVotes": 1594,
+    "eligibleVoters": 7916,
+    "voterTurnout": 79.83999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "嵐翠里",
+    "candidateVotes": {
+      "savannah": 895,
+      "coast": 708,
+      "rainforest": 51
+    },
+    "validVotes": 1654,
+    "invalidVotes": 17,
+    "totalVotes": 1671,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1671,
+    "remainingVotes": 539,
+    "eligibleVoters": 2210,
+    "voterTurnout": 75.61000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "文聖里",
+    "candidateVotes": {
+      "savannah": 1317,
+      "coast": 1147,
+      "rainforest": 50
+    },
+    "validVotes": 2514,
+    "invalidVotes": 16,
+    "totalVotes": 2530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2530,
+    "remainingVotes": 774,
+    "eligibleVoters": 3304,
+    "voterTurnout": 76.56999969482422
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "文翠里",
+    "candidateVotes": {
+      "savannah": 1288,
+      "coast": 1331,
+      "rainforest": 64
+    },
+    "validVotes": 2683,
+    "invalidVotes": 21,
+    "totalVotes": 2704,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2704,
+    "remainingVotes": 814,
+    "eligibleVoters": 3518,
+    "voterTurnout": 76.86000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "青翠里",
+    "candidateVotes": {
+      "savannah": 993,
+      "coast": 854,
+      "rainforest": 46
+    },
+    "validVotes": 1893,
+    "invalidVotes": 11,
+    "totalVotes": 1904,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1904,
+    "remainingVotes": 694,
+    "eligibleVoters": 2598,
+    "voterTurnout": 73.29000091552734
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "懷翠里",
+    "candidateVotes": {
+      "savannah": 2047,
+      "coast": 1727,
+      "rainforest": 106
+    },
+    "validVotes": 3880,
+    "invalidVotes": 19,
+    "totalVotes": 3899,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3899,
+    "remainingVotes": 1315,
+    "eligibleVoters": 5214,
+    "voterTurnout": 74.77999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福翠里",
+    "candidateVotes": {
+      "savannah": 456,
+      "coast": 496,
+      "rainforest": 32
+    },
+    "validVotes": 984,
+    "invalidVotes": 5,
+    "totalVotes": 989,
+    "receivedUnvoted": 0,
+    "issuedVotes": 989,
+    "remainingVotes": 313,
+    "eligibleVoters": 1302,
+    "voterTurnout": 75.95999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "港嘴里",
+    "candidateVotes": {
+      "savannah": 1993,
+      "coast": 1938,
+      "rainforest": 114
+    },
+    "validVotes": 4045,
+    "invalidVotes": 29,
+    "totalVotes": 4074,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4074,
+    "remainingVotes": 1220,
+    "eligibleVoters": 5294,
+    "voterTurnout": 76.95999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "埤墘里",
+    "candidateVotes": {
+      "savannah": 1233,
+      "coast": 1306,
+      "rainforest": 90
+    },
+    "validVotes": 2629,
+    "invalidVotes": 21,
+    "totalVotes": 2650,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2650,
+    "remainingVotes": 785,
+    "eligibleVoters": 3435,
+    "voterTurnout": 77.1500015258789
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "莊敬里",
+    "candidateVotes": {
+      "savannah": 1178,
+      "coast": 1344,
+      "rainforest": 68
+    },
+    "validVotes": 2590,
+    "invalidVotes": 22,
+    "totalVotes": 2612,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2612,
+    "remainingVotes": 654,
+    "eligibleVoters": 3266,
+    "voterTurnout": 79.9800033569336
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "永安里",
+    "candidateVotes": {
+      "savannah": 1093,
+      "coast": 1053,
+      "rainforest": 64
+    },
+    "validVotes": 2210,
+    "invalidVotes": 14,
+    "totalVotes": 2224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2224,
+    "remainingVotes": 636,
+    "eligibleVoters": 2860,
+    "voterTurnout": 77.76000213623047
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "振興里",
+    "candidateVotes": {
+      "savannah": 1606,
+      "coast": 1351,
+      "rainforest": 79
+    },
+    "validVotes": 3036,
+    "invalidVotes": 19,
+    "totalVotes": 3055,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3055,
+    "remainingVotes": 785,
+    "eligibleVoters": 3840,
+    "voterTurnout": 79.55999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "振義里",
+    "candidateVotes": {
+      "savannah": 1542,
+      "coast": 1179,
+      "rainforest": 72
+    },
+    "validVotes": 2793,
+    "invalidVotes": 15,
+    "totalVotes": 2808,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2808,
+    "remainingVotes": 827,
+    "eligibleVoters": 3635,
+    "voterTurnout": 77.25
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "光復里",
+    "candidateVotes": {
+      "savannah": 1030,
+      "coast": 1002,
+      "rainforest": 56
+    },
+    "validVotes": 2088,
+    "invalidVotes": 23,
+    "totalVotes": 2111,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2111,
+    "remainingVotes": 584,
+    "eligibleVoters": 2695,
+    "voterTurnout": 78.33000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "埔墘里",
+    "candidateVotes": {
+      "savannah": 1934,
+      "coast": 2122,
+      "rainforest": 100
+    },
+    "validVotes": 4156,
+    "invalidVotes": 32,
+    "totalVotes": 4188,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4188,
+    "remainingVotes": 1115,
+    "eligibleVoters": 5303,
+    "voterTurnout": 78.97000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "富貴里",
+    "candidateVotes": {
+      "savannah": 739,
+      "coast": 828,
+      "rainforest": 29
+    },
+    "validVotes": 1596,
+    "invalidVotes": 10,
+    "totalVotes": 1606,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1606,
+    "remainingVotes": 382,
+    "eligibleVoters": 1988,
+    "voterTurnout": 80.77999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "長壽里",
+    "candidateVotes": {
+      "savannah": 960,
+      "coast": 945,
+      "rainforest": 54
+    },
+    "validVotes": 1959,
+    "invalidVotes": 19,
+    "totalVotes": 1978,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1978,
+    "remainingVotes": 446,
+    "eligibleVoters": 2424,
+    "voterTurnout": 81.5999984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福壽里",
+    "candidateVotes": {
+      "savannah": 952,
+      "coast": 1185,
+      "rainforest": 65
+    },
+    "validVotes": 2202,
+    "invalidVotes": 22,
+    "totalVotes": 2224,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2224,
+    "remainingVotes": 642,
+    "eligibleVoters": 2866,
+    "voterTurnout": 77.5999984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "居仁里",
+    "candidateVotes": {
+      "savannah": 1051,
+      "coast": 1003,
+      "rainforest": 48
+    },
+    "validVotes": 2102,
+    "invalidVotes": 14,
+    "totalVotes": 2116,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2116,
+    "remainingVotes": 591,
+    "eligibleVoters": 2707,
+    "voterTurnout": 78.16999816894531
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "海山里",
+    "candidateVotes": {
+      "savannah": 2182,
+      "coast": 2587,
+      "rainforest": 119
+    },
+    "validVotes": 4888,
+    "invalidVotes": 23,
+    "totalVotes": 4911,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4911,
+    "remainingVotes": 1290,
+    "eligibleVoters": 6201,
+    "voterTurnout": 79.19999694824219
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "九如里",
+    "candidateVotes": {
+      "savannah": 993,
+      "coast": 890,
+      "rainforest": 35
+    },
+    "validVotes": 1918,
+    "invalidVotes": 17,
+    "totalVotes": 1935,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1935,
+    "remainingVotes": 544,
+    "eligibleVoters": 2479,
+    "voterTurnout": 78.05999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "正泰里",
+    "candidateVotes": {
+      "savannah": 1030,
+      "coast": 994,
+      "rainforest": 69
+    },
+    "validVotes": 2093,
+    "invalidVotes": 14,
+    "totalVotes": 2107,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2107,
+    "remainingVotes": 526,
+    "eligibleVoters": 2633,
+    "voterTurnout": 80.0199966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "玉光里",
+    "candidateVotes": {
+      "savannah": 1691,
+      "coast": 1687,
+      "rainforest": 103
+    },
+    "validVotes": 3481,
+    "invalidVotes": 36,
+    "totalVotes": 3517,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3518,
+    "remainingVotes": 914,
+    "eligibleVoters": 4432,
+    "voterTurnout": 79.3499984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "光仁里",
+    "candidateVotes": {
+      "savannah": 996,
+      "coast": 984,
+      "rainforest": 40
+    },
+    "validVotes": 2020,
+    "invalidVotes": 14,
+    "totalVotes": 2034,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2034,
+    "remainingVotes": 497,
+    "eligibleVoters": 2531,
+    "voterTurnout": 80.36000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "雙玉里",
+    "candidateVotes": {
+      "savannah": 1247,
+      "coast": 1200,
+      "rainforest": 66
+    },
+    "validVotes": 2513,
+    "invalidVotes": 17,
+    "totalVotes": 2530,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2530,
+    "remainingVotes": 724,
+    "eligibleVoters": 3254,
+    "voterTurnout": 77.75
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "廣新里",
+    "candidateVotes": {
+      "savannah": 1126,
+      "coast": 1095,
+      "rainforest": 52
+    },
+    "validVotes": 2273,
+    "invalidVotes": 24,
+    "totalVotes": 2297,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2297,
+    "remainingVotes": 683,
+    "eligibleVoters": 2980,
+    "voterTurnout": 77.08000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "深丘里",
+    "candidateVotes": {
+      "savannah": 1907,
+      "coast": 2795,
+      "rainforest": 118
+    },
+    "validVotes": 4820,
+    "invalidVotes": 43,
+    "totalVotes": 4863,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4863,
+    "remainingVotes": 1349,
+    "eligibleVoters": 6212,
+    "voterTurnout": 78.27999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "香丘里",
+    "candidateVotes": {
+      "savannah": 1209,
+      "coast": 1231,
+      "rainforest": 57
+    },
+    "validVotes": 2497,
+    "invalidVotes": 19,
+    "totalVotes": 2516,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2516,
+    "remainingVotes": 679,
+    "eligibleVoters": 3195,
+    "voterTurnout": 78.75
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "西安里",
+    "candidateVotes": {
+      "savannah": 850,
+      "coast": 904,
+      "rainforest": 45
+    },
+    "validVotes": 1799,
+    "invalidVotes": 19,
+    "totalVotes": 1818,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1818,
+    "remainingVotes": 472,
+    "eligibleVoters": 2290,
+    "voterTurnout": 79.38999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "東丘里",
+    "candidateVotes": {
+      "savannah": 1611,
+      "coast": 1357,
+      "rainforest": 79
+    },
+    "validVotes": 3047,
+    "invalidVotes": 31,
+    "totalVotes": 3078,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3079,
+    "remainingVotes": 808,
+    "eligibleVoters": 3887,
+    "voterTurnout": 79.19000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "民生里",
+    "candidateVotes": {
+      "savannah": 765,
+      "coast": 682,
+      "rainforest": 39
+    },
+    "validVotes": 1486,
+    "invalidVotes": 8,
+    "totalVotes": 1494,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1494,
+    "remainingVotes": 410,
+    "eligibleVoters": 1904,
+    "voterTurnout": 78.47000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "長安里",
+    "candidateVotes": {
+      "savannah": 1366,
+      "coast": 1387,
+      "rainforest": 71
+    },
+    "validVotes": 2824,
+    "invalidVotes": 17,
+    "totalVotes": 2841,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2841,
+    "remainingVotes": 738,
+    "eligibleVoters": 3579,
+    "voterTurnout": 79.37999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "東安里",
+    "candidateVotes": {
+      "savannah": 878,
+      "coast": 735,
+      "rainforest": 44
+    },
+    "validVotes": 1657,
+    "invalidVotes": 16,
+    "totalVotes": 1673,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1673,
+    "remainingVotes": 451,
+    "eligibleVoters": 2124,
+    "voterTurnout": 78.7699966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福丘里",
+    "candidateVotes": {
+      "savannah": 941,
+      "coast": 1525,
+      "rainforest": 66
+    },
+    "validVotes": 2532,
+    "invalidVotes": 13,
+    "totalVotes": 2545,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2545,
+    "remainingVotes": 716,
+    "eligibleVoters": 3261,
+    "voterTurnout": 78.04000091552734
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福祿里",
+    "candidateVotes": {
+      "savannah": 1007,
+      "coast": 1471,
+      "rainforest": 73
+    },
+    "validVotes": 2551,
+    "invalidVotes": 16,
+    "totalVotes": 2567,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2567,
+    "remainingVotes": 727,
+    "eligibleVoters": 3294,
+    "voterTurnout": 77.93000030517578
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "民族里",
+    "candidateVotes": {
+      "savannah": 1205,
+      "coast": 1370,
+      "rainforest": 51
+    },
+    "validVotes": 2626,
+    "invalidVotes": 14,
+    "totalVotes": 2640,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2640,
+    "remainingVotes": 698,
+    "eligibleVoters": 3338,
+    "voterTurnout": 79.08999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "國泰里",
+    "candidateVotes": {
+      "savannah": 976,
+      "coast": 1278,
+      "rainforest": 59
+    },
+    "validVotes": 2313,
+    "invalidVotes": 14,
+    "totalVotes": 2327,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2327,
+    "remainingVotes": 639,
+    "eligibleVoters": 2966,
+    "voterTurnout": 78.45999908447266
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "後埔里",
+    "candidateVotes": {
+      "savannah": 1047,
+      "coast": 1373,
+      "rainforest": 72
+    },
+    "validVotes": 2492,
+    "invalidVotes": 15,
+    "totalVotes": 2507,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2507,
+    "remainingVotes": 714,
+    "eligibleVoters": 3221,
+    "voterTurnout": 77.83000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福德里",
+    "candidateVotes": {
+      "savannah": 1546,
+      "coast": 1798,
+      "rainforest": 89
+    },
+    "validVotes": 3433,
+    "invalidVotes": 22,
+    "totalVotes": 3455,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3455,
+    "remainingVotes": 946,
+    "eligibleVoters": 4401,
+    "voterTurnout": 78.5
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "景星里",
+    "candidateVotes": {
+      "savannah": 933,
+      "coast": 1233,
+      "rainforest": 54
+    },
+    "validVotes": 2220,
+    "invalidVotes": 19,
+    "totalVotes": 2239,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2239,
+    "remainingVotes": 625,
+    "eligibleVoters": 2864,
+    "voterTurnout": 78.18000030517578
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福星里",
+    "candidateVotes": {
+      "savannah": 1032,
+      "coast": 1189,
+      "rainforest": 75
+    },
+    "validVotes": 2296,
+    "invalidVotes": 18,
+    "totalVotes": 2314,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2314,
+    "remainingVotes": 547,
+    "eligibleVoters": 2861,
+    "voterTurnout": 80.87999725341797
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "鄉雲里",
+    "candidateVotes": {
+      "savannah": 1017,
+      "coast": 1276,
+      "rainforest": 56
+    },
+    "validVotes": 2349,
+    "invalidVotes": 28,
+    "totalVotes": 2377,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2377,
+    "remainingVotes": 652,
+    "eligibleVoters": 3029,
+    "voterTurnout": 78.47000122070312
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "廣德里",
+    "candidateVotes": {
+      "savannah": 1794,
+      "coast": 2334,
+      "rainforest": 135
+    },
+    "validVotes": 4263,
+    "invalidVotes": 33,
+    "totalVotes": 4296,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4296,
+    "remainingVotes": 1061,
+    "eligibleVoters": 5357,
+    "voterTurnout": 80.19000244140625
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "大豐里",
+    "candidateVotes": {
+      "savannah": 1383,
+      "coast": 1668,
+      "rainforest": 96
+    },
+    "validVotes": 3147,
+    "invalidVotes": 19,
+    "totalVotes": 3166,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3166,
+    "remainingVotes": 881,
+    "eligibleVoters": 4047,
+    "voterTurnout": 78.2300033569336
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "重慶里",
+    "candidateVotes": {
+      "savannah": 2388,
+      "coast": 2946,
+      "rainforest": 148
+    },
+    "validVotes": 5482,
+    "invalidVotes": 28,
+    "totalVotes": 5510,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5510,
+    "remainingVotes": 1756,
+    "eligibleVoters": 7266,
+    "voterTurnout": 75.83000183105469
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "仁愛里",
+    "candidateVotes": {
+      "savannah": 729,
+      "coast": 1340,
+      "rainforest": 67
+    },
+    "validVotes": 2136,
+    "invalidVotes": 12,
+    "totalVotes": 2148,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2148,
+    "remainingVotes": 592,
+    "eligibleVoters": 2740,
+    "voterTurnout": 78.38999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "和平里",
+    "candidateVotes": {
+      "savannah": 786,
+      "coast": 1304,
+      "rainforest": 62
+    },
+    "validVotes": 2152,
+    "invalidVotes": 13,
+    "totalVotes": 2165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2165,
+    "remainingVotes": 581,
+    "eligibleVoters": 2746,
+    "voterTurnout": 78.83999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "廣福里",
+    "candidateVotes": {
+      "savannah": 1220,
+      "coast": 1234,
+      "rainforest": 84
+    },
+    "validVotes": 2538,
+    "invalidVotes": 21,
+    "totalVotes": 2559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2559,
+    "remainingVotes": 943,
+    "eligibleVoters": 3502,
+    "voterTurnout": 73.06999969482422
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "五權里",
+    "candidateVotes": {
+      "savannah": 1319,
+      "coast": 1398,
+      "rainforest": 74
+    },
+    "validVotes": 2791,
+    "invalidVotes": 26,
+    "totalVotes": 2817,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2818,
+    "remainingVotes": 787,
+    "eligibleVoters": 3605,
+    "voterTurnout": 78.13999938964844
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華興里",
+    "candidateVotes": {
+      "savannah": 1136,
+      "coast": 1450,
+      "rainforest": 61
+    },
+    "validVotes": 2647,
+    "invalidVotes": 20,
+    "totalVotes": 2667,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2667,
+    "remainingVotes": 763,
+    "eligibleVoters": 3430,
+    "voterTurnout": 77.76000213623047
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華貴里",
+    "candidateVotes": {
+      "savannah": 848,
+      "coast": 889,
+      "rainforest": 71
+    },
+    "validVotes": 1808,
+    "invalidVotes": 17,
+    "totalVotes": 1825,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1825,
+    "remainingVotes": 519,
+    "eligibleVoters": 2344,
+    "voterTurnout": 77.86000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華福里",
+    "candidateVotes": {
+      "savannah": 628,
+      "coast": 791,
+      "rainforest": 36
+    },
+    "validVotes": 1455,
+    "invalidVotes": 3,
+    "totalVotes": 1458,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1458,
+    "remainingVotes": 392,
+    "eligibleVoters": 1850,
+    "voterTurnout": 78.80999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華德里",
+    "candidateVotes": {
+      "savannah": 1826,
+      "coast": 2390,
+      "rainforest": 114
+    },
+    "validVotes": 4330,
+    "invalidVotes": 25,
+    "totalVotes": 4355,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4355,
+    "remainingVotes": 1417,
+    "eligibleVoters": 5772,
+    "voterTurnout": 75.44999694824219
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華東里",
+    "candidateVotes": {
+      "savannah": 1550,
+      "coast": 2645,
+      "rainforest": 150
+    },
+    "validVotes": 4345,
+    "invalidVotes": 24,
+    "totalVotes": 4369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4369,
+    "remainingVotes": 1072,
+    "eligibleVoters": 5441,
+    "voterTurnout": 80.30000305175781
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "信義里",
+    "candidateVotes": {
+      "savannah": 1239,
+      "coast": 1412,
+      "rainforest": 97
+    },
+    "validVotes": 2748,
+    "invalidVotes": 26,
+    "totalVotes": 2774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2774,
+    "remainingVotes": 816,
+    "eligibleVoters": 3590,
+    "voterTurnout": 77.2699966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "浮洲里",
+    "candidateVotes": {
+      "savannah": 1241,
+      "coast": 1052,
+      "rainforest": 70
+    },
+    "validVotes": 2363,
+    "invalidVotes": 13,
+    "totalVotes": 2376,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2376,
+    "remainingVotes": 1131,
+    "eligibleVoters": 3507,
+    "voterTurnout": 67.75
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "華中里",
+    "candidateVotes": {
+      "savannah": 1805,
+      "coast": 1530,
+      "rainforest": 95
+    },
+    "validVotes": 3430,
+    "invalidVotes": 17,
+    "totalVotes": 3447,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3447,
+    "remainingVotes": 1132,
+    "eligibleVoters": 4579,
+    "voterTurnout": 75.27999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "僑中里",
+    "candidateVotes": {
+      "savannah": 1275,
+      "coast": 1232,
+      "rainforest": 83
+    },
+    "validVotes": 2590,
+    "invalidVotes": 10,
+    "totalVotes": 2600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2600,
+    "remainingVotes": 813,
+    "eligibleVoters": 3413,
+    "voterTurnout": 76.18000030517578
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "大觀里",
+    "candidateVotes": {
+      "savannah": 1236,
+      "coast": 1020,
+      "rainforest": 68
+    },
+    "validVotes": 2324,
+    "invalidVotes": 16,
+    "totalVotes": 2340,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2340,
+    "remainingVotes": 708,
+    "eligibleVoters": 3048,
+    "voterTurnout": 76.7699966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "歡園里",
+    "candidateVotes": {
+      "savannah": 434,
+      "coast": 383,
+      "rainforest": 26
+    },
+    "validVotes": 843,
+    "invalidVotes": 4,
+    "totalVotes": 847,
+    "receivedUnvoted": 0,
+    "issuedVotes": 847,
+    "remainingVotes": 241,
+    "eligibleVoters": 1088,
+    "voterTurnout": 77.8499984741211
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "中山里",
+    "candidateVotes": {
+      "savannah": 1118,
+      "coast": 1185,
+      "rainforest": 73
+    },
+    "validVotes": 2376,
+    "invalidVotes": 14,
+    "totalVotes": 2390,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2390,
+    "remainingVotes": 837,
+    "eligibleVoters": 3227,
+    "voterTurnout": 74.05999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "復興里",
+    "candidateVotes": {
+      "savannah": 317,
+      "coast": 485,
+      "rainforest": 32
+    },
+    "validVotes": 834,
+    "invalidVotes": 9,
+    "totalVotes": 843,
+    "receivedUnvoted": 0,
+    "issuedVotes": 843,
+    "remainingVotes": 485,
+    "eligibleVoters": 1328,
+    "voterTurnout": 63.47999954223633
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "大安里",
+    "candidateVotes": {
+      "savannah": 1279,
+      "coast": 1402,
+      "rainforest": 102
+    },
+    "validVotes": 2783,
+    "invalidVotes": 13,
+    "totalVotes": 2796,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2796,
+    "remainingVotes": 820,
+    "eligibleVoters": 3616,
+    "voterTurnout": 77.31999969482422
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "福安里",
+    "candidateVotes": {
+      "savannah": 776,
+      "coast": 933,
+      "rainforest": 52
+    },
+    "validVotes": 1761,
+    "invalidVotes": 16,
+    "totalVotes": 1777,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1777,
+    "remainingVotes": 528,
+    "eligibleVoters": 2305,
+    "voterTurnout": 77.08999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "聚安里",
+    "candidateVotes": {
+      "savannah": 1746,
+      "coast": 1630,
+      "rainforest": 108
+    },
+    "validVotes": 3484,
+    "invalidVotes": 35,
+    "totalVotes": 3519,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3519,
+    "remainingVotes": 1123,
+    "eligibleVoters": 4642,
+    "voterTurnout": 75.80999755859375
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "龍安里",
+    "candidateVotes": {
+      "savannah": 1001,
+      "coast": 875,
+      "rainforest": 71
+    },
+    "validVotes": 1947,
+    "invalidVotes": 9,
+    "totalVotes": 1956,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1956,
+    "remainingVotes": 533,
+    "eligibleVoters": 2489,
+    "voterTurnout": 78.58999633789062
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "崑崙里",
+    "candidateVotes": {
+      "savannah": 2636,
+      "coast": 2932,
+      "rainforest": 159
+    },
+    "validVotes": 5727,
+    "invalidVotes": 29,
+    "totalVotes": 5756,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5756,
+    "remainingVotes": 2011,
+    "eligibleVoters": 7767,
+    "voterTurnout": 74.11000061035156
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "成和里",
+    "candidateVotes": {
+      "savannah": 1624,
+      "coast": 1708,
+      "rainforest": 113
+    },
+    "validVotes": 3445,
+    "invalidVotes": 32,
+    "totalVotes": 3477,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3477,
+    "remainingVotes": 1235,
+    "eligibleVoters": 4712,
+    "voterTurnout": 73.79000091552734
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "溪洲里",
+    "candidateVotes": {
+      "savannah": 1751,
+      "coast": 1824,
+      "rainforest": 119
+    },
+    "validVotes": 3694,
+    "invalidVotes": 25,
+    "totalVotes": 3719,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3720,
+    "remainingVotes": 1221,
+    "eligibleVoters": 4941,
+    "voterTurnout": 75.2699966430664
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "溪福里",
+    "candidateVotes": {
+      "savannah": 3384,
+      "coast": 4142,
+      "rainforest": 203
+    },
+    "validVotes": 7729,
+    "invalidVotes": 58,
+    "totalVotes": 7787,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7787,
+    "remainingVotes": 2658,
+    "eligibleVoters": 10445,
+    "voterTurnout": 74.55000305175781
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "溪北里",
+    "candidateVotes": {
+      "savannah": 1006,
+      "coast": 1180,
+      "rainforest": 60
+    },
+    "validVotes": 2246,
+    "invalidVotes": 13,
+    "totalVotes": 2259,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2259,
+    "remainingVotes": 683,
+    "eligibleVoters": 2942,
+    "voterTurnout": 76.77999877929688
+  },
+  {
+    "administrativeDivision": "板橋區",
+    "village": "堂春里",
+    "candidateVotes": {
+      "savannah": 1241,
+      "coast": 1354,
+      "rainforest": 85
+    },
+    "validVotes": 2680,
+    "invalidVotes": 15,
+    "totalVotes": 2695,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2695,
+    "remainingVotes": 823,
+    "eligibleVoters": 3518,
+    "voterTurnout": 76.61000061035156
+  }
+]

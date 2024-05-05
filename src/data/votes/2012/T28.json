@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 506,
+      "coast": 3155,
+      "rainforest": 111
+    },
+    "validVotes": 3772,
+    "invalidVotes": 26,
+    "totalVotes": 3798,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3798,
+    "remainingVotes": 1409,
+    "eligibleVoters": 5207,
+    "voterTurnout": 72.94000244140625
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "瑪家村",
+    "candidateVotes": {
+      "savannah": 50,
+      "coast": 228,
+      "rainforest": 11
+    },
+    "validVotes": 289,
+    "invalidVotes": 4,
+    "totalVotes": 293,
+    "receivedUnvoted": 0,
+    "issuedVotes": 293,
+    "remainingVotes": 105,
+    "eligibleVoters": 398,
+    "voterTurnout": 73.62000274658203
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "北葉村",
+    "candidateVotes": {
+      "savannah": 59,
+      "coast": 477,
+      "rainforest": 22
+    },
+    "validVotes": 558,
+    "invalidVotes": 3,
+    "totalVotes": 561,
+    "receivedUnvoted": 0,
+    "issuedVotes": 561,
+    "remainingVotes": 199,
+    "eligibleVoters": 760,
+    "voterTurnout": 73.81999969482422
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "三和村",
+    "candidateVotes": {
+      "savannah": 148,
+      "coast": 1187,
+      "rainforest": 42
+    },
+    "validVotes": 1377,
+    "invalidVotes": 11,
+    "totalVotes": 1388,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1388,
+    "remainingVotes": 474,
+    "eligibleVoters": 1862,
+    "voterTurnout": 74.54000091552734
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "山村",
+    "candidateVotes": {
+      "savannah": 83,
+      "coast": 602,
+      "rainforest": 18
+    },
+    "validVotes": 703,
+    "invalidVotes": 4,
+    "totalVotes": 707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 707,
+    "remainingVotes": 279,
+    "eligibleVoters": 986,
+    "voterTurnout": 71.69999694824219
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "佳義村",
+    "candidateVotes": {
+      "savannah": 132,
+      "coast": 442,
+      "rainforest": 9
+    },
+    "validVotes": 583,
+    "invalidVotes": 4,
+    "totalVotes": 587,
+    "receivedUnvoted": 0,
+    "issuedVotes": 587,
+    "remainingVotes": 224,
+    "eligibleVoters": 811,
+    "voterTurnout": 72.37999725341797
+  },
+  {
+    "administrativeDivision": "瑪家鄉",
+    "village": "排灣村",
+    "candidateVotes": {
+      "savannah": 34,
+      "coast": 219,
+      "rainforest": 9
+    },
+    "validVotes": 262,
+    "invalidVotes": 0,
+    "totalVotes": 262,
+    "receivedUnvoted": 0,
+    "issuedVotes": 262,
+    "remainingVotes": 128,
+    "eligibleVoters": 390,
+    "voterTurnout": 67.18000030517578
+  }
+]

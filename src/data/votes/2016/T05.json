@@ -1,0 +1,529 @@
+[
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 7042,
+      "savannah": 20347,
+      "rainforest": 2386
+    },
+    "validVotes": 29775,
+    "invalidVotes": 482,
+    "totalVotes": 30257,
+    "receivedUnvoted": 1,
+    "issuedVotes": 30258,
+    "remainingVotes": 11610,
+    "eligibleVoters": 41868,
+    "voterTurnout": 72.2699966430664
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "香社村",
+    "candidateVotes": {
+      "coast": 259,
+      "savannah": 686,
+      "rainforest": 90
+    },
+    "validVotes": 1035,
+    "invalidVotes": 20,
+    "totalVotes": 1055,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1055,
+    "remainingVotes": 402,
+    "eligibleVoters": 1457,
+    "voterTurnout": 72.41000366210938
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "新庄村",
+    "candidateVotes": {
+      "coast": 362,
+      "savannah": 948,
+      "rainforest": 105
+    },
+    "validVotes": 1415,
+    "invalidVotes": 15,
+    "totalVotes": 1430,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1430,
+    "remainingVotes": 545,
+    "eligibleVoters": 1975,
+    "voterTurnout": 72.41000366210938
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "新鐘村",
+    "candidateVotes": {
+      "coast": 446,
+      "savannah": 791,
+      "rainforest": 123
+    },
+    "validVotes": 1360,
+    "invalidVotes": 19,
+    "totalVotes": 1379,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1379,
+    "remainingVotes": 561,
+    "eligibleVoters": 1940,
+    "voterTurnout": 71.08000183105469
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "水仙村",
+    "candidateVotes": {
+      "coast": 105,
+      "savannah": 220,
+      "rainforest": 33
+    },
+    "validVotes": 358,
+    "invalidVotes": 8,
+    "totalVotes": 366,
+    "receivedUnvoted": 0,
+    "issuedVotes": 366,
+    "remainingVotes": 152,
+    "eligibleVoters": 518,
+    "voterTurnout": 70.66000366210938
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "興全村",
+    "candidateVotes": {
+      "coast": 227,
+      "savannah": 512,
+      "rainforest": 55
+    },
+    "validVotes": 794,
+    "invalidVotes": 14,
+    "totalVotes": 808,
+    "receivedUnvoted": 0,
+    "issuedVotes": 808,
+    "remainingVotes": 309,
+    "eligibleVoters": 1117,
+    "voterTurnout": 72.33999633789062
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "興安村",
+    "candidateVotes": {
+      "coast": 113,
+      "savannah": 424,
+      "rainforest": 47
+    },
+    "validVotes": 584,
+    "invalidVotes": 9,
+    "totalVotes": 593,
+    "receivedUnvoted": 0,
+    "issuedVotes": 593,
+    "remainingVotes": 256,
+    "eligibleVoters": 849,
+    "voterTurnout": 69.8499984741211
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "甘棠村",
+    "candidateVotes": {
+      "coast": 55,
+      "savannah": 167,
+      "rainforest": 24
+    },
+    "validVotes": 246,
+    "invalidVotes": 4,
+    "totalVotes": 250,
+    "receivedUnvoted": 0,
+    "issuedVotes": 250,
+    "remainingVotes": 136,
+    "eligibleVoters": 386,
+    "voterTurnout": 64.7699966430664
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "萬惠村",
+    "candidateVotes": {
+      "coast": 171,
+      "savannah": 351,
+      "rainforest": 64
+    },
+    "validVotes": 586,
+    "invalidVotes": 7,
+    "totalVotes": 593,
+    "receivedUnvoted": 0,
+    "issuedVotes": 593,
+    "remainingVotes": 214,
+    "eligibleVoters": 807,
+    "voterTurnout": 73.4800033569336
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "萬全村",
+    "candidateVotes": {
+      "coast": 679,
+      "savannah": 1483,
+      "rainforest": 191
+    },
+    "validVotes": 2353,
+    "invalidVotes": 39,
+    "totalVotes": 2392,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2392,
+    "remainingVotes": 983,
+    "eligibleVoters": 3375,
+    "voterTurnout": 70.87000274658203
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "萬後村",
+    "candidateVotes": {
+      "coast": 87,
+      "savannah": 332,
+      "rainforest": 41
+    },
+    "validVotes": 460,
+    "invalidVotes": 11,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 203,
+    "eligibleVoters": 674,
+    "voterTurnout": 69.87999725341797
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "萬安村",
+    "candidateVotes": {
+      "coast": 117,
+      "savannah": 272,
+      "rainforest": 44
+    },
+    "validVotes": 433,
+    "invalidVotes": 5,
+    "totalVotes": 438,
+    "receivedUnvoted": 0,
+    "issuedVotes": 438,
+    "remainingVotes": 147,
+    "eligibleVoters": 585,
+    "voterTurnout": 74.87000274658203
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "萬生村",
+    "candidateVotes": {
+      "coast": 263,
+      "savannah": 623,
+      "rainforest": 90
+    },
+    "validVotes": 976,
+    "invalidVotes": 24,
+    "totalVotes": 1000,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1000,
+    "remainingVotes": 379,
+    "eligibleVoters": 1379,
+    "voterTurnout": 72.5199966430664
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "寶厝村",
+    "candidateVotes": {
+      "coast": 426,
+      "savannah": 984,
+      "rainforest": 145
+    },
+    "validVotes": 1555,
+    "invalidVotes": 22,
+    "totalVotes": 1577,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1577,
+    "remainingVotes": 581,
+    "eligibleVoters": 2158,
+    "voterTurnout": 73.08000183105469
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "四維村",
+    "candidateVotes": {
+      "coast": 273,
+      "savannah": 897,
+      "rainforest": 112
+    },
+    "validVotes": 1282,
+    "invalidVotes": 24,
+    "totalVotes": 1306,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1306,
+    "remainingVotes": 593,
+    "eligibleVoters": 1899,
+    "voterTurnout": 68.7699966430664
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "竹林村",
+    "candidateVotes": {
+      "coast": 234,
+      "savannah": 834,
+      "rainforest": 94
+    },
+    "validVotes": 1162,
+    "invalidVotes": 17,
+    "totalVotes": 1179,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1179,
+    "remainingVotes": 476,
+    "eligibleVoters": 1655,
+    "voterTurnout": 71.23999786376953
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "水泉村",
+    "candidateVotes": {
+      "coast": 254,
+      "savannah": 788,
+      "rainforest": 102
+    },
+    "validVotes": 1144,
+    "invalidVotes": 30,
+    "totalVotes": 1174,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1175,
+    "remainingVotes": 446,
+    "eligibleVoters": 1621,
+    "voterTurnout": 72.41999816894531
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "田厝村",
+    "candidateVotes": {
+      "coast": 109,
+      "savannah": 551,
+      "rainforest": 49
+    },
+    "validVotes": 709,
+    "invalidVotes": 13,
+    "totalVotes": 722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 722,
+    "remainingVotes": 240,
+    "eligibleVoters": 962,
+    "voterTurnout": 75.05000305175781
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "崙頂村",
+    "candidateVotes": {
+      "coast": 268,
+      "savannah": 895,
+      "rainforest": 106
+    },
+    "validVotes": 1269,
+    "invalidVotes": 25,
+    "totalVotes": 1294,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1294,
+    "remainingVotes": 521,
+    "eligibleVoters": 1815,
+    "voterTurnout": 71.29000091552734
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "厦北村",
+    "candidateVotes": {
+      "coast": 208,
+      "savannah": 836,
+      "rainforest": 46
+    },
+    "validVotes": 1090,
+    "invalidVotes": 15,
+    "totalVotes": 1105,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1105,
+    "remainingVotes": 395,
+    "eligibleVoters": 1500,
+    "voterTurnout": 73.66999816894531
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "厦南村",
+    "candidateVotes": {
+      "coast": 222,
+      "savannah": 655,
+      "rainforest": 74
+    },
+    "validVotes": 951,
+    "invalidVotes": 11,
+    "totalVotes": 962,
+    "receivedUnvoted": 0,
+    "issuedVotes": 962,
+    "remainingVotes": 427,
+    "eligibleVoters": 1389,
+    "voterTurnout": 69.26000213623047
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "後村村",
+    "candidateVotes": {
+      "coast": 192,
+      "savannah": 513,
+      "rainforest": 43
+    },
+    "validVotes": 748,
+    "invalidVotes": 12,
+    "totalVotes": 760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 760,
+    "remainingVotes": 268,
+    "eligibleVoters": 1028,
+    "voterTurnout": 73.93000030517578
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "灣內村",
+    "candidateVotes": {
+      "coast": 183,
+      "savannah": 724,
+      "rainforest": 56
+    },
+    "validVotes": 963,
+    "invalidVotes": 11,
+    "totalVotes": 974,
+    "receivedUnvoted": 0,
+    "issuedVotes": 974,
+    "remainingVotes": 363,
+    "eligibleVoters": 1337,
+    "voterTurnout": 72.8499984741211
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "上村村",
+    "candidateVotes": {
+      "coast": 136,
+      "savannah": 404,
+      "rainforest": 32
+    },
+    "validVotes": 572,
+    "invalidVotes": 9,
+    "totalVotes": 581,
+    "receivedUnvoted": 0,
+    "issuedVotes": 581,
+    "remainingVotes": 175,
+    "eligibleVoters": 756,
+    "voterTurnout": 76.8499984741211
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "加興村",
+    "candidateVotes": {
+      "coast": 160,
+      "savannah": 672,
+      "rainforest": 65
+    },
+    "validVotes": 897,
+    "invalidVotes": 13,
+    "totalVotes": 910,
+    "receivedUnvoted": 0,
+    "issuedVotes": 910,
+    "remainingVotes": 277,
+    "eligibleVoters": 1187,
+    "voterTurnout": 76.66000366210938
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "社口村",
+    "candidateVotes": {
+      "coast": 259,
+      "savannah": 584,
+      "rainforest": 90
+    },
+    "validVotes": 933,
+    "invalidVotes": 18,
+    "totalVotes": 951,
+    "receivedUnvoted": 0,
+    "issuedVotes": 951,
+    "remainingVotes": 366,
+    "eligibleVoters": 1317,
+    "voterTurnout": 72.20999908447266
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "磚寮村",
+    "candidateVotes": {
+      "coast": 146,
+      "savannah": 457,
+      "rainforest": 67
+    },
+    "validVotes": 670,
+    "invalidVotes": 15,
+    "totalVotes": 685,
+    "receivedUnvoted": 0,
+    "issuedVotes": 685,
+    "remainingVotes": 263,
+    "eligibleVoters": 948,
+    "voterTurnout": 72.26000213623047
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "社皮村",
+    "candidateVotes": {
+      "coast": 315,
+      "savannah": 990,
+      "rainforest": 96
+    },
+    "validVotes": 1401,
+    "invalidVotes": 16,
+    "totalVotes": 1417,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1417,
+    "remainingVotes": 512,
+    "eligibleVoters": 1929,
+    "voterTurnout": 73.45999908447266
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "社中村",
+    "candidateVotes": {
+      "coast": 212,
+      "savannah": 857,
+      "rainforest": 83
+    },
+    "validVotes": 1152,
+    "invalidVotes": 16,
+    "totalVotes": 1168,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1168,
+    "remainingVotes": 415,
+    "eligibleVoters": 1583,
+    "voterTurnout": 73.77999877929688
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "社上村",
+    "candidateVotes": {
+      "coast": 233,
+      "savannah": 790,
+      "rainforest": 92
+    },
+    "validVotes": 1115,
+    "invalidVotes": 15,
+    "totalVotes": 1130,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1130,
+    "remainingVotes": 449,
+    "eligibleVoters": 1579,
+    "voterTurnout": 71.55999755859375
+  },
+  {
+    "administrativeDivision": "萬丹鄉",
+    "village": "廣安村",
+    "candidateVotes": {
+      "coast": 328,
+      "savannah": 1107,
+      "rainforest": 127
+    },
+    "validVotes": 1562,
+    "invalidVotes": 25,
+    "totalVotes": 1587,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1587,
+    "remainingVotes": 556,
+    "eligibleVoters": 2143,
+    "voterTurnout": 74.05999755859375
+  }
+]

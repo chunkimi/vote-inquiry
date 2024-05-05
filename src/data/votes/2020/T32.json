@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 83,
+      "coast": 2239,
+      "savannah": 622
+    },
+    "validVotes": 2944,
+    "invalidVotes": 21,
+    "totalVotes": 2965,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2965,
+    "remainingVotes": 1081,
+    "eligibleVoters": 4046,
+    "voterTurnout": 73.2823
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "楓林村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 358,
+      "savannah": 134
+    },
+    "validVotes": 506,
+    "invalidVotes": 1,
+    "totalVotes": 507,
+    "receivedUnvoted": 0,
+    "issuedVotes": 507,
+    "remainingVotes": 198,
+    "eligibleVoters": 705,
+    "voterTurnout": 71.9149
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "丹路村",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 407,
+      "savannah": 113
+    },
+    "validVotes": 537,
+    "invalidVotes": 3,
+    "totalVotes": 540,
+    "receivedUnvoted": 0,
+    "issuedVotes": 540,
+    "remainingVotes": 217,
+    "eligibleVoters": 757,
+    "voterTurnout": 71.3342
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "草埔村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 385,
+      "savannah": 72
+    },
+    "validVotes": 470,
+    "invalidVotes": 1,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 185,
+    "eligibleVoters": 656,
+    "voterTurnout": 71.7988
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "內文村",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 131,
+      "savannah": 34
+    },
+    "validVotes": 171,
+    "invalidVotes": 1,
+    "totalVotes": 172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 172,
+    "remainingVotes": 59,
+    "eligibleVoters": 231,
+    "voterTurnout": 74.4589
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "竹坑村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 155,
+      "savannah": 55
+    },
+    "validVotes": 217,
+    "invalidVotes": 3,
+    "totalVotes": 220,
+    "receivedUnvoted": 0,
+    "issuedVotes": 220,
+    "remainingVotes": 78,
+    "eligibleVoters": 298,
+    "voterTurnout": 73.8255
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "獅子村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 233,
+      "savannah": 89
+    },
+    "validVotes": 327,
+    "invalidVotes": 4,
+    "totalVotes": 331,
+    "receivedUnvoted": 0,
+    "issuedVotes": 331,
+    "remainingVotes": 136,
+    "eligibleVoters": 467,
+    "voterTurnout": 70.8779
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "內獅村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 357,
+      "savannah": 77
+    },
+    "validVotes": 448,
+    "invalidVotes": 6,
+    "totalVotes": 454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 454,
+    "remainingVotes": 133,
+    "eligibleVoters": 587,
+    "voterTurnout": 77.3424
+  },
+  {
+    "administrativeDivision": "獅子鄉",
+    "village": "南世村",
+    "candidateVotes": {
+      "rainforest": 7,
+      "coast": 213,
+      "savannah": 48
+    },
+    "validVotes": 268,
+    "invalidVotes": 2,
+    "totalVotes": 270,
+    "receivedUnvoted": 0,
+    "issuedVotes": 270,
+    "remainingVotes": 75,
+    "eligibleVoters": 345,
+    "voterTurnout": 78.2609
+  }
+]

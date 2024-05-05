@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "萬里區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 3779,
+      "savannah": 6017,
+      "rainforest": 1245
+    },
+    "validVotes": 11041,
+    "invalidVotes": 131,
+    "totalVotes": 11172,
+    "receivedUnvoted": 0,
+    "issuedVotes": 11172,
+    "remainingVotes": 7578,
+    "eligibleVoters": 18750,
+    "voterTurnout": 59.58000183105469
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "萬里里",
+    "candidateVotes": {
+      "coast": 880,
+      "savannah": 1321,
+      "rainforest": 255
+    },
+    "validVotes": 2456,
+    "invalidVotes": 23,
+    "totalVotes": 2479,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2479,
+    "remainingVotes": 1640,
+    "eligibleVoters": 4119,
+    "voterTurnout": 60.18000030517578
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "北基里",
+    "candidateVotes": {
+      "coast": 553,
+      "savannah": 737,
+      "rainforest": 246
+    },
+    "validVotes": 1536,
+    "invalidVotes": 17,
+    "totalVotes": 1553,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1553,
+    "remainingVotes": 1298,
+    "eligibleVoters": 2851,
+    "voterTurnout": 54.470001220703125
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "龜吼里",
+    "candidateVotes": {
+      "coast": 442,
+      "savannah": 752,
+      "rainforest": 139
+    },
+    "validVotes": 1333,
+    "invalidVotes": 17,
+    "totalVotes": 1350,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1350,
+    "remainingVotes": 1043,
+    "eligibleVoters": 2393,
+    "voterTurnout": 56.40999984741211
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "野柳里",
+    "candidateVotes": {
+      "coast": 626,
+      "savannah": 996,
+      "rainforest": 195
+    },
+    "validVotes": 1817,
+    "invalidVotes": 18,
+    "totalVotes": 1835,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1835,
+    "remainingVotes": 1279,
+    "eligibleVoters": 3114,
+    "voterTurnout": 58.93000030517578
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "大鵬里",
+    "candidateVotes": {
+      "coast": 595,
+      "savannah": 907,
+      "rainforest": 176
+    },
+    "validVotes": 1678,
+    "invalidVotes": 23,
+    "totalVotes": 1701,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1701,
+    "remainingVotes": 927,
+    "eligibleVoters": 2628,
+    "voterTurnout": 64.7300033569336
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "磺潭里",
+    "candidateVotes": {
+      "coast": 153,
+      "savannah": 184,
+      "rainforest": 36
+    },
+    "validVotes": 373,
+    "invalidVotes": 4,
+    "totalVotes": 377,
+    "receivedUnvoted": 0,
+    "issuedVotes": 377,
+    "remainingVotes": 177,
+    "eligibleVoters": 554,
+    "voterTurnout": 68.05000305175781
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "雙興里",
+    "candidateVotes": {
+      "coast": 149,
+      "savannah": 388,
+      "rainforest": 56
+    },
+    "validVotes": 593,
+    "invalidVotes": 11,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 352,
+    "eligibleVoters": 956,
+    "voterTurnout": 63.18000030517578
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "溪底里",
+    "candidateVotes": {
+      "coast": 102,
+      "savannah": 255,
+      "rainforest": 22
+    },
+    "validVotes": 379,
+    "invalidVotes": 3,
+    "totalVotes": 382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 382,
+    "remainingVotes": 296,
+    "eligibleVoters": 678,
+    "voterTurnout": 56.34000015258789
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "崁脚里",
+    "candidateVotes": {
+      "coast": 70,
+      "savannah": 153,
+      "rainforest": 26
+    },
+    "validVotes": 249,
+    "invalidVotes": 4,
+    "totalVotes": 253,
+    "receivedUnvoted": 0,
+    "issuedVotes": 253,
+    "remainingVotes": 158,
+    "eligibleVoters": 411,
+    "voterTurnout": 61.560001373291016
+  },
+  {
+    "administrativeDivision": "萬里區",
+    "village": "中幅里",
+    "candidateVotes": {
+      "coast": 209,
+      "savannah": 324,
+      "rainforest": 94
+    },
+    "validVotes": 627,
+    "invalidVotes": 11,
+    "totalVotes": 638,
+    "receivedUnvoted": 0,
+    "issuedVotes": 638,
+    "remainingVotes": 408,
+    "eligibleVoters": 1046,
+    "voterTurnout": 60.9900016784668
+  }
+]

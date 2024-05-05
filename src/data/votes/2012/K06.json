@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 2985,
+      "coast": 7139,
+      "rainforest": 309
+    },
+    "validVotes": 10433,
+    "invalidVotes": 92,
+    "totalVotes": 10525,
+    "receivedUnvoted": 0,
+    "issuedVotes": 10525,
+    "remainingVotes": 3213,
+    "eligibleVoters": 13738,
+    "voterTurnout": 76.61000061035156
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "廣盛村",
+    "candidateVotes": {
+      "savannah": 841,
+      "coast": 2187,
+      "rainforest": 84
+    },
+    "validVotes": 3112,
+    "invalidVotes": 26,
+    "totalVotes": 3138,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3138,
+    "remainingVotes": 982,
+    "eligibleVoters": 4120,
+    "voterTurnout": 76.16999816894531
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "勝興村",
+    "candidateVotes": {
+      "savannah": 715,
+      "coast": 1713,
+      "rainforest": 84
+    },
+    "validVotes": 2512,
+    "invalidVotes": 20,
+    "totalVotes": 2532,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2532,
+    "remainingVotes": 834,
+    "eligibleVoters": 3366,
+    "voterTurnout": 75.22000122070312
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "湖村",
+    "candidateVotes": {
+      "savannah": 368,
+      "coast": 931,
+      "rainforest": 50
+    },
+    "validVotes": 1349,
+    "invalidVotes": 9,
+    "totalVotes": 1358,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1358,
+    "remainingVotes": 437,
+    "eligibleVoters": 1795,
+    "voterTurnout": 75.6500015258789
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "潭村",
+    "candidateVotes": {
+      "savannah": 310,
+      "coast": 728,
+      "rainforest": 25
+    },
+    "validVotes": 1063,
+    "invalidVotes": 13,
+    "totalVotes": 1076,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1076,
+    "remainingVotes": 305,
+    "eligibleVoters": 1381,
+    "voterTurnout": 77.91000366210938
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "西湖村",
+    "candidateVotes": {
+      "savannah": 251,
+      "coast": 849,
+      "rainforest": 28
+    },
+    "validVotes": 1128,
+    "invalidVotes": 11,
+    "totalVotes": 1139,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1139,
+    "remainingVotes": 301,
+    "eligibleVoters": 1440,
+    "voterTurnout": 79.0999984741211
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "龍騰村",
+    "candidateVotes": {
+      "savannah": 65,
+      "coast": 247,
+      "rainforest": 13
+    },
+    "validVotes": 325,
+    "invalidVotes": 3,
+    "totalVotes": 328,
+    "receivedUnvoted": 0,
+    "issuedVotes": 328,
+    "remainingVotes": 84,
+    "eligibleVoters": 412,
+    "voterTurnout": 79.61000061035156
+  },
+  {
+    "administrativeDivision": "三義鄉",
+    "village": "鯉魚潭村",
+    "candidateVotes": {
+      "savannah": 435,
+      "coast": 484,
+      "rainforest": 25
+    },
+    "validVotes": 944,
+    "invalidVotes": 10,
+    "totalVotes": 954,
+    "receivedUnvoted": 0,
+    "issuedVotes": 954,
+    "remainingVotes": 270,
+    "eligibleVoters": 1224,
+    "voterTurnout": 77.94000244140625
+  }
+]

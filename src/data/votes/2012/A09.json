@@ -1,0 +1,444 @@
+[
+  {
+    "administrativeDivision": "大同區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 40907,
+      "coast": 35220,
+      "rainforest": 1944
+    },
+    "validVotes": 78071,
+    "invalidVotes": 600,
+    "totalVotes": 78671,
+    "receivedUnvoted": 10,
+    "issuedVotes": 78681,
+    "remainingVotes": 23130,
+    "eligibleVoters": 101811,
+    "voterTurnout": 77.2699966430664
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "玉泉里",
+    "candidateVotes": {
+      "savannah": 904,
+      "coast": 996,
+      "rainforest": 44
+    },
+    "validVotes": 1944,
+    "invalidVotes": 16,
+    "totalVotes": 1960,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1960,
+    "remainingVotes": 606,
+    "eligibleVoters": 2566,
+    "voterTurnout": 76.37999725341797
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "建明里",
+    "candidateVotes": {
+      "savannah": 1093,
+      "coast": 1012,
+      "rainforest": 42
+    },
+    "validVotes": 2147,
+    "invalidVotes": 15,
+    "totalVotes": 2162,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2162,
+    "remainingVotes": 684,
+    "eligibleVoters": 2846,
+    "voterTurnout": 75.97000122070312
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "建功里",
+    "candidateVotes": {
+      "savannah": 1493,
+      "coast": 1374,
+      "rainforest": 80
+    },
+    "validVotes": 2947,
+    "invalidVotes": 24,
+    "totalVotes": 2971,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2971,
+    "remainingVotes": 944,
+    "eligibleVoters": 3915,
+    "voterTurnout": 75.88999938964844
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "建泰里",
+    "candidateVotes": {
+      "savannah": 1239,
+      "coast": 1077,
+      "rainforest": 61
+    },
+    "validVotes": 2377,
+    "invalidVotes": 12,
+    "totalVotes": 2389,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2389,
+    "remainingVotes": 665,
+    "eligibleVoters": 3054,
+    "voterTurnout": 78.2300033569336
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "永樂里",
+    "candidateVotes": {
+      "savannah": 1867,
+      "coast": 1569,
+      "rainforest": 84
+    },
+    "validVotes": 3520,
+    "invalidVotes": 17,
+    "totalVotes": 3537,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3537,
+    "remainingVotes": 1032,
+    "eligibleVoters": 4569,
+    "voterTurnout": 77.41000366210938
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "朝陽里",
+    "candidateVotes": {
+      "savannah": 1346,
+      "coast": 1236,
+      "rainforest": 80
+    },
+    "validVotes": 2662,
+    "invalidVotes": 15,
+    "totalVotes": 2677,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2677,
+    "remainingVotes": 872,
+    "eligibleVoters": 3549,
+    "voterTurnout": 75.43000030517578
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "星明里",
+    "candidateVotes": {
+      "savannah": 1702,
+      "coast": 1684,
+      "rainforest": 99
+    },
+    "validVotes": 3485,
+    "invalidVotes": 27,
+    "totalVotes": 3512,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3512,
+    "remainingVotes": 1024,
+    "eligibleVoters": 4536,
+    "voterTurnout": 77.43000030517578
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "光能里",
+    "candidateVotes": {
+      "savannah": 1745,
+      "coast": 1494,
+      "rainforest": 68
+    },
+    "validVotes": 3307,
+    "invalidVotes": 33,
+    "totalVotes": 3340,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3340,
+    "remainingVotes": 797,
+    "eligibleVoters": 4137,
+    "voterTurnout": 80.7300033569336
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "大有里",
+    "candidateVotes": {
+      "savannah": 1806,
+      "coast": 1391,
+      "rainforest": 88
+    },
+    "validVotes": 3285,
+    "invalidVotes": 14,
+    "totalVotes": 3299,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3299,
+    "remainingVotes": 820,
+    "eligibleVoters": 4119,
+    "voterTurnout": 80.08999633789062
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "延平里",
+    "candidateVotes": {
+      "savannah": 1240,
+      "coast": 1283,
+      "rainforest": 64
+    },
+    "validVotes": 2587,
+    "invalidVotes": 23,
+    "totalVotes": 2610,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2610,
+    "remainingVotes": 834,
+    "eligibleVoters": 3444,
+    "voterTurnout": 75.77999877929688
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "雙連里",
+    "candidateVotes": {
+      "savannah": 3145,
+      "coast": 2716,
+      "rainforest": 154
+    },
+    "validVotes": 6015,
+    "invalidVotes": 46,
+    "totalVotes": 6061,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6061,
+    "remainingVotes": 1762,
+    "eligibleVoters": 7823,
+    "voterTurnout": 77.4800033569336
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "南芳里",
+    "candidateVotes": {
+      "savannah": 1283,
+      "coast": 1155,
+      "rainforest": 47
+    },
+    "validVotes": 2485,
+    "invalidVotes": 14,
+    "totalVotes": 2499,
+    "receivedUnvoted": 5,
+    "issuedVotes": 2504,
+    "remainingVotes": 727,
+    "eligibleVoters": 3231,
+    "voterTurnout": 77.33999633789062
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "民權里",
+    "candidateVotes": {
+      "savannah": 1858,
+      "coast": 1848,
+      "rainforest": 125
+    },
+    "validVotes": 3831,
+    "invalidVotes": 30,
+    "totalVotes": 3861,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3861,
+    "remainingVotes": 1099,
+    "eligibleVoters": 4960,
+    "voterTurnout": 77.83999633789062
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "景星里",
+    "candidateVotes": {
+      "savannah": 935,
+      "coast": 782,
+      "rainforest": 45
+    },
+    "validVotes": 1762,
+    "invalidVotes": 24,
+    "totalVotes": 1786,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1787,
+    "remainingVotes": 605,
+    "eligibleVoters": 2392,
+    "voterTurnout": 74.66999816894531
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "隆和里",
+    "candidateVotes": {
+      "savannah": 1100,
+      "coast": 798,
+      "rainforest": 56
+    },
+    "validVotes": 1954,
+    "invalidVotes": 20,
+    "totalVotes": 1974,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1974,
+    "remainingVotes": 600,
+    "eligibleVoters": 2574,
+    "voterTurnout": 76.69000244140625
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "蓬萊里",
+    "candidateVotes": {
+      "savannah": 1617,
+      "coast": 1407,
+      "rainforest": 96
+    },
+    "validVotes": 3120,
+    "invalidVotes": 28,
+    "totalVotes": 3148,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3148,
+    "remainingVotes": 902,
+    "eligibleVoters": 4050,
+    "voterTurnout": 77.7300033569336
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "國順里",
+    "candidateVotes": {
+      "savannah": 1170,
+      "coast": 779,
+      "rainforest": 48
+    },
+    "validVotes": 1997,
+    "invalidVotes": 28,
+    "totalVotes": 2025,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2025,
+    "remainingVotes": 592,
+    "eligibleVoters": 2617,
+    "voterTurnout": 77.37999725341797
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "國慶里",
+    "candidateVotes": {
+      "savannah": 1440,
+      "coast": 1265,
+      "rainforest": 53
+    },
+    "validVotes": 2758,
+    "invalidVotes": 11,
+    "totalVotes": 2769,
+    "receivedUnvoted": 4,
+    "issuedVotes": 2773,
+    "remainingVotes": 759,
+    "eligibleVoters": 3532,
+    "voterTurnout": 78.4000015258789
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "揚雅里",
+    "candidateVotes": {
+      "savannah": 1274,
+      "coast": 956,
+      "rainforest": 56
+    },
+    "validVotes": 2286,
+    "invalidVotes": 21,
+    "totalVotes": 2307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2307,
+    "remainingVotes": 1403,
+    "eligibleVoters": 3710,
+    "voterTurnout": 62.18000030517578
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "斯文里",
+    "candidateVotes": {
+      "savannah": 1876,
+      "coast": 1478,
+      "rainforest": 97
+    },
+    "validVotes": 3451,
+    "invalidVotes": 39,
+    "totalVotes": 3490,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3490,
+    "remainingVotes": 1048,
+    "eligibleVoters": 4538,
+    "voterTurnout": 76.91000366210938
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "鄰江里",
+    "candidateVotes": {
+      "savannah": 2378,
+      "coast": 1778,
+      "rainforest": 102
+    },
+    "validVotes": 4258,
+    "invalidVotes": 35,
+    "totalVotes": 4293,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4293,
+    "remainingVotes": 1136,
+    "eligibleVoters": 5429,
+    "voterTurnout": 79.08000183105469
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "至聖里",
+    "candidateVotes": {
+      "savannah": 2675,
+      "coast": 2226,
+      "rainforest": 100
+    },
+    "validVotes": 5001,
+    "invalidVotes": 33,
+    "totalVotes": 5034,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5034,
+    "remainingVotes": 1329,
+    "eligibleVoters": 6363,
+    "voterTurnout": 79.11000061035156
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "老師里",
+    "candidateVotes": {
+      "savannah": 2103,
+      "coast": 1609,
+      "rainforest": 83
+    },
+    "validVotes": 3795,
+    "invalidVotes": 30,
+    "totalVotes": 3825,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3825,
+    "remainingVotes": 1056,
+    "eligibleVoters": 4881,
+    "voterTurnout": 78.37000274658203
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "重慶里",
+    "candidateVotes": {
+      "savannah": 2056,
+      "coast": 2178,
+      "rainforest": 108
+    },
+    "validVotes": 4342,
+    "invalidVotes": 26,
+    "totalVotes": 4368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4368,
+    "remainingVotes": 1104,
+    "eligibleVoters": 5472,
+    "voterTurnout": 79.81999969482422
+  },
+  {
+    "administrativeDivision": "大同區",
+    "village": "保安里",
+    "candidateVotes": {
+      "savannah": 1562,
+      "coast": 1129,
+      "rainforest": 64
+    },
+    "validVotes": 2755,
+    "invalidVotes": 19,
+    "totalVotes": 2774,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2774,
+    "remainingVotes": 730,
+    "eligibleVoters": 3504,
+    "voterTurnout": 79.16999816894531
+  }
+]

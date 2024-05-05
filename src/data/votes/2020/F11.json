@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "烏來區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 173,
+      "coast": 1894,
+      "savannah": 1623
+    },
+    "validVotes": 3690,
+    "invalidVotes": 37,
+    "totalVotes": 3727,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3727,
+    "remainingVotes": 1426,
+    "eligibleVoters": 5153,
+    "voterTurnout": 72.3268
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "忠治里",
+    "candidateVotes": {
+      "rainforest": 62,
+      "coast": 604,
+      "savannah": 487
+    },
+    "validVotes": 1153,
+    "invalidVotes": 5,
+    "totalVotes": 1158,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1158,
+    "remainingVotes": 364,
+    "eligibleVoters": 1522,
+    "voterTurnout": 76.0841
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "烏來里",
+    "candidateVotes": {
+      "rainforest": 85,
+      "coast": 817,
+      "savannah": 742
+    },
+    "validVotes": 1644,
+    "invalidVotes": 14,
+    "totalVotes": 1658,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1658,
+    "remainingVotes": 654,
+    "eligibleVoters": 2312,
+    "voterTurnout": 71.7128
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "孝義里",
+    "candidateVotes": {
+      "rainforest": 3,
+      "coast": 63,
+      "savannah": 112
+    },
+    "validVotes": 178,
+    "invalidVotes": 4,
+    "totalVotes": 182,
+    "receivedUnvoted": 0,
+    "issuedVotes": 182,
+    "remainingVotes": 51,
+    "eligibleVoters": 233,
+    "voterTurnout": 78.1116
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "信賢里",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 158,
+      "savannah": 172
+    },
+    "validVotes": 341,
+    "invalidVotes": 6,
+    "totalVotes": 347,
+    "receivedUnvoted": 0,
+    "issuedVotes": 347,
+    "remainingVotes": 136,
+    "eligibleVoters": 483,
+    "voterTurnout": 71.8427
+  },
+  {
+    "administrativeDivision": "烏來區",
+    "village": "福山里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 252,
+      "savannah": 110
+    },
+    "validVotes": 374,
+    "invalidVotes": 8,
+    "totalVotes": 382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 382,
+    "remainingVotes": 221,
+    "eligibleVoters": 603,
+    "voterTurnout": 63.3499
+  }
+]

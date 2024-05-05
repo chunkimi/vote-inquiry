@@ -1,0 +1,410 @@
+[
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 13071,
+      "coast": 5823,
+      "rainforest": 335
+    },
+    "validVotes": 19229,
+    "invalidVotes": 182,
+    "totalVotes": 19411,
+    "receivedUnvoted": 0,
+    "issuedVotes": 19411,
+    "remainingVotes": 7258,
+    "eligibleVoters": 26669,
+    "voterTurnout": 72.77999877929688
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "宮前村",
+    "candidateVotes": {
+      "savannah": 818,
+      "coast": 602,
+      "rainforest": 29
+    },
+    "validVotes": 1449,
+    "invalidVotes": 5,
+    "totalVotes": 1454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1454,
+    "remainingVotes": 459,
+    "eligibleVoters": 1913,
+    "voterTurnout": 76.01000213623047
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "宮後村",
+    "candidateVotes": {
+      "savannah": 698,
+      "coast": 389,
+      "rainforest": 21
+    },
+    "validVotes": 1108,
+    "invalidVotes": 11,
+    "totalVotes": 1119,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1119,
+    "remainingVotes": 406,
+    "eligibleVoters": 1525,
+    "voterTurnout": 73.37999725341797
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "大興村",
+    "candidateVotes": {
+      "savannah": 720,
+      "coast": 343,
+      "rainforest": 19
+    },
+    "validVotes": 1082,
+    "invalidVotes": 6,
+    "totalVotes": 1088,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1088,
+    "remainingVotes": 349,
+    "eligibleVoters": 1437,
+    "voterTurnout": 75.70999908447266
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "福德村",
+    "candidateVotes": {
+      "savannah": 669,
+      "coast": 457,
+      "rainforest": 28
+    },
+    "validVotes": 1154,
+    "invalidVotes": 8,
+    "totalVotes": 1162,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1162,
+    "remainingVotes": 408,
+    "eligibleVoters": 1570,
+    "voterTurnout": 74.01000213623047
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "古民村",
+    "candidateVotes": {
+      "savannah": 639,
+      "coast": 214,
+      "rainforest": 13
+    },
+    "validVotes": 866,
+    "invalidVotes": 5,
+    "totalVotes": 871,
+    "receivedUnvoted": 0,
+    "issuedVotes": 871,
+    "remainingVotes": 331,
+    "eligibleVoters": 1202,
+    "voterTurnout": 72.45999908447266
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "中庄村",
+    "candidateVotes": {
+      "savannah": 784,
+      "coast": 299,
+      "rainforest": 21
+    },
+    "validVotes": 1104,
+    "invalidVotes": 14,
+    "totalVotes": 1118,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1118,
+    "remainingVotes": 416,
+    "eligibleVoters": 1534,
+    "voterTurnout": 72.87999725341797
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "大潭村",
+    "candidateVotes": {
+      "savannah": 855,
+      "coast": 255,
+      "rainforest": 29
+    },
+    "validVotes": 1139,
+    "invalidVotes": 9,
+    "totalVotes": 1148,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1148,
+    "remainingVotes": 447,
+    "eligibleVoters": 1595,
+    "voterTurnout": 71.97000122070312
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "西庄村",
+    "candidateVotes": {
+      "savannah": 384,
+      "coast": 262,
+      "rainforest": 10
+    },
+    "validVotes": 656,
+    "invalidVotes": 3,
+    "totalVotes": 659,
+    "receivedUnvoted": 0,
+    "issuedVotes": 659,
+    "remainingVotes": 263,
+    "eligibleVoters": 922,
+    "voterTurnout": 71.4800033569336
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "月眉村",
+    "candidateVotes": {
+      "savannah": 890,
+      "coast": 337,
+      "rainforest": 22
+    },
+    "validVotes": 1249,
+    "invalidVotes": 16,
+    "totalVotes": 1265,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1265,
+    "remainingVotes": 422,
+    "eligibleVoters": 1687,
+    "voterTurnout": 74.98999786376953
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "月潭村",
+    "candidateVotes": {
+      "savannah": 769,
+      "coast": 315,
+      "rainforest": 13
+    },
+    "validVotes": 1097,
+    "invalidVotes": 9,
+    "totalVotes": 1106,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1106,
+    "remainingVotes": 452,
+    "eligibleVoters": 1558,
+    "voterTurnout": 70.98999786376953
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "溪北村",
+    "candidateVotes": {
+      "savannah": 725,
+      "coast": 274,
+      "rainforest": 19
+    },
+    "validVotes": 1018,
+    "invalidVotes": 9,
+    "totalVotes": 1027,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1027,
+    "remainingVotes": 357,
+    "eligibleVoters": 1384,
+    "voterTurnout": 74.20999908447266
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "菜公村",
+    "candidateVotes": {
+      "savannah": 431,
+      "coast": 233,
+      "rainforest": 12
+    },
+    "validVotes": 676,
+    "invalidVotes": 5,
+    "totalVotes": 681,
+    "receivedUnvoted": 0,
+    "issuedVotes": 681,
+    "remainingVotes": 266,
+    "eligibleVoters": 947,
+    "voterTurnout": 71.91000366210938
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "中洋村",
+    "candidateVotes": {
+      "savannah": 449,
+      "coast": 262,
+      "rainforest": 18
+    },
+    "validVotes": 729,
+    "invalidVotes": 6,
+    "totalVotes": 735,
+    "receivedUnvoted": 0,
+    "issuedVotes": 735,
+    "remainingVotes": 265,
+    "eligibleVoters": 1000,
+    "voterTurnout": 73.5
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "三間村",
+    "candidateVotes": {
+      "savannah": 532,
+      "coast": 286,
+      "rainforest": 11
+    },
+    "validVotes": 829,
+    "invalidVotes": 8,
+    "totalVotes": 837,
+    "receivedUnvoted": 0,
+    "issuedVotes": 837,
+    "remainingVotes": 297,
+    "eligibleVoters": 1134,
+    "voterTurnout": 73.80999755859375
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "安和村",
+    "candidateVotes": {
+      "savannah": 490,
+      "coast": 173,
+      "rainforest": 12
+    },
+    "validVotes": 675,
+    "invalidVotes": 10,
+    "totalVotes": 685,
+    "receivedUnvoted": 0,
+    "issuedVotes": 685,
+    "remainingVotes": 365,
+    "eligibleVoters": 1050,
+    "voterTurnout": 65.23999786376953
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "潭大村",
+    "candidateVotes": {
+      "savannah": 594,
+      "coast": 220,
+      "rainforest": 9
+    },
+    "validVotes": 823,
+    "invalidVotes": 14,
+    "totalVotes": 837,
+    "receivedUnvoted": 0,
+    "issuedVotes": 837,
+    "remainingVotes": 360,
+    "eligibleVoters": 1197,
+    "voterTurnout": 69.91999816894531
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "南港村",
+    "candidateVotes": {
+      "savannah": 517,
+      "coast": 222,
+      "rainforest": 16
+    },
+    "validVotes": 755,
+    "invalidVotes": 10,
+    "totalVotes": 765,
+    "receivedUnvoted": 0,
+    "issuedVotes": 765,
+    "remainingVotes": 315,
+    "eligibleVoters": 1080,
+    "voterTurnout": 70.83000183105469
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "板頭村",
+    "candidateVotes": {
+      "savannah": 295,
+      "coast": 131,
+      "rainforest": 7
+    },
+    "validVotes": 433,
+    "invalidVotes": 5,
+    "totalVotes": 438,
+    "receivedUnvoted": 0,
+    "issuedVotes": 438,
+    "remainingVotes": 138,
+    "eligibleVoters": 576,
+    "voterTurnout": 76.04000091552734
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "共和村",
+    "candidateVotes": {
+      "savannah": 421,
+      "coast": 171,
+      "rainforest": 8
+    },
+    "validVotes": 600,
+    "invalidVotes": 4,
+    "totalVotes": 604,
+    "receivedUnvoted": 0,
+    "issuedVotes": 604,
+    "remainingVotes": 237,
+    "eligibleVoters": 841,
+    "voterTurnout": 71.81999969482422
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "埤子村",
+    "candidateVotes": {
+      "savannah": 313,
+      "coast": 92,
+      "rainforest": 3
+    },
+    "validVotes": 408,
+    "invalidVotes": 6,
+    "totalVotes": 414,
+    "receivedUnvoted": 0,
+    "issuedVotes": 414,
+    "remainingVotes": 167,
+    "eligibleVoters": 581,
+    "voterTurnout": 71.26000213623047
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "南崙村",
+    "candidateVotes": {
+      "savannah": 596,
+      "coast": 94,
+      "rainforest": 7
+    },
+    "validVotes": 697,
+    "invalidVotes": 10,
+    "totalVotes": 707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 707,
+    "remainingVotes": 246,
+    "eligibleVoters": 953,
+    "voterTurnout": 74.19000244140625
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "北崙村",
+    "candidateVotes": {
+      "savannah": 266,
+      "coast": 71,
+      "rainforest": 1
+    },
+    "validVotes": 338,
+    "invalidVotes": 6,
+    "totalVotes": 344,
+    "receivedUnvoted": 0,
+    "issuedVotes": 344,
+    "remainingVotes": 153,
+    "eligibleVoters": 497,
+    "voterTurnout": 69.22000122070312
+  },
+  {
+    "administrativeDivision": "新港鄉",
+    "village": "海瀛村",
+    "candidateVotes": {
+      "savannah": 216,
+      "coast": 121,
+      "rainforest": 7
+    },
+    "validVotes": 344,
+    "invalidVotes": 3,
+    "totalVotes": 347,
+    "receivedUnvoted": 0,
+    "issuedVotes": 347,
+    "remainingVotes": 139,
+    "eligibleVoters": 486,
+    "voterTurnout": 71.4000015258789
+  }
+]

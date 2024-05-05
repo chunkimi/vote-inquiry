@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 4529,
+      "savannah": 11196,
+      "rainforest": 2607
+    },
+    "validVotes": 18332,
+    "invalidVotes": 242,
+    "totalVotes": 18574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 18574,
+    "remainingVotes": 9832,
+    "eligibleVoters": 28406,
+    "voterTurnout": 65.38999938964844
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "東門村",
+    "candidateVotes": {
+      "coast": 553,
+      "savannah": 1305,
+      "rainforest": 359
+    },
+    "validVotes": 2217,
+    "invalidVotes": 27,
+    "totalVotes": 2244,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2244,
+    "remainingVotes": 1127,
+    "eligibleVoters": 3371,
+    "voterTurnout": 66.56999969482422
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "埔心村",
+    "candidateVotes": {
+      "coast": 184,
+      "savannah": 520,
+      "rainforest": 129
+    },
+    "validVotes": 833,
+    "invalidVotes": 8,
+    "totalVotes": 841,
+    "receivedUnvoted": 0,
+    "issuedVotes": 841,
+    "remainingVotes": 387,
+    "eligibleVoters": 1228,
+    "voterTurnout": 68.48999786376953
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "義民村",
+    "candidateVotes": {
+      "coast": 331,
+      "savannah": 551,
+      "rainforest": 121
+    },
+    "validVotes": 1003,
+    "invalidVotes": 11,
+    "totalVotes": 1014,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1014,
+    "remainingVotes": 522,
+    "eligibleVoters": 1536,
+    "voterTurnout": 66.0199966430664
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "油車村",
+    "candidateVotes": {
+      "coast": 216,
+      "savannah": 431,
+      "rainforest": 108
+    },
+    "validVotes": 755,
+    "invalidVotes": 15,
+    "totalVotes": 770,
+    "receivedUnvoted": 0,
+    "issuedVotes": 770,
+    "remainingVotes": 437,
+    "eligibleVoters": 1207,
+    "voterTurnout": 63.790000915527344
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "瓦北村",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 690,
+      "rainforest": 147
+    },
+    "validVotes": 1088,
+    "invalidVotes": 12,
+    "totalVotes": 1100,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1100,
+    "remainingVotes": 543,
+    "eligibleVoters": 1643,
+    "voterTurnout": 66.94999694824219
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "瓦中村",
+    "candidateVotes": {
+      "coast": 306,
+      "savannah": 733,
+      "rainforest": 153
+    },
+    "validVotes": 1192,
+    "invalidVotes": 22,
+    "totalVotes": 1214,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1214,
+    "remainingVotes": 644,
+    "eligibleVoters": 1858,
+    "voterTurnout": 65.33999633789062
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "瓦南村",
+    "candidateVotes": {
+      "coast": 217,
+      "savannah": 590,
+      "rainforest": 142
+    },
+    "validVotes": 949,
+    "invalidVotes": 15,
+    "totalVotes": 964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 964,
+    "remainingVotes": 454,
+    "eligibleVoters": 1418,
+    "voterTurnout": 67.9800033569336
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "經口村",
+    "candidateVotes": {
+      "coast": 306,
+      "savannah": 888,
+      "rainforest": 213
+    },
+    "validVotes": 1407,
+    "invalidVotes": 12,
+    "totalVotes": 1419,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1419,
+    "remainingVotes": 796,
+    "eligibleVoters": 2215,
+    "voterTurnout": 64.05999755859375
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "太平村",
+    "candidateVotes": {
+      "coast": 273,
+      "savannah": 796,
+      "rainforest": 170
+    },
+    "validVotes": 1239,
+    "invalidVotes": 12,
+    "totalVotes": 1251,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1251,
+    "remainingVotes": 696,
+    "eligibleVoters": 1947,
+    "voterTurnout": 64.25
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "大華村",
+    "candidateVotes": {
+      "coast": 103,
+      "savannah": 200,
+      "rainforest": 42
+    },
+    "validVotes": 345,
+    "invalidVotes": 5,
+    "totalVotes": 350,
+    "receivedUnvoted": 0,
+    "issuedVotes": 350,
+    "remainingVotes": 219,
+    "eligibleVoters": 569,
+    "voterTurnout": 61.5099983215332
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "仁里村",
+    "candidateVotes": {
+      "coast": 190,
+      "savannah": 413,
+      "rainforest": 96
+    },
+    "validVotes": 699,
+    "invalidVotes": 8,
+    "totalVotes": 707,
+    "receivedUnvoted": 0,
+    "issuedVotes": 707,
+    "remainingVotes": 445,
+    "eligibleVoters": 1152,
+    "voterTurnout": 61.369998931884766
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "舊舘村",
+    "candidateVotes": {
+      "coast": 251,
+      "savannah": 584,
+      "rainforest": 154
+    },
+    "validVotes": 989,
+    "invalidVotes": 9,
+    "totalVotes": 998,
+    "receivedUnvoted": 0,
+    "issuedVotes": 998,
+    "remainingVotes": 457,
+    "eligibleVoters": 1455,
+    "voterTurnout": 68.58999633789062
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "南舘村",
+    "candidateVotes": {
+      "coast": 143,
+      "savannah": 386,
+      "rainforest": 78
+    },
+    "validVotes": 607,
+    "invalidVotes": 9,
+    "totalVotes": 616,
+    "receivedUnvoted": 0,
+    "issuedVotes": 616,
+    "remainingVotes": 363,
+    "eligibleVoters": 979,
+    "voterTurnout": 62.91999816894531
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "新舘村",
+    "candidateVotes": {
+      "coast": 136,
+      "savannah": 361,
+      "rainforest": 72
+    },
+    "validVotes": 569,
+    "invalidVotes": 15,
+    "totalVotes": 584,
+    "receivedUnvoted": 0,
+    "issuedVotes": 584,
+    "remainingVotes": 293,
+    "eligibleVoters": 877,
+    "voterTurnout": 66.58999633789062
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "芎蕉村",
+    "candidateVotes": {
+      "coast": 269,
+      "savannah": 747,
+      "rainforest": 146
+    },
+    "validVotes": 1162,
+    "invalidVotes": 15,
+    "totalVotes": 1177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1177,
+    "remainingVotes": 598,
+    "eligibleVoters": 1775,
+    "voterTurnout": 66.30999755859375
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "羅厝村",
+    "candidateVotes": {
+      "coast": 186,
+      "savannah": 536,
+      "rainforest": 101
+    },
+    "validVotes": 823,
+    "invalidVotes": 7,
+    "totalVotes": 830,
+    "receivedUnvoted": 0,
+    "issuedVotes": 830,
+    "remainingVotes": 510,
+    "eligibleVoters": 1340,
+    "voterTurnout": 61.939998626708984
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "梧鳳村",
+    "candidateVotes": {
+      "coast": 136,
+      "savannah": 307,
+      "rainforest": 73
+    },
+    "validVotes": 516,
+    "invalidVotes": 11,
+    "totalVotes": 527,
+    "receivedUnvoted": 0,
+    "issuedVotes": 527,
+    "remainingVotes": 340,
+    "eligibleVoters": 867,
+    "voterTurnout": 60.779998779296875
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "二重村",
+    "candidateVotes": {
+      "coast": 187,
+      "savannah": 558,
+      "rainforest": 97
+    },
+    "validVotes": 842,
+    "invalidVotes": 7,
+    "totalVotes": 849,
+    "receivedUnvoted": 0,
+    "issuedVotes": 849,
+    "remainingVotes": 444,
+    "eligibleVoters": 1293,
+    "voterTurnout": 65.66000366210938
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "埤霞村",
+    "candidateVotes": {
+      "coast": 133,
+      "savannah": 288,
+      "rainforest": 77
+    },
+    "validVotes": 498,
+    "invalidVotes": 11,
+    "totalVotes": 509,
+    "receivedUnvoted": 0,
+    "issuedVotes": 509,
+    "remainingVotes": 258,
+    "eligibleVoters": 767,
+    "voterTurnout": 66.36000061035156
+  },
+  {
+    "administrativeDivision": "埔心鄉",
+    "village": "埤脚村",
+    "candidateVotes": {
+      "coast": 158,
+      "savannah": 312,
+      "rainforest": 129
+    },
+    "validVotes": 599,
+    "invalidVotes": 11,
+    "totalVotes": 610,
+    "receivedUnvoted": 0,
+    "issuedVotes": 610,
+    "remainingVotes": 299,
+    "eligibleVoters": 909,
+    "voterTurnout": 67.11000061035156
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 7236,
+      "savannah": 8907,
+      "rainforest": 3464
+    },
+    "validVotes": 19607,
+    "invalidVotes": 257,
+    "totalVotes": 19864,
+    "receivedUnvoted": 0,
+    "issuedVotes": 19864,
+    "remainingVotes": 11561,
+    "eligibleVoters": 31425,
+    "voterTurnout": 63.209999084472656
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "八西里",
+    "candidateVotes": {
+      "coast": 260,
+      "savannah": 457,
+      "rainforest": 157
+    },
+    "validVotes": 874,
+    "invalidVotes": 12,
+    "totalVotes": 886,
+    "receivedUnvoted": 0,
+    "issuedVotes": 886,
+    "remainingVotes": 514,
+    "eligibleVoters": 1400,
+    "voterTurnout": 63.290000915527344
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "八中里",
+    "candidateVotes": {
+      "coast": 85,
+      "savannah": 152,
+      "rainforest": 49
+    },
+    "validVotes": 286,
+    "invalidVotes": 1,
+    "totalVotes": 287,
+    "receivedUnvoted": 0,
+    "issuedVotes": 287,
+    "remainingVotes": 162,
+    "eligibleVoters": 449,
+    "voterTurnout": 63.91999816894531
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "八堵里",
+    "candidateVotes": {
+      "coast": 147,
+      "savannah": 251,
+      "rainforest": 65
+    },
+    "validVotes": 463,
+    "invalidVotes": 5,
+    "totalVotes": 468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 468,
+    "remainingVotes": 213,
+    "eligibleVoters": 681,
+    "voterTurnout": 68.72000122070312
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "八南里",
+    "candidateVotes": {
+      "coast": 126,
+      "savannah": 221,
+      "rainforest": 72
+    },
+    "validVotes": 419,
+    "invalidVotes": 7,
+    "totalVotes": 426,
+    "receivedUnvoted": 0,
+    "issuedVotes": 426,
+    "remainingVotes": 267,
+    "eligibleVoters": 693,
+    "voterTurnout": 61.470001220703125
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "過港里",
+    "candidateVotes": {
+      "coast": 865,
+      "savannah": 950,
+      "rainforest": 363
+    },
+    "validVotes": 2178,
+    "invalidVotes": 21,
+    "totalVotes": 2199,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2199,
+    "remainingVotes": 1288,
+    "eligibleVoters": 3487,
+    "voterTurnout": 63.060001373291016
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "暖暖里",
+    "candidateVotes": {
+      "coast": 565,
+      "savannah": 751,
+      "rainforest": 268
+    },
+    "validVotes": 1584,
+    "invalidVotes": 31,
+    "totalVotes": 1615,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1615,
+    "remainingVotes": 847,
+    "eligibleVoters": 2462,
+    "voterTurnout": 65.5999984741211
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "暖同里",
+    "candidateVotes": {
+      "coast": 529,
+      "savannah": 650,
+      "rainforest": 267
+    },
+    "validVotes": 1446,
+    "invalidVotes": 18,
+    "totalVotes": 1464,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1464,
+    "remainingVotes": 981,
+    "eligibleVoters": 2445,
+    "voterTurnout": 59.880001068115234
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "暖東里",
+    "candidateVotes": {
+      "coast": 66,
+      "savannah": 122,
+      "rainforest": 52
+    },
+    "validVotes": 240,
+    "invalidVotes": 2,
+    "totalVotes": 242,
+    "receivedUnvoted": 0,
+    "issuedVotes": 242,
+    "remainingVotes": 191,
+    "eligibleVoters": 433,
+    "voterTurnout": 55.88999938964844
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "暖西里",
+    "candidateVotes": {
+      "coast": 958,
+      "savannah": 1359,
+      "rainforest": 493
+    },
+    "validVotes": 2810,
+    "invalidVotes": 37,
+    "totalVotes": 2847,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2847,
+    "remainingVotes": 1464,
+    "eligibleVoters": 4311,
+    "voterTurnout": 66.04000091552734
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "碇內里",
+    "candidateVotes": {
+      "coast": 611,
+      "savannah": 656,
+      "rainforest": 272
+    },
+    "validVotes": 1539,
+    "invalidVotes": 24,
+    "totalVotes": 1563,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1563,
+    "remainingVotes": 925,
+    "eligibleVoters": 2488,
+    "voterTurnout": 62.81999969482422
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "碇和里",
+    "candidateVotes": {
+      "coast": 811,
+      "savannah": 623,
+      "rainforest": 287
+    },
+    "validVotes": 1721,
+    "invalidVotes": 22,
+    "totalVotes": 1743,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1743,
+    "remainingVotes": 1045,
+    "eligibleVoters": 2788,
+    "voterTurnout": 62.52000045776367
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "碇祥里",
+    "candidateVotes": {
+      "coast": 1109,
+      "savannah": 1366,
+      "rainforest": 615
+    },
+    "validVotes": 3090,
+    "invalidVotes": 39,
+    "totalVotes": 3129,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3129,
+    "remainingVotes": 2057,
+    "eligibleVoters": 5186,
+    "voterTurnout": 60.34000015258789
+  },
+  {
+    "administrativeDivision": "暖暖區",
+    "village": "碇安里",
+    "candidateVotes": {
+      "coast": 1104,
+      "savannah": 1349,
+      "rainforest": 504
+    },
+    "validVotes": 2957,
+    "invalidVotes": 38,
+    "totalVotes": 2995,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2995,
+    "remainingVotes": 1607,
+    "eligibleVoters": 4602,
+    "voterTurnout": 65.08000183105469
+  }
+]

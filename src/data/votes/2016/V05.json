@@ -1,0 +1,104 @@
+[
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1320,
+      "savannah": 756,
+      "rainforest": 423
+    },
+    "validVotes": 2499,
+    "invalidVotes": 28,
+    "totalVotes": 2527,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2527,
+    "remainingVotes": 2705,
+    "eligibleVoters": 5232,
+    "voterTurnout": 48.29999923706055
+  },
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "南興村",
+    "candidateVotes": {
+      "coast": 152,
+      "savannah": 98,
+      "rainforest": 42
+    },
+    "validVotes": 292,
+    "invalidVotes": 1,
+    "totalVotes": 293,
+    "receivedUnvoted": 0,
+    "issuedVotes": 293,
+    "remainingVotes": 273,
+    "eligibleVoters": 566,
+    "voterTurnout": 51.77000045776367
+  },
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "尚武村",
+    "candidateVotes": {
+      "coast": 232,
+      "savannah": 320,
+      "rainforest": 83
+    },
+    "validVotes": 635,
+    "invalidVotes": 9,
+    "totalVotes": 644,
+    "receivedUnvoted": 0,
+    "issuedVotes": 644,
+    "remainingVotes": 855,
+    "eligibleVoters": 1499,
+    "voterTurnout": 42.959999084472656
+  },
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "大武村",
+    "candidateVotes": {
+      "coast": 320,
+      "savannah": 216,
+      "rainforest": 102
+    },
+    "validVotes": 638,
+    "invalidVotes": 8,
+    "totalVotes": 646,
+    "receivedUnvoted": 0,
+    "issuedVotes": 646,
+    "remainingVotes": 715,
+    "eligibleVoters": 1361,
+    "voterTurnout": 47.470001220703125
+  },
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "大鳥村",
+    "candidateVotes": {
+      "coast": 362,
+      "savannah": 73,
+      "rainforest": 136
+    },
+    "validVotes": 571,
+    "invalidVotes": 5,
+    "totalVotes": 576,
+    "receivedUnvoted": 0,
+    "issuedVotes": 576,
+    "remainingVotes": 506,
+    "eligibleVoters": 1082,
+    "voterTurnout": 53.22999954223633
+  },
+  {
+    "administrativeDivision": "大武鄉",
+    "village": "大竹村",
+    "candidateVotes": {
+      "coast": 254,
+      "savannah": 49,
+      "rainforest": 60
+    },
+    "validVotes": 363,
+    "invalidVotes": 5,
+    "totalVotes": 368,
+    "receivedUnvoted": 0,
+    "issuedVotes": 368,
+    "remainingVotes": 356,
+    "eligibleVoters": 724,
+    "voterTurnout": 50.83000183105469
+  }
+]

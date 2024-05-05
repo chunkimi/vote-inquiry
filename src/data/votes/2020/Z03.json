@@ -1,0 +1,53 @@
+[
+  {
+    "administrativeDivision": "莒光鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 513,
+      "savannah": 105
+    },
+    "validVotes": 632,
+    "invalidVotes": 9,
+    "totalVotes": 641,
+    "receivedUnvoted": 0,
+    "issuedVotes": 641,
+    "remainingVotes": 733,
+    "eligibleVoters": 1374,
+    "voterTurnout": 46.6521
+  },
+  {
+    "administrativeDivision": "莒光鄉",
+    "village": "青帆村、田沃村、西坵村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 228,
+      "savannah": 43
+    },
+    "validVotes": 280,
+    "invalidVotes": 3,
+    "totalVotes": 283,
+    "receivedUnvoted": 0,
+    "issuedVotes": 283,
+    "remainingVotes": 357,
+    "eligibleVoters": 640,
+    "voterTurnout": 44.2188
+  },
+  {
+    "administrativeDivision": "莒光鄉",
+    "village": "福正村、大坪村",
+    "candidateVotes": {
+      "rainforest": 5,
+      "coast": 285,
+      "savannah": 62
+    },
+    "validVotes": 352,
+    "invalidVotes": 6,
+    "totalVotes": 358,
+    "receivedUnvoted": 0,
+    "issuedVotes": 358,
+    "remainingVotes": 376,
+    "eligibleVoters": 734,
+    "voterTurnout": 48.7738
+  }
+]

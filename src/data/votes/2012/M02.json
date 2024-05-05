@@ -1,0 +1,580 @@
+[
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 17962,
+      "coast": 26002,
+      "rainforest": 1237
+    },
+    "validVotes": 45201,
+    "invalidVotes": 284,
+    "totalVotes": 45485,
+    "receivedUnvoted": 1,
+    "issuedVotes": 45486,
+    "remainingVotes": 20495,
+    "eligibleVoters": 65981,
+    "voterTurnout": 68.94000244140625
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "東門里",
+    "candidateVotes": {
+      "savannah": 786,
+      "coast": 1097,
+      "rainforest": 60
+    },
+    "validVotes": 1943,
+    "invalidVotes": 9,
+    "totalVotes": 1952,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1952,
+    "remainingVotes": 834,
+    "eligibleVoters": 2786,
+    "voterTurnout": 70.05999755859375
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "杷城里",
+    "candidateVotes": {
+      "savannah": 716,
+      "coast": 952,
+      "rainforest": 43
+    },
+    "validVotes": 1711,
+    "invalidVotes": 7,
+    "totalVotes": 1718,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1718,
+    "remainingVotes": 737,
+    "eligibleVoters": 2455,
+    "voterTurnout": 69.9800033569336
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "枇杷里",
+    "candidateVotes": {
+      "savannah": 1655,
+      "coast": 2747,
+      "rainforest": 148
+    },
+    "validVotes": 4550,
+    "invalidVotes": 21,
+    "totalVotes": 4571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4571,
+    "remainingVotes": 2260,
+    "eligibleVoters": 6831,
+    "voterTurnout": 66.91999816894531
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "水頭里",
+    "candidateVotes": {
+      "savannah": 929,
+      "coast": 1246,
+      "rainforest": 70
+    },
+    "validVotes": 2245,
+    "invalidVotes": 12,
+    "totalVotes": 2257,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2257,
+    "remainingVotes": 1191,
+    "eligibleVoters": 3448,
+    "voterTurnout": 65.45999908447266
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "麒麟里",
+    "candidateVotes": {
+      "savannah": 280,
+      "coast": 324,
+      "rainforest": 27
+    },
+    "validVotes": 631,
+    "invalidVotes": 8,
+    "totalVotes": 639,
+    "receivedUnvoted": 0,
+    "issuedVotes": 639,
+    "remainingVotes": 401,
+    "eligibleVoters": 1040,
+    "voterTurnout": 61.439998626708984
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "珠格里",
+    "candidateVotes": {
+      "savannah": 332,
+      "coast": 375,
+      "rainforest": 13
+    },
+    "validVotes": 720,
+    "invalidVotes": 7,
+    "totalVotes": 727,
+    "receivedUnvoted": 0,
+    "issuedVotes": 727,
+    "remainingVotes": 315,
+    "eligibleVoters": 1042,
+    "voterTurnout": 69.7699966430664
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "溪南里",
+    "candidateVotes": {
+      "savannah": 256,
+      "coast": 429,
+      "rainforest": 14
+    },
+    "validVotes": 699,
+    "invalidVotes": 4,
+    "totalVotes": 703,
+    "receivedUnvoted": 0,
+    "issuedVotes": 703,
+    "remainingVotes": 313,
+    "eligibleVoters": 1016,
+    "voterTurnout": 69.19000244140625
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "西門里",
+    "candidateVotes": {
+      "savannah": 855,
+      "coast": 1264,
+      "rainforest": 57
+    },
+    "validVotes": 2176,
+    "invalidVotes": 16,
+    "totalVotes": 2192,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2192,
+    "remainingVotes": 910,
+    "eligibleVoters": 3102,
+    "voterTurnout": 70.66000366210938
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "南門里",
+    "candidateVotes": {
+      "savannah": 299,
+      "coast": 356,
+      "rainforest": 21
+    },
+    "validVotes": 676,
+    "invalidVotes": 6,
+    "totalVotes": 682,
+    "receivedUnvoted": 0,
+    "issuedVotes": 682,
+    "remainingVotes": 226,
+    "eligibleVoters": 908,
+    "voterTurnout": 75.11000061035156
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "北門里",
+    "candidateVotes": {
+      "savannah": 613,
+      "coast": 1006,
+      "rainforest": 38
+    },
+    "validVotes": 1657,
+    "invalidVotes": 15,
+    "totalVotes": 1672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1672,
+    "remainingVotes": 749,
+    "eligibleVoters": 2421,
+    "voterTurnout": 69.05999755859375
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "北安里",
+    "candidateVotes": {
+      "savannah": 790,
+      "coast": 1343,
+      "rainforest": 66
+    },
+    "validVotes": 2199,
+    "invalidVotes": 12,
+    "totalVotes": 2211,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2211,
+    "remainingVotes": 883,
+    "eligibleVoters": 3094,
+    "voterTurnout": 71.45999908447266
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "北梅里",
+    "candidateVotes": {
+      "savannah": 743,
+      "coast": 1144,
+      "rainforest": 39
+    },
+    "validVotes": 1926,
+    "invalidVotes": 15,
+    "totalVotes": 1941,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1941,
+    "remainingVotes": 921,
+    "eligibleVoters": 2862,
+    "voterTurnout": 67.81999969482422
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "泰安里",
+    "candidateVotes": {
+      "savannah": 481,
+      "coast": 938,
+      "rainforest": 36
+    },
+    "validVotes": 1455,
+    "invalidVotes": 5,
+    "totalVotes": 1460,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1460,
+    "remainingVotes": 576,
+    "eligibleVoters": 2036,
+    "voterTurnout": 71.70999908447266
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "大湳里",
+    "candidateVotes": {
+      "savannah": 431,
+      "coast": 497,
+      "rainforest": 27
+    },
+    "validVotes": 955,
+    "invalidVotes": 3,
+    "totalVotes": 958,
+    "receivedUnvoted": 0,
+    "issuedVotes": 958,
+    "remainingVotes": 410,
+    "eligibleVoters": 1368,
+    "voterTurnout": 70.02999877929688
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "蜈蚣里",
+    "candidateVotes": {
+      "savannah": 659,
+      "coast": 946,
+      "rainforest": 66
+    },
+    "validVotes": 1671,
+    "invalidVotes": 15,
+    "totalVotes": 1686,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1686,
+    "remainingVotes": 872,
+    "eligibleVoters": 2558,
+    "voterTurnout": 65.91000366210938
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "同聲里",
+    "candidateVotes": {
+      "savannah": 643,
+      "coast": 896,
+      "rainforest": 53
+    },
+    "validVotes": 1592,
+    "invalidVotes": 8,
+    "totalVotes": 1600,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1600,
+    "remainingVotes": 664,
+    "eligibleVoters": 2264,
+    "voterTurnout": 70.66999816894531
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "清新里",
+    "candidateVotes": {
+      "savannah": 850,
+      "coast": 1465,
+      "rainforest": 66
+    },
+    "validVotes": 2381,
+    "invalidVotes": 14,
+    "totalVotes": 2395,
+    "receivedUnvoted": 1,
+    "issuedVotes": 2396,
+    "remainingVotes": 1148,
+    "eligibleVoters": 3544,
+    "voterTurnout": 67.58000183105469
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "薰化里",
+    "candidateVotes": {
+      "savannah": 351,
+      "coast": 482,
+      "rainforest": 28
+    },
+    "validVotes": 861,
+    "invalidVotes": 4,
+    "totalVotes": 865,
+    "receivedUnvoted": 0,
+    "issuedVotes": 865,
+    "remainingVotes": 249,
+    "eligibleVoters": 1114,
+    "voterTurnout": 77.6500015258789
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "大城里",
+    "candidateVotes": {
+      "savannah": 1390,
+      "coast": 2350,
+      "rainforest": 103
+    },
+    "validVotes": 3843,
+    "invalidVotes": 29,
+    "totalVotes": 3872,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3872,
+    "remainingVotes": 1725,
+    "eligibleVoters": 5597,
+    "voterTurnout": 69.18000030517578
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "籃城里",
+    "candidateVotes": {
+      "savannah": 331,
+      "coast": 314,
+      "rainforest": 12
+    },
+    "validVotes": 657,
+    "invalidVotes": 7,
+    "totalVotes": 664,
+    "receivedUnvoted": 0,
+    "issuedVotes": 664,
+    "remainingVotes": 249,
+    "eligibleVoters": 913,
+    "voterTurnout": 72.7300033569336
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "桃米里",
+    "candidateVotes": {
+      "savannah": 271,
+      "coast": 388,
+      "rainforest": 14
+    },
+    "validVotes": 673,
+    "invalidVotes": 2,
+    "totalVotes": 675,
+    "receivedUnvoted": 0,
+    "issuedVotes": 675,
+    "remainingVotes": 323,
+    "eligibleVoters": 998,
+    "voterTurnout": 67.63999938964844
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "成功里",
+    "candidateVotes": {
+      "savannah": 88,
+      "coast": 113,
+      "rainforest": 10
+    },
+    "validVotes": 211,
+    "invalidVotes": 1,
+    "totalVotes": 212,
+    "receivedUnvoted": 0,
+    "issuedVotes": 212,
+    "remainingVotes": 109,
+    "eligibleVoters": 321,
+    "voterTurnout": 66.04000091552734
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "南村里",
+    "candidateVotes": {
+      "savannah": 332,
+      "coast": 490,
+      "rainforest": 18
+    },
+    "validVotes": 840,
+    "invalidVotes": 6,
+    "totalVotes": 846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 846,
+    "remainingVotes": 439,
+    "eligibleVoters": 1285,
+    "voterTurnout": 65.83999633789062
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "愛蘭里",
+    "candidateVotes": {
+      "savannah": 322,
+      "coast": 582,
+      "rainforest": 27
+    },
+    "validVotes": 931,
+    "invalidVotes": 8,
+    "totalVotes": 939,
+    "receivedUnvoted": 0,
+    "issuedVotes": 939,
+    "remainingVotes": 417,
+    "eligibleVoters": 1356,
+    "voterTurnout": 69.25
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "鐵山里",
+    "candidateVotes": {
+      "savannah": 396,
+      "coast": 612,
+      "rainforest": 27
+    },
+    "validVotes": 1035,
+    "invalidVotes": 9,
+    "totalVotes": 1044,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1044,
+    "remainingVotes": 560,
+    "eligibleVoters": 1604,
+    "voterTurnout": 65.08999633789062
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "房里里",
+    "candidateVotes": {
+      "savannah": 341,
+      "coast": 473,
+      "rainforest": 25
+    },
+    "validVotes": 839,
+    "invalidVotes": 7,
+    "totalVotes": 846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 846,
+    "remainingVotes": 403,
+    "eligibleVoters": 1249,
+    "voterTurnout": 67.7300033569336
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "向善里",
+    "candidateVotes": {
+      "savannah": 203,
+      "coast": 254,
+      "rainforest": 11
+    },
+    "validVotes": 468,
+    "invalidVotes": 3,
+    "totalVotes": 471,
+    "receivedUnvoted": 0,
+    "issuedVotes": 471,
+    "remainingVotes": 205,
+    "eligibleVoters": 676,
+    "voterTurnout": 69.66999816894531
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "一新里",
+    "candidateVotes": {
+      "savannah": 224,
+      "coast": 522,
+      "rainforest": 14
+    },
+    "validVotes": 760,
+    "invalidVotes": 2,
+    "totalVotes": 762,
+    "receivedUnvoted": 0,
+    "issuedVotes": 762,
+    "remainingVotes": 257,
+    "eligibleVoters": 1019,
+    "voterTurnout": 74.77999877929688
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "合成里",
+    "candidateVotes": {
+      "savannah": 531,
+      "coast": 534,
+      "rainforest": 22
+    },
+    "validVotes": 1087,
+    "invalidVotes": 7,
+    "totalVotes": 1094,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1094,
+    "remainingVotes": 500,
+    "eligibleVoters": 1594,
+    "voterTurnout": 68.62999725341797
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "廣成里",
+    "candidateVotes": {
+      "savannah": 379,
+      "coast": 407,
+      "rainforest": 14
+    },
+    "validVotes": 800,
+    "invalidVotes": 4,
+    "totalVotes": 804,
+    "receivedUnvoted": 0,
+    "issuedVotes": 804,
+    "remainingVotes": 362,
+    "eligibleVoters": 1166,
+    "voterTurnout": 68.94999694824219
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "史港里",
+    "candidateVotes": {
+      "savannah": 177,
+      "coast": 277,
+      "rainforest": 8
+    },
+    "validVotes": 462,
+    "invalidVotes": 4,
+    "totalVotes": 466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 466,
+    "remainingVotes": 185,
+    "eligibleVoters": 651,
+    "voterTurnout": 71.58000183105469
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "福興里",
+    "candidateVotes": {
+      "savannah": 370,
+      "coast": 307,
+      "rainforest": 16
+    },
+    "validVotes": 693,
+    "invalidVotes": 3,
+    "totalVotes": 696,
+    "receivedUnvoted": 0,
+    "issuedVotes": 696,
+    "remainingVotes": 313,
+    "eligibleVoters": 1009,
+    "voterTurnout": 68.9800033569336
+  },
+  {
+    "administrativeDivision": "埔里鎮",
+    "village": "牛眠里",
+    "candidateVotes": {
+      "savannah": 938,
+      "coast": 872,
+      "rainforest": 44
+    },
+    "validVotes": 1854,
+    "invalidVotes": 11,
+    "totalVotes": 1865,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1865,
+    "remainingVotes": 789,
+    "eligibleVoters": 2654,
+    "voterTurnout": 70.2699966430664
+  }
+]

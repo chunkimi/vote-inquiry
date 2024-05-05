@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 329,
+      "coast": 1934,
+      "rainforest": 84
+    },
+    "validVotes": 2347,
+    "invalidVotes": 23,
+    "totalVotes": 2370,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2370,
+    "remainingVotes": 1588,
+    "eligibleVoters": 3958,
+    "voterTurnout": 59.880001068115234
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "石門村",
+    "candidateVotes": {
+      "savannah": 139,
+      "coast": 728,
+      "rainforest": 37
+    },
+    "validVotes": 904,
+    "invalidVotes": 4,
+    "totalVotes": 908,
+    "receivedUnvoted": 0,
+    "issuedVotes": 908,
+    "remainingVotes": 542,
+    "eligibleVoters": 1450,
+    "voterTurnout": 62.619998931884766
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "牡丹村",
+    "candidateVotes": {
+      "savannah": 31,
+      "coast": 367,
+      "rainforest": 7
+    },
+    "validVotes": 405,
+    "invalidVotes": 7,
+    "totalVotes": 412,
+    "receivedUnvoted": 0,
+    "issuedVotes": 412,
+    "remainingVotes": 225,
+    "eligibleVoters": 637,
+    "voterTurnout": 64.68000030517578
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "東源村",
+    "candidateVotes": {
+      "savannah": 40,
+      "coast": 195,
+      "rainforest": 8
+    },
+    "validVotes": 243,
+    "invalidVotes": 2,
+    "totalVotes": 245,
+    "receivedUnvoted": 0,
+    "issuedVotes": 245,
+    "remainingVotes": 153,
+    "eligibleVoters": 398,
+    "voterTurnout": 61.560001373291016
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "旭海村",
+    "candidateVotes": {
+      "savannah": 52,
+      "coast": 166,
+      "rainforest": 4
+    },
+    "validVotes": 222,
+    "invalidVotes": 3,
+    "totalVotes": 225,
+    "receivedUnvoted": 0,
+    "issuedVotes": 225,
+    "remainingVotes": 164,
+    "eligibleVoters": 389,
+    "voterTurnout": 57.84000015258789
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "高士村",
+    "candidateVotes": {
+      "savannah": 24,
+      "coast": 265,
+      "rainforest": 16
+    },
+    "validVotes": 305,
+    "invalidVotes": 2,
+    "totalVotes": 307,
+    "receivedUnvoted": 0,
+    "issuedVotes": 307,
+    "remainingVotes": 211,
+    "eligibleVoters": 518,
+    "voterTurnout": 59.27000045776367
+  },
+  {
+    "administrativeDivision": "牡丹鄉",
+    "village": "四林村",
+    "candidateVotes": {
+      "savannah": 43,
+      "coast": 213,
+      "rainforest": 12
+    },
+    "validVotes": 268,
+    "invalidVotes": 5,
+    "totalVotes": 273,
+    "receivedUnvoted": 0,
+    "issuedVotes": 273,
+    "remainingVotes": 293,
+    "eligibleVoters": 566,
+    "voterTurnout": 48.22999954223633
+  }
+]

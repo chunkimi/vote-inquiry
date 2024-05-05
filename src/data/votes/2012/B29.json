@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "和平區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1627,
+      "coast": 3905,
+      "rainforest": 258
+    },
+    "validVotes": 5790,
+    "invalidVotes": 30,
+    "totalVotes": 5820,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5820,
+    "remainingVotes": 2821,
+    "eligibleVoters": 8641,
+    "voterTurnout": 67.3499984741211
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "南勢里",
+    "candidateVotes": {
+      "savannah": 470,
+      "coast": 702,
+      "rainforest": 53
+    },
+    "validVotes": 1225,
+    "invalidVotes": 10,
+    "totalVotes": 1235,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1235,
+    "remainingVotes": 515,
+    "eligibleVoters": 1750,
+    "voterTurnout": 70.56999969482422
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "天輪里",
+    "candidateVotes": {
+      "savannah": 121,
+      "coast": 175,
+      "rainforest": 9
+    },
+    "validVotes": 305,
+    "invalidVotes": 1,
+    "totalVotes": 306,
+    "receivedUnvoted": 0,
+    "issuedVotes": 306,
+    "remainingVotes": 150,
+    "eligibleVoters": 456,
+    "voterTurnout": 67.11000061035156
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "博愛里",
+    "candidateVotes": {
+      "savannah": 288,
+      "coast": 750,
+      "rainforest": 42
+    },
+    "validVotes": 1080,
+    "invalidVotes": 5,
+    "totalVotes": 1085,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1085,
+    "remainingVotes": 484,
+    "eligibleVoters": 1569,
+    "voterTurnout": 69.1500015258789
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "自由里",
+    "candidateVotes": {
+      "savannah": 129,
+      "coast": 511,
+      "rainforest": 52
+    },
+    "validVotes": 692,
+    "invalidVotes": 2,
+    "totalVotes": 694,
+    "receivedUnvoted": 0,
+    "issuedVotes": 694,
+    "remainingVotes": 246,
+    "eligibleVoters": 940,
+    "voterTurnout": 73.83000183105469
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "達觀里",
+    "candidateVotes": {
+      "savannah": 192,
+      "coast": 527,
+      "rainforest": 32
+    },
+    "validVotes": 751,
+    "invalidVotes": 2,
+    "totalVotes": 753,
+    "receivedUnvoted": 0,
+    "issuedVotes": 753,
+    "remainingVotes": 237,
+    "eligibleVoters": 990,
+    "voterTurnout": 76.05999755859375
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "中坑里",
+    "candidateVotes": {
+      "savannah": 113,
+      "coast": 200,
+      "rainforest": 7
+    },
+    "validVotes": 320,
+    "invalidVotes": 3,
+    "totalVotes": 323,
+    "receivedUnvoted": 0,
+    "issuedVotes": 323,
+    "remainingVotes": 85,
+    "eligibleVoters": 408,
+    "voterTurnout": 79.16999816894531
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "梨山里",
+    "candidateVotes": {
+      "savannah": 238,
+      "coast": 688,
+      "rainforest": 29
+    },
+    "validVotes": 955,
+    "invalidVotes": 7,
+    "totalVotes": 962,
+    "receivedUnvoted": 0,
+    "issuedVotes": 962,
+    "remainingVotes": 814,
+    "eligibleVoters": 1776,
+    "voterTurnout": 54.16999816894531
+  },
+  {
+    "administrativeDivision": "和平區",
+    "village": "平等里",
+    "candidateVotes": {
+      "savannah": 76,
+      "coast": 352,
+      "rainforest": 34
+    },
+    "validVotes": 462,
+    "invalidVotes": 0,
+    "totalVotes": 462,
+    "receivedUnvoted": 0,
+    "issuedVotes": 462,
+    "remainingVotes": 290,
+    "eligibleVoters": 752,
+    "voterTurnout": 61.439998626708984
+  }
+]

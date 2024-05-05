@@ -1,0 +1,206 @@
+[
+  {
+    "administrativeDivision": "外埔區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 5685,
+      "savannah": 8846,
+      "rainforest": 2357
+    },
+    "validVotes": 16888,
+    "invalidVotes": 246,
+    "totalVotes": 17134,
+    "receivedUnvoted": 0,
+    "issuedVotes": 17134,
+    "remainingVotes": 8356,
+    "eligibleVoters": 25490,
+    "voterTurnout": 67.22000122070312
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "永豐里",
+    "candidateVotes": {
+      "coast": 210,
+      "savannah": 350,
+      "rainforest": 83
+    },
+    "validVotes": 643,
+    "invalidVotes": 10,
+    "totalVotes": 653,
+    "receivedUnvoted": 0,
+    "issuedVotes": 653,
+    "remainingVotes": 329,
+    "eligibleVoters": 982,
+    "voterTurnout": 66.5
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "六分里",
+    "candidateVotes": {
+      "coast": 467,
+      "savannah": 677,
+      "rainforest": 216
+    },
+    "validVotes": 1360,
+    "invalidVotes": 24,
+    "totalVotes": 1384,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1384,
+    "remainingVotes": 637,
+    "eligibleVoters": 2021,
+    "voterTurnout": 68.4800033569336
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "大同里",
+    "candidateVotes": {
+      "coast": 990,
+      "savannah": 1429,
+      "rainforest": 392
+    },
+    "validVotes": 2811,
+    "invalidVotes": 53,
+    "totalVotes": 2864,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2864,
+    "remainingVotes": 1377,
+    "eligibleVoters": 4241,
+    "voterTurnout": 67.52999877929688
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "大東里",
+    "candidateVotes": {
+      "coast": 1318,
+      "savannah": 1951,
+      "rainforest": 592
+    },
+    "validVotes": 3861,
+    "invalidVotes": 40,
+    "totalVotes": 3901,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3901,
+    "remainingVotes": 1974,
+    "eligibleVoters": 5875,
+    "voterTurnout": 66.4000015258789
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "三崁里",
+    "candidateVotes": {
+      "coast": 395,
+      "savannah": 616,
+      "rainforest": 166
+    },
+    "validVotes": 1177,
+    "invalidVotes": 17,
+    "totalVotes": 1194,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1194,
+    "remainingVotes": 648,
+    "eligibleVoters": 1842,
+    "voterTurnout": 64.81999969482422
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "水美里",
+    "candidateVotes": {
+      "coast": 679,
+      "savannah": 1058,
+      "rainforest": 284
+    },
+    "validVotes": 2021,
+    "invalidVotes": 27,
+    "totalVotes": 2048,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2048,
+    "remainingVotes": 1120,
+    "eligibleVoters": 3168,
+    "voterTurnout": 64.6500015258789
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "鐵山里",
+    "candidateVotes": {
+      "coast": 463,
+      "savannah": 683,
+      "rainforest": 185
+    },
+    "validVotes": 1331,
+    "invalidVotes": 21,
+    "totalVotes": 1352,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1352,
+    "remainingVotes": 757,
+    "eligibleVoters": 2109,
+    "voterTurnout": 64.11000061035156
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 302,
+      "savannah": 393,
+      "rainforest": 88
+    },
+    "validVotes": 783,
+    "invalidVotes": 15,
+    "totalVotes": 798,
+    "receivedUnvoted": 0,
+    "issuedVotes": 798,
+    "remainingVotes": 312,
+    "eligibleVoters": 1110,
+    "voterTurnout": 71.88999938964844
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "馬鳴里",
+    "candidateVotes": {
+      "coast": 302,
+      "savannah": 496,
+      "rainforest": 131
+    },
+    "validVotes": 929,
+    "invalidVotes": 15,
+    "totalVotes": 944,
+    "receivedUnvoted": 0,
+    "issuedVotes": 944,
+    "remainingVotes": 397,
+    "eligibleVoters": 1341,
+    "voterTurnout": 70.4000015258789
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "土城里",
+    "candidateVotes": {
+      "coast": 318,
+      "savannah": 711,
+      "rainforest": 115
+    },
+    "validVotes": 1144,
+    "invalidVotes": 9,
+    "totalVotes": 1153,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1153,
+    "remainingVotes": 440,
+    "eligibleVoters": 1593,
+    "voterTurnout": 72.37999725341797
+  },
+  {
+    "administrativeDivision": "外埔區",
+    "village": "廍子里",
+    "candidateVotes": {
+      "coast": 241,
+      "savannah": 482,
+      "rainforest": 105
+    },
+    "validVotes": 828,
+    "invalidVotes": 15,
+    "totalVotes": 843,
+    "receivedUnvoted": 0,
+    "issuedVotes": 843,
+    "remainingVotes": 365,
+    "eligibleVoters": 1208,
+    "voterTurnout": 69.77999877929688
+  }
+]

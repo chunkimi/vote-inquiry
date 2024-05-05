@@ -1,0 +1,82 @@
+[
+  {
+    "administrativeDivision": "總計",
+    "candidateVotes": {
+      "savannah": 418,
+      "coast": 4507,
+      "rainforest": 279
+    },
+    "validVotes": 5204,
+    "invalidVotes": 51,
+    "totalVotes": 5255,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5255,
+    "remainingVotes": 2732,
+    "eligibleVoters": 7987,
+    "voterTurnout": 65.79000091552734
+  },
+  {
+    "administrativeDivision": "南竿鄉",
+    "candidateVotes": {
+      "savannah": 273,
+      "coast": 2691,
+      "rainforest": 144
+    },
+    "validVotes": 3108,
+    "invalidVotes": 36,
+    "totalVotes": 3144,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3144,
+    "remainingVotes": 1533,
+    "eligibleVoters": 4677,
+    "voterTurnout": 67.22000122070312
+  },
+  {
+    "administrativeDivision": "北竿鄉",
+    "candidateVotes": {
+      "savannah": 63,
+      "coast": 833,
+      "rainforest": 42
+    },
+    "validVotes": 938,
+    "invalidVotes": 9,
+    "totalVotes": 947,
+    "receivedUnvoted": 0,
+    "issuedVotes": 947,
+    "remainingVotes": 530,
+    "eligibleVoters": 1477,
+    "voterTurnout": 64.12000274658203
+  },
+  {
+    "administrativeDivision": "莒光鄉",
+    "candidateVotes": {
+      "savannah": 30,
+      "coast": 459,
+      "rainforest": 48
+    },
+    "validVotes": 537,
+    "invalidVotes": 4,
+    "totalVotes": 541,
+    "receivedUnvoted": 0,
+    "issuedVotes": 541,
+    "remainingVotes": 441,
+    "eligibleVoters": 982,
+    "voterTurnout": 55.09000015258789
+  },
+  {
+    "administrativeDivision": "東引鄉",
+    "candidateVotes": {
+      "savannah": 52,
+      "coast": 524,
+      "rainforest": 45
+    },
+    "validVotes": 621,
+    "invalidVotes": 2,
+    "totalVotes": 623,
+    "receivedUnvoted": 0,
+    "issuedVotes": 623,
+    "remainingVotes": 228,
+    "eligibleVoters": 851,
+    "voterTurnout": 73.20999908447266
+  }
+]

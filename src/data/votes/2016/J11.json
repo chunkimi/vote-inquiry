@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 3076,
+      "savannah": 3266,
+      "rainforest": 1541
+    },
+    "validVotes": 7883,
+    "invalidVotes": 135,
+    "totalVotes": 8018,
+    "receivedUnvoted": 1,
+    "issuedVotes": 8019,
+    "remainingVotes": 3879,
+    "eligibleVoters": 11898,
+    "voterTurnout": 67.38999938964844
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "雙溪村",
+    "candidateVotes": {
+      "coast": 515,
+      "savannah": 544,
+      "rainforest": 326
+    },
+    "validVotes": 1385,
+    "invalidVotes": 27,
+    "totalVotes": 1412,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1412,
+    "remainingVotes": 767,
+    "eligibleVoters": 2179,
+    "voterTurnout": 64.80000305175781
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "雙新村",
+    "candidateVotes": {
+      "coast": 594,
+      "savannah": 669,
+      "rainforest": 310
+    },
+    "validVotes": 1573,
+    "invalidVotes": 24,
+    "totalVotes": 1597,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1597,
+    "remainingVotes": 836,
+    "eligibleVoters": 2433,
+    "voterTurnout": 65.63999938964844
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "大崎村",
+    "candidateVotes": {
+      "coast": 471,
+      "savannah": 462,
+      "rainforest": 202
+    },
+    "validVotes": 1135,
+    "invalidVotes": 30,
+    "totalVotes": 1165,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1165,
+    "remainingVotes": 587,
+    "eligibleVoters": 1752,
+    "voterTurnout": 66.5
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "三峰村",
+    "candidateVotes": {
+      "coast": 271,
+      "savannah": 284,
+      "rainforest": 110
+    },
+    "validVotes": 665,
+    "invalidVotes": 7,
+    "totalVotes": 672,
+    "receivedUnvoted": 0,
+    "issuedVotes": 672,
+    "remainingVotes": 337,
+    "eligibleVoters": 1009,
+    "voterTurnout": 66.5999984741211
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "新城村",
+    "candidateVotes": {
+      "coast": 279,
+      "savannah": 332,
+      "rainforest": 132
+    },
+    "validVotes": 743,
+    "invalidVotes": 16,
+    "totalVotes": 759,
+    "receivedUnvoted": 0,
+    "issuedVotes": 759,
+    "remainingVotes": 349,
+    "eligibleVoters": 1108,
+    "voterTurnout": 68.5
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "寶斗村",
+    "candidateVotes": {
+      "coast": 167,
+      "savannah": 200,
+      "rainforest": 102
+    },
+    "validVotes": 469,
+    "invalidVotes": 7,
+    "totalVotes": 476,
+    "receivedUnvoted": 0,
+    "issuedVotes": 476,
+    "remainingVotes": 248,
+    "eligibleVoters": 724,
+    "voterTurnout": 65.75
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "深井村",
+    "candidateVotes": {
+      "coast": 248,
+      "savannah": 230,
+      "rainforest": 95
+    },
+    "validVotes": 573,
+    "invalidVotes": 5,
+    "totalVotes": 578,
+    "receivedUnvoted": 0,
+    "issuedVotes": 578,
+    "remainingVotes": 217,
+    "eligibleVoters": 795,
+    "voterTurnout": 72.69999694824219
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "寶山村",
+    "candidateVotes": {
+      "coast": 237,
+      "savannah": 205,
+      "rainforest": 107
+    },
+    "validVotes": 549,
+    "invalidVotes": 6,
+    "totalVotes": 555,
+    "receivedUnvoted": 0,
+    "issuedVotes": 555,
+    "remainingVotes": 216,
+    "eligibleVoters": 771,
+    "voterTurnout": 71.9800033569336
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "油田村",
+    "candidateVotes": {
+      "coast": 160,
+      "savannah": 190,
+      "rainforest": 64
+    },
+    "validVotes": 414,
+    "invalidVotes": 8,
+    "totalVotes": 422,
+    "receivedUnvoted": 1,
+    "issuedVotes": 423,
+    "remainingVotes": 172,
+    "eligibleVoters": 595,
+    "voterTurnout": 70.91999816894531
+  },
+  {
+    "administrativeDivision": "寶山鄉",
+    "village": "山湖村",
+    "candidateVotes": {
+      "coast": 134,
+      "savannah": 150,
+      "rainforest": 93
+    },
+    "validVotes": 377,
+    "invalidVotes": 5,
+    "totalVotes": 382,
+    "receivedUnvoted": 0,
+    "issuedVotes": 382,
+    "remainingVotes": 150,
+    "eligibleVoters": 532,
+    "voterTurnout": 71.80000305175781
+  }
+]

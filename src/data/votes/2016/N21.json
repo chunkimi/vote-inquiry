@@ -1,0 +1,359 @@
+[
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 4153,
+      "savannah": 8201,
+      "rainforest": 1882
+    },
+    "validVotes": 14236,
+    "invalidVotes": 218,
+    "totalVotes": 14454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 14454,
+    "remainingVotes": 7691,
+    "eligibleVoters": 22145,
+    "voterTurnout": 65.2699966430664
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "田尾村",
+    "candidateVotes": {
+      "coast": 246,
+      "savannah": 413,
+      "rainforest": 70
+    },
+    "validVotes": 729,
+    "invalidVotes": 8,
+    "totalVotes": 737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 737,
+    "remainingVotes": 515,
+    "eligibleVoters": 1252,
+    "voterTurnout": 58.869998931884766
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "溪畔村",
+    "candidateVotes": {
+      "coast": 203,
+      "savannah": 445,
+      "rainforest": 93
+    },
+    "validVotes": 741,
+    "invalidVotes": 6,
+    "totalVotes": 747,
+    "receivedUnvoted": 0,
+    "issuedVotes": 747,
+    "remainingVotes": 428,
+    "eligibleVoters": 1175,
+    "voterTurnout": 63.56999969482422
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "打簾村",
+    "candidateVotes": {
+      "coast": 287,
+      "savannah": 651,
+      "rainforest": 140
+    },
+    "validVotes": 1078,
+    "invalidVotes": 18,
+    "totalVotes": 1096,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1096,
+    "remainingVotes": 590,
+    "eligibleVoters": 1686,
+    "voterTurnout": 65.01000213623047
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "正義村",
+    "candidateVotes": {
+      "coast": 142,
+      "savannah": 313,
+      "rainforest": 103
+    },
+    "validVotes": 558,
+    "invalidVotes": 11,
+    "totalVotes": 569,
+    "receivedUnvoted": 0,
+    "issuedVotes": 569,
+    "remainingVotes": 278,
+    "eligibleVoters": 847,
+    "voterTurnout": 67.18000030517578
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "北曾村",
+    "candidateVotes": {
+      "coast": 272,
+      "savannah": 581,
+      "rainforest": 105
+    },
+    "validVotes": 958,
+    "invalidVotes": 6,
+    "totalVotes": 964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 964,
+    "remainingVotes": 513,
+    "eligibleVoters": 1477,
+    "voterTurnout": 65.2699966430664
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "南曾村",
+    "candidateVotes": {
+      "coast": 213,
+      "savannah": 511,
+      "rainforest": 110
+    },
+    "validVotes": 834,
+    "invalidVotes": 16,
+    "totalVotes": 850,
+    "receivedUnvoted": 0,
+    "issuedVotes": 850,
+    "remainingVotes": 418,
+    "eligibleVoters": 1268,
+    "voterTurnout": 67.02999877929688
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "饒平村",
+    "candidateVotes": {
+      "coast": 466,
+      "savannah": 788,
+      "rainforest": 265
+    },
+    "validVotes": 1519,
+    "invalidVotes": 22,
+    "totalVotes": 1541,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1541,
+    "remainingVotes": 786,
+    "eligibleVoters": 2327,
+    "voterTurnout": 66.22000122070312
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "豐田村",
+    "candidateVotes": {
+      "coast": 145,
+      "savannah": 228,
+      "rainforest": 61
+    },
+    "validVotes": 434,
+    "invalidVotes": 8,
+    "totalVotes": 442,
+    "receivedUnvoted": 0,
+    "issuedVotes": 442,
+    "remainingVotes": 244,
+    "eligibleVoters": 686,
+    "voterTurnout": 64.43000030517578
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "仁里村",
+    "candidateVotes": {
+      "coast": 299,
+      "savannah": 534,
+      "rainforest": 137
+    },
+    "validVotes": 970,
+    "invalidVotes": 18,
+    "totalVotes": 988,
+    "receivedUnvoted": 0,
+    "issuedVotes": 988,
+    "remainingVotes": 555,
+    "eligibleVoters": 1543,
+    "voterTurnout": 64.02999877929688
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "新厝村",
+    "candidateVotes": {
+      "coast": 54,
+      "savannah": 66,
+      "rainforest": 30
+    },
+    "validVotes": 150,
+    "invalidVotes": 2,
+    "totalVotes": 152,
+    "receivedUnvoted": 0,
+    "issuedVotes": 152,
+    "remainingVotes": 99,
+    "eligibleVoters": 251,
+    "voterTurnout": 60.560001373291016
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "溪頂村",
+    "candidateVotes": {
+      "coast": 108,
+      "savannah": 262,
+      "rainforest": 43
+    },
+    "validVotes": 413,
+    "invalidVotes": 9,
+    "totalVotes": 422,
+    "receivedUnvoted": 0,
+    "issuedVotes": 422,
+    "remainingVotes": 199,
+    "eligibleVoters": 621,
+    "voterTurnout": 67.94999694824219
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "柳鳳村",
+    "candidateVotes": {
+      "coast": 198,
+      "savannah": 337,
+      "rainforest": 88
+    },
+    "validVotes": 623,
+    "invalidVotes": 6,
+    "totalVotes": 629,
+    "receivedUnvoted": 0,
+    "issuedVotes": 629,
+    "remainingVotes": 280,
+    "eligibleVoters": 909,
+    "voterTurnout": 69.19999694824219
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "陸豐村",
+    "candidateVotes": {
+      "coast": 180,
+      "savannah": 296,
+      "rainforest": 73
+    },
+    "validVotes": 549,
+    "invalidVotes": 16,
+    "totalVotes": 565,
+    "receivedUnvoted": 0,
+    "issuedVotes": 565,
+    "remainingVotes": 279,
+    "eligibleVoters": 844,
+    "voterTurnout": 66.94000244140625
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "海豐村",
+    "candidateVotes": {
+      "coast": 248,
+      "savannah": 539,
+      "rainforest": 109
+    },
+    "validVotes": 896,
+    "invalidVotes": 15,
+    "totalVotes": 911,
+    "receivedUnvoted": 0,
+    "issuedVotes": 911,
+    "remainingVotes": 495,
+    "eligibleVoters": 1406,
+    "voterTurnout": 64.79000091552734
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "睦宜村",
+    "candidateVotes": {
+      "coast": 217,
+      "savannah": 382,
+      "rainforest": 114
+    },
+    "validVotes": 713,
+    "invalidVotes": 11,
+    "totalVotes": 724,
+    "receivedUnvoted": 0,
+    "issuedVotes": 724,
+    "remainingVotes": 333,
+    "eligibleVoters": 1057,
+    "voterTurnout": 68.5
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "新生村",
+    "candidateVotes": {
+      "coast": 236,
+      "savannah": 483,
+      "rainforest": 84
+    },
+    "validVotes": 803,
+    "invalidVotes": 13,
+    "totalVotes": 816,
+    "receivedUnvoted": 0,
+    "issuedVotes": 816,
+    "remainingVotes": 436,
+    "eligibleVoters": 1252,
+    "voterTurnout": 65.18000030517578
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "北鎮村",
+    "candidateVotes": {
+      "coast": 191,
+      "savannah": 414,
+      "rainforest": 89
+    },
+    "validVotes": 694,
+    "invalidVotes": 8,
+    "totalVotes": 702,
+    "receivedUnvoted": 0,
+    "issuedVotes": 702,
+    "remainingVotes": 395,
+    "eligibleVoters": 1097,
+    "voterTurnout": 63.9900016784668
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "南鎮村",
+    "candidateVotes": {
+      "coast": 99,
+      "savannah": 231,
+      "rainforest": 34
+    },
+    "validVotes": 364,
+    "invalidVotes": 5,
+    "totalVotes": 369,
+    "receivedUnvoted": 0,
+    "issuedVotes": 369,
+    "remainingVotes": 234,
+    "eligibleVoters": 603,
+    "voterTurnout": 61.189998626708984
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "福田村",
+    "candidateVotes": {
+      "coast": 146,
+      "savannah": 294,
+      "rainforest": 57
+    },
+    "validVotes": 497,
+    "invalidVotes": 11,
+    "totalVotes": 508,
+    "receivedUnvoted": 0,
+    "issuedVotes": 508,
+    "remainingVotes": 260,
+    "eligibleVoters": 768,
+    "voterTurnout": 66.1500015258789
+  },
+  {
+    "administrativeDivision": "田尾鄉",
+    "village": "新興村",
+    "candidateVotes": {
+      "coast": 203,
+      "savannah": 433,
+      "rainforest": 77
+    },
+    "validVotes": 713,
+    "invalidVotes": 9,
+    "totalVotes": 722,
+    "receivedUnvoted": 0,
+    "issuedVotes": 722,
+    "remainingVotes": 354,
+    "eligibleVoters": 1076,
+    "voterTurnout": 67.0999984741211
+  }
+]

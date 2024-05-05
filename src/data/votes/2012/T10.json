@@ -1,0 +1,223 @@
+[
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 8256,
+      "coast": 6681,
+      "rainforest": 305
+    },
+    "validVotes": 15242,
+    "invalidVotes": 179,
+    "totalVotes": 15421,
+    "receivedUnvoted": 0,
+    "issuedVotes": 15421,
+    "remainingVotes": 6257,
+    "eligibleVoters": 21678,
+    "voterTurnout": 71.13999938964844
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "鹽北村",
+    "candidateVotes": {
+      "savannah": 569,
+      "coast": 727,
+      "rainforest": 25
+    },
+    "validVotes": 1321,
+    "invalidVotes": 13,
+    "totalVotes": 1334,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1334,
+    "remainingVotes": 524,
+    "eligibleVoters": 1858,
+    "voterTurnout": 71.80000305175781
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "鹽中村",
+    "candidateVotes": {
+      "savannah": 762,
+      "coast": 828,
+      "rainforest": 38
+    },
+    "validVotes": 1628,
+    "invalidVotes": 20,
+    "totalVotes": 1648,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1648,
+    "remainingVotes": 668,
+    "eligibleVoters": 2316,
+    "voterTurnout": 71.16000366210938
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "鹽南村",
+    "candidateVotes": {
+      "savannah": 521,
+      "coast": 631,
+      "rainforest": 38
+    },
+    "validVotes": 1190,
+    "invalidVotes": 10,
+    "totalVotes": 1200,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1200,
+    "remainingVotes": 518,
+    "eligibleVoters": 1718,
+    "voterTurnout": 69.8499984741211
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "仕絨村",
+    "candidateVotes": {
+      "savannah": 279,
+      "coast": 423,
+      "rainforest": 16
+    },
+    "validVotes": 718,
+    "invalidVotes": 8,
+    "totalVotes": 726,
+    "receivedUnvoted": 0,
+    "issuedVotes": 726,
+    "remainingVotes": 261,
+    "eligibleVoters": 987,
+    "voterTurnout": 73.55999755859375
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "高朗村",
+    "candidateVotes": {
+      "savannah": 1099,
+      "coast": 779,
+      "rainforest": 33
+    },
+    "validVotes": 1911,
+    "invalidVotes": 26,
+    "totalVotes": 1937,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1937,
+    "remainingVotes": 818,
+    "eligibleVoters": 2755,
+    "voterTurnout": 70.30999755859375
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "振興村",
+    "candidateVotes": {
+      "savannah": 726,
+      "coast": 492,
+      "rainforest": 16
+    },
+    "validVotes": 1234,
+    "invalidVotes": 18,
+    "totalVotes": 1252,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1252,
+    "remainingVotes": 579,
+    "eligibleVoters": 1831,
+    "voterTurnout": 68.37999725341797
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "久愛村",
+    "candidateVotes": {
+      "savannah": 323,
+      "coast": 309,
+      "rainforest": 9
+    },
+    "validVotes": 641,
+    "invalidVotes": 7,
+    "totalVotes": 648,
+    "receivedUnvoted": 0,
+    "issuedVotes": 648,
+    "remainingVotes": 242,
+    "eligibleVoters": 890,
+    "voterTurnout": 72.80999755859375
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "新圍村",
+    "candidateVotes": {
+      "savannah": 1448,
+      "coast": 654,
+      "rainforest": 38
+    },
+    "validVotes": 2140,
+    "invalidVotes": 19,
+    "totalVotes": 2159,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2159,
+    "remainingVotes": 846,
+    "eligibleVoters": 3005,
+    "voterTurnout": 71.8499984741211
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "新二村",
+    "candidateVotes": {
+      "savannah": 1224,
+      "coast": 971,
+      "rainforest": 47
+    },
+    "validVotes": 2242,
+    "invalidVotes": 26,
+    "totalVotes": 2268,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2268,
+    "remainingVotes": 976,
+    "eligibleVoters": 3244,
+    "voterTurnout": 69.91000366210938
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "彭厝村",
+    "candidateVotes": {
+      "savannah": 371,
+      "coast": 312,
+      "rainforest": 16
+    },
+    "validVotes": 699,
+    "invalidVotes": 15,
+    "totalVotes": 714,
+    "receivedUnvoted": 0,
+    "issuedVotes": 714,
+    "remainingVotes": 252,
+    "eligibleVoters": 966,
+    "voterTurnout": 73.91000366210938
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "洛陽村",
+    "candidateVotes": {
+      "savannah": 653,
+      "coast": 447,
+      "rainforest": 21
+    },
+    "validVotes": 1121,
+    "invalidVotes": 9,
+    "totalVotes": 1130,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1130,
+    "remainingVotes": 414,
+    "eligibleVoters": 1544,
+    "voterTurnout": 73.19000244140625
+  },
+  {
+    "administrativeDivision": "鹽埔鄉",
+    "village": "永隆村",
+    "candidateVotes": {
+      "savannah": 281,
+      "coast": 108,
+      "rainforest": 8
+    },
+    "validVotes": 397,
+    "invalidVotes": 8,
+    "totalVotes": 405,
+    "receivedUnvoted": 0,
+    "issuedVotes": 405,
+    "remainingVotes": 159,
+    "eligibleVoters": 564,
+    "voterTurnout": 71.80999755859375
+  }
+]

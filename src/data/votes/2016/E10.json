@@ -1,0 +1,240 @@
+[
+  {
+    "administrativeDivision": "旗津區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 2906,
+      "savannah": 11022,
+      "rainforest": 1340
+    },
+    "validVotes": 15268,
+    "invalidVotes": 186,
+    "totalVotes": 15454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 15454,
+    "remainingVotes": 8549,
+    "eligibleVoters": 24003,
+    "voterTurnout": 64.37999725341797
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "旗下里",
+    "candidateVotes": {
+      "coast": 140,
+      "savannah": 553,
+      "rainforest": 56
+    },
+    "validVotes": 749,
+    "invalidVotes": 13,
+    "totalVotes": 762,
+    "receivedUnvoted": 0,
+    "issuedVotes": 762,
+    "remainingVotes": 396,
+    "eligibleVoters": 1158,
+    "voterTurnout": 65.80000305175781
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "永安里",
+    "candidateVotes": {
+      "coast": 129,
+      "savannah": 488,
+      "rainforest": 62
+    },
+    "validVotes": 679,
+    "invalidVotes": 11,
+    "totalVotes": 690,
+    "receivedUnvoted": 0,
+    "issuedVotes": 690,
+    "remainingVotes": 403,
+    "eligibleVoters": 1093,
+    "voterTurnout": 63.130001068115234
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "振興里",
+    "candidateVotes": {
+      "coast": 198,
+      "savannah": 749,
+      "rainforest": 84
+    },
+    "validVotes": 1031,
+    "invalidVotes": 13,
+    "totalVotes": 1044,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1044,
+    "remainingVotes": 549,
+    "eligibleVoters": 1593,
+    "voterTurnout": 65.54000091552734
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "慈愛里",
+    "candidateVotes": {
+      "coast": 230,
+      "savannah": 1019,
+      "rainforest": 113
+    },
+    "validVotes": 1362,
+    "invalidVotes": 19,
+    "totalVotes": 1381,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1381,
+    "remainingVotes": 855,
+    "eligibleVoters": 2236,
+    "voterTurnout": 61.7599983215332
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "復興里",
+    "candidateVotes": {
+      "coast": 405,
+      "savannah": 1158,
+      "rainforest": 187
+    },
+    "validVotes": 1750,
+    "invalidVotes": 20,
+    "totalVotes": 1770,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1770,
+    "remainingVotes": 1076,
+    "eligibleVoters": 2846,
+    "voterTurnout": 62.189998626708984
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "中華里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 740,
+      "rainforest": 82
+    },
+    "validVotes": 978,
+    "invalidVotes": 11,
+    "totalVotes": 989,
+    "receivedUnvoted": 0,
+    "issuedVotes": 989,
+    "remainingVotes": 441,
+    "eligibleVoters": 1430,
+    "voterTurnout": 69.16000366210938
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "實踐里",
+    "candidateVotes": {
+      "coast": 380,
+      "savannah": 311,
+      "rainforest": 99
+    },
+    "validVotes": 790,
+    "invalidVotes": 15,
+    "totalVotes": 805,
+    "receivedUnvoted": 0,
+    "issuedVotes": 805,
+    "remainingVotes": 522,
+    "eligibleVoters": 1327,
+    "voterTurnout": 60.65999984741211
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "北汕里",
+    "candidateVotes": {
+      "coast": 272,
+      "savannah": 1079,
+      "rainforest": 192
+    },
+    "validVotes": 1543,
+    "invalidVotes": 16,
+    "totalVotes": 1559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1559,
+    "remainingVotes": 984,
+    "eligibleVoters": 2543,
+    "voterTurnout": 61.310001373291016
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "南汕里",
+    "candidateVotes": {
+      "coast": 198,
+      "savannah": 923,
+      "rainforest": 109
+    },
+    "validVotes": 1230,
+    "invalidVotes": 10,
+    "totalVotes": 1240,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1240,
+    "remainingVotes": 713,
+    "eligibleVoters": 1953,
+    "voterTurnout": 63.4900016784668
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "上竹里",
+    "candidateVotes": {
+      "coast": 252,
+      "savannah": 1376,
+      "rainforest": 127
+    },
+    "validVotes": 1755,
+    "invalidVotes": 17,
+    "totalVotes": 1772,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1772,
+    "remainingVotes": 924,
+    "eligibleVoters": 2696,
+    "voterTurnout": 65.7300033569336
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "中洲里",
+    "candidateVotes": {
+      "coast": 171,
+      "savannah": 906,
+      "rainforest": 76
+    },
+    "validVotes": 1153,
+    "invalidVotes": 21,
+    "totalVotes": 1174,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1174,
+    "remainingVotes": 601,
+    "eligibleVoters": 1775,
+    "voterTurnout": 66.13999938964844
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "安順里",
+    "candidateVotes": {
+      "coast": 84,
+      "savannah": 430,
+      "rainforest": 20
+    },
+    "validVotes": 534,
+    "invalidVotes": 4,
+    "totalVotes": 538,
+    "receivedUnvoted": 0,
+    "issuedVotes": 538,
+    "remainingVotes": 330,
+    "eligibleVoters": 868,
+    "voterTurnout": 61.97999954223633
+  },
+  {
+    "administrativeDivision": "旗津區",
+    "village": "中興里",
+    "candidateVotes": {
+      "coast": 291,
+      "savannah": 1290,
+      "rainforest": 133
+    },
+    "validVotes": 1714,
+    "invalidVotes": 16,
+    "totalVotes": 1730,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1730,
+    "remainingVotes": 755,
+    "eligibleVoters": 2485,
+    "voterTurnout": 69.62000274658203
+  }
+]

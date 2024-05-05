@@ -1,0 +1,70 @@
+[
+  {
+    "administrativeDivision": "南竿鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 273,
+      "coast": 2691,
+      "rainforest": 144
+    },
+    "validVotes": 3108,
+    "invalidVotes": 36,
+    "totalVotes": 3144,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3144,
+    "remainingVotes": 1533,
+    "eligibleVoters": 4677,
+    "voterTurnout": 67.22000122070312
+  },
+  {
+    "administrativeDivision": "南竿鄉",
+    "village": "介壽村",
+    "candidateVotes": {
+      "savannah": 79,
+      "coast": 913,
+      "rainforest": 55
+    },
+    "validVotes": 1047,
+    "invalidVotes": 10,
+    "totalVotes": 1057,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1057,
+    "remainingVotes": 450,
+    "eligibleVoters": 1507,
+    "voterTurnout": 70.13999938964844
+  },
+  {
+    "administrativeDivision": "南竿鄉",
+    "village": "復興村、福沃村",
+    "candidateVotes": {
+      "savannah": 95,
+      "coast": 800,
+      "rainforest": 38
+    },
+    "validVotes": 933,
+    "invalidVotes": 13,
+    "totalVotes": 946,
+    "receivedUnvoted": 0,
+    "issuedVotes": 946,
+    "remainingVotes": 442,
+    "eligibleVoters": 1388,
+    "voterTurnout": 68.16000366210938
+  },
+  {
+    "administrativeDivision": "南竿鄉",
+    "village": "清水村、仁愛村、津沙村、馬祖村、珠螺村、四維村",
+    "candidateVotes": {
+      "savannah": 99,
+      "coast": 978,
+      "rainforest": 51
+    },
+    "validVotes": 1128,
+    "invalidVotes": 13,
+    "totalVotes": 1141,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1141,
+    "remainingVotes": 641,
+    "eligibleVoters": 1782,
+    "voterTurnout": 64.02999877929688
+  }
+]

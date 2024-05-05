@@ -1,0 +1,172 @@
+[
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 230,
+      "coast": 3744,
+      "savannah": 1829
+    },
+    "validVotes": 5803,
+    "invalidVotes": 54,
+    "totalVotes": 5857,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5857,
+    "remainingVotes": 2519,
+    "eligibleVoters": 8376,
+    "voterTurnout": 69.926
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "東村",
+    "candidateVotes": {
+      "rainforest": 18,
+      "coast": 499,
+      "savannah": 244
+    },
+    "validVotes": 761,
+    "invalidVotes": 10,
+    "totalVotes": 771,
+    "receivedUnvoted": 0,
+    "issuedVotes": 771,
+    "remainingVotes": 328,
+    "eligibleVoters": 1099,
+    "voterTurnout": 70.1547
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "西村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 286,
+      "savannah": 150
+    },
+    "validVotes": 449,
+    "invalidVotes": 5,
+    "totalVotes": 454,
+    "receivedUnvoted": 0,
+    "issuedVotes": 454,
+    "remainingVotes": 161,
+    "eligibleVoters": 615,
+    "voterTurnout": 73.8211
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "南江村",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 575,
+      "savannah": 252
+    },
+    "validVotes": 862,
+    "invalidVotes": 4,
+    "totalVotes": 866,
+    "receivedUnvoted": 0,
+    "issuedVotes": 866,
+    "remainingVotes": 412,
+    "eligibleVoters": 1278,
+    "voterTurnout": 67.7621
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "田美村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 358,
+      "savannah": 185
+    },
+    "validVotes": 556,
+    "invalidVotes": 11,
+    "totalVotes": 567,
+    "receivedUnvoted": 0,
+    "issuedVotes": 567,
+    "remainingVotes": 217,
+    "eligibleVoters": 784,
+    "voterTurnout": 72.3214
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "獅山村",
+    "candidateVotes": {
+      "rainforest": 38,
+      "coast": 322,
+      "savannah": 195
+    },
+    "validVotes": 555,
+    "invalidVotes": 4,
+    "totalVotes": 559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 559,
+    "remainingVotes": 230,
+    "eligibleVoters": 789,
+    "voterTurnout": 70.8492
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "南富村",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 485,
+      "savannah": 253
+    },
+    "validVotes": 774,
+    "invalidVotes": 7,
+    "totalVotes": 781,
+    "receivedUnvoted": 0,
+    "issuedVotes": 781,
+    "remainingVotes": 268,
+    "eligibleVoters": 1049,
+    "voterTurnout": 74.4519
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "員林村",
+    "candidateVotes": {
+      "rainforest": 31,
+      "coast": 399,
+      "savannah": 292
+    },
+    "validVotes": 722,
+    "invalidVotes": 7,
+    "totalVotes": 729,
+    "receivedUnvoted": 0,
+    "issuedVotes": 729,
+    "remainingVotes": 269,
+    "eligibleVoters": 998,
+    "voterTurnout": 73.0461
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "蓬萊村",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 399,
+      "savannah": 132
+    },
+    "validVotes": 557,
+    "invalidVotes": 2,
+    "totalVotes": 559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 559,
+    "remainingVotes": 295,
+    "eligibleVoters": 854,
+    "voterTurnout": 65.4567
+  },
+  {
+    "administrativeDivision": "南庄鄉",
+    "village": "東河村",
+    "candidateVotes": {
+      "rainforest": 20,
+      "coast": 421,
+      "savannah": 126
+    },
+    "validVotes": 567,
+    "invalidVotes": 4,
+    "totalVotes": 571,
+    "receivedUnvoted": 0,
+    "issuedVotes": 571,
+    "remainingVotes": 339,
+    "eligibleVoters": 910,
+    "voterTurnout": 62.7473
+  }
+]

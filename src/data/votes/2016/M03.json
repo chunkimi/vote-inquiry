@@ -1,0 +1,478 @@
+[
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 15804,
+      "savannah": 27856,
+      "rainforest": 8224
+    },
+    "validVotes": 51884,
+    "invalidVotes": 690,
+    "totalVotes": 52574,
+    "receivedUnvoted": 0,
+    "issuedVotes": 52574,
+    "remainingVotes": 27248,
+    "eligibleVoters": 79822,
+    "voterTurnout": 65.86000061035156
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "玉峰里",
+    "candidateVotes": {
+      "coast": 494,
+      "savannah": 719,
+      "rainforest": 218
+    },
+    "validVotes": 1431,
+    "invalidVotes": 13,
+    "totalVotes": 1444,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1444,
+    "remainingVotes": 669,
+    "eligibleVoters": 2113,
+    "voterTurnout": 68.33999633789062
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "明正里",
+    "candidateVotes": {
+      "coast": 785,
+      "savannah": 1190,
+      "rainforest": 426
+    },
+    "validVotes": 2401,
+    "invalidVotes": 29,
+    "totalVotes": 2430,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2430,
+    "remainingVotes": 1312,
+    "eligibleVoters": 3742,
+    "voterTurnout": 64.94000244140625
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "炎峰里",
+    "candidateVotes": {
+      "coast": 452,
+      "savannah": 727,
+      "rainforest": 188
+    },
+    "validVotes": 1367,
+    "invalidVotes": 29,
+    "totalVotes": 1396,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1396,
+    "remainingVotes": 667,
+    "eligibleVoters": 2063,
+    "voterTurnout": 67.66999816894531
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "中正里",
+    "candidateVotes": {
+      "coast": 164,
+      "savannah": 229,
+      "rainforest": 69
+    },
+    "validVotes": 462,
+    "invalidVotes": 6,
+    "totalVotes": 468,
+    "receivedUnvoted": 0,
+    "issuedVotes": 468,
+    "remainingVotes": 199,
+    "eligibleVoters": 667,
+    "voterTurnout": 70.16000366210938
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "和平里",
+    "candidateVotes": {
+      "coast": 228,
+      "savannah": 443,
+      "rainforest": 115
+    },
+    "validVotes": 786,
+    "invalidVotes": 8,
+    "totalVotes": 794,
+    "receivedUnvoted": 0,
+    "issuedVotes": 794,
+    "remainingVotes": 361,
+    "eligibleVoters": 1155,
+    "voterTurnout": 68.73999786376953
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "中山里",
+    "candidateVotes": {
+      "coast": 497,
+      "savannah": 826,
+      "rainforest": 206
+    },
+    "validVotes": 1529,
+    "invalidVotes": 18,
+    "totalVotes": 1547,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1547,
+    "remainingVotes": 695,
+    "eligibleVoters": 2242,
+    "voterTurnout": 69
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "敦和里",
+    "candidateVotes": {
+      "coast": 1281,
+      "savannah": 2050,
+      "rainforest": 651
+    },
+    "validVotes": 3982,
+    "invalidVotes": 47,
+    "totalVotes": 4029,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4029,
+    "remainingVotes": 2156,
+    "eligibleVoters": 6185,
+    "voterTurnout": 65.13999938964844
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "山腳里",
+    "candidateVotes": {
+      "coast": 1756,
+      "savannah": 2105,
+      "rainforest": 888
+    },
+    "validVotes": 4749,
+    "invalidVotes": 58,
+    "totalVotes": 4807,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4807,
+    "remainingVotes": 2311,
+    "eligibleVoters": 7118,
+    "voterTurnout": 67.52999877929688
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "新厝里",
+    "candidateVotes": {
+      "coast": 737,
+      "savannah": 987,
+      "rainforest": 303
+    },
+    "validVotes": 2027,
+    "invalidVotes": 27,
+    "totalVotes": 2054,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2054,
+    "remainingVotes": 911,
+    "eligibleVoters": 2965,
+    "voterTurnout": 69.2699966430664
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "上林里",
+    "candidateVotes": {
+      "coast": 675,
+      "savannah": 980,
+      "rainforest": 358
+    },
+    "validVotes": 2013,
+    "invalidVotes": 27,
+    "totalVotes": 2040,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2040,
+    "remainingVotes": 933,
+    "eligibleVoters": 2973,
+    "voterTurnout": 68.62000274658203
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "碧峰里",
+    "candidateVotes": {
+      "coast": 736,
+      "savannah": 1435,
+      "rainforest": 441
+    },
+    "validVotes": 2612,
+    "invalidVotes": 39,
+    "totalVotes": 2651,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2651,
+    "remainingVotes": 1525,
+    "eligibleVoters": 4176,
+    "voterTurnout": 63.47999954223633
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "碧洲里",
+    "candidateVotes": {
+      "coast": 442,
+      "savannah": 743,
+      "rainforest": 314
+    },
+    "validVotes": 1499,
+    "invalidVotes": 12,
+    "totalVotes": 1511,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1511,
+    "remainingVotes": 720,
+    "eligibleVoters": 2231,
+    "voterTurnout": 67.7300033569336
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "復興里",
+    "candidateVotes": {
+      "coast": 500,
+      "savannah": 1041,
+      "rainforest": 264
+    },
+    "validVotes": 1805,
+    "invalidVotes": 26,
+    "totalVotes": 1831,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1831,
+    "remainingVotes": 1014,
+    "eligibleVoters": 2845,
+    "voterTurnout": 64.36000061035156
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "御史里",
+    "candidateVotes": {
+      "coast": 1090,
+      "savannah": 2036,
+      "rainforest": 598
+    },
+    "validVotes": 3724,
+    "invalidVotes": 64,
+    "totalVotes": 3788,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3788,
+    "remainingVotes": 2094,
+    "eligibleVoters": 5882,
+    "voterTurnout": 64.4000015258789
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "新豐里",
+    "candidateVotes": {
+      "coast": 767,
+      "savannah": 1504,
+      "rainforest": 327
+    },
+    "validVotes": 2598,
+    "invalidVotes": 27,
+    "totalVotes": 2625,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2625,
+    "remainingVotes": 1223,
+    "eligibleVoters": 3848,
+    "voterTurnout": 68.22000122070312
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "新庄里",
+    "candidateVotes": {
+      "coast": 660,
+      "savannah": 1106,
+      "rainforest": 393
+    },
+    "validVotes": 2159,
+    "invalidVotes": 32,
+    "totalVotes": 2191,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2191,
+    "remainingVotes": 1171,
+    "eligibleVoters": 3362,
+    "voterTurnout": 65.16999816894531
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "加老里",
+    "candidateVotes": {
+      "coast": 372,
+      "savannah": 903,
+      "rainforest": 186
+    },
+    "validVotes": 1461,
+    "invalidVotes": 19,
+    "totalVotes": 1480,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1480,
+    "remainingVotes": 697,
+    "eligibleVoters": 2177,
+    "voterTurnout": 67.9800033569336
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "石川里",
+    "candidateVotes": {
+      "coast": 275,
+      "savannah": 533,
+      "rainforest": 141
+    },
+    "validVotes": 949,
+    "invalidVotes": 15,
+    "totalVotes": 964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 964,
+    "remainingVotes": 511,
+    "eligibleVoters": 1475,
+    "voterTurnout": 65.36000061035156
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "北投里",
+    "candidateVotes": {
+      "coast": 388,
+      "savannah": 1071,
+      "rainforest": 299
+    },
+    "validVotes": 1758,
+    "invalidVotes": 24,
+    "totalVotes": 1782,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1782,
+    "remainingVotes": 948,
+    "eligibleVoters": 2730,
+    "voterTurnout": 65.2699966430664
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "富寮里",
+    "candidateVotes": {
+      "coast": 1087,
+      "savannah": 2057,
+      "rainforest": 570
+    },
+    "validVotes": 3714,
+    "invalidVotes": 46,
+    "totalVotes": 3760,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3760,
+    "remainingVotes": 2274,
+    "eligibleVoters": 6034,
+    "voterTurnout": 62.310001373291016
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "北勢里",
+    "candidateVotes": {
+      "coast": 322,
+      "savannah": 767,
+      "rainforest": 158
+    },
+    "validVotes": 1247,
+    "invalidVotes": 11,
+    "totalVotes": 1258,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1258,
+    "remainingVotes": 676,
+    "eligibleVoters": 1934,
+    "voterTurnout": 65.05000305175781
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "中原里",
+    "candidateVotes": {
+      "coast": 343,
+      "savannah": 841,
+      "rainforest": 130
+    },
+    "validVotes": 1314,
+    "invalidVotes": 17,
+    "totalVotes": 1331,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1331,
+    "remainingVotes": 667,
+    "eligibleVoters": 1998,
+    "voterTurnout": 66.62000274658203
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "南埔里",
+    "candidateVotes": {
+      "coast": 669,
+      "savannah": 1530,
+      "rainforest": 413
+    },
+    "validVotes": 2612,
+    "invalidVotes": 29,
+    "totalVotes": 2641,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2641,
+    "remainingVotes": 1335,
+    "eligibleVoters": 3976,
+    "voterTurnout": 66.41999816894531
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "坪頂里",
+    "candidateVotes": {
+      "coast": 210,
+      "savannah": 382,
+      "rainforest": 101
+    },
+    "validVotes": 693,
+    "invalidVotes": 12,
+    "totalVotes": 705,
+    "receivedUnvoted": 0,
+    "issuedVotes": 705,
+    "remainingVotes": 305,
+    "eligibleVoters": 1010,
+    "voterTurnout": 69.80000305175781
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "土城里",
+    "candidateVotes": {
+      "coast": 340,
+      "savannah": 569,
+      "rainforest": 127
+    },
+    "validVotes": 1036,
+    "invalidVotes": 13,
+    "totalVotes": 1049,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1049,
+    "remainingVotes": 581,
+    "eligibleVoters": 1630,
+    "voterTurnout": 64.36000061035156
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "平林里",
+    "candidateVotes": {
+      "coast": 213,
+      "savannah": 330,
+      "rainforest": 105
+    },
+    "validVotes": 648,
+    "invalidVotes": 21,
+    "totalVotes": 669,
+    "receivedUnvoted": 0,
+    "issuedVotes": 669,
+    "remainingVotes": 392,
+    "eligibleVoters": 1061,
+    "voterTurnout": 63.04999923706055
+  },
+  {
+    "administrativeDivision": "草屯鎮",
+    "village": "雙冬里",
+    "candidateVotes": {
+      "coast": 321,
+      "savannah": 752,
+      "rainforest": 235
+    },
+    "validVotes": 1308,
+    "invalidVotes": 21,
+    "totalVotes": 1329,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1329,
+    "remainingVotes": 901,
+    "eligibleVoters": 2230,
+    "voterTurnout": 59.599998474121094
+  }
+]

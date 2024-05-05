@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 208,
+      "coast": 3291,
+      "savannah": 1185
+    },
+    "validVotes": 4684,
+    "invalidVotes": 53,
+    "totalVotes": 4737,
+    "receivedUnvoted": 0,
+    "issuedVotes": 4737,
+    "remainingVotes": 2328,
+    "eligibleVoters": 7065,
+    "voterTurnout": 67.0488
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "嘉樂村",
+    "candidateVotes": {
+      "rainforest": 37,
+      "coast": 367,
+      "savannah": 166
+    },
+    "validVotes": 570,
+    "invalidVotes": 2,
+    "totalVotes": 572,
+    "receivedUnvoted": 0,
+    "issuedVotes": 572,
+    "remainingVotes": 220,
+    "eligibleVoters": 792,
+    "voterTurnout": 72.2222
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "義興村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 258,
+      "savannah": 105
+    },
+    "validVotes": 377,
+    "invalidVotes": 8,
+    "totalVotes": 385,
+    "receivedUnvoted": 0,
+    "issuedVotes": 385,
+    "remainingVotes": 186,
+    "eligibleVoters": 571,
+    "voterTurnout": 67.4256
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "新樂村",
+    "candidateVotes": {
+      "rainforest": 36,
+      "coast": 645,
+      "savannah": 154
+    },
+    "validVotes": 835,
+    "invalidVotes": 10,
+    "totalVotes": 845,
+    "receivedUnvoted": 0,
+    "issuedVotes": 845,
+    "remainingVotes": 365,
+    "eligibleVoters": 1210,
+    "voterTurnout": 69.8347
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "錦屏村",
+    "candidateVotes": {
+      "rainforest": 30,
+      "coast": 585,
+      "savannah": 136
+    },
+    "validVotes": 751,
+    "invalidVotes": 7,
+    "totalVotes": 758,
+    "receivedUnvoted": 0,
+    "issuedVotes": 758,
+    "remainingVotes": 353,
+    "eligibleVoters": 1111,
+    "voterTurnout": 68.2268
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "梅花村",
+    "candidateVotes": {
+      "rainforest": 10,
+      "coast": 312,
+      "savannah": 96
+    },
+    "validVotes": 418,
+    "invalidVotes": 9,
+    "totalVotes": 427,
+    "receivedUnvoted": 0,
+    "issuedVotes": 427,
+    "remainingVotes": 171,
+    "eligibleVoters": 598,
+    "voterTurnout": 71.4047
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "玉峰村",
+    "candidateVotes": {
+      "rainforest": 52,
+      "coast": 517,
+      "savannah": 268
+    },
+    "validVotes": 837,
+    "invalidVotes": 3,
+    "totalVotes": 840,
+    "receivedUnvoted": 0,
+    "issuedVotes": 840,
+    "remainingVotes": 437,
+    "eligibleVoters": 1277,
+    "voterTurnout": 65.7792
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "秀巒村",
+    "candidateVotes": {
+      "rainforest": 29,
+      "coast": 607,
+      "savannah": 260
+    },
+    "validVotes": 896,
+    "invalidVotes": 14,
+    "totalVotes": 910,
+    "receivedUnvoted": 0,
+    "issuedVotes": 910,
+    "remainingVotes": 596,
+    "eligibleVoters": 1506,
+    "voterTurnout": 60.425
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 8700,
+      "coast": 9252,
+      "rainforest": 517
+    },
+    "validVotes": 18469,
+    "invalidVotes": 187,
+    "totalVotes": 18656,
+    "receivedUnvoted": 0,
+    "issuedVotes": 18656,
+    "remainingVotes": 7062,
+    "eligibleVoters": 25718,
+    "voterTurnout": 72.54000091552734
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "中寮里",
+    "candidateVotes": {
+      "savannah": 920,
+      "coast": 789,
+      "rainforest": 43
+    },
+    "validVotes": 1752,
+    "invalidVotes": 17,
+    "totalVotes": 1769,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1769,
+    "remainingVotes": 700,
+    "eligibleVoters": 2469,
+    "voterTurnout": 71.6500015258789
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "大道里",
+    "candidateVotes": {
+      "savannah": 719,
+      "coast": 523,
+      "rainforest": 36
+    },
+    "validVotes": 1278,
+    "invalidVotes": 9,
+    "totalVotes": 1287,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1287,
+    "remainingVotes": 434,
+    "eligibleVoters": 1721,
+    "voterTurnout": 74.77999877929688
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "西德里",
+    "candidateVotes": {
+      "savannah": 1436,
+      "coast": 1626,
+      "rainforest": 90
+    },
+    "validVotes": 3152,
+    "invalidVotes": 35,
+    "totalVotes": 3187,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3187,
+    "remainingVotes": 1155,
+    "eligibleVoters": 4342,
+    "voterTurnout": 73.4000015258789
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "西安里",
+    "candidateVotes": {
+      "savannah": 513,
+      "coast": 582,
+      "rainforest": 29
+    },
+    "validVotes": 1124,
+    "invalidVotes": 12,
+    "totalVotes": 1136,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1136,
+    "remainingVotes": 460,
+    "eligibleVoters": 1596,
+    "voterTurnout": 71.18000030517578
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "光復里",
+    "candidateVotes": {
+      "savannah": 481,
+      "coast": 632,
+      "rainforest": 27
+    },
+    "validVotes": 1140,
+    "invalidVotes": 12,
+    "totalVotes": 1152,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1152,
+    "remainingVotes": 396,
+    "eligibleVoters": 1548,
+    "voterTurnout": 74.41999816894531
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "新政里",
+    "candidateVotes": {
+      "savannah": 265,
+      "coast": 328,
+      "rainforest": 20
+    },
+    "validVotes": 613,
+    "invalidVotes": 5,
+    "totalVotes": 618,
+    "receivedUnvoted": 0,
+    "issuedVotes": 618,
+    "remainingVotes": 216,
+    "eligibleVoters": 834,
+    "voterTurnout": 74.0999984741211
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "重慶里",
+    "candidateVotes": {
+      "savannah": 247,
+      "coast": 172,
+      "rainforest": 5
+    },
+    "validVotes": 424,
+    "invalidVotes": 4,
+    "totalVotes": 428,
+    "receivedUnvoted": 0,
+    "issuedVotes": 428,
+    "remainingVotes": 164,
+    "eligibleVoters": 592,
+    "voterTurnout": 72.30000305175781
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "五權里",
+    "candidateVotes": {
+      "savannah": 232,
+      "coast": 233,
+      "rainforest": 17
+    },
+    "validVotes": 482,
+    "invalidVotes": 7,
+    "totalVotes": 489,
+    "receivedUnvoted": 0,
+    "issuedVotes": 489,
+    "remainingVotes": 177,
+    "eligibleVoters": 666,
+    "voterTurnout": 73.41999816894531
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "七星里",
+    "candidateVotes": {
+      "savannah": 517,
+      "coast": 476,
+      "rainforest": 32
+    },
+    "validVotes": 1025,
+    "invalidVotes": 11,
+    "totalVotes": 1036,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1036,
+    "remainingVotes": 397,
+    "eligibleVoters": 1433,
+    "voterTurnout": 72.30000305175781
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "居仁里",
+    "candidateVotes": {
+      "savannah": 393,
+      "coast": 558,
+      "rainforest": 27
+    },
+    "validVotes": 978,
+    "invalidVotes": 7,
+    "totalVotes": 985,
+    "receivedUnvoted": 0,
+    "issuedVotes": 985,
+    "remainingVotes": 311,
+    "eligibleVoters": 1296,
+    "voterTurnout": 76
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "東光里",
+    "candidateVotes": {
+      "savannah": 678,
+      "coast": 680,
+      "rainforest": 32
+    },
+    "validVotes": 1390,
+    "invalidVotes": 13,
+    "totalVotes": 1403,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1403,
+    "remainingVotes": 538,
+    "eligibleVoters": 1941,
+    "voterTurnout": 72.27999877929688
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "文昌里",
+    "candidateVotes": {
+      "savannah": 848,
+      "coast": 998,
+      "rainforest": 62
+    },
+    "validVotes": 1908,
+    "invalidVotes": 19,
+    "totalVotes": 1927,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1927,
+    "remainingVotes": 712,
+    "eligibleVoters": 2639,
+    "voterTurnout": 73.0199966430664
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "中和里",
+    "candidateVotes": {
+      "savannah": 417,
+      "coast": 384,
+      "rainforest": 15
+    },
+    "validVotes": 816,
+    "invalidVotes": 8,
+    "totalVotes": 824,
+    "receivedUnvoted": 0,
+    "issuedVotes": 824,
+    "remainingVotes": 313,
+    "eligibleVoters": 1137,
+    "voterTurnout": 72.47000122070312
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "新生里",
+    "candidateVotes": {
+      "savannah": 565,
+      "coast": 665,
+      "rainforest": 33
+    },
+    "validVotes": 1263,
+    "invalidVotes": 12,
+    "totalVotes": 1275,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1275,
+    "remainingVotes": 611,
+    "eligibleVoters": 1886,
+    "voterTurnout": 67.5999984741211
+  },
+  {
+    "administrativeDivision": "北斗鎮",
+    "village": "大新里",
+    "candidateVotes": {
+      "savannah": 469,
+      "coast": 606,
+      "rainforest": 49
+    },
+    "validVotes": 1124,
+    "invalidVotes": 16,
+    "totalVotes": 1140,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1140,
+    "remainingVotes": 478,
+    "eligibleVoters": 1618,
+    "voterTurnout": 70.45999908447266
+  }
+]

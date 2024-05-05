@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 208,
+      "coast": 2188,
+      "rainforest": 52
+    },
+    "validVotes": 2448,
+    "invalidVotes": 30,
+    "totalVotes": 2478,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2478,
+    "remainingVotes": 1205,
+    "eligibleVoters": 3683,
+    "voterTurnout": 67.27999877929688
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "春日村",
+    "candidateVotes": {
+      "savannah": 39,
+      "coast": 461,
+      "rainforest": 26
+    },
+    "validVotes": 526,
+    "invalidVotes": 3,
+    "totalVotes": 529,
+    "receivedUnvoted": 0,
+    "issuedVotes": 529,
+    "remainingVotes": 311,
+    "eligibleVoters": 840,
+    "voterTurnout": 62.97999954223633
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "古華村",
+    "candidateVotes": {
+      "savannah": 51,
+      "coast": 376,
+      "rainforest": 4
+    },
+    "validVotes": 431,
+    "invalidVotes": 5,
+    "totalVotes": 436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 436,
+    "remainingVotes": 208,
+    "eligibleVoters": 644,
+    "voterTurnout": 67.69999694824219
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "士文村",
+    "candidateVotes": {
+      "savannah": 16,
+      "coast": 185,
+      "rainforest": 2
+    },
+    "validVotes": 203,
+    "invalidVotes": 6,
+    "totalVotes": 209,
+    "receivedUnvoted": 0,
+    "issuedVotes": 209,
+    "remainingVotes": 90,
+    "eligibleVoters": 299,
+    "voterTurnout": 69.9000015258789
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "七佳村",
+    "candidateVotes": {
+      "savannah": 43,
+      "coast": 500,
+      "rainforest": 13
+    },
+    "validVotes": 556,
+    "invalidVotes": 4,
+    "totalVotes": 560,
+    "receivedUnvoted": 0,
+    "issuedVotes": 560,
+    "remainingVotes": 268,
+    "eligibleVoters": 828,
+    "voterTurnout": 67.62999725341797
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "歸崇村",
+    "candidateVotes": {
+      "savannah": 34,
+      "coast": 396,
+      "rainforest": 6
+    },
+    "validVotes": 436,
+    "invalidVotes": 4,
+    "totalVotes": 440,
+    "receivedUnvoted": 0,
+    "issuedVotes": 440,
+    "remainingVotes": 192,
+    "eligibleVoters": 632,
+    "voterTurnout": 69.62000274658203
+  },
+  {
+    "administrativeDivision": "春日鄉",
+    "village": "力里村",
+    "candidateVotes": {
+      "savannah": 25,
+      "coast": 270,
+      "rainforest": 1
+    },
+    "validVotes": 296,
+    "invalidVotes": 8,
+    "totalVotes": 304,
+    "receivedUnvoted": 0,
+    "issuedVotes": 304,
+    "remainingVotes": 136,
+    "eligibleVoters": 440,
+    "voterTurnout": 69.08999633789062
+  }
+]

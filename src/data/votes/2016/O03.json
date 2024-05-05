@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "香山區",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 11014,
+      "savannah": 22663,
+      "rainforest": 6632
+    },
+    "validVotes": 40309,
+    "invalidVotes": 518,
+    "totalVotes": 40827,
+    "receivedUnvoted": 0,
+    "issuedVotes": 40827,
+    "remainingVotes": 19849,
+    "eligibleVoters": 60676,
+    "voterTurnout": 67.29000091552734
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "頂埔里",
+    "candidateVotes": {
+      "coast": 775,
+      "savannah": 1702,
+      "rainforest": 578
+    },
+    "validVotes": 3055,
+    "invalidVotes": 42,
+    "totalVotes": 3097,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3097,
+    "remainingVotes": 1607,
+    "eligibleVoters": 4704,
+    "voterTurnout": 65.83999633789062
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "頂福里",
+    "candidateVotes": {
+      "coast": 760,
+      "savannah": 1297,
+      "rainforest": 461
+    },
+    "validVotes": 2518,
+    "invalidVotes": 30,
+    "totalVotes": 2548,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2548,
+    "remainingVotes": 1268,
+    "eligibleVoters": 3816,
+    "voterTurnout": 66.7699966430664
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "中埔里",
+    "candidateVotes": {
+      "coast": 564,
+      "savannah": 1058,
+      "rainforest": 287
+    },
+    "validVotes": 1909,
+    "invalidVotes": 21,
+    "totalVotes": 1930,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1930,
+    "remainingVotes": 842,
+    "eligibleVoters": 2772,
+    "voterTurnout": 69.62000274658203
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "牛埔里",
+    "candidateVotes": {
+      "coast": 707,
+      "savannah": 1312,
+      "rainforest": 426
+    },
+    "validVotes": 2445,
+    "invalidVotes": 24,
+    "totalVotes": 2469,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2469,
+    "remainingVotes": 1277,
+    "eligibleVoters": 3746,
+    "voterTurnout": 65.91000366210938
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "埔前里",
+    "candidateVotes": {
+      "coast": 513,
+      "savannah": 1296,
+      "rainforest": 323
+    },
+    "validVotes": 2132,
+    "invalidVotes": 30,
+    "totalVotes": 2162,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2162,
+    "remainingVotes": 1098,
+    "eligibleVoters": 3260,
+    "voterTurnout": 66.31999969482422
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "樹下里",
+    "candidateVotes": {
+      "coast": 283,
+      "savannah": 1020,
+      "rainforest": 167
+    },
+    "validVotes": 1470,
+    "invalidVotes": 16,
+    "totalVotes": 1486,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1486,
+    "remainingVotes": 586,
+    "eligibleVoters": 2072,
+    "voterTurnout": 71.72000122070312
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "浸水里",
+    "candidateVotes": {
+      "coast": 291,
+      "savannah": 982,
+      "rainforest": 234
+    },
+    "validVotes": 1507,
+    "invalidVotes": 21,
+    "totalVotes": 1528,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1528,
+    "remainingVotes": 656,
+    "eligibleVoters": 2184,
+    "voterTurnout": 69.95999908447266
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "虎林里",
+    "candidateVotes": {
+      "coast": 392,
+      "savannah": 813,
+      "rainforest": 248
+    },
+    "validVotes": 1453,
+    "invalidVotes": 13,
+    "totalVotes": 1466,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1466,
+    "remainingVotes": 687,
+    "eligibleVoters": 2153,
+    "voterTurnout": 68.08999633789062
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "虎山里",
+    "candidateVotes": {
+      "coast": 871,
+      "savannah": 1962,
+      "rainforest": 519
+    },
+    "validVotes": 3352,
+    "invalidVotes": 42,
+    "totalVotes": 3394,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3394,
+    "remainingVotes": 1682,
+    "eligibleVoters": 5076,
+    "voterTurnout": 66.86000061035156
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "港南里",
+    "candidateVotes": {
+      "coast": 347,
+      "savannah": 998,
+      "rainforest": 253
+    },
+    "validVotes": 1598,
+    "invalidVotes": 17,
+    "totalVotes": 1615,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1615,
+    "remainingVotes": 719,
+    "eligibleVoters": 2334,
+    "voterTurnout": 69.19000244140625
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "東香里",
+    "candidateVotes": {
+      "coast": 851,
+      "savannah": 1175,
+      "rainforest": 445
+    },
+    "validVotes": 2471,
+    "invalidVotes": 32,
+    "totalVotes": 2503,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2503,
+    "remainingVotes": 1026,
+    "eligibleVoters": 3529,
+    "voterTurnout": 70.93000030517578
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "香村里",
+    "candidateVotes": {
+      "coast": 591,
+      "savannah": 997,
+      "rainforest": 348
+    },
+    "validVotes": 1936,
+    "invalidVotes": 28,
+    "totalVotes": 1964,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1964,
+    "remainingVotes": 1041,
+    "eligibleVoters": 3005,
+    "voterTurnout": 65.36000061035156
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "香山里",
+    "candidateVotes": {
+      "coast": 687,
+      "savannah": 1440,
+      "rainforest": 485
+    },
+    "validVotes": 2612,
+    "invalidVotes": 31,
+    "totalVotes": 2643,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2643,
+    "remainingVotes": 1253,
+    "eligibleVoters": 3896,
+    "voterTurnout": 67.83999633789062
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "大庄里",
+    "candidateVotes": {
+      "coast": 445,
+      "savannah": 1062,
+      "rainforest": 279
+    },
+    "validVotes": 1786,
+    "invalidVotes": 12,
+    "totalVotes": 1798,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1798,
+    "remainingVotes": 831,
+    "eligibleVoters": 2629,
+    "voterTurnout": 68.38999938964844
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "美山里",
+    "candidateVotes": {
+      "coast": 201,
+      "savannah": 451,
+      "rainforest": 79
+    },
+    "validVotes": 731,
+    "invalidVotes": 11,
+    "totalVotes": 742,
+    "receivedUnvoted": 0,
+    "issuedVotes": 742,
+    "remainingVotes": 354,
+    "eligibleVoters": 1096,
+    "voterTurnout": 67.69999694824219
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "朝山里",
+    "candidateVotes": {
+      "coast": 345,
+      "savannah": 707,
+      "rainforest": 198
+    },
+    "validVotes": 1250,
+    "invalidVotes": 17,
+    "totalVotes": 1267,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1267,
+    "remainingVotes": 654,
+    "eligibleVoters": 1921,
+    "voterTurnout": 65.95999908447266
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "海山里",
+    "candidateVotes": {
+      "coast": 431,
+      "savannah": 755,
+      "rainforest": 241
+    },
+    "validVotes": 1427,
+    "invalidVotes": 20,
+    "totalVotes": 1447,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1447,
+    "remainingVotes": 690,
+    "eligibleVoters": 2137,
+    "voterTurnout": 67.70999908447266
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "鹽水里",
+    "candidateVotes": {
+      "coast": 245,
+      "savannah": 492,
+      "rainforest": 159
+    },
+    "validVotes": 896,
+    "invalidVotes": 21,
+    "totalVotes": 917,
+    "receivedUnvoted": 0,
+    "issuedVotes": 917,
+    "remainingVotes": 427,
+    "eligibleVoters": 1344,
+    "voterTurnout": 68.2300033569336
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "內湖里",
+    "candidateVotes": {
+      "coast": 773,
+      "savannah": 1431,
+      "rainforest": 383
+    },
+    "validVotes": 2587,
+    "invalidVotes": 38,
+    "totalVotes": 2625,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2625,
+    "remainingVotes": 1437,
+    "eligibleVoters": 4062,
+    "voterTurnout": 64.62000274658203
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "南港里",
+    "candidateVotes": {
+      "coast": 134,
+      "savannah": 374,
+      "rainforest": 53
+    },
+    "validVotes": 561,
+    "invalidVotes": 7,
+    "totalVotes": 568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 568,
+    "remainingVotes": 245,
+    "eligibleVoters": 813,
+    "voterTurnout": 69.86000061035156
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "中隘里",
+    "candidateVotes": {
+      "coast": 355,
+      "savannah": 489,
+      "rainforest": 173
+    },
+    "validVotes": 1017,
+    "invalidVotes": 18,
+    "totalVotes": 1035,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1035,
+    "remainingVotes": 642,
+    "eligibleVoters": 1677,
+    "voterTurnout": 61.720001220703125
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "南隘里",
+    "candidateVotes": {
+      "coast": 164,
+      "savannah": 259,
+      "rainforest": 85
+    },
+    "validVotes": 508,
+    "invalidVotes": 10,
+    "totalVotes": 518,
+    "receivedUnvoted": 0,
+    "issuedVotes": 518,
+    "remainingVotes": 237,
+    "eligibleVoters": 755,
+    "voterTurnout": 68.61000061035156
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "大湖里",
+    "candidateVotes": {
+      "coast": 156,
+      "savannah": 295,
+      "rainforest": 95
+    },
+    "validVotes": 546,
+    "invalidVotes": 13,
+    "totalVotes": 559,
+    "receivedUnvoted": 0,
+    "issuedVotes": 559,
+    "remainingVotes": 269,
+    "eligibleVoters": 828,
+    "voterTurnout": 67.51000213623047
+  },
+  {
+    "administrativeDivision": "香山區",
+    "village": "茄苳里",
+    "candidateVotes": {
+      "coast": 133,
+      "savannah": 296,
+      "rainforest": 113
+    },
+    "validVotes": 542,
+    "invalidVotes": 4,
+    "totalVotes": 546,
+    "receivedUnvoted": 0,
+    "issuedVotes": 546,
+    "remainingVotes": 321,
+    "eligibleVoters": 867,
+    "voterTurnout": 62.97999954223633
+  }
+]

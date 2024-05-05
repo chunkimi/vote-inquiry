@@ -1,0 +1,189 @@
+[
+  {
+    "administrativeDivision": "八里區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 9147,
+      "coast": 10260,
+      "rainforest": 591
+    },
+    "validVotes": 19998,
+    "invalidVotes": 135,
+    "totalVotes": 20133,
+    "receivedUnvoted": 0,
+    "issuedVotes": 20133,
+    "remainingVotes": 7406,
+    "eligibleVoters": 27539,
+    "voterTurnout": 73.11000061035156
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "龍源里",
+    "candidateVotes": {
+      "savannah": 1679,
+      "coast": 2157,
+      "rainforest": 124
+    },
+    "validVotes": 3960,
+    "invalidVotes": 30,
+    "totalVotes": 3990,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3990,
+    "remainingVotes": 1451,
+    "eligibleVoters": 5441,
+    "voterTurnout": 73.33000183105469
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "米倉里",
+    "candidateVotes": {
+      "savannah": 888,
+      "coast": 949,
+      "rainforest": 41
+    },
+    "validVotes": 1878,
+    "invalidVotes": 23,
+    "totalVotes": 1901,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1901,
+    "remainingVotes": 714,
+    "eligibleVoters": 2615,
+    "voterTurnout": 72.69999694824219
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "大崁里",
+    "candidateVotes": {
+      "savannah": 765,
+      "coast": 769,
+      "rainforest": 41
+    },
+    "validVotes": 1575,
+    "invalidVotes": 21,
+    "totalVotes": 1596,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1596,
+    "remainingVotes": 525,
+    "eligibleVoters": 2121,
+    "voterTurnout": 75.25
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "埤頭里",
+    "candidateVotes": {
+      "savannah": 1089,
+      "coast": 1002,
+      "rainforest": 76
+    },
+    "validVotes": 2167,
+    "invalidVotes": 10,
+    "totalVotes": 2177,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2177,
+    "remainingVotes": 805,
+    "eligibleVoters": 2982,
+    "voterTurnout": 73
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "頂罟里",
+    "candidateVotes": {
+      "savannah": 577,
+      "coast": 573,
+      "rainforest": 29
+    },
+    "validVotes": 1179,
+    "invalidVotes": 7,
+    "totalVotes": 1186,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1186,
+    "remainingVotes": 375,
+    "eligibleVoters": 1561,
+    "voterTurnout": 75.9800033569336
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "舊城里",
+    "candidateVotes": {
+      "savannah": 1821,
+      "coast": 1967,
+      "rainforest": 120
+    },
+    "validVotes": 3908,
+    "invalidVotes": 9,
+    "totalVotes": 3917,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3917,
+    "remainingVotes": 1563,
+    "eligibleVoters": 5480,
+    "voterTurnout": 71.4800033569336
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "訊塘里",
+    "candidateVotes": {
+      "savannah": 1011,
+      "coast": 1256,
+      "rainforest": 78
+    },
+    "validVotes": 2345,
+    "invalidVotes": 9,
+    "totalVotes": 2354,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2354,
+    "remainingVotes": 992,
+    "eligibleVoters": 3346,
+    "voterTurnout": 70.3499984741211
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "荖阡里",
+    "candidateVotes": {
+      "savannah": 484,
+      "coast": 531,
+      "rainforest": 35
+    },
+    "validVotes": 1050,
+    "invalidVotes": 10,
+    "totalVotes": 1060,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1060,
+    "remainingVotes": 416,
+    "eligibleVoters": 1476,
+    "voterTurnout": 71.81999969482422
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "長坑里",
+    "candidateVotes": {
+      "savannah": 469,
+      "coast": 506,
+      "rainforest": 25
+    },
+    "validVotes": 1000,
+    "invalidVotes": 4,
+    "totalVotes": 1004,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1004,
+    "remainingVotes": 323,
+    "eligibleVoters": 1327,
+    "voterTurnout": 75.66000366210938
+  },
+  {
+    "administrativeDivision": "八里區",
+    "village": "下罟里",
+    "candidateVotes": {
+      "savannah": 364,
+      "coast": 550,
+      "rainforest": 22
+    },
+    "validVotes": 936,
+    "invalidVotes": 12,
+    "totalVotes": 948,
+    "receivedUnvoted": 0,
+    "issuedVotes": 948,
+    "remainingVotes": 242,
+    "eligibleVoters": 1190,
+    "voterTurnout": 79.66000366210938
+  }
+]

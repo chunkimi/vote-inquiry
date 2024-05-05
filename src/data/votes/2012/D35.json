@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "總計",
+    "candidateVotes": {
+      "savannah": 1702,
+      "coast": 1079,
+      "rainforest": 83
+    },
+    "validVotes": 2864,
+    "invalidVotes": 37,
+    "totalVotes": 2901,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2901,
+    "remainingVotes": 925,
+    "eligibleVoters": 3826,
+    "voterTurnout": 75.81999969482422
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "崎頂里",
+    "candidateVotes": {
+      "savannah": 552,
+      "coast": 296,
+      "rainforest": 24
+    },
+    "validVotes": 872,
+    "invalidVotes": 10,
+    "totalVotes": 882,
+    "receivedUnvoted": 0,
+    "issuedVotes": 882,
+    "remainingVotes": 278,
+    "eligibleVoters": 1160,
+    "voterTurnout": 76.02999877929688
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "土崎里",
+    "candidateVotes": {
+      "savannah": 317,
+      "coast": 161,
+      "rainforest": 8
+    },
+    "validVotes": 486,
+    "invalidVotes": 6,
+    "totalVotes": 492,
+    "receivedUnvoted": 0,
+    "issuedVotes": 492,
+    "remainingVotes": 182,
+    "eligibleVoters": 674,
+    "voterTurnout": 73
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "中坑里",
+    "candidateVotes": {
+      "savannah": 73,
+      "coast": 45,
+      "rainforest": 5
+    },
+    "validVotes": 123,
+    "invalidVotes": 2,
+    "totalVotes": 125,
+    "receivedUnvoted": 0,
+    "issuedVotes": 125,
+    "remainingVotes": 59,
+    "eligibleVoters": 184,
+    "voterTurnout": 67.93000030517578
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "楠坑里",
+    "candidateVotes": {
+      "savannah": 145,
+      "coast": 112,
+      "rainforest": 11
+    },
+    "validVotes": 268,
+    "invalidVotes": 2,
+    "totalVotes": 270,
+    "receivedUnvoted": 0,
+    "issuedVotes": 270,
+    "remainingVotes": 73,
+    "eligibleVoters": 343,
+    "voterTurnout": 78.72000122070312
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "牛埔里",
+    "candidateVotes": {
+      "savannah": 154,
+      "coast": 80,
+      "rainforest": 8
+    },
+    "validVotes": 242,
+    "invalidVotes": 1,
+    "totalVotes": 243,
+    "receivedUnvoted": 0,
+    "issuedVotes": 243,
+    "remainingVotes": 69,
+    "eligibleVoters": 312,
+    "voterTurnout": 77.87999725341797
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "大坪里",
+    "candidateVotes": {
+      "savannah": 142,
+      "coast": 95,
+      "rainforest": 8
+    },
+    "validVotes": 245,
+    "invalidVotes": 6,
+    "totalVotes": 251,
+    "receivedUnvoted": 0,
+    "issuedVotes": 251,
+    "remainingVotes": 65,
+    "eligibleVoters": 316,
+    "voterTurnout": 79.43000030517578
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "龍船里",
+    "candidateVotes": {
+      "savannah": 159,
+      "coast": 168,
+      "rainforest": 8
+    },
+    "validVotes": 335,
+    "invalidVotes": 3,
+    "totalVotes": 338,
+    "receivedUnvoted": 0,
+    "issuedVotes": 338,
+    "remainingVotes": 84,
+    "eligibleVoters": 422,
+    "voterTurnout": 80.08999633789062
+  },
+  {
+    "administrativeDivision": "龍崎區",
+    "village": "石里",
+    "candidateVotes": {
+      "savannah": 160,
+      "coast": 122,
+      "rainforest": 11
+    },
+    "validVotes": 293,
+    "invalidVotes": 7,
+    "totalVotes": 300,
+    "receivedUnvoted": 0,
+    "issuedVotes": 300,
+    "remainingVotes": 115,
+    "eligibleVoters": 415,
+    "voterTurnout": 72.29000091552734
+  }
+]

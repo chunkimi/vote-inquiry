@@ -1,0 +1,138 @@
+[
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 1586,
+      "savannah": 972,
+      "rainforest": 1373
+    },
+    "validVotes": 3931,
+    "invalidVotes": 50,
+    "totalVotes": 3981,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3981,
+    "remainingVotes": 2741,
+    "eligibleVoters": 6722,
+    "voterTurnout": 59.220001220703125
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "嘉樂村",
+    "candidateVotes": {
+      "coast": 227,
+      "savannah": 146,
+      "rainforest": 193
+    },
+    "validVotes": 566,
+    "invalidVotes": 4,
+    "totalVotes": 570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 570,
+    "remainingVotes": 247,
+    "eligibleVoters": 817,
+    "voterTurnout": 69.7699966430664
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "義興村",
+    "candidateVotes": {
+      "coast": 147,
+      "savannah": 91,
+      "rainforest": 112
+    },
+    "validVotes": 350,
+    "invalidVotes": 8,
+    "totalVotes": 358,
+    "receivedUnvoted": 0,
+    "issuedVotes": 358,
+    "remainingVotes": 236,
+    "eligibleVoters": 594,
+    "voterTurnout": 60.27000045776367
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "新樂村",
+    "candidateVotes": {
+      "coast": 270,
+      "savannah": 124,
+      "rainforest": 288
+    },
+    "validVotes": 682,
+    "invalidVotes": 7,
+    "totalVotes": 689,
+    "receivedUnvoted": 0,
+    "issuedVotes": 689,
+    "remainingVotes": 453,
+    "eligibleVoters": 1142,
+    "voterTurnout": 60.33000183105469
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "錦屏村",
+    "candidateVotes": {
+      "coast": 284,
+      "savannah": 119,
+      "rainforest": 275
+    },
+    "validVotes": 678,
+    "invalidVotes": 6,
+    "totalVotes": 684,
+    "receivedUnvoted": 0,
+    "issuedVotes": 684,
+    "remainingVotes": 410,
+    "eligibleVoters": 1094,
+    "voterTurnout": 62.52000045776367
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "梅花村",
+    "candidateVotes": {
+      "coast": 149,
+      "savannah": 84,
+      "rainforest": 114
+    },
+    "validVotes": 347,
+    "invalidVotes": 4,
+    "totalVotes": 351,
+    "receivedUnvoted": 0,
+    "issuedVotes": 351,
+    "remainingVotes": 235,
+    "eligibleVoters": 586,
+    "voterTurnout": 59.900001525878906
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "玉峰村",
+    "candidateVotes": {
+      "coast": 222,
+      "savannah": 174,
+      "rainforest": 197
+    },
+    "validVotes": 593,
+    "invalidVotes": 9,
+    "totalVotes": 602,
+    "receivedUnvoted": 0,
+    "issuedVotes": 602,
+    "remainingVotes": 504,
+    "eligibleVoters": 1106,
+    "voterTurnout": 54.43000030517578
+  },
+  {
+    "administrativeDivision": "尖石鄉",
+    "village": "秀巒村",
+    "candidateVotes": {
+      "coast": 287,
+      "savannah": 234,
+      "rainforest": 194
+    },
+    "validVotes": 715,
+    "invalidVotes": 12,
+    "totalVotes": 727,
+    "receivedUnvoted": 0,
+    "issuedVotes": 727,
+    "remainingVotes": 656,
+    "eligibleVoters": 1383,
+    "voterTurnout": 52.56999969482422
+  }
+]

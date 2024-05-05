@@ -1,0 +1,835 @@
+[
+  {
+    "administrativeDivision": "八德區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 5630,
+      "coast": 50043,
+      "savannah": 64446
+    },
+    "validVotes": 120119,
+    "invalidVotes": 1305,
+    "totalVotes": 121424,
+    "receivedUnvoted": 0,
+    "issuedVotes": 121424,
+    "remainingVotes": 42696,
+    "eligibleVoters": 164120,
+    "voterTurnout": 73.9849
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "興仁里",
+    "candidateVotes": {
+      "rainforest": 234,
+      "coast": 2009,
+      "savannah": 2713
+    },
+    "validVotes": 4956,
+    "invalidVotes": 56,
+    "totalVotes": 5012,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5012,
+    "remainingVotes": 2721,
+    "eligibleVoters": 7733,
+    "voterTurnout": 64.8131
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "福興里",
+    "candidateVotes": {
+      "rainforest": 333,
+      "coast": 2459,
+      "savannah": 3561
+    },
+    "validVotes": 6353,
+    "invalidVotes": 77,
+    "totalVotes": 6430,
+    "receivedUnvoted": 0,
+    "issuedVotes": 6430,
+    "remainingVotes": 2633,
+    "eligibleVoters": 9063,
+    "voterTurnout": 70.9478
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞豐里",
+    "candidateVotes": {
+      "rainforest": 142,
+      "coast": 1177,
+      "savannah": 1570
+    },
+    "validVotes": 2889,
+    "invalidVotes": 29,
+    "totalVotes": 2918,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2918,
+    "remainingVotes": 1157,
+    "eligibleVoters": 4075,
+    "voterTurnout": 71.6074
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞興里",
+    "candidateVotes": {
+      "rainforest": 88,
+      "coast": 737,
+      "savannah": 1152
+    },
+    "validVotes": 1977,
+    "invalidVotes": 24,
+    "totalVotes": 2001,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2001,
+    "remainingVotes": 646,
+    "eligibleVoters": 2647,
+    "voterTurnout": 75.595
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞泰里",
+    "candidateVotes": {
+      "rainforest": 141,
+      "coast": 1164,
+      "savannah": 1648
+    },
+    "validVotes": 2953,
+    "invalidVotes": 30,
+    "totalVotes": 2983,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2983,
+    "remainingVotes": 1084,
+    "eligibleVoters": 4067,
+    "voterTurnout": 73.3464
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞發里",
+    "candidateVotes": {
+      "rainforest": 134,
+      "coast": 1112,
+      "savannah": 1124
+    },
+    "validVotes": 2370,
+    "invalidVotes": 24,
+    "totalVotes": 2394,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2394,
+    "remainingVotes": 698,
+    "eligibleVoters": 3092,
+    "voterTurnout": 77.4256
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞德里",
+    "candidateVotes": {
+      "rainforest": 105,
+      "coast": 1280,
+      "savannah": 1075
+    },
+    "validVotes": 2460,
+    "invalidVotes": 35,
+    "totalVotes": 2495,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2495,
+    "remainingVotes": 996,
+    "eligibleVoters": 3491,
+    "voterTurnout": 71.4695
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "瑞祥里",
+    "candidateVotes": {
+      "rainforest": 100,
+      "coast": 1291,
+      "savannah": 974
+    },
+    "validVotes": 2365,
+    "invalidVotes": 24,
+    "totalVotes": 2389,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2389,
+    "remainingVotes": 805,
+    "eligibleVoters": 3194,
+    "voterTurnout": 74.7965
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "廣德里",
+    "candidateVotes": {
+      "rainforest": 89,
+      "coast": 751,
+      "savannah": 1160
+    },
+    "validVotes": 2000,
+    "invalidVotes": 15,
+    "totalVotes": 2015,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2015,
+    "remainingVotes": 639,
+    "eligibleVoters": 2654,
+    "voterTurnout": 75.9231
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "廣興里",
+    "candidateVotes": {
+      "rainforest": 107,
+      "coast": 847,
+      "savannah": 1364
+    },
+    "validVotes": 2318,
+    "invalidVotes": 21,
+    "totalVotes": 2339,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2339,
+    "remainingVotes": 867,
+    "eligibleVoters": 3206,
+    "voterTurnout": 72.957
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "廣隆里",
+    "candidateVotes": {
+      "rainforest": 137,
+      "coast": 1432,
+      "savannah": 1743
+    },
+    "validVotes": 3312,
+    "invalidVotes": 34,
+    "totalVotes": 3346,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3346,
+    "remainingVotes": 1031,
+    "eligibleVoters": 4377,
+    "voterTurnout": 76.4451
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "竹園里",
+    "candidateVotes": {
+      "rainforest": 92,
+      "coast": 963,
+      "savannah": 1363
+    },
+    "validVotes": 2418,
+    "invalidVotes": 26,
+    "totalVotes": 2444,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2444,
+    "remainingVotes": 892,
+    "eligibleVoters": 3336,
+    "voterTurnout": 73.2614
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "霄裡里",
+    "candidateVotes": {
+      "rainforest": 64,
+      "coast": 593,
+      "savannah": 908
+    },
+    "validVotes": 1565,
+    "invalidVotes": 18,
+    "totalVotes": 1583,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1583,
+    "remainingVotes": 563,
+    "eligibleVoters": 2146,
+    "voterTurnout": 73.7651
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "龍友里",
+    "candidateVotes": {
+      "rainforest": 64,
+      "coast": 1063,
+      "savannah": 493
+    },
+    "validVotes": 1620,
+    "invalidVotes": 19,
+    "totalVotes": 1639,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1639,
+    "remainingVotes": 485,
+    "eligibleVoters": 2124,
+    "voterTurnout": 77.1657
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "茄明里",
+    "candidateVotes": {
+      "rainforest": 176,
+      "coast": 1289,
+      "savannah": 1761
+    },
+    "validVotes": 3226,
+    "invalidVotes": 27,
+    "totalVotes": 3253,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3253,
+    "remainingVotes": 1271,
+    "eligibleVoters": 4524,
+    "voterTurnout": 71.9054
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "茄苳里",
+    "candidateVotes": {
+      "rainforest": 102,
+      "coast": 586,
+      "savannah": 1153
+    },
+    "validVotes": 1841,
+    "invalidVotes": 12,
+    "totalVotes": 1853,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1853,
+    "remainingVotes": 610,
+    "eligibleVoters": 2463,
+    "voterTurnout": 75.2335
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "永豐里",
+    "candidateVotes": {
+      "rainforest": 83,
+      "coast": 772,
+      "savannah": 1194
+    },
+    "validVotes": 2049,
+    "invalidVotes": 20,
+    "totalVotes": 2069,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2069,
+    "remainingVotes": 663,
+    "eligibleVoters": 2732,
+    "voterTurnout": 75.7321
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "高明里",
+    "candidateVotes": {
+      "rainforest": 136,
+      "coast": 1008,
+      "savannah": 1531
+    },
+    "validVotes": 2675,
+    "invalidVotes": 46,
+    "totalVotes": 2721,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2721,
+    "remainingVotes": 1068,
+    "eligibleVoters": 3789,
+    "voterTurnout": 71.8131
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "高城里",
+    "candidateVotes": {
+      "rainforest": 114,
+      "coast": 890,
+      "savannah": 1229
+    },
+    "validVotes": 2233,
+    "invalidVotes": 25,
+    "totalVotes": 2258,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2258,
+    "remainingVotes": 741,
+    "eligibleVoters": 2999,
+    "voterTurnout": 75.2918
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "白鷺里",
+    "candidateVotes": {
+      "rainforest": 94,
+      "coast": 831,
+      "savannah": 1312
+    },
+    "validVotes": 2237,
+    "invalidVotes": 26,
+    "totalVotes": 2263,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2263,
+    "remainingVotes": 776,
+    "eligibleVoters": 3039,
+    "voterTurnout": 74.4653
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大湳里",
+    "candidateVotes": {
+      "rainforest": 112,
+      "coast": 968,
+      "savannah": 1684
+    },
+    "validVotes": 2764,
+    "invalidVotes": 35,
+    "totalVotes": 2799,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2799,
+    "remainingVotes": 998,
+    "eligibleVoters": 3797,
+    "voterTurnout": 73.7161
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大發里",
+    "candidateVotes": {
+      "rainforest": 48,
+      "coast": 503,
+      "savannah": 888
+    },
+    "validVotes": 1439,
+    "invalidVotes": 7,
+    "totalVotes": 1446,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1446,
+    "remainingVotes": 492,
+    "eligibleVoters": 1938,
+    "voterTurnout": 74.613
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大仁里",
+    "candidateVotes": {
+      "rainforest": 128,
+      "coast": 1055,
+      "savannah": 1865
+    },
+    "validVotes": 3048,
+    "invalidVotes": 30,
+    "totalVotes": 3078,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3078,
+    "remainingVotes": 984,
+    "eligibleVoters": 4062,
+    "voterTurnout": 75.7755
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大明里",
+    "candidateVotes": {
+      "rainforest": 134,
+      "coast": 882,
+      "savannah": 1565
+    },
+    "validVotes": 2581,
+    "invalidVotes": 28,
+    "totalVotes": 2609,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2609,
+    "remainingVotes": 899,
+    "eligibleVoters": 3508,
+    "voterTurnout": 74.3729
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大安里",
+    "candidateVotes": {
+      "rainforest": 127,
+      "coast": 821,
+      "savannah": 1543
+    },
+    "validVotes": 2491,
+    "invalidVotes": 32,
+    "totalVotes": 2523,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2523,
+    "remainingVotes": 813,
+    "eligibleVoters": 3336,
+    "voterTurnout": 75.6295
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大竹里",
+    "candidateVotes": {
+      "rainforest": 35,
+      "coast": 405,
+      "savannah": 703
+    },
+    "validVotes": 1143,
+    "invalidVotes": 10,
+    "totalVotes": 1153,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1153,
+    "remainingVotes": 316,
+    "eligibleVoters": 1469,
+    "voterTurnout": 78.4888
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大興里",
+    "candidateVotes": {
+      "rainforest": 126,
+      "coast": 1029,
+      "savannah": 1502
+    },
+    "validVotes": 2657,
+    "invalidVotes": 16,
+    "totalVotes": 2673,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2673,
+    "remainingVotes": 839,
+    "eligibleVoters": 3512,
+    "voterTurnout": 76.1105
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大愛里",
+    "candidateVotes": {
+      "rainforest": 120,
+      "coast": 791,
+      "savannah": 974
+    },
+    "validVotes": 1885,
+    "invalidVotes": 36,
+    "totalVotes": 1921,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1921,
+    "remainingVotes": 559,
+    "eligibleVoters": 2480,
+    "voterTurnout": 77.4597
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大華里",
+    "candidateVotes": {
+      "rainforest": 87,
+      "coast": 811,
+      "savannah": 960
+    },
+    "validVotes": 1858,
+    "invalidVotes": 14,
+    "totalVotes": 1872,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1872,
+    "remainingVotes": 572,
+    "eligibleVoters": 2444,
+    "voterTurnout": 76.5957
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大順里",
+    "candidateVotes": {
+      "rainforest": 97,
+      "coast": 732,
+      "savannah": 997
+    },
+    "validVotes": 1826,
+    "invalidVotes": 20,
+    "totalVotes": 1846,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1846,
+    "remainingVotes": 663,
+    "eligibleVoters": 2509,
+    "voterTurnout": 73.5751
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大和里",
+    "candidateVotes": {
+      "rainforest": 238,
+      "coast": 2417,
+      "savannah": 2372
+    },
+    "validVotes": 5027,
+    "invalidVotes": 61,
+    "totalVotes": 5088,
+    "receivedUnvoted": 0,
+    "issuedVotes": 5088,
+    "remainingVotes": 1899,
+    "eligibleVoters": 6987,
+    "voterTurnout": 72.821
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大昌里",
+    "candidateVotes": {
+      "rainforest": 92,
+      "coast": 916,
+      "savannah": 1125
+    },
+    "validVotes": 2133,
+    "invalidVotes": 23,
+    "totalVotes": 2156,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2156,
+    "remainingVotes": 656,
+    "eligibleVoters": 2812,
+    "voterTurnout": 76.6714
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大信里",
+    "candidateVotes": {
+      "rainforest": 101,
+      "coast": 1177,
+      "savannah": 1132
+    },
+    "validVotes": 2410,
+    "invalidVotes": 33,
+    "totalVotes": 2443,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2443,
+    "remainingVotes": 1084,
+    "eligibleVoters": 3527,
+    "voterTurnout": 69.2657
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "陸光里",
+    "candidateVotes": {
+      "rainforest": 137,
+      "coast": 2049,
+      "savannah": 825
+    },
+    "validVotes": 3011,
+    "invalidVotes": 53,
+    "totalVotes": 3064,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3064,
+    "remainingVotes": 1149,
+    "eligibleVoters": 4213,
+    "voterTurnout": 72.7273
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大同里",
+    "candidateVotes": {
+      "rainforest": 34,
+      "coast": 416,
+      "savannah": 634
+    },
+    "validVotes": 1084,
+    "invalidVotes": 6,
+    "totalVotes": 1090,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1090,
+    "remainingVotes": 364,
+    "eligibleVoters": 1454,
+    "voterTurnout": 74.9656
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大慶里",
+    "candidateVotes": {
+      "rainforest": 53,
+      "coast": 384,
+      "savannah": 575
+    },
+    "validVotes": 1012,
+    "invalidVotes": 10,
+    "totalVotes": 1022,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1022,
+    "remainingVotes": 357,
+    "eligibleVoters": 1379,
+    "voterTurnout": 74.1117
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大成里",
+    "candidateVotes": {
+      "rainforest": 99,
+      "coast": 966,
+      "savannah": 1376
+    },
+    "validVotes": 2441,
+    "invalidVotes": 24,
+    "totalVotes": 2465,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2465,
+    "remainingVotes": 719,
+    "eligibleVoters": 3184,
+    "voterTurnout": 77.4183
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大義里",
+    "candidateVotes": {
+      "rainforest": 131,
+      "coast": 1196,
+      "savannah": 1279
+    },
+    "validVotes": 2606,
+    "invalidVotes": 30,
+    "totalVotes": 2636,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2636,
+    "remainingVotes": 947,
+    "eligibleVoters": 3583,
+    "voterTurnout": 73.5696
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大忠里",
+    "candidateVotes": {
+      "rainforest": 54,
+      "coast": 577,
+      "savannah": 634
+    },
+    "validVotes": 1265,
+    "invalidVotes": 14,
+    "totalVotes": 1279,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1279,
+    "remainingVotes": 463,
+    "eligibleVoters": 1742,
+    "voterTurnout": 73.4214
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大智里",
+    "candidateVotes": {
+      "rainforest": 140,
+      "coast": 1412,
+      "savannah": 1417
+    },
+    "validVotes": 2969,
+    "invalidVotes": 35,
+    "totalVotes": 3004,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3004,
+    "remainingVotes": 1003,
+    "eligibleVoters": 4007,
+    "voterTurnout": 74.9688
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大宏里",
+    "candidateVotes": {
+      "rainforest": 132,
+      "coast": 1268,
+      "savannah": 1562
+    },
+    "validVotes": 2962,
+    "invalidVotes": 26,
+    "totalVotes": 2988,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2988,
+    "remainingVotes": 927,
+    "eligibleVoters": 3915,
+    "voterTurnout": 76.3218
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大正里",
+    "candidateVotes": {
+      "rainforest": 147,
+      "coast": 1107,
+      "savannah": 1579
+    },
+    "validVotes": 2833,
+    "invalidVotes": 27,
+    "totalVotes": 2860,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2860,
+    "remainingVotes": 958,
+    "eligibleVoters": 3818,
+    "voterTurnout": 74.9083
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大福里",
+    "candidateVotes": {
+      "rainforest": 189,
+      "coast": 1529,
+      "savannah": 2157
+    },
+    "validVotes": 3875,
+    "invalidVotes": 33,
+    "totalVotes": 3908,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3908,
+    "remainingVotes": 1064,
+    "eligibleVoters": 4972,
+    "voterTurnout": 78.6002
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大強里",
+    "candidateVotes": {
+      "rainforest": 114,
+      "coast": 758,
+      "savannah": 1425
+    },
+    "validVotes": 2297,
+    "invalidVotes": 26,
+    "totalVotes": 2323,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2323,
+    "remainingVotes": 683,
+    "eligibleVoters": 3006,
+    "voterTurnout": 77.2788
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大勇里",
+    "candidateVotes": {
+      "rainforest": 119,
+      "coast": 1134,
+      "savannah": 1685
+    },
+    "validVotes": 2938,
+    "invalidVotes": 33,
+    "totalVotes": 2971,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2971,
+    "remainingVotes": 905,
+    "eligibleVoters": 3876,
+    "voterTurnout": 76.6512
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大榮里",
+    "candidateVotes": {
+      "rainforest": 74,
+      "coast": 552,
+      "savannah": 782
+    },
+    "validVotes": 1408,
+    "invalidVotes": 15,
+    "totalVotes": 1423,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1423,
+    "remainingVotes": 501,
+    "eligibleVoters": 1924,
+    "voterTurnout": 73.9605
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大千里",
+    "candidateVotes": {
+      "rainforest": 80,
+      "coast": 740,
+      "savannah": 771
+    },
+    "validVotes": 1591,
+    "invalidVotes": 16,
+    "totalVotes": 1607,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1607,
+    "remainingVotes": 517,
+    "eligibleVoters": 2124,
+    "voterTurnout": 75.6591
+  },
+  {
+    "administrativeDivision": "八德區",
+    "village": "大漢里",
+    "candidateVotes": {
+      "rainforest": 147,
+      "coast": 1194,
+      "savannah": 1407
+    },
+    "validVotes": 2748,
+    "invalidVotes": 24,
+    "totalVotes": 2772,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2772,
+    "remainingVotes": 1019,
+    "eligibleVoters": 3791,
+    "voterTurnout": 73.1205
+  }
+]

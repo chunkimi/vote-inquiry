@@ -1,0 +1,427 @@
+[
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "coast": 5660,
+      "savannah": 19571,
+      "rainforest": 2937
+    },
+    "validVotes": 28168,
+    "invalidVotes": 420,
+    "totalVotes": 28588,
+    "receivedUnvoted": 4,
+    "issuedVotes": 28592,
+    "remainingVotes": 14976,
+    "eligibleVoters": 43568,
+    "voterTurnout": 65.62000274658203
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "珍珠村",
+    "candidateVotes": {
+      "coast": 175,
+      "savannah": 754,
+      "rainforest": 121
+    },
+    "validVotes": 1050,
+    "invalidVotes": 16,
+    "totalVotes": 1066,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1066,
+    "remainingVotes": 465,
+    "eligibleVoters": 1531,
+    "voterTurnout": 69.62999725341797
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "補城村",
+    "candidateVotes": {
+      "coast": 130,
+      "savannah": 501,
+      "rainforest": 80
+    },
+    "validVotes": 711,
+    "invalidVotes": 8,
+    "totalVotes": 719,
+    "receivedUnvoted": 0,
+    "issuedVotes": 719,
+    "remainingVotes": 379,
+    "eligibleVoters": 1098,
+    "voterTurnout": 65.4800033569336
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "三奇村",
+    "candidateVotes": {
+      "coast": 101,
+      "savannah": 412,
+      "rainforest": 46
+    },
+    "validVotes": 559,
+    "invalidVotes": 11,
+    "totalVotes": 570,
+    "receivedUnvoted": 0,
+    "issuedVotes": 570,
+    "remainingVotes": 306,
+    "eligibleVoters": 876,
+    "voterTurnout": 65.06999969482422
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "大興村",
+    "candidateVotes": {
+      "coast": 109,
+      "savannah": 441,
+      "rainforest": 51
+    },
+    "validVotes": 601,
+    "invalidVotes": 11,
+    "totalVotes": 612,
+    "receivedUnvoted": 0,
+    "issuedVotes": 612,
+    "remainingVotes": 302,
+    "eligibleVoters": 914,
+    "voterTurnout": 66.95999908447266
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "東城村",
+    "candidateVotes": {
+      "coast": 189,
+      "savannah": 646,
+      "rainforest": 113
+    },
+    "validVotes": 948,
+    "invalidVotes": 14,
+    "totalVotes": 962,
+    "receivedUnvoted": 0,
+    "issuedVotes": 962,
+    "remainingVotes": 418,
+    "eligibleVoters": 1380,
+    "voterTurnout": 69.70999908447266
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "香和村",
+    "candidateVotes": {
+      "coast": 360,
+      "savannah": 1188,
+      "rainforest": 187
+    },
+    "validVotes": 1735,
+    "invalidVotes": 28,
+    "totalVotes": 1763,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1763,
+    "remainingVotes": 989,
+    "eligibleVoters": 2752,
+    "voterTurnout": 64.05999755859375
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "南興村",
+    "candidateVotes": {
+      "coast": 386,
+      "savannah": 1215,
+      "rainforest": 216
+    },
+    "validVotes": 1817,
+    "invalidVotes": 28,
+    "totalVotes": 1845,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1845,
+    "remainingVotes": 856,
+    "eligibleVoters": 2701,
+    "voterTurnout": 68.30999755859375
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "安平村",
+    "candidateVotes": {
+      "coast": 68,
+      "savannah": 340,
+      "rainforest": 21
+    },
+    "validVotes": 429,
+    "invalidVotes": 6,
+    "totalVotes": 435,
+    "receivedUnvoted": 0,
+    "issuedVotes": 435,
+    "remainingVotes": 252,
+    "eligibleVoters": 687,
+    "voterTurnout": 63.31999969482422
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "冬山村",
+    "candidateVotes": {
+      "coast": 93,
+      "savannah": 318,
+      "rainforest": 55
+    },
+    "validVotes": 466,
+    "invalidVotes": 8,
+    "totalVotes": 474,
+    "receivedUnvoted": 0,
+    "issuedVotes": 474,
+    "remainingVotes": 331,
+    "eligibleVoters": 805,
+    "voterTurnout": 58.880001068115234
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "太和村",
+    "candidateVotes": {
+      "coast": 194,
+      "savannah": 698,
+      "rainforest": 75
+    },
+    "validVotes": 967,
+    "invalidVotes": 13,
+    "totalVotes": 980,
+    "receivedUnvoted": 0,
+    "issuedVotes": 980,
+    "remainingVotes": 441,
+    "eligibleVoters": 1421,
+    "voterTurnout": 68.97000122070312
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "八寶村",
+    "candidateVotes": {
+      "coast": 81,
+      "savannah": 427,
+      "rainforest": 52
+    },
+    "validVotes": 560,
+    "invalidVotes": 8,
+    "totalVotes": 568,
+    "receivedUnvoted": 0,
+    "issuedVotes": 568,
+    "remainingVotes": 274,
+    "eligibleVoters": 842,
+    "voterTurnout": 67.45999908447266
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "丸山村",
+    "candidateVotes": {
+      "coast": 154,
+      "savannah": 641,
+      "rainforest": 74
+    },
+    "validVotes": 869,
+    "invalidVotes": 8,
+    "totalVotes": 877,
+    "receivedUnvoted": 0,
+    "issuedVotes": 877,
+    "remainingVotes": 493,
+    "eligibleVoters": 1370,
+    "voterTurnout": 64.01000213623047
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "中山村",
+    "candidateVotes": {
+      "coast": 50,
+      "savannah": 248,
+      "rainforest": 27
+    },
+    "validVotes": 325,
+    "invalidVotes": 6,
+    "totalVotes": 331,
+    "receivedUnvoted": 0,
+    "issuedVotes": 331,
+    "remainingVotes": 149,
+    "eligibleVoters": 480,
+    "voterTurnout": 68.95999908447266
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "順安村",
+    "candidateVotes": {
+      "coast": 566,
+      "savannah": 2078,
+      "rainforest": 331
+    },
+    "validVotes": 2975,
+    "invalidVotes": 52,
+    "totalVotes": 3027,
+    "receivedUnvoted": 1,
+    "issuedVotes": 3028,
+    "remainingVotes": 1867,
+    "eligibleVoters": 4895,
+    "voterTurnout": 61.84000015258789
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "永美村",
+    "candidateVotes": {
+      "coast": 388,
+      "savannah": 1292,
+      "rainforest": 197
+    },
+    "validVotes": 1877,
+    "invalidVotes": 16,
+    "totalVotes": 1893,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1893,
+    "remainingVotes": 928,
+    "eligibleVoters": 2821,
+    "voterTurnout": 67.0999984741211
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "武淵村",
+    "candidateVotes": {
+      "coast": 133,
+      "savannah": 525,
+      "rainforest": 83
+    },
+    "validVotes": 741,
+    "invalidVotes": 17,
+    "totalVotes": 758,
+    "receivedUnvoted": 0,
+    "issuedVotes": 758,
+    "remainingVotes": 389,
+    "eligibleVoters": 1147,
+    "voterTurnout": 66.08999633789062
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "群英村",
+    "candidateVotes": {
+      "coast": 689,
+      "savannah": 1950,
+      "rainforest": 326
+    },
+    "validVotes": 2965,
+    "invalidVotes": 39,
+    "totalVotes": 3004,
+    "receivedUnvoted": 0,
+    "issuedVotes": 3004,
+    "remainingVotes": 1547,
+    "eligibleVoters": 4551,
+    "voterTurnout": 66.01000213623047
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "清溝村",
+    "candidateVotes": {
+      "coast": 510,
+      "savannah": 1559,
+      "rainforest": 259
+    },
+    "validVotes": 2328,
+    "invalidVotes": 38,
+    "totalVotes": 2366,
+    "receivedUnvoted": 3,
+    "issuedVotes": 2369,
+    "remainingVotes": 1176,
+    "eligibleVoters": 3545,
+    "voterTurnout": 66.73999786376953
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "鹿埔村",
+    "candidateVotes": {
+      "coast": 265,
+      "savannah": 1071,
+      "rainforest": 146
+    },
+    "validVotes": 1482,
+    "invalidVotes": 22,
+    "totalVotes": 1504,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1504,
+    "remainingVotes": 767,
+    "eligibleVoters": 2271,
+    "voterTurnout": 66.2300033569336
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "得安村",
+    "candidateVotes": {
+      "coast": 163,
+      "savannah": 400,
+      "rainforest": 66
+    },
+    "validVotes": 629,
+    "invalidVotes": 9,
+    "totalVotes": 638,
+    "receivedUnvoted": 0,
+    "issuedVotes": 638,
+    "remainingVotes": 436,
+    "eligibleVoters": 1074,
+    "voterTurnout": 59.400001525878906
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "廣興村",
+    "candidateVotes": {
+      "coast": 331,
+      "savannah": 1067,
+      "rainforest": 155
+    },
+    "validVotes": 1553,
+    "invalidVotes": 22,
+    "totalVotes": 1575,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1575,
+    "remainingVotes": 915,
+    "eligibleVoters": 2490,
+    "voterTurnout": 63.25
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "廣安村",
+    "candidateVotes": {
+      "coast": 231,
+      "savannah": 710,
+      "rainforest": 120
+    },
+    "validVotes": 1061,
+    "invalidVotes": 18,
+    "totalVotes": 1079,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1079,
+    "remainingVotes": 503,
+    "eligibleVoters": 1582,
+    "voterTurnout": 68.19999694824219
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "柯林村",
+    "candidateVotes": {
+      "coast": 220,
+      "savannah": 697,
+      "rainforest": 89
+    },
+    "validVotes": 1006,
+    "invalidVotes": 14,
+    "totalVotes": 1020,
+    "receivedUnvoted": 0,
+    "issuedVotes": 1020,
+    "remainingVotes": 534,
+    "eligibleVoters": 1554,
+    "voterTurnout": 65.63999938964844
+  },
+  {
+    "administrativeDivision": "冬山鄉",
+    "village": "大進村",
+    "candidateVotes": {
+      "coast": 74,
+      "savannah": 393,
+      "rainforest": 47
+    },
+    "validVotes": 514,
+    "invalidVotes": 8,
+    "totalVotes": 522,
+    "receivedUnvoted": 0,
+    "issuedVotes": 522,
+    "remainingVotes": 259,
+    "eligibleVoters": 781,
+    "voterTurnout": 66.83999633789062
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "administrativeDivision": "那瑪夏區",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 1145,
+      "savannah": 430
+    },
+    "validVotes": 1602,
+    "invalidVotes": 12,
+    "totalVotes": 1614,
+    "receivedUnvoted": 1,
+    "issuedVotes": 1615,
+    "remainingVotes": 723,
+    "eligibleVoters": 2338,
+    "voterTurnout": 69.0334
+  },
+  {
+    "administrativeDivision": "那瑪夏區",
+    "village": "達卡努瓦里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 606,
+      "savannah": 190
+    },
+    "validVotes": 808,
+    "invalidVotes": 7,
+    "totalVotes": 815,
+    "receivedUnvoted": 0,
+    "issuedVotes": 815,
+    "remainingVotes": 459,
+    "eligibleVoters": 1274,
+    "voterTurnout": 63.9717
+  },
+  {
+    "administrativeDivision": "那瑪夏區",
+    "village": "瑪雅里",
+    "candidateVotes": {
+      "rainforest": 6,
+      "coast": 354,
+      "savannah": 73
+    },
+    "validVotes": 433,
+    "invalidVotes": 3,
+    "totalVotes": 436,
+    "receivedUnvoted": 1,
+    "issuedVotes": 437,
+    "remainingVotes": 146,
+    "eligibleVoters": 583,
+    "voterTurnout": 74.7856
+  },
+  {
+    "administrativeDivision": "那瑪夏區",
+    "village": "南沙魯里",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 185,
+      "savannah": 167
+    },
+    "validVotes": 361,
+    "invalidVotes": 2,
+    "totalVotes": 363,
+    "receivedUnvoted": 0,
+    "issuedVotes": 363,
+    "remainingVotes": 118,
+    "eligibleVoters": 481,
+    "voterTurnout": 75.4678
+  }
+]

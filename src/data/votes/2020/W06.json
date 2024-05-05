@@ -1,0 +1,53 @@
+[
+  {
+    "administrativeDivision": "烏坵鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 2,
+      "coast": 96,
+      "savannah": 15
+    },
+    "validVotes": 113,
+    "invalidVotes": 1,
+    "totalVotes": 114,
+    "receivedUnvoted": 0,
+    "issuedVotes": 114,
+    "remainingVotes": 427,
+    "eligibleVoters": 541,
+    "voterTurnout": 21.0721
+  },
+  {
+    "administrativeDivision": "烏坵鄉",
+    "village": "大坵村",
+    "candidateVotes": {
+      "rainforest": 1,
+      "coast": 60,
+      "savannah": 10
+    },
+    "validVotes": 71,
+    "invalidVotes": 0,
+    "totalVotes": 71,
+    "receivedUnvoted": 0,
+    "issuedVotes": 71,
+    "remainingVotes": 193,
+    "eligibleVoters": 264,
+    "voterTurnout": 26.8939
+  },
+  {
+    "administrativeDivision": "烏坵鄉",
+    "village": "小坵村",
+    "candidateVotes": {
+      "rainforest": 1,
+      "coast": 36,
+      "savannah": 5
+    },
+    "validVotes": 42,
+    "invalidVotes": 1,
+    "totalVotes": 43,
+    "receivedUnvoted": 0,
+    "issuedVotes": 43,
+    "remainingVotes": 234,
+    "eligibleVoters": 277,
+    "voterTurnout": 15.5235
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 76,
+      "coast": 2291,
+      "savannah": 531
+    },
+    "validVotes": 2898,
+    "invalidVotes": 33,
+    "totalVotes": 2931,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2931,
+    "remainingVotes": 1837,
+    "eligibleVoters": 4768,
+    "voterTurnout": 61.4723
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "崙山村",
+    "candidateVotes": {
+      "rainforest": 8,
+      "coast": 239,
+      "savannah": 59
+    },
+    "validVotes": 306,
+    "invalidVotes": 5,
+    "totalVotes": 311,
+    "receivedUnvoted": 0,
+    "issuedVotes": 311,
+    "remainingVotes": 205,
+    "eligibleVoters": 516,
+    "voterTurnout": 60.2713
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "立山村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 443,
+      "savannah": 123
+    },
+    "validVotes": 582,
+    "invalidVotes": 7,
+    "totalVotes": 589,
+    "receivedUnvoted": 0,
+    "issuedVotes": 589,
+    "remainingVotes": 379,
+    "eligibleVoters": 968,
+    "voterTurnout": 60.8471
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "太平村",
+    "candidateVotes": {
+      "rainforest": 14,
+      "coast": 342,
+      "savannah": 73
+    },
+    "validVotes": 429,
+    "invalidVotes": 7,
+    "totalVotes": 436,
+    "receivedUnvoted": 0,
+    "issuedVotes": 436,
+    "remainingVotes": 226,
+    "eligibleVoters": 662,
+    "voterTurnout": 65.861
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "卓溪村",
+    "candidateVotes": {
+      "rainforest": 9,
+      "coast": 351,
+      "savannah": 95
+    },
+    "validVotes": 455,
+    "invalidVotes": 5,
+    "totalVotes": 460,
+    "receivedUnvoted": 0,
+    "issuedVotes": 460,
+    "remainingVotes": 266,
+    "eligibleVoters": 726,
+    "voterTurnout": 63.3609
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "卓清村",
+    "candidateVotes": {
+      "rainforest": 13,
+      "coast": 472,
+      "savannah": 90
+    },
+    "validVotes": 575,
+    "invalidVotes": 3,
+    "totalVotes": 578,
+    "receivedUnvoted": 0,
+    "issuedVotes": 578,
+    "remainingVotes": 424,
+    "eligibleVoters": 1002,
+    "voterTurnout": 57.6846
+  },
+  {
+    "administrativeDivision": "卓溪鄉",
+    "village": "古風村",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 444,
+      "savannah": 91
+    },
+    "validVotes": 551,
+    "invalidVotes": 6,
+    "totalVotes": 557,
+    "receivedUnvoted": 0,
+    "issuedVotes": 557,
+    "remainingVotes": 337,
+    "eligibleVoters": 894,
+    "voterTurnout": 62.3043
+  }
+]

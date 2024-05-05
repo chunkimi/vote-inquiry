@@ -1,0 +1,155 @@
+[
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "總計",
+    "candidateVotes": {
+      "rainforest": 185,
+      "coast": 5736,
+      "savannah": 1198
+    },
+    "validVotes": 7119,
+    "invalidVotes": 72,
+    "totalVotes": 7191,
+    "receivedUnvoted": 0,
+    "issuedVotes": 7191,
+    "remainingVotes": 11143,
+    "eligibleVoters": 18334,
+    "voterTurnout": 39.2222
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "汶沙里",
+    "candidateVotes": {
+      "rainforest": 64,
+      "coast": 1619,
+      "savannah": 383
+    },
+    "validVotes": 2066,
+    "invalidVotes": 22,
+    "totalVotes": 2088,
+    "receivedUnvoted": 0,
+    "issuedVotes": 2088,
+    "remainingVotes": 3036,
+    "eligibleVoters": 5124,
+    "voterTurnout": 40.7494
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "何斗里",
+    "candidateVotes": {
+      "rainforest": 27,
+      "coast": 619,
+      "savannah": 104
+    },
+    "validVotes": 750,
+    "invalidVotes": 9,
+    "totalVotes": 759,
+    "receivedUnvoted": 0,
+    "issuedVotes": 759,
+    "remainingVotes": 1212,
+    "eligibleVoters": 1971,
+    "voterTurnout": 38.5084
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "浦山里",
+    "candidateVotes": {
+      "rainforest": 17,
+      "coast": 719,
+      "savannah": 164
+    },
+    "validVotes": 900,
+    "invalidVotes": 10,
+    "totalVotes": 910,
+    "receivedUnvoted": 0,
+    "issuedVotes": 910,
+    "remainingVotes": 1393,
+    "eligibleVoters": 2303,
+    "voterTurnout": 39.5137
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "西園里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 441,
+      "savannah": 77
+    },
+    "validVotes": 530,
+    "invalidVotes": 5,
+    "totalVotes": 535,
+    "receivedUnvoted": 0,
+    "issuedVotes": 535,
+    "remainingVotes": 992,
+    "eligibleVoters": 1527,
+    "voterTurnout": 35.036
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "官嶼里",
+    "candidateVotes": {
+      "rainforest": 12,
+      "coast": 658,
+      "savannah": 104
+    },
+    "validVotes": 774,
+    "invalidVotes": 13,
+    "totalVotes": 787,
+    "receivedUnvoted": 0,
+    "issuedVotes": 787,
+    "remainingVotes": 1371,
+    "eligibleVoters": 2158,
+    "voterTurnout": 36.469
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "三山里",
+    "candidateVotes": {
+      "rainforest": 16,
+      "coast": 577,
+      "savannah": 121
+    },
+    "validVotes": 714,
+    "invalidVotes": 6,
+    "totalVotes": 720,
+    "receivedUnvoted": 0,
+    "issuedVotes": 720,
+    "remainingVotes": 1186,
+    "eligibleVoters": 1906,
+    "voterTurnout": 37.7754
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "大洋里",
+    "candidateVotes": {
+      "rainforest": 11,
+      "coast": 375,
+      "savannah": 75
+    },
+    "validVotes": 461,
+    "invalidVotes": 2,
+    "totalVotes": 463,
+    "receivedUnvoted": 0,
+    "issuedVotes": 463,
+    "remainingVotes": 656,
+    "eligibleVoters": 1119,
+    "voterTurnout": 41.3762
+  },
+  {
+    "administrativeDivision": "金沙鎮",
+    "village": "光前里",
+    "candidateVotes": {
+      "rainforest": 26,
+      "coast": 728,
+      "savannah": 170
+    },
+    "validVotes": 924,
+    "invalidVotes": 5,
+    "totalVotes": 929,
+    "receivedUnvoted": 0,
+    "issuedVotes": 929,
+    "remainingVotes": 1297,
+    "eligibleVoters": 2226,
+    "voterTurnout": 41.7341
+  }
+]
