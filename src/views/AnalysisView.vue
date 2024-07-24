@@ -34,7 +34,7 @@
 import { ref, computed, onBeforeUnmount } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore.js'
-import { useMediaQuery } from '@vueuse/core'
+import { useMediaQuery, useFetch } from '@vueuse/core'
 import BarChart from '@/components/chart/BarChart.vue'
 import CityMenu from '@/components/AnalysisView/CityMenu.vue'
 import VoteBreakdown from '@/components/AnalysisView/VoteBreakdown.vue'
@@ -42,6 +42,7 @@ import VoterTurnout from '@/components/AnalysisView/VoterTurnout.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import SearchBar from '@/components/common/SearchBar.vue'
 import party from '@/data/party.json'
+import type { VoteData } from '@/types'
 
 const isMobile = useMediaQuery('(max-width: 767px)')
 
@@ -50,6 +51,23 @@ const { currentElectionYear, currentCandidates, city, district, votes } =
   storeToRefs(currentElectionStore)
 
 const searchId = ref<string>('')
+const path = computed(
+  () =>
+    new URL(
+      `../data/votes/2020/${searchId.value || 'all'}.json`,
+      import.meta.url,
+    ).href,
+)
+
+const { data, onFetchResponse } = useFetch(path, { refetch: true })
+  .get()
+  .json<VoteData[]>()
+
+onFetchResponse(() => {
+  if (data.value) {
+    votes.value = data.value.slice(1)
+  }
+})
 
 const summaryLevel = computed(() => {
   const suffix = '選民的票投給誰？'
@@ -67,14 +85,16 @@ const breakdownLevel = computed(() => {
 })
 
 const barChartLabels = computed(() => {
-  return votes.value?.map((d) => (d['村里別'] ? d['村里別'] : d['行政區別']))
+  return votes.value?.map((d) =>
+    d.village ? d.village : d.administrativeDivision,
+  )
 })
 const barChartData = computed(() => {
-  return currentCandidates.value?.map(({ party: partyName }) => {
+  return currentCandidates.value?.map(({ party: partyName, party_id }) => {
     return {
       label: partyName,
-      data: votes.value?.map((d) => d['候選人票數'][partyName]),
-      backgroundColor: party.colorMap[partyName],
+      data: votes.value?.map((d) => d.candidateVotes[party_id]) ?? [],
+      backgroundColor: party.colorMap[party_id],
     }
   })
 })

@@ -8,10 +8,10 @@
 <template>
   <span
     v-if="size === 'shorten' || logoSrc.includes('undefined')"
-    :class="`bg-${partyMap.codeMap[party]}`"
+    :class="`bg-${partyId}`"
     class="party-logo--shorten rounded-circle fs-7 d-inline-block text-center"
   >
-    {{ shortenPartyName[party] }}
+    {{ shortenPartyName[partyId] }}
   </span>
   <img
     v-else
@@ -25,12 +25,11 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import partyMap from '@/data/party.json'
 import type { CandidateVotes } from '@/types'
 
 const props = withDefaults(
   defineProps<{
-    party: keyof typeof partyMap.codeMap
+    partyId: keyof CandidateVotes
     size?: 'default' | 'shorten'
   }>(),
   {
@@ -40,14 +39,14 @@ const props = withDefaults(
 
 const logoSrc = computed(() => {
   return new URL(
-    `../../assets/party-logo/${partyMap.codeMap[props.party]}.png`,
+    `../../assets/party-logo/${props.partyId}.png`,
     import.meta.url,
   ).href
 })
 
 const shortenPartyName: Record<keyof CandidateVotes, string> = {
-  金色曠野同盟: '野',
-  蔚藍海岸陣線: '海',
-  鬱蔥雨林聯盟: '林',
+  savannah: '野',
+  coast: '海',
+  rainforest: '林',
 }
 </script>

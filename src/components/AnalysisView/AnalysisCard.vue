@@ -24,12 +24,12 @@
       <p class="fs-5 fw-semibold text-center">開票率：100.0%</p>
       <ul class="list-group list-group-flush">
         <li
-          v-for="({ count, party }, i) in list"
+          v-for="({ count, party, partyId }, i) in list"
           :key="i"
           class="list-group-item text-primary d-flex justify-content-between align-items-center gap-2"
         >
           <span class="party-info d-inline-flex align-items-center gap-2">
-            <PartyLogo :party="party" size="shorten" />
+            <PartyLogo :party-id="partyId" size="shorten" />
             <span class="fs-5">{{ party }}</span>
             <span
               v-if="party === winner"
@@ -71,29 +71,32 @@ const props = defineProps<{
 }>()
 
 const title = computed(() => {
-  return props.vote['村里別'] ? props.vote['村里別'] : props.vote['行政區別']
+  return props.vote.village
+    ? props.vote.village
+    : props.vote.administrativeDivision
 })
 
 const list = computed(() => {
-  const votes = props.vote?.['候選人票數']
+  const votes = props.vote?.candidateVotes
   return currentCandidates.value.reduce(
-    (res, { party: partyName }) => {
+    (res, { party, party_id }) => {
       res.push({
-        party: partyName,
-        count: votes[partyName],
+        party,
+        partyId: party_id,
+        count: votes[party_id],
       })
       return res
     },
-    [] as { party: keyof CandidateVotes; count: number }[],
+    [] as { party: string; partyId: keyof CandidateVotes; count: number }[],
   )
 })
 
 const donutChartData = computed(() => {
-  const votes = props.vote?.['候選人票數']
+  const votes = props.vote?.candidateVotes
   return currentCandidates.value.reduce(
-    (res, { party: partyName }) => {
-      res.data.push(votes[partyName])
-      res.labels.push(partyName)
+    (res, { party_id }) => {
+      res.data.push(votes[party_id])
+      res.labels.push(party_id)
       return res
     },
     { data: [] as number[], labels: [] as (keyof CandidateVotes)[] },
@@ -101,7 +104,7 @@ const donutChartData = computed(() => {
 })
 
 const stackedBarChartData = computed(() => {
-  return currentCandidates.value.map(({ party: partyName }, i) => {
+  return currentCandidates.value.map(({ party: partyName, party_id }, i) => {
     const borderRadius =
       i === 0
         ? {
@@ -116,8 +119,8 @@ const stackedBarChartData = computed(() => {
           : 0
     return {
       label: partyName,
-      data: [props.vote['候選人票數'][partyName]],
-      backgroundColor: partyMap.colorMap[partyName],
+      data: [props.vote.candidateVotes[party_id]],
+      backgroundColor: partyMap.colorMap[party_id],
       borderRadius,
       borderSkipped: false,
     }
@@ -125,14 +128,14 @@ const stackedBarChartData = computed(() => {
 })
 
 const winner = computed(() => {
-  const votes = props.vote?.['候選人票數']
+  const votes = props.vote?.candidateVotes
   const max = Math.max(...Object.values(votes))
   return Object.keys(votes).find(
     (party) => votes[party as keyof CandidateVotes] === max,
   )
 })
 
-const isLastLevel = computed(() => !!props.vote['村里別'])
+const isLastLevel = computed(() => !!props.vote.village)
 
 function scrollTo() {
   setTimeout(() => {
@@ -147,13 +150,13 @@ function scrollTo() {
 }
 function submit() {
   if (!city.value) {
-    city.value = props.vote['行政區別']
+    city.value = props.vote.administrativeDivision
     scrollTo()
     return
   }
 
   if (!district.value) {
-    district.value = props.vote['行政區別']
+    district.value = props.vote.administrativeDivision
     scrollTo()
   }
 }

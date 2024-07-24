@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex px-2 px-lg-12 py-4 gap-8 align-items-center">
     <p class="h3 d-none d-md-block">{{ id }}號</p>
-    <PartyLogo :party="party" />
+    <PartyLogo :party-id="partyId" />
     <div class="d-grid gap-1">
       <img
         :src="avatar"
@@ -43,12 +43,12 @@
 import { ref, computed } from 'vue'
 import { useElementSize } from '@vueuse/core'
 import PartyLogo from '@/components/common/PartyLogo.vue'
-import partyMap from '@/data/party.json'
+import type { CandidateVotes } from '@/types'
 
 const props = defineProps<{
   id: string | number
   name: string
-  party: keyof typeof partyMap.codeMap
+  partyId: keyof CandidateVotes
   avatar: string
   count: string
   percentage: number
@@ -57,8 +57,5 @@ const props = defineProps<{
 const progressBarPercentage = ref(null)
 const { width: progressBarWidth } = useElementSize(progressBarPercentage)
 
-const progressColor = computed(() => {
-  const colorCode = partyMap.codeMap[props.party]
-  return colorCode ? `bg-${colorCode}` : ''
-})
+const progressColor = computed(() => `bg-${props.partyId}`)
 </script>

@@ -20,10 +20,10 @@ p:nth-child(odd) {
       }"
     >
       <p>開票率：100.0%</p>
-      <p>投票數：{{ summary['投票數'] || '0,000' }} 票</p>
-      <p>投票率：{{ summary['投票率'] || '0.00' }}%</p>
-      <p>有效票：{{ summary['有效票數'] || '0,000' }} 票</p>
-      <p>無效票：{{ summary['無效票數'] || '0,000' }} 票</p>
+      <p>投票數：{{ summary.totalVotes || '0,000' }} 票</p>
+      <p>投票率：{{ summary.voterTurnout || '0.00' }}%</p>
+      <p>有效票：{{ summary.validVotes || '0,000' }} 票</p>
+      <p>無效票：{{ summary.invalidVotes || '0,000' }} 票</p>
     </div>
     <VoteMap
       v-if="!city && !district && !isMobile"
@@ -57,10 +57,10 @@ const { city, district, voteMapData, pieChartData, currentSummary } =
 const summary = computed(() => {
   if (!currentSummary.value) return {}
   return {
-    投票數: (currentSummary.value || {})['投票數'].toLocaleString(),
-    投票率: (currentSummary.value || {})['投票率'].toFixed(2),
-    有效票數: (currentSummary.value || {})['有效票數'].toLocaleString(),
-    無效票數: (currentSummary.value || {})['無效票數'].toLocaleString(),
+    totalVotes: (currentSummary.value || {}).totalVotes.toLocaleString(),
+    voterTurnout: (currentSummary.value || {}).voterTurnout.toFixed(2),
+    validVotes: (currentSummary.value || {}).validVotes.toLocaleString(),
+    invalidVotes: (currentSummary.value || {}).invalidVotes.toLocaleString(),
   }
 })
 </script>

@@ -14,7 +14,7 @@
       :key="candidate.id"
       :id="candidate.id"
       :name="candidate.name"
-      :party="candidate.party"
+      :party-id="candidate.party_id"
       :avatar="candidate.avatar"
       :count="candidate.count"
       :percentage="candidate.percentage"
@@ -33,30 +33,47 @@
 import { computed } from 'vue'
 import { storeToRefs } from 'pinia'
 import { useCurrentElectionStore } from '@/stores/currentElectionStore'
-import { useMediaQuery } from '@vueuse/core'
+import { useMediaQuery, useFetch } from '@vueuse/core'
 import PieChart from '@/components/chart/PieChart.vue'
 import IconLabel from '@/components/common/IconLabel.vue'
 import VoteMap from '@/components/common/VoteMap.vue'
 import VoteCounting from '@/components/HomeView/VoteCounting.vue'
+import type { VoteData } from '@/types'
 
 const isMobile = useMediaQuery('(max-width: 767px)')
 
-const { currentCandidates, electionSummary, voteMapData, pieChartData } =
+const { currentCandidates, electionSummary, votes, voteMapData, pieChartData } =
   storeToRefs(useCurrentElectionStore())
 
+const path = computed(
+  () => new URL(`../data/votes/2020/all.json`, import.meta.url).href,
+)
+const { data, onFetchResponse } = useFetch(path).get().json<VoteData[]>()
+
+onFetchResponse(() => {
+  if (data.value) {
+    electionSummary.value = data.value[0]
+    votes.value = data.value.slice(1)
+  }
+})
+
 const summary = computed(() =>
-  currentCandidates.value.map(({ candidate_id, name, party, avatar_url }) => {
-    const count = electionSummary.value?.候選人票數?.[party] || 0
-    const validVotes = electionSummary.value?.有效票數 || 0
-    const percentage = (count / validVotes) * 100
-    return {
-      id: candidate_id,
-      name,
-      party,
-      avatar: new URL(`../${avatar_url}`, import.meta.url).href,
-      count: count.toLocaleString(),
-      percentage: parseFloat(percentage.toFixed(2)),
-    }
-  }),
+  currentCandidates.value.map(
+    ({ candidate_id, name, party, party_id, avatar_url }) => {
+      const count = electionSummary.value?.candidateVotes[party_id] || 0
+      const validVotes = electionSummary.value?.validVotes || 0
+      const percentage = (count / validVotes) * 100
+
+      return {
+        id: candidate_id,
+        name,
+        party,
+        party_id,
+        avatar: new URL(`../${avatar_url}`, import.meta.url).href,
+        count: count.toLocaleString(),
+        percentage: parseFloat(percentage.toFixed(2)),
+      }
+    },
+  ),
 )
 </script>
