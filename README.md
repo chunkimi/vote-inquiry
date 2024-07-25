@@ -1,10 +1,9 @@
 # 2020臺灣總統大選情報站 2020 Taiwan Presidential Election Election Hub
 
 ## 線上瀏覽
-
 https://chunkimi.github.io/vote-inquiry/#/
 
-https://kathyhu91.github.io/vote-inquiry
+![vote-inquiry](https://github.com/chunkimi/vote-inquiry/blob/9b9d059340bbd84e7c6c3f3f139efe806cb6176f/public/readmeImg/vote-inquiry.jpg)
 
 ## 作品說明
 
@@ -17,6 +16,14 @@ https://kathyhu91.github.io/vote-inquiry
 - **視覺化圖表與多樣化選票觀看視角**：以多種圖表來呈現指定情境中歷屆選票狀況。
   - 各級行政區分析：支援從縣市、鄉鎮市區、里三個層級檢視歷屆投開票情況、各政黨於該區域得票情況等。
   - 政黨分析：各區域投票優劣勢、歷屆得票趨勢走向、政黨於各級行政區的版圖變動
+
+    ![vote-map](https://github.com/chunkimi/vote-inquiry/blob/9b9d059340bbd84e7c6c3f3f139efe806cb6176f/public/readmeImg/vote-map.jpg)
+    
+    ![vote-city](https://github.com/chunkimi/vote-inquiry/blob/9b9d059340bbd84e7c6c3f3f139efe806cb6176f/public/readmeImg/vote-city.jpg)
+    
+    ![analysis-area](https://github.com/chunkimi/vote-inquiry/blob/9b9d059340bbd84e7c6c3f3f139efe806cb6176f/public/readmeImg/analysis-area.jpg)
+    
+    ![analysis-party](https://github.com/chunkimi/vote-inquiry/blob/9b9d059340bbd84e7c6c3f3f139efe806cb6176f/public/readmeImg/analysis-party.jpg)
 
 ## 目錄
 
