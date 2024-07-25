@@ -149,5 +149,5 @@ v18.18.2
 
 ### 匿名山羌 Incognito Formosan Muntjac © 2023
 
-UI設計、選票資料處理、前端：Fiona
-內容企劃、wireframe、前端：Kimi
+- UI設計、選票資料處理、前端：Fiona
+- 內容企劃、wireframe、前端：Kimi
