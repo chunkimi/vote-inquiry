@@ -1,3 +1,5 @@
+@import 'custom_bootstrap';
+
 $utilities: map-merge(
   $utilities,
   (
@@ -73,3 +75,5 @@ $utilities: map-merge(
       ),
   )
 );
+
+@import 'bootstrap/scss/utilities/api';

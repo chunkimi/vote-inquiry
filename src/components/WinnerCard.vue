@@ -1,5 +1,8 @@
 <style lang="scss" scoped>
-@import '@/styles/main.scss';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
 .winnerCard {
   width: 100%;
   min-width: 18.75rem;
