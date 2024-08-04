@@ -11,7 +11,4 @@ export default defineConfig({
     },
   },
   base: '/vote-inquiry',
-  optimizeDeps: {
-    include: ['bootstrap'],
-  },
 })
