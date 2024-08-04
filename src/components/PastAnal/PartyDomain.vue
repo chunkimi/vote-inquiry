@@ -1,6 +1,4 @@
 <style lang="scss">
-@import '@/styles/main.scss';
-
 .domain__card {
   width: 100%;
   height: 100%;
