@@ -128,6 +128,18 @@ v18.18.2
 
 - 因為有遇到地圖提供的縣市名稱是 county, 但在前期已經使用 city 作為變數名稱，最後決定維持資料一致性， firebase 上的資料也使用 City 作為 id 名稱。
 
+#### Bootstrap import 問題
+
+原先採用 `@import "../node_modules/bootstrap/scss/bootstrap";` 整包 import 的關係，導致每次 `npm run dev` 的時候，都會等很久才能進到開發畫面，經研究發現是 dev server 還沒 compile/build sass([參考資料1](https://stackoverflow.com/a/78048671))，所以才會發生 dev 環境跑很慢，但 build 過後，放到 production 環境卻沒有問題的情形，為了解決此問題做了以下處理：
+
+1. `main.js` 改引入 min 檔：
+   1. `import 'bootstrap-icons/font/bootstrap-icons.css'` 改成 `import 'bootstrap-icons/font/bootstrap-icons.min.css'。`
+   2. `import 'bootstrap/dist/js/bootstrap.bundle'` 改成 `import 'bootstrap/dist/js/bootstrap.bundle.min.js'。`
+2. 建立 `custom_bootstrap.scss`，只引入必要的 bootstrap styles。
+3. 將有 import main.scss 檔案的 "\*.vue" 元件，改成只 import 必要的 bootstrap method。
+
+做完上述步驟時，已經成功將原先需要超過 40s 的載入時間縮短至 10s 左右。另外將 vite 從 5.0.4 升級到 5.3.5 後，總體時間從 10s 左右降至 6s，大幅改善開發環境。（電腦環境為 MacOS 14.5, Intel Core i5 以及記憶體 16GB）
+
 #### git
 
 ##### git flow
