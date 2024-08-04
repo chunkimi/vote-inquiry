@@ -1,6 +1,3 @@
-<style lang="scss">
-@import '@/styles/main.scss';
-</style>
 <template>
   <h4 class="h4 mb-4">政黨本屆{{ curStatus }}得票</h4>
   <div class="mb-4">
