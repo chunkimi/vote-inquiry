@@ -38,9 +38,6 @@
           .timeLine__card__item {
             right: 2.75rem;
             left: initial;
-            .winnerCard__year {
-              text-align: end;
-            }
           }
         }
       }

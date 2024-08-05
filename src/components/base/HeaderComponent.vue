@@ -1,20 +1,9 @@
 <style lang="scss">
-@import 'bootstrap/scss/functions';
-@import 'bootstrap/scss/variables';
-@import 'bootstrap/scss/mixins';
-
 .header {
   &__subject {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     text-align: center;
-  }
-  &__subTitle {
-    font-size: 0.75rem;
-    @include media-breakpoint-up(md) {
-      font-size: 1rem;
-      font-weight: bold;
-    }
   }
 }
 </style>
