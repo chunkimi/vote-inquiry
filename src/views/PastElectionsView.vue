@@ -1,7 +1,7 @@
 <style lang="scss" scoped>
 @import 'bootstrap/scss/functions';
 @import 'bootstrap/scss/variables';
-@import 'node_modules/bootstrap/scss/mixins';
+@import 'bootstrap/scss/mixins';
 
 .timeLine {
   &__wrap {
@@ -38,9 +38,6 @@
           .timeLine__card__item {
             right: 2.75rem;
             left: initial;
-            .winnerCard__year {
-              text-align: end;
-            }
           }
         }
       }
